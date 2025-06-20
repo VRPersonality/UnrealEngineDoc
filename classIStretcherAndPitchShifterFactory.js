@@ -1,0 +1,27 @@
+var classIStretcherAndPitchShifterFactory =
+[
+    [ "IStretcherAndPitchShifterFactory", "classIStretcherAndPitchShifterFactory.html#ac5a61dcda3549b9ededb9f0905d6ac3e", null ],
+    [ "~IStretcherAndPitchShifterFactory", "classIStretcherAndPitchShifterFactory.html#a657f53fce638b865c7dd223b4f111057", null ],
+    [ "AddClient", "classIStretcherAndPitchShifterFactory.html#ace066cdd7d35619ee27dae8eb127cc2e", null ],
+    [ "FindBestFactory", "classIStretcherAndPitchShifterFactory.html#af0def2a1428b4afc14d926e91c82b62f", null ],
+    [ "FindFactory", "classIStretcherAndPitchShifterFactory.html#afdce3693075ee70b9334af923c6b7e6b", null ],
+    [ "GetAllRegisteredFactories", "classIStretcherAndPitchShifterFactory.html#a782193a6e1a2832cf246a5f9e79de593", null ],
+    [ "GetAllRegisteredFactoryNames", "classIStretcherAndPitchShifterFactory.html#a71d24bc5c89d935c5a5409b8c6feb7e2", null ],
+    [ "GetFactoryNames", "classIStretcherAndPitchShifterFactory.html#a80f8ee1664c0058000839af36cc8c2d8", null ],
+    [ "GetFreePitchShifter", "classIStretcherAndPitchShifterFactory.html#a435bbed527aec7f6f400250e4aa3e639", null ],
+    [ "GetMemoryUsedByPool", "classIStretcherAndPitchShifterFactory.html#a57bfc2af6c993a0d9a56c1231a679932", null ],
+    [ "GetModularFeatureName", "classIStretcherAndPitchShifterFactory.html#a441cb16c428beb7e49087df548122f64", null ],
+    [ "GetNumClients", "classIStretcherAndPitchShifterFactory.html#acd5086911f79f4b0c73b67f79065b8f1", null ],
+    [ "HasClient", "classIStretcherAndPitchShifterFactory.html#aefbdbbbee6b2f1bf01f9e795eae23e95", null ],
+    [ "HasFreePitchShifters", "classIStretcherAndPitchShifterFactory.html#a6d4f03a286b38ffcbc525ba3d2617021", null ],
+    [ "OnClientAdded", "classIStretcherAndPitchShifterFactory.html#ad71212a114a9e4c82d8028a979383e19", null ],
+    [ "OnClientRemoved", "classIStretcherAndPitchShifterFactory.html#aa2b3ce2f259ee8267293f0264f7cbf0b", null ],
+    [ "ReleasePitchShifter", "classIStretcherAndPitchShifterFactory.html#abcb83d2900751074dc480f7c408e8c17", null ],
+    [ "RemoveClient", "classIStretcherAndPitchShifterFactory.html#a86f87be591b794b38c1cc62855869365", null ],
+    [ "ResetMemoryUsageBytes", "classIStretcherAndPitchShifterFactory.html#ae242ce658bd7d1d56414727f08ffb5fd", null ],
+    [ "SetFormantVolumeCorrection", "classIStretcherAndPitchShifterFactory.html#a239646de814c33de6ec295b4aef63733", null ],
+    [ "ClientLock", "classIStretcherAndPitchShifterFactory.html#a5f60f0af57262307a90b347779c7d38e", null ],
+    [ "Clients", "classIStretcherAndPitchShifterFactory.html#a7e9f9e8b86901354e4f404f169c198a9", null ],
+    [ "MemoryHandle", "classIStretcherAndPitchShifterFactory.html#a938f987e2c673affa750b2071b8430d9", null ],
+    [ "TotalMemoryUsed", "classIStretcherAndPitchShifterFactory.html#ade5a66bf9aa6d32901d872bb689524a3", null ]
+];

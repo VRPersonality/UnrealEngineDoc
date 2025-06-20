@@ -1,7 +1,0 @@
-var struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArray_3_01FMusicTimestamp_01_4_01_4_01_4 =
-[
-    [ "GetTypeDisplayText", "de/df3/struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArray_3_01FMusicTimestamp_01_4_01_4_01_4.html#a320b1340a76341d4464ad539baa23a50", null ],
-    [ "GetTypeId", "de/df3/struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArray_3_01FMusicTimestamp_01_4_01_4_01_4.html#a4d61b656c1a015d775fa141c94485082", null ],
-    [ "TypeName", "de/df3/struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArray_3_01FMusicTimestamp_01_4_01_4_01_4.html#aa41cf999b7b14a24b5101b80b4faab88", null ],
-    [ "TypePtr", "de/df3/struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArray_3_01FMusicTimestamp_01_4_01_4_01_4.html#a74866b9fe1ed5208919af203281783c0", null ]
-];

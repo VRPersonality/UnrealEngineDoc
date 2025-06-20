@@ -1,0 +1,28 @@
+var classFSphericalSector =
+[
+    [ "FReal", "classFSphericalSector.html#adfad4b7fb4b15543d4d6018cb4b5db2b", null ],
+    [ "FSphericalSector", "classFSphericalSector.html#aa3cb01e0bde84ed49583150651ed74b6", null ],
+    [ "FSphericalSector", "classFSphericalSector.html#acad24e5283cdf6c369ba3b9e27d7fd6c", null ],
+    [ "FSphericalSector", "classFSphericalSector.html#a0f71d90c1d7697293badc03d54fee41c", null ],
+    [ "BuildDebugMesh", "classFSphericalSector.html#a1d2a85dda63fbfe26a622950b71e8ed4", null ],
+    [ "CalcBounds", "classFSphericalSector.html#ac371c72769b0fd8af36188aaa54e6ada", null ],
+    [ "GetAngle", "classFSphericalSector.html#add8bf0f10e304b425d8bbb202b6a7a62", null ],
+    [ "GetAxis", "classFSphericalSector.html#ac69c6989e413ad834c01e5255f947deb", null ],
+    [ "GetCenter", "classFSphericalSector.html#ae70ac2e0d7c9fcf61087e5b96952ecc1", null ],
+    [ "GetRadius", "classFSphericalSector.html#ad2d534ebcdf6755ef072b20c38d86738", null ],
+    [ "GetScaledAxis", "classFSphericalSector.html#a1b2e5de209372b2d8ba2f0d7aab02018", null ],
+    [ "IntersectsBox", "classFSphericalSector.html#a84aabbd60395e2d0a1aaa79ffa61d714", null ],
+    [ "IsNearlyZero", "classFSphericalSector.html#ab5631ff34ff365810af459f6c05237b4", null ],
+    [ "IsSphere", "classFSphericalSector.html#ad58221d4b12d9cd606ed6d44b8f08a59", null ],
+    [ "IsValid", "classFSphericalSector.html#a964f37e6a4f45b8f62431a04072aa69e", null ],
+    [ "SetAngle", "classFSphericalSector.html#a817b911c8807e4e335876ce68f7d2496", null ],
+    [ "SetAsSphere", "classFSphericalSector.html#a9db83ba5f02cfaaef68342220623baf6", null ],
+    [ "SetAxis", "classFSphericalSector.html#a9276be12722330bd1ce9b65337393743", null ],
+    [ "SetCenter", "classFSphericalSector.html#a49ca7e37d19afff384682dab63577799", null ],
+    [ "SetRadius", "classFSphericalSector.html#a3cd2626f2564c94fb34e1138bf3f4530", null ],
+    [ "TransformBy", "classFSphericalSector.html#ac3016b1616dd9bb21401fe9cd5b0c79b", null ],
+    [ "Angle", "classFSphericalSector.html#a436ddc49b1269f8e25e7db300eaee003", null ],
+    [ "Axis", "classFSphericalSector.html#a631d512f09bc191682217b27734834d6", null ],
+    [ "Center", "classFSphericalSector.html#a5a76a9fef56fd2ecf17d7c90c7507f0d", null ],
+    [ "Radius", "classFSphericalSector.html#a70d6fa9ebb757ed74a06c4a65eb60dc9", null ]
+];

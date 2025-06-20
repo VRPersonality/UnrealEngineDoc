@@ -1,7 +1,0 @@
-var structMetasound_1_1_1_1Metasound_1_1TDataReferenceTypeInfo_3_01TArray_3_01FEnumMidiClockSubdivisionQuantizationType_01_4_01_4 =
-[
-    [ "GetTypeDisplayText", "dd/d8d/structMetasound_1_1_1_1Metasound_1_1TDataReferenceTypeInfo_3_01TArray_3_01FEnumMidiClockSubdivisionQuantizationType_01_4_01_4.html#ac6992f088c449bf98aa947696fc484ce", null ],
-    [ "GetTypeId", "dd/d8d/structMetasound_1_1_1_1Metasound_1_1TDataReferenceTypeInfo_3_01TArray_3_01FEnumMidiClockSubdivisionQuantizationType_01_4_01_4.html#a1d5b9e30bf981ab059264e01f696b491", null ],
-    [ "TypeName", "dd/d8d/structMetasound_1_1_1_1Metasound_1_1TDataReferenceTypeInfo_3_01TArray_3_01FEnumMidiClockSubdivisionQuantizationType_01_4_01_4.html#a7376ca77eabfa49e964114ed118e64e2", null ],
-    [ "TypePtr", "dd/d8d/structMetasound_1_1_1_1Metasound_1_1TDataReferenceTypeInfo_3_01TArray_3_01FEnumMidiClockSubdivisionQuantizationType_01_4_01_4.html#a5dc01cbb82e328e92d4014aec8c92238", null ]
-];

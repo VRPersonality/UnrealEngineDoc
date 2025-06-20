@@ -1,0 +1,27 @@
+var structFRDGBufferDesc =
+[
+    [ "CreateBufferDesc", "structFRDGBufferDesc.html#a81fc6fff7c7b40dfe7b0451fb55ac5a4", null ],
+    [ "CreateBufferDesc", "structFRDGBufferDesc.html#ac42c4c866b92d86db782d324b73654cf", null ],
+    [ "CreateByteAddressDesc", "structFRDGBufferDesc.html#a52925a0d2dea0a818a180185a37e4c92", null ],
+    [ "CreateByteAddressDesc", "structFRDGBufferDesc.html#a0c58ad85579a75036f64b75307728e65", null ],
+    [ "CreateByteAddressUploadDesc", "structFRDGBufferDesc.html#a1de8a43a0ae517d034b45b7c38d7f168", null ],
+    [ "CreateByteAddressUploadDesc", "structFRDGBufferDesc.html#a80fe5e7f9fbeb082ccd4e93910b751ac", null ],
+    [ "CreateIndirectDesc", "structFRDGBufferDesc.html#a90e36e8db221337ca6b55e6d949fd368", null ],
+    [ "CreateIndirectDesc", "structFRDGBufferDesc.html#ac6ef6215b7a5273afb476031ea067549", null ],
+    [ "CreateIndirectDesc", "structFRDGBufferDesc.html#aee04c981364bc7bd9afe1ec94aced79a", null ],
+    [ "CreateRawIndirectDesc", "structFRDGBufferDesc.html#adad71676affb1452b1795b038966a2dc", null ],
+    [ "CreateStructuredDesc", "structFRDGBufferDesc.html#afa2b673887812e5a031b67d604aaf821", null ],
+    [ "CreateStructuredDesc", "structFRDGBufferDesc.html#ab177542da29bf8eebd26487973659d3b", null ],
+    [ "CreateStructuredUploadDesc", "structFRDGBufferDesc.html#a60b54bca1231557f506b83678f1d94d1", null ],
+    [ "CreateStructuredUploadDesc", "structFRDGBufferDesc.html#a537a46819e6defaa9b1a94554698e44f", null ],
+    [ "CreateUploadDesc", "structFRDGBufferDesc.html#a2aeb7c7cf2ce24e7c7b5ea92bb2c535a", null ],
+    [ "CreateUploadDesc", "structFRDGBufferDesc.html#aedf08b093cf19d99f4ea541fd018f63b", null ],
+    [ "GetSize", "structFRDGBufferDesc.html#a624460f6ed8094e1d66a1388095c6a3c", null ],
+    [ "operator!=", "structFRDGBufferDesc.html#ab75cab848bdd9a9c0fd76596f3b741bf", null ],
+    [ "operator==", "structFRDGBufferDesc.html#a05ec0260988efb709a037606ab5f5a17", null ],
+    [ "GetTypeHash", "structFRDGBufferDesc.html#a0a57516953313fb89b0a6f8bb60c4083", null ],
+    [ "BytesPerElement", "structFRDGBufferDesc.html#acdede417169d8394f1026aeac0847b96", null ],
+    [ "Metadata", "structFRDGBufferDesc.html#a24b3accdd4b687d0d3b4e52f2b931355", null ],
+    [ "NumElements", "structFRDGBufferDesc.html#a9a4c6090acd8b0c0160b70018fc6768f", null ],
+    [ "Usage", "structFRDGBufferDesc.html#aef9e21d31646a398dfeb73302376a1cf", null ]
+];

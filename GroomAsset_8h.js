@@ -1,0 +1,37 @@
+var GroomAsset_8h =
+[
+    [ "FGroomAssetMemoryStats", "structFGroomAssetMemoryStats.html", "structFGroomAssetMemoryStats" ],
+    [ "FGroomAssetMemoryStats::FStats", "structFGroomAssetMemoryStats_1_1FStats.html", "structFGroomAssetMemoryStats_1_1FStats" ],
+    [ "FGroomAssetMemoryStats::FStrandsDetails", "structFGroomAssetMemoryStats_1_1FStrandsDetails.html", "structFGroomAssetMemoryStats_1_1FStrandsDetails" ],
+    [ "FHairDescriptionGroup", "structFHairDescriptionGroup.html", "structFHairDescriptionGroup" ],
+    [ "FHairDescriptionGroups", "structFHairDescriptionGroups.html", "structFHairDescriptionGroups" ],
+    [ "FHairGroupPlatformData", "structFHairGroupPlatformData.html", "structFHairGroupPlatformData" ],
+    [ "FHairGroupPlatformData::FCards", "structFHairGroupPlatformData_1_1FCards.html", "structFHairGroupPlatformData_1_1FCards" ],
+    [ "FHairGroupPlatformData::FCards::FLOD", "structFHairGroupPlatformData_1_1FCards_1_1FLOD.html", "structFHairGroupPlatformData_1_1FCards_1_1FLOD" ],
+    [ "FHairGroupPlatformData::FDebug", "structFHairGroupPlatformData_1_1FDebug.html", "structFHairGroupPlatformData_1_1FDebug" ],
+    [ "FHairGroupPlatformData::FGuides", "structFHairGroupPlatformData_1_1FGuides.html", "structFHairGroupPlatformData_1_1FGuides" ],
+    [ "FHairGroupPlatformData::FMeshes", "structFHairGroupPlatformData_1_1FMeshes.html", "structFHairGroupPlatformData_1_1FMeshes" ],
+    [ "FHairGroupPlatformData::FMeshes::FLOD", "structFHairGroupPlatformData_1_1FMeshes_1_1FLOD.html", "structFHairGroupPlatformData_1_1FMeshes_1_1FLOD" ],
+    [ "FHairGroupPlatformData::FStrands", "structFHairGroupPlatformData_1_1FStrands.html", "structFHairGroupPlatformData_1_1FStrands" ],
+    [ "FHairGroupResources", "structFHairGroupResources.html", "structFHairGroupResources" ],
+    [ "FHairGroupResources::FCards", "structFHairGroupResources_1_1FCards.html", "structFHairGroupResources_1_1FCards" ],
+    [ "FHairGroupResources::FCards::FLOD", "structFHairGroupResources_1_1FCards_1_1FLOD.html", "structFHairGroupResources_1_1FCards_1_1FLOD" ],
+    [ "FHairGroupResources::FDebug", "structFHairGroupResources_1_1FDebug.html", "structFHairGroupResources_1_1FDebug" ],
+    [ "FHairGroupResources::FGuides", "structFHairGroupResources_1_1FGuides.html", "structFHairGroupResources_1_1FGuides" ],
+    [ "FHairGroupResources::FMeshes", "structFHairGroupResources_1_1FMeshes.html", "structFHairGroupResources_1_1FMeshes" ],
+    [ "FHairGroupResources::FMeshes::FLOD", "structFHairGroupResources_1_1FMeshes_1_1FLOD.html", "structFHairGroupResources_1_1FMeshes_1_1FLOD" ],
+    [ "FHairGroupResources::FStrands", "structFHairGroupResources_1_1FStrands.html", "structFHairGroupResources_1_1FStrands" ],
+    [ "FHairVertexFactoryTypesPerMaterialData", "structFHairVertexFactoryTypesPerMaterialData.html", "structFHairVertexFactoryTypesPerMaterialData" ],
+    [ "UGroomAsset", "classUGroomAsset.html", "classUGroomAsset" ],
+    [ "UE_API", "GroomAsset_8h.html#a578eb926c8aecdf908e1338b2e893458", null ],
+    [ "EHairGroupInfoFlags", "GroomAsset_8h.html#adc3f74139ed085b73a81400f08f5415a", [
+      [ "HasTrimmedPoint", "GroomAsset_8h.html#adc3f74139ed085b73a81400f08f5415aa99c914d9fb9e786e6b48b0962a7d60ee", null ],
+      [ "HasTrimmedCurve", "GroomAsset_8h.html#adc3f74139ed085b73a81400f08f5415aaf23f881ce386d0086edeba1346340299", null ],
+      [ "HasInvalidPoint", "GroomAsset_8h.html#adc3f74139ed085b73a81400f08f5415aae9d6892159e4195e1fe1ca481592a133", null ]
+    ] ],
+    [ "GetDataSize", "GroomAsset_8h.html#a88d024d1461d385f53dfb2eeda9b2d80", null ],
+    [ "GetDataSize", "GroomAsset_8h.html#a7cfd68ffe3c919d4ee9294d5f466562a", null ],
+    [ "UCLASS", "GroomAsset_8h.html#a423673fc0112544852d21aa5fa46cd19", null ],
+    [ "USTRUCT", "GroomAsset_8h.html#aa4e334f65d1d78b0d6e6c24d483d8c57", null ],
+    [ "hidecategories", "GroomAsset_8h.html#a73bc016b2bc94ccd135e4ee628d2bcd5", null ]
+];

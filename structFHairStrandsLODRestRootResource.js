@@ -1,0 +1,37 @@
+var structFHairStrandsLODRestRootResource =
+[
+    [ "EStatus", "structFHairStrandsLODRestRootResource.html#ac02b75814c5159b294fefe64e115a3c5", [
+      [ "Invalid", "structFHairStrandsLODRestRootResource.html#ac02b75814c5159b294fefe64e115a3c5a4bbb8f967da6d1a610596d7257179c2b", null ],
+      [ "Initialized", "structFHairStrandsLODRestRootResource.html#ac02b75814c5159b294fefe64e115a3c5a59d87a4758a9d35fbaf6b204341bb399", null ],
+      [ "Completed", "structFHairStrandsLODRestRootResource.html#ac02b75814c5159b294fefe64e115a3c5a07ca5050e697392c9ed47e6453f1453f", null ]
+    ] ],
+    [ "FHairStrandsLODRestRootResource", "structFHairStrandsLODRestRootResource.html#abe967f90a4f1607b77fb7f06b2cecea5", null ],
+    [ "GetBulkData", "structFHairStrandsLODRestRootResource.html#a50ec57330fc27827e6bafd966dcf2b9d", null ],
+    [ "GetBulkData", "structFHairStrandsLODRestRootResource.html#afec3b2d1ed33a43762ff1e806e0a5da8", null ],
+    [ "GetFriendlyName", "structFHairStrandsLODRestRootResource.html#a51633a2eef085334cb1b1657c7f124f7", null ],
+    [ "GetResourcesSize", "structFHairStrandsLODRestRootResource.html#a2fa581aa824f32325c150bbeb4c1fd0f", null ],
+    [ "GetRootCount", "structFHairStrandsLODRestRootResource.html#addf9f7385911a6528395db04471ba218", null ],
+    [ "InternalAllocate", "structFHairStrandsLODRestRootResource.html#a42d3be9c018d54753e00739eaac38225", null ],
+    [ "InternalGetBulkData", "structFHairStrandsLODRestRootResource.html#a631b2ddb21ee5c56ab3b723252f0f1e4", null ],
+    [ "InternalGetOrRequestData", "structFHairStrandsLODRestRootResource.html#a471651bc939728af4c5c971f180b0573", null ],
+    [ "InternalRelease", "structFHairStrandsLODRestRootResource.html#ad8db788a74d141bd13428e7085d521e9", null ],
+    [ "InternalResetLoadedSize", "structFHairStrandsLODRestRootResource.html#a38fd7078168d1a9212641d29e7d7a635", null ],
+    [ "IsBulkDataValid", "structFHairStrandsLODRestRootResource.html#a49743339e173fe94cc76a4b9ebb293c3", null ],
+    [ "IsDataValid", "structFHairStrandsLODRestRootResource.html#ac5e8d9a8cb4412c35efc67041caa951f", null ],
+    [ "IsValid", "structFHairStrandsLODRestRootResource.html#a810e0a68be7fc9124b371620c7d7233f", null ],
+    [ "Reset", "structFHairStrandsLODRestRootResource.html#a590be8e58b7e121451e6911dcb2376b6", null ],
+    [ "AvailableCurveCount", "structFHairStrandsLODRestRootResource.html#ae07703410ec101ff4b5c9e72dfaf8f76", null ],
+    [ "BulkDataArray", "structFHairStrandsLODRestRootResource.html#a9f6d0d0bb54c3eb6fdead1d8ce8c38b2", null ],
+    [ "BulkDataIndex", "structFHairStrandsLODRestRootResource.html#aada1134e3e215e7d95148fabb500dffd", null ],
+    [ "CurveType", "structFHairStrandsLODRestRootResource.html#a152f288021cf748e29693c4470d7ae58", null ],
+    [ "MeshInterpolationWeightsBuffer", "structFHairStrandsLODRestRootResource.html#a01be0b256f063d40981bbe3745c743ce", null ],
+    [ "MeshLODIndex", "structFHairStrandsLODRestRootResource.html#af35db181f08e1544c83d71aea435f126", null ],
+    [ "MeshSampleIndicesAndSectionsBuffer", "structFHairStrandsLODRestRootResource.html#a451c934e07bc8817317b2e3aa9ca3d4a", null ],
+    [ "RestSamplePositionsBuffer", "structFHairStrandsLODRestRootResource.html#af34bdac22863fc8290f571dcf67338ff", null ],
+    [ "RestUniqueTrianglePositionBuffer", "structFHairStrandsLODRestRootResource.html#ab7679c1f950242b1ec03814180529692", null ],
+    [ "RootBarycentricBuffer", "structFHairStrandsLODRestRootResource.html#a30d224fa4bef75de43e36c78e7f12b46", null ],
+    [ "RootToUniqueTriangleIndexBuffer", "structFHairStrandsLODRestRootResource.html#af80fbe81f501d8862640a53e148e5592", null ],
+    [ "SampleCount", "structFHairStrandsLODRestRootResource.html#a2cdec8b5725dcf6ef3f4bcf20c815150", null ],
+    [ "Status", "structFHairStrandsLODRestRootResource.html#aed528c0b9ae23f62a87200f945113a3d", null ],
+    [ "UniqueTriangleIndexBuffer", "structFHairStrandsLODRestRootResource.html#adb9420f523ac1d3f5a8674639e4b68af", null ]
+];

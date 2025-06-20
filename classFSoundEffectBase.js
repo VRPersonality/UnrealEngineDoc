@@ -1,0 +1,25 @@
+var classFSoundEffectBase =
+[
+    [ "~FSoundEffectBase", "classFSoundEffectBase.html#a5a891728f7bdd456a3104a8b6bf1097a", null ],
+    [ "FSoundEffectBase", "classFSoundEffectBase.html#afc869c3762ae99921f36f68e6bd9a12c", null ],
+    [ "ClearPreset", "classFSoundEffectBase.html#a29eb3f306f4192406718bf1a69571260", null ],
+    [ "EffectCommand", "classFSoundEffectBase.html#a3754ce74d8e25cd7b817e26b39e7d5f5", null ],
+    [ "GetParentPresetId", "classFSoundEffectBase.html#a5a02ece7c163600c269b166aac4e32be", null ],
+    [ "GetPreset", "classFSoundEffectBase.html#a5d0a56c4f800c1e5208dd34ebd3ec276", null ],
+    [ "GetPresetPtr", "classFSoundEffectBase.html#a4be18a4b2889092e7a51e04e3fc9af32", null ],
+    [ "IsActive", "classFSoundEffectBase.html#a2386e41148baebbb4ef88e92c96725c1", null ],
+    [ "IsPreset", "classFSoundEffectBase.html#ab458aa5b74a5da801654cb36c230bcd3", null ],
+    [ "OnPresetChanged", "classFSoundEffectBase.html#aab878cebe9b698f3d8b1dda0ec2307b9", null ],
+    [ "PumpPendingMessages", "classFSoundEffectBase.html#a920c18b0b48523bfb4f1924959f42588", null ],
+    [ "SetEnabled", "classFSoundEffectBase.html#a477bca0b3bb9875b3a4f29be5080b788", null ],
+    [ "Update", "classFSoundEffectBase.html#abf824ebcf042ef552b9dbacd54ce23d5", null ],
+    [ "USoundEffectPreset", "classFSoundEffectBase.html#a5670321e46cec2fb7cbf724bf7712e5d", null ],
+    [ "bChanged", "classFSoundEffectBase.html#a039e85e5423c1afbf841c89fd600f42d", null ],
+    [ "bIsActive", "classFSoundEffectBase.html#a474e8142a4b735394ce8ce71e5dcc092", null ],
+    [ "bIsRunning", "classFSoundEffectBase.html#a0e98b18ef3e3bfab914f2061fb39de7f", null ],
+    [ "CommandQueue", "classFSoundEffectBase.html#ae300ffb3cb33c5aed55300d81bd65ebd", null ],
+    [ "CurrentAudioThreadSettingsData", "classFSoundEffectBase.html#ab2ac53d5c29959187f64c60ddddac384", null ],
+    [ "ParentPresetUniqueId", "classFSoundEffectBase.html#ae988a37af882755a0262d3f1d156d68c", null ],
+    [ "Preset", "classFSoundEffectBase.html#a4dc831efa8be23bbab0a142dba1cc6f9", null ],
+    [ "SettingsCritSect", "classFSoundEffectBase.html#a6a789caff22163ca30567a309cbe21e6", null ]
+];

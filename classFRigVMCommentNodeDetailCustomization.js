@@ -1,0 +1,25 @@
+var classFRigVMCommentNodeDetailCustomization =
+[
+    [ "FRigVMCommentNodeDetailCustomization", "classFRigVMCommentNodeDetailCustomization.html#a67741feebefc4ea3fa945e515c94579b", null ],
+    [ "CustomizeDetails", "classFRigVMCommentNodeDetailCustomization.html#a31389c1bdd672eec4c0eed6ca8354f1a", null ],
+    [ "GetColor", "classFRigVMCommentNodeDetailCustomization.html#a58a14331c8261fcd864cbfc422eee671", null ],
+    [ "GetFontSize", "classFRigVMCommentNodeDetailCustomization.html#a17734c858345caa1eb6ac8d9f6a70415", null ],
+    [ "GetText", "classFRigVMCommentNodeDetailCustomization.html#ac1b00c1f79e99139f344ffa04e274ba0", null ],
+    [ "GetValuesFromNode", "classFRigVMCommentNodeDetailCustomization.html#aa8bd85207a28249e82ee9e253f182541", null ],
+    [ "IsColorBubbleEnabled", "classFRigVMCommentNodeDetailCustomization.html#a85179b10fbf24685d0da0e4735730703", null ],
+    [ "IsShowingBubbleEnabled", "classFRigVMCommentNodeDetailCustomization.html#a38d95be5fff44c3148fde24c893098db", null ],
+    [ "MakeInstance", "classFRigVMCommentNodeDetailCustomization.html#a651aeb047bd7ffe5c553332f4f426cf9", null ],
+    [ "OnChooseColor", "classFRigVMCommentNodeDetailCustomization.html#af8cbf2fa27d42a62f15af22bad0a3fd8", null ],
+    [ "OnColorBubbleStateChanged", "classFRigVMCommentNodeDetailCustomization.html#a357eb7f48ab775769c87963289e6e9af", null ],
+    [ "OnColorPicked", "classFRigVMCommentNodeDetailCustomization.html#a52ed7637da21eb69a4a98f1bd83ae80f", null ],
+    [ "OnFontSizeChanged", "classFRigVMCommentNodeDetailCustomization.html#a637683f4ea56765ce8b75f17f61b7ad9", null ],
+    [ "OnShowingBubbleStateChanged", "classFRigVMCommentNodeDetailCustomization.html#af7ef721056cf6881a17ce065629d0d49", null ],
+    [ "SetText", "classFRigVMCommentNodeDetailCustomization.html#a0623ffa0cf4d7d15725822ed4d6c8b58", null ],
+    [ "SetValues", "classFRigVMCommentNodeDetailCustomization.html#a47acd7b56cda57bba8ea5b6caa90139c", null ],
+    [ "bBubbleColorEnabled", "classFRigVMCommentNodeDetailCustomization.html#ad8d927c8c57ecd55fe70c02f9e2fa8e1", null ],
+    [ "BlueprintBeingCustomized", "classFRigVMCommentNodeDetailCustomization.html#acb5af0baabc6bf2d5666b7d70d247e91", null ],
+    [ "bShowingBubble", "classFRigVMCommentNodeDetailCustomization.html#a96e0a350f2c15f61f9a9ed39a7b71719", null ],
+    [ "CommentText", "classFRigVMCommentNodeDetailCustomization.html#a53ba898ee8c7a02c77a76fb699f00530", null ],
+    [ "FontSize", "classFRigVMCommentNodeDetailCustomization.html#aabb63de7224d440f020097917c099b37", null ],
+    [ "ObjectsBeingCustomized", "classFRigVMCommentNodeDetailCustomization.html#a64377397bd86f4defe100dda98e35514", null ]
+];

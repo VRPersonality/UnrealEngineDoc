@@ -1,5 +1,0 @@
-var classFAudioImpulseResponseExtension =
-[
-    [ "ExecuteCreateImpulseResponse", "d7/d38/classFAudioImpulseResponseExtension.html#abcb3858974062c1aed1e18cfc12620f6", null ],
-    [ "RegisterMenus", "d7/d38/classFAudioImpulseResponseExtension.html#aff460db7ab7cda9c52f230418c9a0ea3", null ]
-];

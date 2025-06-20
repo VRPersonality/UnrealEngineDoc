@@ -1,0 +1,25 @@
+var classFLightCacheInterface =
+[
+    [ "~FLightCacheInterface", "classFLightCacheInterface.html#accbdbed10d69c0daf3286f0040be898c", null ],
+    [ "CreatePrecomputedLightingUniformBuffer_RenderingThread", "classFLightCacheInterface.html#a9978e7eaa7bb8051ea186ff0b120fb99", null ],
+    [ "GetInteraction", "classFLightCacheInterface.html#aac860812de76dbceba9ce83e17372f9d", null ],
+    [ "GetLightMap", "classFLightCacheInterface.html#af0d2a4f56780bc102bdf4a148e3f0ab2", null ],
+    [ "GetLightMapInteraction", "classFLightCacheInterface.html#a2c4847d87ba0fb1a6147a3e1d5871c43", null ],
+    [ "GetPrecomputedLightingBuffer", "classFLightCacheInterface.html#a441f2ca509a2f8a805afa912ad109826", null ],
+    [ "GetResourceCluster", "classFLightCacheInterface.html#a8305647dd529d4ee1d691243715b0807", null ],
+    [ "GetShadowMap", "classFLightCacheInterface.html#ad3a6f37194dfae60902bbca80b01ab74", null ],
+    [ "GetShadowMapInteraction", "classFLightCacheInterface.html#a9c0112d943e072e36d1d6b6ed846bd44", null ],
+    [ "GetStaticInteraction", "classFLightCacheInterface.html#a2865ac5762be7d9ae27d9f2e0e55b81b", null ],
+    [ "GetVirtualTextureLightmapProducer", "classFLightCacheInterface.html#aa5dd6999126618994f98c0356c20129f", null ],
+    [ "SetGlobalVolumeLightmap", "classFLightCacheInterface.html#af3ebed1a45b9bc317400968e444029e7", null ],
+    [ "SetLightMap", "classFLightCacheInterface.html#ac93935234c91b3d7c27d1308ec027d94", null ],
+    [ "SetPrecomputedLightingBuffer", "classFLightCacheInterface.html#a8f3abf31be5937eb3e4d179126552db3", null ],
+    [ "SetResourceCluster", "classFLightCacheInterface.html#a85d2441eeb9c747943dc4305413ce7c0", null ],
+    [ "SetShadowMap", "classFLightCacheInterface.html#a29b0fa8a14a0782cf482dae9686f9aa0", null ],
+    [ "bCanUsePrecomputedLightingParametersFromGPUScene", "classFLightCacheInterface.html#a2f807d6c831c5e63f211641d0f2b853f", null ],
+    [ "bGlobalVolumeLightmap", "classFLightCacheInterface.html#af3edb387976bba379b2d0aa2e46cb1e1", null ],
+    [ "LightMap", "classFLightCacheInterface.html#ac1dd6ff8adbd798b68b4d5bc5694b06a", null ],
+    [ "PrecomputedLightingUniformBuffer", "classFLightCacheInterface.html#a7eab1ad4586706d6bb6f4c610f3f5b3a", null ],
+    [ "ResourceCluster", "classFLightCacheInterface.html#a890da8e98fa19981cefc02edb4181a71", null ],
+    [ "ShadowMap", "classFLightCacheInterface.html#a086c95eec0cf31e762edb56eaa3236aa", null ]
+];

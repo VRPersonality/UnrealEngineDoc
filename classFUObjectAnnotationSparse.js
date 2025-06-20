@@ -1,0 +1,25 @@
+var classFUObjectAnnotationSparse =
+[
+    [ "FUObjectAnnotationSparse", "classFUObjectAnnotationSparse.html#a84b603588f5a8587ffc6587d1062c2ec", null ],
+    [ "~FUObjectAnnotationSparse", "classFUObjectAnnotationSparse.html#a91d098753ac185727aa835c9f71c5e7d", null ],
+    [ "AddAnnotation", "classFUObjectAnnotationSparse.html#a0af9a137296038b180bcf6e32758a358", null ],
+    [ "AddAnnotation", "classFUObjectAnnotationSparse.html#a9406e6d9fef61567f29bb356302b77db", null ],
+    [ "AddAnnotationInternal", "classFUObjectAnnotationSparse.html#a86afa5a36dad75ffe100ea6308defd93", null ],
+    [ "GetAllocatedSize", "classFUObjectAnnotationSparse.html#ae0e63e9caf006e0e43c169e292f2eb10", null ],
+    [ "GetAndRemoveAnnotation", "classFUObjectAnnotationSparse.html#a14077c4920219681acd232387a631167", null ],
+    [ "GetAnnotation", "classFUObjectAnnotationSparse.html#aacbc873178b8d20b9305e234d8778a4a", null ],
+    [ "GetAnnotationMap", "classFUObjectAnnotationSparse.html#a7ae17367d32ccd5bcb7c8e4901b13cff", null ],
+    [ "MaybeRegisterAutoRTFMHandlers", "classFUObjectAnnotationSparse.html#a0022e0218eda7b092881626dd52de209", null ],
+    [ "NotifyUObjectDeleted", "classFUObjectAnnotationSparse.html#a093b14d88b19b27c54d99a44b5e11eda", null ],
+    [ "OnUObjectArrayShutdown", "classFUObjectAnnotationSparse.html#a1f0e5ab39df3b839200b313379fe3223", null ],
+    [ "RemoveAllAnnotations", "classFUObjectAnnotationSparse.html#a5016a12e2aac0cb4338e605de72cb6c6", null ],
+    [ "RemoveAnnotation", "classFUObjectAnnotationSparse.html#aaae3f2e23f0cf3ef0f157e1a00077537", null ],
+    [ "Reserve", "classFUObjectAnnotationSparse.html#a5143b8b6f9b14ddc6e8a756e61c84e66", null ],
+    [ "SetAnnotationCacheKeyAndValue", "classFUObjectAnnotationSparse.html#afb7677bea5d011712a15f515d0ec86fb", null ],
+    [ "SetAnnotationCacheKeyAndValue", "classFUObjectAnnotationSparse.html#a3efc225683d8c217b87dfe71fc178146", null ],
+    [ "AnnotationCacheCritical", "classFUObjectAnnotationSparse.html#a28826da2946d8bfb99916bdc1faef5e5", null ],
+    [ "AnnotationCacheKey", "classFUObjectAnnotationSparse.html#a36917176ba18b4145d0cd06588080ae7", null ],
+    [ "AnnotationCacheValue", "classFUObjectAnnotationSparse.html#ab91183215dc181524db8cc94a59abc1a", null ],
+    [ "AnnotationMap", "classFUObjectAnnotationSparse.html#a5eb19d09507f60523f6900ad2c17b570", null ],
+    [ "AnnotationMapCritical", "classFUObjectAnnotationSparse.html#a18c12cd70366a0406fb6f58f6485323e", null ]
+];

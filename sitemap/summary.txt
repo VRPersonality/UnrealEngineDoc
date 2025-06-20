@@ -1,0 +1,25 @@
+﻿# RÉSUMÉ SITEMAP - Généré le 2025-06-20 06:03:25
+# Dossier scanné: ./Documentation/html
+# Total fichiers HTML: 38906
+# Total fichiers traités: 37283
+# Fichiers filtrés: 1623
+
+=== STATISTIQUES PAR CATÉGORIE ===
+
+  classes      :   9365 fichiers
+  enums        :    586 fichiers
+  functions    :   7926 fichiers
+  namespaces   :   1286 fichiers
+  others       :   8766 fichiers
+  structs      :   9354 fichiers
+
+Total catégorisé: 37283 fichiers
+
+=== FICHIERS GÉNÉRÉS ===
+
+  classes.txt          - 352.22 KB
+  enums.txt            - 19.71 KB
+  functions.txt        - 243.05 KB
+  namespaces.txt       - 50.03 KB
+  others.txt           - 326.9 KB
+  structs.txt          - 459.82 KB

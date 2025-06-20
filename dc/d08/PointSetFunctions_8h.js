@@ -1,5 +1,0 @@
-var PointSetFunctions_8h =
-[
-    [ "UE_API", "dc/d08/PointSetFunctions_8h.html#a578eb926c8aecdf908e1338b2e893458", null ],
-    [ "USTRUCT", "dc/d08/PointSetFunctions_8h.html#ade0a112fbbd77de28feb15eeb9fc6a0c", null ]
-];

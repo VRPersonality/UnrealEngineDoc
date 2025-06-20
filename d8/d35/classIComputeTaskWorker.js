@@ -1,6 +1,0 @@
-var classIComputeTaskWorker =
-[
-    [ "~IComputeTaskWorker", "d8/d35/classIComputeTaskWorker.html#a9f9a405d29c736fdd0417e1269f6dcad", null ],
-    [ "HasWork", "d8/d35/classIComputeTaskWorker.html#abd6c37ed4fbf9fd9297b2dfa3d560356", null ],
-    [ "SubmitWork", "d8/d35/classIComputeTaskWorker.html#a129722edb2b30cb848e39ddf922c7353", null ]
-];

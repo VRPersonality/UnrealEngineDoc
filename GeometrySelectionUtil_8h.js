@@ -1,0 +1,55 @@
+var GeometrySelectionUtil_8h =
+[
+    [ "UE::Geometry::EEnumerateSelectionConversionParams", "namespaceUE_1_1Geometry.html#ab26b3ca814e07b8b4de1b9ea5caa29d6", [
+      [ "UE::Geometry::EEnumerateSelectionConversionParams::ContainSelection", "namespaceUE_1_1Geometry.html#ab26b3ca814e07b8b4de1b9ea5caa29d6a4cfa46924bccb6f577b75aefb2220211", null ],
+      [ "UE::Geometry::EEnumerateSelectionConversionParams::ExpandSelection", "namespaceUE_1_1Geometry.html#ab26b3ca814e07b8b4de1b9ea5caa29d6aed008cdd741095806a616d81906c9b1a", null ]
+    ] ],
+    [ "UE::Geometry::EEnumerateSelectionMapping", "namespaceUE_1_1Geometry.html#a284a08b4f07d6f6fe32efaddc353ac8f", [
+      [ "UE::Geometry::EEnumerateSelectionMapping::None", "namespaceUE_1_1Geometry.html#a284a08b4f07d6f6fe32efaddc353ac8fa6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "UE::Geometry::EEnumerateSelectionMapping::FacesToFaces", "namespaceUE_1_1Geometry.html#a284a08b4f07d6f6fe32efaddc353ac8facc8421b7b08d17571b4960a9db2ca07a", null ],
+      [ "UE::Geometry::EEnumerateSelectionMapping::FacesToEdges", "namespaceUE_1_1Geometry.html#a284a08b4f07d6f6fe32efaddc353ac8fa554a7db28f66fba2edc7b3ef0d46558e", null ],
+      [ "UE::Geometry::EEnumerateSelectionMapping::Default", "namespaceUE_1_1Geometry.html#a284a08b4f07d6f6fe32efaddc353ac8fa7a1920d61156abc05a60135aefe8bc67", null ]
+    ] ],
+    [ "UE::Geometry::EGeometrySelectionCombineModes", "namespaceUE_1_1Geometry.html#ad7c6e5e669c01100523f149519bf4714", [
+      [ "UE::Geometry::EGeometrySelectionCombineModes::Add", "namespaceUE_1_1Geometry.html#ad7c6e5e669c01100523f149519bf4714aec211f7c20af43e742bf2570c3cb84f9", null ],
+      [ "UE::Geometry::EGeometrySelectionCombineModes::Subtract", "namespaceUE_1_1Geometry.html#ad7c6e5e669c01100523f149519bf4714a1d9baf077ee87921f57a8fe42d510b65", null ],
+      [ "UE::Geometry::EGeometrySelectionCombineModes::Intersection", "namespaceUE_1_1Geometry.html#ad7c6e5e669c01100523f149519bf4714aa06d31c2ee920b4d53e8c9c06d90ba24", null ]
+    ] ],
+    [ "UE::Geometry::AreSelectionsIdentical", "namespaceUE_1_1Geometry.html#a27333a2bcfe9688d0cee986fe4b9fba4", null ],
+    [ "UE::Geometry::CombineSelectionInPlace", "namespaceUE_1_1Geometry.html#a4583bc0082ba5e4bb03c988cb42afc19", null ],
+    [ "UE::Geometry::ConvertPolygroupSelectionToIncidentOverlaySelection", "namespaceUE_1_1Geometry.html#a97a5653edeca4b3c8a6ddd479e30241f", null ],
+    [ "UE::Geometry::ConvertPolygroupSelectionToOverlaySelection", "namespaceUE_1_1Geometry.html#a211475ca94c6007ce32c2b93781bc2ea", null ],
+    [ "UE::Geometry::ConvertPolygroupSelectionToTopologySelection", "namespaceUE_1_1Geometry.html#a9b463dd9f362f7e44e8b2ffb5acfa493", null ],
+    [ "UE::Geometry::ConvertSelection", "namespaceUE_1_1Geometry.html#a27722dffa13a281f0bd9e7e2a65baa2c", null ],
+    [ "UE::Geometry::ConvertTriangleSelectionToOverlaySelection", "namespaceUE_1_1Geometry.html#a975ed7b0a5ae1cc6c17dee3bdc66e86c", null ],
+    [ "UE::Geometry::ENUM_CLASS_FLAGS", "namespaceUE_1_1Geometry.html#aa521c3dec650df36e22041bfab5d7ac8", null ],
+    [ "UE::Geometry::EnumeratePolygroupSelectionEdges", "namespaceUE_1_1Geometry.html#a7e306914d0dc59a14e4320158e1c1229", null ],
+    [ "UE::Geometry::EnumeratePolygroupSelectionEdges", "namespaceUE_1_1Geometry.html#a34e750fb29b513492d1a2339c04f4850", null ],
+    [ "UE::Geometry::EnumeratePolygroupSelectionElements", "namespaceUE_1_1Geometry.html#abd7f9e186bee9c4e5ec444747c03f7da", null ],
+    [ "UE::Geometry::EnumeratePolygroupSelectionElements", "namespaceUE_1_1Geometry.html#ac75cbc969aec8dd2b5cbe8c065297fe4", null ],
+    [ "UE::Geometry::EnumeratePolygroupSelectionTriangles", "namespaceUE_1_1Geometry.html#aacb67c1e79d8aad3670f757616d2ad3f", null ],
+    [ "UE::Geometry::EnumeratePolygroupSelectionVertices", "namespaceUE_1_1Geometry.html#a94d1ebc33c78ee869ac3a9853e4de6ab", null ],
+    [ "UE::Geometry::EnumerateSelectionEdges", "namespaceUE_1_1Geometry.html#a7f200bfb3f59a91409eae885f198d28e", null ],
+    [ "UE::Geometry::EnumerateSelectionTriangles", "namespaceUE_1_1Geometry.html#a3171ab1357e722df2e87722a002d007e", null ],
+    [ "UE::Geometry::EnumerateTriangleSelectionEdges", "namespaceUE_1_1Geometry.html#a2a0180efbf9b34e1d1cbefe8ee150a6c", null ],
+    [ "UE::Geometry::EnumerateTriangleSelectionElements", "namespaceUE_1_1Geometry.html#afc1e3388f16f04d37a6d6a70c399aac0", null ],
+    [ "UE::Geometry::EnumerateTriangleSelectionElements", "namespaceUE_1_1Geometry.html#ad149afdcd9076b41f81a0f5bda38230f", null ],
+    [ "UE::Geometry::EnumerateTriangleSelectionTriangles", "namespaceUE_1_1Geometry.html#a2913ecd0bf097134b77cd995f4e95bb9", null ],
+    [ "UE::Geometry::EnumerateTriangleSelectionVertices", "namespaceUE_1_1Geometry.html#ae8e3beecd6b523c779a529716a59d604", null ],
+    [ "UE::Geometry::FindInSelectionByTopologyID", "namespaceUE_1_1Geometry.html#ac006537f6f92b2bdd0810fc1a73df661", null ],
+    [ "UE::Geometry::GetSelectionBoundaryCorners", "namespaceUE_1_1Geometry.html#a55e2d1caee79503d8d69e5e49961cf49", null ],
+    [ "UE::Geometry::GetSelectionBoundaryVertices", "namespaceUE_1_1Geometry.html#a8593e8af55b80e6e5345fdf6365202f5", null ],
+    [ "UE::Geometry::GetTriangleSelectionFrame", "namespaceUE_1_1Geometry.html#a17e704f86ecafa7c918b8f2fc56c667d", null ],
+    [ "UE::Geometry::InitializeSelectionFromTriangles", "namespaceUE_1_1Geometry.html#a6fcbc6b39c565e2fc6ca3aa2a940f004", null ],
+    [ "UE::Geometry::MakeBoundaryConnectedSelection", "namespaceUE_1_1Geometry.html#a2c4d7c9a585c1dc21e7fcaf60c72fbaa", null ],
+    [ "UE::Geometry::MakeSelectAllConnectedSelection", "namespaceUE_1_1Geometry.html#a875878001b0c5b5a6c1160b12bcc153c", null ],
+    [ "UE::Geometry::MakeSelectAllSelection", "namespaceUE_1_1Geometry.html#a0c65e2637939420e0914442b95094a34", null ],
+    [ "PREDECLARE_GEOMETRY", "GeometrySelectionUtil_8h.html#a1c48107910553d92679f71b3ba856742", null ],
+    [ "UE::Geometry::UE_DEPRECATED", "namespaceUE_1_1Geometry.html#ac256ace8140964af5a3473e8ccdf656c", null ],
+    [ "UE::Geometry::UpdateGroupSelectionViaRaycast", "namespaceUE_1_1Geometry.html#ac5f3e76367a2c154874a696d3ce2df1d", null ],
+    [ "UE::Geometry::UpdateSelectionWithNewElements", "namespaceUE_1_1Geometry.html#ae7d0ec81ca98239d0e7e0e316ed4c606", null ],
+    [ "UE::Geometry::UpdateTriangleSelectionViaRaycast", "namespaceUE_1_1Geometry.html#a7d7b29ac93c7b94cec20d91e32a4afdb", null ],
+    [ "UE::Geometry::ApplyTransform", "namespaceUE_1_1Geometry.html#a46e48e1e3d84427fc8b57f98deda19c4", null ],
+    [ "UE::Geometry::Mesh", "namespaceUE_1_1Geometry.html#a7dee17fef2638b45c18acdf7707bd36b", null ],
+    [ "UE::Geometry::VertexFunc", "namespaceUE_1_1Geometry.html#a144804b09257f564044bf8ed0583036b", null ]
+];

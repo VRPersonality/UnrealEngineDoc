@@ -1,9 +1,9 @@
 var dir_c4f461ceca7dce2b5f55ab3999b4eee0 =
 [
-    [ "CompressedBuffer.h", "dd/d04/CompressedBuffer_8h.html", "dd/d04/CompressedBuffer_8h" ],
-    [ "CompressionUtil.h", "dc/d7e/CompressionUtil_8h.html", "dc/d7e/CompressionUtil_8h" ],
-    [ "lz4.h", "dd/df8/lz4_8h.html", "dd/df8/lz4_8h" ],
-    [ "lz4hc.h", "dc/d89/lz4hc_8h.html", "dc/d89/lz4hc_8h" ],
-    [ "OodleDataCompression.h", "d9/de8/OodleDataCompression_8h.html", "d9/de8/OodleDataCompression_8h" ],
-    [ "OodleDataCompressionUtil.h", "dc/df8/OodleDataCompressionUtil_8h.html", "dc/df8/OodleDataCompressionUtil_8h" ]
+    [ "CompressedBuffer.h", "CompressedBuffer_8h.html", "CompressedBuffer_8h" ],
+    [ "CompressionUtil.h", "CompressionUtil_8h.html", "CompressionUtil_8h" ],
+    [ "lz4.h", "lz4_8h.html", "lz4_8h" ],
+    [ "lz4hc.h", "lz4hc_8h.html", "lz4hc_8h" ],
+    [ "OodleDataCompression.h", "OodleDataCompression_8h.html", "OodleDataCompression_8h" ],
+    [ "OodleDataCompressionUtil.h", "OodleDataCompressionUtil_8h.html", "OodleDataCompressionUtil_8h" ]
 ];

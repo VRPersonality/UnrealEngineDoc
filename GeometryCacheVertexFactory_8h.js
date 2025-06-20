@@ -1,0 +1,27 @@
+var GeometryCacheVertexFactory_8h =
+[
+    [ "FGeometryCacheManualVertexFetchUniformBufferParameters", "classFGeometryCacheManualVertexFetchUniformBufferParameters.html", "classFGeometryCacheManualVertexFetchUniformBufferParameters" ],
+    [ "FGeometryCacheManualVertexFetchUniformBufferParameters::FTypeInfo", "structFGeometryCacheManualVertexFetchUniformBufferParameters_1_1FTypeInfo.html", "structFGeometryCacheManualVertexFetchUniformBufferParameters_1_1FTypeInfo" ],
+    [ "FGeometryCacheManualVertexFetchUniformBufferParameters::zzFirstMemberId", "structFGeometryCacheManualVertexFetchUniformBufferParameters_1_1zzFirstMemberId.html", null ],
+    [ "FGeometryCacheManualVertexFetchUniformBufferParameters::zzNextMemberIdColor", "structFGeometryCacheManualVertexFetchUniformBufferParameters_1_1zzNextMemberIdColor.html", null ],
+    [ "FGeometryCacheManualVertexFetchUniformBufferParameters::zzNextMemberIdMotionBlurData", "structFGeometryCacheManualVertexFetchUniformBufferParameters_1_1zzNextMemberIdMotionBlurData.html", null ],
+    [ "FGeometryCacheManualVertexFetchUniformBufferParameters::zzNextMemberIdPosition", "structFGeometryCacheManualVertexFetchUniformBufferParameters_1_1zzNextMemberIdPosition.html", null ],
+    [ "FGeometryCacheManualVertexFetchUniformBufferParameters::zzNextMemberIdTangentX", "structFGeometryCacheManualVertexFetchUniformBufferParameters_1_1zzNextMemberIdTangentX.html", null ],
+    [ "FGeometryCacheManualVertexFetchUniformBufferParameters::zzNextMemberIdTangentZ", "structFGeometryCacheManualVertexFetchUniformBufferParameters_1_1zzNextMemberIdTangentZ.html", null ],
+    [ "FGeometryCacheManualVertexFetchUniformBufferParameters::zzNextMemberIdTexCoords", "structFGeometryCacheManualVertexFetchUniformBufferParameters_1_1zzNextMemberIdTexCoords.html", null ],
+    [ "FGeometryCacheVertexFactoryUniformBufferParameters", "classFGeometryCacheVertexFactoryUniformBufferParameters.html", "classFGeometryCacheVertexFactoryUniformBufferParameters" ],
+    [ "FGeometryCacheVertexFactoryUniformBufferParameters::FTypeInfo", "structFGeometryCacheVertexFactoryUniformBufferParameters_1_1FTypeInfo.html", "structFGeometryCacheVertexFactoryUniformBufferParameters_1_1FTypeInfo" ],
+    [ "FGeometryCacheVertexFactoryUniformBufferParameters::zzFirstMemberId", "structFGeometryCacheVertexFactoryUniformBufferParameters_1_1zzFirstMemberId.html", null ],
+    [ "FGeometryCacheVertexFactoryUniformBufferParameters::zzNextMemberIdMeshExtension", "structFGeometryCacheVertexFactoryUniformBufferParameters_1_1zzNextMemberIdMeshExtension.html", null ],
+    [ "FGeometryCacheVertexFactoryUniformBufferParameters::zzNextMemberIdMeshOrigin", "structFGeometryCacheVertexFactoryUniformBufferParameters_1_1zzNextMemberIdMeshOrigin.html", null ],
+    [ "FGeometryCacheVertexFactoryUniformBufferParameters::zzNextMemberIdMotionBlurDataExtension", "structFGeometryCacheVertexFactoryUniformBufferParameters_1_1zzNextMemberIdMotionBlurDataExtension.html", null ],
+    [ "FGeometryCacheVertexFactoryUniformBufferParameters::zzNextMemberIdMotionBlurDataOrigin", "structFGeometryCacheVertexFactoryUniformBufferParameters_1_1zzNextMemberIdMotionBlurDataOrigin.html", null ],
+    [ "FGeometryCacheVertexFactoryUniformBufferParameters::zzNextMemberIdMotionBlurPositionScale", "structFGeometryCacheVertexFactoryUniformBufferParameters_1_1zzNextMemberIdMotionBlurPositionScale.html", null ],
+    [ "FGeometryCacheVertexFactoryUserData", "structFGeometryCacheVertexFactoryUserData.html", "structFGeometryCacheVertexFactoryUserData" ],
+    [ "FGeometryCacheVertexVertexFactory", "classFGeometryCacheVertexVertexFactory.html", "classFGeometryCacheVertexVertexFactory" ],
+    [ "FGeometryCacheVertexVertexFactory::FDataType", "structFGeometryCacheVertexVertexFactory_1_1FDataType.html", "structFGeometryCacheVertexVertexFactory_1_1FDataType" ],
+    [ "FGeometryCacheManualVertexFetchUniformBufferParametersRef", "GeometryCacheVertexFactory_8h.html#a60b4175d0d4445d8b6f08bf3ebc6b4c8", null ],
+    [ "FGeometryCacheVertexFactoryUniformBufferParametersRef", "GeometryCacheVertexFactory_8h.html#ac07cc320e7b6d2064db1a8c379c13c53", null ],
+    [ "GetForwardDeclaredShaderParametersStructMetadata", "GeometryCacheVertexFactory_8h.html#a22f7867cfd03423c8bbc4706efb74502", null ],
+    [ "GetForwardDeclaredShaderParametersStructMetadata", "GeometryCacheVertexFactory_8h.html#a17652dd3be158d547187e90f0f47e8b2", null ]
+];

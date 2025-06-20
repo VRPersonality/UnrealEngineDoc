@@ -1,4 +1,0 @@
-var structUE_1_1Core_1_1Private_1_1TMutableViewTraits_3_01TSet_3_01TObjectPtr_3_01V_01_4_01_4_00_01ViewType_01_4 =
-[
-    [ "Close", "d2/d50/structUE_1_1Core_1_1Private_1_1TMutableViewTraits_3_01TSet_3_01TObjectPtr_3_01V_01_4_01_4_00_01ViewType_01_4.html#a2220f997ed795a75081f7ceba62e7615", null ]
-];

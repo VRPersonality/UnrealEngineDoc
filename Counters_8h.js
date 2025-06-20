@@ -1,0 +1,18 @@
+var Counters_8h =
+[
+    [ "TraceServices::ICounter", "classTraceServices_1_1ICounter.html", "classTraceServices_1_1ICounter" ],
+    [ "TraceServices::ICounterProvider", "classTraceServices_1_1ICounterProvider.html", "classTraceServices_1_1ICounterProvider" ],
+    [ "TraceServices::IEditableCounter", "classTraceServices_1_1IEditableCounter.html", "classTraceServices_1_1IEditableCounter" ],
+    [ "TraceServices::IEditableCounterProvider", "classTraceServices_1_1IEditableCounterProvider.html", "classTraceServices_1_1IEditableCounterProvider" ],
+    [ "TraceServices::ECounterDisplayHint", "namespaceTraceServices.html#a31b9e561a0d95e2d94dc17a8423de464", [
+      [ "TraceServices::CounterDisplayHint_None", "namespaceTraceServices.html#a31b9e561a0d95e2d94dc17a8423de464af15adf33f034ccdbf31e6b089c77d3ae", null ],
+      [ "TraceServices::CounterDisplayHint_Memory", "namespaceTraceServices.html#a31b9e561a0d95e2d94dc17a8423de464a13ae481a44738b81e5c789947ddeb2ed", null ]
+    ] ],
+    [ "TraceServices::ECounterOpType", "namespaceTraceServices.html#ad3a22adec95cd7c8290704bc4f315d58", [
+      [ "TraceServices::ECounterOpType::Set", "namespaceTraceServices.html#ad3a22adec95cd7c8290704bc4f315d58a5d5b78699e57104f2fa03bbdf7b9197b", null ],
+      [ "TraceServices::ECounterOpType::Add", "namespaceTraceServices.html#ad3a22adec95cd7c8290704bc4f315d58aec211f7c20af43e742bf2570c3cb84f9", null ]
+    ] ],
+    [ "TraceServices::EditCounterProvider", "namespaceTraceServices.html#a2be0ee821112106dcce23db6b747befe", null ],
+    [ "TraceServices::GetCounterProviderName", "namespaceTraceServices.html#aa9101eedaceee45ce91ba358077c0570", null ],
+    [ "TraceServices::ReadCounterProvider", "namespaceTraceServices.html#a99903fe64efdc8042a33c741fcc1dc8a", null ]
+];

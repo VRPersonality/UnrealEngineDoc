@@ -1,0 +1,25 @@
+var structAudioWidgets_1_1FAudioSpectrumAnalyzerParams =
+[
+    [ "AnalyzerType", "structAudioWidgets_1_1FAudioSpectrumAnalyzerParams.html#a59fa0a353de25cbb6d376de8a5b60652", null ],
+    [ "AudioDeviceId", "structAudioWidgets_1_1FAudioSpectrumAnalyzerParams.html#a877b54535cd30ad3f2282db37a9b6ab0", null ],
+    [ "Ballistics", "structAudioWidgets_1_1FAudioSpectrumAnalyzerParams.html#adb449c0f8e6b7c3f6a17c8529602b4d9", null ],
+    [ "bDisplayFrequencyAxisLabels", "structAudioWidgets_1_1FAudioSpectrumAnalyzerParams.html#a0dfbcc1acdaa392b5ae8d93b71b521b5", null ],
+    [ "bDisplaySoundLevelAxisLabels", "structAudioWidgets_1_1FAudioSpectrumAnalyzerParams.html#a63bce74437f8e4d4aa1fed509855a76e", null ],
+    [ "CQTAnalyzerFFTSize", "structAudioWidgets_1_1FAudioSpectrumAnalyzerParams.html#afd551160f59073952c146d0db6d0a1af", null ],
+    [ "ExternalAudioBus", "structAudioWidgets_1_1FAudioSpectrumAnalyzerParams.html#ad2aff39933ece7cd8e47227f85d33d46", null ],
+    [ "FFTAnalyzerFFTSize", "structAudioWidgets_1_1FAudioSpectrumAnalyzerParams.html#ae77dafd678edc2a11fcd9ecc94d2a8a4", null ],
+    [ "FrequencyAxisPixelBucketMode", "structAudioWidgets_1_1FAudioSpectrumAnalyzerParams.html#ae51aa20a97c8a27f90f7994433cd8abc", null ],
+    [ "FrequencyAxisScale", "structAudioWidgets_1_1FAudioSpectrumAnalyzerParams.html#a2fff41517ebbe306c1bca7abe21b4289", null ],
+    [ "NumChannels", "structAudioWidgets_1_1FAudioSpectrumAnalyzerParams.html#a44286d6b1e64dd016272b940eec2a142", null ],
+    [ "OnAnalyzerTypeMenuEntryClicked", "structAudioWidgets_1_1FAudioSpectrumAnalyzerParams.html#af93658604d79431c7ac0075f5ba0dc4e", null ],
+    [ "OnBallisticsMenuEntryClicked", "structAudioWidgets_1_1FAudioSpectrumAnalyzerParams.html#a78b7662748a0f8f4f9f99a20d743442b", null ],
+    [ "OnCQTAnalyzerFFTSizeMenuEntryClicked", "structAudioWidgets_1_1FAudioSpectrumAnalyzerParams.html#aa474c863ac050f66d0fe5fb7cdc64fb8", null ],
+    [ "OnDisplayFrequencyAxisLabelsButtonToggled", "structAudioWidgets_1_1FAudioSpectrumAnalyzerParams.html#acda6b59b01c1f961700ccabdb9a2ee81", null ],
+    [ "OnDisplaySoundLevelAxisLabelsButtonToggled", "structAudioWidgets_1_1FAudioSpectrumAnalyzerParams.html#a535fed6ab782c18fceaf7c49457da7b7", null ],
+    [ "OnFFTAnalyzerFFTSizeMenuEntryClicked", "structAudioWidgets_1_1FAudioSpectrumAnalyzerParams.html#a4ae219ea5f5e6a0a1281dd3630f65cd6", null ],
+    [ "OnFrequencyAxisPixelBucketModeMenuEntryClicked", "structAudioWidgets_1_1FAudioSpectrumAnalyzerParams.html#a8175778de4bb7c9a5e0be1bdfed7e053", null ],
+    [ "OnFrequencyAxisScaleMenuEntryClicked", "structAudioWidgets_1_1FAudioSpectrumAnalyzerParams.html#a589bb81ef2d7e5a278d54f4fdad67d53", null ],
+    [ "OnTiltSpectrumMenuEntryClicked", "structAudioWidgets_1_1FAudioSpectrumAnalyzerParams.html#a12c8c93bdca04389e01b020582c6cc07", null ],
+    [ "PlotStyle", "structAudioWidgets_1_1FAudioSpectrumAnalyzerParams.html#a21808ec1fc673a3aed736a940d323a9c", null ],
+    [ "TiltExponent", "structAudioWidgets_1_1FAudioSpectrumAnalyzerParams.html#a2c3fce8efc297dc1dd67b1e997869452", null ]
+];

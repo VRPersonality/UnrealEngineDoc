@@ -1,5 +1,0 @@
-var structTUnderlyingArchiveContainer =
-[
-    [ "TUnderlyingArchiveContainer", "de/dfe/structTUnderlyingArchiveContainer.html#a1c45a33f881ca73526a5fd144893a8e0", null ],
-    [ "Ar", "de/dfe/structTUnderlyingArchiveContainer.html#a97106f9bbbd5ec6619b5bba19c31f90e", null ]
-];

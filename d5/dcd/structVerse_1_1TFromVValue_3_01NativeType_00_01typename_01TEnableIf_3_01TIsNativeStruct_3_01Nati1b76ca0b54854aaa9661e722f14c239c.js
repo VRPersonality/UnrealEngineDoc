@@ -1,5 +1,0 @@
-var structVerse_1_1TFromVValue_3_01NativeType_00_01typename_01TEnableIf_3_01TIsNativeStruct_3_01Nati1b76ca0b54854aaa9661e722f14c239c =
-[
-    [ "GetValue", "d5/dcd/structVerse_1_1TFromVValue_3_01NativeType_00_01typename_01TEnableIf_3_01TIsNativeStruct_3_01Nati1b76ca0b54854aaa9661e722f14c239c.html#aaab45071f0b30e2f2cd960c4d90593b0", null ],
-    [ "Value", "d5/dcd/structVerse_1_1TFromVValue_3_01NativeType_00_01typename_01TEnableIf_3_01TIsNativeStruct_3_01Nati1b76ca0b54854aaa9661e722f14c239c.html#a92173577858655a860cc94e091a18128", null ]
-];

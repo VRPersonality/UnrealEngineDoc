@@ -1,4 +1,0 @@
-var structTUniformBufferMetadataHelper_3_01UniformBufferStructType_00_01typename_01std_1_1enable__if7f12271a4ed427d3b45514afad9762d3 =
-[
-    [ "GetStructMetadata", "da/dc0/structTUniformBufferMetadataHelper_3_01UniformBufferStructType_00_01typename_01std_1_1enable__if7f12271a4ed427d3b45514afad9762d3.html#aaf7de33a909874ff1b15a0f4f044d6cd", null ]
-];

@@ -1,7 +1,0 @@
-var struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_01TArray_3_01HarmonixMetasound_1_1Analysis_1_1FMidiClockSongPosition_01_4_01_4 =
-[
-    [ "GetTypeDisplayText", "d4/d08/struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_01TArray_3_01HarmonixMetasound_1_1Analysis_1_1FMidiClockSongPosition_01_4_01_4.html#aac1eaf00c4d9afea44529879cb11718d", null ],
-    [ "GetTypeId", "d4/d08/struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_01TArray_3_01HarmonixMetasound_1_1Analysis_1_1FMidiClockSongPosition_01_4_01_4.html#a3d76d839ad1078ccd8a01583432702c6", null ],
-    [ "TypeName", "d4/d08/struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_01TArray_3_01HarmonixMetasound_1_1Analysis_1_1FMidiClockSongPosition_01_4_01_4.html#aba32ebe31a92a9df4b0d34bcc6225c15", null ],
-    [ "TypePtr", "d4/d08/struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_01TArray_3_01HarmonixMetasound_1_1Analysis_1_1FMidiClockSongPosition_01_4_01_4.html#abfd8f7b7aa9f447d24b3f20bd41718b7", null ]
-];

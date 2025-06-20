@@ -1,0 +1,28 @@
+var structFSolverSafeWaterBodyData =
+[
+    [ "FSolverSafeWaterBodyData", "structFSolverSafeWaterBodyData.html#a385081ecb0acd0bb56beb69e90fe11b5", null ],
+    [ "FSolverSafeWaterBodyData", "structFSolverSafeWaterBodyData.html#a9291bc8ee437e840d7c55c53212186f2", null ],
+    [ "CheckAndAjustQueryFlags", "structFSolverSafeWaterBodyData.html#ac78ff501fcdc2d8c3bba0944c2c8f241", null ],
+    [ "GetSimpleWaveHeightAtPosition", "structFSolverSafeWaterBodyData.html#a5505494bbbb51805d462278095aaee1d", null ],
+    [ "GetSimpleWaveOffsetAtPosition", "structFSolverSafeWaterBodyData.html#a514c214ea29482fb5619c5870f7bea24", null ],
+    [ "GetWaterVelocityAtSplineInputKey", "structFSolverSafeWaterBodyData.html#a215db10b7da468cc78aae3eb955e0b59", null ],
+    [ "GetWaterVelocityVectorAtSplineInputKey", "structFSolverSafeWaterBodyData.html#a7ad68e90434e1c197e7980b37287003f", null ],
+    [ "GetWaveAttenuationFactor", "structFSolverSafeWaterBodyData.html#a9e135c2e73150a8256ffe6523d494d2e", null ],
+    [ "GetWaveHeightAtPosition", "structFSolverSafeWaterBodyData.html#ae599d1f6195dee14aa33722de2181d36", null ],
+    [ "GetWaveInfoAtPosition", "structFSolverSafeWaterBodyData.html#aa1b5ec6fb2bc775620a152e0ee42d054", null ],
+    [ "GetWaveOffsetAtPosition", "structFSolverSafeWaterBodyData.html#a62a70018b4c7eb143fe6446aa2bf9415", null ],
+    [ "QueryWaterInfoClosestToWorldLocation", "structFSolverSafeWaterBodyData.html#a08ae74711f39cb5004893f9dc66fb5cb", null ],
+    [ "WaterBodyTypeSupportsWaves", "structFSolverSafeWaterBodyData.html#a73ec5cea037509adebf8393478b58ff8", null ],
+    [ "LandscapeCollisionComponents", "structFSolverSafeWaterBodyData.html#a6115b2a00221807cae018a96ea4bbf34", null ],
+    [ "Location", "structFSolverSafeWaterBodyData.html#a9b1b33879c9254eadd11741c5b7ceaad", null ],
+    [ "MaxWaveHeight", "structFSolverSafeWaterBodyData.html#a53100f412f0c30a794ca21d51645dfa4", null ],
+    [ "OceanHeightOffset", "structFSolverSafeWaterBodyData.html#a973798eb975cd21059121aeb588d4d4e", null ],
+    [ "TargetWaveMaskDepth", "structFSolverSafeWaterBodyData.html#aa4323ea65a58f34c996adc9d6fd7a8a5", null ],
+    [ "WaterBodyIndex", "structFSolverSafeWaterBodyData.html#ad6a97f93b92955b3466f8604e75c68c5", null ],
+    [ "WaterBodyType", "structFSolverSafeWaterBodyData.html#aae68933775cfabdd19376be140cc7994", null ],
+    [ "WaterSpline", "structFSolverSafeWaterBodyData.html#a1d91868f3a572260b28d7627802d8da5", null ],
+    [ "WaterSplineMetadata", "structFSolverSafeWaterBodyData.html#ae50e6ba8733979099ec12e5ba614a44e", null ],
+    [ "WaveParams", "structFSolverSafeWaterBodyData.html#af0e603b22cde211e21c399b533dbc4ff", null ],
+    [ "WaveSpeedFactor", "structFSolverSafeWaterBodyData.html#a69e6a4f3180edad625272a01fe61e3f1", null ],
+    [ "World", "structFSolverSafeWaterBodyData.html#aaf90e6429e9b237f3402825e5a885033", null ]
+];

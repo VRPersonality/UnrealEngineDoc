@@ -1,0 +1,28 @@
+var classFAndroidApplication =
+[
+    [ "~FAndroidApplication", "classFAndroidApplication.html#a09ebf25906cfed6fd8d844c7be1f3679", null ],
+    [ "FAndroidApplication", "classFAndroidApplication.html#a17f6e539a51d06abed4ce782e58c5389", null ],
+    [ "FAndroidApplication", "classFAndroidApplication.html#ade4b35b05c4ef6c797f8e29d4b37b1c7", null ],
+    [ "AddExternalInputDevice", "classFAndroidApplication.html#af89833915b5cbc82a2133acb091a6f9a", null ],
+    [ "CreateAndroidApplication", "classFAndroidApplication.html#a767ec9c8ff768730121b9a83abc465b9", null ],
+    [ "Get", "classFAndroidApplication.html#ae41dac52d22502b1385df34e4759847a", null ],
+    [ "GetInputInterface", "classFAndroidApplication.html#a84e0cdfc733a40b0a51a5d0add6c08a9", null ],
+    [ "GetNativeWindowResolution", "classFAndroidApplication.html#a347986662ce44162ee5c96bb1475a7f9", null ],
+    [ "GetWorkArea", "classFAndroidApplication.html#aac6bf825db27a5b28665af0ed376a277", null ],
+    [ "HandleDeviceOrientation", "classFAndroidApplication.html#aa5273f388b6cfe5bb84666da36c1acf0", null ],
+    [ "InitializeWindow", "classFAndroidApplication.html#a1ade4469ff6b9fbc3e3e0d3f7332306b", null ],
+    [ "IsGamepadAttached", "classFAndroidApplication.html#a65f934b17565924733241e557f6f3b7c", null ],
+    [ "MakeWindow", "classFAndroidApplication.html#a1326a17b6481c3724b403af49d6e67bb", null ],
+    [ "OnWindowSizeChanged", "classFAndroidApplication.html#a77c544c08d6a2be6ccf9d6c169c38594", null ],
+    [ "PollGameDeviceState", "classFAndroidApplication.html#ae71d2ec54090bbd8c986e3d0e1d05e36", null ],
+    [ "SetMessageHandler", "classFAndroidApplication.html#aafd31769be5321a243004a4baab9c95e", null ],
+    [ "Tick", "classFAndroidApplication.html#a05b1a2ddeb3b59561dbf6770da53e41c", null ],
+    [ "_application", "classFAndroidApplication.html#a4464a803a2a5c5f8dcc89b8d6e84a044", null ],
+    [ "bHasLoadedInputPlugins", "classFAndroidApplication.html#a8ff72fb1a86f7e18d4ca00e93a764fc1", null ],
+    [ "bWindowSizeChanged", "classFAndroidApplication.html#a7d8c4877a7d31f3802a71cc9c2123909", null ],
+    [ "CVarAndroidSupportsDynamicResolution", "classFAndroidApplication.html#ad298e1065e8517259e884fc20b277c90", null ],
+    [ "CVarAndroidSupportsTimestampQueries", "classFAndroidApplication.html#a76110fbb655f1397ebd605e6629d75f8", null ],
+    [ "DeviceOrientation", "classFAndroidApplication.html#a724beb0a15f0b5d1b99f9fc754e228a5", null ],
+    [ "InputInterface", "classFAndroidApplication.html#a26e4f470bd04c8c0e17e7832cd0de237", null ],
+    [ "Windows", "classFAndroidApplication.html#a583afc411a6a140430dd4d868fee18ee", null ]
+];

@@ -1,0 +1,4 @@
+var structMetasound_1_1Frontend_1_1MetasoundDataTypeRegistrationPrivate_1_1TLiteralArrayEnum_3_01ELiteralType_1_1Float_01_4 =
+[
+    [ "Value", "structMetasound_1_1Frontend_1_1MetasoundDataTypeRegistrationPrivate_1_1TLiteralArrayEnum_3_01ELiteralType_1_1Float_01_4.html#a546ff453ca623a2c9ad399ce3821b40e", null ]
+];

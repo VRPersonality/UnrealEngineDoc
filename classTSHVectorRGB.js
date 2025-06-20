@@ -1,0 +1,27 @@
+var classTSHVectorRGB =
+[
+    [ "TSHVectorRGB", "classTSHVectorRGB.html#a8fed7d8b8f72bcbc85a1f890fe5f296a", null ],
+    [ "TSHVectorRGB", "classTSHVectorRGB.html#ac87335f9dd49c1f0b2a9c52c7a2dc954", null ],
+    [ "AddAmbient", "classTSHVectorRGB.html#a6af44ac20f1faf4f8844b9de5e5af3a4", null ],
+    [ "AddIncomingRadiance", "classTSHVectorRGB.html#a1684b16866bfb7ef7bc16b0027d7edcc", null ],
+    [ "ApplyWindowing", "classTSHVectorRGB.html#ad330ebc62d1a3fd84b073233a32ac40f", null ],
+    [ "AreFloatsValid", "classTSHVectorRGB.html#ad4db7fc95be00ba9c2217e4da1326e9a", null ],
+    [ "CalcIntegral", "classTSHVectorRGB.html#a1016e6800d125ac5c948b41cdc719359", null ],
+    [ "Desaturate", "classTSHVectorRGB.html#a0d4a4475d7d4d0bbbae4ae29082e526c", null ],
+    [ "GetLuminance", "classTSHVectorRGB.html#a1a84a1c682762fddb0d6a82e1191a5bc", null ],
+    [ "operator*=", "classTSHVectorRGB.html#a194993186c0e34323a8083fa697db840", null ],
+    [ "operator+=", "classTSHVectorRGB.html#ad8cd3f45410241df2afc145d5fcdd99d", null ],
+    [ "operator-=", "classTSHVectorRGB.html#ab8118401e8427d5c91bc4cbcf28ae233", null ],
+    [ "Dot", "classTSHVectorRGB.html#a6efe23f1a313d4a83a28d775af7b3849", null ],
+    [ "operator*", "classTSHVectorRGB.html#a02294a0dcda62c9eec508bb5274a85f0", null ],
+    [ "operator*", "classTSHVectorRGB.html#a745f5956377e3ff59b5a550ed3cb07c6", null ],
+    [ "operator*", "classTSHVectorRGB.html#a1f3327ce8f2a2a17536ce3efff75c345", null ],
+    [ "operator*", "classTSHVectorRGB.html#afb5aa34311e8b96d6bb5d751194dfe33", null ],
+    [ "operator+", "classTSHVectorRGB.html#a75f177f388639d940d920019e91ff34b", null ],
+    [ "operator-", "classTSHVectorRGB.html#a0ba365c35ecdc1c60175ae4df36d575d", null ],
+    [ "operator/", "classTSHVectorRGB.html#a779f1b1a992ef4e7dc3f607c89f92b70", null ],
+    [ "operator<<", "classTSHVectorRGB.html#af6e8076c3c426ae0765e2e4877fa3d45", null ],
+    [ "B", "classTSHVectorRGB.html#ac8cb980bbc22fead858d0d12e4343306", null ],
+    [ "G", "classTSHVectorRGB.html#a6ee61a5e9a64aa20534c959c89e71560", null ],
+    [ "R", "classTSHVectorRGB.html#a963fa7c17cfaa1700653fc860253fd99", null ]
+];

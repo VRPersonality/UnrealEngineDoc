@@ -1,0 +1,7 @@
+var struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArray_3_01FMusicLoopConfiguration_01_4_01_4_01_4 =
+[
+    [ "GetTypeDisplayText", "struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArray_3_01FMusicLoopConfiguration_01_4_01_4_01_4.html#ab3e3e3da3a0476e0422b30666f5a74d4", null ],
+    [ "GetTypeId", "struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArray_3_01FMusicLoopConfiguration_01_4_01_4_01_4.html#a29f745e89f6fcd02a4a255607911a5a8", null ],
+    [ "TypeName", "struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArray_3_01FMusicLoopConfiguration_01_4_01_4_01_4.html#a0adb9370b474e0180b7e07339457769b", null ],
+    [ "TypePtr", "struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArray_3_01FMusicLoopConfiguration_01_4_01_4_01_4.html#a2bb5eded5afcc6f708eb4aec36fe5865", null ]
+];

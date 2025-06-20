@@ -1,8 +1,0 @@
-var structUE_1_1Geometry_1_1FGroupTopology_1_1FGroupEdge =
-[
-    [ "IsConnectedToVertices", "dc/d72/structUE_1_1Geometry_1_1FGroupTopology_1_1FGroupEdge.html#a4f8be8ca346660e146fc7c09fccc027a", null ],
-    [ "OtherGroupID", "dc/d72/structUE_1_1Geometry_1_1FGroupTopology_1_1FGroupEdge.html#a1c0c590ebef8a595bdb89a08ba8fd0a7", null ],
-    [ "EndpointCorners", "dc/d72/structUE_1_1Geometry_1_1FGroupTopology_1_1FGroupEdge.html#a68e01570da00ca776ac3dcced00275fc", null ],
-    [ "Groups", "dc/d72/structUE_1_1Geometry_1_1FGroupTopology_1_1FGroupEdge.html#a27a6fa97faf54ef69517b80fa28f71b0", null ],
-    [ "Span", "dc/d72/structUE_1_1Geometry_1_1FGroupTopology_1_1FGroupEdge.html#a087ac9939b4bc44d36f656117b33c00a", null ]
-];

@@ -1,0 +1,26 @@
+var namespaceUE_1_1SavePackageUtilities =
+[
+    [ "Private", "namespaceUE_1_1SavePackageUtilities_1_1Private.html", "namespaceUE_1_1SavePackageUtilities_1_1Private" ],
+    [ "FPreloadDependency", "structUE_1_1SavePackageUtilities_1_1FPreloadDependency.html", "structUE_1_1SavePackageUtilities_1_1FPreloadDependency" ],
+    [ "FEDLLogRecordCallback", "namespaceUE_1_1SavePackageUtilities.html#a1f183aa9d031040234bbaa6b248b211f", null ],
+    [ "FEDLMessageCallback", "namespaceUE_1_1SavePackageUtilities.html#a824201f5e2c5a54c4363a3309e670a4d", null ],
+    [ "CallCookEventPlatformCookDependencies", "namespaceUE_1_1SavePackageUtilities.html#a0208770aa0e061401c3b3c1b3dc957b6", null ],
+    [ "CallPostSaveRoot", "namespaceUE_1_1SavePackageUtilities.html#ab1f38a7ab2393c6a6edb854a0776b167", null ],
+    [ "CallPreSave", "namespaceUE_1_1SavePackageUtilities.html#aec58cd1a043891fff6d613d09c0a5015", null ],
+    [ "CallPreSaveRoot", "namespaceUE_1_1SavePackageUtilities.html#a89202babbd4bebcf0d0ebb052852a5de", null ],
+    [ "DECLARE_DELEGATE_TwoParams", "namespaceUE_1_1SavePackageUtilities.html#a0d596311225c3a3a289239bf7fa03769", null ],
+    [ "DecrementOutstandingAsyncWrites", "namespaceUE_1_1SavePackageUtilities.html#ac7c7e38e9ba07e62ab405cbc1ed5b265", null ],
+    [ "GetNumPackagesSaved", "namespaceUE_1_1SavePackageUtilities.html#a4df42d05d80f4b6ec7c72cc44be092a0", null ],
+    [ "IncrementOutstandingAsyncWrites", "namespaceUE_1_1SavePackageUtilities.html#a1064238de5a4b67e07ff335f1e30b362", null ],
+    [ "IsProceduralSave", "namespaceUE_1_1SavePackageUtilities.html#a7999413dd856d064c8c3e824ab31bf15", null ],
+    [ "IsUpdatingLoadedPath", "namespaceUE_1_1SavePackageUtilities.html#a5c2910224f61214b9d6ec05c500505ed", null ],
+    [ "NormalizeTopLevelFlags", "namespaceUE_1_1SavePackageUtilities.html#a7cd3d320e6bb14be209ce640bc95644e", null ],
+    [ "ResetCookStats", "namespaceUE_1_1SavePackageUtilities.html#a002751ede02bea28966cfbe5adf42dec", null ],
+    [ "UE_DEPRECATED", "namespaceUE_1_1SavePackageUtilities.html#a06789d205cf575d5586fb52394feb98f", null ],
+    [ "UE_DEPRECATED", "namespaceUE_1_1SavePackageUtilities.html#aff97d9c63cddbc4e21986eae2cf8f009", null ],
+    [ "UE_DEPRECATED", "namespaceUE_1_1SavePackageUtilities.html#a9b697e6624df3384f18c678b445d98a2", null ],
+    [ "bFullReferencesExpected", "namespaceUE_1_1SavePackageUtilities.html#aa318f4b7d6906875982c21b47dd4a8ca", null ],
+    [ "bOutHasData", "namespaceUE_1_1SavePackageUtilities.html#a2ec439b1d396852e7713bed9f9e9f88f", null ],
+    [ "OnAddResaveOnDemandPackage", "namespaceUE_1_1SavePackageUtilities.html#a1d384fa5d0ef65ce35c5463caa134817", null ],
+    [ "PackageName", "namespaceUE_1_1SavePackageUtilities.html#ab5c7675c7115e9e476a63f4b1f376b65", null ]
+];

@@ -1,0 +1,38 @@
+var Scalability_8h =
+[
+    [ "Scalability::FQualityLevels", "structScalability_1_1FQualityLevels.html", "structScalability_1_1FQualityLevels" ],
+    [ "Scalability::FResolutionPreset", "structScalability_1_1FResolutionPreset.html", "structScalability_1_1FResolutionPreset" ],
+    [ "Scalability::EQualityLevelBehavior", "namespaceScalability.html#aff078868f3918a66af8ced3f32475b85", [
+      [ "Scalability::EQualityLevelBehavior::EAbsolute", "namespaceScalability.html#aff078868f3918a66af8ced3f32475b85a960dcb2953a2f88bb67a628486448822", null ],
+      [ "Scalability::EQualityLevelBehavior::ERelativeToMax", "namespaceScalability.html#aff078868f3918a66af8ced3f32475b85a646cec68a3a6a4181878c42cc07745a1", null ]
+    ] ],
+    [ "Scalability::ApplyCachedQualityLevels", "namespaceScalability.html#a450ed08e6a51828e4e5095355e7fa867", null ],
+    [ "Scalability::BenchmarkQualityLevels", "namespaceScalability.html#af89e33741a7c1d09b91b61e6f005a3c3", null ],
+    [ "Scalability::ChangeScalabilityPreviewPlatform", "namespaceScalability.html#a251558a58f75b02597378e7396ea71f5", null ],
+    [ "Scalability::ComputeQualityLevelsFromPerfIndex", "namespaceScalability.html#a0b1cffd3b70bd5930625438bfc942e5c", null ],
+    [ "Scalability::DECLARE_MULTICAST_DELEGATE_OneParam", "namespaceScalability.html#abf24fdba38b6edb7e027553ed78b0c04", null ],
+    [ "Scalability::GetDefaultQualityLevels", "namespaceScalability.html#a106d470480a6409e116651e6d648c05b", null ],
+    [ "Scalability::GetEffectsQualityDirect", "namespaceScalability.html#a244279862833b004849d30bb588886d0", null ],
+    [ "Scalability::GetQualityLevelCounts", "namespaceScalability.html#aad61aa90a7ecebdc3e8549cc2a29a0b9", null ],
+    [ "Scalability::GetQualityLevels", "namespaceScalability.html#a1c75c77c0e0797070c41f981b5bd20b1", null ],
+    [ "Scalability::GetQualityLevelText", "namespaceScalability.html#a9e4fea9f0d4ee9784b90dc0ff9dd3e51", null ],
+    [ "Scalability::GetResolutionPresets", "namespaceScalability.html#a4a2120afe5082e05a0f3877696e5fe2b", null ],
+    [ "Scalability::GetScalabilityNameFromQualityLevel", "namespaceScalability.html#ab115dde69602291b58a3c9ca09cbb64a", null ],
+    [ "Scalability::GetScalabilitySectionString", "namespaceScalability.html#a82a42c803313343d6ddcc3e02a4a531f", null ],
+    [ "Scalability::InitScalabilitySystem", "namespaceScalability.html#ae88a94f26192225b2c047a02e77a3552", null ],
+    [ "Scalability::IsTemporaryQualityLevelActive", "namespaceScalability.html#a3e86a87440ab6382b864210f6dcc70d5", null ],
+    [ "Scalability::LoadState", "namespaceScalability.html#a31e59a2c01e82aa7e2a15061dea9a4bb", null ],
+    [ "Scalability::LoadState", "namespaceScalability.html#a93d964aafbf77824c196d78872d13fd0", null ],
+    [ "Scalability::ProcessCommand", "namespaceScalability.html#a08dc61fe47e3cfb1f4e86f4cb27f6e30", null ],
+    [ "Scalability::RecordQualityLevelsAnalytics", "namespaceScalability.html#a56eb88f3b06d7ebf5168ce0892034f99", null ],
+    [ "Scalability::ResetQualityLevelsToDefault", "namespaceScalability.html#ac6ee190bfd169286c603fb91b2fdee73", null ],
+    [ "Scalability::SaveState", "namespaceScalability.html#a345e386aa376ad0f547cef566e6bb258", null ],
+    [ "Scalability::SaveState", "namespaceScalability.html#a896b67fcc10e2221b6001cad26c08a4d", null ],
+    [ "Scalability::SetQualityLevels", "namespaceScalability.html#abb6f42b270905a437da815599377dbe2", null ],
+    [ "Scalability::ToggleTemporaryQualityLevels", "namespaceScalability.html#a353bab4f9f9103f3dc25f8ae4d8bb792", null ],
+    [ "Scalability::UE_DEPRECATED", "namespaceScalability.html#ac99cc66a8da452b56a372d1651ad359d", null ],
+    [ "Scalability::DefaultQualityLevel", "namespaceScalability.html#a30283cfe56eab14818340048de9fc965", null ],
+    [ "Scalability::MaxResolutionScale", "namespaceScalability.html#a8bf3b340616cc509fc06828064f7adf5", null ],
+    [ "Scalability::MinResolutionScale", "namespaceScalability.html#acf2e17f87779d74f2738c0af67020b88", null ],
+    [ "Scalability::OnScalabilitySettingsChanged", "namespaceScalability.html#a434582e923fa8efab86cca4a3593f35b", null ]
+];

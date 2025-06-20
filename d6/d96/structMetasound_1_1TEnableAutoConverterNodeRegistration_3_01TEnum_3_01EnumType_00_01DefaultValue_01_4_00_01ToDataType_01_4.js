@@ -1,4 +1,0 @@
-var structMetasound_1_1TEnableAutoConverterNodeRegistration_3_01TEnum_3_01EnumType_00_01DefaultValue_01_4_00_01ToDataType_01_4 =
-[
-    [ "Value", "d6/d96/structMetasound_1_1TEnableAutoConverterNodeRegistration_3_01TEnum_3_01EnumType_00_01DefaultValue_01_4_00_01ToDataType_01_4.html#ad2649a66bd830f9b84d9b8f6613c56da", null ]
-];

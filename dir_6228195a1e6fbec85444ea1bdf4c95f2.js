@@ -11,10 +11,10 @@ var dir_6228195a1e6fbec85444ea1bdf4c95f2 =
     [ "Notifications", "dir_d1533c25a7a13921163243deadc5030c.html", "dir_d1533c25a7a13921163243deadc5030c" ],
     [ "Text", "dir_5b8c8a74ceec9a054bed71a186e220c1.html", "dir_5b8c8a74ceec9a054bed71a186e220c1" ],
     [ "Views", "dir_9f06aa267e0150b0ed37240d38ff2012.html", "dir_9f06aa267e0150b0ed37240d38ff2012" ],
-    [ "SCanvas.h", "d4/dfa/SCanvas_8h.html", "d4/dfa/SCanvas_8h" ],
-    [ "SInvalidationPanel.h", "d7/d86/SInvalidationPanel_8h.html", "d7/d86/SInvalidationPanel_8h" ],
-    [ "SToolTip.h", "db/da8/SToolTip_8h.html", "db/da8/SToolTip_8h" ],
-    [ "SViewport.h", "d8/db1/SViewport_8h.html", "d8/db1/SViewport_8h" ],
-    [ "SVirtualWindow.h", "d3/dd3/SVirtualWindow_8h.html", "d3/dd3/SVirtualWindow_8h" ],
-    [ "SWeakWidget.h", "d4/d78/SWeakWidget_8h.html", "d4/d78/SWeakWidget_8h" ]
+    [ "SCanvas.h", "SCanvas_8h.html", "SCanvas_8h" ],
+    [ "SInvalidationPanel.h", "SInvalidationPanel_8h.html", "SInvalidationPanel_8h" ],
+    [ "SToolTip.h", "SToolTip_8h.html", "SToolTip_8h" ],
+    [ "SViewport.h", "SViewport_8h.html", "SViewport_8h" ],
+    [ "SVirtualWindow.h", "SVirtualWindow_8h.html", "SVirtualWindow_8h" ],
+    [ "SWeakWidget.h", "SWeakWidget_8h.html", "SWeakWidget_8h" ]
 ];

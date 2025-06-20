@@ -1,4 +1,0 @@
-var structMetasound_1_1Frontend_1_1MetasoundDataTypeRegistrationPrivate_1_1TLiteralArrayEnum_3_01ELiteralType_1_1Integer_01_4 =
-[
-    [ "Value", "d8/de1/structMetasound_1_1Frontend_1_1MetasoundDataTypeRegistrationPrivate_1_1TLiteralArrayEnum_3_01ELiteralType_1_1Integer_01_4.html#a19351f50b1c020b0174d0477132c6efb", null ]
-];

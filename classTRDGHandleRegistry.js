@@ -1,0 +1,26 @@
+var classTRDGHandleRegistry =
+[
+    [ "HandleType", "classTRDGHandleRegistry.html#a5856824d0e6a9f8f80a4600e9a470005", null ],
+    [ "IndexType", "classTRDGHandleRegistry.html#a6799f7c8af6bc60a866411f2c344b5ec", null ],
+    [ "ObjectType", "classTRDGHandleRegistry.html#a510a1b8d0159b588900779d575d123f8", null ],
+    [ "TRDGHandleRegistry", "classTRDGHandleRegistry.html#acf48620105f0fcc40183d0aa7791de7b", null ],
+    [ "TRDGHandleRegistry", "classTRDGHandleRegistry.html#a29fbdddd738232700b594bcffa16ee79", null ],
+    [ "TRDGHandleRegistry", "classTRDGHandleRegistry.html#a2ab8079a8a7dcf2894aee638a8b07704", null ],
+    [ "~TRDGHandleRegistry", "classTRDGHandleRegistry.html#a0d37149cdc652e9a85fa6098591861a6", null ],
+    [ "Allocate", "classTRDGHandleRegistry.html#ad615f81cd31dfd9297bc3c49d215bfdf", null ],
+    [ "Begin", "classTRDGHandleRegistry.html#ad8e782fa715e1f1729d7980416eb4a7d", null ],
+    [ "Clear", "classTRDGHandleRegistry.html#afb199ee82f7c65e8fdc83927d1de16bf", null ],
+    [ "End", "classTRDGHandleRegistry.html#a18bc8dc75736934f55d6843356a0e51a", null ],
+    [ "Enumerate", "classTRDGHandleRegistry.html#a2df4a3003e86879b1aa2d09667311480", null ],
+    [ "Enumerate", "classTRDGHandleRegistry.html#ac8d625bfbaf6036aba7843625b20b455", null ],
+    [ "Get", "classTRDGHandleRegistry.html#a70a967bdce5cda2ab05376f69d546963", null ],
+    [ "Get", "classTRDGHandleRegistry.html#a37d0b7f483fc76581a6d0e86aa3beb73", null ],
+    [ "Insert", "classTRDGHandleRegistry.html#ae1536b93d46b43762e1ce0875245b55a", null ],
+    [ "Last", "classTRDGHandleRegistry.html#ae205ae7634032ae4eecab729620e7c0f", null ],
+    [ "Num", "classTRDGHandleRegistry.html#a2bc895c3a96842ca3db6d4932d86419b", null ],
+    [ "operator=", "classTRDGHandleRegistry.html#adc2efea87172ac5606296feb440bb2a7", null ],
+    [ "operator=", "classTRDGHandleRegistry.html#a80c0b15164e33637ca10c3a466231d19", null ],
+    [ "operator[]", "classTRDGHandleRegistry.html#a71a4fb0fe6a3ab0be5d2f33e2b5c865b", null ],
+    [ "operator[]", "classTRDGHandleRegistry.html#a549e40286ac5436826681514b1f19866", null ],
+    [ "Array", "classTRDGHandleRegistry.html#a2a4eb77013edddde2688ab2c9efd3cc5", null ]
+];

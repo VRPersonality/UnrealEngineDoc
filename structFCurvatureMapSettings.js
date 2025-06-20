@@ -1,0 +1,10 @@
+var structFCurvatureMapSettings =
+[
+    [ "operator==", "structFCurvatureMapSettings.html#a09cafd0f590cdd83550c1bcb7b1a0363", null ],
+    [ "ClampMode", "structFCurvatureMapSettings.html#a952615cb950bb4a7bfea0d63043c84e6", null ],
+    [ "ColorMode", "structFCurvatureMapSettings.html#a346941a4c278c81cc15179d69a1956d3", null ],
+    [ "CurvatureType", "structFCurvatureMapSettings.html#a64934d7fafb4082c9bb552a927806d0c", null ],
+    [ "Dimensions", "structFCurvatureMapSettings.html#ab9c79bcd05ac6c05d49f5c742c5c0cb0", null ],
+    [ "MinRangeMultiplier", "structFCurvatureMapSettings.html#a8b33e0674689db601f3882322cc46375", null ],
+    [ "RangeMultiplier", "structFCurvatureMapSettings.html#a85872f8c2a09928703f3394d6512e0b5", null ]
+];

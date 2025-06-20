@@ -1,0 +1,25 @@
+var classSAudioTextBox =
+[
+    [ "SetLabelBackgroundColor", "classSAudioTextBox.html#ad9bc522a7802239da6df0cdd40b30142", null ],
+    [ "SetShowLabelOnlyOnHover", "classSAudioTextBox.html#a6debac4bc20e6516572dd88c033c7205", null ],
+    [ "SetShowUnitsText", "classSAudioTextBox.html#acc8c6ef064e1a73396dddf08c80ca2d4", null ],
+    [ "SetUnitsText", "classSAudioTextBox.html#a59193af94c8bdedd222ef03eeb40dd08", null ],
+    [ "SetUnitsTextReadOnly", "classSAudioTextBox.html#a2ac4b8619d6f2a2c91e16b7adb483b64", null ],
+    [ "SetValueText", "classSAudioTextBox.html#a9a682a4838877eb83f7785c4f2ec9d04", null ],
+    [ "SetValueTextReadOnly", "classSAudioTextBox.html#ab9009cb83562432b2f3319cc6b65312c", null ],
+    [ "SLATE_ATTRIBUTE", "classSAudioTextBox.html#a385baf6011ad1f38cbeb0d3afa593fa2", null ],
+    [ "SLATE_BEGIN_ARGS", "classSAudioTextBox.html#a78ef38fa02210fe76382af4c5a779aee", null ],
+    [ "SLATE_STYLE_ARGUMENT", "classSAudioTextBox.html#ab1e80b31f5870a698d30939c590f7ed5", null ],
+    [ "UpdateValueTextWidth", "classSAudioTextBox.html#a72507bc0680a3a37abca81030be8173c", null ],
+    [ "LabelBackgroundColor", "classSAudioTextBox.html#a331436c5fe9c9e5b86ff88a9bc20d5d6", null ],
+    [ "LabelBorder", "classSAudioTextBox.html#afd5ee340e9aa907f6883227de518b195", null ],
+    [ "NumericInterface", "classSAudioTextBox.html#acdda8d4dbb3ba02f105c0ca1666d39b6", null ],
+    [ "OnValueTextCommitted", "classSAudioTextBox.html#aeeffc9af1b4bc3fd13e4d41e51a14312", null ],
+    [ "OutputRange", "classSAudioTextBox.html#a71e5cd1bad40f5e430915effdef75c6f", null ],
+    [ "ShowLabelOnlyOnHover", "classSAudioTextBox.html#a5a1abdb7cfbea6e56c47eab05232252e", null ],
+    [ "ShowUnitsText", "classSAudioTextBox.html#a56253a6315461d27f530484e4507307b", null ],
+    [ "Style", "classSAudioTextBox.html#a0794f8c84a2da3b6e10a56556ead6bb8", null ],
+    [ "UnitsText", "classSAudioTextBox.html#a3a630bc1c3ceed5e4e245aba5ed9dbe5", null ],
+    [ "ValueText", "classSAudioTextBox.html#aee0ece3acee5733aef4bd9c500e5a862", null ],
+    [ "ValueTextSlot", "classSAudioTextBox.html#a734e0ec8dcdc1b566ce461fb9c44fba7", null ]
+];

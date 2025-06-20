@@ -1,0 +1,25 @@
+var classTTimeBasedRamper =
+[
+    [ "TTimeBasedRamper", "classTTimeBasedRamper.html#a32c8d9c928776375bbeac4f15ca10750", null ],
+    [ "GetCurrent", "classTTimeBasedRamper.html#acb2d33e0b507633b1dc72622561a5d95", null ],
+    [ "GetProgressPct", "classTTimeBasedRamper.html#a729229196ee3ff4cace84a8f086969d9", null ],
+    [ "GetRampTimeMs", "classTTimeBasedRamper.html#ad628939cf4acd09f16538d22acaac644", null ],
+    [ "GetTarget", "classTTimeBasedRamper.html#a9cb588a61c8d7c639b54e15aaddf7d90", null ],
+    [ "IsAtTarget", "classTTimeBasedRamper.html#abe13c75c60f3e8d82dee5a4d0bd6d384", null ],
+    [ "LinearRamp", "classTTimeBasedRamper.html#a99db51504b6e1254c6083216b6b7325a", null ],
+    [ "Ramp", "classTTimeBasedRamper.html#ae684ba80752adbf37afd06c0314ec36c", null ],
+    [ "SetRampTimeMs", "classTTimeBasedRamper.html#ab14c72876b242e9d3f937a5cc579482e", null ],
+    [ "SetTarget", "classTTimeBasedRamper.html#a8c34710c515f74ef551c9f34032a6c43", null ],
+    [ "SetTargetLinear", "classTTimeBasedRamper.html#a0885fd65082a49f98cd3e5265b77fed2", null ],
+    [ "SnapTo", "classTTimeBasedRamper.html#ad2a65cbc316767290aa6a70917464055", null ],
+    [ "SnapToTarget", "classTTimeBasedRamper.html#a7069cf35b54bb11007474f98afc78f90", null ],
+    [ "Callback", "classTTimeBasedRamper.html#aba132c4c95debb9f59b6da00339df9d6", null ],
+    [ "CurrentValue", "classTTimeBasedRamper.html#ad20ccf7ffb265b9909b68eb5d23c0560", null ],
+    [ "Data", "classTTimeBasedRamper.html#a05cdd07995d5edc62186b669d3a2e378", null ],
+    [ "DurationMs", "classTTimeBasedRamper.html#abce89ce5f260af1ea3b50fc0a5c7a174", null ],
+    [ "IsSettingTarget", "classTTimeBasedRamper.html#a32ec2ec415dc898097308c1e3db949c5", null ],
+    [ "PassedMs", "classTTimeBasedRamper.html#a9037ef30535149f070abc33df55b0b54", null ],
+    [ "ProgressPct", "classTTimeBasedRamper.html#a9ede49e202615ba1c698527c63e90c87", null ],
+    [ "StartValue", "classTTimeBasedRamper.html#a474da6db00058227d9ce594a2e0a4aad", null ],
+    [ "TargetValue", "classTTimeBasedRamper.html#a1e210ad3dc55aaa2d522cc9f19908edb", null ]
+];

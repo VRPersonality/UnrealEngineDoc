@@ -1,7 +1,0 @@
-var AtmosphericFog_8h =
-[
-    [ "UCLASS", "d2/da5/AtmosphericFog_8h.html#a423673fc0112544852d21aa5fa46cd19", null ],
-    [ "ClassGroup", "d2/da5/AtmosphericFog_8h.html#abd0b27e0222ccd3efd3818d732716826", null ],
-    [ "hidecategories", "d2/da5/AtmosphericFog_8h.html#a73bc016b2bc94ccd135e4ee628d2bcd5", null ],
-    [ "MinimalAPI", "d2/da5/AtmosphericFog_8h.html#ab5b66a9f1ac3252ffea707183f3c1cb8", null ]
-];

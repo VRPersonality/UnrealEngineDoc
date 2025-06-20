@@ -1,4 +1,0 @@
-var structConcatenateRules_3_01UE_1_1Math_1_1TQuat_3_01T_01_4_00_01UE_1_1Math_1_1TRotator_3_01T_01_4_01_4 =
-[
-    [ "ResultType", "d4/d3b/structConcatenateRules_3_01UE_1_1Math_1_1TQuat_3_01T_01_4_00_01UE_1_1Math_1_1TRotator_3_01T_01_4_01_4.html#a70e087b49fcd41dbfdd45d501f4bec17", null ]
-];

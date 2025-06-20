@@ -1,0 +1,27 @@
+var classFUnixSignalGameHitchHeartBeat =
+[
+    [ "FUnixSignalGameHitchHeartBeat", "classFUnixSignalGameHitchHeartBeat.html#afd1aee7b74b2eef98c68849f727c9243", null ],
+    [ "~FUnixSignalGameHitchHeartBeat", "classFUnixSignalGameHitchHeartBeat.html#a1774b0a5de0fad8f99d5c0a06b9a3682", null ],
+    [ "FrameStart", "classFUnixSignalGameHitchHeartBeat.html#a6467ae0634fb8d1fe5e8ab0a29624f62", null ],
+    [ "Get", "classFUnixSignalGameHitchHeartBeat.html#a4da44aaaf3d6a175322b079696540dc1", null ],
+    [ "GetCurrentTime", "classFUnixSignalGameHitchHeartBeat.html#add52313ec36c887538c8efd35c84fdc5", null ],
+    [ "GetFrameStartTime", "classFUnixSignalGameHitchHeartBeat.html#ac8b0f50336a49d17aeb88514c41b4696", null ],
+    [ "GetNoInit", "classFUnixSignalGameHitchHeartBeat.html#afae9b7ce4cc9b54b8f1decd2796c3780", null ],
+    [ "Init", "classFUnixSignalGameHitchHeartBeat.html#ab10ff439d8f01f2816cccb5b9930eb8c", null ],
+    [ "InitSettings", "classFUnixSignalGameHitchHeartBeat.html#a7bd954aaeeb17b8ca26263ff3a37707a", null ],
+    [ "IsStartedSuspended", "classFUnixSignalGameHitchHeartBeat.html#a4a4b29600c5ee4037d8ba787c8718cb3", null ],
+    [ "PostFork", "classFUnixSignalGameHitchHeartBeat.html#a0f56e974e66e77a6e8d63f030f8b168b", null ],
+    [ "Restart", "classFUnixSignalGameHitchHeartBeat.html#ae43b1bf027962894cd4a3005f529bcf7", null ],
+    [ "ResumeHeartBeat", "classFUnixSignalGameHitchHeartBeat.html#ae2d8de5a0b1c2314cf4c539482171e2b", null ],
+    [ "Stop", "classFUnixSignalGameHitchHeartBeat.html#a643e03e5f5a9194b51b44db129b511af", null ],
+    [ "SuspendHeartBeat", "classFUnixSignalGameHitchHeartBeat.html#a75a7a1448849a9bff633680dda5230a1", null ],
+    [ "bDisabled", "classFUnixSignalGameHitchHeartBeat.html#a15a8e9ec176774d34acae99217c33f2c", null ],
+    [ "bHasCmdLine", "classFUnixSignalGameHitchHeartBeat.html#a5eede92b0eed3916f66eba6520e60ae9", null ],
+    [ "bStartSuspended", "classFUnixSignalGameHitchHeartBeat.html#aaa86e7027847c821a0153d887309e794", null ],
+    [ "bTimerCreated", "classFUnixSignalGameHitchHeartBeat.html#abd01bf59b1d7e1c5b539f3466a17d931", null ],
+    [ "HitchThresholdS", "classFUnixSignalGameHitchHeartBeat.html#a803000399c97116f6b15730c19cc22be", null ],
+    [ "Singleton", "classFUnixSignalGameHitchHeartBeat.html#a0515fc2f4b4f20cd623392b3b85a00e8", null ],
+    [ "StartTime", "classFUnixSignalGameHitchHeartBeat.html#a4fa0f3e110126f561774a1573cc6015a", null ],
+    [ "SuspendCount", "classFUnixSignalGameHitchHeartBeat.html#acc6a1834850dba8a2f486ed0d00b1298", null ],
+    [ "TimerId", "classFUnixSignalGameHitchHeartBeat.html#a5d3eca1fd2eae308431920a8caff5cd5", null ]
+];

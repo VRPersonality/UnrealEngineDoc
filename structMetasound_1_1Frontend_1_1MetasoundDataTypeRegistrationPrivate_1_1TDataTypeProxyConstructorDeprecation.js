@@ -1,0 +1,6 @@
+var structMetasound_1_1Frontend_1_1MetasoundDataTypeRegistrationPrivate_1_1TDataTypeProxyConstructorDeprecation =
+[
+    [ "bIsParsableWithDeprecatedPtr", "structMetasound_1_1Frontend_1_1MetasoundDataTypeRegistrationPrivate_1_1TDataTypeProxyConstructorDeprecation.html#a21df784ef9aa8006a8575820aaaef197", null ],
+    [ "bIsParsableWithSharedProxyPtr", "structMetasound_1_1Frontend_1_1MetasoundDataTypeRegistrationPrivate_1_1TDataTypeProxyConstructorDeprecation.html#aa2792ac68b5e9a2720106e6935690d65", null ],
+    [ "bOnlySupportsDeprecatedProxyPtr", "structMetasound_1_1Frontend_1_1MetasoundDataTypeRegistrationPrivate_1_1TDataTypeProxyConstructorDeprecation.html#a96d5c8a31902e17482d0e9578eeb6d4d", null ]
+];

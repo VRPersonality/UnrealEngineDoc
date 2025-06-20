@@ -1,0 +1,25 @@
+var structFNetConnAnalyticsVars =
+[
+    [ "FPerNetConnData", "structFNetConnAnalyticsVars_1_1FPerNetConnData.html", "structFNetConnAnalyticsVars_1_1FPerNetConnData" ],
+    [ "FNetResult", "structFNetConnAnalyticsVars.html#a6d328d37fae84fd3ab41865efa314f0e", null ],
+    [ "FNetConnAnalyticsVars", "structFNetConnAnalyticsVars.html#adc72949e155b76875efff8813293f7af", null ],
+    [ "AddFailedPingAddressICMP", "structFNetConnAnalyticsVars.html#a85d99b47c87d2bd778e9ca13a3ef7626", null ],
+    [ "AddFailedPingAddressUDP", "structFNetConnAnalyticsVars.html#a6c770d1543d2593a90f916c4fb6b1810", null ],
+    [ "CommitAnalytics", "structFNetConnAnalyticsVars.html#af5b79bf1b024a04ea4d47efd9e694b6e", null ],
+    [ "IncreaseOutOfOrderPacketsDuplicateCount", "structFNetConnAnalyticsVars.html#a033158dc2b2a1ebc87fa537bc3ff0454", null ],
+    [ "IncreaseOutOfOrderPacketsLostCount", "structFNetConnAnalyticsVars.html#a208deb02e5a01cb32ae6f5c8e0b6e072", null ],
+    [ "IncreaseOutOfOrderPacketsRecoveredCount", "structFNetConnAnalyticsVars.html#a13d9937788f0a7a9c4bca1cf8bad3428", null ],
+    [ "operator==", "structFNetConnAnalyticsVars.html#a4b88a4009d7a2a1585abd3cdac479cba", null ],
+    [ "FNetConnAnalyticsData", "structFNetConnAnalyticsVars.html#a14905c7e07fed83f78c83ee0fce868c8", null ],
+    [ "ClientCloseReasons", "structFNetConnAnalyticsVars.html#aa7e7cfe91cadec8a0148af88c9569337", null ],
+    [ "CloseReason", "structFNetConnAnalyticsVars.html#a3d39f07a7c9f697b9e57c13032b9404e", null ],
+    [ "FailedPingAddressesICMP", "structFNetConnAnalyticsVars.html#a86aad03204429f3df53076d8c3650c6c", null ],
+    [ "FailedPingAddressesUDP", "structFNetConnAnalyticsVars.html#a0dde1f7c2d97d61b542cb5cb1c8e9288", null ],
+    [ "OutAckOnlyCount", "structFNetConnAnalyticsVars.html#a80d8f74093924cc2896b21524f0d7c73", null ],
+    [ "OutKeepAliveCount", "structFNetConnAnalyticsVars.html#ae86d5935bfde6b21285f0b9f68e6a4ca", null ],
+    [ "OutOfOrderPacketsDuplicateCount", "structFNetConnAnalyticsVars.html#a9cc2f9035a6f0dc386797760853a8ce7", null ],
+    [ "OutOfOrderPacketsLostCount", "structFNetConnAnalyticsVars.html#a1903d6c1da4cb8495f1beb3d04700ef7", null ],
+    [ "OutOfOrderPacketsRecoveredCount", "structFNetConnAnalyticsVars.html#a38becbc93736ad11896bcdaa66c5dc4a", null ],
+    [ "PerConnectionData", "structFNetConnAnalyticsVars.html#a2d17b9fa8c8ef7ce3eb5f684f5a9cdfb", null ],
+    [ "RecoveredFaults", "structFNetConnAnalyticsVars.html#a720dd563345e3d151a5890b4f92cf574", null ]
+];

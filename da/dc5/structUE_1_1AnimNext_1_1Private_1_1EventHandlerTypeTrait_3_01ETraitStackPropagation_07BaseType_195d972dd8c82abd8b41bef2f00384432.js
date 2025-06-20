@@ -1,4 +1,0 @@
-var structUE_1_1AnimNext_1_1Private_1_1EventHandlerTypeTrait_3_01ETraitStackPropagation_07BaseType_195d972dd8c82abd8b41bef2f00384432 =
-[
-    [ "EventType", "da/dc5/structUE_1_1AnimNext_1_1Private_1_1EventHandlerTypeTrait_3_01ETraitStackPropagation_07BaseType_195d972dd8c82abd8b41bef2f00384432.html#ab5437da2aa46f85df64a5576ee4fc848", null ]
-];

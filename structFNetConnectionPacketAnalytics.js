@@ -1,0 +1,27 @@
+var structFNetConnectionPacketAnalytics =
+[
+    [ "FNetConnectionPacketAnalytics", "structFNetConnectionPacketAnalytics.html#adf76c72d8b2605bbdb7e7b341651aca6", null ],
+    [ "GetBurstyPacketLossPerSecond", "structFNetConnectionPacketAnalytics.html#acff80c9f9ac2f574428ad5187cff6f1c", null ],
+    [ "GetLongestRunOfDroppedInPackets", "structFNetConnectionPacketAnalytics.html#a24383bb1bb7885e48e0aaa2a6ee201fd", null ],
+    [ "GetLongestRunOfDroppedOutPackets", "structFNetConnectionPacketAnalytics.html#a3fe67f1f732c9a48f95565ce06a252d3", null ],
+    [ "GetNumberOfFramesWithBurstsOfPacketLoss", "structFNetConnectionPacketAnalytics.html#a695d4bd3fb1f293272da35883af13037", null ],
+    [ "GetNumberOfFramesWithNoPackets", "structFNetConnectionPacketAnalytics.html#aaed7d1f093548f3d4ec7cdc9c3c264b4", null ],
+    [ "GetNumberOfTrackedFrames", "structFNetConnectionPacketAnalytics.html#a9cf27efaed60d84cfc95bb076ebcb667", null ],
+    [ "Reset", "structFNetConnectionPacketAnalytics.html#a25824dfab8923455316a90d37f9626f2", null ],
+    [ "Tick", "structFNetConnectionPacketAnalytics.html#aebe0a350c7153c9355dd699d7e87a2a9", null ],
+    [ "TrackAck", "structFNetConnectionPacketAnalytics.html#ae3067c85f9293bfcedc4e8e79dec51bd", null ],
+    [ "TrackInPacket", "structFNetConnectionPacketAnalytics.html#a5a6bd5249737c2b7a573699bfb1046e4", null ],
+    [ "TrackNak", "structFNetConnectionPacketAnalytics.html#a79918b55afb0f17472de99c8404b5b5d", null ],
+    [ "UNetConnection", "structFNetConnectionPacketAnalytics.html#ac3e38fb25a3b747762628ed82f3ffd18", null ],
+    [ "bSawPacketLossBurstThisFrame", "structFNetConnectionPacketAnalytics.html#aa5b5c722fe42684b1784435efe041e90", null ],
+    [ "CurrentRunOfDroppedOutPackets", "structFNetConnectionPacketAnalytics.html#a9ccbc919408a0829ed39ea5de19bc490", null ],
+    [ "LongestRunOfDroppedInPackets", "structFNetConnectionPacketAnalytics.html#a54c46d7f5ddf127d7db90b98f053737c", null ],
+    [ "LongestRunOfDroppedOutPackets", "structFNetConnectionPacketAnalytics.html#a150c345d9ea8db69365e2d92dd4ba237", null ],
+    [ "NumberOfAcksThisFrame", "structFNetConnectionPacketAnalytics.html#abdbf4dd97dbad77b3a80d51e9dd18370", null ],
+    [ "NumberOfFramesWithBurstsOfPacketLoss", "structFNetConnectionPacketAnalytics.html#aec518b72bbf34512d9f12c227504668c", null ],
+    [ "NumberOfFramesWithNoPackets", "structFNetConnectionPacketAnalytics.html#a402596738bd2115e8b613dcf36eaf175", null ],
+    [ "NumberOfMissingPacketsThisFrame", "structFNetConnectionPacketAnalytics.html#a6d2ae07986175ff69761a929b8793d56", null ],
+    [ "NumberOfNaksThisFrame", "structFNetConnectionPacketAnalytics.html#a216b0a77c77d0b8c1633d0fd4abdc799", null ],
+    [ "NumberOfPacketsThisFrame", "structFNetConnectionPacketAnalytics.html#a593573c8ae632d1ca8b39bf06f160bf3", null ],
+    [ "NumberOfTrackedFrames", "structFNetConnectionPacketAnalytics.html#a55cae6afa15a555c92523c1410ad0921", null ]
+];

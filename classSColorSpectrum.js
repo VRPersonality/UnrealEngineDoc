@@ -1,0 +1,26 @@
+var classSColorSpectrum =
+[
+    [ "~SColorSpectrum", "classSColorSpectrum.html#a2ab21371b95e0b470a7280ada6c3f1bc", null ],
+    [ "CalcRelativeSelectedPosition", "classSColorSpectrum.html#aca146a74e24207e044602b383f06faf4", null ],
+    [ "ComputeDesiredSize", "classSColorSpectrum.html#a7282c8f8f8dae63b3b0488a7894e9245", null ],
+    [ "Construct", "classSColorSpectrum.html#a8d065a90f94f85afebaafc5ee198110f", null ],
+    [ "OnCursorQuery", "classSColorSpectrum.html#a6ca72802d08dade3a9acc820147f2a40", null ],
+    [ "OnMouseButtonDoubleClick", "classSColorSpectrum.html#abc892f37896c62456bd61bf35c6cd263", null ],
+    [ "OnMouseButtonDown", "classSColorSpectrum.html#a160dd9ca6222c84fe679a3ac08f3160c", null ],
+    [ "OnMouseButtonUp", "classSColorSpectrum.html#a0576691a313e70e84dc49759d57df618", null ],
+    [ "OnMouseMove", "classSColorSpectrum.html#a042d5722db009868da41deea4d901796", null ],
+    [ "OnPaint", "classSColorSpectrum.html#a58910bf9f2e1d960d9fe8db3e93a01db", null ],
+    [ "ProcessMouseAction", "classSColorSpectrum.html#a9984fcce7b264f558feef623992c581d", null ],
+    [ "SLATE_ATTRIBUTE", "classSColorSpectrum.html#a6b247a7d0f2399037adedf453d108f9b", null ],
+    [ "SLATE_BEGIN_ARGS", "classSColorSpectrum.html#a0653ae34286bd2ff107b05e0eb685b48", null ],
+    [ "SLATE_EVENT", "classSColorSpectrum.html#a8b2dccc38779040941690e3f09d902f2", null ],
+    [ "bDragging", "classSColorSpectrum.html#a654c5f415785d137fcaf0bd97c92141d", null ],
+    [ "CtrlMultiplier", "classSColorSpectrum.html#a07a0c5a6c32031412e732bcb04ed169e", null ],
+    [ "Image", "classSColorSpectrum.html#af7791f5c1610eb80afc41d24987653eb", null ],
+    [ "LastSpectrumPosition", "classSColorSpectrum.html#a4a6e320f814dd1645b0648c2ea1fba05", null ],
+    [ "OnMouseCaptureBegin", "classSColorSpectrum.html#a26af4243611e053f6ffbb69cfbf1123a", null ],
+    [ "OnMouseCaptureEnd", "classSColorSpectrum.html#aaaadcbb0ba45a72e19c601c4355f9fc5", null ],
+    [ "OnValueChanged", "classSColorSpectrum.html#ad81c99333f469af83d3d0afce56cb25e", null ],
+    [ "SelectedColor", "classSColorSpectrum.html#a5462adc70b968f6625848c1a561ac2fc", null ],
+    [ "SelectorImage", "classSColorSpectrum.html#a4b568d7eb7d86cff2fdf151f701d8e90", null ]
+];

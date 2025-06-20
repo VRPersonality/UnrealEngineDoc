@@ -1,4 +1,0 @@
-var structUE_1_1MovieScene_1_1Private_1_1TCustomPropertyAccessorStorageTypeImpl_3_01PropertyTraits_00_01false_01_4 =
-[
-    [ "Value", "d7/dcd/structUE_1_1MovieScene_1_1Private_1_1TCustomPropertyAccessorStorageTypeImpl_3_01PropertyTraits_00_01false_01_4.html#ad7594f9ef141b25079f9a0b54c0007d5", null ]
-];

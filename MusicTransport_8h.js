@@ -1,0 +1,48 @@
+var MusicTransport_8h =
+[
+    [ "Metasound::TDataReferenceTypeInfo< HarmonixMetasound::FMusicTransportEvent >", "struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_01HarmonixMetasound_1_1FMusicTransportEvent_01_4.html", "struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_01HarmonixMetasound_1_1FMusicTransportEvent_01_4" ],
+    [ "Metasound::TDataReferenceTypeInfo< HarmonixMetasound::FMusicTransportEventStream >", "struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_01HarmonixMetasound_1_1FMusicTransportEventStream_01_4.html", "struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_01HarmonixMetasound_1_1FMusicTransportEventStream_01_4" ],
+    [ "Metasound::TDataReferenceTypeInfo< TArray< HarmonixMetasound::FMusicTransportEvent > >", "struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_01TArray_3_01HarmonixMetasound_1_1FMusicTransportEvent_01_4_01_4.html", "struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_01TArray_3_01HarmonixMetasound_1_1FMusicTransportEvent_01_4_01_4" ],
+    [ "Metasound::TDataReferenceTypeInfo< TArray< HarmonixMetasound::FMusicTransportEventStream > >", "struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_01TArray_3_01HarmonixMetasound_1_1FMusicTransportEventStream_01_4_01_4.html", "struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_01TArray_3_01HarmonixMetasound_1_1FMusicTransportEventStream_01_4_01_4" ],
+    [ "Metasound::TDataReferenceTypeInfo<::Metasound::TVariable< HarmonixMetasound::FMusicTransportEvent > >", "struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01HarmonixMetasound_566a3e065fb1de9999101972a10f452c.html", "struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01HarmonixMetasound_566a3e065fb1de9999101972a10f452c" ],
+    [ "Metasound::TDataReferenceTypeInfo<::Metasound::TVariable< HarmonixMetasound::FMusicTransportEventStream > >", "struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01HarmonixMetasound_92f0a8ba13dcf08a10d0107351a951bf.html", "struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01HarmonixMetasound_92f0a8ba13dcf08a10d0107351a951bf" ],
+    [ "Metasound::TDataReferenceTypeInfo<::Metasound::TVariable< TArray< HarmonixMetasound::FMusicTransportEvent > > >", "struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArray_3_01Harmoni3284b67a1bdea89d88d6467621a5f5f7.html", "struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArray_3_01Harmoni3284b67a1bdea89d88d6467621a5f5f7" ],
+    [ "Metasound::TDataReferenceTypeInfo<::Metasound::TVariable< TArray< HarmonixMetasound::FMusicTransportEventStream > > >", "struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArray_3_01Harmoni5386b9f43eaa8b0c4a3dc1321a632547.html", "struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArray_3_01Harmoni5386b9f43eaa8b0c4a3dc1321a632547" ],
+    [ "HarmonixMetasound::FMusicTransportControllable", "classHarmonixMetasound_1_1FMusicTransportControllable.html", "classHarmonixMetasound_1_1FMusicTransportControllable" ],
+    [ "HarmonixMetasound::FMusicTransportEvent", "structHarmonixMetasound_1_1FMusicTransportEvent.html", "structHarmonixMetasound_1_1FMusicTransportEvent" ],
+    [ "HarmonixMetasound::FMusicTransportEventStream", "classHarmonixMetasound_1_1FMusicTransportEventStream.html", "classHarmonixMetasound_1_1FMusicTransportEventStream" ],
+    [ "HarmonixMetasound::FMusicTransportEventStream::FRequestEvent", "structHarmonixMetasound_1_1FMusicTransportEventStream_1_1FRequestEvent.html", "structHarmonixMetasound_1_1FMusicTransportEventStream_1_1FRequestEvent" ],
+    [ "UE_API", "MusicTransport_8h.html#a578eb926c8aecdf908e1338b2e893458", null ],
+    [ "HarmonixMetasound::FMusicTransportEventReadRef", "namespaceHarmonixMetasound.html#a3a3d6350e5f40ac4fd0aec02cf0da2e4", null ],
+    [ "HarmonixMetasound::FMusicTransportEventStreamReadRef", "namespaceHarmonixMetasound.html#acc4529cd339dc3f2ea517bcdbc99c9a4", null ],
+    [ "HarmonixMetasound::FMusicTransportEventStreamTypeInfo", "namespaceHarmonixMetasound.html#afcba89dbe4bc3401505d5947ad7b1101", null ],
+    [ "HarmonixMetasound::FMusicTransportEventStreamWriteRef", "namespaceHarmonixMetasound.html#a4ee2058beccc6e4010b68505842253cd", null ],
+    [ "HarmonixMetasound::FMusicTransportEventTypeInfo", "namespaceHarmonixMetasound.html#a9012c7f05572524481cedc75d6809623", null ],
+    [ "HarmonixMetasound::FMusicTransportEventWriteRef", "namespaceHarmonixMetasound.html#a6647600ed0425bada667581d07ad1b41", null ],
+    [ "HarmonixMetasound::EMusicPlayerTransportRequest", "namespaceHarmonixMetasound.html#a2c49c8eef18efdb10d759d31943a4e85", [
+      [ "HarmonixMetasound::EMusicPlayerTransportRequest::None", "namespaceHarmonixMetasound.html#a2c49c8eef18efdb10d759d31943a4e85a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "HarmonixMetasound::EMusicPlayerTransportRequest::Prepare", "namespaceHarmonixMetasound.html#a2c49c8eef18efdb10d759d31943a4e85af8199556cf6a62ca9268aa50c99b34a1", null ],
+      [ "HarmonixMetasound::EMusicPlayerTransportRequest::Play", "namespaceHarmonixMetasound.html#a2c49c8eef18efdb10d759d31943a4e85ade3c731be5633838089a07179d301d7b", null ],
+      [ "HarmonixMetasound::EMusicPlayerTransportRequest::Pause", "namespaceHarmonixMetasound.html#a2c49c8eef18efdb10d759d31943a4e85a105b296a83f9c105355403f3332af50f", null ],
+      [ "HarmonixMetasound::EMusicPlayerTransportRequest::Continue", "namespaceHarmonixMetasound.html#a2c49c8eef18efdb10d759d31943a4e85aa0bfb8e59e6c13fc8d990781f77694fe", null ],
+      [ "HarmonixMetasound::EMusicPlayerTransportRequest::Stop", "namespaceHarmonixMetasound.html#a2c49c8eef18efdb10d759d31943a4e85a11a755d598c0c417f9a36758c3da7481", null ],
+      [ "HarmonixMetasound::EMusicPlayerTransportRequest::Kill", "namespaceHarmonixMetasound.html#a2c49c8eef18efdb10d759d31943a4e85a292ed5e525d66c64f13a3bf54a17c06a", null ],
+      [ "HarmonixMetasound::EMusicPlayerTransportRequest::Seek", "namespaceHarmonixMetasound.html#a2c49c8eef18efdb10d759d31943a4e85aed7ecb1dbb9be8c65f909819dac7aa54", null ],
+      [ "HarmonixMetasound::EMusicPlayerTransportRequest::Count", "namespaceHarmonixMetasound.html#a2c49c8eef18efdb10d759d31943a4e85ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    ] ],
+    [ "HarmonixMetasound::EMusicPlayerTransportState", "namespaceHarmonixMetasound.html#a95a09ef5400cfedd21309a1e67751daa", [
+      [ "HarmonixMetasound::EMusicPlayerTransportState::Invalid", "namespaceHarmonixMetasound.html#a95a09ef5400cfedd21309a1e67751daaa4bbb8f967da6d1a610596d7257179c2b", null ],
+      [ "HarmonixMetasound::EMusicPlayerTransportState::Preparing", "namespaceHarmonixMetasound.html#a95a09ef5400cfedd21309a1e67751daaaad866f19a13c5386d2ec6df246dcbfac", null ],
+      [ "HarmonixMetasound::EMusicPlayerTransportState::Prepared", "namespaceHarmonixMetasound.html#a95a09ef5400cfedd21309a1e67751daaa4f8ebbe84c83c694e33dfc679cf40ddb", null ],
+      [ "HarmonixMetasound::EMusicPlayerTransportState::Starting", "namespaceHarmonixMetasound.html#a95a09ef5400cfedd21309a1e67751daaac2efe4bbd13e6cb0db293e72884273c0", null ],
+      [ "HarmonixMetasound::EMusicPlayerTransportState::Playing", "namespaceHarmonixMetasound.html#a95a09ef5400cfedd21309a1e67751daaac9dbb2b7c84159b632d71e512eba8428", null ],
+      [ "HarmonixMetasound::EMusicPlayerTransportState::Seeking", "namespaceHarmonixMetasound.html#a95a09ef5400cfedd21309a1e67751daaadfa6bb51bca02efb16d45113cd76c1f4", null ],
+      [ "HarmonixMetasound::EMusicPlayerTransportState::Pausing", "namespaceHarmonixMetasound.html#a95a09ef5400cfedd21309a1e67751daaaf89bf2973f11fc8bac3db5669252725a", null ],
+      [ "HarmonixMetasound::EMusicPlayerTransportState::Paused", "namespaceHarmonixMetasound.html#a95a09ef5400cfedd21309a1e67751daaae99180abf47a8b3a856e0bcb2656990a", null ],
+      [ "HarmonixMetasound::EMusicPlayerTransportState::Continuing", "namespaceHarmonixMetasound.html#a95a09ef5400cfedd21309a1e67751daaa481c481246e60dab7fec4c802d56fee9", null ],
+      [ "HarmonixMetasound::EMusicPlayerTransportState::Stopping", "namespaceHarmonixMetasound.html#a95a09ef5400cfedd21309a1e67751daaa7b7ecb39b9e110c2a31409a1672bad23", null ],
+      [ "HarmonixMetasound::EMusicPlayerTransportState::Killing", "namespaceHarmonixMetasound.html#a95a09ef5400cfedd21309a1e67751daaadcbed5cd612fe3a054bc2042d779c285", null ],
+      [ "HarmonixMetasound::EMusicPlayerTransportState::NumStates", "namespaceHarmonixMetasound.html#a95a09ef5400cfedd21309a1e67751daaa329b3630c4c85bda9505aa4d3a4a98f4", null ]
+    ] ],
+    [ "HarmonixMetasound::MusicPlayerTransportStateToString", "namespaceHarmonixMetasound.html#aa988cdcfeec1dcd60e5d1191fa905822", null ]
+];

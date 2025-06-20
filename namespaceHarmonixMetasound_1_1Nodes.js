@@ -1,0 +1,25 @@
+var namespaceHarmonixMetasound_1_1Nodes =
+[
+    [ "BarBeatToSeekTarget", "namespaceHarmonixMetasound_1_1Nodes_1_1BarBeatToSeekTarget.html", "namespaceHarmonixMetasound_1_1Nodes_1_1BarBeatToSeekTarget" ],
+    [ "DjFilter", "namespaceHarmonixMetasound_1_1Nodes_1_1DjFilter.html", "namespaceHarmonixMetasound_1_1Nodes_1_1DjFilter" ],
+    [ "MetronomeNode", "namespaceHarmonixMetasound_1_1Nodes_1_1MetronomeNode.html", "namespaceHarmonixMetasound_1_1Nodes_1_1MetronomeNode" ],
+    [ "MidiCCTriggerNode", "namespaceHarmonixMetasound_1_1Nodes_1_1MidiCCTriggerNode.html", "namespaceHarmonixMetasound_1_1Nodes_1_1MidiCCTriggerNode" ],
+    [ "MidiChannelFilter", "namespaceHarmonixMetasound_1_1Nodes_1_1MidiChannelFilter.html", "namespaceHarmonixMetasound_1_1Nodes_1_1MidiChannelFilter" ],
+    [ "MidiClockOffset", "namespaceHarmonixMetasound_1_1Nodes_1_1MidiClockOffset.html", "namespaceHarmonixMetasound_1_1Nodes_1_1MidiClockOffset" ],
+    [ "MidiClockSubdivisionTriggerNode", "namespaceHarmonixMetasound_1_1Nodes_1_1MidiClockSubdivisionTriggerNode.html", "namespaceHarmonixMetasound_1_1Nodes_1_1MidiClockSubdivisionTriggerNode" ],
+    [ "MidiNoteFilter", "namespaceHarmonixMetasound_1_1Nodes_1_1MidiNoteFilter.html", "namespaceHarmonixMetasound_1_1Nodes_1_1MidiNoteFilter" ],
+    [ "MidiNoteTranspose", "namespaceHarmonixMetasound_1_1Nodes_1_1MidiNoteTranspose.html", "namespaceHarmonixMetasound_1_1Nodes_1_1MidiNoteTranspose" ],
+    [ "MidiNoteTriggerNode", "namespaceHarmonixMetasound_1_1Nodes_1_1MidiNoteTriggerNode.html", "namespaceHarmonixMetasound_1_1Nodes_1_1MidiNoteTriggerNode" ],
+    [ "MidiPlayerNode", "namespaceHarmonixMetasound_1_1Nodes_1_1MidiPlayerNode.html", "namespaceHarmonixMetasound_1_1Nodes_1_1MidiPlayerNode" ],
+    [ "MidiPulseGeneratorNode", "namespaceHarmonixMetasound_1_1Nodes_1_1MidiPulseGeneratorNode.html", "namespaceHarmonixMetasound_1_1Nodes_1_1MidiPulseGeneratorNode" ],
+    [ "MidiStreamWriter", "namespaceHarmonixMetasound_1_1Nodes_1_1MidiStreamWriter.html", "namespaceHarmonixMetasound_1_1Nodes_1_1MidiStreamWriter" ],
+    [ "MidiTrackFilter", "namespaceHarmonixMetasound_1_1Nodes_1_1MidiTrackFilter.html", "namespaceHarmonixMetasound_1_1Nodes_1_1MidiTrackFilter" ],
+    [ "MorphingLFO", "namespaceHarmonixMetasound_1_1Nodes_1_1MorphingLFO.html", "namespaceHarmonixMetasound_1_1Nodes_1_1MorphingLFO" ],
+    [ "MultibandAnalyzer", "namespaceHarmonixMetasound_1_1Nodes_1_1MultibandAnalyzer.html", "namespaceHarmonixMetasound_1_1Nodes_1_1MultibandAnalyzer" ],
+    [ "MusicTimeStampToSeekTarget", "namespaceHarmonixMetasound_1_1Nodes_1_1MusicTimeStampToSeekTarget.html", "namespaceHarmonixMetasound_1_1Nodes_1_1MusicTimeStampToSeekTarget" ],
+    [ "Peak", "namespaceHarmonixMetasound_1_1Nodes_1_1Peak.html", "namespaceHarmonixMetasound_1_1Nodes_1_1Peak" ],
+    [ "SecsUntilMusicTimestampNode", "namespaceHarmonixMetasound_1_1Nodes_1_1SecsUntilMusicTimestampNode.html", "namespaceHarmonixMetasound_1_1Nodes_1_1SecsUntilMusicTimestampNode" ],
+    [ "StepSequencePlayer", "namespaceHarmonixMetasound_1_1Nodes_1_1StepSequencePlayer.html", "namespaceHarmonixMetasound_1_1Nodes_1_1StepSequencePlayer" ],
+    [ "TimeMsToSeekTarget", "namespaceHarmonixMetasound_1_1Nodes_1_1TimeMsToSeekTarget.html", "namespaceHarmonixMetasound_1_1Nodes_1_1TimeMsToSeekTarget" ],
+    [ "TriggerToTransportNode", "namespaceHarmonixMetasound_1_1Nodes_1_1TriggerToTransportNode.html", "namespaceHarmonixMetasound_1_1Nodes_1_1TriggerToTransportNode" ]
+];

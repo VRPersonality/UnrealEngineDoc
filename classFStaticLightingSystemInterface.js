@@ -1,0 +1,28 @@
+var classFStaticLightingSystemInterface =
+[
+    [ "DECLARE_MULTICAST_DELEGATE", "classFStaticLightingSystemInterface.html#abc283496d751bec2eaeec9b1f0a30267", null ],
+    [ "DECLARE_MULTICAST_DELEGATE_OneParam", "classFStaticLightingSystemInterface.html#a5444699225a6c11b7cf293eb6bbb4feb", null ],
+    [ "DECLARE_MULTICAST_DELEGATE_OneParam", "classFStaticLightingSystemInterface.html#a3c55462674bb33f75a253bdb9331993e", null ],
+    [ "DECLARE_MULTICAST_DELEGATE_TwoParams", "classFStaticLightingSystemInterface.html#ad2955f287e653c5de3fecf65b54acc91", null ],
+    [ "DECLARE_TS_MULTICAST_DELEGATE_OneParam", "classFStaticLightingSystemInterface.html#a5249c9f612ac2cbec563a9bc7e260f28", null ],
+    [ "EditorTick", "classFStaticLightingSystemInterface.html#a9c8a70a1944f959ef51abdc0a159dde4", null ],
+    [ "GameTick", "classFStaticLightingSystemInterface.html#ada75c2a2e5353799a0bb819dc591171b", null ],
+    [ "Get", "classFStaticLightingSystemInterface.html#ae36524e1f3b8853f480e9cb2e0cfe882", null ],
+    [ "GetLightComponentMapBuildData", "classFStaticLightingSystemInterface.html#a3ea3e9fa6254db399573b574269978ef", null ],
+    [ "GetPrecomputedVolumetricLightmap", "classFStaticLightingSystemInterface.html#adb42346036b69b83cae3d4af9f115bc2", null ],
+    [ "GetPreferredImplementation", "classFStaticLightingSystemInterface.html#a69e63089c9740ecbb9021da401ab4a33", null ],
+    [ "GetPrimitiveMeshMapBuildData", "classFStaticLightingSystemInterface.html#a854dbbc3421922081588f568db06237b", null ],
+    [ "IsStaticLightingSystemRunning", "classFStaticLightingSystemInterface.html#ab856eabbde6562d2da8989b895dbcad8", null ],
+    [ "RegisterImplementation", "classFStaticLightingSystemInterface.html#a068b2462ae21bcf55af1e4916d379083", null ],
+    [ "UnregisterImplementation", "classFStaticLightingSystemInterface.html#ad39174bde6a64b75305cfbf921af8406", null ],
+    [ "Implementations", "classFStaticLightingSystemInterface.html#a327173b12a629f55034f562796aac273", null ],
+    [ "Interface", "classFStaticLightingSystemInterface.html#ad428a243ba9c76fac2fb6728966d9e44", null ],
+    [ "OnLightComponentRegistered", "classFStaticLightingSystemInterface.html#a0b1b274eeebe81b51d9b787ee14f69d6", null ],
+    [ "OnLightComponentUnregistered", "classFStaticLightingSystemInterface.html#a14450f1cfe6c4ddeb3a5ad5ad42fca06", null ],
+    [ "OnLightmassImportanceVolumeModified", "classFStaticLightingSystemInterface.html#ad9c4a0e3ff7e6bd7de06eb9268e2c9f5", null ],
+    [ "OnMaterialInvalidated", "classFStaticLightingSystemInterface.html#a5b311dc769b3eb8e1cffbcafcd9cd66d", null ],
+    [ "OnPrimitiveComponentRegistered", "classFStaticLightingSystemInterface.html#a8b8dce94b9027ee0dd0d1457df46d211", null ],
+    [ "OnPrimitiveComponentUnregistered", "classFStaticLightingSystemInterface.html#a8ec83715862c974bcab3aec486c81cd0", null ],
+    [ "OnSkyAtmosphereModified", "classFStaticLightingSystemInterface.html#a9115a1651fe438f378ef036b993479e7", null ],
+    [ "OnStationaryLightChannelReassigned", "classFStaticLightingSystemInterface.html#a72e345dbc5b356822e08e281e3cebac4", null ]
+];

@@ -1,0 +1,25 @@
+var AudioUtility_8h =
+[
+    [ "HarmonixDsp::ClampDB", "namespaceHarmonixDsp.html#afcc8bbae76fedbbd3e8a813243c05124", null ],
+    [ "HarmonixDsp::dBFS", "namespaceHarmonixDsp.html#add354ba32006be675abdc9ce7cbd0b04", null ],
+    [ "HarmonixDsp::DBToLinear", "namespaceHarmonixDsp.html#ac3009e32245d6df84c0c9555e4d9e4e2", null ],
+    [ "HarmonixDsp::DBToMidiLinear", "namespaceHarmonixDsp.html#ab566f76dbddfdd3933f70a41c97a807f", null ],
+    [ "HarmonixDsp::FRandSample", "namespaceHarmonixDsp.html#a339e20210eb728a9a240b033da7b2a43", null ],
+    [ "HarmonixDsp::LinearToDB", "namespaceHarmonixDsp.html#a89979f8529d518f4c4575fce09c880cd", null ],
+    [ "HarmonixDsp::Log10", "namespaceHarmonixDsp.html#a71f853d6943bbfdbd37a922537c113b3", null ],
+    [ "HarmonixDsp::Log10", "namespaceHarmonixDsp.html#a60a767a1a0d7b5e397b80c8c4f95568c", null ],
+    [ "HarmonixDsp::MapLinearToDecibelRange", "namespaceHarmonixDsp.html#ad1b576c446f304b9070237bfa46a3708", null ],
+    [ "HarmonixDsp::Midi14BitLinearToDB", "namespaceHarmonixDsp.html#aeb8cddb50affdc0f31fdfc4de7ef8970", null ],
+    [ "HarmonixDsp::MidiLinearToDB", "namespaceHarmonixDsp.html#a41e6bfaa06c6569c227358e72a4eec79", null ],
+    [ "HarmonixDsp::PanToGainsConstantPower", "namespaceHarmonixDsp.html#a1c8350804aa6e78a079663d2e5e36226", null ],
+    [ "HarmonixDsp::kCentsPerOctave", "namespaceHarmonixDsp.html#a8784c9af1bff501b0f73dbb1a707fa94", null ],
+    [ "HarmonixDsp::kDbMax", "namespaceHarmonixDsp.html#afc016cdcc63b36457fd643a573b8c725", null ],
+    [ "HarmonixDsp::kDbMin", "namespaceHarmonixDsp.html#a9145e47d5afba02cc8b9cdb6391610e1", null ],
+    [ "HarmonixDsp::kDbSilence", "namespaceHarmonixDsp.html#a35b53bffc47edb229770f4980797568a", null ],
+    [ "AudioRendering::kFramesPerRenderBuffer", "namespaceAudioRendering.html#ac1c11766b33e504a71651cec17d92dbb", null ],
+    [ "AudioRendering::kMicroFadeMs", "namespaceAudioRendering.html#a65114308a8fe302459432bf711c4673a", null ],
+    [ "AudioRendering::kMicroFadeSec", "namespaceAudioRendering.html#a040692a567f093be0c9c1ed0152a16e5", null ],
+    [ "AudioRendering::kMicroSliceSize", "namespaceAudioRendering.html#a868018c00565e66842d88fab21a04465", null ],
+    [ "HarmonixDsp::kOctavesPerCent", "namespaceHarmonixDsp.html#a3037b3089f4e5b69078992ed9017f2e1", null ],
+    [ "HarmonixDsp::kTinyGain", "namespaceHarmonixDsp.html#a13183837e91f60dd53af9a3610ecd5a0", null ]
+];

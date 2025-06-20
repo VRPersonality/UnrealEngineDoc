@@ -1,0 +1,27 @@
+var structFCompression =
+[
+    [ "CompressMemory", "structFCompression.html#ad547dfacf2773a451aa139fc74c32255", null ],
+    [ "CompressMemory", "structFCompression.html#a43d7ec0eceec6ab6ff7fa773bb40b864", null ],
+    [ "CompressMemoryBound", "structFCompression.html#a4f2901d2fc5f82db50159b8b28cb667d", null ],
+    [ "CompressMemoryBound", "structFCompression.html#a6e75e245208df1386b15206ef137a0dd", null ],
+    [ "CompressMemoryIfWorthDecompressing", "structFCompression.html#a374af1b823a2c3b0dec4ee27ec1c5285", null ],
+    [ "CompressMemoryIfWorthDecompressing", "structFCompression.html#aa2ff1039edfc65c229ec03a594905b50", null ],
+    [ "GetCompressionFormat", "structFCompression.html#a336bb2068435f9a9d200ac7d1bf418a0", null ],
+    [ "GetCompressorDDCSuffix", "structFCompression.html#a69a91dcd493a7bbf5e1d2d0261e35abc", null ],
+    [ "GetCompressorVersion", "structFCompression.html#ab95f013b6d3c69215fb7e92464529da0", null ],
+    [ "GetMaximumCompressedSize", "structFCompression.html#ab06f8cd460428380029ff58e6a594062", null ],
+    [ "IsFormatValid", "structFCompression.html#a90263d01dbbaa24462d216fc55a82a58", null ],
+    [ "UE_DEPRECATED", "structFCompression.html#a4d5fd0590e6394349fdb1a5a989b99c4", null ],
+    [ "UE_DEPRECATED", "structFCompression.html#a4a10f81fd6dac851422fc8ba49563e0c", null ],
+    [ "UncompressMemory", "structFCompression.html#a3ee1a9f4aed38a303009675f17867791", null ],
+    [ "UncompressMemoryStream", "structFCompression.html#a1dbc759fbb76e514babd0043222a2d75", null ],
+    [ "VerifyCompressionFlagsValid", "structFCompression.html#a542bae47661e17d251b566de9dc248b2", null ],
+    [ "CompressionData", "structFCompression.html#a9f60669f51c3ba01631900b2fe2d444a", null ],
+    [ "CompressionFormats", "structFCompression.html#ac1569971b9f7134d4b6afdc6a6bb36f6", null ],
+    [ "CompressionFormatsCriticalSection", "structFCompression.html#a8c31c85ac2eebcb017aa1525e0232097", null ],
+    [ "CompressorDstBytes", "structFCompression.html#a5915448f25c3ab7189dc5312488c17b3", null ],
+    [ "CompressorSrcBytes", "structFCompression.html#ab4b02cadc7c8c8c97d227bde8638575a", null ],
+    [ "CompressorTimeCycles", "structFCompression.html#a93627d1584858bfc18691de7c5c40854", null ],
+    [ "Flags", "structFCompression.html#afe6601ae5278a651f9b771bea1dc9de3", null ],
+    [ "UncompressedSize", "structFCompression.html#a3f0a79124ad9a9af374140a6301836f2", null ]
+];

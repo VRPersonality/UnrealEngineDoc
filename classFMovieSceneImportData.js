@@ -1,0 +1,25 @@
+var classFMovieSceneImportData =
+[
+    [ "FMovieSceneImportData", "classFMovieSceneImportData.html#a2abb8f10f03935c0bf4230085e57fc17", null ],
+    [ "FMovieSceneImportData", "classFMovieSceneImportData.html#a9081a34b97403ca04a53310402829d26", null ],
+    [ "~FMovieSceneImportData", "classFMovieSceneImportData.html#a6d19fd03875097c8e9e678cecd0c2ce7", null ],
+    [ "ConstructAudioData", "classFMovieSceneImportData.html#a0a0c8fc0afa78e7271dbb7be1b00a2f9", null ],
+    [ "ConstructAudioSectionData", "classFMovieSceneImportData.html#a7ce85928f8b99bb2343aa5b38c549f89", null ],
+    [ "ConstructAudioTrackData", "classFMovieSceneImportData.html#a822313fba850580b91d71bac46151d68", null ],
+    [ "ConstructCinematicData", "classFMovieSceneImportData.html#a11d7972ced7b8219072830258b2e45e9", null ],
+    [ "ConstructCinematicSectionData", "classFMovieSceneImportData.html#a9d6b318b51457ccbf5ae5498d9dc2036", null ],
+    [ "ConstructCinematicTrackData", "classFMovieSceneImportData.html#a5681e2bc9c68e611554df9dbe1c3e9c9", null ],
+    [ "ConstructMovieSceneData", "classFMovieSceneImportData.html#aebd5a7630a4a68fb7596375cf93118db", null ],
+    [ "CreateAudioSection", "classFMovieSceneImportData.html#aa7d08d4bd84678e6aafc25f283160ec9", null ],
+    [ "CreateCinematicSection", "classFMovieSceneImportData.html#ab444ea21b335ee80284f5ff8b9170d82", null ],
+    [ "FindAudioSection", "classFMovieSceneImportData.html#ac576d7d348981bf56fa3b341e06f58eb", null ],
+    [ "FindCinematicSection", "classFMovieSceneImportData.html#abd120716fc9fc53146b4d764a0b5cdb6", null ],
+    [ "GetAudioData", "classFMovieSceneImportData.html#af2132c6b40d1706b8cc9c260082d64f3", null ],
+    [ "GetCinematicData", "classFMovieSceneImportData.html#acbb5e745e1012c4c6ff9be627a787249", null ],
+    [ "IsImportDataValid", "classFMovieSceneImportData.html#a1d1a54b9c4a88c54268d8c9052d5cd9e", null ],
+    [ "MoveAudioSection", "classFMovieSceneImportData.html#a0d20f6c3304fc4097bc43275568f4e4e", null ],
+    [ "SetAudioSection", "classFMovieSceneImportData.html#a96bc4a2b25d2fd6624fd2b69e77a892f", null ],
+    [ "SetCinematicSection", "classFMovieSceneImportData.html#a50f30f4332d5f81b86b82f16b26e3de9", null ],
+    [ "ImportContext", "classFMovieSceneImportData.html#ab4e1a90e9d29f61fa5badd23c6eca7b1", null ],
+    [ "MovieSceneData", "classFMovieSceneImportData.html#a459eda9230f595f9ff5b8e0b8803e520", null ]
+];

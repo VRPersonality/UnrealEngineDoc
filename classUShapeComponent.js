@@ -1,0 +1,27 @@
+var classUShapeComponent =
+[
+    [ "AddShapeToGeomArray", "classUShapeComponent.html#a681064f1a7fb45027f09db691e58ce55", null ],
+    [ "CalcBounds", "classUShapeComponent.html#aee612766b811dbb774b69c7001136286", null ],
+    [ "CreateSceneProxy", "classUShapeComponent.html#a5ac145f8215c29c5cde4dfc5487ad3f7", null ],
+    [ "CreateShapeBodySetupIfNeeded", "classUShapeComponent.html#aef0a2fb42d37e965f7d72168f0e0566f", null ],
+    [ "DoCustomNavigableGeometryExport", "classUShapeComponent.html#aec862404163ddf59815f901ddb05d65e", null ],
+    [ "GENERATED_UCLASS_BODY", "classUShapeComponent.html#addd86dcafb402c22eb95d6c2854bc66d", null ],
+    [ "GetBodySetup", "classUShapeComponent.html#a2e47c619033b647578c82553f7d4867f", null ],
+    [ "GetDesiredAreaClass", "classUShapeComponent.html#abd7b83e46807f6ebbf7d6e87908e1547", null ],
+    [ "GetIgnoreBoundsForEditorFocus", "classUShapeComponent.html#abef04bd92d7bc807abfa12057b781733", null ],
+    [ "GetNavigationData", "classUShapeComponent.html#a3703f5a1b8614313d60df6fc179ed504", null ],
+    [ "IsNavigationRelevant", "classUShapeComponent.html#a23f0dca8744edb34b5b0bfe625fb00d5", null ],
+    [ "PostEditChangeProperty", "classUShapeComponent.html#ab5bb110817ef232f75e90ecfd5eb5c05", null ],
+    [ "PrepareSharedBodySetup", "classUShapeComponent.html#a8749f40856b03cdaac2895717c81ec7b", null ],
+    [ "Serialize", "classUShapeComponent.html#a22832f446a136cb6bf995108be8aeece", null ],
+    [ "SetAreaClassOverride", "classUShapeComponent.html#a9b1d0053ae3d6aa9c0c3b2585b7d67e6", null ],
+    [ "SetShapeToNewGeom", "classUShapeComponent.html#a06f5bccc0b2c2e90939e87cee1b7f8af", null ],
+    [ "SetUseSystemDefaultObstacleAreaClass", "classUShapeComponent.html#a64e6003d93aa39611cd6dcf6f81d8c9b", null ],
+    [ "ShouldCollideWhenPlacing", "classUShapeComponent.html#a631215b37d73e5ce27ce5a6e6916790a", null ],
+    [ "UFUNCTION", "classUShapeComponent.html#a1559e20cd980097dc7449e3597d30076", null ],
+    [ "UpdateBodySetup", "classUShapeComponent.html#ac7bb83457be6b32ea517fbe6b1ebc901", null ],
+    [ "UPROPERTY", "classUShapeComponent.html#a0304b32e7efd1aeac68c23fef4d0c578", null ],
+    [ "UPROPERTY", "classUShapeComponent.html#ae0755aa1d133d3d823e502d6e88ad231", null ],
+    [ "UPROPERTY", "classUShapeComponent.html#a7b979116c9590e0e2faea12c7f1586c2", null ],
+    [ "bUseArchetypeBodySetup", "classUShapeComponent.html#aa8a7c101bcb029d12ffaaa7935de727f", null ]
+];

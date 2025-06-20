@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['keychainutilities_0',['KeyChainUtilities',['../d6/daf/namespaceKeyChainUtilities.html',1,'']]]
+  ['keychainutilities_0',['KeyChainUtilities',['../namespaceKeyChainUtilities.html',1,'']]]
 ];

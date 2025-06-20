@@ -1,0 +1,23 @@
+var MidiClock_8h =
+[
+    [ "Metasound::TDataReferenceTypeInfo< HarmonixMetasound::FMidiClock >", "struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_01HarmonixMetasound_1_1FMidiClock_01_4.html", "struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_01HarmonixMetasound_1_1FMidiClock_01_4" ],
+    [ "Metasound::TDataReferenceTypeInfo< TArray< HarmonixMetasound::FMidiClock > >", "struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_01TArray_3_01HarmonixMetasound_1_1FMidiClock_01_4_01_4.html", "struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_01TArray_3_01HarmonixMetasound_1_1FMidiClock_01_4_01_4" ],
+    [ "Metasound::TDataReferenceTypeInfo<::Metasound::TVariable< HarmonixMetasound::FMidiClock > >", "struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01HarmonixMetasound_1_1FMidiClock_01_4_01_4.html", "struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01HarmonixMetasound_1_1FMidiClock_01_4_01_4" ],
+    [ "Metasound::TDataReferenceTypeInfo<::Metasound::TVariable< TArray< HarmonixMetasound::FMidiClock > > >", "struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArray_3_01Harmonifc163ac768ab1e80f979eb2274dad9ba.html", "struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArray_3_01Harmonifc163ac768ab1e80f979eb2274dad9ba" ],
+    [ "HarmonixMetasound::FMidiClock", "classHarmonixMetasound_1_1FMidiClock.html", "classHarmonixMetasound_1_1FMidiClock" ],
+    [ "Metasound::Metasound::TDataReferenceTypeInfo< FEnumMidiClockSubdivisionQuantizationType >", "structMetasound_1_1_1_1Metasound_1_1TDataReferenceTypeInfo_3_01FEnumMidiClockSubdivisionQuantizationType_01_4.html", "structMetasound_1_1_1_1Metasound_1_1TDataReferenceTypeInfo_3_01FEnumMidiClockSubdivisionQuantizationType_01_4" ],
+    [ "Metasound::Metasound::TDataReferenceTypeInfo< TArray< FEnumMidiClockSubdivisionQuantizationType > >", "structMetasound_1_1_1_1Metasound_1_1TDataReferenceTypeInfo_3_01TArray_3_01FEnumMidiClockSubdivisionQuantizationType_01_4_01_4.html", "structMetasound_1_1_1_1Metasound_1_1TDataReferenceTypeInfo_3_01TArray_3_01FEnumMidiClockSubdivisionQuantizationType_01_4_01_4" ],
+    [ "Metasound::Metasound::TDataReferenceTypeInfo<::Metasound::TVariable< FEnumMidiClockSubdivisionQuantizationType > >", "structMetasound_1_1_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01FEnum667d6b342f482f4c64e8bf98b9e82c32.html", "structMetasound_1_1_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01FEnum667d6b342f482f4c64e8bf98b9e82c32" ],
+    [ "Metasound::Metasound::TDataReferenceTypeInfo<::Metasound::TVariable< TArray< FEnumMidiClockSubdivisionQuantizationType > > >", "structMetasound_1_1_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArrab0bcc926364319adb405cb103bd5c647.html", "structMetasound_1_1_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArrab0bcc926364319adb405cb103bd5c647" ],
+    [ "Metasound::Metasound::TEnumStringHelper< EMidiClockSubdivisionQuantization >", "structMetasound_1_1Metasound_1_1TEnumStringHelper_3_01EMidiClockSubdivisionQuantization_01_4.html", "structMetasound_1_1Metasound_1_1TEnumStringHelper_3_01EMidiClockSubdivisionQuantization_01_4" ],
+    [ "UE_API", "MidiClock_8h.html#a578eb926c8aecdf908e1338b2e893458", null ],
+    [ "HarmonixMetasound::FConstSharedMidiClockPtr", "namespaceHarmonixMetasound.html#a0e49e3779421717389b11540c6bf61ef", null ],
+    [ "Metasound::FEnumMidiClockSubdivisionQuantizationReadRef", "namespaceMetasound.html#aa4de71a88f3bcb8558fa33510cf2f436", null ],
+    [ "Metasound::FEnumMidiClockSubdivisionQuantizationType", "namespaceMetasound.html#a754121e6d5f0ef6524226f864515ac09", null ],
+    [ "Metasound::FEnumMidiClockSubdivisionQuantizationTypeInfo", "namespaceMetasound.html#abb17157cff40ffeecdb391944a4528a3", null ],
+    [ "Metasound::FEnumMidiClockSubdivisionQuantizationWriteRef", "namespaceMetasound.html#aaabfb265de4ab683e0626dfdb75c1e75", null ],
+    [ "HarmonixMetasound::FMidiClockEvents", "namespaceHarmonixMetasound.html#a69a8cda17e6178fa123a3e28c9813c46", null ],
+    [ "HarmonixMetasound::FMidiClockReadRef", "namespaceHarmonixMetasound.html#a21b5fbef288cd9ed205bc688d99f5b58", null ],
+    [ "HarmonixMetasound::FMidiClockTypeInfo", "namespaceHarmonixMetasound.html#a5e645d4cf5a60e5cc1428bec4db1021e", null ],
+    [ "HarmonixMetasound::FMidiClockWriteRef", "namespaceHarmonixMetasound.html#a9bd5ee83962c312afbaa1537719ce8e2", null ]
+];

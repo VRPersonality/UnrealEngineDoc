@@ -1,0 +1,25 @@
+var AnimEncoding_8h =
+[
+    [ "AnimEncoding", "classAnimEncoding.html", "classAnimEncoding" ],
+    [ "AnimEncodingLegacyBase", "classAnimEncodingLegacyBase.html", "classAnimEncodingLegacyBase" ],
+    [ "BoneTrackPair", "structBoneTrackPair.html", "structBoneTrackPair" ],
+    [ "AC_UnalignedSwap", "AnimEncoding_8h.html#a24d5435a86a4ff845bae292bec992454", null ],
+    [ "ANIMATION_ENCODING_PACKAGE_ORIGINAL", "AnimEncoding_8h.html#a32b15b29a86234a9d08fe00098337855", null ],
+    [ "CURRENT_ANIMATION_ENCODING_PACKAGE_VERSION", "AnimEncoding_8h.html#aafe531915cab9be97b56953159397418", null ],
+    [ "MAX_BONES", "AnimEncoding_8h.html#abdb86b63a3ac2d2b3d6ad946ea404087", null ],
+    [ "USE_ANIMATION_CODEC_BATCH_SOLVER", "AnimEncoding_8h.html#ac485475ed392c08eb74887f673140ba0", null ],
+    [ "BoneTrackArray", "AnimEncoding_8h.html#aadb0d208dcc27e17f268e77bc80ba305", null ],
+    [ "FTransformArray", "AnimEncoding_8h.html#afc04fd4f03d7121bbb647d40d4d2df68", null ],
+    [ "AnimationFormat_GetStats", "AnimEncoding_8h.html#a22f26b2f313135eaa6da2e18920e6774", null ],
+    [ "AnimationFormat_SetInterfaceLinks", "AnimEncoding_8h.html#a6eeb8601654af01ab1a0861b8403657c", null ],
+    [ "FindLowKeyIndex", "AnimEncoding_8h.html#a504903c2f4e92f34bffc33e7a4fd3e7c", null ],
+    [ "PadMemoryReader", "AnimEncoding_8h.html#aabe2bf2e9145d7678cb44e02446298f2", null ],
+    [ "PadMemoryWriter", "AnimEncoding_8h.html#a4bc565e9f1efee0a42dca4cc66f9e63c", null ],
+    [ "CompressedRotationNum", "AnimEncoding_8h.html#a9241fcc0a77e5cc4491f0a6d5cb135fa", null ],
+    [ "CompressedRotationStrides", "AnimEncoding_8h.html#abba8f011823f6eb8e53e4474ccdd2a8d", null ],
+    [ "CompressedScaleNum", "AnimEncoding_8h.html#a537d1335b8570364afe7c1474b02639c", null ],
+    [ "CompressedScaleStrides", "AnimEncoding_8h.html#ab634eb9409cee4bec36b61535c9b0c62", null ],
+    [ "CompressedTranslationNum", "AnimEncoding_8h.html#aa484cd6af0ddf8a34f63ad0579bfe982", null ],
+    [ "CompressedTranslationStrides", "AnimEncoding_8h.html#a356dd0dfcca51db87997bfb00dfaff3f", null ],
+    [ "PerTrackNumComponentTable", "AnimEncoding_8h.html#a323427680391abba27a134cecadfd27a", null ]
+];

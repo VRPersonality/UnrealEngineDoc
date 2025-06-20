@@ -1,9 +1,0 @@
-var classFTextToken =
-[
-    [ "FPrivateToken", "da/dc0/structFTextToken_1_1FPrivateToken.html", "da/dc0/structFTextToken_1_1FPrivateToken" ],
-    [ "FTextToken", "d4/d95/classFTextToken.html#ab19ba7fe645f2e8bdd38ebc6807a6932", null ],
-    [ "Create", "d4/d95/classFTextToken.html#a64e00626adcf202a1cbf813c85affb93", null ],
-    [ "GetType", "d4/d95/classFTextToken.html#ae152ee70dad5540230f0eaecaf5752aa", null ],
-    [ "IsSourceLinkOnLeft", "d4/d95/classFTextToken.html#a1df13359469a50732b862eaa1d9b665a", null ],
-    [ "bIsSourceLinkOnLeft", "d4/d95/classFTextToken.html#aa8100a9cd5f51d1fe6dc0f7f53fe4a04", null ]
-];

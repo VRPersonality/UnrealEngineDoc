@@ -1,0 +1,28 @@
+var structFStreamableRenderResourceState =
+[
+    [ "FStreamableRenderResourceState", "structFStreamableRenderResourceState.html#af02f8155c0ae7785b4f6b892a8b6ee83", null ],
+    [ "FStreamableRenderResourceState", "structFStreamableRenderResourceState.html#a1ad5c5ffa0efd5154d0804f225bfc9ee", null ],
+    [ "Clear", "structFStreamableRenderResourceState.html#a567b5705234f921c14cef292dce96dfc", null ],
+    [ "IsValid", "structFStreamableRenderResourceState.html#a3ba505a40f6c50abf919496dbfc8bbbe", null ],
+    [ "IsValidForStreamingRequest", "structFStreamableRenderResourceState.html#a174b96d0690fd290128fb04b8c051948", null ],
+    [ "LODCountToAssetFirstLODIdx", "structFStreamableRenderResourceState.html#a2deff6ebeb4e55aedcdf7ae68973734b", null ],
+    [ "LODCountToFirstLODIdx", "structFStreamableRenderResourceState.html#a842e27d8d8947d338a9f1f10830d98cc", null ],
+    [ "operator=", "structFStreamableRenderResourceState.html#adb712b374e2c6d869c0472e30b4654c7", null ],
+    [ "RequestedFirstLODIdx", "structFStreamableRenderResourceState.html#a7f43e523bd6a69203b8648bcc55e9be9", null ],
+    [ "ResidentFirstLODIdx", "structFStreamableRenderResourceState.html#a713947dcccc58cdd25e98c3420f60a6b", null ],
+    [ "StreamIn", "structFStreamableRenderResourceState.html#a7893c89c39dd058f902aee5945bf24da", null ],
+    [ "StreamOut", "structFStreamableRenderResourceState.html#a7563d63a5d159e649bb7725be3d1d7e7", null ],
+    [ "AssetLODBias", "structFStreamableRenderResourceState.html#a81724ff5fa0060f1fd62fe0ee4a45d82", null ],
+    [ "bHasPendingInitHint", "structFStreamableRenderResourceState.html#ab072edf4def2d7840ce8eac493a7bae3", null ],
+    [ "bHasPendingLODTransitionHint", "structFStreamableRenderResourceState.html#ad040731aa4b9a5e7cba00f17e067424d", null ],
+    [ "bSupportsStreaming", "structFStreamableRenderResourceState.html#a492332d17b048adf10e6c5dcef9f7a77", null ],
+    [ "bSupportsVirtualStreaming", "structFStreamableRenderResourceState.html#a8719edb9930572c09d8aeec07ca5ae35", null ],
+    [ "Data", "structFStreamableRenderResourceState.html#a5ffab007fc6e0eb6b7ba1e5c592f6a73", null ],
+    [ "LODBiasModifier", "structFStreamableRenderResourceState.html#a3e5998e33f890e140f85a503a09c58d1", null ],
+    [ "MAX_LOD_COUNT", "structFStreamableRenderResourceState.html#a00a9aa331307bcce744815c57859eaca", null ],
+    [ "MaxNumLODs", "structFStreamableRenderResourceState.html#a5471e208d2957d23862818ab4ee8d94c", null ],
+    [ "NumNonOptionalLODs", "structFStreamableRenderResourceState.html#aa4fa9977d509db806d9ad9a0436da935", null ],
+    [ "NumNonStreamingLODs", "structFStreamableRenderResourceState.html#aa00b4c4f4b2a1af7a3786261cbd96153", null ],
+    [ "NumRequestedLODs", "structFStreamableRenderResourceState.html#a732c670086d1e21851c6f0e9a59fbbce", null ],
+    [ "NumResidentLODs", "structFStreamableRenderResourceState.html#aaa854b39f7fdc40e7dfa1995d772a3b4", null ]
+];

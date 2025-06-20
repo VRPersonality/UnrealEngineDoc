@@ -1,6 +1,0 @@
-var structFStaticSpatialIndex_1_1FSphere =
-[
-    [ "FSphere", "dc/dc6/structFStaticSpatialIndex_1_1FSphere.html#abfac35b172690d59e3fc9c366a9846b5", null ],
-    [ "Center", "dc/dc6/structFStaticSpatialIndex_1_1FSphere.html#aced40dda5d4436747ba79027580a2dce", null ],
-    [ "Radius", "dc/dc6/structFStaticSpatialIndex_1_1FSphere.html#a355e72695849a000a2e15a33100b3c5d", null ]
-];

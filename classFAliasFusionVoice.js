@@ -1,0 +1,35 @@
+var classFAliasFusionVoice =
+[
+    [ "EState", "classFAliasFusionVoice.html#a5c9fd4d0b2589037a62980e556d62017", [
+      [ "Idle", "classFAliasFusionVoice.html#a5c9fd4d0b2589037a62980e556d62017ae599161956d626eda4cb0a5ffb85271c", null ],
+      [ "Starting", "classFAliasFusionVoice.html#a5c9fd4d0b2589037a62980e556d62017ac2efe4bbd13e6cb0db293e72884273c0", null ],
+      [ "Running", "classFAliasFusionVoice.html#a5c9fd4d0b2589037a62980e556d62017a5bda814c4aedb126839228f1a3d92f09", null ],
+      [ "Released", "classFAliasFusionVoice.html#a5c9fd4d0b2589037a62980e556d62017aea1e34304a5d8ffa7c9b0ed8ede4ef1a", null ]
+    ] ],
+    [ "FAliasFusionVoice", "classFAliasFusionVoice.html#a012fba75752b8afa29f68c503789e91e", null ],
+    [ "FAliasFusionVoice", "classFAliasFusionVoice.html#a906d8c3eed13982b71a589cbc7a96de4", null ],
+    [ "Activate", "classFAliasFusionVoice.html#ab68489726544fa9f7e05a00e0cf8d669", null ],
+    [ "AttackWithTargetNote", "classFAliasFusionVoice.html#adbf6cb77ff2259dca4ba0a1b533a7b98", null ],
+    [ "ClearVoice", "classFAliasFusionVoice.html#ae613262fe734cc97c614a053bae522bf", null ],
+    [ "FastRelease", "classFAliasFusionVoice.html#a3f16a05c9ec1b266b2a56bf5b069ed78", null ],
+    [ "GetAdsrStage", "classFAliasFusionVoice.html#a4a511c6ccf38e8d1128687b3faaa1e86", null ],
+    [ "GetPitchShifter", "classFAliasFusionVoice.html#afc9eeb2de46bf85c549882038c6adffb", null ],
+    [ "GetRealVoice", "classFAliasFusionVoice.html#a99b8e9961c71b19517cad974c2de4a86", null ],
+    [ "GetState", "classFAliasFusionVoice.html#a96bac4b63b33a6ca0be1ee740f57af01", null ],
+    [ "HasBeenRelinquished", "classFAliasFusionVoice.html#affb9c521a37d7cf139a238023ec0ef37", null ],
+    [ "IsAlias", "classFAliasFusionVoice.html#a16e87139babcdeef50a556eedb3c291a", null ],
+    [ "IsInUse", "classFAliasFusionVoice.html#a52c8b001b316e30cbfb7e23c5ec4d99f", null ],
+    [ "IsRendererForAlias", "classFAliasFusionVoice.html#a2c18c4924e4711a76bfee97d8ff32c5a", null ],
+    [ "IsStartingOrRunning", "classFAliasFusionVoice.html#a425a29cc845efdcdbf6a990c2a723bd1", null ],
+    [ "Kill", "classFAliasFusionVoice.html#abc60cf1bda0c78d2be4b18829037e72a", null ],
+    [ "MatchesIDs", "classFAliasFusionVoice.html#a1920eb2b9c1109d3497d4d7cb635e652", null ],
+    [ "Process", "classFAliasFusionVoice.html#aa87ddf9dad755e86f9962be1b911f4e4", null ],
+    [ "Release", "classFAliasFusionVoice.html#a3e7f56e3618f2e877fa66859fae9dc0e", null ],
+    [ "SetPitchOffset", "classFAliasFusionVoice.html#a01bee1978aedc1951a5e03165c973c7f", null ],
+    [ "SetupLfo", "classFAliasFusionVoice.html#a987666b71ea97bc3576c7b714290ed4b", null ],
+    [ "UsesKeyzone", "classFAliasFusionVoice.html#a8c474a699bbe288c6abf71eea7f1a96b", null ],
+    [ "MyVoice", "classFAliasFusionVoice.html#a98806ceb4ce039d254f1a7aa6133cf7b", null ],
+    [ "RelinquishHandler", "classFAliasFusionVoice.html#a68dc74ca1b31c8b7f91bd9da74d98622", null ],
+    [ "State", "classFAliasFusionVoice.html#adfed46b73400d6ba59e8209e603a299f", null ],
+    [ "VoicePool", "classFAliasFusionVoice.html#ac586a8c59222e8608aa417b2efad2758", null ]
+];

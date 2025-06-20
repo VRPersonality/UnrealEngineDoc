@@ -16,7 +16,7 @@ var dir_14e7ebd69e9a4010803c73febb04adda =
     [ "Trace", "dir_e56113399c4cd40ed986cc28a0e64959.html", "dir_e56113399c4cd40ed986cc28a0e64959" ],
     [ "Types", "dir_794fc8708937e2950f05748bfb481b64.html", "dir_794fc8708937e2950f05748bfb481b64" ],
     [ "Widgets", "dir_e7d20d9ce38b6dd031a5aa9f51470c23.html", "dir_e7d20d9ce38b6dd031a5aa9f51470c23" ],
-    [ "SlateCore.h", "dc/d03/SlateCore_8h.html", null ],
-    [ "SlateGlobals.h", "d9/db9/SlateGlobals_8h.html", "d9/db9/SlateGlobals_8h" ],
-    [ "SlotBase.h", "dc/db8/SlotBase_8h.html", "dc/db8/SlotBase_8h" ]
+    [ "SlateCore.h", "SlateCore_8h.html", null ],
+    [ "SlateGlobals.h", "SlateGlobals_8h.html", "SlateGlobals_8h" ],
+    [ "SlotBase.h", "SlotBase_8h.html", "SlotBase_8h" ]
 ];

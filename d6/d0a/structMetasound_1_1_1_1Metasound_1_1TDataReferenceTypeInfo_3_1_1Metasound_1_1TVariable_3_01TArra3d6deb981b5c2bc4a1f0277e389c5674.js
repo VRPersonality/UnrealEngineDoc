@@ -1,7 +1,0 @@
-var structMetasound_1_1_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArra3d6deb981b5c2bc4a1f0277e389c5674 =
-[
-    [ "GetTypeDisplayText", "d6/d0a/structMetasound_1_1_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArra3d6deb981b5c2bc4a1f0277e389c5674.html#a1b8162c487fb0ebc7ef2347c9e91d32c", null ],
-    [ "GetTypeId", "d6/d0a/structMetasound_1_1_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArra3d6deb981b5c2bc4a1f0277e389c5674.html#a2ea1be2b21c6af43f2a214d6b088caf8", null ],
-    [ "TypeName", "d6/d0a/structMetasound_1_1_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArra3d6deb981b5c2bc4a1f0277e389c5674.html#a6a6793d5a425e960030f20921268adc4", null ],
-    [ "TypePtr", "d6/d0a/structMetasound_1_1_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArra3d6deb981b5c2bc4a1f0277e389c5674.html#a7ff7bbafa0ef8c89897addc028509cbd", null ]
-];

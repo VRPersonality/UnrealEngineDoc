@@ -4,5 +4,5 @@ var dir_a7941fb45790ea681930d0ab34e89c5d =
     [ "SoundClassGraph", "dir_30914f7922117664b7a6fc750877ca06.html", "dir_30914f7922117664b7a6fc750877ca06" ],
     [ "SoundCueGraph", "dir_3ba6fa137730a3f71df6c2a50763a05e.html", "dir_3ba6fa137730a3f71df6c2a50763a05e" ],
     [ "SoundSubmixGraph", "dir_352aab7b8cc21aaf9647d540f47b0715.html", "dir_352aab7b8cc21aaf9647d540f47b0715" ],
-    [ "AudioEditorSettings.h", "da/d86/AudioEditorSettings_8h.html", "da/d86/AudioEditorSettings_8h" ]
+    [ "AudioEditorSettings.h", "AudioEditorSettings_8h.html", "AudioEditorSettings_8h" ]
 ];

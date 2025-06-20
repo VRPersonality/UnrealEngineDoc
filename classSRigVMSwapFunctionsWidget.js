@@ -1,0 +1,26 @@
+var classSRigVMSwapFunctionsWidget =
+[
+    [ "GetBulkEditWidget", "classSRigVMSwapFunctionsWidget.html#a3be8a026bd6ddceae1a6e25c33564832", null ],
+    [ "GetFunctionIdentifierNodes", "classSRigVMSwapFunctionsWidget.html#a2644b49adc3cfac8877485a5b667a2f3", null ],
+    [ "GetFunctionRefNodes", "classSRigVMSwapFunctionsWidget.html#a2ed6148af967630c079b2d9168f1f4c0", null ],
+    [ "OnNodeDoubleClicked", "classSRigVMSwapFunctionsWidget.html#a605560ceab42c8291a4d8fcf6f803de2", null ],
+    [ "OnNodeSelected", "classSRigVMSwapFunctionsWidget.html#aca53ed8b4eea3d783eb38a3a7c111316", null ],
+    [ "OnPhaseActivated", "classSRigVMSwapFunctionsWidget.html#a27808ba48deec654dd875d1778198c95", null ],
+    [ "SetSourceFunction", "classSRigVMSwapFunctionsWidget.html#aa714a297b74eb69771dc8efdbaeb4740", null ],
+    [ "SetTargetFunction", "classSRigVMSwapFunctionsWidget.html#a7ac842545303576c7535505c0b19aca2", null ],
+    [ "SLATE_ARGUMENT", "classSRigVMSwapFunctionsWidget.html#ab772dcd2ad165ddc5054f409e3ceebef", null ],
+    [ "SLATE_ARGUMENT", "classSRigVMSwapFunctionsWidget.html#a39310d09c1c24d21831c67b3d7769a63", null ],
+    [ "SLATE_ARGUMENT", "classSRigVMSwapFunctionsWidget.html#a24b0313fd700602ed889d7096891dc12", null ],
+    [ "SLATE_ARGUMENT", "classSRigVMSwapFunctionsWidget.html#a7558b986cbe9647943eb380637638179", null ],
+    [ "SLATE_BEGIN_ARGS", "classSRigVMSwapFunctionsWidget.html#ae33258c3d1e3613ff91c9b09632e3dfc", null ],
+    [ "SLATE_END_ARGS", "classSRigVMSwapFunctionsWidget.html#a428f5d242a74b6a117d802177a1ef445", null ],
+    [ "bSkipPickingFunctionRefs", "classSRigVMSwapFunctionsWidget.html#a77873207a0bc0332f4aa04d1b85871aa", null ],
+    [ "BulkEditWidget", "classSRigVMSwapFunctionsWidget.html#a42d37f635b59c387418bef62d757be70", null ],
+    [ "PHASE_PICKFUNCTIONREFS", "classSRigVMSwapFunctionsWidget.html#a089e451ccc92386459681fd7d2de48bc", null ],
+    [ "PHASE_PICKSOURCE", "classSRigVMSwapFunctionsWidget.html#a20b536dc1148389c528600b34f200bc5", null ],
+    [ "PHASE_PICKTARGET", "classSRigVMSwapFunctionsWidget.html#aefcec29cdefc8b3c8bc98b484f8beff7", null ],
+    [ "PickFunctionRefsContext", "classSRigVMSwapFunctionsWidget.html#a10b975d9adf078a8668a64d7b0b86e6c", null ],
+    [ "PickTargetContext", "classSRigVMSwapFunctionsWidget.html#a54a3766b3a02c5692850f389953efd87", null ],
+    [ "SourcePreviewEnvironment", "classSRigVMSwapFunctionsWidget.html#a57814158e2436b37e8017bc0768e7b72", null ],
+    [ "TargetPreviewEnvironment", "classSRigVMSwapFunctionsWidget.html#a294ea7ca2a28232e15a8f774e2bbd4d6", null ]
+];

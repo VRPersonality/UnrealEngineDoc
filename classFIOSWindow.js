@@ -1,0 +1,17 @@
+var classFIOSWindow =
+[
+    [ "~FIOSWindow", "classFIOSWindow.html#af1526e7d86bf4e1ce49f6bc8c2970265", null ],
+    [ "FIOSWindow", "classFIOSWindow.html#af8408f07b3af4ef0942ed54b98457f14", null ],
+    [ "GetFullScreenInfo", "classFIOSWindow.html#a9af7b7b94a69a17eeb267d0000c475e1", null ],
+    [ "GetOSWindowHandle", "classFIOSWindow.html#ae3fa4ce80b71b2171daded54478e65c3", null ],
+    [ "GetScreenRect", "classFIOSWindow.html#adbdf3647868c14d170456746a307d33e", null ],
+    [ "GetWindowMode", "classFIOSWindow.html#a541a46b401735fb32ac993e0ad0ba3ed", null ],
+    [ "Initialize", "classFIOSWindow.html#a00d4f03bab3de3039cedfc1c7cb4705b", null ],
+    [ "Make", "classFIOSWindow.html#ae94400740a8d84d06a53200be6cda053", null ],
+    [ "OnConsoleResolutionChanged", "classFIOSWindow.html#a8bf4f0a7b41e321a214479a44a20efea", null ],
+    [ "OnScaleFactorChanged", "classFIOSWindow.html#ac9e0d1bdd4e17e88c99e854a69e74b95", null ],
+    [ "OwningApplication", "classFIOSWindow.html#aeff3539b39dc24053cfeaeae0798ba99", null ],
+    [ "RegionX", "classFIOSWindow.html#a4724992fdeed12e09592621337de69d0", null ],
+    [ "RegionY", "classFIOSWindow.html#ac1a16230bd1f47b199b6d73886aed830", null ],
+    [ "Window", "classFIOSWindow.html#aafa22389574d9ef48687b76ecab42f9c", null ]
+];

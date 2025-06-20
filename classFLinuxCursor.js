@@ -1,0 +1,27 @@
+var classFLinuxCursor =
+[
+    [ "FLinuxCursor", "classFLinuxCursor.html#a5bd2adadbe457807c8be11fafca7b328", null ],
+    [ "~FLinuxCursor", "classFLinuxCursor.html#ad29d58a0338fcfec3874892867cb175f", null ],
+    [ "CreateCursorFromRGBABuffer", "classFLinuxCursor.html#adc5bad72ceb7c58c9b72e0892048d0fa", null ],
+    [ "GetPosition", "classFLinuxCursor.html#afd5f7826f5ce5d51df033370b684e4ec", null ],
+    [ "GetSize", "classFLinuxCursor.html#ab83ce3f95a04466011862831593036c2", null ],
+    [ "GetType", "classFLinuxCursor.html#ab7715ff3774b836b463d54935a18ad61", null ],
+    [ "InvalidateCaches", "classFLinuxCursor.html#a275b1746530acd68e35492e35334f83f", null ],
+    [ "IsCreateCursorFromRGBABufferSupported", "classFLinuxCursor.html#a23d09b2f2598e3cdaf50214428f03b5f", null ],
+    [ "IsHidden", "classFLinuxCursor.html#ac20a2f254079c4dc7cb76b157884bea4", null ],
+    [ "Lock", "classFLinuxCursor.html#ad69542a44c92e665b817fdcd5ff9632b", null ],
+    [ "SetCachedPosition", "classFLinuxCursor.html#a5ab731da0b59df4bb65b28e90f3acda3", null ],
+    [ "SetCustomShape", "classFLinuxCursor.html#a130ae7b87cee76a962d1e9802994a243", null ],
+    [ "SetPosition", "classFLinuxCursor.html#a4cad79bbc48e11d8ef68696b623e8107", null ],
+    [ "SetType", "classFLinuxCursor.html#a0647914944d9856ceda5a7ff96360dad", null ],
+    [ "SetTypeShape", "classFLinuxCursor.html#a74c746bebb4b0bd5a1876b0a2523a417", null ],
+    [ "Show", "classFLinuxCursor.html#a17d55619008618798144d66d2689891d", null ],
+    [ "bHidden", "classFLinuxCursor.html#ae6a4d80578763a40f35e1ffd8b2de479", null ],
+    [ "bPositionCacheIsValid", "classFLinuxCursor.html#a6522d2ba96b78f3ac035cbff1a4449d3", null ],
+    [ "CachedGlobalXPosition", "classFLinuxCursor.html#a0ef13773617b55271c619bf00ecd6b52", null ],
+    [ "CachedGlobalYPosition", "classFLinuxCursor.html#addaa66485bb6af8d9c6c95285163f774", null ],
+    [ "CurrentType", "classFLinuxCursor.html#a2b8d4d999f09bdc80fd88d471c35b786", null ],
+    [ "CursorClipRect", "classFLinuxCursor.html#ace1082e14feccd8d55496ba0426471d2", null ],
+    [ "CursorHandles", "classFLinuxCursor.html#a71d28e3bb4dee12acd50e27130e94752", null ],
+    [ "CursorOverrideHandles", "classFLinuxCursor.html#ad14e0806842518b4d13219ccf268ad0a", null ]
+];

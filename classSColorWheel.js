@@ -1,0 +1,26 @@
+var classSColorWheel =
+[
+    [ "~SColorWheel", "classSColorWheel.html#a82e5f439b896125eb09740fe6c79843d", null ],
+    [ "CalcRelativePositionFromCenter", "classSColorWheel.html#ac86cc4326970aef48efcfef505a3539d", null ],
+    [ "ComputeDesiredSize", "classSColorWheel.html#aec853b5e70db1659e7c9396a5d801bff", null ],
+    [ "Construct", "classSColorWheel.html#a351f663a7f79ca45bfd01220238e63fe", null ],
+    [ "OnCursorQuery", "classSColorWheel.html#a963e3f2a292a88d0149cbe351234a027", null ],
+    [ "OnMouseButtonDoubleClick", "classSColorWheel.html#abd95632d3d57a09218140ea9bcaa8cad", null ],
+    [ "OnMouseButtonDown", "classSColorWheel.html#a9b9529f1e1256ab0765807603d531576", null ],
+    [ "OnMouseButtonUp", "classSColorWheel.html#af740977600445173126c281169edd246", null ],
+    [ "OnMouseMove", "classSColorWheel.html#a16c4ae95363433035f124c61f9bcfff3", null ],
+    [ "OnPaint", "classSColorWheel.html#ae35e0d6c375a31b017963a3d6a814d52", null ],
+    [ "ProcessMouseAction", "classSColorWheel.html#a8aa20d303b5105184da8c87b6c3a4984", null ],
+    [ "SLATE_ATTRIBUTE", "classSColorWheel.html#ab28ad3becdb959301ccd5262be7d38b1", null ],
+    [ "SLATE_BEGIN_ARGS", "classSColorWheel.html#a25dbbe35b63c1451f88ee17e8eaf6cde", null ],
+    [ "SLATE_EVENT", "classSColorWheel.html#a7f69452ceee89ddc53633da179387452", null ],
+    [ "bDragging", "classSColorWheel.html#af9beb5a605122503f703db8d224e3a0b", null ],
+    [ "CtrlMultiplier", "classSColorWheel.html#a891c018831c9556f303f2eac1e10160f", null ],
+    [ "Image", "classSColorWheel.html#ab5c8f1876487aef69bf560ecb06be1e2", null ],
+    [ "LastWheelPosition", "classSColorWheel.html#a208bc378fb135f418dcfd6fb67b062c0", null ],
+    [ "OnMouseCaptureBegin", "classSColorWheel.html#a0b6f2dc1cd5378a56f0e129d2918b651", null ],
+    [ "OnMouseCaptureEnd", "classSColorWheel.html#a828cebef4cf3e798d32538499c696e29", null ],
+    [ "OnValueChanged", "classSColorWheel.html#a19bcaee529f98bc81f034cdc809639d3", null ],
+    [ "SelectedColor", "classSColorWheel.html#a5363d4d2213d35df4bb184725d7a9be0", null ],
+    [ "SelectorImage", "classSColorWheel.html#afe16a0a98f668f8b93b905e2b791e01b", null ]
+];

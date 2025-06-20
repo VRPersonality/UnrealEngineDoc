@@ -1,0 +1,4 @@
+var structMetasound_1_1VertexDataPrivate_1_1TGetReferenceDataTypeT_3_01TDataWriteReference_3_01DataType_01_4_01_4 =
+[
+    [ "Type", "structMetasound_1_1VertexDataPrivate_1_1TGetReferenceDataTypeT_3_01TDataWriteReference_3_01DataType_01_4_01_4.html#af946c1955c36ae4f1612df3b9312a774", null ]
+];

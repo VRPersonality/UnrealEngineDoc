@@ -1,0 +1,45 @@
+var TextureStreamingTypes_8h =
+[
+    [ "FPrimitiveMaterialInfo", "structFPrimitiveMaterialInfo.html", "structFPrimitiveMaterialInfo" ],
+    [ "FStreamingTextureLevelContext", "classFStreamingTextureLevelContext.html", "classFStreamingTextureLevelContext" ],
+    [ "FStreamingTextureLevelContext::FTextureBoundState", "structFStreamingTextureLevelContext_1_1FTextureBoundState.html", "structFStreamingTextureLevelContext_1_1FTextureBoundState" ],
+    [ "ITextureStreamingContainer", "structITextureStreamingContainer.html", "structITextureStreamingContainer" ],
+    [ "TEXSTREAM_INITIAL_GPU_SCALE", "TextureStreamingTypes_8h.html#aac1f5cb5c77799a982eaf9c580b9c16f", null ],
+    [ "TEXSTREAM_MAX_NUM_TEXTURES_PER_MATERIAL", "TextureStreamingTypes_8h.html#a787c42d094821dce28dea8937de1cf6a", null ],
+    [ "TEXSTREAM_MAX_NUM_UVCHANNELS", "TextureStreamingTypes_8h.html#a55ed206ac4ab80f8ef6b427e9cfdd2e2", null ],
+    [ "TEXSTREAM_TILE_RESOLUTION", "TextureStreamingTypes_8h.html#ad622b4909f87dcce3aa725a9029fd123", null ],
+    [ "FLODStreamingCallback", "TextureStreamingTypes_8h.html#aaf17a1bb2b9600fa82ed2b7c107335d4", null ],
+    [ "FMaterialToLevelsMap", "TextureStreamingTypes_8h.html#a9314c590525eb368cc4569364f56a203", null ],
+    [ "FTexCoordScaleMap", "TextureStreamingTypes_8h.html#a767f97b7e68ba30aaa6e6fab8b044c36", null ],
+    [ "ELODStreamingCallbackResult", "TextureStreamingTypes_8h.html#afbb2a14310a96bd5b577bf20ed8fe00f", [
+      [ "Success", "TextureStreamingTypes_8h.html#afbb2a14310a96bd5b577bf20ed8fe00fa505a83f220c02df2f85c3810cd9ceb38", null ],
+      [ "TimedOut", "TextureStreamingTypes_8h.html#afbb2a14310a96bd5b577bf20ed8fe00fa9541eb2348d883dd8e32ae0420274c4c", null ],
+      [ "AssetRemoved", "TextureStreamingTypes_8h.html#afbb2a14310a96bd5b577bf20ed8fe00fac1781c526332ed54e3b3ab2d3600a2c1", null ],
+      [ "ComponentRemoved", "TextureStreamingTypes_8h.html#afbb2a14310a96bd5b577bf20ed8fe00fa82032b3786c9cdfce3efaf8fd11d2ede", null ],
+      [ "StreamingDisabled", "TextureStreamingTypes_8h.html#afbb2a14310a96bd5b577bf20ed8fe00fae57a742dd90cf073b18454b747f69bac", null ],
+      [ "NotImplemented", "TextureStreamingTypes_8h.html#afbb2a14310a96bd5b577bf20ed8fe00fa997ca4ce119685f40f03a9a8a6c5346e", null ]
+    ] ],
+    [ "ETextureStreamingBuildType", "TextureStreamingTypes_8h.html#ab6642796c28e355019d60d49e78aa601", [
+      [ "TSB_MapBuild", "TextureStreamingTypes_8h.html#ab6642796c28e355019d60d49e78aa601a93c5d6044bb58873bff1400aa15b6f24", null ],
+      [ "TSB_ActorBuild", "TextureStreamingTypes_8h.html#ab6642796c28e355019d60d49e78aa601ab3b8449f82289318c60db6c7cf6a9e9c", null ],
+      [ "TSB_ValidationOnly", "TextureStreamingTypes_8h.html#ab6642796c28e355019d60d49e78aa601a403d5eabaa6f93d6ed8de8037484860b", null ],
+      [ "TSB_ViewMode", "TextureStreamingTypes_8h.html#ab6642796c28e355019d60d49e78aa601ad884320aa99af3716eb69163f9a34729", null ]
+    ] ],
+    [ "BuildActorTextureStreamingData", "TextureStreamingTypes_8h.html#a90b74d71e1c588c260b4b1eceda4e18b", null ],
+    [ "BuildLevelTextureStreamingComponentDataFromActors", "TextureStreamingTypes_8h.html#a9512a19037e6cf9c6a7205b2e78381c9", null ],
+    [ "BuildTextureStreamingComponentData", "TextureStreamingTypes_8h.html#a579c8afb4dc706237e858af93f3cf75d", null ],
+    [ "CheckTextureStreamingBuildValidity", "TextureStreamingTypes_8h.html#ac4157c89990836de4695b5b6ad9d31de", null ],
+    [ "DECLARE_LOG_CATEGORY_EXTERN", "TextureStreamingTypes_8h.html#a671969883baf3a70f3fe44389a62b49d", null ],
+    [ "GetAverageRequiredTexturePoolSize", "TextureStreamingTypes_8h.html#aa663a1c3b44d30400f7c3c3f25daa340", null ],
+    [ "GetTextureIsStreamable", "TextureStreamingTypes_8h.html#a6f648034eb60ad02281b815bdf588a66", null ],
+    [ "GetTextureIsStreamableOnPlatform", "TextureStreamingTypes_8h.html#aeb3b05ba14ea7d907de5146df9a5662d", null ],
+    [ "PackRelativeBox", "TextureStreamingTypes_8h.html#aa6916f920f1128fa7a5220a09bc6fea9", null ],
+    [ "PackRelativeBox", "TextureStreamingTypes_8h.html#aee26c12dd5c56d5e2cea1226c8999e56", null ],
+    [ "ResetAverageRequiredTexturePoolSize", "TextureStreamingTypes_8h.html#ab08d6917682402b53aba5f23463c4bcd", null ],
+    [ "UnpackRelativeBox", "TextureStreamingTypes_8h.html#a19cc590f5338ecd339d1132b9046154e", null ],
+    [ "USTRUCT", "TextureStreamingTypes_8h.html#ab57faf171e8c70acdb251e34e73b39dc", null ],
+    [ "CVarFramesForFullUpdate", "TextureStreamingTypes_8h.html#a7d167279e2df832823d740e9f9a4b6e1", null ],
+    [ "CVarStreamingUseNewMetrics", "TextureStreamingTypes_8h.html#a5478914adaefa6c68396da30e402522f", null ],
+    [ "InvalidRegisteredStreamableTexture", "TextureStreamingTypes_8h.html#a27fea3a526e6a5d90bdf42e94ff1e6e8", null ],
+    [ "PackedRelativeBox_Identity", "TextureStreamingTypes_8h.html#a8f618f1696214b4ba7d893c8e16e2a01", null ]
+];

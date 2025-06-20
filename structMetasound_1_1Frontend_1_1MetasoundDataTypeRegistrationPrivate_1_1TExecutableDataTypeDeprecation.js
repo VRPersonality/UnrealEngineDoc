@@ -1,0 +1,5 @@
+var structMetasound_1_1Frontend_1_1MetasoundDataTypeRegistrationPrivate_1_1TExecutableDataTypeDeprecation =
+[
+    [ "TExecutableDataTypeDeprecation", "structMetasound_1_1Frontend_1_1MetasoundDataTypeRegistrationPrivate_1_1TExecutableDataTypeDeprecation.html#a3bbf30a44e1e5881eecc9070534e4fdd", null ],
+    [ "TriggerDeprecationMessage", "structMetasound_1_1Frontend_1_1MetasoundDataTypeRegistrationPrivate_1_1TExecutableDataTypeDeprecation.html#a7f0d4f9f6f49add4a4033fbb4b75d92c", null ]
+];

@@ -1,0 +1,28 @@
+var structFFIRFilterTimeBased =
+[
+    [ "FFIRFilterTimeBased", "structFFIRFilterTimeBased.html#af7d906f421a3157f14284e3960d9305a", null ],
+    [ "FFIRFilterTimeBased", "structFFIRFilterTimeBased.html#a355c8d097d33ebed5e0e5d36796d7971", null ],
+    [ "CalculateFilteredOutput", "structFFIRFilterTimeBased.html#a6da944b53ec4b056da74e347f4263ad1", null ],
+    [ "GetInterpolationCoefficient", "structFFIRFilterTimeBased.html#a9a031c39ae3cb6e989a3d04853d855ce", null ],
+    [ "GetSafeCurrentStackIndex", "structFFIRFilterTimeBased.html#aa2ef5abaee57ed3beeffb2b450103a45", null ],
+    [ "Initialize", "structFFIRFilterTimeBased.html#a0e6dfd3afb61562b9e8acd874651121b", null ],
+    [ "IsValid", "structFFIRFilterTimeBased.html#a98517f969e502b95511f4524fb8efb55", null ],
+    [ "NeedsUpdate", "structFFIRFilterTimeBased.html#aba53fa390abe5cff50742018bc878320", null ],
+    [ "RefreshValidFilters", "structFFIRFilterTimeBased.html#aee28801d13f1c38d7331ab86337d049f", null ],
+    [ "SetParams", "structFFIRFilterTimeBased.html#a4ad8f2c8a8f6047aa5f9f52474cee30d", null ],
+    [ "SetToValue", "structFFIRFilterTimeBased.html#a89ff04e99c254740d39bec38bf8d4bee", null ],
+    [ "SetWindowDuration", "structFFIRFilterTimeBased.html#a8104e56b556507bb4195734434ca8f42", null ],
+    [ "UpdateAndGetFilteredData", "structFFIRFilterTimeBased.html#a959bd89f0c450109ee3e0c1fe39eb498", null ],
+    [ "WrapToValue", "structFFIRFilterTimeBased.html#adc1c6f90ab7c036a7f9bc9dcae4a6327", null ],
+    [ "bClamp", "structFFIRFilterTimeBased.html#a98d76aefb4318a0f2ede786884998504", null ],
+    [ "CurrentStackIndex", "structFFIRFilterTimeBased.html#a509714e7960ea0df49a9c481a05cfe93", null ],
+    [ "CurrentTime", "structFFIRFilterTimeBased.html#ad5f15dcf428f2645f27e6953fc23ef43", null ],
+    [ "DampingRatio", "structFFIRFilterTimeBased.html#a63c8b2a28f3951e29924f9e700209fa4", null ],
+    [ "FilterData", "structFFIRFilterTimeBased.html#ade7d64789590a937559844ec0fb46fa3", null ],
+    [ "InterpolationType", "structFFIRFilterTimeBased.html#a98e7a880fc5544df8a962cbfc2cbeae0", null ],
+    [ "LastOutput", "structFFIRFilterTimeBased.html#a05bc859cad0c752a2c870f0218cdb786", null ],
+    [ "MaxSpeed", "structFFIRFilterTimeBased.html#aad676607296d69a86718717e86718564", null ],
+    [ "MaxValue", "structFFIRFilterTimeBased.html#a211eb02521123892cfd950c50cf126c0", null ],
+    [ "MinValue", "structFFIRFilterTimeBased.html#ac2d6c92a957beafb159af54b3a263d50", null ],
+    [ "WindowDuration", "structFFIRFilterTimeBased.html#ab4427410e1944e3538c8c697cbdeb73d", null ]
+];

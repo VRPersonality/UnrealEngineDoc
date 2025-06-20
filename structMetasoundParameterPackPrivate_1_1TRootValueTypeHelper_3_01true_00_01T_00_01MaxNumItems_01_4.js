@@ -1,0 +1,4 @@
+var structMetasoundParameterPackPrivate_1_1TRootValueTypeHelper_3_01true_00_01T_00_01MaxNumItems_01_4 =
+[
+    [ "Type", "structMetasoundParameterPackPrivate_1_1TRootValueTypeHelper_3_01true_00_01T_00_01MaxNumItems_01_4.html#ad6a50d19b3c91cc35924730d22201ee3", null ]
+];

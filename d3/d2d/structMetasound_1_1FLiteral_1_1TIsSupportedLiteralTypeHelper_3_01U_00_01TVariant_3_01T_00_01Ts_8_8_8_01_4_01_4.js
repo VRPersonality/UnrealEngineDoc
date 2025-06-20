@@ -1,4 +1,0 @@
-var structMetasound_1_1FLiteral_1_1TIsSupportedLiteralTypeHelper_3_01U_00_01TVariant_3_01T_00_01Ts_8_8_8_01_4_01_4 =
-[
-    [ "Value", "d3/d2d/structMetasound_1_1FLiteral_1_1TIsSupportedLiteralTypeHelper_3_01U_00_01TVariant_3_01T_00_01Ts_8_8_8_01_4_01_4.html#adf7fe9e99236e5e111dd9ebdc097b72f", null ]
-];

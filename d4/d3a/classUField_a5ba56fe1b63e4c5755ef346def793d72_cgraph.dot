@@ -1,0 +1,14 @@
+digraph "UField::DECLARE_CASTED_CLASS_INTRINSIC_WITH_API"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="UField::DECLARE_CASTED\l_CLASS_INTRINSIC_WITH_API",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UField::UField",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d3a/classUField.html#a18db5c1b4f35c29d6ccd5b9ce3f7206a",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UObject::UObject",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/def/classUObject.html#ae1e8afb0b1117edf494eab22aea37761",tooltip="Default constructor."];
+}

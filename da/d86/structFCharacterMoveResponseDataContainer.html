@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Unreal Engine 5.6 C++ Documentation: FCharacterMoveResponseDataContainer Struct Reference</title>
+<title>Unreal Engine 5.6 C++ API: FCharacterMoveResponseDataContainer Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -18,7 +18,11 @@
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
-<link href="../../unreal_theme.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -27,9 +31,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Unreal Engine 5.6 C++ Documentation<span id="projectnumber">&#160;5.6</span>
+   <div id="projectname">Unreal Engine 5.6 C++ API<span id="projectnumber">&#160;5.6.0</span>
    </div>
-   <div id="projectbrief">Documentation UE5 avec chemins sources corrects</div>
+   <div id="projectbrief">C++ API documentation for Unreal Engine 5.6</div>
   </td>
  </tr>
  </tbody>
@@ -64,7 +68,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(function(){initNavTree('da/d86/structFCharacterMoveResponseDataContainer.html','../../','d8/d90/structFCharacterMoveResponseDataContainer-members'); });
+$(function(){initNavTree('da/d86/structFCharacterMoveResponseDataContainer.html','../../',''); });
 </script>
 <div id="container">
 <div id="doc-content">
@@ -97,33 +101,39 @@ $(function(){initNavTree('da/d86/structFCharacterMoveResponseDataContainer.html'
 <p>Response from the server to the client about a move that is being acknowledged.  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/CharacterMovementReplication.h</a>&gt;</code></p>
+<p><code>#include &quot;<a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a>&quot;</code></p>
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Collaboration diagram for FCharacterMoveResponseDataContainer:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 0 --></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a3b13b72ce8948308cb414632d628f91d" id="r_a3b13b72ce8948308cb414632d628f91d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b13b72ce8948308cb414632d628f91d">FCharacterMoveResponseDataContainer</a> ()</td></tr>
 <tr class="memitem:a3be1fe5dda46261c4955d125b7d210e2" id="r_a3be1fe5dda46261c4955d125b7d210e2"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3be1fe5dda46261c4955d125b7d210e2">~FCharacterMoveResponseDataContainer</a> ()</td></tr>
-<tr class="memitem:ac7ff7e84f6946f24e82facbc56d27526" id="r_ac7ff7e84f6946f24e82facbc56d27526"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7ff7e84f6946f24e82facbc56d27526">ServerFillResponseData</a> (const <a class="el" href="../../da/d75/classUCharacterMovementComponent.html">UCharacterMovementComponent</a> &amp;CharacterMovement, const <a class="el" href="../../df/df4/structFClientAdjustment.html">FClientAdjustment</a> &amp;PendingAdjustment)</td></tr>
-<tr class="memdesc:ac7ff7e84f6946f24e82facbc56d27526"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the <a class="el" href="../../df/df4/structFClientAdjustment.html">FClientAdjustment</a> and set a few flags relevant to that data.  <br /></td></tr>
-<tr class="memitem:a25be306ab035ceb7dffd7243566cacd2" id="r_a25be306ab035ceb7dffd7243566cacd2"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25be306ab035ceb7dffd7243566cacd2">Serialize</a> (<a class="el" href="../../da/d75/classUCharacterMovementComponent.html">UCharacterMovementComponent</a> &amp;CharacterMovement, FArchive &amp;Ar, UPackageMap *PackageMap)</td></tr>
+<tr class="memitem:a5a10885b17f5ae9782037cda05e018e5" id="r_a5a10885b17f5ae9782037cda05e018e5"><td class="memItemLeft" align="right" valign="top">FRootMotionSourceGroup *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a10885b17f5ae9782037cda05e018e5">GetRootMotionSourceGroup</a> (UCharacterMovementComponent &amp;CharacterMovement) const</td></tr>
+<tr class="memitem:abe54abddf66423d835c7347438e2b4b4" id="r_abe54abddf66423d835c7347438e2b4b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe54abddf66423d835c7347438e2b4b4">IsCorrection</a> () const</td></tr>
+<tr class="memitem:a64a2bcb4a0bf796c3a4e7eb6fdbda6c5" id="r_a64a2bcb4a0bf796c3a4e7eb6fdbda6c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64a2bcb4a0bf796c3a4e7eb6fdbda6c5">IsGoodMove</a> () const</td></tr>
+<tr class="memitem:a25be306ab035ceb7dffd7243566cacd2" id="r_a25be306ab035ceb7dffd7243566cacd2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25be306ab035ceb7dffd7243566cacd2">Serialize</a> (UCharacterMovementComponent &amp;CharacterMovement, <a class="el" href="../../d0/df8/classFArchive.html">FArchive</a> &amp;<a class="el" href="../../d4/da3/StatsCommand_8h.html#a95a42fe4ca3180b042ae725512d41d7d">Ar</a>, <a class="el" href="../../d6/d48/classUPackageMap.html">UPackageMap</a> *PackageMap)</td></tr>
 <tr class="memdesc:a25be306ab035ceb7dffd7243566cacd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the <a class="el" href="../../df/df4/structFClientAdjustment.html">FClientAdjustment</a> data and other internal flags.  <br /></td></tr>
-<tr class="memitem:a64a2bcb4a0bf796c3a4e7eb6fdbda6c5" id="r_a64a2bcb4a0bf796c3a4e7eb6fdbda6c5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64a2bcb4a0bf796c3a4e7eb6fdbda6c5">IsGoodMove</a> () const</td></tr>
-<tr class="memitem:abe54abddf66423d835c7347438e2b4b4" id="r_abe54abddf66423d835c7347438e2b4b4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe54abddf66423d835c7347438e2b4b4">IsCorrection</a> () const</td></tr>
-<tr class="memitem:a5a10885b17f5ae9782037cda05e018e5" id="r_a5a10885b17f5ae9782037cda05e018e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d68/structFRootMotionSourceGroup.html">FRootMotionSourceGroup</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a10885b17f5ae9782037cda05e018e5">GetRootMotionSourceGroup</a> (<a class="el" href="../../da/d75/classUCharacterMovementComponent.html">UCharacterMovementComponent</a> &amp;CharacterMovement) const</td></tr>
+<tr class="memitem:ac7ff7e84f6946f24e82facbc56d27526" id="r_ac7ff7e84f6946f24e82facbc56d27526"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7ff7e84f6946f24e82facbc56d27526">ServerFillResponseData</a> (const UCharacterMovementComponent &amp;CharacterMovement, const <a class="el" href="../../df/df4/structFClientAdjustment.html">FClientAdjustment</a> &amp;PendingAdjustment)</td></tr>
+<tr class="memdesc:ac7ff7e84f6946f24e82facbc56d27526"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the <a class="el" href="../../df/df4/structFClientAdjustment.html">FClientAdjustment</a> and set a few flags relevant to that data.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:ad480ab57207cf23a5f03a09f8752e795" id="r_ad480ab57207cf23a5f03a09f8752e795"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad480ab57207cf23a5f03a09f8752e795">bHasBase</a></td></tr>
-<tr class="memitem:ae887b320bb87256ede13db21618b892c" id="r_ae887b320bb87256ede13db21618b892c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae887b320bb87256ede13db21618b892c">bHasRotation</a></td></tr>
-<tr class="memitem:ad1e7d91088e8b44401ac4dcc86ac1cc5" id="r_ad1e7d91088e8b44401ac4dcc86ac1cc5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1e7d91088e8b44401ac4dcc86ac1cc5">bRootMotionMontageCorrection</a></td></tr>
-<tr class="memitem:a4f4de03d5084affd6046c6e1a1248e48" id="r_a4f4de03d5084affd6046c6e1a1248e48"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f4de03d5084affd6046c6e1a1248e48">bRootMotionSourceCorrection</a></td></tr>
+Data Fields</h2></td></tr>
+<tr class="memitem:ad480ab57207cf23a5f03a09f8752e795" id="r_ad480ab57207cf23a5f03a09f8752e795"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad480ab57207cf23a5f03a09f8752e795">bHasBase</a></td></tr>
+<tr class="memitem:ae887b320bb87256ede13db21618b892c" id="r_ae887b320bb87256ede13db21618b892c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae887b320bb87256ede13db21618b892c">bHasRotation</a></td></tr>
+<tr class="memitem:ad1e7d91088e8b44401ac4dcc86ac1cc5" id="r_ad1e7d91088e8b44401ac4dcc86ac1cc5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1e7d91088e8b44401ac4dcc86ac1cc5">bRootMotionMontageCorrection</a></td></tr>
+<tr class="memitem:a4f4de03d5084affd6046c6e1a1248e48" id="r_a4f4de03d5084affd6046c6e1a1248e48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f4de03d5084affd6046c6e1a1248e48">bRootMotionSourceCorrection</a></td></tr>
 <tr class="memitem:aaacfaefac03a9197c20aa96b17008290" id="r_aaacfaefac03a9197c20aa96b17008290"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/df4/structFClientAdjustment.html">FClientAdjustment</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaacfaefac03a9197c20aa96b17008290">ClientAdjustment</a></td></tr>
-<tr class="memitem:a7b3344fb7a234ca61f5c731fd2de13fb" id="r_a7b3344fb7a234ca61f5c731fd2de13fb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b3344fb7a234ca61f5c731fd2de13fb">RootMotionTrackPosition</a></td></tr>
 <tr class="memitem:ad27ee3763ae0856bb22ce8f0c3ea7b57" id="r_ad27ee3763ae0856bb22ce8f0c3ea7b57"><td class="memItemLeft" align="right" valign="top">FVector_NetQuantizeNormal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad27ee3763ae0856bb22ce8f0c3ea7b57">RootMotionRotation</a></td></tr>
+<tr class="memitem:a7b3344fb7a234ca61f5c731fd2de13fb" id="r_a7b3344fb7a234ca61f5c731fd2de13fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d9a/SCurveEditor_8h.html#a6a1bb6ed41f44b60e7bd83b0e9945aa7">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b3344fb7a234ca61f5c731fd2de13fb">RootMotionTrackPosition</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Response from the server to the client about a move that is being acknowledged. </p>
-<p>Internally it mainly copies the <a class="el" href="../../df/df4/structFClientAdjustment.html">FClientAdjustment</a> from the <a class="el" href="../../da/d75/classUCharacterMovementComponent.html" title="CharacterMovementComponent handles movement logic for the associated Character owner.">UCharacterMovementComponent</a> indicating the response, as well as setting a few relevant flags about the response and serializing the response to and from an FArchive for handling the variable-size payload over the network. </p>
+<p>Internally it mainly copies the <a class="el" href="../../df/df4/structFClientAdjustment.html">FClientAdjustment</a> from the UCharacterMovementComponent indicating the response, as well as setting a few relevant flags about the response and serializing the response to and from an <a class="el" href="../../d0/df8/classFArchive.html" title="Base class for archives that can be used for loading, saving, and garbage collecting in a byte order ...">FArchive</a> for handling the variable-size payload over the network. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00298">298</a> of file <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a>.</p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -152,7 +162,7 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00302">302</a> of file <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00331">bHasBase</a>, <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00332">bHasRotation</a>, <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00333">bRootMotionMontageCorrection</a>, <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00334">bRootMotionSourceCorrection</a>, <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00340">RootMotionRotation</a>, and <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00339">RootMotionTrackPosition</a>.</p>
+<p class="reference">References <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00331">bHasBase</a>, <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00332">bHasRotation</a>, <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00333">bRootMotionMontageCorrection</a>, <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00334">bRootMotionSourceCorrection</a>, <a class="el" href="../../da/d38/CoreMiscDefines_8h_source.html#l00156">ForceInitToZero</a>, <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00340">RootMotionRotation</a>, and <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00339">RootMotionTrackPosition</a>.</p>
 
 </div>
 </div>
@@ -191,9 +201,9 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../da/d68/structFRootMotionSourceGroup.html">FRootMotionSourceGroup</a> * FCharacterMoveResponseDataContainer::GetRootMotionSourceGroup </td>
+          <td class="memname">FRootMotionSourceGroup * FCharacterMoveResponseDataContainer::GetRootMotionSourceGroup </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/d75/classUCharacterMovementComponent.html">UCharacterMovementComponent</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>CharacterMovement</em></span></td><td>)</td>
+          <td class="paramtype">UCharacterMovementComponent &amp;</td>          <td class="paramname"><span class="paramname"><em>CharacterMovement</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -211,7 +221,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool FCharacterMoveResponseDataContainer::IsCorrection </td>
+          <td class="memname"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a> FCharacterMoveResponseDataContainer::IsCorrection </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -227,6 +237,12 @@ Public Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00327">327</a> of file <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00326">IsGoodMove()</a>.</p>
+<div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the call graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 1 --></div>
+</div>
 
 </div>
 </div>
@@ -240,7 +256,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool FCharacterMoveResponseDataContainer::IsGoodMove </td>
+          <td class="memname"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a> FCharacterMoveResponseDataContainer::IsGoodMove </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -257,6 +273,14 @@ Public Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00337">ClientAdjustment</a>.</p>
 
+<p class="reference">Referenced by <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00327">IsCorrection()</a>.</p>
+<div id="dynsection-2" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 2 --></div>
+</div>
+
 </div>
 </div>
 <a id="a25be306ab035ceb7dffd7243566cacd2" name="a25be306ab035ceb7dffd7243566cacd2"></a>
@@ -269,19 +293,19 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool FCharacterMoveResponseDataContainer::Serialize </td>
+          <td class="memname">virtual <a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a> FCharacterMoveResponseDataContainer::Serialize </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/d75/classUCharacterMovementComponent.html">UCharacterMovementComponent</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>CharacterMovement</em></span>, </td>
+          <td class="paramtype">UCharacterMovementComponent &amp;</td>          <td class="paramname"><span class="paramname"><em>CharacterMovement</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">FArchive &amp;</td>          <td class="paramname"><span class="paramname"><em>Ar</em></span>, </td>
+          <td class="paramtype"><a class="el" href="../../d0/df8/classFArchive.html">FArchive</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>Ar</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">UPackageMap *</td>          <td class="paramname"><span class="paramname"><em>PackageMap</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="../../d6/d48/classUPackageMap.html">UPackageMap</a> *</td>          <td class="paramname"><span class="paramname"><em>PackageMap</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -292,6 +316,8 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Serialize the <a class="el" href="../../df/df4/structFClientAdjustment.html">FClientAdjustment</a> data and other internal flags. </p>
+
+<p class="reference">References <a class="el" href="../../d4/da3/StatsCommand_8h_source.html#l00016">Ar</a>.</p>
 
 </div>
 </div>
@@ -307,7 +333,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">virtual void FCharacterMoveResponseDataContainer::ServerFillResponseData </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../da/d75/classUCharacterMovementComponent.html">UCharacterMovementComponent</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>CharacterMovement</em></span>, </td>
+          <td class="paramtype">const UCharacterMovementComponent &amp;</td>          <td class="paramname"><span class="paramname"><em>CharacterMovement</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -326,7 +352,7 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Field Documentation</h2>
 <a id="ad480ab57207cf23a5f03a09f8752e795" name="ad480ab57207cf23a5f03a09f8752e795"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad480ab57207cf23a5f03a09f8752e795">&#9670;&#160;</a></span>bHasBase</h2>
 
@@ -334,12 +360,14 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool FCharacterMoveResponseDataContainer::bHasBase</td>
+          <td class="memname"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a> FCharacterMoveResponseDataContainer::bHasBase</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00331">331</a> of file <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00302">FCharacterMoveResponseDataContainer()</a>.</p>
 
 </div>
 </div>
@@ -350,12 +378,14 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool FCharacterMoveResponseDataContainer::bHasRotation</td>
+          <td class="memname"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a> FCharacterMoveResponseDataContainer::bHasRotation</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00332">332</a> of file <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00302">FCharacterMoveResponseDataContainer()</a>.</p>
 
 </div>
 </div>
@@ -366,12 +396,14 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool FCharacterMoveResponseDataContainer::bRootMotionMontageCorrection</td>
+          <td class="memname"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a> FCharacterMoveResponseDataContainer::bRootMotionMontageCorrection</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00333">333</a> of file <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00302">FCharacterMoveResponseDataContainer()</a>.</p>
 
 </div>
 </div>
@@ -382,12 +414,14 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool FCharacterMoveResponseDataContainer::bRootMotionSourceCorrection</td>
+          <td class="memname"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a> FCharacterMoveResponseDataContainer::bRootMotionSourceCorrection</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00334">334</a> of file <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00302">FCharacterMoveResponseDataContainer()</a>.</p>
 
 </div>
 </div>
@@ -405,6 +439,8 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00337">337</a> of file <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a>.</p>
 
+<p class="reference">Referenced by <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00326">IsGoodMove()</a>.</p>
+
 </div>
 </div>
 <a id="ad27ee3763ae0856bb22ce8f0c3ea7b57" name="ad27ee3763ae0856bb22ce8f0c3ea7b57"></a>
@@ -421,6 +457,8 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00340">340</a> of file <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a>.</p>
 
+<p class="reference">Referenced by <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00302">FCharacterMoveResponseDataContainer()</a>.</p>
+
 </div>
 </div>
 <a id="a7b3344fb7a234ca61f5c731fd2de13fb" name="a7b3344fb7a234ca61f5c731fd2de13fb"></a>
@@ -430,17 +468,19 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float FCharacterMoveResponseDataContainer::RootMotionTrackPosition</td>
+          <td class="memname"><a class="el" href="../../db/d9a/SCurveEditor_8h.html#a6a1bb6ed41f44b60e7bd83b0e9945aa7">float</a> FCharacterMoveResponseDataContainer::RootMotionTrackPosition</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00339">339</a> of file <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a>.</p>
 
+<p class="reference">Referenced by <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00302">FCharacterMoveResponseDataContainer()</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/<a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a></li>
+<li><a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -456,7 +496,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a href="../../da/d86/structFCharacterMoveResponseDataContainer.html">FCharacterMoveResponseDataContainer</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+    <li class="footer">Generated on <span class="timestamp"></span> for Unreal Engine 5.6 C++ API by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>
 </body>

@@ -1,0 +1,21 @@
+digraph "TraceServices::FEnumerateAsyncTask::EnumerateOrderedByEndTime"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TraceServices::FEnumerate\lAsyncTask::EnumerateOrderedByEndTime",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TraceServices::Enumerate\lAsyncAlgoritm::EnumerateEvents\lDownSampled",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/dfe/classTraceServices_1_1EnumerateAsyncAlgoritm.html#abe95a7d3aa56ba169f7d00be992be268",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TraceServices::FDetailLevel\l::GetEvent",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d1f/structTraceServices_1_1FDetailLevel.html#ae3f740337b7e02d50865d31171aae616",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TraceServices::TPagedArray\l::GetIteratorFromItem",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db8/classTraceServices_1_1TPagedArray.html#a5cfcbec7351e4d82508ac56db5705cdc",tooltip=" "];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TraceServices::FDetailLevel\l::GetScopeEntryTime",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d1f/structTraceServices_1_1FDetailLevel.html#a43a790c73ff0e53a0d9a423db0b11410",tooltip=" "];
+  Node2 -> Node6 [id="edge5_Node000002_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="TraceServices::Enumerate\lAsyncAlgoritm::ShouldStopSearching\lForEndEvents",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/dfe/classTraceServices_1_1EnumerateAsyncAlgoritm.html#a18b6c4a1f338f366b956be614149b26c",tooltip=" "];
+  Node6 -> Node5 [id="edge6_Node000006_Node000005",color="steelblue1",style="solid",tooltip=" "];
+}

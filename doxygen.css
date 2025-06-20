@@ -2440,3 +2440,10 @@ details[open]>summary::before {
 	font-size: 80%;
 }
 
+
+html {
+--timestamp: 'Fri Jun 20 2025 03:27:52'
+}
+span.timestamp { content: ' '; }
+span.timestamp:before { content: var(--timestamp); }
+

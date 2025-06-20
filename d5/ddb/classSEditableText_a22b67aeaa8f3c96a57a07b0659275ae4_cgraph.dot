@@ -1,0 +1,19 @@
+digraph "SEditableText::SLATE_EVENT"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="SEditableText::SLATE\l_EVENT",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Called whenever the text is committed."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SEditableText::OnTextCommitted",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/ddb/classSEditableText.html#aa2c1928204f7b0a42662423559fb2e67",tooltip="Called when the text control has committed its current edit changes."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SEditableText::SLATE\l_ATTRIBUTE",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/ddb/classSEditableText.html#a6ce9701a2afa332ebb63584443944ff9",tooltip="Sets the text content for this editable text widget."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="SEditableText::SLATE\l_EVENT",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/ddb/classSEditableText.html#a93f1e7510a5ef51ada78b3b6566e8e42",tooltip="This is NOT for validating input!"];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="SEditableText::OnTextChanged",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/ddb/classSEditableText.html#ab252610f50a5fcf3153c8797b59edcc1",tooltip="Called when the text has been changed by an edit operation."];
+  Node4 -> Node4 [id="edge5_Node000004_Node000004",color="steelblue1",style="solid",tooltip=" "];
+}

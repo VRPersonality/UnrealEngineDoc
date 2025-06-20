@@ -1,0 +1,4 @@
+var structMetasound_1_1VertexDataPrivate_1_1TGetVertexAccess_3_01TDataWriteReference_3_01DataType_01_4_01_4 =
+[
+    [ "VertexAccess", "d3/d8a/structMetasound_1_1VertexDataPrivate_1_1TGetVertexAccess_3_01TDataWriteReference_3_01DataType_01_4_01_4.html#a080b6e82890089fde8af15a3c84c7d3e", null ]
+];

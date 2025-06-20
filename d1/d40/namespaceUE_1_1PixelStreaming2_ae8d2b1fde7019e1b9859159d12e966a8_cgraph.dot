@@ -1,0 +1,21 @@
+digraph "UE::PixelStreaming2::IsHardwareEncoderSupported"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="UE::PixelStreaming2\l::IsHardwareEncoderSupported",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="As windows supports many RHIs and many codecs, we need to check at runtime if the current codec and R..."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="MakeShared",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d17/SharedPointer_8h.html#a263c00158120ebc1c5485f1201a6f34d",tooltip="MakeShared utility function."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Forward",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d24/UnrealTemplate_8h.html#a68f280c1d561a8899a1e9e3ea8405d00",tooltip="Forward will cast a reference to an rvalue reference."];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="SharedPointerInternals\l::TIntrusiveReferenceController\l::GetObjectPtr",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d0f/classSharedPointerInternals_1_1TIntrusiveReferenceController.html#abbed2fe02963777a4ec2fb6c2d619beb",tooltip=" "];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="UE::Core::Private::\lMakeSharedRef",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/de6/namespaceUE_1_1Core_1_1Private.html#aff81f6fda6cd780a91812bea83b7f9d1",tooltip=" "];
+  Node2 -> Node6 [id="edge5_Node000002_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="SharedPointerInternals\l::NewIntrusiveReferenceController",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d6a/namespaceSharedPointerInternals.html#a27870bf9f0653ce64eb0333857178446",tooltip="Creates an intrusive reference controller."];
+  Node6 -> Node3 [id="edge6_Node000006_Node000003",color="steelblue1",style="solid",tooltip=" "];
+}

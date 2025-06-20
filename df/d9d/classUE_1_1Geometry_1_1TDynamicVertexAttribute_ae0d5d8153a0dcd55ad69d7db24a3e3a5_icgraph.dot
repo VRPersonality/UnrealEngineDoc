@@ -1,0 +1,12 @@
+digraph "UE::Geometry::TDynamicVertexAttribute::Copy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UE::Geometry::TDynamicVertex\lAttribute::Copy",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Set this overlay to contain the same arrays as the copy overlay."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Geometry::TDynamicVertex\lAttribute\< AttribValueType,\l AttribDimension, FDynamicMesh3\l \>::MakeCopy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d9d/classUE_1_1Geometry_1_1TDynamicVertexAttribute.html#a38a66050c0770da02474bdd9339236f2",tooltip=" "];
+}

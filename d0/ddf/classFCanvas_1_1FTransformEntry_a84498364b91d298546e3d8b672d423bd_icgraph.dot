@@ -1,0 +1,16 @@
+digraph "FCanvas::FTransformEntry::GetMatrixCRC"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FCanvas::FTransformEntry\l::GetMatrixCRC",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FCanvasBatchedElementRender\lItem::IsMatch",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/df5/classFCanvasBatchedElementRenderItem.html#ad1d4ea9e1571f278077d6f5fa67de139",tooltip="Determine if this is a matching set by comparing texture,blendmode,elementype,transform."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FCanvasTileRendererItem\l::IsMatch",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dd2/classFCanvasTileRendererItem.html#a5bcc7f27409501baec662ccf984a13cf",tooltip="Determine if this is a matching set by comparing material,transform."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FCanvasTriangleRendererItem\l::IsMatch",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/ddc/classFCanvasTriangleRendererItem.html#af814365a5df6cf5874a9917e61f8d9ad",tooltip="Determine if this is a matching set by comparing material,transform."];
+}

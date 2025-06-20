@@ -1,0 +1,20 @@
+digraph "UE::Geometry::FOptionallySparseIndexMap::BadIndex"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UE::Geometry::FOptionally\lSparseIndexMap::BadIndex",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Geometry::FOptionally\lSparseIndexMap::Contains",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/da6/structUE_1_1Geometry_1_1FOptionallySparseIndexMap.html#a5c850a0ec6e32065fe12f968c74580b1",tooltip="dense variant: returns true unless you have set index to InvalidIndex (eg via SetToInvalid) sparse va..."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::Geometry::FOptionally\lSparseIndexMap::operator[]",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/da6/structUE_1_1Geometry_1_1FOptionallySparseIndexMap.html#afed83e57f5c5262cd49b27d06205ab5f",tooltip="Array-style accessor to the map."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UE::Geometry::FOptionally\lSparseIndexMap::Set",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/da6/structUE_1_1Geometry_1_1FOptionallySparseIndexMap.html#af5f09d04c61ff0677f975647d54f8942",tooltip="Sets the map at a given index."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="UE::Geometry::FOptionally\lSparseIndexMap::SetInvalid",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/da6/structUE_1_1Geometry_1_1FOptionallySparseIndexMap.html#a9f224cdb587e2d9a679e311b5eb6494e",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="UE::Geometry::FOptionally\lSparseIndexMap::Unset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/da6/structUE_1_1Geometry_1_1FOptionallySparseIndexMap.html#a720e03ccf56d0dc0dcfb0692c9a7ada7",tooltip=" "];
+}

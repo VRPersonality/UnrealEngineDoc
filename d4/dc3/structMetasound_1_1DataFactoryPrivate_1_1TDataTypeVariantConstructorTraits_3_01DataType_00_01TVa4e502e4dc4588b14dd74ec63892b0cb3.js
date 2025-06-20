@@ -1,0 +1,12 @@
+var structMetasound_1_1DataFactoryPrivate_1_1TDataTypeVariantConstructorTraits_3_01DataType_00_01TVa4e502e4dc4588b14dd74ec63892b0cb3 =
+[
+    [ "FConstructorTraits", "d4/dc3/structMetasound_1_1DataFactoryPrivate_1_1TDataTypeVariantConstructorTraits_3_01DataType_00_01TVa4e502e4dc4588b14dd74ec63892b0cb3.html#a1b588c384d8fcf5ebcf823033ed48f34", null ],
+    [ "bIsArrayConstructibleWithArgs", "d4/dc3/structMetasound_1_1DataFactoryPrivate_1_1TDataTypeVariantConstructorTraits_3_01DataType_00_01TVa4e502e4dc4588b14dd74ec63892b0cb3.html#af721d457e75b23ef09b3f32f5df570d2", null ],
+    [ "bIsArrayConstructibleWithSettings", "d4/dc3/structMetasound_1_1DataFactoryPrivate_1_1TDataTypeVariantConstructorTraits_3_01DataType_00_01TVa4e502e4dc4588b14dd74ec63892b0cb3.html#af981e2a56e7fb2620c679a1ff51e4bc3", null ],
+    [ "bIsArrayConstructibleWithSettingsAndArgs", "d4/dc3/structMetasound_1_1DataFactoryPrivate_1_1TDataTypeVariantConstructorTraits_3_01DataType_00_01TVa4e502e4dc4588b14dd74ec63892b0cb3.html#a8bf317ac27a1e315802486f69454d0d5", null ],
+    [ "bIsArrayDefaultConstructible", "d4/dc3/structMetasound_1_1DataFactoryPrivate_1_1TDataTypeVariantConstructorTraits_3_01DataType_00_01TVa4e502e4dc4588b14dd74ec63892b0cb3.html#a26773df6a614baba4dc0b1afdda848dc", null ],
+    [ "bIsConstructibleWithArgs", "d4/dc3/structMetasound_1_1DataFactoryPrivate_1_1TDataTypeVariantConstructorTraits_3_01DataType_00_01TVa4e502e4dc4588b14dd74ec63892b0cb3.html#a89e891c34a6d6acdb3bab0f1c48e6d50", null ],
+    [ "bIsConstructibleWithSettings", "d4/dc3/structMetasound_1_1DataFactoryPrivate_1_1TDataTypeVariantConstructorTraits_3_01DataType_00_01TVa4e502e4dc4588b14dd74ec63892b0cb3.html#ac7751b091429063b3e3d47162e7d5322", null ],
+    [ "bIsConstructibleWithSettingsAndArgs", "d4/dc3/structMetasound_1_1DataFactoryPrivate_1_1TDataTypeVariantConstructorTraits_3_01DataType_00_01TVa4e502e4dc4588b14dd74ec63892b0cb3.html#a76734ca5cc8a25748ebdfadc65a6dc29", null ],
+    [ "bIsDefaultConstructible", "d4/dc3/structMetasound_1_1DataFactoryPrivate_1_1TDataTypeVariantConstructorTraits_3_01DataType_00_01TVa4e502e4dc4588b14dd74ec63892b0cb3.html#a3cccfc3f31c7c76b22bf9a3e034f1fb1", null ]
+];

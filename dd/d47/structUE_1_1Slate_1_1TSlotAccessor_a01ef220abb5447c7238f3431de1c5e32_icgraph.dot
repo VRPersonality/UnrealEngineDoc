@@ -1,0 +1,18 @@
+digraph "UE::Slate::TSlotAccessor::GetMinSize"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UE::Slate::TSlotAccessor\l::GetMinSize",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Get the slot's minimum size, if set."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="ArrangeChildrenInStack",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d09/LayoutUtils_8h.html#ae1bf8af69bca2cb016d358d3d48c2764",tooltip="Note that this accepts Child Proxies rather than the children themselves, allowing layout operations ..."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="ArrangeChildrenInStack",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d09/LayoutUtils_8h.html#a32ffca0be97fcdd05b96ca999774f1b9",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="ArrangeChildrenInStack",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d09/LayoutUtils_8h.html#a608b3a81506574faf3a65a6c5c229b34",tooltip=" "];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="ArrangeChildrenInStack",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d09/LayoutUtils_8h.html#ab8ab1f86c885d9f684a3f5da14dbe437",tooltip=" "];
+}

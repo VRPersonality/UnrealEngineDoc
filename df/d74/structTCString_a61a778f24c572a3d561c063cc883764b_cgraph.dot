@@ -1,0 +1,16 @@
+digraph "TCString::Strnistr"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TCString::Strnistr",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Finds string in string, case insensitive."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TCString::Strnicmp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d74/structTCString.html#a766119e5e1c8a1abb4f21e25fa0a54e9",tooltip="strnicmp wrapper"];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FGenericPlatformStricmp\l::Strnicmp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dd5/structFGenericPlatformStricmp.html#a7e104aa68e47503b9e06636234bfba39",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TChar::ToUpper",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d80/structTChar.html#aac4391f075601d2adf118e96acf8da83",tooltip="Only converts ASCII characters, same as CRT to[w]upper() with standard C locale."];
+}

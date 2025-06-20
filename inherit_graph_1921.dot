@@ -1,0 +1,24 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="FGeometryScriptBakeTypes",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d42/structFGeometryScriptBakeTypes.html",tooltip=" "];
+  Node0 -> Node1 [id="edge4017_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 [id="Node000001",label="FGeometryScriptBakeType\l_Constant",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d63/structFGeometryScriptBakeType__Constant.html",tooltip=" "];
+  Node0 -> Node2 [id="edge4018_Node000000_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FGeometryScriptBakeType\l_Curvature",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d6a/structFGeometryScriptBakeType__Curvature.html",tooltip=" "];
+  Node0 -> Node3 [id="edge4019_Node000000_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FGeometryScriptBakeType\l_Height",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/de9/structFGeometryScriptBakeType__Height.html",tooltip=" "];
+  Node0 -> Node4 [id="edge4020_Node000000_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FGeometryScriptBakeType\l_MultiTexture",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/ddb/structFGeometryScriptBakeType__MultiTexture.html",tooltip=" "];
+  Node0 -> Node5 [id="edge4021_Node000000_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FGeometryScriptBakeType\l_Occlusion",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d53/structFGeometryScriptBakeType__Occlusion.html",tooltip=" "];
+  Node0 -> Node6 [id="edge4022_Node000000_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FGeometryScriptBakeType\l_Texture",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/df7/structFGeometryScriptBakeType__Texture.html",tooltip=" "];
+  Node0 -> Node7 [id="edge4023_Node000000_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="FGeometryScriptBakeType\l_UVShell",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d66/structFGeometryScriptBakeType__UVShell.html",tooltip=" "];
+}

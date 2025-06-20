@@ -1,0 +1,16 @@
+digraph "FSimulatedNavigationMetaData::SLATE_METADATA_TYPE"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FSimulatedNavigationMeta\lData::SLATE_METADATA_TYPE",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FSimulatedNavigationMeta\lData::FSimulatedNavigationMetaData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d45/classFSimulatedNavigationMetaData.html#a940cae6f6acc118b1675c1584360fa13",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FNavigationMetaData\l::GetBoundaryRule",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d75/classFNavigationMetaData.html#af8b02fdeac9d8232ceb1024bf3d0bf7c",tooltip="Get the boundary rule for the provided navigation type."];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FNavigationMetaData\l::GetFocusRecipient",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d75/classFNavigationMetaData.html#aff27bfe3d04c2135ea239ecd8d77d546",tooltip="Get the focus recipient for the provided navigation type."];
+}

@@ -1,0 +1,12 @@
+digraph "IMovieScenePlayer::NotifyBindingUpdate"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="IMovieScenePlayer::\lNotifyBindingUpdate",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Called whenever an object binding has been resolved to give the player a chance to interact with the ..."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="IMovieScenePlayer::\lNotifyBindingsChanged",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d16/classIMovieScenePlayer.html#a2aa3ede8d2f96c3aad7f827e80fa72d5",tooltip="Called whenever any object bindings have changed."];
+}

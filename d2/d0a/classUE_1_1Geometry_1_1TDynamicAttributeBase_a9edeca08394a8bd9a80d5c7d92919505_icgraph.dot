@@ -1,0 +1,20 @@
+digraph "UE::Geometry::TDynamicAttributeBase::CopyParentClassData"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UE::Geometry::TDynamicAttribute\lBase::CopyParentClassData",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Implementation of parent-class copy."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Geometry::TDynamicVertex\lAttribute\< AttribValueType,\l AttribDimension, FDynamicMesh3\l \>::CompactCopy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d9d/classUE_1_1Geometry_1_1TDynamicVertexAttribute.html#a9b3bad8bdb970fecbfea8e99658f27fd",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::Geometry::TDynamicVertex\lSkinWeightsAttribute\< FDynamicMesh3\l \>::CompactCopy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d3e/classUE_1_1Geometry_1_1TDynamicVertexSkinWeightsAttribute.html#a138bfe8d3d8a18c4a4e7a2a246060424",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UE::Geometry::TDynamicVertex\lAttribute\< AttribValueType,\l AttribDimension, FDynamicMesh3 \>::Copy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d9d/classUE_1_1Geometry_1_1TDynamicVertexAttribute.html#ae0d5d8153a0dcd55ad69d7db24a3e3a5",tooltip=" "];
+  Node4 -> Node4 [id="edge4_Node000004_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node5 [id="edge5_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="UE::Geometry::TDynamicVertex\lSkinWeightsAttribute\< FDynamicMesh3\l \>::Copy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d3e/classUE_1_1Geometry_1_1TDynamicVertexSkinWeightsAttribute.html#a24fca43b8fdd1c77029bf806bbe17b31",tooltip=" "];
+  Node5 -> Node5 [id="edge6_Node000005_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

@@ -1,0 +1,16 @@
+digraph "IPlatformFile::GetLowerLevel"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="IPlatformFile::GetLowerLevel",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Gets the platform file wrapped by this file."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="IPlatformFile::AddLocalDirectories",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d1e/classIPlatformFile.html#a349c70aebf1a50c76f4381f9adc0aa5f",tooltip="Identifies any platform specific paths that are guaranteed to be local (i.e."];
+  Node2 -> Node2 [id="edge2_Node000002_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node3 [id="edge3_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="IPlatformFile::BypassSecurity",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d1e/classIPlatformFile.html#a74e8c41d4155bc2ce2aee85fd192b1f9",tooltip=" "];
+  Node3 -> Node3 [id="edge4_Node000003_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

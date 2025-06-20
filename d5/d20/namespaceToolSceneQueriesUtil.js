@@ -1,0 +1,25 @@
+var namespaceToolSceneQueriesUtil =
+[
+    [ "FFindSceneSnapPointParams", "de/dc3/structToolSceneQueriesUtil_1_1FFindSceneSnapPointParams.html", "de/dc3/structToolSceneQueriesUtil_1_1FFindSceneSnapPointParams" ],
+    [ "FSnapGeometry", "d9/dc1/structToolSceneQueriesUtil_1_1FSnapGeometry.html", "d9/dc1/structToolSceneQueriesUtil_1_1FSnapGeometry" ],
+    [ "CalculateDimensionFromVisualAngleD", "d5/d20/namespaceToolSceneQueriesUtil.html#a9ce805557d1c8f46f93cf3ae89ba749d", null ],
+    [ "CalculateDimensionFromVisualAngleD", "d5/d20/namespaceToolSceneQueriesUtil.html#aad0e593124c1c500b7643a0bc9deb6e2", null ],
+    [ "CalculateNormalizedViewVisualAngleD", "d5/d20/namespaceToolSceneQueriesUtil.html#a187f79f1395212a10de229980875efab", null ],
+    [ "CalculateViewVisualAngleD", "d5/d20/namespaceToolSceneQueriesUtil.html#a7cd6676af9f69eaa774726f52682b754", null ],
+    [ "CalculateViewVisualAngleD", "d5/d20/namespaceToolSceneQueriesUtil.html#a3e87a837aa5f0f82f4688ab85e2b63a4", null ],
+    [ "FindNearestVisibleObjectHit", "d5/d20/namespaceToolSceneQueriesUtil.html#ac6b9c270cbbb7fc82d31c8f269767373", null ],
+    [ "FindNearestVisibleObjectHit", "d5/d20/namespaceToolSceneQueriesUtil.html#ad911f0e3c959224a423485174b6b32e4", null ],
+    [ "FindNearestVisibleObjectHit", "d5/d20/namespaceToolSceneQueriesUtil.html#a90dee2c4c51b31b06260901c3aba568e", null ],
+    [ "FindNearestVisibleObjectHit", "d5/d20/namespaceToolSceneQueriesUtil.html#af3539a56d80f3f005972c9af70d115cf", null ],
+    [ "FindNearestVisibleObjectHit", "d5/d20/namespaceToolSceneQueriesUtil.html#a19c86987aefb40af3b2c08fb86459e76", null ],
+    [ "FindSceneSnapPoint", "d5/d20/namespaceToolSceneQueriesUtil.html#a10348c0149baaff3d5e26452087fac25", null ],
+    [ "FindSceneSnapPoint", "d5/d20/namespaceToolSceneQueriesUtil.html#a546f0c47ca4f271185b7f53ccdb734ab", null ],
+    [ "FindWorldGridSnapPoint", "d5/d20/namespaceToolSceneQueriesUtil.html#ac1240a38887cf75098032c721814853a", null ],
+    [ "GetDefaultVisualAngleSnapThreshD", "d5/d20/namespaceToolSceneQueriesUtil.html#af5acebcb325fd89298922c59a4103782", null ],
+    [ "IsPointVisible", "d5/d20/namespaceToolSceneQueriesUtil.html#a3d24b8e093feb25ffe52fdf765db920c", null ],
+    [ "IsVisibleObjectHit", "d5/d20/namespaceToolSceneQueriesUtil.html#a0249df3dc8b8ce2ae4abeed7db656eb8", null ],
+    [ "PointSnapMetric", "d5/d20/namespaceToolSceneQueriesUtil.html#ab4fb47b4f2e441117266b3654ec31595", null ],
+    [ "PointSnapQuery", "d5/d20/namespaceToolSceneQueriesUtil.html#a5f6bb84d9f902e5e73111ecb047d6af0", null ],
+    [ "PointSnapQuery", "d5/d20/namespaceToolSceneQueriesUtil.html#aa127949aabb18365f20a075e03c81503", null ],
+    [ "SnapDistanceToWorldGridSize", "d5/d20/namespaceToolSceneQueriesUtil.html#acb0bc9528df8434899526ec9c23aa82e", null ]
+];

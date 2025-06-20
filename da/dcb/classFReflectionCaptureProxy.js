@@ -1,0 +1,25 @@
+var classFReflectionCaptureProxy =
+[
+    [ "FReflectionCaptureProxy", "da/dcb/classFReflectionCaptureProxy.html#a976211d8678e3b0fec06e574e9cf286e", null ],
+    [ "SetTransform", "da/dcb/classFReflectionCaptureProxy.html#a2f1b3457b5a0b23c061ee16bb2777223", null ],
+    [ "UE_DEPRECATED", "da/dcb/classFReflectionCaptureProxy.html#af9762c596062d83191c17d89712fc4cb", null ],
+    [ "UpdateMobileUniformBuffer", "da/dcb/classFReflectionCaptureProxy.html#aea11cfd790daa9b6690eb0eeb0b42060", null ],
+    [ "BoxScales", "da/dcb/classFReflectionCaptureProxy.html#a365656e3ca8d88ff3bc7dd232684059b", null ],
+    [ "BoxTransform", "da/dcb/classFReflectionCaptureProxy.html#a9f9a8c96e228d6b0ccb05b5fce1690ce", null ],
+    [ "BoxTransitionDistance", "da/dcb/classFReflectionCaptureProxy.html#a7276aff4f0964e5cf9a613f31baa2120", null ],
+    [ "Brightness", "da/dcb/classFReflectionCaptureProxy.html#a1d788fe2e272501daf9b464b6b5f644a", null ],
+    [ "bUsingPreviewCaptureData", "da/dcb/classFReflectionCaptureProxy.html#ab347c1583e4c77c9f716ef1ce0a26798", null ],
+    [ "CaptureOffset", "da/dcb/classFReflectionCaptureProxy.html#a5b924ccd9212fbd7ef3019e9645e1d60", null ],
+    [ "Component", "da/dcb/classFReflectionCaptureProxy.html#a13eea873a26002523b331151ecb1f14a", null ],
+    [ "EncodedHDRAverageBrightness", "da/dcb/classFReflectionCaptureProxy.html#ac00beb0351a0075f591da2bfc593b110", null ],
+    [ "EncodedHDRCubemap", "da/dcb/classFReflectionCaptureProxy.html#a812ee8b03daa54a710abc1bef60eed4b", null ],
+    [ "Guid", "da/dcb/classFReflectionCaptureProxy.html#ae8d8d43d111c81859ccad72c6edc8cf2", null ],
+    [ "InfluenceRadius", "da/dcb/classFReflectionCaptureProxy.html#a27c9b3c514cd84888e11aab891694d80", null ],
+    [ "LocalReflectionPlane", "da/dcb/classFReflectionCaptureProxy.html#a405c04290015e636501696ecd98571fd", null ],
+    [ "MobileUniformBuffer", "da/dcb/classFReflectionCaptureProxy.html#a88f6a59d3e652a3365d5511c7043fdb3", null ],
+    [ "PackedIndex", "da/dcb/classFReflectionCaptureProxy.html#a643e140c4c70ea537fb26559325bf6ad", null ],
+    [ "Position", "da/dcb/classFReflectionCaptureProxy.html#ae3fb228292d0309878a88263137fb91f", null ],
+    [ "ReflectionXAxisAndYScale", "da/dcb/classFReflectionCaptureProxy.html#aaeafcf8488a1457e35841ffd2854a611", null ],
+    [ "Shape", "da/dcb/classFReflectionCaptureProxy.html#a2bc84155cc6ef45a46daa442fcfd5556", null ],
+    [ "SortedCaptureIndex", "da/dcb/classFReflectionCaptureProxy.html#a33b80294d56ed5264d006c120e5dac0e", null ]
+];

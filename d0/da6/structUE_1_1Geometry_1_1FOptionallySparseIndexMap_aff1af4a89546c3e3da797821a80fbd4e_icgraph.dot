@@ -1,0 +1,16 @@
+digraph "UE::Geometry::FOptionallySparseIndexMap::FOptionallySparseIndexMap"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UE::Geometry::FOptionally\lSparseIndexMap::FOptionallySparse\lIndexMap",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="default constructor sets map to sparse, w/ constant -1 default value"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Geometry::FOptionally\lSparseIndexMap::ConstantMap",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/da6/structUE_1_1Geometry_1_1FOptionallySparseIndexMap.html#aae94ecd755da8a940061444f0a5117aa",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::Geometry::FOptionally\lSparseIndexMap::IdentityMap",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/da6/structUE_1_1Geometry_1_1FOptionallySparseIndexMap.html#afbcf89a83341e3b5a713eaea38f2acd1",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UE::Geometry::FOptionally\lSparseIndexMap::SparseIdentityMap",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/da6/structUE_1_1Geometry_1_1FOptionallySparseIndexMap.html#a4c93369dcf9fa8f688a66d4c2f7909b6",tooltip=" "];
+}

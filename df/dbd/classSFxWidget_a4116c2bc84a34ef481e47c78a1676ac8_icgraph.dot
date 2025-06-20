@@ -1,0 +1,14 @@
+digraph "SFxWidget::SLATE_ATTRIBUTE"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SFxWidget::SLATE_ATTRIBUTE",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Scale the visuals of this widget."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SFxWidget::SLATE_ATTRIBUTE",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/dbd/classSFxWidget.html#a67b8e1dafa09f20b05a8048d2fbeae36",tooltip="Should the FX widget disable all clipping and show through regardless of its parents' bounds."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SFxWidget::SLATE_ATTRIBUTE",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/dbd/classSFxWidget.html#a651f87768e31930a27c86328637a29ba",tooltip="Just like visual scale only affects Geometry."];
+}

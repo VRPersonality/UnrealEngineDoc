@@ -1,0 +1,53 @@
+digraph "FClassTree::ChangeParentClass"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FClassTree::ChangeParent\lClass",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Move a class node in the hierarchy tree after a class has changed its SuperClass."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FClassTree::FClassTree",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d1f/classFClassTree.html#ab81b1df8ddb0e9a62089da48f26bc27b",tooltip="Constructor."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FClassTree::AddChildNode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d1f/classFClassTree.html#a54df5579b4aaa8bffebfc071fd8de6a7",tooltip="Adds a new child node to this node, sorted alphabetically by name."];
+  Node3 -> Node2 [id="edge3_Node000003_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node4 [id="edge4_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FClassTree::GetClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d1f/classFClassTree.html#a65b4c4c235bda0c1170e4057307a0cbf",tooltip="Get the class associated with this node."];
+  Node3 -> Node5 [id="edge5_Node000003_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="UObjectBaseUtility\l::GetName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d7b/classUObjectBaseUtility.html#a9cbbee0c3614fa6de5d125a2d28bf609",tooltip="Returns the name of this object (with no path information)"];
+  Node5 -> Node6 [id="edge6_Node000005_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="UObjectBase::GetFName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/dc4/classUObjectBase.html#a52d48dbf4c1cb6f4959b4c9ef374de2d",tooltip="Returns the logical name of this object."];
+  Node5 -> Node7 [id="edge7_Node000005_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="FName::ToString",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d53/classFName.html#aa1dc865b721f80e46e8d67993a24bb9e",tooltip="Converts an FName to a readable format."];
+  Node3 -> Node8 [id="edge8_Node000003_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="TCString\< TCHAR \>::\lStricmp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d74/structTCString.html#a64acb3ebd0e785617a54abe835957608",tooltip=" "];
+  Node1 -> Node9 [id="edge9_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="FClassTree::AddClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d1f/classFClassTree.html#ae7e3c2d4bae004214ab22fbd89f0667d",tooltip="Public interface for adding a new class to the tree."];
+  Node9 -> Node2 [id="edge10_Node000009_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node9 -> Node10 [id="edge11_Node000009_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="FClassTree::AddChildClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d1f/classFClassTree.html#a2e194894d2f1f5d2fc9e881f6552163d",tooltip="Private interface for adding a new UClass to the class tree."];
+  Node10 -> Node2 [id="edge12_Node000010_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node10 -> Node10 [id="edge13_Node000010_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 -> Node3 [id="edge14_Node000010_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node10 -> Node11 [id="edge15_Node000010_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="UStruct::IsChildOf",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d19/classUStruct.html#a8e3ec7a5e338fc3b99e3d81bf07d4311",tooltip="Returns true if this struct either is class T, or is a child of class T."];
+  Node11 -> Node11 [id="edge16_Node000011_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node1 [id="edge17_Node000001_Node000001",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node12 [id="edge18_Node000001_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="FClassTree::GetNode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d1f/classFClassTree.html#ab5d91adfd5c7844b215fa0501aee4877",tooltip="Find the node associated with the class specified."];
+  Node12 -> Node2 [id="edge19_Node000012_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node12 -> Node11 [id="edge20_Node000012_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node13 [id="edge21_Node000001_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="UClass::GetSuperClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d77/classUClass.html#aafb82e374c37f130107959822cc94d5a",tooltip="Returns parent class, the parent of a Class is always another class."];
+  Node13 -> Node14 [id="edge22_Node000013_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="UClass::UClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d77/classUClass.html#a3eaf7ab414407b1d5821cc1c9b371ae5",tooltip=" "];
+  Node14 -> Node15 [id="edge23_Node000014_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="FObjectInitializer::Get",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d7f/classFObjectInitializer.html#a3ab3a5eb9bb94e7fabd8f722288da7c7",tooltip="Gets ObjectInitializer for the currently constructed object."];
+  Node15 -> Node16 [id="edge24_Node000015_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="FObjectInitializer\l::FObjectInitializer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d7f/classFObjectInitializer.html#ac956e895bb18d4becb2cbfdf1218233b",tooltip="Default Constructor, used when you are using the C++ \"new\" syntax."];
+  Node13 -> Node17 [id="edge25_Node000013_Node000017",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="UStruct::GetSuperStruct",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d19/classUStruct.html#a9531f827c9a9669bc4f57092a5d7dc7d",tooltip="Struct this inherits from, may be null."];
+  Node17 -> Node18 [id="edge26_Node000017_Node000018",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="UStruct::UStruct",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d19/classUStruct.html#a8c84fcc7584f4275efd7182dcdbbac5c",tooltip=" "];
+}

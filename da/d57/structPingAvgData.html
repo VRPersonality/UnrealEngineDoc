@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Unreal Engine 5.6 C++ Documentation: PingAvgData Struct Reference</title>
+<title>Unreal Engine 5.6 C++ API: PingAvgData Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -18,7 +18,11 @@
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
-<link href="../../unreal_theme.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -27,9 +31,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Unreal Engine 5.6 C++ Documentation<span id="projectnumber">&#160;5.6</span>
+   <div id="projectname">Unreal Engine 5.6 C++ API<span id="projectnumber">&#160;5.6.0</span>
    </div>
-   <div id="projectbrief">Documentation UE5 avec chemins sources corrects</div>
+   <div id="projectbrief">C++ API documentation for Unreal Engine 5.6</div>
   </td>
  </tr>
  </tbody>
@@ -64,7 +68,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(function(){initNavTree('da/d57/structPingAvgData.html','../../','d4/de7/structPingAvgData-members'); });
+$(function(){initNavTree('da/d57/structPingAvgData.html','../../',''); });
 </script>
 <div id="container">
 <div id="doc-content">
@@ -97,7 +101,13 @@ $(function(){initNavTree('da/d57/structPingAvgData.html','../../','d4/de7/struct
 <p>Struct containing one seconds worth of accumulated ping data (for averaging) NOTE: Maximum PingCount is 7, and maximum PingSum is 8191 (1170*7)  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d4/d0c/PlayerState_8h_source.html">UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/PlayerState.h</a>&gt;</code></p>
+<p><code>#include &quot;<a class="el" href="../../d4/d0c/PlayerState_8h_source.html">PlayerState.h</a>&quot;</code></p>
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Collaboration diagram for PingAvgData:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 0 --></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -105,11 +115,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5be9203636de167d74d9a2950a98ec28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a98cbaed032ffa075e87de704a239e487" id="r_a98cbaed032ffa075e87de704a239e487"><td class="memItemLeft" align="right" valign="top">uint16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98cbaed032ffa075e87de704a239e487">PingSum</a>: 13</td></tr>
-<tr class="memdesc:a98cbaed032ffa075e87de704a239e487"><td class="mdescLeft">&#160;</td><td class="mdescRight">The sum of all accumulated pings (used to calculate avg later)  <br /></td></tr>
-<tr class="memitem:a7ff6d1882b6395745efb2294a2bda274" id="r_a7ff6d1882b6395745efb2294a2bda274"><td class="memItemLeft" align="right" valign="top">uint8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ff6d1882b6395745efb2294a2bda274">PingCount</a>: 3</td></tr>
+Data Fields</h2></td></tr>
+<tr class="memitem:a7ff6d1882b6395745efb2294a2bda274" id="r_a7ff6d1882b6395745efb2294a2bda274"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dd0/Platform_8h.html#a40bc01dd090acd02a79b5dc13e08abe6">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ff6d1882b6395745efb2294a2bda274">PingCount</a>: 3</td></tr>
 <tr class="memdesc:a7ff6d1882b6395745efb2294a2bda274"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of accumulated pings.  <br /></td></tr>
+<tr class="memitem:a98cbaed032ffa075e87de704a239e487" id="r_a98cbaed032ffa075e87de704a239e487"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dd0/Platform_8h.html#a55934b7aafc849240fa69ea0339c0ab7">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98cbaed032ffa075e87de704a239e487">PingSum</a>: 13</td></tr>
+<tr class="memdesc:a98cbaed032ffa075e87de704a239e487"><td class="mdescLeft">&#160;</td><td class="mdescRight">The sum of all accumulated pings (used to calculate avg later)  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Struct containing one seconds worth of accumulated ping data (for averaging) NOTE: Maximum PingCount is 7, and maximum PingSum is 8191 (1170*7) </p>
@@ -147,7 +157,7 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Field Documentation</h2>
 <a id="a7ff6d1882b6395745efb2294a2bda274" name="a7ff6d1882b6395745efb2294a2bda274"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7ff6d1882b6395745efb2294a2bda274">&#9670;&#160;</a></span>PingCount</h2>
 
@@ -155,7 +165,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint8 PingAvgData::PingCount</td>
+          <td class="memname"><a class="el" href="../../d9/dd0/Platform_8h.html#a40bc01dd090acd02a79b5dc13e08abe6">uint8</a> PingAvgData::PingCount</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -163,6 +173,8 @@ Public Attributes</h2></td></tr>
 <p>The number of accumulated pings. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d0c/PlayerState_8h_source.html#l00024">24</a> of file <a class="el" href="../../d4/d0c/PlayerState_8h_source.html">PlayerState.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d4/d0c/PlayerState_8h_source.html#l00027">PingAvgData()</a>.</p>
 
 </div>
 </div>
@@ -173,7 +185,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint16 PingAvgData::PingSum</td>
+          <td class="memname"><a class="el" href="../../d9/dd0/Platform_8h.html#a55934b7aafc849240fa69ea0339c0ab7">uint16</a> PingAvgData::PingSum</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -182,10 +194,12 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d0c/PlayerState_8h_source.html#l00021">21</a> of file <a class="el" href="../../d4/d0c/PlayerState_8h_source.html">PlayerState.h</a>.</p>
 
+<p class="reference">Referenced by <a class="el" href="../../d4/d0c/PlayerState_8h_source.html#l00027">PingAvgData()</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/<a class="el" href="../../d4/d0c/PlayerState_8h_source.html">PlayerState.h</a></li>
+<li><a class="el" href="../../d4/d0c/PlayerState_8h_source.html">PlayerState.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -201,7 +215,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a href="../../da/d57/structPingAvgData.html">PingAvgData</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+    <li class="footer">Generated on <span class="timestamp"></span> for Unreal Engine 5.6 C++ API by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>
 </body>

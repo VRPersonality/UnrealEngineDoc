@@ -1,0 +1,14 @@
+digraph "SCurveEditorView::UE_DEPRECATED"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SCurveEditorView::UE\l_DEPRECATED",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SCurveEditorView::UE\l_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d8b/classSCurveEditorView.html#a92173a9b6192cdb407e0f4629d0c671a",tooltip="Curve draw parameters that are re-generated on tick if the cache has changed."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SCurveEditorView::UE\l_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d8b/classSCurveEditorView.html#aff9492429982ae78103dee821c4078d1",tooltip="Gets curve draw params get the cache by calling a single curve."];
+}

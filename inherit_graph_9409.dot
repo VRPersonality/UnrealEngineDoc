@@ -1,0 +1,12 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="TStaticStateRHI\< TStatic\lDepthStencilState\< true,\l CF_DepthNearOrEqual, false,\l CF_Always, SO_Keep, SO_Keep,\l SO_Keep, false, CF_Always, SO\l_Keep, SO_Keep, SO_Keep, 0xFF,\l 0xFF \>, FDepthStencilStateRHIRef,\l FRHIDepthStencilState * \>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d8a/classTStaticStateRHI.html",tooltip=" "];
+  Node0 -> Node1 [id="edge8436_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 [id="Node000001",label="TStaticDepthStencilState\l\< bEnableDepthWrite, DepthTest,\l bEnableFrontFaceStencil, FrontFaceStencil\lTest, FrontFaceStencilFailStencilOp,\l FrontFaceDepthFailStencilOp, FrontFacePassStencil\lOp, bEnableBackFaceStencil, BackFaceStencilTest,\l BackFaceStencilFailStencilOp, BackFaceDepthFailStencilOp,\l BackFacePassStencilOp, StencilReadMask, StencilWriteMask \>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/ded/classTStaticDepthStencilState.html",tooltip="A static RHI stencil state resource."];
+}

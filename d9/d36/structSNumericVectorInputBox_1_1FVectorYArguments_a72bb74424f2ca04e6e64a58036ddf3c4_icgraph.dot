@@ -1,0 +1,15 @@
+digraph "SNumericVectorInputBox::FVectorYArguments::SLATE_EVENT"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SNumericVectorInputBox\l::FVectorYArguments::SLATE_EVENT",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Called when the Y value of the vector is committed."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SNumericVectorInputBox\l::FVectorYArguments::SLATE_EVENT",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d36/structSNumericVectorInputBox_1_1FVectorYArguments.html#abeb9085b82f9c84445e0121287913567",tooltip="Called whenever the toggle Y changes state."];
+  Node1 -> Node1 [id="edge2_Node000001_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node3 [id="edge3_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SNumericVectorInputBox\l::FVectorYArguments::SLATE_EVENT",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d36/structSNumericVectorInputBox_1_1FVectorYArguments.html#a4042b44342c421185ff002edcac49a30",tooltip="Called when the y value of the vector slider began movement."];
+}

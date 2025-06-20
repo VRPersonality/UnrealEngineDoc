@@ -1,0 +1,16 @@
+digraph "UE::Geometry::FDynamicGraph::add_edge"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UE::Geometry::FDynamicGraph\l::add_edge",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Geometry::FDynamicGraph\l::AppendEdge",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d80/classUE_1_1Geometry_1_1FDynamicGraph.html#a62015917f38cae07b716931d070e7133",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::Geometry::FDynamicGraph\l::SplitEdge",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d80/classUE_1_1Geometry_1_1FDynamicGraph.html#a92b0766de7a6d2d2d398b7b56fa5455a",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UE::Geometry::FDynamicGraph\l::SplitEdgeWithExistingVertex",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d80/classUE_1_1Geometry_1_1FDynamicGraph.html#a6217699e3d17538857e4cad5d46f22f2",tooltip=" "];
+}

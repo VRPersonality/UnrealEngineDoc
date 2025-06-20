@@ -1,0 +1,26 @@
+var structFLinuxPlatformApplicationMisc =
+[
+    [ "ClipboardCopy", "dd/dd2/structFLinuxPlatformApplicationMisc.html#a5f830dd47574cb19e429f96d6bf4188b", null ],
+    [ "ClipboardPaste", "dd/dd2/structFLinuxPlatformApplicationMisc.html#a271e8b57ed6b4c3fc277a3cc40138fac", null ],
+    [ "ControlScreensaver", "dd/dd2/structFLinuxPlatformApplicationMisc.html#a495a28e6f3bd37d4d30400ecd0e97a16", null ],
+    [ "CreateApplication", "dd/dd2/structFLinuxPlatformApplicationMisc.html#a992f8dbca2d0432b3099033e515536df", null ],
+    [ "CreateConsoleOutputDevice", "dd/dd2/structFLinuxPlatformApplicationMisc.html#a6b4afd723a5ef14ac4ab5e7d87109f40", null ],
+    [ "EarlyUnixInitialization", "dd/dd2/structFLinuxPlatformApplicationMisc.html#aab9a84baeb4a17430515f3de9ed66915", null ],
+    [ "FullscreenSameAsWindowedFullscreen", "dd/dd2/structFLinuxPlatformApplicationMisc.html#a8d7afa59c307c7b8f32b4bfc8d53d376", null ],
+    [ "GetDPIScaleFactorAtPoint", "dd/dd2/structFLinuxPlatformApplicationMisc.html#a952bc2a2ac1b454b179b64b849ca1a95", null ],
+    [ "GetErrorOutputDevice", "dd/dd2/structFLinuxPlatformApplicationMisc.html#a6da8809c60b80d7dcca73e8866b652aa", null ],
+    [ "GetFeedbackContext", "dd/dd2/structFLinuxPlatformApplicationMisc.html#af44e3a560a566a073bb0e6c00f75e767", null ],
+    [ "Init", "dd/dd2/structFLinuxPlatformApplicationMisc.html#afc1a674a9cc7b0555b53c2ec54773f7a", null ],
+    [ "InitSDL", "dd/dd2/structFLinuxPlatformApplicationMisc.html#a3762838c64997c10959e54e1a07e344d", null ],
+    [ "IsScreensaverEnabled", "dd/dd2/structFLinuxPlatformApplicationMisc.html#a4b2fac9899f986268e5ba26ea320fa6d", null ],
+    [ "IsThisApplicationForeground", "dd/dd2/structFLinuxPlatformApplicationMisc.html#a4dddb6ee68b67e95d25b80d3f040c827", null ],
+    [ "LoadPreInitModules", "dd/dd2/structFLinuxPlatformApplicationMisc.html#a390d47f6fd65fb223a6e4cd2bb91e76c", null ],
+    [ "LoadStartupModules", "dd/dd2/structFLinuxPlatformApplicationMisc.html#a471d5e15175f685fc02fb3cfbeb66cf6", null ],
+    [ "PreInit", "dd/dd2/structFLinuxPlatformApplicationMisc.html#a9ea021967b2d11ec3c01d3d2ed51dd94", null ],
+    [ "PumpMessages", "dd/dd2/structFLinuxPlatformApplicationMisc.html#a969698718bb1dc3aa6f91492450e5688", null ],
+    [ "ShouldIncreaseProcessLimits", "dd/dd2/structFLinuxPlatformApplicationMisc.html#ac082cfe023db0a50db10982020dcc5ee", null ],
+    [ "TearDown", "dd/dd2/structFLinuxPlatformApplicationMisc.html#aa503f8d165dde406cf9f345d4f575602", null ],
+    [ "UsingOpenGL", "dd/dd2/structFLinuxPlatformApplicationMisc.html#ac4cdd0d7061dde892ef1ccbd33d4fbd0", null ],
+    [ "UsingVulkan", "dd/dd2/structFLinuxPlatformApplicationMisc.html#a39ba68bd34eb41c5ae51bcb420dac3f9", null ],
+    [ "WindowStyle", "dd/dd2/structFLinuxPlatformApplicationMisc.html#a4cd5547a40a402f1b6151a431c4c96b4", null ]
+];

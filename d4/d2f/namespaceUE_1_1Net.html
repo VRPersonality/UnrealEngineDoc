@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Unreal Engine 5.6 C++ Documentation: UE::Net Namespace Reference</title>
+<title>Unreal Engine 5.6 C++ API: UE::Net Namespace Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -18,7 +18,11 @@
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
-<link href="../../unreal_theme.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -27,9 +31,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Unreal Engine 5.6 C++ Documentation<span id="projectnumber">&#160;5.6</span>
+   <div id="projectname">Unreal Engine 5.6 C++ API<span id="projectnumber">&#160;5.6.0</span>
    </div>
-   <div id="projectbrief">Documentation UE5 avec chemins sources corrects</div>
+   <div id="projectbrief">C++ API documentation for Unreal Engine 5.6</div>
   </td>
  </tr>
  </tbody>
@@ -93,6 +97,865 @@ $(function(){initNavTree('d4/d2f/namespaceUE_1_1Net.html','../../',''); });
   <div class="headertitle"><div class="title">UE::Net Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Responsible for creating headers allowing remote factories to spawn replicated actors.  
+<a href="#details">More...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:Metric" id="r_Metric"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d62/namespaceUE_1_1Net_1_1Metric.html">Metric</a></td></tr>
+<tr class="memitem:Private" id="r_Private"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7b/namespaceUE_1_1Net_1_1Private.html">Private</a></td></tr>
+<tr class="memdesc:d7/d7b/namespaceUE_1_1Net_1_1Private"><td class="mdescLeft">&#160;</td><td class="mdescRight">===================== NetSerialize and NetDeltaSerialize customization. <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:FDefaultFaultHandler" id="r_FDefaultFaultHandler"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d00/classUE_1_1Net_1_1FDefaultFaultHandler.html">FDefaultFaultHandler</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default Fault Handler.  <a href="../../d5/d00/classUE_1_1Net_1_1FDefaultFaultHandler.html#details">More...</a><br /></td></tr>
+<tr class="memitem:FNetConnectionFaultRecovery" id="r_FNetConnectionFaultRecovery"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/da3/classUE_1_1Net_1_1FNetConnectionFaultRecovery.html">FNetConnectionFaultRecovery</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">NetConnection Fault Recovery.  <a href="../../d9/da3/classUE_1_1Net_1_1FNetConnectionFaultRecovery.html#details">More...</a><br /></td></tr>
+<tr class="memitem:FNetIDVariant" id="r_FNetIDVariant"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d33/classUE_1_1Net_1_1FNetIDVariant.html">FNetIDVariant</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple variant wrapper to hold a generic or Iris network object ID (<a class="el" href="../../d1/df4/classFNetworkGUID.html" title="Implements a globally unique identifier for network related use.">FNetworkGUID</a> or FNetRefHandle).  <a href="../../dd/d33/classUE_1_1Net_1_1FNetIDVariant.html#details">More...</a><br /></td></tr>
+<tr class="memitem:FNetPing" id="r_FNetPing"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/de1/classUE_1_1Net_1_1FNetPing.html">FNetPing</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Central class for handling all Player/NetConnection ping collection and calculation.  <a href="../../d1/de1/classUE_1_1Net_1_1FNetPing.html#details">More...</a><br /></td></tr>
+<tr class="memitem:FNetworkMetric" id="r_FNetworkMetric"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1a/structUE_1_1Net_1_1FNetworkMetric.html">FNetworkMetric</a></td></tr>
+<tr class="memitem:FNetworkMetricSnapshot" id="r_FNetworkMetricSnapshot"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dff/structUE_1_1Net_1_1FNetworkMetricSnapshot.html">FNetworkMetricSnapshot</a></td></tr>
+<tr class="memitem:FPingValues" id="r_FPingValues"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/daf/structUE_1_1Net_1_1FPingValues.html">FPingValues</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Struct for returning ping values, in seconds.  <a href="../../d4/daf/structUE_1_1Net_1_1FPingValues.html#details">More...</a><br /></td></tr>
+<tr class="memitem:FScopedIgnoreStaticActorDestruction" id="r_FScopedIgnoreStaticActorDestruction"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4a/classUE_1_1Net_1_1FScopedIgnoreStaticActorDestruction.html">FScopedIgnoreStaticActorDestruction</a></td></tr>
+<tr class="memitem:FStatelessHandshakeFailureInfo" id="r_FStatelessHandshakeFailureInfo"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d88/structUE_1_1Net_1_1FStatelessHandshakeFailureInfo.html">FStatelessHandshakeFailureInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains the information necessary for processing a failed stateless handshake, on the Game Thread.  <a href="../../da/d88/structUE_1_1Net_1_1FStatelessHandshakeFailureInfo.html#details">More...</a><br /></td></tr>
+<tr class="memitem:TNetControlMessageImpl" id="r_TNetControlMessageImpl"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d09/classUE_1_1Net_1_1TNetControlMessageImpl.html">TNetControlMessageImpl</a></td></tr>
+<tr class="memitem:TStructNetTokenDataStoreHelper" id="r_TStructNetTokenDataStoreHelper"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/ddd/classUE_1_1Net_1_1TStructNetTokenDataStoreHelper.html">TStructNetTokenDataStoreHelper</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a6c9ef57921cb86145b8951067f5c9305" id="r_a6c9ef57921cb86145b8951067f5c9305"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d8/da9/classTMap.html">TMap</a>&lt; <a class="el" href="../../d1/df4/classFNetworkGUID.html">FNetworkGUID</a>, <a class="el" href="../../d3/daa/structTWeakObjectPtr.html">TWeakObjectPtr</a>&lt; <a class="el" href="../../df/def/classUObject.html">UObject</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c9ef57921cb86145b8951067f5c9305">FDormantObjectMap</a></td></tr>
+<tr class="memitem:a62985f51c772f250a85d78a41be164a0" id="r_a62985f51c772f250a85d78a41be164a0"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../de/d23/classTFunctionRef.html">TFunctionRef</a>&lt; void(<a class="el" href="../../dd/d31/structFObjectKey.html">FObjectKey</a> OwnerActorKey, <a class="el" href="../../dd/d31/structFObjectKey.html">FObjectKey</a> ObjectKey, const <a class="el" href="../../de/df2/classTSharedRef.html">TSharedRef</a>&lt; <a class="el" href="../../d6/d60/classFObjectReplicator.html">FObjectReplicator</a> &gt; &amp;ReplicatorRef)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62985f51c772f250a85d78a41be164a0">FExecuteForEachDormantReplicator</a></td></tr>
+<tr class="memdesc:a62985f51c772f250a85d78a41be164a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function definition allowed in the ForEach functions.  <br /></td></tr>
+<tr class="memitem:a54ab2914a192d68411e7bf130f2bdddb" id="r_a54ab2914a192d68411e7bf130f2bdddb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54ab2914a192d68411e7bf130f2bdddb">FHandshakeFailureFunc</a> = <a class="el" href="../../d8/d16/classTUniqueFunction.html">TUniqueFunction</a>&lt;void(<a class="el" href="../../da/d88/structUE_1_1Net_1_1FStatelessHandshakeFailureInfo.html">FStatelessHandshakeFailureInfo</a> HandshakeFailureInfo)&gt;</td></tr>
+<tr class="memdesc:a54ab2914a192d68411e7bf130f2bdddb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback function for handling a failed stateless handshake.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:af596a033e022af9c5e4dbfa072d9b82f" id="r_af596a033e022af9c5e4dbfa072d9b82f"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af596a033e022af9c5e4dbfa072d9b82f">EHandshakeFailureReason</a> { <a class="el" href="#af596a033e022af9c5e4dbfa072d9b82fa6adf97f83acf6453d4a6a4b1070f3754">None</a>
+, <a class="el" href="#af596a033e022af9c5e4dbfa072d9b82fad735fd52abbc72e627c19b4457363b5c">WrongVersion</a>
+ }</td></tr>
+<tr class="memdesc:af596a033e022af9c5e4dbfa072d9b82f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reasons for handshake failures.  <a href="#af596a033e022af9c5e4dbfa072d9b82f">More...</a><br /></td></tr>
+<tr class="memitem:a60499fd5148c5059e64d0b4afd6cbcba" id="r_a60499fd5148c5059e64d0b4afd6cbcba"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60499fd5148c5059e64d0b4afd6cbcba">EHandshakePacketModifier</a> : uint8 { <a class="el" href="#a60499fd5148c5059e64d0b4afd6cbcbaa6adf97f83acf6453d4a6a4b1070f3754">None</a> = 0x00
+, <a class="el" href="#a60499fd5148c5059e64d0b4afd6cbcbaad9152e116d00718c1ec173e288c8ed58">RestartHandshake</a> = 0x01
+ }</td></tr>
+<tr class="memdesc:a60499fd5148c5059e64d0b4afd6cbcba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flags/modifiers affecting how handshake packets are handled (e.g.  <a href="#a60499fd5148c5059e64d0b4afd6cbcba">More...</a><br /></td></tr>
+<tr class="memitem:a320a0f076a7a4906ec986392d10bdd6a" id="r_a320a0f076a7a4906ec986392d10bdd6a"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a320a0f076a7a4906ec986392d10bdd6a">EHandshakePacketType</a> : uint8 { <br />
+&#160;&#160;<a class="el" href="#a320a0f076a7a4906ec986392d10bdd6aa6ec8f15541f88e1e475f40bf31fcd15d">InitialPacket</a> = 0
+, <a class="el" href="#a320a0f076a7a4906ec986392d10bdd6aab5f5623b6137a89a1dadf079a5e92266">Challenge</a> = 1
+, <a class="el" href="#a320a0f076a7a4906ec986392d10bdd6aad64ed3e9c10229648e069f56e32f4c8e">Response</a> = 2
+, <a class="el" href="#a320a0f076a7a4906ec986392d10bdd6aab25d8b2099e52bb9300aca6661601b8b">Ack</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="#a320a0f076a7a4906ec986392d10bdd6aad9152e116d00718c1ec173e288c8ed58">RestartHandshake</a> = 4
+, <a class="el" href="#a320a0f076a7a4906ec986392d10bdd6aa32235ae5d4c263bbc302c5aaa0425d7b">RestartResponse</a> = 5
+, <a class="el" href="#a320a0f076a7a4906ec986392d10bdd6aaf2af1e2939592ff1a7f4663b45ad4d21">VersionUpgrade</a> = 6
+, <a class="el" href="#a320a0f076a7a4906ec986392d10bdd6aad55b30607c2a9a2616347d6edb789f6b">Last</a> = VersionUpgrade
+<br />
+ }</td></tr>
+<tr class="memdesc:a320a0f076a7a4906ec986392d10bdd6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The different handshake packet types.  <a href="#a320a0f076a7a4906ec986392d10bdd6a">More...</a><br /></td></tr>
+<tr class="memitem:a42adfe8fb449fe79fde9885460bb5f1e" id="r_a42adfe8fb449fe79fde9885460bb5f1e"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42adfe8fb449fe79fde9885460bb5f1e">EHandshakeVersion</a> : uint8 { <br />
+&#160;&#160;<a class="el" href="#a42adfe8fb449fe79fde9885460bb5f1ea0a52da7a03a6de3beefe54f8c03ad80d">Original</a> = 0
+, <a class="el" href="#a42adfe8fb449fe79fde9885460bb5f1ead0bcdd909ab6eff96996ccd91f90d2bb">Randomized</a> = 1
+, <a class="el" href="#a42adfe8fb449fe79fde9885460bb5f1ea5eefbea94176a3f10278d96a3bcafec4">NetCLVersion</a> = 2
+, <a class="el" href="#a42adfe8fb449fe79fde9885460bb5f1ea075145c89dbf536c29abf223bbc31b4e">SessionClientId</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="#a42adfe8fb449fe79fde9885460bb5f1ea66f7c3f7c202e854f793dc267e24563b">NetCLUpgradeMessage</a> = 4
+, <a class="el" href="#a42adfe8fb449fe79fde9885460bb5f1eacd118d21c3b0b4762c6e0063661e6e45">Latest</a> = NetCLUpgradeMessage
+<br />
+ }</td></tr>
+<tr class="memdesc:a42adfe8fb449fe79fde9885460bb5f1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The different handshake protocol versions.  <a href="#a42adfe8fb449fe79fde9885460bb5f1e">More...</a><br /></td></tr>
+<tr class="memitem:ac747cc44c6516c58ccd4c0013e492f20" id="r_ac747cc44c6516c58ccd4c0013e492f20"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac747cc44c6516c58ccd4c0013e492f20">ENetUpgradeSource</a> : uint8 { <a class="el" href="#ac747cc44c6516c58ccd4c0013e492f20afb2b3bf29e043041e6ccbe8f6cc8b098">ControlChannel</a>
+, <a class="el" href="#ac747cc44c6516c58ccd4c0013e492f20a76e65fec6f38c2a925f7ec0f3fe9d4bc">StatelessHandshake</a>
+ }</td></tr>
+<tr class="memdesc:ac747cc44c6516c58ccd4c0013e492f20"><td class="mdescLeft">&#160;</td><td class="mdescRight">The source of a net upgrade message.  <a href="#ac747cc44c6516c58ccd4c0013e492f20">More...</a><br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ac822bf938b5f403d1c40faf10accbbdc" id="r_ac822bf938b5f403d1c40faf10accbbdc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d53/classTStaticBitArray.html">TStaticBitArray</a>&lt; COND_Max &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac822bf938b5f403d1c40faf10accbbdc">BuildConditionMapFromRepFlags</a> (const <a class="el" href="../../dc/d50/structFReplicationFlags.html">FReplicationFlags</a> &amp;RepFlags)</td></tr>
+<tr class="memdesc:ac822bf938b5f403d1c40faf10accbbdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds a new ConditionMap given the input RepFlags.  <br /></td></tr>
+<tr class="memitem:a3e2a3628285463a90c721957e05a39bf" id="r_a3e2a3628285463a90c721957e05a39bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dd0/Platform_8h.html#a8c7a127091efbdfc5a16939041653e05">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e2a3628285463a90c721957e05a39bf">CountReplicatedSubObjectsOfActor</a> (AActor *<a class="el" href="../../d8/d6d/NetDriver_8h.html#a04e8cda463c77a45f3cb0f77e27aeff8aba1427fd1dfed4573e603bcf4dd1876a">ReplicatedActor</a>)</td></tr>
+<tr class="memdesc:a3e2a3628285463a90c721957e05a39bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function that counts the number of replicated subobjects owned by a given actor.  <br /></td></tr>
+<tr class="memitem:a0385c58f6d3717a966237f967ee8b4a4" id="r_a0385c58f6d3717a966237f967ee8b4a4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0385c58f6d3717a966237f967ee8b4a4">ENUM_CLASS_FLAGS</a> (<a class="el" href="#a60499fd5148c5059e64d0b4afd6cbcba">EHandshakePacketModifier</a>)</td></tr>
+<tr class="memitem:a543caf02f2d64fa13d0be3efc2c03831" id="r_a543caf02f2d64fa13d0be3efc2c03831"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="../../d9/dd0/Platform_8h.html#a2c46f1fb01e11216aa2c983307deafb4">SIZE_T</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a543caf02f2d64fa13d0be3efc2c03831">GetGameplayEffectContextNetSerializerSafeQuantizedSize</a> ()</td></tr>
+<tr class="memitem:abda7465eaa836c0982417ca86ea2f65b" id="r_abda7465eaa836c0982417ca86ea2f65b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dd0/Platform_8h.html#a8c7a127091efbdfc5a16939041653e05">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abda7465eaa836c0982417ca86ea2f65b">GetTypeHash</a> (const <a class="el" href="../../dd/d33/classUE_1_1Net_1_1FNetIDVariant.html">FNetIDVariant</a> &amp;NetID)</td></tr>
+<tr class="memitem:a1da2f3bc9f13e159773db3de3a592010" id="r_a1da2f3bc9f13e159773db3de3a592010"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1da2f3bc9f13e159773db3de3a592010">IsValidPingType</a> (EPingType PingType)</td></tr>
+<tr class="memdesc:a1da2f3bc9f13e159773db3de3a592010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not an EPingType value is valid.  <br /></td></tr>
+<tr class="memitem:a48adfe544c542eeb213019007a789023" id="r_a48adfe544c542eeb213019007a789023"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48adfe544c542eeb213019007a789023">ShouldIgnoreStaticActorDestruction</a> ()</td></tr>
+<tr class="memitem:ab6d7fa8cfa888130de5245f3688f0888" id="r_ab6d7fa8cfa888130de5245f3688f0888"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6d7fa8cfa888130de5245f3688f0888">UE_NET_DECLARE_SERIALIZER</a> (FCharacterNetworkSerializationPackedBitsNetSerializer, 1)</td></tr>
+<tr class="memitem:ab05442911b35db620bf66caa5f1616bb" id="r_ab05442911b35db620bf66caa5f1616bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab05442911b35db620bf66caa5f1616bb">UE_NET_DECLARE_SERIALIZER</a> (FGameplayAbilityRepAnimMontageNetSerializer, GAMEPLAYABILITIES_API)</td></tr>
+<tr class="memitem:a53a4ae4bdf0fa8adcec82375d810f828" id="r_a53a4ae4bdf0fa8adcec82375d810f828"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53a4ae4bdf0fa8adcec82375d810f828">UE_NET_DECLARE_SERIALIZER</a> (FGameplayAbilityTargetingLocationInfoNetSerializer, GAMEPLAYABILITIES_API)</td></tr>
+<tr class="memitem:ae7f6f6273ecc12c56b1c7b676f3bd12f" id="r_ae7f6f6273ecc12c56b1c7b676f3bd12f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7f6f6273ecc12c56b1c7b676f3bd12f">UE_NET_DECLARE_SERIALIZER</a> (FGameplayEffectContextHandleNetSerializer, GAMEPLAYABILITIES_API)</td></tr>
+<tr class="memitem:af0cb914869ffa3d30bb8a23110a74821" id="r_af0cb914869ffa3d30bb8a23110a74821"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0cb914869ffa3d30bb8a23110a74821">UE_NET_DECLARE_SERIALIZER</a> (FGameplayEffectContextNetSerializer, GAMEPLAYABILITIES_API)</td></tr>
+<tr class="memitem:a7a0516987374b7f15e949530501cb9c7" id="r_a7a0516987374b7f15e949530501cb9c7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a0516987374b7f15e949530501cb9c7">UE_NET_DECLARE_SERIALIZER</a> (FGameplayTagContainerNetSerializer, GAMEPLAYTAGS_API)</td></tr>
+<tr class="memitem:a7973b7f8c5ce05698247dabe5de62749" id="r_a7973b7f8c5ce05698247dabe5de62749"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7973b7f8c5ce05698247dabe5de62749">UE_NET_DECLARE_SERIALIZER</a> (FGameplayTagNetSerializer, GAMEPLAYTAGS_API)</td></tr>
+<tr class="memitem:ae0a9a972349fb0f07d0a8f02273d48f3" id="r_ae0a9a972349fb0f07d0a8f02273d48f3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0a9a972349fb0f07d0a8f02273d48f3">UE_NET_DECLARE_SERIALIZER</a> (FHitResultNetSerializer, 1)</td></tr>
+<tr class="memitem:ac555b55138fc4f3ca3fa9de0f2ac28c1" id="r_ac555b55138fc4f3ca3fa9de0f2ac28c1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac555b55138fc4f3ca3fa9de0f2ac28c1">UE_NET_DECLARE_SERIALIZER</a> (FMinimalGameplayCueReplicationProxyNetSerializer, GAMEPLAYABILITIES_API)</td></tr>
+<tr class="memitem:a4d9dc5946d8598f1afbea2a14168b1fd" id="r_a4d9dc5946d8598f1afbea2a14168b1fd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d9dc5946d8598f1afbea2a14168b1fd">UE_NET_DECLARE_SERIALIZER</a> (FMinimalReplicationTagCountMapNetSerializer, GAMEPLAYABILITIES_API)</td></tr>
+<tr class="memitem:aeb7f2432888faf89184861a493401118" id="r_aeb7f2432888faf89184861a493401118"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb7f2432888faf89184861a493401118">UE_NET_DECLARE_SERIALIZER</a> (FRootMotionSourceGroupNetSerializer, 1)</td></tr>
+<tr class="memitem:a9e99f93308a42d4186daf53321698c39" id="r_a9e99f93308a42d4186daf53321698c39"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e99f93308a42d4186daf53321698c39">UE_NET_DECLARE_SERIALIZER</a> (FUniqueNetIdReplNetSerializer, 1)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:abe446b6ea50df4c67305af1521879843" id="r_abe446b6ea50df4c67305af1521879843"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dd0/Platform_8h.html#a8dbb3cd84ca9fd010dadfc3815eefa5d">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe446b6ea50df4c67305af1521879843">GRPCDoSScopeDebugging</a></td></tr>
+<tr class="memdesc:abe446b6ea50df4c67305af1521879843"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not debugging/ensures for RPC DoS Tick/Packet scopes should be enabled.  <br /></td></tr>
+<tr class="memitem:ae9580d4715fa62c9d13a0756dde3f0c4" id="r_ae9580d4715fa62c9d13a0756dde3f0c4"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="#a42adfe8fb449fe79fde9885460bb5f1e">EHandshakeVersion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9580d4715fa62c9d13a0756dde3f0c4">HandshakeCompatibilityBreaks</a> [] = { <a class="el" href="#a42adfe8fb449fe79fde9885460bb5f1ea075145c89dbf536c29abf223bbc31b4e">EHandshakeVersion::SessionClientId</a> }</td></tr>
+<tr class="memdesc:ae9580d4715fa62c9d13a0756dde3f0c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of <a class="el" href="#a42adfe8fb449fe79fde9885460bb5f1e" title="The different handshake protocol versions.">EHandshakeVersion</a>'s which break net compatibility (sorted from earliest to latest)  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Responsible for creating headers allowing remote factories to spawn replicated actors. </p>
+</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
+<a id="a6c9ef57921cb86145b8951067f5c9305" name="a6c9ef57921cb86145b8951067f5c9305"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c9ef57921cb86145b8951067f5c9305">&#9670;&#160;</a></span>FDormantObjectMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="../../d8/da9/classTMap.html">TMap</a>&lt;<a class="el" href="../../d1/df4/classFNetworkGUID.html">FNetworkGUID</a>, <a class="el" href="../../d3/daa/structTWeakObjectPtr.html">TWeakObjectPtr</a>&lt;<a class="el" href="../../df/def/classUObject.html">UObject</a>&gt; &gt; <a class="el" href="#a6c9ef57921cb86145b8951067f5c9305">UE::Net::FDormantObjectMap</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d23/NetDormantHolder_8h_source.html#l00019">19</a> of file <a class="el" href="../../dd/d23/NetDormantHolder_8h_source.html">NetDormantHolder.h</a>.</p>
+
+</div>
+</div>
+<a id="a62985f51c772f250a85d78a41be164a0" name="a62985f51c772f250a85d78a41be164a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62985f51c772f250a85d78a41be164a0">&#9670;&#160;</a></span>FExecuteForEachDormantReplicator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="../../de/d23/classTFunctionRef.html">TFunctionRef</a>&lt;void(<a class="el" href="../../dd/d31/structFObjectKey.html">FObjectKey</a> OwnerActorKey, <a class="el" href="../../dd/d31/structFObjectKey.html">FObjectKey</a> ObjectKey, const <a class="el" href="../../de/df2/classTSharedRef.html">TSharedRef</a>&lt;<a class="el" href="../../d6/d60/classFObjectReplicator.html">FObjectReplicator</a>&gt;&amp; ReplicatorRef)&gt; <a class="el" href="#a62985f51c772f250a85d78a41be164a0">UE::Net::FExecuteForEachDormantReplicator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function definition allowed in the ForEach functions. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d23/NetDormantHolder_8h_source.html#l00017">17</a> of file <a class="el" href="../../dd/d23/NetDormantHolder_8h_source.html">NetDormantHolder.h</a>.</p>
+
+</div>
+</div>
+<a id="a54ab2914a192d68411e7bf130f2bdddb" name="a54ab2914a192d68411e7bf130f2bdddb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54ab2914a192d68411e7bf130f2bdddb">&#9670;&#160;</a></span>FHandshakeFailureFunc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a54ab2914a192d68411e7bf130f2bdddb">UE::Net::FHandshakeFailureFunc</a> = <a class="el" href="../../d8/d16/classTUniqueFunction.html">TUniqueFunction</a>&lt;void(<a class="el" href="../../da/d88/structUE_1_1Net_1_1FStatelessHandshakeFailureInfo.html">FStatelessHandshakeFailureInfo</a> HandshakeFailureInfo)&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Callback function for handling a failed stateless handshake. </p>
+<p>Triggered when processing incoming packets.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">HandshakeFailureInfo</td><td>Information about the handshake failure. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d1a/StatelessConnectHandlerComponent_8h_source.html#l00109">109</a> of file <a class="el" href="../../d5/d1a/StatelessConnectHandlerComponent_8h_source.html">StatelessConnectHandlerComponent.h</a>.</p>
+
+</div>
+</div>
+<a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
+<a id="af596a033e022af9c5e4dbfa072d9b82f" name="af596a033e022af9c5e4dbfa072d9b82f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af596a033e022af9c5e4dbfa072d9b82f">&#9670;&#160;</a></span>EHandshakeFailureReason</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#af596a033e022af9c5e4dbfa072d9b82f">UE::Net::EHandshakeFailureReason</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reasons for handshake failures. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af596a033e022af9c5e4dbfa072d9b82fa6adf97f83acf6453d4a6a4b1070f3754" name="af596a033e022af9c5e4dbfa072d9b82fa6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af596a033e022af9c5e4dbfa072d9b82fad735fd52abbc72e627c19b4457363b5c" name="af596a033e022af9c5e4dbfa072d9b82fad735fd52abbc72e627c19b4457363b5c"></a>WrongVersion&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d1a/StatelessConnectHandlerComponent_8h_source.html#l00078">78</a> of file <a class="el" href="../../d5/d1a/StatelessConnectHandlerComponent_8h_source.html">StatelessConnectHandlerComponent.h</a>.</p>
+
+</div>
+</div>
+<a id="a60499fd5148c5059e64d0b4afd6cbcba" name="a60499fd5148c5059e64d0b4afd6cbcba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60499fd5148c5059e64d0b4afd6cbcba">&#9670;&#160;</a></span>EHandshakePacketModifier</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a60499fd5148c5059e64d0b4afd6cbcba">UE::Net::EHandshakePacketModifier</a> : <a class="el" href="../../d9/dd0/Platform_8h.html#a40bc01dd090acd02a79b5dc13e08abe6">uint8</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Flags/modifiers affecting how handshake packets are handled (e.g. </p>
+<p>restart handshake packets) </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a60499fd5148c5059e64d0b4afd6cbcbaa6adf97f83acf6453d4a6a4b1070f3754" name="a60499fd5148c5059e64d0b4afd6cbcbaa6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a60499fd5148c5059e64d0b4afd6cbcbaad9152e116d00718c1ec173e288c8ed58" name="a60499fd5148c5059e64d0b4afd6cbcbaad9152e116d00718c1ec173e288c8ed58"></a>RestartHandshake&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d1a/StatelessConnectHandlerComponent_8h_source.html#l00066">66</a> of file <a class="el" href="../../d5/d1a/StatelessConnectHandlerComponent_8h_source.html">StatelessConnectHandlerComponent.h</a>.</p>
+
+</div>
+</div>
+<a id="a320a0f076a7a4906ec986392d10bdd6a" name="a320a0f076a7a4906ec986392d10bdd6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a320a0f076a7a4906ec986392d10bdd6a">&#9670;&#160;</a></span>EHandshakePacketType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a320a0f076a7a4906ec986392d10bdd6a">UE::Net::EHandshakePacketType</a> : <a class="el" href="../../d9/dd0/Platform_8h.html#a40bc01dd090acd02a79b5dc13e08abe6">uint8</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The different handshake packet types. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a320a0f076a7a4906ec986392d10bdd6aa6ec8f15541f88e1e475f40bf31fcd15d" name="a320a0f076a7a4906ec986392d10bdd6aa6ec8f15541f88e1e475f40bf31fcd15d"></a>InitialPacket&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a320a0f076a7a4906ec986392d10bdd6aab5f5623b6137a89a1dadf079a5e92266" name="a320a0f076a7a4906ec986392d10bdd6aab5f5623b6137a89a1dadf079a5e92266"></a>Challenge&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a320a0f076a7a4906ec986392d10bdd6aad64ed3e9c10229648e069f56e32f4c8e" name="a320a0f076a7a4906ec986392d10bdd6aad64ed3e9c10229648e069f56e32f4c8e"></a>Response&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a320a0f076a7a4906ec986392d10bdd6aab25d8b2099e52bb9300aca6661601b8b" name="a320a0f076a7a4906ec986392d10bdd6aab25d8b2099e52bb9300aca6661601b8b"></a>Ack&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a320a0f076a7a4906ec986392d10bdd6aad9152e116d00718c1ec173e288c8ed58" name="a320a0f076a7a4906ec986392d10bdd6aad9152e116d00718c1ec173e288c8ed58"></a>RestartHandshake&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a320a0f076a7a4906ec986392d10bdd6aa32235ae5d4c263bbc302c5aaa0425d7b" name="a320a0f076a7a4906ec986392d10bdd6aa32235ae5d4c263bbc302c5aaa0425d7b"></a>RestartResponse&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a320a0f076a7a4906ec986392d10bdd6aaf2af1e2939592ff1a7f4663b45ad4d21" name="a320a0f076a7a4906ec986392d10bdd6aaf2af1e2939592ff1a7f4663b45ad4d21"></a>VersionUpgrade&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a320a0f076a7a4906ec986392d10bdd6aad55b30607c2a9a2616347d6edb789f6b" name="a320a0f076a7a4906ec986392d10bdd6aad55b30607c2a9a2616347d6edb789f6b"></a>Last&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d1a/StatelessConnectHandlerComponent_8h_source.html#l00050">50</a> of file <a class="el" href="../../d5/d1a/StatelessConnectHandlerComponent_8h_source.html">StatelessConnectHandlerComponent.h</a>.</p>
+
+</div>
+</div>
+<a id="a42adfe8fb449fe79fde9885460bb5f1e" name="a42adfe8fb449fe79fde9885460bb5f1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42adfe8fb449fe79fde9885460bb5f1e">&#9670;&#160;</a></span>EHandshakeVersion</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a42adfe8fb449fe79fde9885460bb5f1e">UE::Net::EHandshakeVersion</a> : <a class="el" href="../../d9/dd0/Platform_8h.html#a40bc01dd090acd02a79b5dc13e08abe6">uint8</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The different handshake protocol versions. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a42adfe8fb449fe79fde9885460bb5f1ea0a52da7a03a6de3beefe54f8c03ad80d" name="a42adfe8fb449fe79fde9885460bb5f1ea0a52da7a03a6de3beefe54f8c03ad80d"></a>Original&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a42adfe8fb449fe79fde9885460bb5f1ead0bcdd909ab6eff96996ccd91f90d2bb" name="a42adfe8fb449fe79fde9885460bb5f1ead0bcdd909ab6eff96996ccd91f90d2bb"></a>Randomized&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a42adfe8fb449fe79fde9885460bb5f1ea5eefbea94176a3f10278d96a3bcafec4" name="a42adfe8fb449fe79fde9885460bb5f1ea5eefbea94176a3f10278d96a3bcafec4"></a>NetCLVersion&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a42adfe8fb449fe79fde9885460bb5f1ea075145c89dbf536c29abf223bbc31b4e" name="a42adfe8fb449fe79fde9885460bb5f1ea075145c89dbf536c29abf223bbc31b4e"></a>SessionClientId&#160;</td><td class="fielddoc"><p><a class="el" href="../../d4/d2f/namespaceUE_1_1Net.html" title="Responsible for creating headers allowing remote factories to spawn replicated actors.">Net</a> compatibility break. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a42adfe8fb449fe79fde9885460bb5f1ea66f7c3f7c202e854f793dc267e24563b" name="a42adfe8fb449fe79fde9885460bb5f1ea66f7c3f7c202e854f793dc267e24563b"></a>NetCLUpgradeMessage&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a42adfe8fb449fe79fde9885460bb5f1eacd118d21c3b0b4762c6e0063661e6e45" name="a42adfe8fb449fe79fde9885460bb5f1eacd118d21c3b0b4762c6e0063661e6e45"></a>Latest&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d1a/StatelessConnectHandlerComponent_8h_source.html#l00029">29</a> of file <a class="el" href="../../d5/d1a/StatelessConnectHandlerComponent_8h_source.html">StatelessConnectHandlerComponent.h</a>.</p>
+
+</div>
+</div>
+<a id="ac747cc44c6516c58ccd4c0013e492f20" name="ac747cc44c6516c58ccd4c0013e492f20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac747cc44c6516c58ccd4c0013e492f20">&#9670;&#160;</a></span>ENetUpgradeSource</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#ac747cc44c6516c58ccd4c0013e492f20">UE::Net::ENetUpgradeSource</a> : <a class="el" href="../../d9/dd0/Platform_8h.html#a40bc01dd090acd02a79b5dc13e08abe6">uint8</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The source of a net upgrade message. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac747cc44c6516c58ccd4c0013e492f20afb2b3bf29e043041e6ccbe8f6cc8b098" name="ac747cc44c6516c58ccd4c0013e492f20afb2b3bf29e043041e6ccbe8f6cc8b098"></a>ControlChannel&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac747cc44c6516c58ccd4c0013e492f20a76e65fec6f38c2a925f7ec0f3fe9d4bc" name="ac747cc44c6516c58ccd4c0013e492f20a76e65fec6f38c2a925f7ec0f3fe9d4bc"></a>StatelessHandshake&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="../../d6/d03/NetConnection_8h_source.html#l00106">106</a> of file <a class="el" href="../../d6/d03/NetConnection_8h_source.html">NetConnection.h</a>.</p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="ac822bf938b5f403d1c40faf10accbbdc" name="ac822bf938b5f403d1c40faf10accbbdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac822bf938b5f403d1c40faf10accbbdc">&#9670;&#160;</a></span>BuildConditionMapFromRepFlags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d53/classTStaticBitArray.html">TStaticBitArray</a>&lt; COND_Max &gt; UE::Net::BuildConditionMapFromRepFlags </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dc/d50/structFReplicationFlags.html">FReplicationFlags</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>RepFlags</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Builds a new ConditionMap given the input RepFlags. </p>
+<p>This can be used to determine whether or not a given property should be considered enabled / disabled based on ELifetimeCondition. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d91/RepLayout_8h_source.html#l00135">135</a> of file <a class="el" href="../../d9/d91/RepLayout_8h_source.html">RepLayout.h</a>.</p>
+
+<p class="reference">References <a class="el" href="../../df/dcf/EngineTypes_8h_source.html#l03558">FReplicationFlags::bNetInitial</a>, <a class="el" href="../../df/dcf/EngineTypes_8h_source.html#l03556">FReplicationFlags::bNetOwner</a>, <a class="el" href="../../df/dcf/EngineTypes_8h_source.html#l03560">FReplicationFlags::bNetSimulated</a>, <a class="el" href="../../df/dcf/EngineTypes_8h_source.html#l03564">FReplicationFlags::bReplay</a>, and <a class="el" href="../../df/dcf/EngineTypes_8h_source.html#l03562">FReplicationFlags::bRepPhysics</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d9/d91/RepLayout_8h_source.html#l00587">FSendingRepState::UE_DEPRECATED()</a>.</p>
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the caller graph for this function:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 0 --></div>
+</div>
+
+</div>
+</div>
+<a id="a3e2a3628285463a90c721957e05a39bf" name="a3e2a3628285463a90c721957e05a39bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e2a3628285463a90c721957e05a39bf">&#9670;&#160;</a></span>CountReplicatedSubObjectsOfActor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/dd0/Platform_8h.html#a8c7a127091efbdfc5a16939041653e05">uint32</a> UE::Net::CountReplicatedSubObjectsOfActor </td>
+          <td>(</td>
+          <td class="paramtype">AActor *</td>          <td class="paramname"><span class="paramname"><em>ReplicatedActor</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Utility function that counts the number of replicated subobjects owned by a given actor. </p>
+<p>Be aware that this function is not cheap because it needs to iterate and count all replicated components and their subobjects too. </p>
+
+<p class="reference">References <a class="el" href="../../d8/d6d/NetDriver_8h_source.html#l00777">ReplicatedActor</a>.</p>
+
+</div>
+</div>
+<a id="a0385c58f6d3717a966237f967ee8b4a4" name="a0385c58f6d3717a966237f967ee8b4a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0385c58f6d3717a966237f967ee8b4a4">&#9670;&#160;</a></span>ENUM_CLASS_FLAGS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UE::Net::ENUM_CLASS_FLAGS </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a60499fd5148c5059e64d0b4afd6cbcba">EHandshakePacketModifier</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a543caf02f2d64fa13d0be3efc2c03831" name="a543caf02f2d64fa13d0be3efc2c03831"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a543caf02f2d64fa13d0be3efc2c03831">&#9670;&#160;</a></span>GetGameplayEffectContextNetSerializerSafeQuantizedSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/dd0/Platform_8h.html#a2c46f1fb01e11216aa2c983307deafb4">SIZE_T</a> UE::Net::GetGameplayEffectContextNetSerializerSafeQuantizedSize </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/dab/GameplayEffectContextNetSerializer_8h_source.html#l00020">20</a> of file <a class="el" href="../../d4/dab/GameplayEffectContextNetSerializer_8h_source.html">GameplayEffectContextNetSerializer.h</a>.</p>
+
+</div>
+</div>
+<a id="abda7465eaa836c0982417ca86ea2f65b" name="abda7465eaa836c0982417ca86ea2f65b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abda7465eaa836c0982417ca86ea2f65b">&#9670;&#160;</a></span>GetTypeHash()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/dd0/Platform_8h.html#a8c7a127091efbdfc5a16939041653e05">uint32</a> UE::Net::GetTypeHash </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dd/d33/classUE_1_1Net_1_1FNetIDVariant.html">FNetIDVariant</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>NetID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../db/d7e/NetIDVariant_8h_source.html#l00063">63</a> of file <a class="el" href="../../db/d7e/NetIDVariant_8h_source.html">NetIDVariant.h</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d2/d16/TVariant_8h_source.html#l00136">TVariant&lt; T, Ts &gt;::Get()</a>, <a class="el" href="../../db/d7e/NetIDVariant_8h_source.html#l00063">GetTypeHash()</a>, <a class="el" href="../../db/d7e/NetIDVariant_8h_source.html#l00048">UE::Net::FNetIDVariant::GetVariant()</a>, <a class="el" href="../../d1/d62/TypeHash_8h_source.html#l00074">HashCombineFast()</a>, and <a class="el" href="../../d2/d16/TVariant_8h_source.html#l00128">TVariant&lt; T, Ts &gt;::IsType()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dd/d23/NetDormantHolder_8h_source.html#l00065">UE::Net::Private::FActorDormantReplicators::FDormantObjectReplicatorKeyFuncs::GetKeyHash()</a>, <a class="el" href="../../dd/d23/NetDormantHolder_8h_source.html#l00176">UE::Net::Private::FDormantReplicatorHolder::FActorDormantReplicatorsKeyFuncs::GetKeyHash()</a>, and <a class="el" href="../../db/d7e/NetIDVariant_8h_source.html#l00063">GetTypeHash()</a>.</p>
+<div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the call graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 1 --></div>
+</div>
+<div id="dynsection-2" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 2 --></div>
+</div>
+
+</div>
+</div>
+<a id="a1da2f3bc9f13e159773db3de3a592010" name="a1da2f3bc9f13e159773db3de3a592010"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1da2f3bc9f13e159773db3de3a592010">&#9670;&#160;</a></span>IsValidPingType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a> UE::Net::IsValidPingType </td>
+          <td>(</td>
+          <td class="paramtype">EPingType</td>          <td class="paramname"><span class="paramname"><em>PingType</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether or not an EPingType value is valid. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d3/dc3/NetPing_8h_source.html#l00103">103</a> of file <a class="el" href="../../d3/dc3/NetPing_8h_source.html">NetPing.h</a>.</p>
+
+<p class="reference">References <a class="el" href="../../db/db8/UnrealMathUtility_8h_source.html#l00516">FMath::IsPowerOfTwo()</a>.</p>
+<div id="dynsection-3" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 3 --></div>
+</div>
+
+</div>
+</div>
+<a id="a48adfe544c542eeb213019007a789023" name="a48adfe544c542eeb213019007a789023"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48adfe544c542eeb213019007a789023">&#9670;&#160;</a></span>ShouldIgnoreStaticActorDestruction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a> UE::Net::ShouldIgnoreStaticActorDestruction </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab6d7fa8cfa888130de5245f3688f0888" name="ab6d7fa8cfa888130de5245f3688f0888"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6d7fa8cfa888130de5245f3688f0888">&#9670;&#160;</a></span>UE_NET_DECLARE_SERIALIZER() <span class="overload">[1/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UE::Net::UE_NET_DECLARE_SERIALIZER </td>
+          <td>(</td>
+          <td class="paramtype">FCharacterNetworkSerializationPackedBitsNetSerializer</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">1</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="#ab05442911b35db620bf66caa5f1616bb">UE_NET_DECLARE_SERIALIZER()</a>.</p>
+<div id="dynsection-4" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the call graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 4 --></div>
+</div>
+
+</div>
+</div>
+<a id="ab05442911b35db620bf66caa5f1616bb" name="ab05442911b35db620bf66caa5f1616bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab05442911b35db620bf66caa5f1616bb">&#9670;&#160;</a></span>UE_NET_DECLARE_SERIALIZER() <span class="overload">[2/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UE::Net::UE_NET_DECLARE_SERIALIZER </td>
+          <td>(</td>
+          <td class="paramtype">FGameplayAbilityRepAnimMontageNetSerializer</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GAMEPLAYABILITIES_API</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="#ab6d7fa8cfa888130de5245f3688f0888">UE_NET_DECLARE_SERIALIZER()</a>.</p>
+<div id="dynsection-5" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 5 --></div>
+</div>
+
+</div>
+</div>
+<a id="a53a4ae4bdf0fa8adcec82375d810f828" name="a53a4ae4bdf0fa8adcec82375d810f828"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53a4ae4bdf0fa8adcec82375d810f828">&#9670;&#160;</a></span>UE_NET_DECLARE_SERIALIZER() <span class="overload">[3/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UE::Net::UE_NET_DECLARE_SERIALIZER </td>
+          <td>(</td>
+          <td class="paramtype">FGameplayAbilityTargetingLocationInfoNetSerializer</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GAMEPLAYABILITIES_API</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae7f6f6273ecc12c56b1c7b676f3bd12f" name="ae7f6f6273ecc12c56b1c7b676f3bd12f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7f6f6273ecc12c56b1c7b676f3bd12f">&#9670;&#160;</a></span>UE_NET_DECLARE_SERIALIZER() <span class="overload">[4/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UE::Net::UE_NET_DECLARE_SERIALIZER </td>
+          <td>(</td>
+          <td class="paramtype">FGameplayEffectContextHandleNetSerializer</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GAMEPLAYABILITIES_API</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af0cb914869ffa3d30bb8a23110a74821" name="af0cb914869ffa3d30bb8a23110a74821"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0cb914869ffa3d30bb8a23110a74821">&#9670;&#160;</a></span>UE_NET_DECLARE_SERIALIZER() <span class="overload">[5/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UE::Net::UE_NET_DECLARE_SERIALIZER </td>
+          <td>(</td>
+          <td class="paramtype">FGameplayEffectContextNetSerializer</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GAMEPLAYABILITIES_API</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a0516987374b7f15e949530501cb9c7" name="a7a0516987374b7f15e949530501cb9c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a0516987374b7f15e949530501cb9c7">&#9670;&#160;</a></span>UE_NET_DECLARE_SERIALIZER() <span class="overload">[6/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UE::Net::UE_NET_DECLARE_SERIALIZER </td>
+          <td>(</td>
+          <td class="paramtype">FGameplayTagContainerNetSerializer</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GAMEPLAYTAGS_API</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7973b7f8c5ce05698247dabe5de62749" name="a7973b7f8c5ce05698247dabe5de62749"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7973b7f8c5ce05698247dabe5de62749">&#9670;&#160;</a></span>UE_NET_DECLARE_SERIALIZER() <span class="overload">[7/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UE::Net::UE_NET_DECLARE_SERIALIZER </td>
+          <td>(</td>
+          <td class="paramtype">FGameplayTagNetSerializer</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GAMEPLAYTAGS_API</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae0a9a972349fb0f07d0a8f02273d48f3" name="ae0a9a972349fb0f07d0a8f02273d48f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0a9a972349fb0f07d0a8f02273d48f3">&#9670;&#160;</a></span>UE_NET_DECLARE_SERIALIZER() <span class="overload">[8/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UE::Net::UE_NET_DECLARE_SERIALIZER </td>
+          <td>(</td>
+          <td class="paramtype">FHitResultNetSerializer</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">1</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac555b55138fc4f3ca3fa9de0f2ac28c1" name="ac555b55138fc4f3ca3fa9de0f2ac28c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac555b55138fc4f3ca3fa9de0f2ac28c1">&#9670;&#160;</a></span>UE_NET_DECLARE_SERIALIZER() <span class="overload">[9/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UE::Net::UE_NET_DECLARE_SERIALIZER </td>
+          <td>(</td>
+          <td class="paramtype">FMinimalGameplayCueReplicationProxyNetSerializer</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GAMEPLAYABILITIES_API</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4d9dc5946d8598f1afbea2a14168b1fd" name="a4d9dc5946d8598f1afbea2a14168b1fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d9dc5946d8598f1afbea2a14168b1fd">&#9670;&#160;</a></span>UE_NET_DECLARE_SERIALIZER() <span class="overload">[10/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UE::Net::UE_NET_DECLARE_SERIALIZER </td>
+          <td>(</td>
+          <td class="paramtype">FMinimalReplicationTagCountMapNetSerializer</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GAMEPLAYABILITIES_API</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeb7f2432888faf89184861a493401118" name="aeb7f2432888faf89184861a493401118"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb7f2432888faf89184861a493401118">&#9670;&#160;</a></span>UE_NET_DECLARE_SERIALIZER() <span class="overload">[11/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UE::Net::UE_NET_DECLARE_SERIALIZER </td>
+          <td>(</td>
+          <td class="paramtype">FRootMotionSourceGroupNetSerializer</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">1</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e99f93308a42d4186daf53321698c39" name="a9e99f93308a42d4186daf53321698c39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e99f93308a42d4186daf53321698c39">&#9670;&#160;</a></span>UE_NET_DECLARE_SERIALIZER() <span class="overload">[12/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UE::Net::UE_NET_DECLARE_SERIALIZER </td>
+          <td>(</td>
+          <td class="paramtype">FUniqueNetIdReplNetSerializer</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">1</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
+<a id="abe446b6ea50df4c67305af1521879843" name="abe446b6ea50df4c67305af1521879843"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe446b6ea50df4c67305af1521879843">&#9670;&#160;</a></span>GRPCDoSScopeDebugging</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/dd0/Platform_8h.html#a8dbb3cd84ca9fd010dadfc3815eefa5d">int32</a> UE::Net::GRPCDoSScopeDebugging</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel extern">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether or not debugging/ensures for RPC DoS Tick/Packet scopes should be enabled. </p>
+
+<p class="reference">Referenced by <a class="el" href="../../d2/d2d/RPCDoSDetection_8h_source.html#l01019">FRPCDoSDetection::GetPacketScope()</a>, <a class="el" href="../../d2/d2d/RPCDoSDetection_8h_source.html#l01114">FRPCDoSDetection::GetSequentialRPCScope()</a>, <a class="el" href="../../d2/d2d/RPCDoSDetection_8h_source.html#l00983">FRPCDoSDetection::GetTickScope()</a>, <a class="el" href="../../d2/d2d/RPCDoSDetection_8h_source.html#l00649">FRPCDoSDetection::PostReceivedPacket()</a>, <a class="el" href="../../d2/d2d/RPCDoSDetection_8h_source.html#l00493">FRPCDoSDetection::PreReceivedPacket()</a>, <a class="el" href="../../d2/d2d/RPCDoSDetection_8h_source.html#l00739">FRPCDoSDetection::PreSequentialRPC()</a>, and <a class="el" href="../../d2/d2d/RPCDoSDetection_8h_source.html#l00916">FRPCDoSDetection::TScopeBase&lt; T &gt;::SetActive()</a>.</p>
+
+</div>
+</div>
+<a id="ae9580d4715fa62c9d13a0756dde3f0c4" name="ae9580d4715fa62c9d13a0756dde3f0c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9580d4715fa62c9d13a0756dde3f0c4">&#9670;&#160;</a></span>HandshakeCompatibilityBreaks</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a42adfe8fb449fe79fde9885460bb5f1e">EHandshakeVersion</a> UE::Net::HandshakeCompatibilityBreaks[] = { <a class="el" href="#a42adfe8fb449fe79fde9885460bb5f1ea075145c89dbf536c29abf223bbc31b4e">EHandshakeVersion::SessionClientId</a> }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>List of <a class="el" href="#a42adfe8fb449fe79fde9885460bb5f1e" title="The different handshake protocol versions.">EHandshakeVersion</a>'s which break net compatibility (sorted from earliest to latest) </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d1a/StatelessConnectHandlerComponent_8h_source.html#l00044">44</a> of file <a class="el" href="../../d5/d1a/StatelessConnectHandlerComponent_8h_source.html">StatelessConnectHandlerComponent.h</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
@@ -107,7 +970,7 @@ $(function(){initNavTree('d4/d2f/namespaceUE_1_1Net.html','../../',''); });
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a href="../../da/d75/namespaceUE.html">UE</a></li><li class="navelem"><a href="../../d4/d2f/namespaceUE_1_1Net.html">Net</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+    <li class="footer">Generated on <span class="timestamp"></span> for Unreal Engine 5.6 C++ API by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>
 </body>

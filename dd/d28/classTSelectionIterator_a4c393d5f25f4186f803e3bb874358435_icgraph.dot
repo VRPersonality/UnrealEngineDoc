@@ -1,0 +1,18 @@
+digraph "TSelectionIterator::GetCurrentObject"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TSelectionIterator\l::GetCurrentObject",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TSelectionIterator\l::IsObjectValid",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d28/classTSelectionIterator.html#a63d9bc414bab8859d77cc6ae7d74bd17",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TSelectionIterator\l::operator++",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d28/classTSelectionIterator.html#ad0981243dde9e6e5a5e8852cd97895ad",tooltip="Advances iterator to the next valid element in the container."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TSelectionIterator\l::operator*",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d28/classTSelectionIterator.html#aa219d3fc890fb712b3559c25a19c4a2d",tooltip="Element access."];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TSelectionIterator\l::operator-\>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d28/classTSelectionIterator.html#ad7fb3cc8b20f8b1cad2d8121632a95e4",tooltip="Element access."];
+}

@@ -1,0 +1,16 @@
+digraph "TFutureBase::WaitUntil"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TFutureBase::WaitUntil",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Blocks the calling thread until the future result is available or the specified time is hit."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FDateTime::UtcNow",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/da3/structFDateTime.html#a5aacb1c9dc5785295f5ffa883b434a47",tooltip="Gets the UTC date and time on this computer."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FDateTime::FDateTime",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/da3/structFDateTime.html#a29d3a1d37aa4764127741b1bfc685081",tooltip="Default constructor (zero initialization)."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TFutureBase::WaitFor",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d71/classTFutureBase.html#a0099e578c95671af73daf583de77c474",tooltip="Blocks the calling thread until the future result is available or the specified duration is exceeded."];
+}

@@ -1,0 +1,24 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="FInputBinding",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d4d/structFInputBinding.html",tooltip="Base class for the different binding types."];
+  Node0 -> Node1 [id="edge4048_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 [id="Node000001",label="FInputActionBinding",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d7a/structFInputActionBinding.html",tooltip="Binds a delegate to an action."];
+  Node0 -> Node2 [id="edge4049_Node000000_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FInputAxisBinding",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/dd6/structFInputAxisBinding.html",tooltip="Binds a delegate to an axis mapping."];
+  Node0 -> Node3 [id="edge4050_Node000000_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FInputAxisKeyBinding",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dec/structFInputAxisKeyBinding.html",tooltip="Binds a delegate to a raw float axis mapping."];
+  Node0 -> Node4 [id="edge4051_Node000000_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FInputGestureBinding",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d7c/structFInputGestureBinding.html",tooltip="Binds a gesture to a function."];
+  Node0 -> Node5 [id="edge4052_Node000000_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FInputKeyBinding",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d22/structFInputKeyBinding.html",tooltip="Binds a delegate to a key chord."];
+  Node0 -> Node6 [id="edge4053_Node000000_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FInputTouchBinding",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d5e/structFInputTouchBinding.html",tooltip="Binds a delegate to touch input."];
+  Node0 -> Node7 [id="edge4054_Node000000_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="FInputVectorAxisBinding",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d60/structFInputVectorAxisBinding.html",tooltip="Binds a delegate to a raw vector axis mapping."];
+}

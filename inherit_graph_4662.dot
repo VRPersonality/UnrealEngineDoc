@@ -1,0 +1,20 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="FStaticMeshDataType",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d4d/structFStaticMeshDataType.html",tooltip=" "];
+  Node0 -> Node1 [id="edge5147_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 [id="Node000001",label="FGPUSkinDataType",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d69/structFGPUSkinDataType.html",tooltip="Stream component data bound to GPU skinned vertex factory."];
+  Node1 -> Node2 [id="edge5148_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FGPUSkinAPEXClothDataType",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d5d/structFGPUSkinAPEXClothDataType.html",tooltip="Stream component data bound to Apex cloth vertex factory."];
+  Node0 -> Node3 [id="edge5149_Node000000_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FGeometryCollectionVertex\lFactory::FDataType",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/dc3/structFGeometryCollectionVertexFactory_1_1FDataType.html",tooltip=" "];
+  Node0 -> Node4 [id="edge5150_Node000000_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FLocalVertexFactory\l::FDataType",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dc0/structFLocalVertexFactory_1_1FDataType.html",tooltip=" "];
+  Node0 -> Node5 [id="edge5151_Node000000_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FMeshParticleVertexFactory\l::FDataType",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dea/structFMeshParticleVertexFactory_1_1FDataType.html",tooltip=" "];
+}

@@ -1,0 +1,14 @@
+digraph "UScriptStruct::SerializeItem"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UScriptStruct::SerializeItem",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Serializes a specific instance of a struct."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FLiveLinkBaseDataStruct\l\< FLiveLinkBaseStaticData\l \>::operator\<\<",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d86/classFLiveLinkBaseDataStruct.html#a44490be9f84c12d2e8645e6160639109",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TStructOnScope::Serialize",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d04/classTStructOnScope.html#a9038eb8f5ef70660b30bcde672947eb6",tooltip=" "];
+}

@@ -1,0 +1,19 @@
+digraph "UE::MovieScene::FPreAnimatedStateExtension::ReplaceObjectForGroup"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="UE::MovieScene::FPreAnimated\lStateExtension::ReplaceObjectForGroup",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Called during blueprint re-instancing to replace the object bound to a specific group handle with ano..."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="NewObject",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/da9/UObjectGlobals_8h.html#a5bfc0b5d674bcc61332d93ddda0003de",tooltip="Convenience template for constructing a gameplay object."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FObjectInitializer\l::AssertIfInConstructor",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d7f/classFObjectInitializer.html#af430b0539029f9bf4a6436bd5b5ee31b",tooltip="Asserts with the specified message if code is executed inside UObject constructor."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FObjectInitializer\l::UObject",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d7f/classFObjectInitializer.html#a883e79be52bfec451a0e77abbe93eaa5",tooltip=" "];
+  Node4 -> Node4 [id="edge4_Node000004_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node5 [id="edge5_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="StaticConstructObject\l_Internal",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/da9/UObjectGlobals_8h.html#ad949828940bb700383cfe4bbbd6c9cf8",tooltip="Create a new instance of an object."];
+}

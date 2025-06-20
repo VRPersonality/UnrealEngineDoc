@@ -1,0 +1,46 @@
+digraph "FEditorDelegates::DECLARE_MULTICAST_DELEGATE_OneParam"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FEditorDelegates::DECLARE\l_MULTICAST_DELEGATE_OneParam",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="delegate type for map change events ( Params: uint32 MapChangeFlags (MapChangeEventFlags) )"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FEditorDelegates::DECLARE\l_MULTICAST_DELEGATE_OneParam",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db4/structFEditorDelegates.html#a5a1d0d7bdef5955b71169b3e656d2eed",tooltip="delegate type for when a new level is added to the world"];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FEditorDelegates::DECLARE\l_MULTICAST_DELEGATE_OneParam",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db4/structFEditorDelegates.html#a51c12f1ee67c1c9ab43970dd3e71607a",tooltip="delegate type for when one or more assets have been deleted"];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FEditorDelegates::DECLARE\l_MULTICAST_DELEGATE_OneParam",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db4/structFEditorDelegates.html#a48f30f5a6eb647ab4e336efb48e93296",tooltip="delegate type for when a user requests to delete certain assets... DOES NOT mean the asset(s) will be..."];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FEditorDelegates::DECLARE\l_MULTICAST_DELEGATE_OneParam",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db4/structFEditorDelegates.html#a1727095a0e6f2e970d094e79f5c4b9e5",tooltip="delegate for when the editor has booted"];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FEditorDelegates::DECLARE\l_MULTICAST_DELEGATE_OneParam",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db4/structFEditorDelegates.html#ab6af14cff1e87ea80c967389e77d39bb",tooltip="delegate for when the editor has fully initialized"];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="FEditorDelegates::DECLARE\l_MULTICAST_DELEGATE_OneParam",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db4/structFEditorDelegates.html#a218f6eb42dcd65ad5b47b3136dd4121d",tooltip="delegate for when the editor is about to load the default startup map - allows delegates to cancel th..."];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="FEditorDelegates::DECLARE\l_MULTICAST_DELEGATE_OneParam",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db4/structFEditorDelegates.html#aa14770998ff46f29a17ca185ab1b6808",tooltip="delegate type for when a texture is fit to surface"];
+  Node1 -> Node9 [id="edge8_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="FEditorDelegates::DECLARE\l_MULTICAST_DELEGATE_OneParam",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db4/structFEditorDelegates.html#af20b910c820d7b735e0a9104ae2ea019",tooltip="delegate type for when a user requested force deleting objects."];
+  Node1 -> Node10 [id="edge9_Node000001_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="FEditorDelegates::DECLARE\l_MULTICAST_DELEGATE_OneParam",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db4/structFEditorDelegates.html#a620fe78d350312d05c65875d2ee30eaa",tooltip="delegate type to handle viewing/editing a set of asset identifiers which are packages or ids"];
+  Node1 -> Node11 [id="edge10_Node000001_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="FEditorDelegates::UE\l_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db4/structFEditorDelegates.html#a3eaf906e9ccfeea7c7c50442a9c646aa",tooltip="delegate type for when a user requests to delete certain assets... It allows the addition of secondar..."];
+  Node11 -> Node12 [id="edge11_Node000011_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="FEditorDelegates::UE\l_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db4/structFEditorDelegates.html#a91c0e88c6bbdb26dd847adb6aabd56da",tooltip="Called when new assets have been (re-)imported."];
+  Node11 -> Node13 [id="edge12_Node000011_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="FEditorDelegates::UE\l_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db4/structFEditorDelegates.html#a3577a93f0d46115db19e3974855a2d98",tooltip="Called when new assets are being (re-)imported."];
+  Node11 -> Node14 [id="edge13_Node000011_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="FEditorDelegates::UE\l_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db4/structFEditorDelegates.html#a992a0395b7c07143678cec782be27b68",tooltip="Called after an asset has been reimported."];
+  Node11 -> Node15 [id="edge14_Node000011_Node000015",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="FEditorDelegates::UE\l_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db4/structFEditorDelegates.html#aafc0c1b2cbab381d9fc120017dde51ac",tooltip="Called when an editor mode is being entered."];
+  Node11 -> Node16 [id="edge15_Node000011_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="FEditorDelegates::UE\l_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db4/structFEditorDelegates.html#a5d69136557bba0fa2724fbfe589c7367",tooltip="Called when an editor mode is being exited."];
+  Node11 -> Node17 [id="edge16_Node000011_Node000017",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="FEditorDelegates::UE\l_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db4/structFEditorDelegates.html#aad86accafbd7dbce2fdcb7e524a7343f",tooltip="Called when an editor mode ID is being entered."];
+  Node11 -> Node18 [id="edge17_Node000011_Node000018",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="FEditorDelegates::UE\l_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db4/structFEditorDelegates.html#a32ef4ff3f57f0544c881fadc942f031f",tooltip="Called when an editor mode ID is being exited."];
+  Node11 -> Node19 [id="edge18_Node000011_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="FEditorDelegates::UE\l_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db4/structFEditorDelegates.html#a6da73aae684675b9584497ee7ad69065",tooltip="Called when the user requests certain assets be deletedand allows the addition of secondary assets th..."];
+}

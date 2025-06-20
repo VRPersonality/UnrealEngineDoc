@@ -1,0 +1,18 @@
+digraph "UActorComponent::AddReferencedObjects"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UActorComponent::AddReferenced\lObjects",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="USceneComponent::Serialize",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dde/classUSceneComponent.html#a6b1fe00103cdeba2562f5faf8022b1f0",tooltip="Handles reading, writing, and reference collecting using FArchive."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UPhysicsConstraintComponent\l::PostEditChangeProperty",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/df7/classUPhysicsConstraintComponent.html#ae4a975a95e8ff3778f82a001ee996762",tooltip="Called when a property on this object has been modified externally."];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UForceFeedbackComponent\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d5b/classUForceFeedbackComponent.html#a4da55af3d5670add5fcf9f405f87025f",tooltip="Modify the attenuation settings of the component."];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="USTRUCT",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dc3/ComponentInstanceDataCache_8h.html#a3be84ecf85fc6ceedb39feb56afc40b5",tooltip="Base class for instance cached data of a particular type."];
+}

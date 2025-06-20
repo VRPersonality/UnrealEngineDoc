@@ -1,0 +1,14 @@
+digraph "SCurveEditorPanel::CompareCommonInterpolationMode"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SCurveEditorPanel::\lCompareCommonInterpolationMode",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Compare all the currently selected keys' interp modes against the specified interp mode."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SCurveEditorPanel::\lCompareCommonTangentMode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d9c/classSCurveEditorPanel.html#a1c6b4d6d6e592c3440e441f8c3995171",tooltip="Compare all the currently selected keys' tangent modes against the specified tangent mode."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SCurveEditorPanel::\lCompareCommonTangentWeightMode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d9c/classSCurveEditorPanel.html#ad31820bd94902c9a04b38ca79ecd94d1",tooltip="Compare all the currently selected keys' tangent modes against the specified tangent mode."];
+}

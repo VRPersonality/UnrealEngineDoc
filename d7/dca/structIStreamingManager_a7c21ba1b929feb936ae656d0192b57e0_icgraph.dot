@@ -1,0 +1,14 @@
+digraph "IStreamingManager::IStreamingManager"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="IStreamingManager::\lIStreamingManager",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FStreamingManagerCollection\l::AddStreamingManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d23/structFStreamingManagerCollection.html#a5b9b02221ed9b6656cacb5f3fa085fbb",tooltip="Adds a streaming manager to the array of managers to route function calls to."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FStreamingManagerCollection\l::RemoveStreamingManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d23/structFStreamingManagerCollection.html#a207a138bc870cea24b6ec6ad03d77a96",tooltip="Removes a streaming manager from the array of managers to route function calls to."];
+}

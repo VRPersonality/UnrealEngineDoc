@@ -1,0 +1,56 @@
+digraph "FMeshDescriptionOperations::UE_DEPRECATED"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FMeshDescriptionOperations\l::UE_DEPRECATED",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Convert this mesh description into the old FRawMesh format."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FMeshDescriptionOperations\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d9c/classFMeshDescriptionOperations.html#abb4e84fa7eb4eec76f916e33986f753d",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FMeshDescriptionOperations\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d9c/classFMeshDescriptionOperations.html#af15e5d2daa6dcc6d95ecb7f4c9cbfd5c",tooltip="Add a UV channel to the MeshDescription."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FMeshDescriptionOperations\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d9c/classFMeshDescriptionOperations.html#a293b49fecbfbcb3668489ce1fc865bab",tooltip=" "];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FMeshDescriptionOperations\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d9c/classFMeshDescriptionOperations.html#a4b3cff91353105560866eda54125d76e",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FMeshDescriptionOperations\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d9c/classFMeshDescriptionOperations.html#af2e65f767a0eeadceeae394b0299a2f9",tooltip="Computes the SHA hash of all the attributes values in the MeshDescription."];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="FMeshDescriptionOperations\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d9c/classFMeshDescriptionOperations.html#aad3377e02c5fdd87110a9ea6d6207030",tooltip="Convert old FRawMesh format to MeshDescription."];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="FMeshDescriptionOperations\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d9c/classFMeshDescriptionOperations.html#a7f0047080e5eef972a67330d3c0b626a",tooltip=" "];
+  Node1 -> Node9 [id="edge8_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="FMeshDescriptionOperations\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d9c/classFMeshDescriptionOperations.html#a79505b867f8e1f1acf1040117e3a0df8",tooltip=" "];
+  Node1 -> Node10 [id="edge9_Node000001_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="FMeshDescriptionOperations\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d9c/classFMeshDescriptionOperations.html#a2479f200a9401ad2a209548992f3e33d",tooltip="Compute normal, tangent and Bi-Normal for every polygon in the mesh description."];
+  Node1 -> Node11 [id="edge10_Node000001_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="FMeshDescriptionOperations\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d9c/classFMeshDescriptionOperations.html#a9a5a0e62defebdbc0891d9dab033593a",tooltip="Find and pack UV charts for lightmap."];
+  Node1 -> Node12 [id="edge11_Node000001_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="FMeshDescriptionOperations\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d9c/classFMeshDescriptionOperations.html#aa5ab0293cf20f541484b7903bc742353",tooltip="Compute tangent and Bi-Normal using mikkt space for every vertex in the mesh description."];
+  Node1 -> Node13 [id="edge12_Node000001_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="FMeshDescriptionOperations\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d9c/classFMeshDescriptionOperations.html#aa6fdc925cdddb4096ff0004ad9411bd5",tooltip="Compute normal, tangent and Bi-Normal(only if bComputeTangent is true) for every vertex in the mesh d..."];
+  Node1 -> Node14 [id="edge13_Node000001_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="FMeshDescriptionOperations\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d9c/classFMeshDescriptionOperations.html#a2c4c1f53b2a30a38304de83b670bbdee",tooltip="Find all overlapping vertex using the threshold in the mesh description."];
+  Node1 -> Node15 [id="edge14_Node000001_Node000015",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="FMeshDescriptionOperations\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d9c/classFMeshDescriptionOperations.html#aae22b0df57e22156fcbb97262fdf1e14",tooltip="Generate box UV mapping for the MeshDescription."];
+  Node1 -> Node16 [id="edge15_Node000001_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="FMeshDescriptionOperations\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d9c/classFMeshDescriptionOperations.html#a2ff1db57f42c3ab22d3c766b378b4e99",tooltip="Generate cylindrical UV mapping for the MeshDescription."];
+  Node1 -> Node17 [id="edge16_Node000001_Node000017",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="FMeshDescriptionOperations\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d9c/classFMeshDescriptionOperations.html#a2e11c55b6e33b2680b5dfeaa367ea808",tooltip="Generate planar UV mapping for the MeshDescription."];
+  Node1 -> Node18 [id="edge17_Node000001_Node000018",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="FMeshDescriptionOperations\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d9c/classFMeshDescriptionOperations.html#a889b2a8924c53e86eddc9f1dce5e31ef",tooltip="Create some UVs from the specified mesh description data."];
+  Node1 -> Node19 [id="edge18_Node000001_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="FMeshDescriptionOperations\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d9c/classFMeshDescriptionOperations.html#a82a769f05d98ab46995d834aeebf4f99",tooltip="Find all charts in the mesh description."];
+  Node1 -> Node20 [id="edge19_Node000001_Node000020",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node20 [id="Node000020",label="FMeshDescriptionOperations\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d9c/classFMeshDescriptionOperations.html#af465aeacb65601f9eef7ec983c58c53b",tooltip=" "];
+  Node1 -> Node21 [id="edge20_Node000001_Node000021",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node21 [id="Node000021",label="FMeshDescriptionOperations\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d9c/classFMeshDescriptionOperations.html#a5f4428d57044c3324f98b0ab76b878d7",tooltip="Insert a UV channel at the given index to the MeshDescription."];
+  Node1 -> Node22 [id="edge21_Node000001_Node000022",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node22 [id="Node000022",label="FMeshDescriptionOperations\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d9c/classFMeshDescriptionOperations.html#a4ad92989b5c62a1c1d39a31feb215f8f",tooltip=" "];
+  Node1 -> Node23 [id="edge22_Node000001_Node000023",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node23 [id="Node000023",label="FMeshDescriptionOperations\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d9c/classFMeshDescriptionOperations.html#a34eb9ab5b8e7b5a3f5ac7938174f8d68",tooltip="Remove the UV channel at the given index from the MeshDescription."];
+  Node1 -> Node24 [id="edge23_Node000001_Node000024",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node24 [id="Node000024",label="FMeshDescriptionOperations\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d9c/classFMeshDescriptionOperations.html#a3d764960e7f51b9600d4ff5e32d028f0",tooltip=" "];
+}

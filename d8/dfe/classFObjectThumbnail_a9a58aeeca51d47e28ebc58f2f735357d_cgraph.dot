@@ -1,0 +1,14 @@
+digraph "FObjectThumbnail::GetImage"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FObjectThumbnail::GetImage",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Returns uncompressed image data as an FImageView, decompressing it on demand if needed."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FObjectThumbnail::GetUncompressed\lImageData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/dfe/classFObjectThumbnail.html#ac6acf618820341193d4a11cad006492b",tooltip="Returns uncompressed image data, decompressing it on demand if needed."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TArray::Num",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d52/classTArray.html#adcbf9ca48677a9c0c3830cd862dd40d8",tooltip="Returns number of elements in array."];
+}

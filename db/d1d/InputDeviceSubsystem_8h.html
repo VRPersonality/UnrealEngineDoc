@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Unreal Engine 5.6 C++ Documentation: UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/InputDeviceSubsystem.h File Reference</title>
+<title>Unreal Engine 5.6 C++ API: InputDeviceSubsystem.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -18,7 +18,11 @@
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
-<link href="../../unreal_theme.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -27,9 +31,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Unreal Engine 5.6 C++ Documentation<span id="projectnumber">&#160;5.6</span>
+   <div id="projectname">Unreal Engine 5.6 C++ API<span id="projectnumber">&#160;5.6.0</span>
    </div>
-   <div id="projectbrief">Documentation UE5 avec chemins sources corrects</div>
+   <div id="projectbrief">C++ API documentation for Unreal Engine 5.6</div>
   </td>
  </tr>
  </tbody>
@@ -95,30 +99,80 @@ $(function(){initNavTree('db/d1d/InputDeviceSubsystem_8h.html','../../',''); });
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../da/d88/InputSettings_8h_source.html">InputSettings.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../de/d27/InputDevicePropertyHandle_8h_source.html">GameFramework/InputDevicePropertyHandle.h</a>&quot;</code><br />
-<code>#include &quot;Subsystems/EngineSubsystem.h&quot;</code><br />
-<code>#include &quot;Tickable.h&quot;</code><br />
-<code>#include &quot;Templates/SubclassOf.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/df1/EngineSubsystem_8h_source.html">Subsystems/EngineSubsystem.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/dd5/Tickable_8h_source.html">Tickable.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/db4/SubclassOf_8h_source.html">Templates/SubclassOf.h</a>&quot;</code><br />
 <code>#include &quot;InputDeviceSubsystem.generated.h&quot;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Include dependency graph for InputDeviceSubsystem.h:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 0 --></div>
+</div>
+</div><div class="textblock"><div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>This graph shows which files directly or indirectly include this file:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 1 --></div>
+</div>
 </div>
 <p><a href="../../db/d1d/InputDeviceSubsystem_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:FActivateDevicePropertyParams" id="r_FActivateDevicePropertyParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d2e/structFActivateDevicePropertyParams.html">FActivateDevicePropertyParams</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters for the <a class="el" href="../../d8/d97/classUInputDeviceSubsystem.html#a614fa2cc2d40a896e6f10272bbfdf17d" title="Starts tracking the given device property as an &quot;Active&quot; property.">UInputDeviceSubsystem::ActivateDeviceProperty</a> function.  <a href="../../d7/d2e/structFActivateDevicePropertyParams.html#details">More...</a><br /></td></tr>
-<tr class="memitem:FActiveDeviceProperty" id="r_FActiveDeviceProperty"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d2d/structFActiveDeviceProperty.html">FActiveDeviceProperty</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains a pointer to an active device property and keeps track of how long it has been evaluated for.  <a href="../../d5/d2d/structFActiveDeviceProperty.html#details">More...</a><br /></td></tr>
-<tr class="memitem:UInputDeviceSubsystem" id="r_UInputDeviceSubsystem"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d97/classUInputDeviceSubsystem.html">UInputDeviceSubsystem</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate called when a user changed the hardware they are using for input.  <a href="../../d8/d97/classUInputDeviceSubsystem.html#details">More...</a><br /></td></tr>
-<tr class="memitem:UInputDeviceSubsystem_3A_3AFResetPIEData" id="r_UInputDeviceSubsystem_3A_3AFResetPIEData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db8/structUInputDeviceSubsystem_1_1FResetPIEData.html">UInputDeviceSubsystem::FResetPIEData</a></td></tr>
-<tr class="memitem:UInputDeviceSubsystem_3A_3AFLatestInputDeviceData" id="r_UInputDeviceSubsystem_3A_3AFLatestInputDeviceData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2a/structUInputDeviceSubsystem_1_1FLatestInputDeviceData.html">UInputDeviceSubsystem::FLatestInputDeviceData</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data store about the input device that was most recently used by a specific FPlatformUserId.  <a href="../../d6/d2a/structUInputDeviceSubsystem_1_1FLatestInputDeviceData.html#details">More...</a><br /></td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a33fcc158376e54615330093c021e6b02" id="r_a33fcc158376e54615330093c021e6b02"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33fcc158376e54615330093c021e6b02">DECLARE_LOG_CATEGORY_EXTERN</a> (LogInputDeviceProperties, Log, <a class="el" href="../../da/d88/InputSettings_8h.html#af39ee9f13f828cdcb24512d5d1affe86a911a49b7967ef10985d331841303b75f">All</a>)</td></tr>
+<tr class="memitem:a27da65059dec6598301b8f9e74b52865" id="r_a27da65059dec6598301b8f9e74b52865"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27da65059dec6598301b8f9e74b52865">DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</a> (FHardwareInputDeviceChanged, const <a class="el" href="../../db/d29/structFPlatformUserId.html">FPlatformUserId</a>, UserId, const <a class="el" href="../../d1/dea/structFInputDeviceId.html">FInputDeviceId</a>, DeviceId)</td></tr>
+<tr class="memdesc:a27da65059dec6598301b8f9e74b52865"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate called when a user changed the hardware they are using for input.  <br /></td></tr>
+<tr class="memitem:a33fcc158376e54615330093c021e6b02" id="r_a33fcc158376e54615330093c021e6b02"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33fcc158376e54615330093c021e6b02">DECLARE_LOG_CATEGORY_EXTERN</a> (LogInputDeviceProperties, <a class="el" href="../../d7/d70/MovieSceneFwd_8h.html#aa8bffd849abb71dfb3a1499b8b90d93c">Log</a>, <a class="el" href="../../d7/d70/MovieSceneFwd_8h.html#aec9a8fb5ad78e91058c2adcba085b921">All</a>)</td></tr>
+<tr class="memitem:a9d5372c2fd338e730065d41cc6a40562" id="r_a9d5372c2fd338e730065d41cc6a40562"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d5372c2fd338e730065d41cc6a40562">USTRUCT</a> () struct FActivateDevicePropertyParams</td></tr>
+<tr class="memdesc:a9d5372c2fd338e730065d41cc6a40562"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters for the UInputDeviceSubsystem::ActivateDeviceProperty function.  <br /></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a27da65059dec6598301b8f9e74b52865" name="a27da65059dec6598301b8f9e74b52865"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27da65059dec6598301b8f9e74b52865">&#9670;&#160;</a></span>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams </td>
+          <td>(</td>
+          <td class="paramtype">FHardwareInputDeviceChanged</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../db/d29/structFPlatformUserId.html">FPlatformUserId</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UserId</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d1/dea/structFInputDeviceId.html">FInputDeviceId</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DeviceId</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Delegate called when a user changed the hardware they are using for input. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">UserId</td><td>The Platform user whose device has changed </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">References <a class="el" href="../../d2/da0/AnimMontage_8h_source.html#l00621">BlueprintType</a>, <a class="el" href="../../d1/df7/RigUnit__AnimNextRunAnimationGraph__v1_8h_source.html#l00024">Category</a>, <a class="el" href="../../d3/d23/DelegateCombinations_8h_source.html#l00062">DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</a>, <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00743">GENERATED_BODY</a>, <a class="el" href="../../d9/d91/RepLayout_8h_source.html#l00055">Handle</a>, <a class="el" href="../../d5/da4/SlateAttribute_8h_source.html#l00170">Initialize</a>, <a class="el" href="../../da/d38/CoreMiscDefines_8h_source.html#l00563">INPUTDEVICEID_NONE</a>, <a class="el" href="../../d3/dc7/ModularVehicleBaseComponent_8h_source.html#l00108">meta</a>, <a class="el" href="../../d2/da0/AnimMontage_8h_source.html#l00621">MinimalAPI</a>, <a class="el" href="../../d8/db1/UnrealNames_8h_source.html#l00182">Outer</a>, <a class="el" href="../../dc/dae/VPCameraBlueprintLibrary_8h_source.html#l00083">Params</a>, <a class="el" href="../../d4/d43/PropertyTag_8h_source.html#l00029">Property</a>, <a class="el" href="../../df/dcf/EngineTypes_8h_source.html#l04219">Transient</a>, <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00754">UCLASS</a>, <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00724">UFUNCTION</a>, and <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00723">UPROPERTY</a>.</p>
+
+</div>
+</div>
 <a id="a33fcc158376e54615330093c021e6b02" name="a33fcc158376e54615330093c021e6b02"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a33fcc158376e54615330093c021e6b02">&#9670;&#160;</a></span>DECLARE_LOG_CATEGORY_EXTERN()</h2>
 
@@ -133,17 +187,57 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Log</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+          <td class="paramtype"><a class="el" href="../../d7/d70/MovieSceneFwd_8h.html#aa8bffd849abb71dfb3a1499b8b90d93c">Log</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../da/d88/InputSettings_8h.html#af39ee9f13f828cdcb24512d5d1affe86a911a49b7967ef10985d331841303b75f">All</a></td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="../../d7/d70/MovieSceneFwd_8h.html#aec9a8fb5ad78e91058c2adcba085b921">All</a></td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../da/d88/InputSettings_8h_source.html#l00378">All</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d70/MovieSceneFwd_8h_source.html#l00139">All</a>, and <a class="el" href="../../d7/d70/MovieSceneFwd_8h_source.html#l00139">Log</a>.</p>
+
+</div>
+</div>
+<a id="a9d5372c2fd338e730065d41cc6a40562" name="a9d5372c2fd338e730065d41cc6a40562"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d5372c2fd338e730065d41cc6a40562">&#9670;&#160;</a></span>USTRUCT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">USTRUCT </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Parameters for the UInputDeviceSubsystem::ActivateDeviceProperty function. </p>
+<p>Contains a pointer to an active device property and keeps track of how long it has been evaluated for. </p>
+<p>The Platform User whose device's should receive the device property</p>
+<p>The Input Device that should receive the device property. If nothing is specified here, then the Platform User's default input device will be used.</p>
+<p>The default input device is obtained from <a class="el" href="../../dc/da7/classIPlatformInputDeviceMapper.html#a6727702c5c86b79d26f1d41c1edfa6f0" title="Returns the primary input device used by a specific player, or INPUTDEVICEID_NONE if invalid.">IPlatformInputDeviceMapper::GetPrimaryInputDeviceForUser</a></p>
+<p>If true, then the input device property will not be removed after it's evaluation time has completed. Instead, it will remain active until manually removed with a RemoveDeviceProperty call.</p>
+<p>If true, then this device property will ignore dilated delta time and use the Applications delta time instead</p>
+<p>If true, then this device property will be played even if the game world is paused.</p>
+<p>Active properties can just use the hash of their FInputDevicePropertyHandle for a fast and unique lookup</p>
+<p>The active device property</p>
+<p>How long this property has been evaluated for. DeltaTime is added to this on tick</p>
+<p>The platform user that is actively receiving this device property</p>
+<p>The input device id that should receive this property.</p>
+<p>The handle of this active property.</p>
+<p>If true, then the input device property will not be removed after it's evaluation time has completed. Instead, it will remain active until manually removed with a RemoveDeviceProperty call.</p>
+<p>If true, then this device property will ignore dilated delta time and use the Applications delta time instead</p>
+<p>If true, then this device property will be played even if the game world is paused.</p>
+<p>This is set to true when this device property has been applied. All device properties should be applied at least one time, no matter what. This handles cases where the evaluation time is longer then the duration of a property. I.e., your property is set to a duration of 0.1, but you get a delta time of .12 seconds for some reason (choppy frames, low perf client, debugging, etc).</p>
+
+<p class="definition">Definition at line <a class="el" href="../../db/d1d/InputDeviceSubsystem_8h_source.html#l00017">17</a> of file <a class="el" href="../../db/d1d/InputDeviceSubsystem_8h_source.html">InputDeviceSubsystem.h</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d2/da0/AnimMontage_8h_source.html#l00621">BlueprintType</a>, <a class="el" href="../../d1/df7/RigUnit__AnimNextRunAnimationGraph__v1_8h_source.html#l00024">Category</a>, <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00743">GENERATED_BODY</a>, and <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00723">UPROPERTY</a>.</p>
 
 </div>
 </div>
@@ -160,8 +254,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="../../dir_4aca46919dd64a018c94105a41bb52f8.html">UE_5.6</a></li><li class="navelem"><a href="../../dir_35a4881369ae19e233e6dac2bcad4050.html">Engine</a></li><li class="navelem"><a href="../../dir_9f26ecb35aabc03d0a71a3e3b9106316.html">Source</a></li><li class="navelem"><a href="../../dir_0942f747ae23c965c05d4d76ae4659cb.html">Runtime</a></li><li class="navelem"><a href="../../dir_c4f31664fb2968a098c34e2ef86324ca.html">Engine</a></li><li class="navelem"><a href="../../dir_2d50b3e22a4f3c2a257cc8ed034f8f90.html">Classes</a></li><li class="navelem"><a href="../../dir_ed269b19aee30b1edf91ca5f109cdfa1.html">GameFramework</a></li><li class="navelem"><a href="../../db/d1d/InputDeviceSubsystem_8h.html">InputDeviceSubsystem.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+    <li class="navelem"><a href="../../dir_7536b172fbd480bfd146a1b1acd6856b.html">Runtime</a></li><li class="navelem"><a href="../../dir_fdf6aa5c3cf3805bb958134448d60562.html">Engine</a></li><li class="navelem"><a href="../../dir_0ed647eebe6ffcaa496d3842b7cec6ce.html">Classes</a></li><li class="navelem"><a href="../../dir_cc939d8e7753f23591e1c275ea054aa8.html">GameFramework</a></li><li class="navelem"><a href="../../db/d1d/InputDeviceSubsystem_8h.html">InputDeviceSubsystem.h</a></li>
+    <li class="footer">Generated on <span class="timestamp"></span> for Unreal Engine 5.6 C++ API by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>
 </body>

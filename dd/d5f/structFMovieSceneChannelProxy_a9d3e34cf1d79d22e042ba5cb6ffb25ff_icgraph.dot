@@ -1,0 +1,14 @@
+digraph "FMovieSceneChannelProxy::MakeHandle"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FMovieSceneChannelProxy\l::MakeHandle",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Make a channel handle out for the specified index and channel type name."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FMovieSceneChannelProxy\l::CopyHandle",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d5f/structFMovieSceneChannelProxy.html#a551be263ce05f8d1be61997dcf447c4f",tooltip="Make a new channel handle for the same channel type name and index for this channel proxy."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FMovieSceneChannelProxy\l::MakeHandle",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d5f/structFMovieSceneChannelProxy.html#a033c059ec709217b5459056b8f766848",tooltip="Make a channel handle out for the specified index and templated channel type."];
+}

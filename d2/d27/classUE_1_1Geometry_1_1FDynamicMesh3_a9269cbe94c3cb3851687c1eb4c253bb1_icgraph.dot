@@ -1,0 +1,18 @@
+digraph "UE::Geometry::FDynamicMesh3::HasTriangleGroups"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UE::Geometry::FDynamicMesh3\l::HasTriangleGroups",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Geometry::FDynamicMesh3\l::GetTriangleGroup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d27/classUE_1_1Geometry_1_1FDynamicMesh3.html#ac090d8bb6c33a5d44b586b3cf2f4eda7",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::Geometry::FDynamicMesh3\l::GetTriangleGroupsBuffer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d27/classUE_1_1Geometry_1_1FDynamicMesh3.html#a6068c04cca38e5c87d305fbfe0626498",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UE::Geometry::FDynamicMesh3\l::SetTriangleGroup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d27/classUE_1_1Geometry_1_1FDynamicMesh3.html#acb1ad1df88bda313d5ed6cee20059949",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="UE::Geometry::FPolygroup\lSet::SetGroup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/dc4/structUE_1_1Geometry_1_1FPolygroupSet.html#aa109d9badd60c70f1e5d3bcff1cecc12",tooltip="Set the PolygroupID for a TriangleID."];
+}

@@ -1,0 +1,17 @@
+digraph "Harmonix::Dsp::Effects::TMultiChannelBiquadFilter::Prepare"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="Harmonix::Dsp::Effects\l::TMultiChannelBiquadFilter\l::Prepare",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Harmonix::Dsp::Effects\l::TMultiChannelBiquadFilter\l::ApplySettingsFromRampers",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d6b/classHarmonix_1_1Dsp_1_1Effects_1_1TMultiChannelBiquadFilter.html#a4ed4a11818373c2be7a63497c9890f44",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Harmonix::Dsp::Effects\l::TMultiChannelBiquadFilter\l::UpdateCoefsFromSettings",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d6b/classHarmonix_1_1Dsp_1_1Effects_1_1TMultiChannelBiquadFilter.html#ae957aae80ae7c291bce35363e7645068",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="Harmonix::Dsp::Effects\l::TMultiChannelBiquadFilter\l::SnapSettings",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d6b/classHarmonix_1_1Dsp_1_1Effects_1_1TMultiChannelBiquadFilter.html#a3472bc3ef21b99fac8da939ad651e8d4",tooltip=" "];
+  Node4 -> Node2 [id="edge4_Node000004_Node000002",color="steelblue1",style="solid",tooltip=" "];
+}

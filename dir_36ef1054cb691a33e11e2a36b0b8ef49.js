@@ -1,0 +1,26 @@
+var dir_36ef1054cb691a33e11e2a36b0b8ef49 =
+[
+    [ "DataValidation", "dir_05ff5f2dd7da44c0f44b3974988caee3.html", "dir_05ff5f2dd7da44c0f44b3974988caee3" ],
+    [ "AssetAccessRestrictions.h", "d2/d86/AssetAccessRestrictions_8h.html", "d2/d86/AssetAccessRestrictions_8h" ],
+    [ "AssetRegistryInterface.h", "d5/d26/AssetRegistryInterface_8h.html", "d5/d26/AssetRegistryInterface_8h" ],
+    [ "DataValidation.h", "d4/d34/DataValidation_8h.html", "d4/d34/DataValidation_8h" ],
+    [ "EditorPathHelper.h", "dd/d11/EditorPathHelper_8h.html", "dd/d11/EditorPathHelper_8h" ],
+    [ "EditorPathObjectInterface.h", "d8/d33/EditorPathObjectInterface_8h.html", "d8/d33/EditorPathObjectInterface_8h" ],
+    [ "ExclusiveLoadPackageTimeTracker.h", "da/d95/ExclusiveLoadPackageTimeTracker_8h.html", "da/d95/ExclusiveLoadPackageTimeTracker_8h" ],
+    [ "HotReloadInterface.h", "d8/dda/HotReloadInterface_8h.html", "d8/dda/HotReloadInterface_8h" ],
+    [ "ITransactionObjectAnnotation.h", "dc/ddd/ITransactionObjectAnnotation_8h.html", "dc/ddd/ITransactionObjectAnnotation_8h" ],
+    [ "NotifyHook.h", "d6/dff/NotifyHook_8h.html", "d6/dff/NotifyHook_8h" ],
+    [ "PackageAccessTracking.h", "d8/d55/PackageAccessTracking_8h.html", "d8/d55/PackageAccessTracking_8h" ],
+    [ "PackageAccessTrackingOps.h", "d3/def/PackageAccessTrackingOps_8h.html", null ],
+    [ "PackageName.h", "d1/dc7/PackageName_8h.html", "d1/dc7/PackageName_8h" ],
+    [ "PackagePath.h", "d8/d15/PackagePath_8h.html", "d8/d15/PackagePath_8h" ],
+    [ "PackageSegment.h", "d9/dd6/PackageSegment_8h.html", "d9/dd6/PackageSegment_8h" ],
+    [ "RedirectCollector.h", "d2/d51/RedirectCollector_8h.html", "d2/d51/RedirectCollector_8h" ],
+    [ "ReferenceDebugging.h", "db/d4d/ReferenceDebugging_8h.html", "db/d4d/ReferenceDebugging_8h" ],
+    [ "TextBuffer.h", "d6/d3f/TextBuffer_8h.html", "d6/d3f/TextBuffer_8h" ],
+    [ "TransactionObjectEvent.h", "dc/d15/TransactionObjectEvent_8h.html", "dc/d15/TransactionObjectEvent_8h" ],
+    [ "UObjectTestUtils.h", "dd/de3/UObjectTestUtils_8h.html", "dd/de3/UObjectTestUtils_8h" ],
+    [ "UObjectToken.h", "d7/d42/UObjectToken_8h.html", "d7/d42/UObjectToken_8h" ],
+    [ "WarnIfAssetsLoadedInScope.h", "df/d49/WarnIfAssetsLoadedInScope_8h.html", "df/d49/WarnIfAssetsLoadedInScope_8h" ],
+    [ "WorldCompositionUtility.h", "d4/de1/WorldCompositionUtility_8h.html", "d4/de1/WorldCompositionUtility_8h" ]
+];

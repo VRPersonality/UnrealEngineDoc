@@ -1,0 +1,16 @@
+digraph "UE::PixelStreaming2::GetDataPointer"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UE::PixelStreaming2\l::GetDataPointer",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::PixelStreaming2\l::FBufferBuilder::Insert",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d10/structUE_1_1PixelStreaming2_1_1FBufferBuilder.html#a6b1b6e68cb0954bf89d33080deade145",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::PixelStreaming2\l::FEpicRtcDataTrack\l::EncodeMessage",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d6d/classUE_1_1PixelStreaming2_1_1FEpicRtcDataTrack.html#a50e9ba6340243c34f7cadc3e13e06c9c",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UE::PixelStreaming2\l::FEpicRtcDataTrack\l::SendMessage",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d6d/classUE_1_1PixelStreaming2_1_1FEpicRtcDataTrack.html#a84961b4abaf3a4f3da4e70bac18b534a",tooltip="Sends a series of arguments to the data channel with the given type."];
+}

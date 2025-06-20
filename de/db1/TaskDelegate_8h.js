@@ -1,0 +1,10 @@
+var TaskDelegate_8h =
+[
+    [ "LowLevelTasks::FLowLevelTasksBlockAllocationTag", "d4/df6/structLowLevelTasks_1_1FLowLevelTasksBlockAllocationTag.html", "d4/df6/structLowLevelTasks_1_1FLowLevelTasksBlockAllocationTag" ],
+    [ "LowLevelTasks::TTaskDelegate< ReturnType(ParamTypes...), TotalSize >::TTaskDelegateBase", "df/d05/structLowLevelTasks_1_1TTaskDelegate_3_01ReturnType_07ParamTypes_8_8_8_08_00_01TotalSize_01_4_1_1TTaskDelegateBase.html", "df/d05/structLowLevelTasks_1_1TTaskDelegate_3_01ReturnType_07ParamTypes_8_8_8_08_00_01TotalSize_01_4_1_1TTaskDelegateBase" ],
+    [ "LowLevelTasks::TTaskDelegate< ReturnType(ParamTypes...), TotalSize >::TTaskDelegateDummy", "d5/da2/structLowLevelTasks_1_1TTaskDelegate_3_01ReturnType_07ParamTypes_8_8_8_08_00_01TotalSize_01_4_1_1TTaskDelegateDummy.html", "d5/da2/structLowLevelTasks_1_1TTaskDelegate_3_01ReturnType_07ParamTypes_8_8_8_08_00_01TotalSize_01_4_1_1TTaskDelegateDummy" ],
+    [ "LowLevelTasks::TTaskDelegate< ReturnType(ParamTypes...), TotalSize >::TTaskDelegateImpl< TCallableType, false >", "d0/da6/structLowLevelTasks_1_1TTaskDelegate_3_01ReturnType_07ParamTypes_8_8_8_08_00_01TotalSize_01_4_1_dccb8c39fbf97ed05862ece8df018c4f.html", "d0/da6/structLowLevelTasks_1_1TTaskDelegate_3_01ReturnType_07ParamTypes_8_8_8_08_00_01TotalSize_01_4_1_dccb8c39fbf97ed05862ece8df018c4f" ],
+    [ "LowLevelTasks::TTaskDelegate< ReturnType(ParamTypes...), TotalSize >::TTaskDelegateImpl< TCallableType, true >", "df/d95/structLowLevelTasks_1_1TTaskDelegate_3_01ReturnType_07ParamTypes_8_8_8_08_00_01TotalSize_01_4_1_ebfca0ca727d882be72a3faf47657acc.html", "df/d95/structLowLevelTasks_1_1TTaskDelegate_3_01ReturnType_07ParamTypes_8_8_8_08_00_01TotalSize_01_4_1_ebfca0ca727d882be72a3faf47657acc" ],
+    [ "LowLevelTasks::TTaskDelegate_Impl::MakeDummyValue", "d1/d5a/namespaceLowLevelTasks_1_1TTaskDelegate__Impl.html#a954b4ba06e8b28beefd1149207461ec2", null ],
+    [ "LowLevelTasks::TTaskDelegate_Impl::MakeDummyValue< void >", "d1/d5a/namespaceLowLevelTasks_1_1TTaskDelegate__Impl.html#ae160cc02893e7114e11ab87fe99dd495", null ]
+];

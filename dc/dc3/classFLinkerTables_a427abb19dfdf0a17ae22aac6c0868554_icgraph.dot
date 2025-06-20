@@ -1,0 +1,14 @@
+digraph "FLinkerTables::GetImportFullName"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FLinkerTables::GetImport\lFullName",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Return the full name of the UObject represented by the specified import."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FLinker::GetFullImpExpName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db2/classFLinker.html#afb02ce645a0576fe282f31822afa6b7b",tooltip="Return the full name of the UObject represented by the specified export."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FLinkerTables::GetImport\lFullName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/dc3/classFLinkerTables.html#a160bf064e037b82664f431d704e18a81",tooltip="Return the full name of the UObject represented by the specified package index."];
+}

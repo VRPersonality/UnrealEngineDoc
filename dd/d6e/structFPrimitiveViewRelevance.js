@@ -1,0 +1,25 @@
+var structFPrimitiveViewRelevance =
+[
+    [ "FPrimitiveViewRelevance", "dd/d6e/structFPrimitiveViewRelevance.html#a7b164bd482cc1a01e360dd981e09d552", null ],
+    [ "HasTranslucency", "dd/d6e/structFPrimitiveViewRelevance.html#a9f681cde6d068558be89cbaf086726e0", null ],
+    [ "HasVelocity", "dd/d6e/structFPrimitiveViewRelevance.html#ad972bad135a006f6c7309d70feb0fec9", null ],
+    [ "operator|=", "dd/d6e/structFPrimitiveViewRelevance.html#a85ef8f9e02d001014f373c33a995f713", null ],
+    [ "UE_DEPRECATED", "dd/d6e/structFPrimitiveViewRelevance.html#a2ce21a417d07d360df6eda8da638c103", null ],
+    [ "bDrawRelevance", "dd/d6e/structFPrimitiveViewRelevance.html#a6af7edbf18f66f512df543501622fbcf", null ],
+    [ "bDynamicRelevance", "dd/d6e/structFPrimitiveViewRelevance.html#a6743cff08eefd33a15ba95cc658e0ed9", null ],
+    [ "bEditorNoDepthTestPrimitiveRelevance", "dd/d6e/structFPrimitiveViewRelevance.html#a992800c7e478d175011febd874cb2acd", null ],
+    [ "bEditorPrimitiveRelevance", "dd/d6e/structFPrimitiveViewRelevance.html#a731a180831b940e6a8becc41c5b223d3", null ],
+    [ "bEditorStaticSelectionRelevance", "dd/d6e/structFPrimitiveViewRelevance.html#aa7c8e29a642c4c0808127915e632771d", null ],
+    [ "bEditorVisualizeLevelInstanceRelevance", "dd/d6e/structFPrimitiveViewRelevance.html#acc20a4dc7b42f0d412c8d01d8524aa8b", null ],
+    [ "bHasSimpleLights", "dd/d6e/structFPrimitiveViewRelevance.html#a7584e7f0ff8e7ce92f19582c489f8e7b", null ],
+    [ "bInitializedThisFrame", "dd/d6e/structFPrimitiveViewRelevance.html#aa8677ccae40a272900f5472aff787f28", null ],
+    [ "bRenderCustomDepth", "dd/d6e/structFPrimitiveViewRelevance.html#aa6ecb5f36aaf721932a908f4b80fe19b", null ],
+    [ "bRenderInDepthPass", "dd/d6e/structFPrimitiveViewRelevance.html#ae69577fde3c38def9fef0a2c356ae0d8", null ],
+    [ "bRenderInMainPass", "dd/d6e/structFPrimitiveViewRelevance.html#a32b709b289b29947309ebd49ab7608dc", null ],
+    [ "bRenderInSecondStageDepthPass", "dd/d6e/structFPrimitiveViewRelevance.html#a3e91d55155b1cdd797460b2b32cca674", null ],
+    [ "bShadowRelevance", "dd/d6e/structFPrimitiveViewRelevance.html#af0e0157b991a1ef1df0394f75cb9aadd", null ],
+    [ "bStaticRelevance", "dd/d6e/structFPrimitiveViewRelevance.html#a6ea3fa2b7a59365726715ba1b23a07e9", null ],
+    [ "bTranslucentSelfShadow", "dd/d6e/structFPrimitiveViewRelevance.html#a579430eccfa2a6b14bcdeb45bca05c1f", null ],
+    [ "bUsesLightingChannels", "dd/d6e/structFPrimitiveViewRelevance.html#a54b7923279d08bad35a5135b64dc0023", null ],
+    [ "bVelocityRelevance", "dd/d6e/structFPrimitiveViewRelevance.html#acb9fa21e5f58291a0f25866143550f3d", null ]
+];

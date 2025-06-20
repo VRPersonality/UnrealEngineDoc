@@ -1,0 +1,12 @@
+digraph "SSafeZone::SLATE_ARGUMENT"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="SSafeZone::SLATE_ARGUMENT",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="If this safe zone should pad for the left side of the screen's safe zone."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SSafeZone::SLATE_ARGUMENT",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d01/classSSafeZone.html#a9944ae9077e816e0fbe696129dfb88bd",tooltip="Horizontal alignment of content in the area allotted to the SBox by its parent."];
+}

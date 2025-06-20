@@ -1,0 +1,14 @@
+digraph "FInputModeUIOnly::FInputModeUIOnly"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FInputModeUIOnly::FInput\lModeUIOnly",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FInputModeUIOnly::SetLock\lMouseToViewportBehavior",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d83/structFInputModeUIOnly.html#a8dac3302d352c6f24f8671f9b7130dce",tooltip="Sets the mouse locking behavior of the viewport."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FInputModeUIOnly::SetWidget\lToFocus",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d83/structFInputModeUIOnly.html#ad9afbb2779790fb340765844bd3a22c6",tooltip="Widget to focus."];
+}

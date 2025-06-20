@@ -1,0 +1,17 @@
+digraph "TStringView::TrimStartAndEnd"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TStringView::TrimStartAndEnd",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Returns the middle part of the view between any whitespace at the start and end."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TStringView::TStringView",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dbe/classTStringView.html#af4ebe0250c9151ae7d0e887a382e1447",tooltip="Construct an empty view."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TStringView::TrimStart",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dbe/classTStringView.html#aa67a3f0ffb42a32fe7702c07445f8b24",tooltip="Returns the right part of the view after any whitespace at the start."];
+  Node3 -> Node2 [id="edge3_Node000003_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node4 [id="edge4_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TChar::IsWhitespace",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d80/structTChar.html#ac8808d6ab3463757224b615bc74d16aa",tooltip=" "];
+}

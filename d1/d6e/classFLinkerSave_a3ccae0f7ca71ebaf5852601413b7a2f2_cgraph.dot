@@ -1,0 +1,12 @@
+digraph "FLinkerSave::Tell"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FLinkerSave::Tell",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Returns the current location within the backing data storage, which can possibly be passed to Seek la..."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FLinker::Serialize",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db2/classFLinker.html#aeb213eab9ef495cadd994e2dc0473171",tooltip="I/O function."];
+}

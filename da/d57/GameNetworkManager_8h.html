@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Unreal Engine 5.6 C++ Documentation: UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/GameNetworkManager.h File Reference</title>
+<title>Unreal Engine 5.6 C++ API: GameNetworkManager.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -18,7 +18,11 @@
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
-<link href="../../unreal_theme.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -27,9 +31,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Unreal Engine 5.6 C++ Documentation<span id="projectnumber">&#160;5.6</span>
+   <div id="projectname">Unreal Engine 5.6 C++ API<span id="projectnumber">&#160;5.6.0</span>
    </div>
-   <div id="projectbrief">Documentation UE5 avec chemins sources corrects</div>
+   <div id="projectbrief">C++ API documentation for Unreal Engine 5.6</div>
   </td>
  </tr>
  </tbody>
@@ -93,94 +97,19 @@ $(function(){initNavTree('da/d57/GameNetworkManager_8h.html','../../',''); });
   <div class="headertitle"><div class="title">GameNetworkManager.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;CoreMinimal.h&quot;</code><br />
-<code>#include &quot;UObject/ObjectMacros.h&quot;</code><br />
-<code>#include &quot;Engine/EngineTypes.h&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d7/d67/CoreMinimal_8h_source.html">CoreMinimal.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html">UObject/ObjectMacros.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/dcf/EngineTypes_8h_source.html">Engine/EngineTypes.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d3/d00/Info_8h_source.html">GameFramework/Info.h</a>&quot;</code><br />
 <code>#include &quot;GameNetworkManager.generated.h&quot;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Include dependency graph for GameNetworkManager.h:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 0 --></div>
+</div>
 </div>
 <p><a href="../../da/d57/GameNetworkManager_8h_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:AGameNetworkManager" id="r_AGameNetworkManager"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d0c/classAGameNetworkManager.html">AGameNetworkManager</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles game-specific networking management (cheat detection, bandwidth management, etc.).  <a href="../../d3/d0c/classAGameNetworkManager.html#details">More...</a><br /></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a87da3035c0ea4947eee7439cbed34089" id="r_a87da3035c0ea4947eee7439cbed34089"><td class="memItemLeft" align="right" valign="top">enum enum&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87da3035c0ea4947eee7439cbed34089">EStandbyType</a></td></tr>
-<tr class="memdesc:a87da3035c0ea4947eee7439cbed34089"><td class="mdescLeft">&#160;</td><td class="mdescRight">Describes which standby detection event occured so the game can take appropriate action.  <br /></td></tr>
-<tr class="memitem:aeb902f887865bd341a10f100ad4b82a8" id="r_aeb902f887865bd341a10f100ad4b82a8"><td class="memItemLeft" align="right" valign="top">enum enum&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb902f887865bd341a10f100ad4b82a8">STDBY_Tx</a></td></tr>
-<tr class="memitem:aaf62c9b1c384d1dd4ac0e39e01d365d6" id="r_aaf62c9b1c384d1dd4ac0e39e01d365d6"><td class="memItemLeft" align="right" valign="top">enum enum&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf62c9b1c384d1dd4ac0e39e01d365d6">STDBY_BadPing</a></td></tr>
-<tr class="memitem:a532c1b89544701eae3fe90cdd1c83064" id="r_a532c1b89544701eae3fe90cdd1c83064"><td class="memItemLeft" align="right" valign="top">enum enum&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a532c1b89544701eae3fe90cdd1c83064">STDBY_MAX</a></td></tr>
-</table>
-<a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
-<a id="a87da3035c0ea4947eee7439cbed34089" name="a87da3035c0ea4947eee7439cbed34089"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87da3035c0ea4947eee7439cbed34089">&#9670;&#160;</a></span>EStandbyType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum enum EStandbyType</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Describes which standby detection event occured so the game can take appropriate action. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../da/d57/GameNetworkManager_8h_source.html#l00013">13</a> of file <a class="el" href="../../da/d57/GameNetworkManager_8h_source.html">GameNetworkManager.h</a>.</p>
-
-</div>
-</div>
-<a id="aaf62c9b1c384d1dd4ac0e39e01d365d6" name="aaf62c9b1c384d1dd4ac0e39e01d365d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf62c9b1c384d1dd4ac0e39e01d365d6">&#9670;&#160;</a></span>STDBY_BadPing</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum enum STDBY_BadPing</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../da/d57/GameNetworkManager_8h_source.html#l00017">17</a> of file <a class="el" href="../../da/d57/GameNetworkManager_8h_source.html">GameNetworkManager.h</a>.</p>
-
-</div>
-</div>
-<a id="a532c1b89544701eae3fe90cdd1c83064" name="a532c1b89544701eae3fe90cdd1c83064"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a532c1b89544701eae3fe90cdd1c83064">&#9670;&#160;</a></span>STDBY_MAX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum enum STDBY_MAX</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../da/d57/GameNetworkManager_8h_source.html#l00018">18</a> of file <a class="el" href="../../da/d57/GameNetworkManager_8h_source.html">GameNetworkManager.h</a>.</p>
-
-</div>
-</div>
-<a id="aeb902f887865bd341a10f100ad4b82a8" name="aeb902f887865bd341a10f100ad4b82a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb902f887865bd341a10f100ad4b82a8">&#9670;&#160;</a></span>STDBY_Tx</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum enum STDBY_Tx</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../da/d57/GameNetworkManager_8h_source.html#l00016">16</a> of file <a class="el" href="../../da/d57/GameNetworkManager_8h_source.html">GameNetworkManager.h</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
@@ -194,8 +123,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="../../dir_4aca46919dd64a018c94105a41bb52f8.html">UE_5.6</a></li><li class="navelem"><a href="../../dir_35a4881369ae19e233e6dac2bcad4050.html">Engine</a></li><li class="navelem"><a href="../../dir_9f26ecb35aabc03d0a71a3e3b9106316.html">Source</a></li><li class="navelem"><a href="../../dir_0942f747ae23c965c05d4d76ae4659cb.html">Runtime</a></li><li class="navelem"><a href="../../dir_c4f31664fb2968a098c34e2ef86324ca.html">Engine</a></li><li class="navelem"><a href="../../dir_2d50b3e22a4f3c2a257cc8ed034f8f90.html">Classes</a></li><li class="navelem"><a href="../../dir_ed269b19aee30b1edf91ca5f109cdfa1.html">GameFramework</a></li><li class="navelem"><a href="../../da/d57/GameNetworkManager_8h.html">GameNetworkManager.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+    <li class="navelem"><a href="../../dir_7536b172fbd480bfd146a1b1acd6856b.html">Runtime</a></li><li class="navelem"><a href="../../dir_fdf6aa5c3cf3805bb958134448d60562.html">Engine</a></li><li class="navelem"><a href="../../dir_0ed647eebe6ffcaa496d3842b7cec6ce.html">Classes</a></li><li class="navelem"><a href="../../dir_cc939d8e7753f23591e1c275ea054aa8.html">GameFramework</a></li><li class="navelem"><a href="../../da/d57/GameNetworkManager_8h.html">GameNetworkManager.h</a></li>
+    <li class="footer">Generated on <span class="timestamp"></span> for Unreal Engine 5.6 C++ API by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>
 </body>

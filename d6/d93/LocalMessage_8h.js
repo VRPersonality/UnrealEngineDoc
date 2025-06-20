@@ -1,5 +1,4 @@
 var LocalMessage_8h =
 [
-    [ "FClientReceiveData", "d7/d82/structFClientReceiveData.html", "d7/d82/structFClientReceiveData" ],
-    [ "ULocalMessage", "df/de7/classULocalMessage.html", null ]
+    [ "USTRUCT", "d6/d93/LocalMessage_8h.html#a42f3d96be78113c5119e31dbbac1d8af", null ]
 ];

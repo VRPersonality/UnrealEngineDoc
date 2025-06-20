@@ -1,0 +1,20 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="FReferenceCollector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d05/classFReferenceCollector.html",tooltip="Used by garbage collector to collect references via virtual AddReferencedObjects calls."];
+  Node0 -> Node1 [id="edge4667_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 [id="Node000001",label="FPropertyReferenceCollector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d83/classFPropertyReferenceCollector.html",tooltip="Simple reference processor and collector for collecting all UObjects referenced by FProperties."];
+  Node0 -> Node2 [id="edge4668_Node000000_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FPurgingReferenceCollector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d92/classFPurgingReferenceCollector.html",tooltip="Reference collector that will purge (null) any references to the given set of objects (as if they'd b..."];
+  Node0 -> Node3 [id="edge4669_Node000000_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FReferenceFinder",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/da2/classFReferenceFinder.html",tooltip="FReferenceFinder."];
+  Node0 -> Node4 [id="edge4670_Node000000_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FSlateObjectReferenceCollector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/de0/classFSlateObjectReferenceCollector.html",tooltip="Used to gather all the referenced UObjects used by Slate when rendering a frame."];
+  Node0 -> Node5 [id="edge4671_Node000000_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="UE::GC::TDefaultCollector\l\< ProcessorType \>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d3d/classUE_1_1GC_1_1TDefaultCollector.html",tooltip="Default reference collector for CollectReferences()"];
+}

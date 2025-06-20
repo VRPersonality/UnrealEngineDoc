@@ -1,0 +1,14 @@
+digraph "TExternalDirtyActorsTracker::Tick"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TExternalDirtyActorsTracker\l::Tick",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Pure virtual that must be overloaded by the inheriting class."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TExternalDirtyActorsTracker\l::OnRemoveInvalidDirtyActor",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dcf/classTExternalDirtyActorsTracker.html#a5be073b206be89ccc8f00a20dbea34a4",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TExternalDirtyActorsTracker\l::OnRemoveNonDirtyActor",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dcf/classTExternalDirtyActorsTracker.html#a8b565a88cf07c8dc3d95b614337b2684",tooltip=" "];
+}

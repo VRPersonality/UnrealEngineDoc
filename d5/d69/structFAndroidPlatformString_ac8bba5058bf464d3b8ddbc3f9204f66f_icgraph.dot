@@ -1,0 +1,18 @@
+digraph "FAndroidPlatformString::Strstr"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FAndroidPlatformString\l::Strstr",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FAndroidPlatformString\l::Strstr",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d69/structFAndroidPlatformString.html#a07dd9063d8c7bb600a158911985a7294",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TCString::Strstr",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d74/structTCString.html#a454fa449845bd9c3f2c6caba32e8c64d",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TCString::Strstr",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d74/structTCString.html#a509b841ca1b8b69e40cf81a6486aa077",tooltip="strstr wrapper"];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TCString::Strrstr",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d74/structTCString.html#ab9fa823084f16f1e09d594330c12f8f0",tooltip=" "];
+}

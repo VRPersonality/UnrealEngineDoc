@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Unreal Engine 5.6 C++ Documentation: UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/RotatingMovementComponent.h Source File</title>
+<title>Unreal Engine 5.6 C++ API: RotatingMovementComponent.h Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -18,7 +18,11 @@
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
-<link href="../../unreal_theme.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -27,9 +31,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Unreal Engine 5.6 C++ Documentation<span id="projectnumber">&#160;5.6</span>
+   <div id="projectname">Unreal Engine 5.6 C++ API<span id="projectnumber">&#160;5.6.0</span>
    </div>
-   <div id="projectbrief">Documentation UE5 avec chemins sources corrects</div>
+   <div id="projectbrief">C++ API documentation for Unreal Engine 5.6</div>
   </td>
  </tr>
  </tbody>
@@ -97,8 +101,8 @@ $(function(){initNavTree('da/db6/RotatingMovementComponent_8h_source.html','../.
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;CoreMinimal.h&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;UObject/ObjectMacros.h&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="../../d7/d67/CoreMinimal_8h.html">CoreMinimal.h</a>&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="../../d8/d8d/ObjectMacros_8h.html">UObject/ObjectMacros.h</a>&quot;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="../../dd/dc8/MovementComponent_8h.html">GameFramework/MovementComponent.h</a>&quot;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;RotatingMovementComponent.generated.h&quot;</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment"></span> </div>
@@ -107,15 +111,15 @@ $(function(){initNavTree('da/db6/RotatingMovementComponent_8h_source.html','../.
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment"> * Rotation can optionally be offset around a pivot point.</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment"> * Collision testing is not performed during movement.</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment"> */</span></div>
-<div class="foldopen" id="foldopen00015" data-start="{" data-end="};">
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="../../de/d0d/classURotatingMovementComponent.html">   15</a></span>UCLASS(ClassGroup=Movement, meta=(BlueprintSpawnableComponent), HideCategories=(Velocity), MinimalAPI)</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">class </span><a class="code hl_class" href="../../de/d0d/classURotatingMovementComponent.html">URotatingMovementComponent</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../d5/def/classUMovementComponent.html">UMovementComponent</a></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="../../da/db6/RotatingMovementComponent_8h.html#aededdb0fdf19564156ff9beadc4dfc36">   15</a></span><a class="code hl_function" href="../../da/db6/RotatingMovementComponent_8h.html#a423673fc0112544852d21aa5fa46cd19">UCLASS</a>(<a class="code hl_variable" href="../../de/d2e/GroomComponent_8h.html#abd0b27e0222ccd3efd3818d732716826">ClassGroup</a>=Movement, <a class="code hl_variable" href="../../d3/dc7/ModularVehicleBaseComponent_8h.html#a2cb6ac985e5133868af0f75cb0f1edbb">meta</a>=(BlueprintSpawnableComponent), <a class="code hl_variable" href="../../dd/d6b/DisplayClusterCameraComponent_8h.html#ad92022d0fb1846a3d71e0d0ca80055a1">HideCategories</a>=(Velocity), <a class="code hl_variable" href="../../d2/da0/AnimMontage_8h.html#ab5b66a9f1ac3252ffea707183f3c1cb8">MinimalAPI</a>)</div>
+<div class="foldopen" id="foldopen00016" data-start="{" data-end="};">
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="../../de/d0d/classURotatingMovementComponent.html">   16</a></span>class <a class="code hl_class" href="../../de/d0d/classURotatingMovementComponent.html">URotatingMovementComponent</a> : public UMovementComponent</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    GENERATED_UCLASS_BODY()</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="../../de/d0d/classURotatingMovementComponent.html#a52bc5d19ec871ce30077e3cf260a0e8b">   18</a></span>    <a class="code hl_function" href="../../de/d0d/classURotatingMovementComponent.html#a52bc5d19ec871ce30077e3cf260a0e8b">GENERATED_UCLASS_BODY</a>()</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="comment">/** How fast to update roll/pitch/yaw of the component we update. */</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=RotatingComponent)</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    FRotator RotationRate;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <a class="code hl_function" href="../../de/d0d/classURotatingMovementComponent.html#a0e1c6b5f3f81649ee0d1688b97d48645">UPROPERTY</a>(EditAnywhere, BlueprintReadWrite, <a class="code hl_variable" href="../../d1/df7/RigUnit__AnimNextRunAnimationGraph__v1_8h.html#a9ca8f05608edcbf85ab6c2c85a439ccb">Category</a>=RotatingComponent)</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <a class="code hl_typedef" href="../../d2/d10/MathFwd_8h.html#afc422e810d613d89fe2dd9e17e8f3f4d">FRotator</a> RotationRate;</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="comment"></span> </div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="comment">    /**</span></div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="comment">     * Translation of pivot point around which we rotate, relative to current rotation.</span></div>
@@ -123,33 +127,48 @@ $(function(){initNavTree('da/db6/RotatingMovementComponent_8h_source.html','../.
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="comment">     * around the point +100 units along the local X axis from the center of the object,</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="comment">     * rather than around the object&#39;s origin (the default).</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="comment">     */</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=RotatingComponent)</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    FVector PivotTranslation;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../de/d0d/classURotatingMovementComponent.html#a0e1c6b5f3f81649ee0d1688b97d48645">   30</a></span>    <a class="code hl_function" href="../../de/d0d/classURotatingMovementComponent.html#a0e1c6b5f3f81649ee0d1688b97d48645">UPROPERTY</a>(EditAnywhere, BlueprintReadWrite, <a class="code hl_variable" href="../../d1/df7/RigUnit__AnimNextRunAnimationGraph__v1_8h.html#a9ca8f05608edcbf85ab6c2c85a439ccb">Category</a>=RotatingComponent)</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <a class="code hl_define" href="../../db/dda/IOSSystemIncludes_8h.html#a9f40673c5388a6a4f79fe5a13b4f5a78">FVector</a> PivotTranslation;</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="comment"></span> </div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="comment">    /** Whether rotation is applied in local or world space. */</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=RotatingComponent)</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    uint32 bRotationInLocalSpace:1;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <a class="code hl_function" href="../../de/d0d/classURotatingMovementComponent.html#a0e1c6b5f3f81649ee0d1688b97d48645">UPROPERTY</a>(EditAnywhere, BlueprintReadWrite, <a class="code hl_variable" href="../../d1/df7/RigUnit__AnimNextRunAnimationGraph__v1_8h.html#a9ca8f05608edcbf85ab6c2c85a439ccb">Category</a>=RotatingComponent)</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <a class="code hl_typedef" href="../../d9/dd0/Platform_8h.html#a8c7a127091efbdfc5a16939041653e05">uint32</a> bRotationInLocalSpace:1;</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="comment">//Begin UActorComponent Interface</span><span class="comment"></span></div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="comment">    /** Applies rotation to UpdatedComponent. */</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    ENGINE_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> TickComponent(<span class="keywordtype">float</span> DeltaTime, <span class="keyword">enum</span> ELevelTick TickType, FActorComponentTickFunction *ThisTickFunction) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="../../de/d0d/classURotatingMovementComponent.html#a0f581bce08cdf4ff4e714de00165e689">   39</a></span>    ENGINE_API virtual <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d0d/classURotatingMovementComponent.html#a0f581bce08cdf4ff4e714de00165e689">TickComponent</a>(<span class="keywordtype">float</span> <a class="code hl_variable" href="../../d8/d62/AnimNode__Inertialization_8h.html#a00093d8489f25203bf7235e4ceaea4a5">DeltaTime</a>, enum <a class="code hl_enumeration" href="../../d6/d1a/EngineBaseTypes_8h.html#abb1ea0cfa322e26ed7df67bf30c6df65">ELevelTick</a> TickType, FActorComponentTickFunction *ThisTickFunction) override;</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="comment">//End UActorComponent Interface</span></div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>};</div>
 </div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="ttc" id="aAnimMontage_8h_html_ab5b66a9f1ac3252ffea707183f3c1cb8"><div class="ttname"><a href="../../d2/da0/AnimMontage_8h.html#ab5b66a9f1ac3252ffea707183f3c1cb8">MinimalAPI</a></div><div class="ttdeci">MinimalAPI</div><div class="ttdef"><b>Definition</b> <a href="../../d2/da0/AnimMontage_8h_source.html#l00621">AnimMontage.h:621</a></div></div>
+<div class="ttc" id="aAnimNode__Inertialization_8h_html_a00093d8489f25203bf7235e4ceaea4a5"><div class="ttname"><a href="../../d8/d62/AnimNode__Inertialization_8h.html#a00093d8489f25203bf7235e4ceaea4a5">DeltaTime</a></div><div class="ttdeci">float DeltaTime</div><div class="ttdef"><b>Definition</b> <a href="../../d8/d62/AnimNode__Inertialization_8h_source.html#l00126">AnimNode_Inertialization.h:126</a></div></div>
+<div class="ttc" id="aCoreMinimal_8h_html"><div class="ttname"><a href="../../d7/d67/CoreMinimal_8h.html">CoreMinimal.h</a></div></div>
+<div class="ttc" id="aDisplayClusterCameraComponent_8h_html_ad92022d0fb1846a3d71e0d0ca80055a1"><div class="ttname"><a href="../../dd/d6b/DisplayClusterCameraComponent_8h.html#ad92022d0fb1846a3d71e0d0ca80055a1">HideCategories</a></div><div class="ttdeci">UENUM() enum class EDisplayClusterEyeStereoOffset UENUM() enum class EDisplayClusterTargetCameraType HideCategories</div><div class="ttdef"><b>Definition</b> <a href="../../dd/d6b/DisplayClusterCameraComponent_8h_source.html#l00057">DisplayClusterCameraComponent.h:57</a></div></div>
+<div class="ttc" id="aEngineBaseTypes_8h_html_abb1ea0cfa322e26ed7df67bf30c6df65"><div class="ttname"><a href="../../d6/d1a/EngineBaseTypes_8h.html#abb1ea0cfa322e26ed7df67bf30c6df65">ELevelTick</a></div><div class="ttdeci">ELevelTick</div><div class="ttdoc">Type of tick we wish to perform on the level.</div><div class="ttdef"><b>Definition</b> <a href="../../d6/d1a/EngineBaseTypes_8h_source.html#l00069">EngineBaseTypes.h:70</a></div></div>
+<div class="ttc" id="aGroomComponent_8h_html_abd0b27e0222ccd3efd3818d732716826"><div class="ttname"><a href="../../de/d2e/GroomComponent_8h.html#abd0b27e0222ccd3efd3818d732716826">ClassGroup</a></div><div class="ttdeci">ClassGroup</div><div class="ttdef"><b>Definition</b> <a href="../../de/d2e/GroomComponent_8h_source.html#l00027">GroomComponent.h:27</a></div></div>
+<div class="ttc" id="aIOSSystemIncludes_8h_html_a9f40673c5388a6a4f79fe5a13b4f5a78"><div class="ttname"><a href="../../db/dda/IOSSystemIncludes_8h.html#a9f40673c5388a6a4f79fe5a13b4f5a78">FVector</a></div><div class="ttdeci">#define FVector</div><div class="ttdef"><b>Definition</b> <a href="../../db/dda/IOSSystemIncludes_8h_source.html#l00008">IOSSystemIncludes.h:8</a></div></div>
+<div class="ttc" id="aMathFwd_8h_html_afc422e810d613d89fe2dd9e17e8f3f4d"><div class="ttname"><a href="../../d2/d10/MathFwd_8h.html#afc422e810d613d89fe2dd9e17e8f3f4d">FRotator</a></div><div class="ttdeci">UE::Math::TRotator&lt; double &gt; FRotator</div><div class="ttdef"><b>Definition</b> <a href="../../d2/d10/MathFwd_8h_source.html#l00057">MathFwd.h:57</a></div></div>
+<div class="ttc" id="aModularVehicleBaseComponent_8h_html_a2cb6ac985e5133868af0f75cb0f1edbb"><div class="ttname"><a href="../../d3/dc7/ModularVehicleBaseComponent_8h.html#a2cb6ac985e5133868af0f75cb0f1edbb">meta</a></div><div class="ttdeci">meta</div><div class="ttdef"><b>Definition</b> <a href="../../d3/dc7/ModularVehicleBaseComponent_8h_source.html#l00108">ModularVehicleBaseComponent.h:108</a></div></div>
 <div class="ttc" id="aMovementComponent_8h_html"><div class="ttname"><a href="../../dd/dc8/MovementComponent_8h.html">MovementComponent.h</a></div></div>
-<div class="ttc" id="aclassUMovementComponent_html"><div class="ttname"><a href="../../d5/def/classUMovementComponent.html">UMovementComponent</a></div><div class="ttdoc">MovementComponent is an abstract component class that defines functionality for moving a PrimitiveCom...</div><div class="ttdef"><b>Definition</b> <a href="../../dd/dc8/MovementComponent_8h_source.html#l00069">MovementComponent.h:71</a></div></div>
-<div class="ttc" id="aclassURotatingMovementComponent_html"><div class="ttname"><a href="../../de/d0d/classURotatingMovementComponent.html">URotatingMovementComponent</a></div><div class="ttdoc">Performs continuous rotation of a component at a specific rotation rate.</div><div class="ttdef"><b>Definition</b> <a href="#l00015">RotatingMovementComponent.h:17</a></div></div>
+<div class="ttc" id="aObjectMacros_8h_html"><div class="ttname"><a href="../../d8/d8d/ObjectMacros_8h.html">ObjectMacros.h</a></div></div>
+<div class="ttc" id="aPlatform_8h_html_a8c7a127091efbdfc5a16939041653e05"><div class="ttname"><a href="../../d9/dd0/Platform_8h.html#a8c7a127091efbdfc5a16939041653e05">uint32</a></div><div class="ttdeci">FPlatformTypes::uint32 uint32</div><div class="ttdoc">A 32-bit unsigned integer.</div><div class="ttdef"><b>Definition</b> <a href="../../d9/dd0/Platform_8h_source.html#l01065">Platform.h:1065</a></div></div>
+<div class="ttc" id="aRigUnit__AnimNextRunAnimationGraph__v1_8h_html_a9ca8f05608edcbf85ab6c2c85a439ccb"><div class="ttname"><a href="../../d1/df7/RigUnit__AnimNextRunAnimationGraph__v1_8h.html#a9ca8f05608edcbf85ab6c2c85a439ccb">Category</a></div><div class="ttdeci">Category</div><div class="ttdef"><b>Definition</b> <a href="../../d1/df7/RigUnit__AnimNextRunAnimationGraph__v1_8h_source.html#l00024">RigUnit_AnimNextRunAnimationGraph_v1.h:24</a></div></div>
+<div class="ttc" id="aRotatingMovementComponent_8h_html_a423673fc0112544852d21aa5fa46cd19"><div class="ttname"><a href="../../da/db6/RotatingMovementComponent_8h.html#a423673fc0112544852d21aa5fa46cd19">UCLASS</a></div><div class="ttdeci">UCLASS()</div><div class="ttdoc">Performs continuous rotation of a component at a specific rotation rate.</div></div>
+<div class="ttc" id="aclassURotatingMovementComponent_html"><div class="ttname"><a href="../../de/d0d/classURotatingMovementComponent.html">URotatingMovementComponent</a></div><div class="ttdef"><b>Definition</b> <a href="#l00016">RotatingMovementComponent.h:17</a></div></div>
+<div class="ttc" id="aclassURotatingMovementComponent_html_a0e1c6b5f3f81649ee0d1688b97d48645"><div class="ttname"><a href="../../de/d0d/classURotatingMovementComponent.html#a0e1c6b5f3f81649ee0d1688b97d48645">URotatingMovementComponent::UPROPERTY</a></div><div class="ttdeci">UPROPERTY() FVector PivotTranslation</div><div class="ttdoc">Translation of pivot point around which we rotate, relative to current rotation.</div></div>
+<div class="ttc" id="aclassURotatingMovementComponent_html_a0f581bce08cdf4ff4e714de00165e689"><div class="ttname"><a href="../../de/d0d/classURotatingMovementComponent.html#a0f581bce08cdf4ff4e714de00165e689">URotatingMovementComponent::TickComponent</a></div><div class="ttdeci">virtual UPROPERTY() uint32 bRotationInLocalSpace void TickComponent(float DeltaTime, enum ELevelTick TickType, FActorComponentTickFunction *ThisTickFunction) override</div><div class="ttdoc">Whether rotation is applied in local or world space.</div></div>
+<div class="ttc" id="aclassURotatingMovementComponent_html_a52bc5d19ec871ce30077e3cf260a0e8b"><div class="ttname"><a href="../../de/d0d/classURotatingMovementComponent.html#a52bc5d19ec871ce30077e3cf260a0e8b">URotatingMovementComponent::GENERATED_UCLASS_BODY</a></div><div class="ttdeci">GENERATED_UCLASS_BODY() UPROPERTY() FRotator RotationRate</div><div class="ttdoc">How fast to update roll/pitch/yaw of the component we update.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="../../dir_4aca46919dd64a018c94105a41bb52f8.html">UE_5.6</a></li><li class="navelem"><a href="../../dir_35a4881369ae19e233e6dac2bcad4050.html">Engine</a></li><li class="navelem"><a href="../../dir_9f26ecb35aabc03d0a71a3e3b9106316.html">Source</a></li><li class="navelem"><a href="../../dir_0942f747ae23c965c05d4d76ae4659cb.html">Runtime</a></li><li class="navelem"><a href="../../dir_c4f31664fb2968a098c34e2ef86324ca.html">Engine</a></li><li class="navelem"><a href="../../dir_2d50b3e22a4f3c2a257cc8ed034f8f90.html">Classes</a></li><li class="navelem"><a href="../../dir_ed269b19aee30b1edf91ca5f109cdfa1.html">GameFramework</a></li><li class="navelem"><a href="../../da/db6/RotatingMovementComponent_8h.html">RotatingMovementComponent.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+    <li class="navelem"><a href="../../dir_7536b172fbd480bfd146a1b1acd6856b.html">Runtime</a></li><li class="navelem"><a href="../../dir_fdf6aa5c3cf3805bb958134448d60562.html">Engine</a></li><li class="navelem"><a href="../../dir_0ed647eebe6ffcaa496d3842b7cec6ce.html">Classes</a></li><li class="navelem"><a href="../../dir_cc939d8e7753f23591e1c275ea054aa8.html">GameFramework</a></li><li class="navelem"><a href="../../da/db6/RotatingMovementComponent_8h.html">RotatingMovementComponent.h</a></li>
+    <li class="footer">Generated on <span class="timestamp"></span> for Unreal Engine 5.6 C++ API by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>
 </body>

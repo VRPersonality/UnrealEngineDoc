@@ -1,0 +1,34 @@
+digraph "IPlatformInputDeviceMapper::IPlatformInputDeviceMapper"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="IPlatformInputDeviceMapper\l::IPlatformInputDeviceMapper",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="IPlatformInputDeviceMapper::Get",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/da7/classIPlatformInputDeviceMapper.html#a7a10ef8372ee51a7efaa0e0c6b72ac00",tooltip="Get the platform input device mapper."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FSlateDefaultInputMapping\l::GetInputDeviceIdForKeyboard",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d2c/classFSlateDefaultInputMapping.html#a59320d2a559967e1f5da5d4186701a4b",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FSlateDefaultInputMapping\l::GetInputDeviceIdForMouse",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d2c/classFSlateDefaultInputMapping.html#a51dce340c6cf7cdfba801653d1066762",tooltip=" "];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TInputDeviceMap::GetOrCreate\lDeviceId",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/dd7/classTInputDeviceMap.html#a8c3bb543456a510babccd68ed96485ae",tooltip="Given the DeviceKey, find it's associated FInputDeviceId."];
+  Node2 -> Node6 [id="edge5_Node000002_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="ISlateInputManager\l::GetUserIndexForInputDevice",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/db8/classISlateInputManager.html#af60fea38790d46572818cfe3067fe7ca",tooltip=" "];
+  Node2 -> Node7 [id="edge6_Node000002_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="TInputDeviceMap::MapDefault\lInputDevice",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/dd7/classTInputDeviceMap.html#a84f34892ecdff9a6776a78c245397ad2",tooltip="Maps a DeviceKey to the default FInputDeviceId which has the internal value 0."];
+  Node2 -> Node8 [id="edge7_Node000002_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="FGenericApplicationMessage\lHandler::OnMotionDetected",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d8b/classFGenericApplicationMessageHandler.html#ad90edf29730f730857954f83ba2c90ce",tooltip=" "];
+  Node2 -> Node9 [id="edge8_Node000002_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="FGenericApplicationMessage\lHandler::OnTouchEnded",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d8b/classFGenericApplicationMessageHandler.html#a510342a68dc29cf2db8b69c469efd055",tooltip=" "];
+  Node2 -> Node10 [id="edge9_Node000002_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="FGenericApplicationMessage\lHandler::OnTouchFirstMove",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d8b/classFGenericApplicationMessageHandler.html#aa7b7238a2085ebebc8cba36d3510febe",tooltip=" "];
+  Node2 -> Node11 [id="edge10_Node000002_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="FGenericApplicationMessage\lHandler::OnTouchForceChanged",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d8b/classFGenericApplicationMessageHandler.html#a65e65f01d555f0d5161d29f14dcbde41",tooltip=" "];
+  Node2 -> Node12 [id="edge11_Node000002_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="FGenericApplicationMessage\lHandler::OnTouchMoved",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d8b/classFGenericApplicationMessageHandler.html#acd37bc54c86d9d474f1f4da603bf2e02",tooltip=" "];
+  Node2 -> Node13 [id="edge12_Node000002_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="FGenericApplicationMessage\lHandler::OnTouchStarted",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d8b/classFGenericApplicationMessageHandler.html#aa225e1c8ddef606274ab1b59a36bbfdf",tooltip=" "];
+}

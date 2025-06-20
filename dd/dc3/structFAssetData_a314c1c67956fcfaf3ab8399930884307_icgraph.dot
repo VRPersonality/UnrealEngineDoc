@@ -1,0 +1,57 @@
+digraph "FAssetData::FAssetData"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FAssetData::FAssetData",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Default constructors."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FAssetData::FAssetData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dc3/structFAssetData.html#ad50062880570788761d814a0a1b2226a",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FAssetData::FAssetData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dc3/structFAssetData.html#a96ae620741f08c8c4db34d5c287e99d3",tooltip="Constructor with a long package name and a full object path which might not be part of the package th..."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FAssetData::FAssetData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dc3/structFAssetData.html#ae0ba1887cd6de70a7afa12176cd07dc2",tooltip="Constructor taking a UObject."];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FAssetData::FAssetData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dc3/structFAssetData.html#aaabcfcb345770fcb54c0b178fd1b5a94",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FAssetData::FAssetData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dc3/structFAssetData.html#a28fffaa028705ea94e28f316a711c5ed",tooltip="Constructor taking a UObject."];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="FAssetData::FAssetData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dc3/structFAssetData.html#abb15d768567b556bb54438c5a0cebc07",tooltip=" "];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="FAssetData::FAssetData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dc3/structFAssetData.html#a3d1485c56d9fb7e3311b8316be441bd8",tooltip="Constructor building the ObjectPath in the form of InPackageName.InAssetName."];
+  Node1 -> Node9 [id="edge8_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="FAssetData::GetFirstAsset\lDataOfClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dc3/structFAssetData.html#a8588960753fc1c4eadc0fe108680ae8b",tooltip="Get the first FAssetData of a particular class from an Array of FAssetData."];
+  Node9 -> Node10 [id="edge9_Node000009_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="FAssetData::GetFirstAsset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dc3/structFAssetData.html#a5ade655ce2c38e18c1a692a9db766f70",tooltip="Convenience template for finding first asset of a class."];
+  Node1 -> Node11 [id="edge10_Node000001_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="FAssetData::GetTypeHash",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dc3/structFAssetData.html#a26f29cf724b5a789a134bc84e86ed7fa",tooltip=" "];
+  Node11 -> Node11 [id="edge11_Node000011_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node12 [id="edge12_Node000001_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="FAssetData::HasSameChunkIDs",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dc3/structFAssetData.html#a444bcd0ad1271e64735c255163354ee3",tooltip=" "];
+  Node1 -> Node13 [id="edge13_Node000001_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="FAssetData::operator!=",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dc3/structFAssetData.html#aa3e0dcbdcf907d4cad80b04a67fc3914",tooltip=" "];
+  Node1 -> Node14 [id="edge14_Node000001_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="FAssetData::operator\<",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dc3/structFAssetData.html#adff1f963b0c16a0a3cd77579cd23a1be",tooltip="Perform a lexical less-than operation on the PackageName and AssetName that uniquely identify two FAs..."];
+  Node1 -> Node15 [id="edge15_Node000001_Node000015",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="FAssetData::operator=",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dc3/structFAssetData.html#a9c0f7d551aa8d3193199486654f394c0",tooltip=" "];
+  Node1 -> Node16 [id="edge16_Node000001_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="FAssetData::operator=",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dc3/structFAssetData.html#a64df5c3712081c9e60aa3cb09c9a101c",tooltip=" "];
+  Node1 -> Node17 [id="edge17_Node000001_Node000017",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="FAssetData::operator==",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dc3/structFAssetData.html#a27dbb58d846d7df0bbd54a2d04e5038d",tooltip="FAssetDatas are uniquely identified by PackageName and AssetName."];
+  Node1 -> Node18 [id="edge18_Node000001_Node000018",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="FAssetData::operator\>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dc3/structFAssetData.html#a1024a894ebed2e57db15950c84d94055",tooltip="Perform a lexical greater-than operation on the PackageName and AssetName that uniquely identify two ..."];
+  Node1 -> Node19 [id="edge19_Node000001_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="FAssetData::SerializeFor\lCache",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dc3/structFAssetData.html#a1849893e6b94e6286124c890009fef8e",tooltip="Serialize as part of the registry cache."];
+  Node1 -> Node20 [id="edge20_Node000001_Node000020",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node20 [id="Node000020",label="FAssetData::SerializeFor\lCacheInternal",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dc3/structFAssetData.html#a8f8fb40d526532dbd64e3fcee596266b",tooltip="The actual implementation of SerializeForCache."];
+  Node1 -> Node21 [id="edge21_Node000001_Node000021",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node21 [id="Node000021",label="FAssetData::SerializeFor\lCacheOldVersion",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dc3/structFAssetData.html#a34827e1f18f0bcaef70fa679ad9b556a",tooltip="Serialize as part of the registry cache using legacy paths (versioned)"];
+  Node1 -> Node22 [id="edge22_Node000001_Node000022",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node22 [id="Node000022",label="FAssetData::SerializeFor\lCacheOldVersionWithTagsAndBundles",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dc3/structFAssetData.html#afce33620eced6dd9e1f01bdfa8dc8538",tooltip=" "];
+  Node22 -> Node21 [id="edge23_Node000022_Node000021",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node23 [id="edge24_Node000001_Node000023",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node23 [id="Node000023",label="FAssetData::SerializeFor\lCacheWithTagsAndBundles",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dc3/structFAssetData.html#a0a3229d2e882c1196e83ffb87544d48d",tooltip=" "];
+  Node23 -> Node19 [id="edge25_Node000023_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

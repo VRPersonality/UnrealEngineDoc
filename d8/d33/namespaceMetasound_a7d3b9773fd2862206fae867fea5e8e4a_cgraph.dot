@@ -1,0 +1,14 @@
+digraph "Metasound::IsOperatorDataOfType"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="Metasound::IsOperatorData\lOfType",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Returns true if the provided node configuration is of the type T."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Metasound::IOperatorData\l::GetOperatorDataTypeName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d7c/classMetasound_1_1IOperatorData.html#abf5051a7e4677dad5722c96a96a758f0",tooltip="Return a typename use for safe downcasting of the IOperatorData."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Metasound::GetStaticOperator\lDataTypeName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d33/namespaceMetasound.html#a7ae06aa8d92a7eb9287087f1f5e05b78",tooltip="Returns the type name of the node configuration object."];
+}

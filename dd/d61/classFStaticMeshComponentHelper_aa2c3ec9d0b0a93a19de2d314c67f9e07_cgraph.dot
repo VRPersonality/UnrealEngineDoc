@@ -1,0 +1,35 @@
+digraph "FStaticMeshComponentHelper::CollectPSOPrecacheDataImpl"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FStaticMeshComponentHelper\l::CollectPSOPrecacheDataImpl",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TArray::Add",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d52/classTArray.html#a94f6bf2bef04382fc79010abad57d823",tooltip="Adds a new item to the end of the array, possibly reallocating the whole array to fit."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TArray::AddDefaulted",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d52/classTArray.html#a287d1892bc39dd2a51b0c2ecd646998a",tooltip="Adds new items to the end of the array, possibly reallocating the whole array to fit."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TArray::AddDefaulted\l_GetRef",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d52/classTArray.html#aa487a86fd8413808d184fe1b64fef3df",tooltip="Add a new item to the end of the array, possibly reallocating the whole array to fit."];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TArray::AddUnique",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d52/classTArray.html#ac002bc5bff03e6d59914273ce9af31b2",tooltip="Adds unique element to array if it doesn't exist."];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FMaterialOverlayHelper\l::AppendAllOverlayMaterial",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d67/classFMaterialOverlayHelper.html#a24e4b22ebf908bb55044d751c0d80969",tooltip=" "];
+  Node6 -> Node2 [id="edge6_Node000006_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node7 [id="edge7_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="TArray::FindByPredicate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d52/classTArray.html#afccf3d634ecd55dc139641b15fba4879",tooltip="Finds an element which matches a predicate functor."];
+  Node1 -> Node8 [id="edge8_Node000001_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="TArray::Num",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d52/classTArray.html#adcbf9ca48677a9c0c3830cd862dd40d8",tooltip="Returns number of elements in array."];
+  Node1 -> Node9 [id="edge9_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="TIndirectArray::Num",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/dc5/classTIndirectArray.html#ad938dd8f3eb04eb5907d00b107286e55",tooltip="Gets number of elements in array."];
+  Node1 -> Node10 [id="edge10_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="FVertexFactoryType\l::SupportsManualVertexFetch",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/de1/classFVertexFactoryType.html#a4725ab8964963456e021bcb559997129",tooltip=" "];
+  Node10 -> Node11 [id="edge11_Node000010_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="FVertexFactoryType\l::CheckManualVertexFetchSupport",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/de1/classFVertexFactoryType.html#a524e5d24369cf89877f973100cef07c7",tooltip=" "];
+  Node10 -> Node12 [id="edge12_Node000010_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="FVertexFactoryType\l::HasFlags",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/de1/classFVertexFactoryType.html#a875ea2edfd122c1efc0cf62bff2a632b",tooltip="Returns true if this vertex factory supports ALL feature flags in FlagsToCheck."];
+  Node12 -> Node13 [id="edge13_Node000012_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="EnumHasAllFlags",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/de7/EnumClassFlags_8h.html#a61a208294a0303992a80f954efb9b6b5",tooltip=" "];
+}

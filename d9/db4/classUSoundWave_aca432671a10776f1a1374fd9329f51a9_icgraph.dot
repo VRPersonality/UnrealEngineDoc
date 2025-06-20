@@ -1,0 +1,19 @@
+digraph "USoundWave::GetPlatformCompressionOverridesForCurrentPlatform"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="USoundWave::GetPlatformCompression\lOverridesForCurrentPlatform",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Return the platform compression overrides set for the current platform."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FSoundWaveData::GetCompressedData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/da7/classFSoundWaveData.html#a3bb1fc96732e5e781417bcb221530859",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FSoundWaveProxy::GetCompressedData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d84/classFSoundWaveProxy.html#a720cf5c8a267615dd45e3ecda682525c",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="USoundWave::GetCompressedData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/db4/classUSoundWave.html#a28023ac330a558152a6d997fd2d46249",tooltip="Gets the compressed data from derived data cache for the specified platform Warning,..."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="USoundWave::GetCompressed\lDataSize",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/db4/classUSoundWave.html#ac6bfd911165552cfe770f2affcd6e07c",tooltip="Gets the compressed data size from derived data cache for the specified format."];
+  Node1 -> Node5 [id="edge5_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

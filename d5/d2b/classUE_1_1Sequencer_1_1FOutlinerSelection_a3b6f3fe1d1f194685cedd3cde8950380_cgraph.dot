@@ -1,0 +1,12 @@
+digraph "UE::Sequencer::FOutlinerSelection::Filter"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="UE::Sequencer::FOutliner\lSelection::Filter",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Filter this selection set based on the specified filter type."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Sequencer::TSelection\lSetBase\< FOutlinerSelection,\l TWeakViewModelPtr\< IOutlinerExtension\l \> \>::GetSelected",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d0f/classUE_1_1Sequencer_1_1TSelectionSetBase.html#afdf1dd2d0b32168d96dab2778b9d500f",tooltip=" "];
+}

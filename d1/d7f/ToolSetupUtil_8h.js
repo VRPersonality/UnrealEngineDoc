@@ -1,0 +1,37 @@
+var ToolSetupUtil_8h =
+[
+    [ "ToolSetupUtil::ImageMaterialType", "dd/d5f/namespaceToolSetupUtil.html#a7b5f9a186665ff5c28d5529827b91442", [
+      [ "ToolSetupUtil::ImageMaterialType::DefaultBasic", "dd/d5f/namespaceToolSetupUtil.html#a7b5f9a186665ff5c28d5529827b91442abdac9e13f2d3024ca67ada3dc4dc42ab", null ],
+      [ "ToolSetupUtil::ImageMaterialType::DefaultSoft", "dd/d5f/namespaceToolSetupUtil.html#a7b5f9a186665ff5c28d5529827b91442a9ae951c2fda270d461e7215430be29f0", null ],
+      [ "ToolSetupUtil::ImageMaterialType::TangentNormalFromView", "dd/d5f/namespaceToolSetupUtil.html#a7b5f9a186665ff5c28d5529827b91442abdf6d8019891ded0acd3354c8a689e0b", null ]
+    ] ],
+    [ "ToolSetupUtil::ApplyRenderingConfigurationToPreview", "dd/d5f/namespaceToolSetupUtil.html#a8e8c20ab2b081570c1533b3b0c4cfc09", null ],
+    [ "ToolSetupUtil::ApplyRenderingConfigurationToPreview", "dd/d5f/namespaceToolSetupUtil.html#a4a9df025b2b3d4c7f059c4690f7acfe7", null ],
+    [ "ToolSetupUtil::GetContrastAdjustmentCurve", "dd/d5f/namespaceToolSetupUtil.html#af46e5db4d441d33235541234dab81c12", null ],
+    [ "ToolSetupUtil::GetCustomDepthOffsetMaterial", "dd/d5f/namespaceToolSetupUtil.html#a1cb770a7e6b8b981de4ba797749c4721", null ],
+    [ "ToolSetupUtil::GetCustomDepthOffsetMaterial", "dd/d5f/namespaceToolSetupUtil.html#a78bad642d4db2af36c8469dde1ee5ede", null ],
+    [ "ToolSetupUtil::GetCustomImageBasedSculptMaterial", "dd/d5f/namespaceToolSetupUtil.html#afce501c7369230106374c14c7741d04b", null ],
+    [ "ToolSetupUtil::GetCustomTwoSidedDepthOffsetMaterial", "dd/d5f/namespaceToolSetupUtil.html#a01b2e14c2cf1be77a2630fa7a0650bdc", null ],
+    [ "ToolSetupUtil::GetCustomTwoSidedDepthOffsetMaterial", "dd/d5f/namespaceToolSetupUtil.html#a9497708e476e0cf11647b05d46b01ca0", null ],
+    [ "ToolSetupUtil::GetDefaultBrushAlphaMaterial", "dd/d5f/namespaceToolSetupUtil.html#a72d8b43400a3f8f56d618550d48c700a", null ],
+    [ "ToolSetupUtil::GetDefaultBrushVolumeMaterial", "dd/d5f/namespaceToolSetupUtil.html#a5c8014187cf192e202c71d12b531e279", null ],
+    [ "ToolSetupUtil::GetDefaultEditVolumeMaterial", "dd/d5f/namespaceToolSetupUtil.html#a49de7888c5845e569e8106d18334a964", null ],
+    [ "ToolSetupUtil::GetDefaultErrorMaterial", "dd/d5f/namespaceToolSetupUtil.html#a6dff274644664ed637914c7149f4643f", null ],
+    [ "ToolSetupUtil::GetDefaultLineComponentMaterial", "dd/d5f/namespaceToolSetupUtil.html#a694e636ef2c7be2d174c6705a30153a7", null ],
+    [ "ToolSetupUtil::GetDefaultMaterial", "dd/d5f/namespaceToolSetupUtil.html#ad9bf3e0bb9826685782e7e2bda0191d5", null ],
+    [ "ToolSetupUtil::GetDefaultMaterial", "dd/d5f/namespaceToolSetupUtil.html#aef3a90ac2ec7b6e8e8119434222ff48f", null ],
+    [ "ToolSetupUtil::GetDefaultPointComponentMaterial", "dd/d5f/namespaceToolSetupUtil.html#ac5210eabcb32141c550654343347ecfb", null ],
+    [ "ToolSetupUtil::GetDefaultSculptMaterial", "dd/d5f/namespaceToolSetupUtil.html#aa4a21a96ef1420c15662e3dc7f811fe7", null ],
+    [ "ToolSetupUtil::GetDefaultWorkingMaterial", "dd/d5f/namespaceToolSetupUtil.html#a57dd3dee8683863e1cf9931226c1fa08", null ],
+    [ "ToolSetupUtil::GetDefaultWorkingMaterialInstance", "dd/d5f/namespaceToolSetupUtil.html#acd61403e2d17ff85c29fae5ea7e160e3", null ],
+    [ "ToolSetupUtil::GetDefaultWorldReferenceFrame", "dd/d5f/namespaceToolSetupUtil.html#ab397087bfc1f69dc5a85e9f0190c4313", null ],
+    [ "ToolSetupUtil::GetImageBasedSculptMaterial", "dd/d5f/namespaceToolSetupUtil.html#ad3aedd103c1f678915a6cf7bc58fa5fb", null ],
+    [ "ToolSetupUtil::GetRoundPointComponentMaterial", "dd/d5f/namespaceToolSetupUtil.html#a6298578797b79aeeb83827aed69c3493", null ],
+    [ "ToolSetupUtil::GetSelectionMaterial", "dd/d5f/namespaceToolSetupUtil.html#a564ad80bd0c09f05584c5cc2e89b608a", null ],
+    [ "ToolSetupUtil::GetSelectionMaterial", "dd/d5f/namespaceToolSetupUtil.html#ab5e9249653c1c4f1d3da6830d7e271e6", null ],
+    [ "ToolSetupUtil::GetSimpleCustomMaterial", "dd/d5f/namespaceToolSetupUtil.html#a9e464f368b1fc0cc97f36210af7ffed7", null ],
+    [ "ToolSetupUtil::GetSimpleCustomMaterial", "dd/d5f/namespaceToolSetupUtil.html#a540c36a1c0be9ffb1833d5f8c99e777a", null ],
+    [ "ToolSetupUtil::GetTransparentSculptMaterial", "dd/d5f/namespaceToolSetupUtil.html#a6eab01a7e0e30f28d06184a91234252e", null ],
+    [ "ToolSetupUtil::GetUVCheckerboardMaterial", "dd/d5f/namespaceToolSetupUtil.html#a5b14adde12818eb1105adec93cd1496e", null ],
+    [ "ToolSetupUtil::GetVertexColorMaterial", "dd/d5f/namespaceToolSetupUtil.html#a49eb54a3d59cf1d5dc21174ffe4e3140", null ]
+];

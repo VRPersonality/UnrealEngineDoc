@@ -1,0 +1,58 @@
+digraph "ArrangeChildrenInStack"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="ArrangeChildrenInStack",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="ArrangeChildrenInStack",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d09/LayoutUtils_8h.html#ae1bf8af69bca2cb016d358d3d48c2764",tooltip="Note that this accepts Child Proxies rather than the children themselves, allowing layout operations ..."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FArrangedChildren::\lAddWidget",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d47/classFArrangedChildren.html#a0a12f63388e0888bbd04749c0bd6b0b0",tooltip="Add an arranged widget (i.e."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FArrangedChildren::\lAccepts",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d47/classFArrangedChildren.html#ab9279d8bb1ddde2095906bae86a2fc9b",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="EVisibility::DoesVisibility\lPassFilter",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d9b/structEVisibility.html#a7e40cb70f96be0b5ea42f43c10f0f5ac",tooltip=" "];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="EVisibility::EVisibility",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d9b/structEVisibility.html#aab03bcfce66a5103b4612e2c682e1ab9",tooltip="Default constructor."];
+  Node2 -> Node7 [id="edge6_Node000002_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="AlignChild",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d09/LayoutUtils_8h.html#a513c5956bd399d19047472d56438a48a",tooltip="Helper method to BoxPanel::ArrangeChildren."];
+  Node7 -> Node8 [id="edge7_Node000007_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="ArrangeUtils::GetChildAlignment\l::AsInt",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d34/structArrangeUtils_1_1GetChildAlignment.html#a378e14e854af54289a2b6eb655b8f9d4",tooltip=" "];
+  Node2 -> Node9 [id="edge8_Node000002_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="FMath::Clamp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d20/structFMath.html#a7dbca5929b2ea7f13304eb4c927dab6c",tooltip="Clamps X to be between Min and Max, inclusive."];
+  Node2 -> Node10 [id="edge9_Node000002_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="UE::Slate::TSlotAccessor\l::GetDesiredSize",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d47/structUE_1_1Slate_1_1TSlotAccessor.html#affe6c51139ff01b5df3edc59941b3208",tooltip="Get the slot's desired size as it was last calculated."];
+  Node2 -> Node11 [id="edge10_Node000002_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="UE::Slate::TSlotAccessor\l::GetMaxSize",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d47/structUE_1_1Slate_1_1TSlotAccessor.html#adde042fef0e122639ff24293f8770662",tooltip="Get the slot's maximum size, if set."];
+  Node2 -> Node12 [id="edge11_Node000002_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="UE::Slate::TSlotAccessor\l::GetMinSize",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d47/structUE_1_1Slate_1_1TSlotAccessor.html#a01ef220abb5447c7238f3431de1c5e32",tooltip="Get the slot's minimum size, if set."];
+  Node2 -> Node13 [id="edge12_Node000002_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="UE::Slate::TSlotAccessor\l::GetPadding",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d47/structUE_1_1Slate_1_1TSlotAccessor.html#a56c154d2952ae68e2e5222b74ed1c04e",tooltip="Get the slot padding."];
+  Node2 -> Node14 [id="edge13_Node000002_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="UE::Slate::TSlotAccessor\l::GetShrinkSizeValue",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d47/structUE_1_1Slate_1_1TSlotAccessor.html#af9ff03ff0c0fb2c7fb9fe20e06bf8634",tooltip="Get the slot's shrink size value, applicable if the size rule is FillContent."];
+  Node2 -> Node15 [id="edge14_Node000002_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="UE::Slate::TSlotAccessor\l::GetSizeRule",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d47/structUE_1_1Slate_1_1TSlotAccessor.html#a27b6d83d9c1f9f4500b5e7f8659760b8",tooltip="Get the slot's applied size rule, ie."];
+  Node2 -> Node16 [id="edge15_Node000002_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="UE::Slate::TSlotAccessor\l::GetSizeValue",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d47/structUE_1_1Slate_1_1TSlotAccessor.html#a2109f6754153f974ac12530272a4b551",tooltip="Get the slot's size value, applicable if the size rule is Fill or FillContent."];
+  Node2 -> Node17 [id="edge16_Node000002_Node000017",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="UE::Slate::TSlotAccessor\l::GetVisibility",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d47/structUE_1_1Slate_1_1TSlotAccessor.html#af0ed9426ea631c6d65e1f9cb932338d5",tooltip="Get the current visibility state of the slot."];
+  Node2 -> Node18 [id="edge17_Node000002_Node000018",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="TArray::Init",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d52/classTArray.html#a70c760cb623372583b8f78378bf9bd62",tooltip="Sets the size of the array, filling it with the given element."];
+  Node2 -> Node19 [id="edge18_Node000002_Node000019",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="FMath::IsNearlyZero",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d20/structFMath.html#ac9075b119b641d69ef4475cc5c2a60a8",tooltip="Checks if a floating point number is nearly zero."];
+  Node2 -> Node20 [id="edge19_Node000002_Node000020",color="steelblue1",style="solid",tooltip=" "];
+  Node20 [id="Node000020",label="LayoutPaddingWithFlow",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d09/LayoutUtils_8h.html#a473d041f6e04439b3aa1ec732f248bf0",tooltip=" "];
+  Node2 -> Node21 [id="edge20_Node000002_Node000021",color="steelblue1",style="solid",tooltip=" "];
+  Node21 [id="Node000021",label="UE::Slate::TSlotAccessor\l::MakeArrangedWidget",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d47/structUE_1_1Slate_1_1TSlotAccessor.html#aca5a2d8271dbf201e3a6bb44461733f0",tooltip="Makes an arranged widget for the given Slot."];
+  Node2 -> Node22 [id="edge21_Node000002_Node000022",color="steelblue1",style="solid",tooltip=" "];
+  Node22 [id="Node000022",label="UE::Math::TVector2\l\< double \>::Max",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d80/structUE_1_1Math_1_1TVector2.html#a1840295dfee931870703f4931415dc38",tooltip=" "];
+  Node2 -> Node23 [id="edge22_Node000002_Node000023",color="steelblue1",style="solid",tooltip=" "];
+  Node23 [id="Node000023",label="UE::Math::TVector2\l\< double \>::Min",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d80/structUE_1_1Math_1_1TVector2.html#a11fa8bd64c25bba85ef434b93f26df1b",tooltip=" "];
+  Node2 -> Node24 [id="edge23_Node000002_Node000024",color="steelblue1",style="solid",tooltip=" "];
+  Node24 [id="Node000024",label="FArrangedChildren::Num",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d47/classFArrangedChildren.html#a14c053f2f4662de666935bc471638036",tooltip=" "];
+  Node2 -> Node25 [id="edge24_Node000002_Node000025",color="steelblue1",style="solid",tooltip=" "];
+  Node25 [id="Node000025",label="FArrangedChildren::\lReserve",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d47/classFArrangedChildren.html#acbb4745c695bdc012c3a0ab4ae2d5ace",tooltip="Reserves sufficient memory for the given number of arranged widgets."];
+}

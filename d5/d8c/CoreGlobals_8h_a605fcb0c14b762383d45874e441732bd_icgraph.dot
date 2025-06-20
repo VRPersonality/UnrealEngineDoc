@@ -1,0 +1,24 @@
+digraph "IsAllowCommandletRendering"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="IsAllowCommandletRendering",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Check to see if we should initialise RHI and set up scene for rendering even when running a commandle..."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FApp::CanEverRender",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d01/classFApp.html#a326c7bc89ea7b26d4e003dd460b6fabb",tooltip="Checks whether this application can render anything."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FApp::CanEverRenderOrProduce\lRenderData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d01/classFApp.html#a122a26896317e8f44c8e0c77700ac1bd",tooltip="Checks whether this application can render anything or produce a derived data needed for rednering."];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FAsyncAddPrimitiveQueue\l::FAddPrimitivesTask::\lExecute",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/df3/structFAsyncAddPrimitiveQueue_1_1FAddPrimitivesTask.html#a18c765b662275d312eee00101cd76986",tooltip=" "];
+  Node4 -> Node4 [id="edge4_Node000004_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 -> Node5 [id="edge5_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FAsyncAddPrimitiveQueue\l::FAddPrimitivesTask::\lLaunch",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/df3/structFAsyncAddPrimitiveQueue_1_1FAddPrimitivesTask.html#a81e681c7f4d3deaa17f5a9eb35102baa",tooltip=" "];
+  Node4 -> Node6 [id="edge6_Node000004_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FAsyncAddPrimitiveQueue\l::Tick",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dd3/structFAsyncAddPrimitiveQueue.html#adabdaed83bec7306351c79c22091586b",tooltip=" "];
+  Node2 -> Node6 [id="edge7_Node000002_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node7 [id="edge8_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="UE::PixelStreaming2\l::IsStreamingSupported",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d40/namespaceUE_1_1PixelStreaming2.html#a5564ee83897e13052ee526e5c5494d27",tooltip=" "];
+}

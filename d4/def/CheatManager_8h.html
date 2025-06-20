@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Unreal Engine 5.6 C++ Documentation: UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/CheatManager.h File Reference</title>
+<title>Unreal Engine 5.6 C++ API: CheatManager.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -18,7 +18,11 @@
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
-<link href="../../unreal_theme.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -27,9 +31,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Unreal Engine 5.6 C++ Documentation<span id="projectnumber">&#160;5.6</span>
+   <div id="projectname">Unreal Engine 5.6 C++ API<span id="projectnumber">&#160;5.6.0</span>
    </div>
-   <div id="projectbrief">Documentation UE5 avec chemins sources corrects</div>
+   <div id="projectbrief">C++ API documentation for Unreal Engine 5.6</div>
   </td>
  </tr>
  </tbody>
@@ -94,26 +98,62 @@ $(function(){initNavTree('d4/def/CheatManager_8h.html','../../',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../de/dd7/CheatManagerDefines_8h_source.html">CheatManagerDefines.h</a>&quot;</code><br />
-<code>#include &quot;CoreMinimal.h&quot;</code><br />
-<code>#include &quot;UObject/ObjectMacros.h&quot;</code><br />
-<code>#include &quot;UObject/Object.h&quot;</code><br />
-<code>#include &quot;Templates/SubclassOf.h&quot;</code><br />
-<code>#include &quot;Engine/EngineTypes.h&quot;</code><br />
-<code>#include &quot;UObject/ScriptMacros.h&quot;</code><br />
-<code>#include &quot;UObject/Interface.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d67/CoreMinimal_8h_source.html">CoreMinimal.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html">UObject/ObjectMacros.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/dbf/Object_8h_source.html">UObject/Object.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/db4/SubclassOf_8h_source.html">Templates/SubclassOf.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/dcf/EngineTypes_8h_source.html">Engine/EngineTypes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/d99/ScriptMacros_8h_source.html">UObject/ScriptMacros.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d91/Interface_8h_source.html">UObject/Interface.h</a>&quot;</code><br />
 <code>#include &quot;CheatManager.generated.h&quot;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Include dependency graph for CheatManager.h:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 0 --></div>
+</div>
+</div><div class="textblock"><div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>This graph shows which files directly or indirectly include this file:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 1 --></div>
+</div>
 </div>
 <p><a href="../../d4/def/CheatManager_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
+Data Structures</h2></td></tr>
 <tr class="memitem:FDebugTraceInfo" id="r_FDebugTraceInfo"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d35/structFDebugTraceInfo.html">FDebugTraceInfo</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Debug Trace info for capturing.  <a href="../../d9/d35/structFDebugTraceInfo.html#details">More...</a><br /></td></tr>
-<tr class="memitem:UCheatManagerExtension" id="r_UCheatManagerExtension"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d0b/classUCheatManagerExtension.html">UCheatManagerExtension</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A cheat manager extension can extend the main cheat manager in a modular way, being enabled or disabled when the system associated with the cheats is enabled or disabled.  <a href="../../d3/d0b/classUCheatManagerExtension.html#details">More...</a><br /></td></tr>
-<tr class="memitem:UCheatManager" id="r_UCheatManager"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d54/classUCheatManager.html">UCheatManager</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cheat Manager is a central blueprint to implement test and debug code and actions that are not to ship with the game.  <a href="../../d4/d54/classUCheatManager.html#details">More...</a><br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a440dfdebf33ce9d8a6fd32fb65549fab" id="r_a440dfdebf33ce9d8a6fd32fb65549fab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a440dfdebf33ce9d8a6fd32fb65549fab">DECLARE_MULTICAST_DELEGATE_OneParam</a> (FOnCheatManagerCreated, UCheatManager *)</td></tr>
 </table>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a440dfdebf33ce9d8a6fd32fb65549fab" name="a440dfdebf33ce9d8a6fd32fb65549fab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a440dfdebf33ce9d8a6fd32fb65549fab">&#9670;&#160;</a></span>DECLARE_MULTICAST_DELEGATE_OneParam()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DECLARE_MULTICAST_DELEGATE_OneParam </td>
+          <td>(</td>
+          <td class="paramtype">FOnCheatManagerCreated</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UCheatManager *</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../d4/da3/StatsCommand_8h_source.html#l00016">Ar</a>, <a class="el" href="../../d4/d84/DisplayClusterSceneComponentSyncParent_8h_source.html#l00012">Blueprintable</a>, <a class="el" href="../../d1/df7/RigUnit__AnimNextRunAnimationGraph__v1_8h_source.html#l00024">Category</a>, <a class="el" href="../../d8/db1/UnrealNames_8h_source.html#l00271">Cmd</a>, <a class="el" href="../../d7/dd1/AndroidPlatform_8h_source.html#l00140">FORCEINLINE</a>, <a class="el" href="../../d1/df7/RigUnit__AnimNextRunAnimationGraph__v1_8h_source.html#l00024">Keywords</a>, <a class="el" href="../../d3/dc7/ModularVehicleBaseComponent_8h_source.html#l00108">meta</a>, <a class="el" href="../../d2/da0/AnimMontage_8h_source.html#l00621">MinimalAPI</a>, <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00754">UCLASS</a>, <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00724">UFUNCTION</a>, <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00723">UPROPERTY</a>, and <a class="el" href="../../d9/df1/WorldPartitionRuntimeHash_8h_source.html#l00184">Within</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
@@ -127,8 +167,8 @@ Classes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="../../dir_4aca46919dd64a018c94105a41bb52f8.html">UE_5.6</a></li><li class="navelem"><a href="../../dir_35a4881369ae19e233e6dac2bcad4050.html">Engine</a></li><li class="navelem"><a href="../../dir_9f26ecb35aabc03d0a71a3e3b9106316.html">Source</a></li><li class="navelem"><a href="../../dir_0942f747ae23c965c05d4d76ae4659cb.html">Runtime</a></li><li class="navelem"><a href="../../dir_c4f31664fb2968a098c34e2ef86324ca.html">Engine</a></li><li class="navelem"><a href="../../dir_2d50b3e22a4f3c2a257cc8ed034f8f90.html">Classes</a></li><li class="navelem"><a href="../../dir_ed269b19aee30b1edf91ca5f109cdfa1.html">GameFramework</a></li><li class="navelem"><a href="../../d4/def/CheatManager_8h.html">CheatManager.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+    <li class="navelem"><a href="../../dir_7536b172fbd480bfd146a1b1acd6856b.html">Runtime</a></li><li class="navelem"><a href="../../dir_fdf6aa5c3cf3805bb958134448d60562.html">Engine</a></li><li class="navelem"><a href="../../dir_0ed647eebe6ffcaa496d3842b7cec6ce.html">Classes</a></li><li class="navelem"><a href="../../dir_cc939d8e7753f23591e1c275ea054aa8.html">GameFramework</a></li><li class="navelem"><a href="../../d4/def/CheatManager_8h.html">CheatManager.h</a></li>
+    <li class="footer">Generated on <span class="timestamp"></span> for Unreal Engine 5.6 C++ API by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>
 </body>

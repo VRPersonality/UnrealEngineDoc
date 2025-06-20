@@ -1,0 +1,19 @@
+digraph "UE::Geometry::TFastWindingTree::evaluate_box_fast_winding_cache"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UE::Geometry::TFastWinding\lTree::evaluate_box_fast\l_winding_cache",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Geometry::TFastWinding\lTree::branch_fast_winding_num",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d0e/classUE_1_1Geometry_1_1TFastWindingTree.html#ac14adb5319e4228c4af167af0c921192",tooltip=" "];
+  Node2 -> Node2 [id="edge2_Node000002_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node3 [id="edge3_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::Geometry::TFastWinding\lTree::FastWindingNumber",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d0e/classUE_1_1Geometry_1_1TFastWindingTree.html#a22badc34dbae08e5099fcce8ebf00848",tooltip="Fast approximation of winding number using far-field approximations."];
+  Node3 -> Node4 [id="edge4_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UE::Geometry::TMeshSpatial\lSort::Compute",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc1/classUE_1_1Geometry_1_1TMeshSpatialSort.html#afbc2201c936b27d46eeee5c56db0e0a3",tooltip=" "];
+  Node2 -> Node5 [id="edge5_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="UE::Geometry::TFastWinding\lTree::FastWindingNumber",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d0e/classUE_1_1Geometry_1_1TFastWindingTree.html#aa05433a24ddb0a860d769b5144d26542",tooltip="Const version does not auto-build on query."];
+}

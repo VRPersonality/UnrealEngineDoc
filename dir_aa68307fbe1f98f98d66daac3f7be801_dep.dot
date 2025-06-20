@@ -1,0 +1,17 @@
+digraph "Internal"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_1609d6a187a21f83be9db2b943dcc260 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="Landscape", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_1609d6a187a21f83be9db2b943dcc260.html",tooltip=""]
+  dir_20d1504460f7dc953dd2479317905424 [label="Classes", fillcolor="#a2b4d6", color="red", style="filled", URL="dir_20d1504460f7dc953dd2479317905424.html",tooltip=""];
+  dir_aa68307fbe1f98f98d66daac3f7be801 [label="Internal", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_aa68307fbe1f98f98d66daac3f7be801.html",tooltip=""];
+  }
+  dir_0e6cddcc9caa1238c7f3774224afaa45 [label="Core", fillcolor="#edf0f7", color="red", style="filled,dashed", URL="dir_0e6cddcc9caa1238c7f3774224afaa45.html",tooltip=""];
+  dir_aa68307fbe1f98f98d66daac3f7be801->dir_0e6cddcc9caa1238c7f3774224afaa45 [headlabel="1", labeldistance=1.5 headhref="dir_000524_000266.html" href="dir_000524_000266.html" color="steelblue1" fontcolor="steelblue1"];
+  dir_aa68307fbe1f98f98d66daac3f7be801->dir_20d1504460f7dc953dd2479317905424 [headlabel="1", labeldistance=1.5 headhref="dir_000524_000197.html" href="dir_000524_000197.html" color="steelblue1" fontcolor="steelblue1"];
+}

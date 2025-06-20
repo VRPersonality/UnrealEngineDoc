@@ -1,0 +1,16 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="UE::SequenceNavigator\l::INavigationToolItemProxyFactory",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d20/classUE_1_1SequenceNavigator_1_1INavigationToolItemProxyFactory.html",tooltip="Item Proxy Factories are the classes that instance or get the existing Navigation Tool Item Proxies f..."];
+  Node0 -> Node1 [id="edge9705_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 [id="Node000001",label="UE::SequenceNavigator\l::TNavigationToolItemProxyDefault\lFactoryBase\< InItemProxyType, 0 \>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d69/classUE_1_1SequenceNavigator_1_1TNavigationToolItemProxyDefaultFactoryBase.html",tooltip=" "];
+  Node1 -> Node2 [id="edge9706_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::SequenceNavigator\l::TNavigationToolItemProxyDefault\lFactory\< InItemProxyType, InItemProxy\lPriority, typename \>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/db9/classUE_1_1SequenceNavigator_1_1TNavigationToolItemProxyDefaultFactory.html",tooltip=" "];
+  Node0 -> Node3 [id="edge9707_Node000000_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::SequenceNavigator\l::TNavigationToolItemProxyDefault\lFactoryBase\< InItemProxyType,\l InItemProxyPriority, typename \>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d69/classUE_1_1SequenceNavigator_1_1TNavigationToolItemProxyDefaultFactoryBase.html",tooltip="Default Template Item Proxy Factory classes to create the Item Proxy without having to write it out f..."];
+}

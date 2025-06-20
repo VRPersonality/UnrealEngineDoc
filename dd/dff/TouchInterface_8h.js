@@ -1,5 +1,4 @@
 var TouchInterface_8h =
 [
-    [ "FTouchInputControl", "d4/dbc/structFTouchInputControl.html", "d4/dbc/structFTouchInputControl" ],
-    [ "UTouchInterface", "d5/de5/classUTouchInterface.html", null ]
+    [ "USTRUCT", "dd/dff/TouchInterface_8h.html#ab62f62118d91f2a71803c3f5bc7b3437", null ]
 ];

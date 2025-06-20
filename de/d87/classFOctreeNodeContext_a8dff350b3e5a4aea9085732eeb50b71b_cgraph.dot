@@ -1,0 +1,30 @@
+digraph "FOctreeNodeContext::GetChildOffsetVec"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FOctreeNodeContext\l::GetChildOffsetVec",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="MakeVectorRegister",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d4d/UnrealMathFPU_8h.html#a2b1ce1cf6a01db0ea11daff91b3f30f3",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="MakeVectorRegisterFloat",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d4d/UnrealMathFPU_8h.html#aefc67d5a07d1692613a29d8c9f71e815",tooltip="Returns a bitwise equivalent vector based on 4 DWORDs."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="VectorIntAnd",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d4d/UnrealMathFPU_8h.html#af054d4d90492eb586247bacbc1ade6ba",tooltip="= a & b"];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="MakeVectorRegisterInt",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d4d/UnrealMathFPU_8h.html#a00e5016a817e4c0678f7ba57fa8b2160",tooltip="Returns a vector based on 4 int32."];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="VectorIntCompareEQ",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d4d/UnrealMathFPU_8h.html#a8ea01542a11e0e006b1fa89d7b88155a",tooltip=" "];
+  Node6 -> Node5 [id="edge6_Node000006_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node7 [id="edge7_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="VectorIntLoad1",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d4d/UnrealMathFPU_8h.html#a45ee01aca1492252d738046624e6f040",tooltip="Loads 1 int32 from unaligned memory into all components of a vector register."];
+  Node7 -> Node5 [id="edge8_Node000007_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node8 [id="edge9_Node000001_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="VectorSelect",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d4d/UnrealMathFPU_8h.html#a80d0251c859b099e8d3bad3443cfc5ea",tooltip="Does a bitwise vector selection based on a mask (e.g., created from VectorCompareXX)"];
+  Node8 -> Node3 [id="edge10_Node000008_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node9 [id="edge11_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="VectorSetFloat1",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d4d/UnrealMathFPU_8h.html#a3d69587d3a368ee706a6e30994fd8683",tooltip="Propagates passed in float to all registers."];
+  Node9 -> Node3 [id="edge12_Node000009_Node000003",color="steelblue1",style="solid",tooltip=" "];
+}

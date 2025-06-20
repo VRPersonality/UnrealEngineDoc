@@ -1,0 +1,43 @@
+digraph "STileView::SLATE_END_ARGS"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="STileView::SLATE_END_ARGS",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Construct this widget."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SListView::SListView",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/dc1/classSListView.html#a27ae7afc9804b31a1af6b3ff55868857",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="STileView::STileView",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d1a/classSTileView.html#a657eea1303e2bcdb62454ecacc247f57",tooltip=" "];
+  Node3 -> Node2 [id="edge3_Node000003_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node4 [id="edge4_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="SWidget::AddMetadata",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/de2/classSWidget.html#a7daf1fffe3827af2614c333b5aa953dd",tooltip="Add metadata to this widget."];
+  Node4 -> Node5 [id="edge5_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="SWidget::AddMetadataInternal",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/de2/classSWidget.html#adb1d4266f8b75460c8937c2da75dbd29",tooltip=" "];
+  Node1 -> Node6 [id="edge6_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="STableViewBase::Construct\lChildren",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d5c/classSTableViewBase.html#af5690aa149795f7e184412d2c53bbd3e",tooltip="Create the child widgets that comprise the list."];
+  Node1 -> Node7 [id="edge7_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="FText::FromString",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/dcb/classFText.html#af6cbe7498fdc624e1e3188326c9be5a5",tooltip="Generate an FText representing the passed in string."];
+  Node7 -> Node8 [id="edge8_Node000007_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="FText::FText",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/dcb/classFText.html#aed2543585ee29658b23f660d8108334c",tooltip=" "];
+  Node1 -> Node9 [id="edge9_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="SListView::HasValidItems\lSource",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/dc1/classSListView.html#a0a3952774ab1ac2d4abf67a3b9999ab3",tooltip=" "];
+  Node1 -> Node10 [id="edge10_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="MakeShared",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d17/SharedPointer_8h.html#a263c00158120ebc1c5485f1201a6f34d",tooltip="MakeShared utility function."];
+  Node10 -> Node11 [id="edge11_Node000010_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="Forward",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d24/UnrealTemplate_8h.html#a68f280c1d561a8899a1e9e3ea8405d00",tooltip="Forward will cast a reference to an rvalue reference."];
+  Node10 -> Node12 [id="edge12_Node000010_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="SharedPointerInternals\l::TIntrusiveReferenceController\l::GetObjectPtr",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d0f/classSharedPointerInternals_1_1TIntrusiveReferenceController.html#abbed2fe02963777a4ec2fb6c2d619beb",tooltip=" "];
+  Node10 -> Node13 [id="edge13_Node000010_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="UE::Core::Private::\lMakeSharedRef",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/de6/namespaceUE_1_1Core_1_1Private.html#aff81f6fda6cd780a91812bea83b7f9d1",tooltip=" "];
+  Node10 -> Node14 [id="edge14_Node000010_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="SharedPointerInternals\l::NewIntrusiveReferenceController",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d6a/namespaceSharedPointerInternals.html#a27870bf9f0653ce64eb0333857178446",tooltip="Creates an intrusive reference controller."];
+  Node14 -> Node11 [id="edge15_Node000014_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node15 [id="edge16_Node000001_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="SListView::SetItemsSource",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/dc1/classSListView.html#a86f883db52397b7da751a08f2ec6894b",tooltip="Establishes a wholly new list of items being observed by the list."];
+  Node1 -> Node16 [id="edge17_Node000001_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="TSharedFromThis\< SWidget\l \>::SharedThis",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d15/classTSharedFromThis.html#a580aa3a336a57bab9cdfd3c57916963b",tooltip=" "];
+  Node1 -> Node1 [id="edge18_Node000001_Node000001",color="steelblue1",style="solid",tooltip=" "];
+}

@@ -1,0 +1,14 @@
+digraph "FUObjectItem::GetSerialNumber"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FUObjectItem::GetSerialNumber",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FUObjectArray::GetSerial\lNumber",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dec/classFUObjectArray.html#a73955a9997df197ae63b4f5fe963b27f",tooltip="Given a UObject index return the serial number."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FWeakObjectPtr::SerialNumbers\lMatch",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/dbe/structFWeakObjectPtr.html#a0fe3fb2a4362f099a7d00cefc8488170",tooltip=" "];
+}

@@ -1,0 +1,18 @@
+digraph "LowLevelTasks::FSchedulerTls::IsBusyWaiting"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="LowLevelTasks::FScheduler\lTls::IsBusyWaiting",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FQueuedLowLevelThreadPool\l::ScheduleTasks",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d8c/classFQueuedLowLevelThreadPool.html#a9a0682a40a1c26d4ba5049099e484036",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FQueuedLowLevelThreadPool\l::FinalizeExecution",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d8c/classFQueuedLowLevelThreadPool.html#a1f39b21be6a0178bf16c1b476b3db5a5",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FQueuedLowLevelThreadPool\l::Resume",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d8c/classFQueuedLowLevelThreadPool.html#a85cf3858c61e70a93cd7687af3d6e6c1",tooltip="Resume a specified amount of queued work, or -1 to unpause."];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FQueuedLowLevelThreadPool\l::RetractQueuedWork",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d8c/classFQueuedLowLevelThreadPool.html#a4d1b71702ca19899ed88688d0066e1fa",tooltip="Attempts to retract a previously queued task."];
+}

@@ -1,0 +1,14 @@
+digraph "FPositionVertexBuffer::FPositionVertexBuffer"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FPositionVertexBuffer\l::FPositionVertexBuffer",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Default constructor."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FPositionVertexBuffer\l::Init",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/db9/classFPositionVertexBuffer.html#a373c327024cebec9ee6ca8c7816b37ec",tooltip="Initializes this vertex buffer with the contents of the given vertex buffer."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FPositionVertexBuffer\l::operator=",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/db9/classFPositionVertexBuffer.html#ab2afb071de9b669467dc0a9287e3bf2c",tooltip="Specialized assignment operator, only used when importing LOD's."];
+}

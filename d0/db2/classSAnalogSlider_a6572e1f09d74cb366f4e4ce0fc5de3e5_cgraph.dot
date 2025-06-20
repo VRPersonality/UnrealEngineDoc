@@ -1,0 +1,16 @@
+digraph "SAnalogSlider::SLATE_EVENT"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="SAnalogSlider::SLATE\l_EVENT",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Invoked when the controller capture is released."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SSlider::Construct",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/db0/classSSlider.html#a041e943c05f8d730601056e4a50fa9a4",tooltip="Construct the widget."];
+  Node2 -> Node2 [id="edge2_Node000002_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node3 [id="edge3_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SAnalogSlider::SLATE\l_EVENT",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/db2/classSAnalogSlider.html#a5f41795229c01c4dd0ca809006c84078",tooltip="Invoked when the mouse is released and a capture ends."];
+  Node3 -> Node3 [id="edge4_Node000003_Node000003",color="steelblue1",style="solid",tooltip=" "];
+}

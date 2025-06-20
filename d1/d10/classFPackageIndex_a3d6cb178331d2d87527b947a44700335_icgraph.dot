@@ -1,0 +1,16 @@
+digraph "FPackageIndex::ToImport"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FPackageIndex::ToImport",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Check that this is an import and return the index into the import map."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FLinkerTables::GetImport\lClassName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/dc3/classFLinkerTables.html#a52dd405043dd82dccc59c91a6e721746",tooltip="Gets the class name for the specified index in the import map."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FLinkerTables::GetImport\lFullName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/dc3/classFLinkerTables.html#a160bf064e037b82664f431d704e18a81",tooltip="Return the full name of the UObject represented by the specified package index."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FLinkerTables::GetImport\lPathName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/dc3/classFLinkerTables.html#ad1a08659c648659c216e6e3094c8a915",tooltip="Return the path name of the UObject represented by the specified import."];
+}

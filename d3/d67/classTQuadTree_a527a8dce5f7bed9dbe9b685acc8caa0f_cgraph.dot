@@ -1,0 +1,14 @@
+digraph "TQuadTree::operator="
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TQuadTree::operator=",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TQuadTree::TQuadTree",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d67/classTQuadTree.html#a3e266fa14b98ec5bac93a71a2a2595ce",tooltip="DO NOT USE."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="EnsureRetrievingVTablePtr\lDuringCtor",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d8c/CoreGlobals_8h.html#a5eef4c0ae779839c00787e2977448651",tooltip="Ensures that current thread is during retrieval of vtable ptr of some UClass."];
+}

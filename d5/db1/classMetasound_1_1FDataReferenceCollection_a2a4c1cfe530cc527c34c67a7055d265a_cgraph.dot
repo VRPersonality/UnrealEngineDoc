@@ -1,0 +1,39 @@
+digraph "Metasound::FDataReferenceCollection::GetDataWriteReferenceOrConstruct"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="Metasound::FDataReference\lCollection::GetDataWriteReference\lOrConstruct",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Returns a writable data ref from the collection or construct one if one is not there."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Metasound::FDataReference\lCollection::ContainsDataWriteReference",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/db1/classMetasound_1_1FDataReferenceCollection.html#a04f608af1edfb3ac59bcc31bead6b211",tooltip="Query whether a writable data reference is within the collection."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Forward",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d24/UnrealTemplate_8h.html#a68f280c1d561a8899a1e9e3ea8405d00",tooltip="Forward will cast a reference to an rvalue reference."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="Metasound::FDataReference\lCollection::GetDataWriteReference",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/db1/classMetasound_1_1FDataReferenceCollection.html#aa8947c7caf8518298510aa6e632b130b",tooltip="Returns a writable data ref from the collection."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="Metasound::FDataReference\lCollection::FindDataReference",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/db1/classMetasound_1_1FDataReferenceCollection.html#a6a5061b1f48b05d526d8d228682d9504",tooltip="Returns pointer to data reference if it exists for a given vertex name."];
+  Node4 -> Node6 [id="edge5_Node000004_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="Metasound::FAnyDataReference\l::GetDataWriteReference",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d0e/classMetasound_1_1FAnyDataReference.html#ad06947633ed8d6e3b769bc324c6c9560",tooltip="Get access to a TDataWriteReference."];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="Metasound::FAnyDataReference\l::GetAs",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d0e/classMetasound_1_1FAnyDataReference.html#a353769afff095f715ec568cebbdfae9a",tooltip="Return the data in the specified format."];
+  Node7 -> Node8 [id="edge7_Node000007_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="Metasound::FAnyDataReference\l::TGetAs::Get",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d0b/structMetasound_1_1FAnyDataReference_1_1TGetAs.html#a27001da8c8756969ded621e6a0d18115",tooltip=" "];
+  Node8 -> Node9 [id="edge8_Node000008_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="Metasound::FAnyDataReference\l::TGetAs::DerefPointerIfNonPointer\lResultType",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d0b/structMetasound_1_1FAnyDataReference_1_1TGetAs.html#a8215a6afda326a602d69817fb8fd6db0",tooltip=" "];
+  Node8 -> Node8 [id="edge9_Node000008_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 -> Node10 [id="edge10_Node000008_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="Metasound::IDataReference\l::GetRaw",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dd6/classMetasound_1_1IDataReference.html#a0c965604623d0fbf3eb11639bb1ec181",tooltip="provides a raw pointer to the storage where the data actually resides."];
+  Node8 -> Node11 [id="edge11_Node000008_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="Metasound::IsDataReference\lOfType",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d33/namespaceMetasound.html#a86f74b0cab240248edf4d9d3fb7c56e4",tooltip="Test if an IDataReference contains the same data type as the template parameter."];
+  Node11 -> Node12 [id="edge12_Node000011_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="Metasound::IDataReference\l::GetDataTypeId",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dd6/classMetasound_1_1IDataReference.html#a88ebe3633554852c808548e6e797c542",tooltip="Returns the ID of the parameter type."];
+  Node11 -> Node13 [id="edge13_Node000011_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="Metasound::IDataReference\l::GetDataTypeName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dd6/classMetasound_1_1IDataReference.html#a4ed2c7db8d492a767b957336ec4c8204",tooltip="Returns the name of the data type."];
+  Node11 -> Node14 [id="edge14_Node000011_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="Metasound::GetMetasoundData\lTypeId",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d33/namespaceMetasound.html#a699ea8ed4fb07fb7533c721127a6ac7b",tooltip="Return the data type ID for a registered data type."];
+  Node11 -> Node15 [id="edge15_Node000011_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="Metasound::GetMetasoundData\lTypeName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d33/namespaceMetasound.html#a2cc582a51a655c14c6cfe340ded4140c",tooltip="Return the data type FName for a registered data type."];
+}

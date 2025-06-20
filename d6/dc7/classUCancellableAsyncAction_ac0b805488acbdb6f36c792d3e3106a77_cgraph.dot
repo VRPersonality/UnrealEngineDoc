@@ -1,0 +1,12 @@
+digraph "UCancellableAsyncAction::UFUNCTION"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="UCancellableAsyncAction\l::UFUNCTION",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Returns true if this action is still active and has not completed or been cancelled."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UCancellableAsyncAction\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/dc7/classUCancellableAsyncAction.html#a340ecd55cc337895c129d891f3e3d02f",tooltip="Handle when this action is being destroyed to ensure that the action is canceled and child classes ca..."];
+}

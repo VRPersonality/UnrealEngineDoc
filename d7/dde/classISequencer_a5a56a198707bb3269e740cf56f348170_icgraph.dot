@@ -1,0 +1,16 @@
+digraph "ISequencer::GetFocusedTemplateID"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="ISequencer::GetFocusedTemplateID",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Sequencer::AddKeyForExternal\lValue",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dd3/namespaceSequencer.html#a36fb585d45a77da3430dc2876c152b0e",tooltip="Retrieve a channel's external value, and add it to the channel as a new key (or update an existing ke..."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Sequencer::AddOrUpdateKey",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dd3/namespaceSequencer.html#a7cbc43d59e94ff3251c2a0ec38b16b16",tooltip="Add or update a key for this channel's current value, using an external value if possible."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="ISequencer::FindObjectsIn\lCurrentSequence",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dde/classISequencer.html#ae01314347ebc7922077c58f1bfc37f48",tooltip=" "];
+}

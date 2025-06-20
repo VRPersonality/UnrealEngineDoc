@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Unreal Engine 5.6 C++ Documentation: UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/PlayerMuteList.h File Reference</title>
+<title>Unreal Engine 5.6 C++ API: PlayerMuteList.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -18,7 +18,11 @@
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
-<link href="../../unreal_theme.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -27,9 +31,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Unreal Engine 5.6 C++ Documentation<span id="projectnumber">&#160;5.6</span>
+   <div id="projectname">Unreal Engine 5.6 C++ API<span id="projectnumber">&#160;5.6.0</span>
    </div>
-   <div id="projectbrief">Documentation UE5 avec chemins sources corrects</div>
+   <div id="projectbrief">C++ API documentation for Unreal Engine 5.6</div>
   </td>
  </tr>
  </tbody>
@@ -93,32 +97,33 @@ $(function(){initNavTree('d7/d72/PlayerMuteList_8h.html','../../',''); });
   <div class="headertitle"><div class="title">PlayerMuteList.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;UObject/ObjectMacros.h&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html">UObject/ObjectMacros.h</a>&quot;</code><br />
 <code>#include &quot;Online/CoreOnline.h&quot;</code><br />
-<code>#include &quot;Misc/EnumRange.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/ddb/EnumRange_8h_source.html">Misc/EnumRange.h</a>&quot;</code><br />
 <code>#include &quot;PlayerMuteList.generated.h&quot;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Include dependency graph for PlayerMuteList.h:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 0 --></div>
+</div>
+</div><div class="textblock"><div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>This graph shows which files directly or indirectly include this file:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 1 --></div>
+</div>
 </div>
 <p><a href="../../d7/d72/PlayerMuteList_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:FPlayerMuteList" id="r_FPlayerMuteList"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd1/structFPlayerMuteList.html">FPlayerMuteList</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Container responsible for managing the mute state of a player controller at the gameplay level (VoiceInterface handles actual muting)  <a href="../../d8/dd1/structFPlayerMuteList.html#details">More...</a><br /></td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a098b28bf3faee5fcbcaa1f930de671bc" id="r_a098b28bf3faee5fcbcaa1f930de671bc"><td class="memItemLeft" align="right" valign="top">enum enum class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a098b28bf3faee5fcbcaa1f930de671bc">ENUM_CLASS_FLAGS</a> (<a class="el" href="#a925ce0c092cbbbb17f5b54cd6b86e52a">EVoiceBlockReasons</a>)</td></tr>
-<tr class="memitem:a9d69bb5c8e9fcd91b345d88f2c2ec1b8" id="r_a9d69bb5c8e9fcd91b345d88f2c2ec1b8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d69bb5c8e9fcd91b345d88f2c2ec1b8">ENUM_RANGE_BY_VALUES</a> (<a class="el" href="#a925ce0c092cbbbb17f5b54cd6b86e52a">EVoiceBlockReasons</a>, <a class="el" href="#a39f1be9d1acb9e607ba61f16ed9d30fc">EVoiceBlockReasons::Muted</a>, <a class="el" href="#ace6f18459e5530598faf822a40eb2646">EVoiceBlockReasons::Gameplay</a>, <a class="el" href="#a55a7c6927256490fa5fcd05aba32f5e8">EVoiceBlockReasons::Blocked</a>, <a class="el" href="#acf0399574f2fc635873b40e321a2a097">EVoiceBlockReasons::BlockedBy</a>)</td></tr>
 <tr class="memitem:ab30760d2827dcf3023c28ef8373a7f68" id="r_ab30760d2827dcf3023c28ef8373a7f68"><td class="memItemLeft" align="right" valign="top">FString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab30760d2827dcf3023c28ef8373a7f68">DumpMutelistState</a> (UWorld *World)</td></tr>
 <tr class="memdesc:ab30760d2827dcf3023c28ef8373a7f68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump out information about all player controller mute state.  <br /></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a925ce0c092cbbbb17f5b54cd6b86e52a" id="r_a925ce0c092cbbbb17f5b54cd6b86e52a"><td class="memItemLeft" align="right" valign="top">enum enum class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a925ce0c092cbbbb17f5b54cd6b86e52a">EVoiceBlockReasons</a></td></tr>
-<tr class="memitem:a39f1be9d1acb9e607ba61f16ed9d30fc" id="r_a39f1be9d1acb9e607ba61f16ed9d30fc"><td class="memItemLeft" align="right" valign="top">enum enum class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39f1be9d1acb9e607ba61f16ed9d30fc">Muted</a> = 1 &lt;&lt; 0</td></tr>
-<tr class="memitem:ace6f18459e5530598faf822a40eb2646" id="r_ace6f18459e5530598faf822a40eb2646"><td class="memItemLeft" align="right" valign="top">enum enum class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace6f18459e5530598faf822a40eb2646">Gameplay</a> = 1 &lt;&lt; 1</td></tr>
-<tr class="memitem:a55a7c6927256490fa5fcd05aba32f5e8" id="r_a55a7c6927256490fa5fcd05aba32f5e8"><td class="memItemLeft" align="right" valign="top">enum enum class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55a7c6927256490fa5fcd05aba32f5e8">Blocked</a> = 1 &lt;&lt; 2</td></tr>
-<tr class="memitem:acf0399574f2fc635873b40e321a2a097" id="r_acf0399574f2fc635873b40e321a2a097"><td class="memItemLeft" align="right" valign="top">enum enum class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf0399574f2fc635873b40e321a2a097">BlockedBy</a> = 1 &lt;&lt; 3</td></tr>
+<tr class="memitem:a80dd964f198c69b1a6174685b53f5fd9" id="r_a80dd964f198c69b1a6174685b53f5fd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d8d/ObjectMacros_8h.html#ae78af6f4cdfd7e2d2a4a557b5197ce06">UENUM</a>()) enum class EVoiceBlockReasons&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80dd964f198c69b1a6174685b53f5fd9">ENUM_CLASS_FLAGS</a> (EVoiceBlockReasons)</td></tr>
+<tr class="memitem:a9d69bb5c8e9fcd91b345d88f2c2ec1b8" id="r_a9d69bb5c8e9fcd91b345d88f2c2ec1b8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d69bb5c8e9fcd91b345d88f2c2ec1b8">ENUM_RANGE_BY_VALUES</a> (EVoiceBlockReasons, EVoiceBlockReasons::Muted, EVoiceBlockReasons::Gameplay, <a class="el" href="../../d2/d2d/RPCDoSDetection_8h.html#a04da23c00c69bf42ba98d5514d67a1fea4ecc0d90eec1cea3e9db96583a1bb9c2">EVoiceBlockReasons::Blocked</a>, EVoiceBlockReasons::BlockedBy)</td></tr>
+<tr class="memitem:abc76658e30571583397d5b279caf48b6" id="r_abc76658e30571583397d5b279caf48b6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc76658e30571583397d5b279caf48b6">USTRUCT</a> () struct FPlayerMuteList</td></tr>
+<tr class="memdesc:abc76658e30571583397d5b279caf48b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Container responsible for managing the mute state of a player controller at the gameplay level (VoiceInterface handles actual muting)  <br /></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="ab30760d2827dcf3023c28ef8373a7f68" name="ab30760d2827dcf3023c28ef8373a7f68"></a>
@@ -138,26 +143,22 @@ Variables</h2></td></tr>
 
 <p>Dump out information about all player controller mute state. </p>
 
-<p class="reference">References <a class="el" href="#ab30760d2827dcf3023c28ef8373a7f68">DumpMutelistState()</a>.</p>
-
 </div>
 </div>
-<a id="a098b28bf3faee5fcbcaa1f930de671bc" name="a098b28bf3faee5fcbcaa1f930de671bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a098b28bf3faee5fcbcaa1f930de671bc">&#9670;&#160;</a></span>ENUM_CLASS_FLAGS()</h2>
+<a id="a80dd964f198c69b1a6174685b53f5fd9" name="a80dd964f198c69b1a6174685b53f5fd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80dd964f198c69b1a6174685b53f5fd9">&#9670;&#160;</a></span>ENUM_CLASS_FLAGS()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum enum class ENUM_CLASS_FLAGS </td>
+          <td class="memname"><a class="el" href="../../d8/d8d/ObjectMacros_8h.html#ae78af6f4cdfd7e2d2a4a557b5197ce06">UENUM</a>()) enum class EVoiceBlockReasons ENUM_CLASS_FLAGS </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a925ce0c092cbbbb17f5b54cd6b86e52a">EVoiceBlockReasons</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">EVoiceBlockReasons</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="../../d7/d72/PlayerMuteList_8h_source.html#l00012">EVoiceBlockReasons</a>.</p>
 
 </div>
 </div>
@@ -170,113 +171,135 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">ENUM_RANGE_BY_VALUES </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a925ce0c092cbbbb17f5b54cd6b86e52a">EVoiceBlockReasons</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+          <td class="paramtype">EVoiceBlockReasons</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a39f1be9d1acb9e607ba61f16ed9d30fc">EVoiceBlockReasons::Muted</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+          <td class="paramtype">EVoiceBlockReasons::Muted</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#ace6f18459e5530598faf822a40eb2646">EVoiceBlockReasons::Gameplay</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+          <td class="paramtype">EVoiceBlockReasons::Gameplay</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a55a7c6927256490fa5fcd05aba32f5e8">EVoiceBlockReasons::Blocked</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+          <td class="paramtype"><a class="el" href="../../d2/d2d/RPCDoSDetection_8h.html#a04da23c00c69bf42ba98d5514d67a1fea4ecc0d90eec1cea3e9db96583a1bb9c2">EVoiceBlockReasons::Blocked</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#acf0399574f2fc635873b40e321a2a097">EVoiceBlockReasons::BlockedBy</a></td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+          <td class="paramtype">EVoiceBlockReasons::BlockedBy</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../d7/d72/PlayerMuteList_8h_source.html#l00012">EVoiceBlockReasons</a>.</p>
-
 </div>
 </div>
-<a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
-<a id="a55a7c6927256490fa5fcd05aba32f5e8" name="a55a7c6927256490fa5fcd05aba32f5e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55a7c6927256490fa5fcd05aba32f5e8">&#9670;&#160;</a></span>Blocked</h2>
+<a id="abc76658e30571583397d5b279caf48b6" name="abc76658e30571583397d5b279caf48b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc76658e30571583397d5b279caf48b6">&#9670;&#160;</a></span>USTRUCT()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum enum class Blocked = 1 &lt;&lt; 2</td>
+          <td class="memname">USTRUCT </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d72/PlayerMuteList_8h_source.html#l00018">18</a> of file <a class="el" href="../../d7/d72/PlayerMuteList_8h_source.html">PlayerMuteList.h</a>.</p>
+<p>Container responsible for managing the mute state of a player controller at the gameplay level (VoiceInterface handles actual muting) </p>
+<p>Map of player ids and a bitfield containing filter reasons. Non-zero entries imply communication is blocked for that player</p>
+<p>Has server and client handshake completed</p>
+<p>Add a filter reason for an id to this player's mutelist</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">OwningPC</td><td>player id to add a filter reason </td></tr>
+    <tr><td class="paramname">VoiceBlockReason</td><td>reason to add</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if it's the first reason to block voice from user</dd></dl>
+<p>Remove a filter reason for an id from this player's mutelist</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">UniqueIdToRemove</td><td>player id to remove a filter reason </td></tr>
+    <tr><td class="paramname">VoiceBlockReason</td><td>reason to remove</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if it's the last reason blocking voice from user</dd></dl>
+<p>Tell the server to mute a given player</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">OwningPC</td><td>player controller that would like to mute another player </td></tr>
+    <tr><td class="paramname">MuteId</td><td>player id that should be muted</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Tell the server to unmute a given player</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">OwningPC</td><td>player controller that would like to unmute another player </td></tr>
+    <tr><td class="paramname">UnmuteId</td><td>player id that should be unmuted</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Server muting based on gameplay rules</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">OwningPC</td><td>player controller that would like to mute another player </td></tr>
+    <tr><td class="paramname">MuteId</td><td>player id that should be muted</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Server unmuting based on gameplay rules</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">OwningPC</td><td>player controller that would like to unmute another player </td></tr>
+    <tr><td class="paramname">UnmuteId</td><td>player id that should be unmuted</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Server unmuting all players muted based on gameplay rules</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">OwningPC</td><td>player controller that would like to unmute all players</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Tell the server to block a given player</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">OwningPC</td><td>player controller that would like to block another player </td></tr>
+    <tr><td class="paramname">BlockerId</td><td>player id that should be blocked</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Tell the server to unblock a given player </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">UnblockedPC</td><td>player controller that would like to unblock another player </td></tr>
+    <tr><td class="paramname">BlockerId</td><td>player id that should be unblocked</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Is a given player currently muted</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">PlayerId</td><td>player to query mute state</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the playerid is muted, false otherwise</dd></dl>
 
-</div>
-</div>
-<a id="acf0399574f2fc635873b40e321a2a097" name="acf0399574f2fc635873b40e321a2a097"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf0399574f2fc635873b40e321a2a097">&#9670;&#160;</a></span>BlockedBy</h2>
+<p class="definition">Definition at line <a class="el" href="../../d7/d72/PlayerMuteList_8h_source.html#l00028">28</a> of file <a class="el" href="../../d7/d72/PlayerMuteList_8h_source.html">PlayerMuteList.h</a>.</p>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum enum class BlockedBy = 1 &lt;&lt; 3</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d7/d72/PlayerMuteList_8h_source.html#l00019">19</a> of file <a class="el" href="../../d7/d72/PlayerMuteList_8h_source.html">PlayerMuteList.h</a>.</p>
-
-</div>
-</div>
-<a id="a925ce0c092cbbbb17f5b54cd6b86e52a" name="a925ce0c092cbbbb17f5b54cd6b86e52a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a925ce0c092cbbbb17f5b54cd6b86e52a">&#9670;&#160;</a></span>EVoiceBlockReasons</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum enum class EVoiceBlockReasons</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d7/d72/PlayerMuteList_8h_source.html#l00013">13</a> of file <a class="el" href="../../d7/d72/PlayerMuteList_8h_source.html">PlayerMuteList.h</a>.</p>
-
-</div>
-</div>
-<a id="ace6f18459e5530598faf822a40eb2646" name="ace6f18459e5530598faf822a40eb2646"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace6f18459e5530598faf822a40eb2646">&#9670;&#160;</a></span>Gameplay</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum enum class Gameplay = 1 &lt;&lt; 1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d7/d72/PlayerMuteList_8h_source.html#l00017">17</a> of file <a class="el" href="../../d7/d72/PlayerMuteList_8h_source.html">PlayerMuteList.h</a>.</p>
-
-</div>
-</div>
-<a id="a39f1be9d1acb9e607ba61f16ed9d30fc" name="a39f1be9d1acb9e607ba61f16ed9d30fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39f1be9d1acb9e607ba61f16ed9d30fc">&#9670;&#160;</a></span>Muted</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum enum class Muted = 1 &lt;&lt; 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d7/d72/PlayerMuteList_8h_source.html#l00016">16</a> of file <a class="el" href="../../d7/d72/PlayerMuteList_8h_source.html">PlayerMuteList.h</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00745">GENERATED_USTRUCT_BODY</a>, and <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00723">UPROPERTY</a>.</p>
 
 </div>
 </div>
@@ -293,8 +316,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="../../dir_4aca46919dd64a018c94105a41bb52f8.html">UE_5.6</a></li><li class="navelem"><a href="../../dir_35a4881369ae19e233e6dac2bcad4050.html">Engine</a></li><li class="navelem"><a href="../../dir_9f26ecb35aabc03d0a71a3e3b9106316.html">Source</a></li><li class="navelem"><a href="../../dir_0942f747ae23c965c05d4d76ae4659cb.html">Runtime</a></li><li class="navelem"><a href="../../dir_c4f31664fb2968a098c34e2ef86324ca.html">Engine</a></li><li class="navelem"><a href="../../dir_2d50b3e22a4f3c2a257cc8ed034f8f90.html">Classes</a></li><li class="navelem"><a href="../../dir_ed269b19aee30b1edf91ca5f109cdfa1.html">GameFramework</a></li><li class="navelem"><a href="../../d7/d72/PlayerMuteList_8h.html">PlayerMuteList.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+    <li class="navelem"><a href="../../dir_7536b172fbd480bfd146a1b1acd6856b.html">Runtime</a></li><li class="navelem"><a href="../../dir_fdf6aa5c3cf3805bb958134448d60562.html">Engine</a></li><li class="navelem"><a href="../../dir_0ed647eebe6ffcaa496d3842b7cec6ce.html">Classes</a></li><li class="navelem"><a href="../../dir_cc939d8e7753f23591e1c275ea054aa8.html">GameFramework</a></li><li class="navelem"><a href="../../d7/d72/PlayerMuteList_8h.html">PlayerMuteList.h</a></li>
+    <li class="footer">Generated on <span class="timestamp"></span> for Unreal Engine 5.6 C++ API by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>
 </body>

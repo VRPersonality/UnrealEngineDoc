@@ -1,0 +1,12 @@
+digraph "UE::Sequencer::FViewModel::AddDynamicExtension"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UE::Sequencer::FViewModel\l::AddDynamicExtension",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Adds a dynamic extension to this data model."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Sequencer::FViewModel\l::AddDynamicExtension",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d92/classUE_1_1Sequencer_1_1FViewModel.html#a976e239e86808e9df14746bc011fd3ec",tooltip="Adds a dynamic extension to this data model."];
+}

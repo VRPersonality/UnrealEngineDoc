@@ -1,0 +1,37 @@
+var structFHairStrandsLODRestRootResource =
+[
+    [ "EStatus", "d8/d94/structFHairStrandsLODRestRootResource.html#ac02b75814c5159b294fefe64e115a3c5", [
+      [ "Invalid", "d8/d94/structFHairStrandsLODRestRootResource.html#ac02b75814c5159b294fefe64e115a3c5a4bbb8f967da6d1a610596d7257179c2b", null ],
+      [ "Initialized", "d8/d94/structFHairStrandsLODRestRootResource.html#ac02b75814c5159b294fefe64e115a3c5a59d87a4758a9d35fbaf6b204341bb399", null ],
+      [ "Completed", "d8/d94/structFHairStrandsLODRestRootResource.html#ac02b75814c5159b294fefe64e115a3c5a07ca5050e697392c9ed47e6453f1453f", null ]
+    ] ],
+    [ "FHairStrandsLODRestRootResource", "d8/d94/structFHairStrandsLODRestRootResource.html#abe967f90a4f1607b77fb7f06b2cecea5", null ],
+    [ "GetBulkData", "d8/d94/structFHairStrandsLODRestRootResource.html#a50ec57330fc27827e6bafd966dcf2b9d", null ],
+    [ "GetBulkData", "d8/d94/structFHairStrandsLODRestRootResource.html#afec3b2d1ed33a43762ff1e806e0a5da8", null ],
+    [ "GetFriendlyName", "d8/d94/structFHairStrandsLODRestRootResource.html#a51633a2eef085334cb1b1657c7f124f7", null ],
+    [ "GetResourcesSize", "d8/d94/structFHairStrandsLODRestRootResource.html#a2fa581aa824f32325c150bbeb4c1fd0f", null ],
+    [ "GetRootCount", "d8/d94/structFHairStrandsLODRestRootResource.html#addf9f7385911a6528395db04471ba218", null ],
+    [ "InternalAllocate", "d8/d94/structFHairStrandsLODRestRootResource.html#a42d3be9c018d54753e00739eaac38225", null ],
+    [ "InternalGetBulkData", "d8/d94/structFHairStrandsLODRestRootResource.html#a631b2ddb21ee5c56ab3b723252f0f1e4", null ],
+    [ "InternalGetOrRequestData", "d8/d94/structFHairStrandsLODRestRootResource.html#a471651bc939728af4c5c971f180b0573", null ],
+    [ "InternalRelease", "d8/d94/structFHairStrandsLODRestRootResource.html#ad8db788a74d141bd13428e7085d521e9", null ],
+    [ "InternalResetLoadedSize", "d8/d94/structFHairStrandsLODRestRootResource.html#a38fd7078168d1a9212641d29e7d7a635", null ],
+    [ "IsBulkDataValid", "d8/d94/structFHairStrandsLODRestRootResource.html#a49743339e173fe94cc76a4b9ebb293c3", null ],
+    [ "IsDataValid", "d8/d94/structFHairStrandsLODRestRootResource.html#ac5e8d9a8cb4412c35efc67041caa951f", null ],
+    [ "IsValid", "d8/d94/structFHairStrandsLODRestRootResource.html#a810e0a68be7fc9124b371620c7d7233f", null ],
+    [ "Reset", "d8/d94/structFHairStrandsLODRestRootResource.html#a590be8e58b7e121451e6911dcb2376b6", null ],
+    [ "AvailableCurveCount", "d8/d94/structFHairStrandsLODRestRootResource.html#ae07703410ec101ff4b5c9e72dfaf8f76", null ],
+    [ "BulkDataArray", "d8/d94/structFHairStrandsLODRestRootResource.html#a9f6d0d0bb54c3eb6fdead1d8ce8c38b2", null ],
+    [ "BulkDataIndex", "d8/d94/structFHairStrandsLODRestRootResource.html#aada1134e3e215e7d95148fabb500dffd", null ],
+    [ "CurveType", "d8/d94/structFHairStrandsLODRestRootResource.html#a152f288021cf748e29693c4470d7ae58", null ],
+    [ "MeshInterpolationWeightsBuffer", "d8/d94/structFHairStrandsLODRestRootResource.html#a01be0b256f063d40981bbe3745c743ce", null ],
+    [ "MeshLODIndex", "d8/d94/structFHairStrandsLODRestRootResource.html#af35db181f08e1544c83d71aea435f126", null ],
+    [ "MeshSampleIndicesAndSectionsBuffer", "d8/d94/structFHairStrandsLODRestRootResource.html#a451c934e07bc8817317b2e3aa9ca3d4a", null ],
+    [ "RestSamplePositionsBuffer", "d8/d94/structFHairStrandsLODRestRootResource.html#af34bdac22863fc8290f571dcf67338ff", null ],
+    [ "RestUniqueTrianglePositionBuffer", "d8/d94/structFHairStrandsLODRestRootResource.html#ab7679c1f950242b1ec03814180529692", null ],
+    [ "RootBarycentricBuffer", "d8/d94/structFHairStrandsLODRestRootResource.html#a30d224fa4bef75de43e36c78e7f12b46", null ],
+    [ "RootToUniqueTriangleIndexBuffer", "d8/d94/structFHairStrandsLODRestRootResource.html#af80fbe81f501d8862640a53e148e5592", null ],
+    [ "SampleCount", "d8/d94/structFHairStrandsLODRestRootResource.html#a2cdec8b5725dcf6ef3f4bcf20c815150", null ],
+    [ "Status", "d8/d94/structFHairStrandsLODRestRootResource.html#aed528c0b9ae23f62a87200f945113a3d", null ],
+    [ "UniqueTriangleIndexBuffer", "d8/d94/structFHairStrandsLODRestRootResource.html#adb9420f523ac1d3f5a8674639e4b68af", null ]
+];

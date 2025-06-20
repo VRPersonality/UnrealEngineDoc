@@ -1,0 +1,16 @@
+digraph "FSkeletalMeshVertexClothBuffer::FSkeletalMeshVertexClothBuffer"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FSkeletalMeshVertexCloth\lBuffer::FSkeletalMeshVertexCloth\lBuffer",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Constructor."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FSkeletalMeshVertexCloth\lBuffer::FSkeletalMeshVertexCloth\lBuffer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d2b/classFSkeletalMeshVertexClothBuffer.html#aa9502b1a53e6dcc7bdcff5a1ee12b0b1",tooltip="Constructor (copy)"];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FSkeletalMeshVertexCloth\lBuffer::operator\<\<",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d2b/classFSkeletalMeshVertexClothBuffer.html#a6f94c652e112b8a54990d2fad7b3139f",tooltip="Serializer for this class."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FSkeletalMeshVertexCloth\lBuffer::operator=",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d2b/classFSkeletalMeshVertexClothBuffer.html#a98e2b5eaae15a6540695ab694ab6e8e0",tooltip="Assignment."];
+}

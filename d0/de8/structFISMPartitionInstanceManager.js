@@ -1,0 +1,27 @@
+var structFISMPartitionInstanceManager =
+[
+    [ "FISMPartitionInstanceManager", "d0/de8/structFISMPartitionInstanceManager.html#a5b01d7ae0f2404edb6beaa07d0e1fe39", null ],
+    [ "FISMPartitionInstanceManager", "d0/de8/structFISMPartitionInstanceManager.html#a7465f93a2db9f4219f7a31a9d21d167c", null ],
+    [ "CanDeleteISMPartitionInstance", "d0/de8/structFISMPartitionInstanceManager.html#a10ec7a8ab874faa6a75628bda12d6a83", null ],
+    [ "CanDuplicateISMPartitionInstance", "d0/de8/structFISMPartitionInstanceManager.html#ac0ff17ed06bd7098f5daf1669c044080", null ],
+    [ "CanEditISMPartitionInstance", "d0/de8/structFISMPartitionInstanceManager.html#a72b83d8ed32a2299a7edbf1a779ca2dc", null ],
+    [ "CanMoveISMPartitionInstance", "d0/de8/structFISMPartitionInstanceManager.html#a9d74402ad78ac47e42ccf6c88f8c7211", null ],
+    [ "DeleteISMPartitionInstance", "d0/de8/structFISMPartitionInstanceManager.html#a69fe0072b44c6c054288cffd92451c4b", null ],
+    [ "DuplicateISMPartitionInstance", "d0/de8/structFISMPartitionInstanceManager.html#a0a0029e861679885617f3edc6bf98fc7", null ],
+    [ "GetInstanceId", "d0/de8/structFISMPartitionInstanceManager.html#aed4a8624a68c1fd16f19acaf7950047d", null ],
+    [ "GetInstanceManager", "d0/de8/structFISMPartitionInstanceManager.html#a6819c5a4304da2605a826f7babeb682f", null ],
+    [ "GetISMPartitionInstanceDisplayName", "d0/de8/structFISMPartitionInstanceManager.html#a481ee8dc0bba5e7f37b1dd7d509c5fc9", null ],
+    [ "GetISMPartitionInstanceTooltip", "d0/de8/structFISMPartitionInstanceManager.html#a9e3d36bf5f7ada9ca179fe926c589088", null ],
+    [ "GetISMPartitionInstanceTransform", "d0/de8/structFISMPartitionInstanceManager.html#a20288974320f041d8d8a3152aebffe95", null ],
+    [ "NotifyISMPartitionInstanceMovementEnded", "d0/de8/structFISMPartitionInstanceManager.html#a01b7af7495ef4f7e9be356d49141c3ae", null ],
+    [ "NotifyISMPartitionInstanceMovementOngoing", "d0/de8/structFISMPartitionInstanceManager.html#ace3676ffab68ca3ad519c37a305b2246", null ],
+    [ "NotifyISMPartitionInstanceMovementStarted", "d0/de8/structFISMPartitionInstanceManager.html#a5c0c44a19c45955ae05f0ade527eba72", null ],
+    [ "NotifyISMPartitionInstanceSelectionChanged", "d0/de8/structFISMPartitionInstanceManager.html#a64233efb222c42024cc317540fdf76d5", null ],
+    [ "operator bool", "d0/de8/structFISMPartitionInstanceManager.html#ad23122f12330cb6c82c6b99bf8278f4f", null ],
+    [ "operator!=", "d0/de8/structFISMPartitionInstanceManager.html#ab1809b2a30a3a4f4da59bf630be7bfd6", null ],
+    [ "operator==", "d0/de8/structFISMPartitionInstanceManager.html#a431e75a934296e46670cdcd47c991cfe", null ],
+    [ "SetISMPartitionInstanceTransform", "d0/de8/structFISMPartitionInstanceManager.html#ae9d1ce10c376409dca372c04e922e195", null ],
+    [ "GetTypeHash", "d0/de8/structFISMPartitionInstanceManager.html#a90cfb9481877dce1f894568d31786501", null ],
+    [ "InstanceId", "d0/de8/structFISMPartitionInstanceManager.html#a79fa8c312279ae97013e094bd508b61a", null ],
+    [ "InstanceManager", "d0/de8/structFISMPartitionInstanceManager.html#a49ac9d7991e8e4860dddfbd6aee256fd", null ]
+];

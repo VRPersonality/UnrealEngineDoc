@@ -1,0 +1,18 @@
+digraph "TLruCache::FindAndTouchRef"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TLruCache::FindAndTouchRef",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Find the value of the entry with the specified key and mark it as the most recently used."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TLruCache::MarkAsRecent",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d6b/classTLruCache.html#a007487a40d42a413dae892ebaab9355d",tooltip="Mark the given entry as recently used."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TLruCache::FCacheEntry\l::LinkBefore",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d1d/structTLruCache_1_1FCacheEntry.html#a6d903216421d1053b64f1dad1c2fdb90",tooltip="Add this entry before the given one."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TLruCache::FCacheEntry\l::FCacheEntry",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d1d/structTLruCache_1_1FCacheEntry.html#ae6d1c18baa3217d8481c99c202a5dd04",tooltip="Create and initialize a new instance."];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TLruCache::FCacheEntry\l::Unlink",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d1d/structTLruCache_1_1FCacheEntry.html#a67c7c972d7210e5972c267df5df52bb7",tooltip="Remove this entry from the list."];
+}

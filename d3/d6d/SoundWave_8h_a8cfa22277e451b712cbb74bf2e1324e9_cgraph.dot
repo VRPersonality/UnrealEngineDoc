@@ -1,0 +1,16 @@
+digraph "USTRUCT"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="USTRUCT",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Platform-specific data used streaming audio at runtime."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="AsyncTask",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/ddf/Async_8h.html#af3f76dd19cc62493372e2036f155d99b",tooltip="Convenience function for executing code asynchronously on the Task Graph."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="USoundWave::RescheduleAsyncTask",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/db4/classUSoundWave.html#aed5f05fb5202c94cee754e555299bbe3",tooltip="Utility function used internally to change task priority while maintaining thread-safety."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="USoundWave::WaitAsyncTask\lWithTimeout",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/db4/classUSoundWave.html#aa76355a68f72f258ae6c63d1fcda81d1",tooltip="Utility function used internally to wait or poll a task while maintaining thread-safety."];
+}

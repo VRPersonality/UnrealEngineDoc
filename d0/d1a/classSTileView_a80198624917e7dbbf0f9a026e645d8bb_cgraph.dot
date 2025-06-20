@@ -1,0 +1,35 @@
+digraph "STileView::OnNavigation"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="STileView::OnNavigation",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Called when navigation is requested e.g."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FNavigationReply::Explicit",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d71/classFNavigationReply.html#a9ddbf594006164f8935fcee0fdf0701f",tooltip="An event should return a FNavigationReply::Explicit() to let the system know to navigate to an explic..."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FNavigationReply::FNavigation\lReply",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d71/classFNavigationReply.html#a8f6b23b852aef0a05d4c653197f07342",tooltip="Hidden default constructor."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FNavigationReply::Escape",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d71/classFNavigationReply.html#a5e30c9f736cb8f17db452753f103e461",tooltip="An event should return a FNavigationReply::Escape() to let the system know that a navigation can esca..."];
+  Node4 -> Node3 [id="edge4_Node000004_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node5 [id="edge5_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TArrayView::Find",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d13/classTArrayView.html#a71e65a09f508ecdaa40f0925c246ef85",tooltip="Finds element within the array."];
+  Node1 -> Node6 [id="edge6_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="SListView::GetItems",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/dc1/classSListView.html#a1173896bcdc632619a64ed12fdffd989",tooltip=" "];
+  Node1 -> Node7 [id="edge7_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="STileView::GetNumItemsPerLine",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d1a/classSTileView.html#a64e1502f6771980216b34348f04e3caf",tooltip="Get the number of items that can fit in the view along the line axis (orthogonal to the scroll axis) ..."];
+  Node7 -> Node8 [id="edge8_Node000007_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="STileView::GetTileDimensions",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d1a/classSTileView.html#acef64085bee0375a04fdc0f576264e5b",tooltip=" "];
+  Node8 -> Node9 [id="edge9_Node000008_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="STableViewBase::GetItemHeight",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d5c/classSTableViewBase.html#aa72dbf21d116f5cc5070815abe98654f",tooltip="Get the uniform item height that is enforced by ListViews."];
+  Node8 -> Node10 [id="edge10_Node000008_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="STableViewBase::GetItemWidth",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d5c/classSTableViewBase.html#a49ab8bc6ad0f5f534a9f4d960531ff55",tooltip="Get the uniform item width."];
+  Node1 -> Node11 [id="edge11_Node000001_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="SListView::HasValidItems\lSource",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/dc1/classSListView.html#a0a3952774ab1ac2d4abf67a3b9999ab3",tooltip=" "];
+  Node1 -> Node12 [id="edge12_Node000001_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="TArrayView::IsValidIndex",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d13/classTArrayView.html#aa1afe13f15f79e6a5ef36d5d975c8b19",tooltip="Tests if index is valid, i.e."];
+  Node1 -> Node13 [id="edge13_Node000001_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="SListView::OnNavigation",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/dc1/classSListView.html#ad05b2fa8b1b2fbb977499cc6b618cca2",tooltip="Called when navigation is requested e.g."];
+}

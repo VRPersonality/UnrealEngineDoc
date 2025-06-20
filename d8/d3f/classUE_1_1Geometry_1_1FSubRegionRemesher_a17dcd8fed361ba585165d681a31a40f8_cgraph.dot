@@ -1,0 +1,23 @@
+digraph "UE::Geometry::FSubRegionRemesher::OnEdgeSplit"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="UE::Geometry::FSubRegion\lRemesher::OnEdgeSplit",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Callback for subclasses to override to implement custom behavior."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Geometry::FSubRegion\lRemesher::AddEdgeToTriangleROI",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d3f/classUE_1_1Geometry_1_1FSubRegionRemesher.html#aa5477e5667640d52491c554712b9be9e",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::Geometry::FSubRegion\lRemesher::AddVertexToTriangleROI",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d3f/classUE_1_1Geometry_1_1FSubRegionRemesher.html#a04239e5fedc1ae1c5fd379a2f4f927c5",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UE::Geometry::FDynamicMesh3\l::EnumerateVertexTriangles",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d27/classUE_1_1Geometry_1_1FDynamicMesh3.html#aa8057986eba643089b016ec2a0d884e3",tooltip="Call ApplyFunc for each one-ring triangle of a vertex."];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="UE::Geometry::FMeshRefiner\lBase::GetMesh",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d69/classUE_1_1Geometry_1_1FMeshRefinerBase.html#a648283319bb2da38929ca3884642ee30",tooltip="Get the current mesh we are operating on."];
+  Node2 -> Node6 [id="edge5_Node000002_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="UE::Geometry::FDynamicMesh3\l::GetEdgeV",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d27/classUE_1_1Geometry_1_1FDynamicMesh3.html#a6c182923dff8d79a03a2e2dcd807d4dc",tooltip="Get the vertex pair for an edge."];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="UE::Geometry::FDynamicMesh3\l::IsEdge",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d27/classUE_1_1Geometry_1_1FDynamicMesh3.html#a5de03cd87a2294d638b87074d085a616",tooltip=" "];
+  Node2 -> Node5 [id="edge7_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+}

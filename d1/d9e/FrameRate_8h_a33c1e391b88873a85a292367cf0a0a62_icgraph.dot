@@ -1,0 +1,22 @@
+digraph "ConvertFrameTime"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="ConvertFrameTime",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TSubSectionMixin::GetSection\lToolTip",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d4f/classTSubSectionMixin.html#ad1922cd0936b2335882305fb26f166a7",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FFrameRate::Snap",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d97/structFFrameRate.html#a1ab3d1f4249757f040b7c5da65410f26",tooltip="Snap a time specified in one framerate, to another."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FFrameRate::TransformTime",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d97/structFFrameRate.html#a31609b2b2543154dc1eea2c1a1d4c7dc",tooltip="Convert the specified time from one framerate to another framerate."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FQualifiedFrameTime\l::ConvertTo",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/df1/structFQualifiedFrameTime.html#a990d135637bedfdc7ab7c7bf9c025bcc",tooltip="Convert this frame time to a different frame rate."];
+  Node4 -> Node6 [id="edge5_Node000004_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="Sequencer::PasteKeys",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dd3/namespaceSequencer.html#a062923d35c4c3a0d0400f3838fe5f96a",tooltip="Paste the clipboard contents onto a channel."];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="TSequencerChannelInterface\lCommon::PasteKeys_Raw",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/dae/structTSequencerChannelInterfaceCommon.html#a1a17e6615d209053517bf7da3e141f98",tooltip="Paste the specified key track into the specified channel."];
+}

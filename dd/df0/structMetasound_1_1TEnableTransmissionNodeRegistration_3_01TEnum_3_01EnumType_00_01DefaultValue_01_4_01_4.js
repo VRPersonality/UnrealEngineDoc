@@ -1,0 +1,4 @@
+var structMetasound_1_1TEnableTransmissionNodeRegistration_3_01TEnum_3_01EnumType_00_01DefaultValue_01_4_01_4 =
+[
+    [ "Value", "dd/df0/structMetasound_1_1TEnableTransmissionNodeRegistration_3_01TEnum_3_01EnumType_00_01DefaultValue_01_4_01_4.html#aa1075a39991d53a477b3254424310535", null ]
+];

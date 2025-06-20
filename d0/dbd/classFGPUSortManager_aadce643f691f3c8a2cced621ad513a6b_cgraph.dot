@@ -1,0 +1,16 @@
+digraph "FGPUSortManager::DECLARE_EVENT_OneParam"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FGPUSortManager::DECLARE\l_EVENT_OneParam",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Event to register and receive post-postrender notification."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FGPUSortManager::FGPUSort\lManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/dbd/classFGPUSortManager.html#ae071f68c8ddda558e5e92e28e79d35ee",tooltip="Creates the sort manager, this is when the settings are configured."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FGPUSortManager::DECLARE\l_EVENT_OneParam",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/dbd/classFGPUSortManager.html#a9f008e4860a473b48b508711b251fbd8",tooltip="Event to register and receive post-prerender notification."];
+  Node3 -> Node2 [id="edge3_Node000003_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node3 [id="edge4_Node000003_Node000003",color="steelblue1",style="solid",tooltip=" "];
+}

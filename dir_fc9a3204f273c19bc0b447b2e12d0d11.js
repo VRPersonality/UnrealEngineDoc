@@ -1,0 +1,27 @@
+var dir_fc9a3204f273c19bc0b447b2e12d0d11 =
+[
+    [ "Actions", "dir_3ecb6eb2f5f3a4f3725f50dce501d19a.html", "dir_3ecb6eb2f5f3a4f3725f50dce501d19a" ],
+    [ "ContextObjects", "dir_e01fb4098c1a48fa534ef32e5577b327.html", "dir_e01fb4098c1a48fa534ef32e5577b327" ],
+    [ "Drawing", "dir_b8cc8df0427f3c90c763aee0b37bd7d9.html", "dir_b8cc8df0427f3c90c763aee0b37bd7d9" ],
+    [ "Math", "dir_3ad342fb5a54812d17f7ff2990f87c8f.html", "dir_3ad342fb5a54812d17f7ff2990f87c8f" ],
+    [ "Operators", "dir_8bdf5eb902d29654e36cfac93dce5094.html", "dir_8bdf5eb902d29654e36cfac93dce5094" ],
+    [ "Selection", "dir_985b0ab90212f2be79fb9d53de3aab80.html", "dir_985b0ab90212f2be79fb9d53de3aab80" ],
+    [ "TargetInterfaces", "dir_ce5cf5f22addfc16ace2ccce3ac63f8a.html", "dir_ce5cf5f22addfc16ace2ccce3ac63f8a" ],
+    [ "ToolTargets", "dir_3a6c05a5fe95297ca48e2c52a0da7303.html", "dir_3a6c05a5fe95297ca48e2c52a0da7303" ],
+    [ "UVEditorBrushSelectTool.h", "dd/d97/UVEditorBrushSelectTool_8h.html", "dd/d97/UVEditorBrushSelectTool_8h" ],
+    [ "UVEditorLayerEditTool.h", "d0/df1/UVEditorLayerEditTool_8h.html", "d0/df1/UVEditorLayerEditTool_8h" ],
+    [ "UVEditorLayoutTool.h", "d5/dd1/UVEditorLayoutTool_8h.html", "d5/dd1/UVEditorLayoutTool_8h" ],
+    [ "UVEditorLogging.h", "df/d9f/UVEditorLogging_8h.html", "df/d9f/UVEditorLogging_8h" ],
+    [ "UVEditorMechanicAdapterTool.h", "dd/deb/UVEditorMechanicAdapterTool_8h.html", "dd/deb/UVEditorMechanicAdapterTool_8h" ],
+    [ "UVEditorRecomputeUVsTool.h", "d2/db8/UVEditorRecomputeUVsTool_8h.html", "d2/db8/UVEditorRecomputeUVsTool_8h" ],
+    [ "UVEditorSeamTool.h", "d1/dab/UVEditorSeamTool_8h.html", null ],
+    [ "UVEditorStyle.h", "d2/de7/UVEditorStyle_8h.html", "d2/de7/UVEditorStyle_8h" ],
+    [ "UVEditorTexelDensityTool.h", "d0/d8b/UVEditorTexelDensityTool_8h.html", "d0/d8b/UVEditorTexelDensityTool_8h" ],
+    [ "UVEditorToolAnalyticsUtils.h", "db/d2e/UVEditorToolAnalyticsUtils_8h.html", "db/d2e/UVEditorToolAnalyticsUtils_8h" ],
+    [ "UVEditorToolBase.h", "db/d3d/UVEditorToolBase_8h.html", "db/d3d/UVEditorToolBase_8h" ],
+    [ "UVEditorToolsModule.h", "db/dbe/UVEditorToolsModule_8h.html", "db/dbe/UVEditorToolsModule_8h" ],
+    [ "UVEditorTransformTool.h", "dc/db2/UVEditorTransformTool_8h.html", null ],
+    [ "UVEditorUVSnapshotTool.h", "d4/dd6/UVEditorUVSnapshotTool_8h.html", null ],
+    [ "UVEditorUXSettings.h", "d3/d9f/UVEditorUXSettings_8h.html", "d3/d9f/UVEditorUXSettings_8h" ],
+    [ "UVSelectTool.h", "de/d40/UVSelectTool_8h.html", null ]
+];

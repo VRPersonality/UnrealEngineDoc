@@ -1,0 +1,12 @@
+digraph "FLoggedPlatformFile::GetLowerLevel"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FLoggedPlatformFile\l::GetLowerLevel",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Gets the platform file wrapped by this file."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="IPlatformFile::IPlatformFile",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d1e/classIPlatformFile.html#a2ff22d186bb3612a45497e63ec9d11c0",tooltip="Constructor/Destructor."];
+}

@@ -1,0 +1,26 @@
+var classFImageDimensions =
+[
+    [ "FImageDimensions", "db/de8/classFImageDimensions.html#a4b36291fa37bc2308584afa5eb5f1812", null ],
+    [ "Clamp", "db/de8/classFImageDimensions.html#a6f293f1cb739331dbffb698338955197", null ],
+    [ "Clamp", "db/de8/classFImageDimensions.html#a15fe69a8d882d9d88e9507fe4d278dc3", null ],
+    [ "GetCoords", "db/de8/classFImageDimensions.html#a9b65202fe6d74237c139094979e02e40", null ],
+    [ "GetHeight", "db/de8/classFImageDimensions.html#a0d1a014a4d7e44f2e30d04fe14edf71d", null ],
+    [ "GetIndex", "db/de8/classFImageDimensions.html#ad249889315f70d1e3426f4d49cd40f31", null ],
+    [ "GetIndex", "db/de8/classFImageDimensions.html#adbcc100dc514550465b90c74ec665180", null ],
+    [ "GetIndexMirrored", "db/de8/classFImageDimensions.html#aebd6e252c1530a3ab8ba484ace29b419", null ],
+    [ "GetTexelDistance", "db/de8/classFImageDimensions.html#aa73d527673a5a664a0a2543fa5832705", null ],
+    [ "GetTexelSize", "db/de8/classFImageDimensions.html#a5a37ed574d4aa4d2ff886ca13c414322", null ],
+    [ "GetTexelUV", "db/de8/classFImageDimensions.html#a2c5cf1b041ebe57be04007c4d14e69ec", null ],
+    [ "GetTexelUV", "db/de8/classFImageDimensions.html#a61d6bdc100775ca2973d6cb93e3ea808", null ],
+    [ "GetWidth", "db/de8/classFImageDimensions.html#a67dff80fce7cfed059b957bc7033bdbc", null ],
+    [ "IsSquare", "db/de8/classFImageDimensions.html#a4e42dddede30fc76d3b4ef5cae11af37", null ],
+    [ "IsValidCoords", "db/de8/classFImageDimensions.html#a1446af0886b86cde0a3f784e045fdcff", null ],
+    [ "Num", "db/de8/classFImageDimensions.html#a46979a72787a5582a946f1fdcbabfe4a", null ],
+    [ "operator!=", "db/de8/classFImageDimensions.html#ad1732f1e1a92f887e5d40686f3efb19e", null ],
+    [ "operator==", "db/de8/classFImageDimensions.html#a09993f88f2751186f05aabc598136299", null ],
+    [ "PixelToCoords", "db/de8/classFImageDimensions.html#af63a98c9179f41694fb07460f4050246", null ],
+    [ "SetDimensions", "db/de8/classFImageDimensions.html#ab45c4d82603be6e6249de808ec8b1784", null ],
+    [ "UVToCoords", "db/de8/classFImageDimensions.html#addfeed71eff47b3bc045cf846a9ab4a5", null ],
+    [ "Height", "db/de8/classFImageDimensions.html#a76986ebf9ebdab51352a06332e1ebbc9", null ],
+    [ "Width", "db/de8/classFImageDimensions.html#a7afcf6a23d40aa5af1970ba31d4a84bd", null ]
+];

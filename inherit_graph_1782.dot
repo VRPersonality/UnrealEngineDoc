@@ -1,0 +1,10 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="FFuzzyPathMatcher",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/dae/classFFuzzyPathMatcher.html",tooltip="Performs fuzzy path matching against a set of include and exclude paths."];
+}

@@ -1,0 +1,13 @@
+digraph "FTextureLayout::RemoveChildren"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FTextureLayout::RemoveChildren",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Recursively removes the children of a given node from the Nodes array and adjusts existing indices to..."];
+  Node1 -> Node1 [id="edge1_Node000001_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node2 [id="edge2_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FTextureLayout::RemoveElement",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d51/classFTextureLayout.html#ae7498ef2117d3895d6442eed6c2dba8c",tooltip="Removes a previously allocated element from the layout and collapses the tree as much as possible,..."];
+}

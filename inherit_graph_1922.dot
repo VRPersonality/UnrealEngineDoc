@@ -1,0 +1,10 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="FGeometrySelectionHandle",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d1e/structFGeometrySelectionHandle.html",tooltip="FGeometrySelectionHandle stores a Selection and an Identifier for the geometry object that the Select..."];
+}

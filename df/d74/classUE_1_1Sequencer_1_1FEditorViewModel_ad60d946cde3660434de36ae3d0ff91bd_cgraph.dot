@@ -1,0 +1,12 @@
+digraph "UE::Sequencer::FEditorViewModel::IsEditable"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="UE::Sequencer::FEditorView\lModel::IsEditable",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Returns the inverse of read-only - useful for direct bindings to IsEnabled for widgets."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Sequencer::FEditorView\lModel::IsReadOnly",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d74/classUE_1_1Sequencer_1_1FEditorViewModel.html#a8ab35a90bba24e263fa59d1d92194094",tooltip="Returns whether this editor is currently read-only."];
+}

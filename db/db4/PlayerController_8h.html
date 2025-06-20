@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Unreal Engine 5.6 C++ Documentation: UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/PlayerController.h File Reference</title>
+<title>Unreal Engine 5.6 C++ API: PlayerController.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -18,7 +18,11 @@
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
-<link href="../../unreal_theme.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -27,9 +31,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Unreal Engine 5.6 C++ Documentation<span id="projectnumber">&#160;5.6</span>
+   <div id="projectname">Unreal Engine 5.6 C++ API<span id="projectnumber">&#160;5.6.0</span>
    </div>
-   <div id="projectbrief">Documentation UE5 avec chemins sources corrects</div>
+   <div id="projectbrief">C++ API documentation for Unreal Engine 5.6</div>
   </td>
  </tr>
  </tbody>
@@ -93,97 +97,95 @@ $(function(){initNavTree('db/db4/PlayerController_8h.html','../../',''); });
   <div class="headertitle"><div class="title">PlayerController.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;SlateFwd.h&quot;</code><br />
-<code>#include &quot;UObject/ObjectMacros.h&quot;</code><br />
-<code>#include &quot;Containers/SortedMap.h&quot;</code><br />
-<code>#include &quot;Containers/StaticArray.h&quot;</code><br />
-<code>#include &quot;Misc/Guid.h&quot;</code><br />
-<code>#include &quot;InputCoreTypes.h&quot;</code><br />
-<code>#include &quot;Templates/SubclassOf.h&quot;</code><br />
-<code>#include &quot;Engine/NetSerialization.h&quot;</code><br />
-<code>#include &quot;Engine/EngineTypes.h&quot;</code><br />
-<code>#include &quot;Engine/EngineBaseTypes.h&quot;</code><br />
-<code>#include &quot;Engine/LatentActionManager.h&quot;</code><br />
-<code>#include &quot;SceneTypes.h&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../db/df5/SlateFwd_8h_source.html">SlateFwd.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html">UObject/ObjectMacros.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/dcf/SortedMap_8h_source.html">Containers/SortedMap.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/dd5/StaticArray_8h_source.html">Containers/StaticArray.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/d2a/Guid_8h_source.html">Misc/Guid.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/d34/InputCoreTypes_8h_source.html">InputCoreTypes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/db4/SubclassOf_8h_source.html">Templates/SubclassOf.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/dc9/NetSerialization_8h_source.html">Engine/NetSerialization.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/dcf/EngineTypes_8h_source.html">Engine/EngineTypes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/d1a/EngineBaseTypes_8h_source.html">Engine/EngineBaseTypes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/dd9/LatentActionManager_8h_source.html">Engine/LatentActionManager.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d0/dc4/SceneTypes_8h_source.html">SceneTypes.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../de/d4a/Controller_8h_source.html">GameFramework/Controller.h</a>&quot;</code><br />
-<code>#include &quot;UObject/TextProperty.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/d51/TextProperty_8h_source.html">UObject/TextProperty.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d7/d72/PlayerMuteList_8h_source.html">GameFramework/PlayerMuteList.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d5/deb/OnlineReplStructs_8h_source.html">GameFramework/OnlineReplStructs.h</a>&quot;</code><br />
-<code>#include &quot;Camera/PlayerCameraManager.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/da6/PlayerCameraManager_8h_source.html">Camera/PlayerCameraManager.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../de/d4a/ForceFeedbackParameters_8h_source.html">GameFramework/ForceFeedbackParameters.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../db/dfe/UpdateLevelVisibilityLevelInfo_8h_source.html">GameFramework/UpdateLevelVisibilityLevelInfo.h</a>&quot;</code><br />
-<code>#include &quot;GenericPlatform/ICursor.h&quot;</code><br />
-<code>#include &quot;GenericPlatform/IInputInterface.h&quot;</code><br />
-<code>#include &quot;Physics/AsyncPhysicsData.h&quot;</code><br />
-<code>#include &quot;WorldPartition/WorldPartitionStreamingSource.h&quot;</code><br />
-<code>#include &quot;EngineDefines.h&quot;</code><br />
-<code>#include &quot;InputKeyEventArgs.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/d9a/ICursor_8h_source.html">GenericPlatform/ICursor.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/ddf/IInputInterface_8h_source.html">GenericPlatform/IInputInterface.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d1f/AsyncPhysicsData_8h_source.html">Physics/AsyncPhysicsData.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/d66/WorldPartitionStreamingSource_8h_source.html">WorldPartition/WorldPartitionStreamingSource.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/d63/EngineDefines_8h_source.html">EngineDefines.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/dff/InputKeyEventArgs_8h_source.html">InputKeyEventArgs.h</a>&quot;</code><br />
 <code>#include &quot;PlayerController.generated.h&quot;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Include dependency graph for PlayerController.h:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 0 --></div>
+</div>
+</div><div class="textblock"><div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>This graph shows which files directly or indirectly include this file:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 1 --></div>
+</div>
 </div>
 <p><a href="../../db/db4/PlayerController_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
+Data Structures</h2></td></tr>
 <tr class="memitem:FDynamicForceFeedbackDetails" id="r_FDynamicForceFeedbackDetails"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/db7/structFDynamicForceFeedbackDetails.html">FDynamicForceFeedbackDetails</a></td></tr>
 <tr class="memitem:FInputModeDataBase" id="r_FInputModeDataBase"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d08/structFInputModeDataBase.html">FInputModeDataBase</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract base class for Input Mode structures.  <a href="../../dc/d08/structFInputModeDataBase.html#details">More...</a><br /></td></tr>
-<tr class="memitem:FInputModeUIOnly" id="r_FInputModeUIOnly"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d83/structFInputModeUIOnly.html">FInputModeUIOnly</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data structure used to setup an input mode that allows only the UI to respond to user input.  <a href="../../dc/d83/structFInputModeUIOnly.html#details">More...</a><br /></td></tr>
-<tr class="memitem:FUpdateLevelStreamingLevelStatus" id="r_FUpdateLevelStreamingLevelStatus"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd5/structFUpdateLevelStreamingLevelStatus.html">FUpdateLevelStreamingLevelStatus</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This structure is used to pass arguments to ClientUpdateMultipleLevelsStreamingStatus() client RPC function.  <a href="../../d5/dd5/structFUpdateLevelStreamingLevelStatus.html#details">More...</a><br /></td></tr>
 <tr class="memitem:FInputModeGameAndUI" id="r_FInputModeGameAndUI"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d00/structFInputModeGameAndUI.html">FInputModeGameAndUI</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data structure used to setup an input mode that allows the UI to respond to user input, and if the UI doesn't handle it player input / player controller gets a chance.  <a href="../../db/d00/structFInputModeGameAndUI.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data structure used to setup an input mode that allows the <a class="el" href="../../d6/d56/namespaceUI.html">UI</a> to respond to user input, and if the <a class="el" href="../../d6/d56/namespaceUI.html">UI</a> doesn't handle it player input / player controller gets a chance.  <a href="../../db/d00/structFInputModeGameAndUI.html#details">More...</a><br /></td></tr>
 <tr class="memitem:FInputModeGameOnly" id="r_FInputModeGameOnly"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d34/structFInputModeGameOnly.html">FInputModeGameOnly</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data structure used to setup an input mode that allows only the player input / player controller to respond to user input.  <a href="../../db/d34/structFInputModeGameOnly.html#details">More...</a><br /></td></tr>
-<tr class="memitem:FAsyncPhysicsTimestamp" id="r_FAsyncPhysicsTimestamp"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9e/structFAsyncPhysicsTimestamp.html">FAsyncPhysicsTimestamp</a></td></tr>
-<tr class="memitem:APlayerController" id="r_APlayerController"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d46/classAPlayerController.html">APlayerController</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">PlayerControllers are used by human players to control Pawns.  <a href="../../dd/d46/classAPlayerController.html#details">More...</a><br /></td></tr>
-<tr class="memitem:ANoPawnPlayerController" id="r_ANoPawnPlayerController"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3d/classANoPawnPlayerController.html">ANoPawnPlayerController</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A specialized player controller used by server connections that are created using NMT_JoinNoPawn and NMT_JoinNoPawnSplit.  <a href="../../dc/d3d/classANoPawnPlayerController.html#details">More...</a><br /></td></tr>
+<tr class="memitem:FInputModeUIOnly" id="r_FInputModeUIOnly"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d83/structFInputModeUIOnly.html">FInputModeUIOnly</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data structure used to setup an input mode that allows only the <a class="el" href="../../d6/d56/namespaceUI.html">UI</a> to respond to user input.  <a href="../../dc/d83/structFInputModeUIOnly.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:EControllerAnalogStick" id="r_EControllerAnalogStick"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dd3/namespaceEControllerAnalogStick.html">EControllerAnalogStick</a></td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a17016d41439c2e42399cc92d8a95ad1d" id="r_a17016d41439c2e42399cc92d8a95ad1d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17016d41439c2e42399cc92d8a95ad1d">Type</a> : int { <a class="el" href="#a17016d41439c2e42399cc92d8a95ad1dabd5f9c956752ce4dc707b4624b3a36f7">Start</a>
-, <a class="el" href="#a17016d41439c2e42399cc92d8a95ad1daa2e17ac958eecaffea2602509aa84592">Update</a>
-, <a class="el" href="#a17016d41439c2e42399cc92d8a95ad1daf98d707eb4ed173ccfdbaf4eaa87100d">Stop</a>
- }</td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ab049c208478e628542b7f68b59d04a3d" id="r_ab049c208478e628542b7f68b59d04a3d"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d9/dd0/Platform_8h.html#afddf25cca147311c233b23a9d3329bb4">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab049c208478e628542b7f68b59d04a3d">FDynamicForceFeedbackHandle</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a05fb3d0fd53ccf24d8ce7b52bedebecc" id="r_a05fb3d0fd53ccf24d8ce7b52bedebecc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05fb3d0fd53ccf24d8ce7b52bedebecc">DECLARE_DELEGATE_RetVal</a> (bool, FCanUnpause)</td></tr>
+<tr class="memitem:a05fb3d0fd53ccf24d8ce7b52bedebecc" id="r_a05fb3d0fd53ccf24d8ce7b52bedebecc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05fb3d0fd53ccf24d8ce7b52bedebecc">DECLARE_DELEGATE_RetVal</a> (<a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a>, FCanUnpause)</td></tr>
 <tr class="memdesc:a05fb3d0fd53ccf24d8ce7b52bedebecc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default delegate that provides an implementation for those that don't have special needs other than a toggle.  <br /></td></tr>
-<tr class="memitem:aa49e69adcf32518cf38d251dd5d2ebd2" id="r_aa49e69adcf32518cf38d251dd5d2ebd2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa49e69adcf32518cf38d251dd5d2ebd2">DECLARE_DELEGATE_ThreeParams</a> (FGetAudioListenerPos, FVector &amp;, FVector &amp;, FVector &amp;)</td></tr>
+<tr class="memitem:aa49e69adcf32518cf38d251dd5d2ebd2" id="r_aa49e69adcf32518cf38d251dd5d2ebd2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa49e69adcf32518cf38d251dd5d2ebd2">DECLARE_DELEGATE_ThreeParams</a> (FGetAudioListenerPos, <a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a> &amp;, <a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a> &amp;, <a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a> &amp;)</td></tr>
 <tr class="memdesc:aa49e69adcf32518cf38d251dd5d2ebd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">delegate used to override default viewport audio listener position calculated from camera  <br /></td></tr>
-<tr class="memitem:ac763e8dc5b7257267581a60e8af292d7" id="r_ac763e8dc5b7257267581a60e8af292d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac763e8dc5b7257267581a60e8af292d7">DECLARE_LOG_CATEGORY_EXTERN</a> (LogPlayerController, Log, <a class="el" href="../../da/d88/InputSettings_8h.html#af39ee9f13f828cdcb24512d5d1affe86a911a49b7967ef10985d331841303b75f">All</a>)</td></tr>
-<tr class="memitem:a67f830dcf6af598c5592f7f28af3e56a" id="r_a67f830dcf6af598c5592f7f28af3e56a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67f830dcf6af598c5592f7f28af3e56a">DECLARE_STATS_GROUP</a> (TEXT(&quot;PlayerController&quot;), STATGROUP_PlayerController, STATCAT_Advanced)</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:ad219a6d186675f3574b084afeaf22516" id="r_ad219a6d186675f3574b084afeaf22516"><td class="memItemLeft" align="right" valign="top">enum namespace&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad219a6d186675f3574b084afeaf22516">uint64</a></td></tr>
+<tr class="memitem:ac763e8dc5b7257267581a60e8af292d7" id="r_ac763e8dc5b7257267581a60e8af292d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac763e8dc5b7257267581a60e8af292d7">DECLARE_LOG_CATEGORY_EXTERN</a> (LogPlayerController, <a class="el" href="../../d7/d70/MovieSceneFwd_8h.html#aa8bffd849abb71dfb3a1499b8b90d93c">Log</a>, <a class="el" href="../../d7/d70/MovieSceneFwd_8h.html#aec9a8fb5ad78e91058c2adcba085b921">All</a>)</td></tr>
+<tr class="memitem:a67f830dcf6af598c5592f7f28af3e56a" id="r_a67f830dcf6af598c5592f7f28af3e56a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67f830dcf6af598c5592f7f28af3e56a">DECLARE_STATS_GROUP</a> (<a class="el" href="../../d9/dd0/Platform_8h.html#a2978f60d40d64f3605b5a99f66f292a9">TEXT</a>(&quot;PlayerController&quot;), STATGROUP_PlayerController, STATCAT_Advanced)</td></tr>
+<tr class="memitem:a423673fc0112544852d21aa5fa46cd19" id="r_a423673fc0112544852d21aa5fa46cd19"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a423673fc0112544852d21aa5fa46cd19">UCLASS</a> ()</td></tr>
+<tr class="memdesc:a423673fc0112544852d21aa5fa46cd19"><td class="mdescLeft">&#160;</td><td class="mdescRight">PlayerControllers are used by human players to control Pawns.  <br /></td></tr>
+<tr class="memitem:a48ab434c86ed05439e02f4323ebc390c" id="r_a48ab434c86ed05439e02f4323ebc390c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48ab434c86ed05439e02f4323ebc390c">UENUM</a> () namespace EDynamicForceFeedbackAction</td></tr>
+<tr class="memitem:a47919d2489d9badce4a23ec03092efb7" id="r_a47919d2489d9badce4a23ec03092efb7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47919d2489d9badce4a23ec03092efb7">USTRUCT</a> () struct FUpdateLevelStreamingLevelStatus</td></tr>
+<tr class="memdesc:a47919d2489d9badce4a23ec03092efb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This structure is used to pass arguments to ClientUpdateMultipleLevelsStreamingStatus() client RPC function.  <br /></td></tr>
 </table>
-<a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
-<a id="a17016d41439c2e42399cc92d8a95ad1d" name="a17016d41439c2e42399cc92d8a95ad1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17016d41439c2e42399cc92d8a95ad1d">&#9670;&#160;</a></span>Type</h2>
+<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
+<a id="ab049c208478e628542b7f68b59d04a3d" name="ab049c208478e628542b7f68b59d04a3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab049c208478e628542b7f68b59d04a3d">&#9670;&#160;</a></span>FDynamicForceFeedbackHandle</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d1/d08/GameUserSettings_8h.html#a17016d41439c2e42399cc92d8a95ad1d">Type</a> : int</td>
+          <td class="memname">typedef <a class="el" href="../../d9/dd0/Platform_8h.html#afddf25cca147311c233b23a9d3329bb4">uint64</a> <a class="el" href="#ab049c208478e628542b7f68b59d04a3d">FDynamicForceFeedbackHandle</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a17016d41439c2e42399cc92d8a95ad1dabd5f9c956752ce4dc707b4624b3a36f7" name="a17016d41439c2e42399cc92d8a95ad1dabd5f9c956752ce4dc707b4624b3a36f7"></a>Start&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a17016d41439c2e42399cc92d8a95ad1daa2e17ac958eecaffea2602509aa84592" name="a17016d41439c2e42399cc92d8a95ad1daa2e17ac958eecaffea2602509aa84592"></a>Update&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a17016d41439c2e42399cc92d8a95ad1daf98d707eb4ed173ccfdbaf4eaa87100d" name="a17016d41439c2e42399cc92d8a95ad1daf98d707eb4ed173ccfdbaf4eaa87100d"></a>Stop&#160;</td><td class="fielddoc"></td></tr>
-</table>
 
-<p class="definition">Definition at line <a class="el" href="../../db/db4/PlayerController_8h_source.html#l00069">69</a> of file <a class="el" href="../../db/db4/PlayerController_8h_source.html">PlayerController.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/db4/PlayerController_8h_source.html#l00077">77</a> of file <a class="el" href="../../db/db4/PlayerController_8h_source.html">PlayerController.h</a>.</p>
 
 </div>
 </div>
@@ -197,7 +199,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">DECLARE_DELEGATE_RetVal </td>
           <td>(</td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+          <td class="paramtype"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -225,22 +227,24 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">FVector &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+          <td class="paramtype"><a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">FVector &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+          <td class="paramtype"><a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">FVector &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>delegate used to override default viewport audio listener position calculated from camera </p>
+
+<p class="reference">References <a class="el" href="../../db/dda/IOSSystemIncludes_8h_source.html#l00008">FVector</a>.</p>
 
 </div>
 </div>
@@ -258,17 +262,17 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Log</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+          <td class="paramtype"><a class="el" href="../../d7/d70/MovieSceneFwd_8h.html#aa8bffd849abb71dfb3a1499b8b90d93c">Log</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../da/d88/InputSettings_8h.html#af39ee9f13f828cdcb24512d5d1affe86a911a49b7967ef10985d331841303b75f">All</a></td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="../../d7/d70/MovieSceneFwd_8h.html#aec9a8fb5ad78e91058c2adcba085b921">All</a></td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../da/d88/InputSettings_8h_source.html#l00378">All</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d70/MovieSceneFwd_8h_source.html#l00139">All</a>, and <a class="el" href="../../d7/d70/MovieSceneFwd_8h_source.html#l00139">Log</a>.</p>
 
 </div>
 </div>
@@ -281,7 +285,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">DECLARE_STATS_GROUP </td>
           <td>(</td>
-          <td class="paramtype">TEXT(&quot;PlayerController&quot;)</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+          <td class="paramtype"><a class="el" href="../../d9/dd0/Platform_8h.html#a2978f60d40d64f3605b5a99f66f292a9">TEXT</a>(&quot;PlayerController&quot;)</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -298,20 +302,84 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
-<a id="ad219a6d186675f3574b084afeaf22516" name="ad219a6d186675f3574b084afeaf22516"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad219a6d186675f3574b084afeaf22516">&#9670;&#160;</a></span>uint64</h2>
+<a id="a423673fc0112544852d21aa5fa46cd19" name="a423673fc0112544852d21aa5fa46cd19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a423673fc0112544852d21aa5fa46cd19">&#9670;&#160;</a></span>UCLASS()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum namespace uint64</td>
+          <td class="memname">UCLASS </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>PlayerControllers are used by human players to control Pawns. </p>
+<p>ControlRotation (accessed via GetControlRotation()), determines the aiming orientation of the controlled Pawn.</p>
+<p>In networked games, PlayerControllers exist on the server for every player-controlled pawn, and also on the controlling client's machine. They do NOT exist on a client's machine for pawns controlled by remote players elsewhere on the network.</p>
+<dl class="section see"><dt>See also</dt><dd><a href="https://docs.unrealengine.com/latest/INT/Gameplay/Framework/Controller/PlayerController/">https://docs.unrealengine.com/latest/INT/Gameplay/Framework/Controller/PlayerController/</a> </dd></dl>
+
+<p class="reference">References <a class="el" href="../../d4/d24/UnrealTemplate_8h_source.html#l00038">A</a>, <a class="el" href="../../d5/d79/UnitConversion_8h_source.html#l00099">Acceleration</a>, <a class="el" href="../../d4/da3/StatsCommand_8h_source.html#l00016">Ar</a>, <a class="el" href="../../d4/d84/DisplayClusterSceneComponentSyncParent_8h_source.html#l00012">Blueprintable</a>, <a class="el" href="../../d2/da0/AnimMontage_8h_source.html#l00621">BlueprintType</a>, <a class="el" href="../../d8/db1/UnrealNames_8h_source.html#l00129">Camera</a>, <a class="el" href="../../d4/d55/Casts_8h_source.html#l00095">Cast()</a>, <a class="el" href="../../d1/df7/RigUnit__AnimNextRunAnimationGraph__v1_8h_source.html#l00024">Category</a>, <a class="el" href="../../db/d9a/GenericPlatformMisc_8h_source.html#l00169">Client</a>, <a class="el" href="../../d5/d85/DisplayClusterMeshProjectionRenderer_8h_source.html#l00041">Color</a>, <a class="el" href="../../d4/da3/SmartObjectComponent_8h_source.html#l00055">config</a>, <a class="el" href="../../d8/d62/AnimNode__Inertialization_8h_source.html#l00126">DeltaTime</a>, <a class="el" href="../../d1/dfa/CoreNetTypes_8h_source.html#l00050">Destroyed</a>, <a class="el" href="../../dc/d35/CookStats_8h_source.html#l00452">Duration</a>, <a class="el" href="../../d5/d79/UnitConversion_8h_source.html#l00099">Force</a>, <a class="el" href="../../da/d38/CoreMiscDefines_8h_source.html#l00155">ForceInit</a>, <a class="el" href="../../d5/d79/UnitConversion_8h_source.html#l00099">Frequency</a>, <a class="el" href="../../db/dda/IOSSystemIncludes_8h_source.html#l00008">FVector</a>, <a class="el" href="../../db/d9a/GenericPlatformMisc_8h_source.html#l00163">Game</a>, <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00743">GENERATED_BODY</a>, <a class="el" href="../../d5/d7f/classFObjectInitializer.html#a3ab3a5eb9bb94e7fabd8f722288da7c7">FObjectInitializer::Get()</a>, <a class="el" href="../../d9/d91/RepLayout_8h_source.html#l00055">Handle</a>, <a class="el" href="../../da/d38/CoreMiscDefines_8h_source.html#l00150">INDEX_NONE</a>, <a class="el" href="../../d8/d7f/DisplayClusterViewport__Enums_8h_source.html#l00209">Input</a>, <a class="el" href="../../dd/dde/SystemSettings_8h_source.html#l00027">Key</a>, <a class="el" href="../../d1/df7/RigUnit__AnimNextRunAnimationGraph__v1_8h_source.html#l00024">Keywords</a>, <a class="el" href="../../d8/db1/UnrealNames_8h_source.html#l00215">Location</a>, <a class="el" href="../../d4/de9/ShaderCompiler_8h_source.html#l01449">Material</a>, <a class="el" href="../../d3/dc7/ModularVehicleBaseComponent_8h_source.html#l00108">meta</a>, <a class="el" href="../../d2/da0/AnimMontage_8h_source.html#l00621">MinimalAPI</a>, <a class="el" href="../../de/d34/InputCoreTypes_8h_source.html#l00661">EKeys::NUM_TOUCH_KEYS</a>, <a class="el" href="../../d3/d98/IDetailTreeNode_8h_source.html#l00022">Object</a>, <a class="el" href="../../d4/d05/Class_8h_source.html#l03935">PackageName</a>, <a class="el" href="../../dc/dae/VPCameraBlueprintLibrary_8h_source.html#l00083">Params</a>, <a class="el" href="../../d8/db1/UnrealNames_8h_source.html#l00136">Pawn</a>, <a class="el" href="../../db/d93/RigVMClient_8h_source.html#l00022">PostLoad</a>, <a class="el" href="../../d9/dc8/GenericPlatformCompilerPreSetup_8h_source.html#l00008">PRAGMA_DISABLE_DEPRECATION_WARNINGS</a>, <a class="el" href="../../d9/dc8/GenericPlatformCompilerPreSetup_8h_source.html#l00012">PRAGMA_ENABLE_DEPRECATION_WARNINGS</a>, <a class="el" href="../../d5/d0b/PathFollowingComponent_8h_source.html#l00196">Reset</a>, <a class="el" href="../../d8/db1/UnrealNames_8h_source.html#l00216">Rotation</a>, <a class="el" href="../../d4/db0/INodeAndChannelMappings_8h_source.html#l00032">Scale</a>, <a class="el" href="../../dd/dd0/ISlateEditableTextWidget_8h_source.html#l00020">ScreenPosition</a>, <a class="el" href="../../db/d9a/GenericPlatformMisc_8h_source.html#l00166">Server</a>, <a class="el" href="../../d5/da8/GameplayCueNotify__HitImpact_8h_source.html#l00020">ShortTooltip</a>, <a class="el" href="../../d8/d7c/SoundConcurrency_8h_source.html#l00176">Sound</a>, <a class="el" href="../../db/d2c/DisplayClusterViewport__EnumsICVFX_8h_source.html#l00054">Target</a>, <a class="el" href="../../d5/d79/UnitConversion_8h_source.html#l00099">Time</a>, <a class="el" href="../../df/dcf/EngineTypes_8h_source.html#l04219">Transient</a>, <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00754">UCLASS</a>, <a class="el" href="../../da/d38/CoreMiscDefines_8h_source.html#l00299">UE_DEPRECATED</a>, <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00724">UFUNCTION</a>, <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00727">UPARAM</a>, <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00723">UPROPERTY</a>, <a class="el" href="../../d3/d8b/FormatStringSan_8h_source.html#l00047">X</a>, <a class="el" href="../../d1/de0/PixelStreamingInputEnums_8h_source.html#l00040">Y</a>, and <a class="el" href="../../d8/d3a/Rotator_8h_source.html#l00057">UE::Math::TRotator&lt; double &gt;::ZeroRotator</a>.</p>
+<div id="dynsection-2" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the call graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 2 --></div>
+</div>
+
+</div>
+</div>
+<a id="a48ab434c86ed05439e02f4323ebc390c" name="a48ab434c86ed05439e02f4323ebc390c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48ab434c86ed05439e02f4323ebc390c">&#9670;&#160;</a></span>UENUM()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UENUM </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../db/db4/PlayerController_8h_source.html#l00066">66</a> of file <a class="el" href="../../db/db4/PlayerController_8h_source.html">PlayerController.h</a>.</p>
+
+<p class="reference">References <a class="el" href="../../da/d67/GenericWindow_8h_source.html#l00072">Stop</a>.</p>
+
+</div>
+</div>
+<a id="a47919d2489d9badce4a23ec03092efb7" name="a47919d2489d9badce4a23ec03092efb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47919d2489d9badce4a23ec03092efb7">&#9670;&#160;</a></span>USTRUCT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">USTRUCT </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This structure is used to pass arguments to ClientUpdateMultipleLevelsStreamingStatus() client RPC function. </p>
+<p>Name of the level package name used for loading.</p>
+<p>Current LOD index for a streaming level</p>
+<p>Whether the level should be loaded</p>
+<p>Whether the level should be visible if it is loaded</p>
+<p>Whether we want to force a blocking load</p>
+<p>Whether we want to force a blocking unload</p>
+<p>Check if the server and local frames are valid</p>
+
+<p class="definition">Definition at line <a class="el" href="../../db/db4/PlayerController_8h_source.html#l00148">148</a> of file <a class="el" href="../../db/db4/PlayerController_8h_source.html">PlayerController.h</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00743">GENERATED_BODY</a>, <a class="el" href="../../d4/d05/Class_8h_source.html#l03935">PackageName</a>, and <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00723">UPROPERTY</a>.</p>
 
 </div>
 </div>
@@ -328,8 +396,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="../../dir_4aca46919dd64a018c94105a41bb52f8.html">UE_5.6</a></li><li class="navelem"><a href="../../dir_35a4881369ae19e233e6dac2bcad4050.html">Engine</a></li><li class="navelem"><a href="../../dir_9f26ecb35aabc03d0a71a3e3b9106316.html">Source</a></li><li class="navelem"><a href="../../dir_0942f747ae23c965c05d4d76ae4659cb.html">Runtime</a></li><li class="navelem"><a href="../../dir_c4f31664fb2968a098c34e2ef86324ca.html">Engine</a></li><li class="navelem"><a href="../../dir_2d50b3e22a4f3c2a257cc8ed034f8f90.html">Classes</a></li><li class="navelem"><a href="../../dir_ed269b19aee30b1edf91ca5f109cdfa1.html">GameFramework</a></li><li class="navelem"><a href="../../db/db4/PlayerController_8h.html">PlayerController.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+    <li class="navelem"><a href="../../dir_7536b172fbd480bfd146a1b1acd6856b.html">Runtime</a></li><li class="navelem"><a href="../../dir_fdf6aa5c3cf3805bb958134448d60562.html">Engine</a></li><li class="navelem"><a href="../../dir_0ed647eebe6ffcaa496d3842b7cec6ce.html">Classes</a></li><li class="navelem"><a href="../../dir_cc939d8e7753f23591e1c275ea054aa8.html">GameFramework</a></li><li class="navelem"><a href="../../db/db4/PlayerController_8h.html">PlayerController.h</a></li>
+    <li class="footer">Generated on <span class="timestamp"></span> for Unreal Engine 5.6 C++ API by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>
 </body>

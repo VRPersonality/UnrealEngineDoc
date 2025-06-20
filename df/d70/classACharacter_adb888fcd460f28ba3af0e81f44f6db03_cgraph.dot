@@ -1,0 +1,14 @@
+digraph "ACharacter::DEPRECATED_CHARACTER_MOVEMENT_RPC"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="ACharacter::DEPRECATED\l_CHARACTER_MOVEMENT_RPC",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Replicate root motion source correction to client when using root motion for movement."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="ACharacter::DEPRECATED\l_CHARACTER_MOVEMENT_RPC",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d70/classACharacter.html#ae5bc8f1f0058353dbd37d736b4481140",tooltip="Replicated function sent by client to server - contains client movement and view info."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="ACharacter::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d70/classACharacter.html#a958885331217bfba7d7aa4a1c783f93f",tooltip=" "];
+}

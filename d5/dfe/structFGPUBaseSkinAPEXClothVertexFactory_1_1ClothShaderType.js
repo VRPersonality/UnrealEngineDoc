@@ -1,0 +1,27 @@
+var structFGPUBaseSkinAPEXClothVertexFactory_1_1ClothShaderType =
+[
+    [ "ClothShaderType", "d5/dfe/structFGPUBaseSkinAPEXClothVertexFactory_1_1ClothShaderType.html#a87ee61b9d41527f3384abc3e087932b8", null ],
+    [ "EnableDoubleBuffer", "d5/dfe/structFGPUBaseSkinAPEXClothVertexFactory_1_1ClothShaderType.html#aa079871eea9cab4450a9ec2e0e149c89", null ],
+    [ "GetClothBufferForReading", "d5/dfe/structFGPUBaseSkinAPEXClothVertexFactory_1_1ClothShaderType.html#a0073ca33e8bbe2f92a155ae2e4f1bbe7", null ],
+    [ "GetClothBufferForWriting", "d5/dfe/structFGPUBaseSkinAPEXClothVertexFactory_1_1ClothShaderType.html#a4c0e06c2ebb1b133e2d28ea3926fdd96", null ],
+    [ "GetClothBufferIndexForReading", "d5/dfe/structFGPUBaseSkinAPEXClothVertexFactory_1_1ClothShaderType.html#ab4dc4077639c9526a627ddfb4641c441", null ],
+    [ "GetClothBufferIndexForWriting", "d5/dfe/structFGPUBaseSkinAPEXClothVertexFactory_1_1ClothShaderType.html#a92bb7365ae5fe39d0e30305bfbe3efa1", null ],
+    [ "GetClothBufferIndexInternal", "d5/dfe/structFGPUBaseSkinAPEXClothVertexFactory_1_1ClothShaderType.html#a570ce4b34f59380017fa0e2c737951ec", null ],
+    [ "GetClothToLocalForReading", "d5/dfe/structFGPUBaseSkinAPEXClothVertexFactory_1_1ClothShaderType.html#a04ee25989c3d4b2785388ecd3a477a23", null ],
+    [ "GetClothToLocalForWriting", "d5/dfe/structFGPUBaseSkinAPEXClothVertexFactory_1_1ClothShaderType.html#ac344727385ea2c5ecdb875361f93c151", null ],
+    [ "HasClothBufferForReading", "d5/dfe/structFGPUBaseSkinAPEXClothVertexFactory_1_1ClothShaderType.html#a9c45af88fd93bdd39ccdcf080dc77906", null ],
+    [ "ReleaseClothSimulData", "d5/dfe/structFGPUBaseSkinAPEXClothVertexFactory_1_1ClothShaderType.html#a5ec2aeb4465c91e9552ad8f630759d20", null ],
+    [ "Reset", "d5/dfe/structFGPUBaseSkinAPEXClothVertexFactory_1_1ClothShaderType.html#a35d3b2904e327248c6b7178b50f7013b", null ],
+    [ "SetCurrentRevisionNumber", "d5/dfe/structFGPUBaseSkinAPEXClothVertexFactory_1_1ClothShaderType.html#a35599968909ee9f76b376dd86470cde2", null ],
+    [ "UpdateClothSimulationData", "d5/dfe/structFGPUBaseSkinAPEXClothVertexFactory_1_1ClothShaderType.html#a351ac2ab7cb148255b998b8b5da173aa", null ],
+    [ "bDoubleBuffer", "d5/dfe/structFGPUBaseSkinAPEXClothVertexFactory_1_1ClothShaderType.html#ab2f01db2d027c9f5cd49ae6a7d7317c8", null ],
+    [ "bEnabled", "d5/dfe/structFGPUBaseSkinAPEXClothVertexFactory_1_1ClothShaderType.html#a71fdc72378427e0530f11baf78247fc5", null ],
+    [ "ClothBlendWeight", "d5/dfe/structFGPUBaseSkinAPEXClothVertexFactory_1_1ClothShaderType.html#a5404e7c8e2779f1c03c45d72b9924fa5", null ],
+    [ "ClothSimulPositionNormalBuffer", "d5/dfe/structFGPUBaseSkinAPEXClothVertexFactory_1_1ClothShaderType.html#a311fff53687c4d1e55fdef4313bad7b9", null ],
+    [ "ClothToLocal", "d5/dfe/structFGPUBaseSkinAPEXClothVertexFactory_1_1ClothShaderType.html#a00458728727e810271a43f547b67345a", null ],
+    [ "CurrentBuffer", "d5/dfe/structFGPUBaseSkinAPEXClothVertexFactory_1_1ClothShaderType.html#a7d5a4240ba96c0f28e3219349ad93be9", null ],
+    [ "CurrentRevisionNumber", "d5/dfe/structFGPUBaseSkinAPEXClothVertexFactory_1_1ClothShaderType.html#a6bfe3bb342db0e2b2f9a32f482edb1c9", null ],
+    [ "NumInfluencesPerVertex", "d5/dfe/structFGPUBaseSkinAPEXClothVertexFactory_1_1ClothShaderType.html#a3f287846895cd81b227d259f4278a596", null ],
+    [ "PreviousRevisionNumber", "d5/dfe/structFGPUBaseSkinAPEXClothVertexFactory_1_1ClothShaderType.html#aa838c63f127ad56ca9267afa950a5e12", null ],
+    [ "WorldScale", "d5/dfe/structFGPUBaseSkinAPEXClothVertexFactory_1_1ClothShaderType.html#a27cecf7304d0d4ecc616413fcf7acc14", null ]
+];

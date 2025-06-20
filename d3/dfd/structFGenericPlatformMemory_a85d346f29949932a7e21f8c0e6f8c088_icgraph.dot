@@ -1,0 +1,12 @@
+digraph "FGenericPlatformMemory::SupportsFastVRAMMemory"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FGenericPlatformMemory\l::SupportsFastVRAMMemory",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Gets whether this platform supports Fast VRAM memory Ie, whether TexCreate_FastVRAM flags actually me..."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FPooledRenderTargetDesc\l::Compare",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/dc6/structFPooledRenderTargetDesc.html#ad72567f6a89cd399c1dfa2c470936387",tooltip="Comparison operator to test if a render target can be reused."];
+}

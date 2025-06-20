@@ -1,0 +1,16 @@
+digraph "UE::AnimNext::FDataRegistry::RegisterDataType_Impl"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UE::AnimNext::FDataRegistry\l::RegisterDataType_Impl",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::AnimNext::FDataRegistry\l::PreAllocateMemory",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d0b/classUE_1_1AnimNext_1_1FDataRegistry.html#abb5f3f21b188fbaa14dfebcf5caf91aa",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::AnimNext::FDataRegistry\l::AllocateData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d0b/classUE_1_1AnimNext_1_1FDataRegistry.html#aee7822812d6ef10807f5de26f13544a6",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UE::AnimNext::FDataRegistry\l::RegisterDataType",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d0b/classUE_1_1AnimNext_1_1FDataRegistry.html#a243b7f78571a749da307ba3770122168",tooltip=" "];
+}

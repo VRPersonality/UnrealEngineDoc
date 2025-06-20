@@ -1,0 +1,12 @@
+digraph "TRingBuffer::PopFront"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TRingBuffer::PopFront",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Pop the given number of elements (default: 1) from the front pointer of the RingBuffer."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TRingBuffer::RemoveAt",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d46/classTRingBuffer.html#adf0b3e11b11d503a9d8027bfc6cc1abe",tooltip="Remove the value at the given index from the RingBuffer, and shift values ahead or behind it into its..."];
+}

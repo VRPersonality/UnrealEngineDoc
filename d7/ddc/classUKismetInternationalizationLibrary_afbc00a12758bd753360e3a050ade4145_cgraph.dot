@@ -1,0 +1,12 @@
+digraph "UKismetInternationalizationLibrary::UFUNCTION"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="UKismetInternationalization\lLibrary::UFUNCTION",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Returns if the given culture reads left to right."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UKismetInternationalization\lLibrary::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/ddc/classUKismetInternationalizationLibrary.html#ae37ff73d1cae534e7cac4da83eb86636",tooltip="Set the current culture."];
+}

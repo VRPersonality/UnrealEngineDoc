@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Unreal Engine 5.6 C++ Documentation: FCharacterNetworkMoveData Struct Reference</title>
+<title>Unreal Engine 5.6 C++ API: FCharacterNetworkMoveData Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -18,7 +18,11 @@
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
-<link href="../../unreal_theme.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -27,9 +31,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Unreal Engine 5.6 C++ Documentation<span id="projectnumber">&#160;5.6</span>
+   <div id="projectname">Unreal Engine 5.6 C++ API<span id="projectnumber">&#160;5.6.0</span>
    </div>
-   <div id="projectbrief">Documentation UE5 avec chemins sources corrects</div>
+   <div id="projectbrief">C++ API documentation for Unreal Engine 5.6</div>
   </td>
  </tr>
  </tbody>
@@ -64,7 +68,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(function(){initNavTree('dc/dab/structFCharacterNetworkMoveData.html','../../','de/d77/structFCharacterNetworkMoveData-members'); });
+$(function(){initNavTree('dc/dab/structFCharacterNetworkMoveData.html','../../',''); });
 </script>
 <div id="container">
 <div id="doc-content">
@@ -94,10 +98,16 @@ $(function(){initNavTree('dc/dab/structFCharacterNetworkMoveData.html','../../',
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="../../dc/dab/structFCharacterNetworkMoveData.html" title="FCharacterNetworkMoveData encapsulates a client move that is sent to the server for UCharacterMovemen...">FCharacterNetworkMoveData</a> encapsulates a client move that is sent to the server for <a class="el" href="../../da/d75/classUCharacterMovementComponent.html" title="CharacterMovementComponent handles movement logic for the associated Character owner.">UCharacterMovementComponent</a> networking.  
+<p><a class="el" href="../../dc/dab/structFCharacterNetworkMoveData.html" title="FCharacterNetworkMoveData encapsulates a client move that is sent to the server for UCharacterMovemen...">FCharacterNetworkMoveData</a> encapsulates a client move that is sent to the server for UCharacterMovementComponent networking.  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/CharacterMovementReplication.h</a>&gt;</code></p>
+<p><code>#include &quot;<a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a>&quot;</code></p>
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Collaboration diagram for FCharacterNetworkMoveData:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 0 --></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -111,25 +121,25 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad910cdcef77725891682a92e5e9afd09" id="r_ad910cdcef77725891682a92e5e9afd09"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad910cdcef77725891682a92e5e9afd09">FCharacterNetworkMoveData</a> ()</td></tr>
 <tr class="memitem:a73074206e6a4cb67294f4c38e8431ca5" id="r_a73074206e6a4cb67294f4c38e8431ca5"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73074206e6a4cb67294f4c38e8431ca5">~FCharacterNetworkMoveData</a> ()</td></tr>
 <tr class="memitem:a0ad470174d6a52e340fab6963904a171" id="r_a0ad470174d6a52e340fab6963904a171"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ad470174d6a52e340fab6963904a171">ClientFillNetworkMoveData</a> (const <a class="el" href="../../d7/deb/classFSavedMove__Character.html">FSavedMove_Character</a> &amp;ClientMove, <a class="el" href="#a7eb15bf1c01eff0cc72c4f41dc403bf7">ENetworkMoveType</a> MoveType)</td></tr>
-<tr class="memdesc:a0ad470174d6a52e340fab6963904a171"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given a <a class="el" href="../../d7/deb/classFSavedMove__Character.html" title="FSavedMove_Character represents a saved move on the client that has been sent to the server and might...">FSavedMove_Character</a> from <a class="el" href="../../da/d75/classUCharacterMovementComponent.html" title="CharacterMovementComponent handles movement logic for the associated Character owner.">UCharacterMovementComponent</a>, fill in data in this struct with relevant movement data.  <br /></td></tr>
-<tr class="memitem:af56d75936f19509f9c87c878cf0b2cb8" id="r_af56d75936f19509f9c87c878cf0b2cb8"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af56d75936f19509f9c87c878cf0b2cb8">Serialize</a> (<a class="el" href="../../da/d75/classUCharacterMovementComponent.html">UCharacterMovementComponent</a> &amp;CharacterMovement, FArchive &amp;Ar, UPackageMap *PackageMap, <a class="el" href="#a7eb15bf1c01eff0cc72c4f41dc403bf7">ENetworkMoveType</a> MoveType)</td></tr>
-<tr class="memdesc:af56d75936f19509f9c87c878cf0b2cb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the data in this struct to or from the given FArchive.  <br /></td></tr>
+<tr class="memdesc:a0ad470174d6a52e340fab6963904a171"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given a <a class="el" href="../../d7/deb/classFSavedMove__Character.html" title="FSavedMove_Character represents a saved move on the client that has been sent to the server and might...">FSavedMove_Character</a> from UCharacterMovementComponent, fill in data in this struct with relevant movement data.  <br /></td></tr>
+<tr class="memitem:af56d75936f19509f9c87c878cf0b2cb8" id="r_af56d75936f19509f9c87c878cf0b2cb8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af56d75936f19509f9c87c878cf0b2cb8">Serialize</a> (UCharacterMovementComponent &amp;CharacterMovement, <a class="el" href="../../d0/df8/classFArchive.html">FArchive</a> &amp;<a class="el" href="../../d4/da3/StatsCommand_8h.html#a95a42fe4ca3180b042ae725512d41d7d">Ar</a>, <a class="el" href="../../d6/d48/classUPackageMap.html">UPackageMap</a> *PackageMap, <a class="el" href="#a7eb15bf1c01eff0cc72c4f41dc403bf7">ENetworkMoveType</a> MoveType)</td></tr>
+<tr class="memdesc:af56d75936f19509f9c87c878cf0b2cb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the data in this struct to or from the given <a class="el" href="../../d0/df8/classFArchive.html" title="Base class for archives that can be used for loading, saving, and garbage collecting in a byte order ...">FArchive</a>.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:afa47b84243a7d9644069b5c364d86304" id="r_afa47b84243a7d9644069b5c364d86304"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a7eb15bf1c01eff0cc72c4f41dc403bf7">ENetworkMoveType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa47b84243a7d9644069b5c364d86304">NetworkMoveType</a></td></tr>
-<tr class="memitem:a7a8d5bb6cd8a27d5a777facb6213703f" id="r_a7a8d5bb6cd8a27d5a777facb6213703f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a8d5bb6cd8a27d5a777facb6213703f">TimeStamp</a></td></tr>
+Data Fields</h2></td></tr>
 <tr class="memitem:ae04399ef8ae32b6a05385e5a60d32c4c" id="r_ae04399ef8ae32b6a05385e5a60d32c4c"><td class="memItemLeft" align="right" valign="top">FVector_NetQuantize10&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae04399ef8ae32b6a05385e5a60d32c4c">Acceleration</a></td></tr>
+<tr class="memitem:a99ea2a7b308199974d7b80dd4105e1f0" id="r_a99ea2a7b308199974d7b80dd4105e1f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dd0/Platform_8h.html#a40bc01dd090acd02a79b5dc13e08abe6">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99ea2a7b308199974d7b80dd4105e1f0">CompressedMoveFlags</a></td></tr>
+<tr class="memitem:a84cf8ceeef40176f2627649dbf704aa1" id="r_a84cf8ceeef40176f2627649dbf704aa1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d10/MathFwd_8h.html#afc422e810d613d89fe2dd9e17e8f3f4d">FRotator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84cf8ceeef40176f2627649dbf704aa1">ControlRotation</a></td></tr>
 <tr class="memitem:a1ad3ce7a4ff84760fa894a0978b0d6f7" id="r_a1ad3ce7a4ff84760fa894a0978b0d6f7"><td class="memItemLeft" align="right" valign="top">FVector_NetQuantize100&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ad3ce7a4ff84760fa894a0978b0d6f7">Location</a></td></tr>
-<tr class="memitem:a84cf8ceeef40176f2627649dbf704aa1" id="r_a84cf8ceeef40176f2627649dbf704aa1"><td class="memItemLeft" align="right" valign="top">FRotator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84cf8ceeef40176f2627649dbf704aa1">ControlRotation</a></td></tr>
-<tr class="memitem:a99ea2a7b308199974d7b80dd4105e1f0" id="r_a99ea2a7b308199974d7b80dd4105e1f0"><td class="memItemLeft" align="right" valign="top">uint8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99ea2a7b308199974d7b80dd4105e1f0">CompressedMoveFlags</a></td></tr>
-<tr class="memitem:add99d14af723c94e2fb12d2ab8b532fe" id="r_add99d14af723c94e2fb12d2ab8b532fe"><td class="memItemLeft" align="right" valign="top">uint8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add99d14af723c94e2fb12d2ab8b532fe">MovementMode</a></td></tr>
 <tr class="memitem:a46be6da6a5b667c67cec5371b1074a18" id="r_a46be6da6a5b667c67cec5371b1074a18"><td class="memItemLeft" align="right" valign="top">class UPrimitiveComponent *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46be6da6a5b667c67cec5371b1074a18">MovementBase</a></td></tr>
-<tr class="memitem:aba072f9cf724cf471ccd44182d7eaae0" id="r_aba072f9cf724cf471ccd44182d7eaae0"><td class="memItemLeft" align="right" valign="top">FName&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba072f9cf724cf471ccd44182d7eaae0">MovementBaseBoneName</a></td></tr>
+<tr class="memitem:aba072f9cf724cf471ccd44182d7eaae0" id="r_aba072f9cf724cf471ccd44182d7eaae0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d53/classFName.html">FName</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba072f9cf724cf471ccd44182d7eaae0">MovementBaseBoneName</a></td></tr>
+<tr class="memitem:add99d14af723c94e2fb12d2ab8b532fe" id="r_add99d14af723c94e2fb12d2ab8b532fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dd0/Platform_8h.html#a40bc01dd090acd02a79b5dc13e08abe6">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add99d14af723c94e2fb12d2ab8b532fe">MovementMode</a></td></tr>
+<tr class="memitem:afa47b84243a7d9644069b5c364d86304" id="r_afa47b84243a7d9644069b5c364d86304"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a7eb15bf1c01eff0cc72c4f41dc403bf7">ENetworkMoveType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa47b84243a7d9644069b5c364d86304">NetworkMoveType</a></td></tr>
+<tr class="memitem:a7a8d5bb6cd8a27d5a777facb6213703f" id="r_a7a8d5bb6cd8a27d5a777facb6213703f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d9a/SCurveEditor_8h.html#a6a1bb6ed41f44b60e7bd83b0e9945aa7">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a8d5bb6cd8a27d5a777facb6213703f">TimeStamp</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="../../dc/dab/structFCharacterNetworkMoveData.html" title="FCharacterNetworkMoveData encapsulates a client move that is sent to the server for UCharacterMovemen...">FCharacterNetworkMoveData</a> encapsulates a client move that is sent to the server for <a class="el" href="../../da/d75/classUCharacterMovementComponent.html" title="CharacterMovementComponent handles movement logic for the associated Character owner.">UCharacterMovementComponent</a> networking. </p>
-<p>Adding custom data to the network move is accomplished by deriving from this struct, adding new data members, implementing <a class="el" href="#a0ad470174d6a52e340fab6963904a171" title="Given a FSavedMove_Character from UCharacterMovementComponent, fill in data in this struct with relev...">ClientFillNetworkMoveData()</a>, implementing <a class="el" href="#af56d75936f19509f9c87c878cf0b2cb8" title="Serialize the data in this struct to or from the given FArchive.">Serialize()</a>, and setting up the <a class="el" href="../../da/d75/classUCharacterMovementComponent.html" title="CharacterMovementComponent handles movement logic for the associated Character owner.">UCharacterMovementComponent</a> to use an instance of a custom <a class="el" href="../../d8/dfe/structFCharacterNetworkMoveDataContainer.html" title="Struct used for network RPC parameters between client/server by ACharacter and UCharacterMovementComp...">FCharacterNetworkMoveDataContainer</a> (see that struct for more details).</p>
+<div class="textblock"><p><a class="el" href="../../dc/dab/structFCharacterNetworkMoveData.html" title="FCharacterNetworkMoveData encapsulates a client move that is sent to the server for UCharacterMovemen...">FCharacterNetworkMoveData</a> encapsulates a client move that is sent to the server for UCharacterMovementComponent networking. </p>
+<p>Adding custom data to the network move is accomplished by deriving from this struct, adding new data members, implementing <a class="el" href="#a0ad470174d6a52e340fab6963904a171" title="Given a FSavedMove_Character from UCharacterMovementComponent, fill in data in this struct with relev...">ClientFillNetworkMoveData()</a>, implementing <a class="el" href="#af56d75936f19509f9c87c878cf0b2cb8" title="Serialize the data in this struct to or from the given FArchive.">Serialize()</a>, and setting up the UCharacterMovementComponent to use an instance of a custom <a class="el" href="../../d8/dfe/structFCharacterNetworkMoveDataContainer.html" title="Struct used for network RPC parameters between client/server by ACharacter and UCharacterMovementComp...">FCharacterNetworkMoveDataContainer</a> (see that struct for more details).</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d8/dfe/structFCharacterNetworkMoveDataContainer.html" title="Struct used for network RPC parameters between client/server by ACharacter and UCharacterMovementComp...">FCharacterNetworkMoveDataContainer</a> </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00098">98</a> of file <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a>.</p>
@@ -189,7 +199,7 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00109">109</a> of file <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00147">Acceleration</a>, <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00150">CompressedMoveFlags</a>, <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00149">ControlRotation</a>, <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00148">Location</a>, <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00153">MovementBase</a>, <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00154">MovementBaseBoneName</a>, <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00152">MovementMode</a>, <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00141">NetworkMoveType</a>, <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00104">NewMove</a>, and <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00146">TimeStamp</a>.</p>
+<p class="reference">References <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00147">Acceleration</a>, <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00150">CompressedMoveFlags</a>, <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00149">ControlRotation</a>, <a class="el" href="../../da/d38/CoreMiscDefines_8h_source.html#l00156">ForceInitToZero</a>, <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00148">Location</a>, <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00153">MovementBase</a>, <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00154">MovementBaseBoneName</a>, <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00152">MovementMode</a>, <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00141">NetworkMoveType</a>, <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00104">NewMove</a>, and <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00146">TimeStamp</a>.</p>
 
 </div>
 </div>
@@ -248,7 +258,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Given a <a class="el" href="../../d7/deb/classFSavedMove__Character.html" title="FSavedMove_Character represents a saved move on the client that has been sent to the server and might...">FSavedMove_Character</a> from <a class="el" href="../../da/d75/classUCharacterMovementComponent.html" title="CharacterMovementComponent handles movement logic for the associated Character owner.">UCharacterMovementComponent</a>, fill in data in this struct with relevant movement data. </p>
+<p>Given a <a class="el" href="../../d7/deb/classFSavedMove__Character.html" title="FSavedMove_Character represents a saved move on the client that has been sent to the server and might...">FSavedMove_Character</a> from UCharacterMovementComponent, fill in data in this struct with relevant movement data. </p>
 <p>Note that the instance of the <a class="el" href="../../d7/deb/classFSavedMove__Character.html" title="FSavedMove_Character represents a saved move on the client that has been sent to the server and might...">FSavedMove_Character</a> is likely a custom struct of a derived struct of your own, if you have added your own saved move data. </p><dl class="section see"><dt>See also</dt><dd>UCharacterMovementComponent::AllocateNewMove() </dd></dl>
 
 </div>
@@ -263,19 +273,19 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool FCharacterNetworkMoveData::Serialize </td>
+          <td class="memname">virtual <a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a> FCharacterNetworkMoveData::Serialize </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/d75/classUCharacterMovementComponent.html">UCharacterMovementComponent</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>CharacterMovement</em></span>, </td>
+          <td class="paramtype">UCharacterMovementComponent &amp;</td>          <td class="paramname"><span class="paramname"><em>CharacterMovement</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">FArchive &amp;</td>          <td class="paramname"><span class="paramname"><em>Ar</em></span>, </td>
+          <td class="paramtype"><a class="el" href="../../d0/df8/classFArchive.html">FArchive</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>Ar</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">UPackageMap *</td>          <td class="paramname"><span class="paramname"><em>PackageMap</em></span>, </td>
+          <td class="paramtype"><a class="el" href="../../d6/d48/classUPackageMap.html">UPackageMap</a> *</td>          <td class="paramname"><span class="paramname"><em>PackageMap</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -290,12 +300,14 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Serialize the data in this struct to or from the given FArchive. </p>
-<p>This packs or unpacks the data in to a variable-sized data stream that is sent over the network from client to server. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="../../da/d75/classUCharacterMovementComponent.html#a71f335498f9c531a809e38024d55a167" title="On the client, calls the ServerMovePacked_ClientSend() function with packed movement data.">UCharacterMovementComponent::CallServerMovePacked</a> </dd></dl>
+<p>Serialize the data in this struct to or from the given <a class="el" href="../../d0/df8/classFArchive.html" title="Base class for archives that can be used for loading, saving, and garbage collecting in a byte order ...">FArchive</a>. </p>
+<p>This packs or unpacks the data in to a variable-sized data stream that is sent over the network from client to server. </p><dl class="section see"><dt>See also</dt><dd>UCharacterMovementComponent::CallServerMovePacked </dd></dl>
+
+<p class="reference">References <a class="el" href="../../d4/da3/StatsCommand_8h_source.html#l00016">Ar</a>.</p>
 
 </div>
 </div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Field Documentation</h2>
 <a id="ae04399ef8ae32b6a05385e5a60d32c4c" name="ae04399ef8ae32b6a05385e5a60d32c4c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae04399ef8ae32b6a05385e5a60d32c4c">&#9670;&#160;</a></span>Acceleration</h2>
 
@@ -310,6 +322,8 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00147">147</a> of file <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a>.</p>
 
+<p class="reference">Referenced by <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00109">FCharacterNetworkMoveData()</a>.</p>
+
 </div>
 </div>
 <a id="a99ea2a7b308199974d7b80dd4105e1f0" name="a99ea2a7b308199974d7b80dd4105e1f0"></a>
@@ -319,12 +333,14 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint8 FCharacterNetworkMoveData::CompressedMoveFlags</td>
+          <td class="memname"><a class="el" href="../../d9/dd0/Platform_8h.html#a40bc01dd090acd02a79b5dc13e08abe6">uint8</a> FCharacterNetworkMoveData::CompressedMoveFlags</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00150">150</a> of file <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00109">FCharacterNetworkMoveData()</a>.</p>
 
 </div>
 </div>
@@ -335,12 +351,14 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">FRotator FCharacterNetworkMoveData::ControlRotation</td>
+          <td class="memname"><a class="el" href="../../d2/d10/MathFwd_8h.html#afc422e810d613d89fe2dd9e17e8f3f4d">FRotator</a> FCharacterNetworkMoveData::ControlRotation</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00149">149</a> of file <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00109">FCharacterNetworkMoveData()</a>.</p>
 
 </div>
 </div>
@@ -358,6 +376,8 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00148">148</a> of file <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a>.</p>
 
+<p class="reference">Referenced by <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00109">FCharacterNetworkMoveData()</a>.</p>
+
 </div>
 </div>
 <a id="a46be6da6a5b667c67cec5371b1074a18" name="a46be6da6a5b667c67cec5371b1074a18"></a>
@@ -374,6 +394,8 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00153">153</a> of file <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a>.</p>
 
+<p class="reference">Referenced by <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00109">FCharacterNetworkMoveData()</a>.</p>
+
 </div>
 </div>
 <a id="aba072f9cf724cf471ccd44182d7eaae0" name="aba072f9cf724cf471ccd44182d7eaae0"></a>
@@ -383,12 +405,14 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">FName FCharacterNetworkMoveData::MovementBaseBoneName</td>
+          <td class="memname"><a class="el" href="../../d0/d53/classFName.html">FName</a> FCharacterNetworkMoveData::MovementBaseBoneName</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00154">154</a> of file <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00109">FCharacterNetworkMoveData()</a>.</p>
 
 </div>
 </div>
@@ -399,12 +423,14 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint8 FCharacterNetworkMoveData::MovementMode</td>
+          <td class="memname"><a class="el" href="../../d9/dd0/Platform_8h.html#a40bc01dd090acd02a79b5dc13e08abe6">uint8</a> FCharacterNetworkMoveData::MovementMode</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00152">152</a> of file <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00109">FCharacterNetworkMoveData()</a>.</p>
 
 </div>
 </div>
@@ -422,6 +448,8 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00141">141</a> of file <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a>.</p>
 
+<p class="reference">Referenced by <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00109">FCharacterNetworkMoveData()</a>.</p>
+
 </div>
 </div>
 <a id="a7a8d5bb6cd8a27d5a777facb6213703f" name="a7a8d5bb6cd8a27d5a777facb6213703f"></a>
@@ -431,17 +459,19 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float FCharacterNetworkMoveData::TimeStamp</td>
+          <td class="memname"><a class="el" href="../../db/d9a/SCurveEditor_8h.html#a6a1bb6ed41f44b60e7bd83b0e9945aa7">float</a> FCharacterNetworkMoveData::TimeStamp</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00146">146</a> of file <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a>.</p>
 
+<p class="reference">Referenced by <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00109">FCharacterNetworkMoveData()</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/<a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a></li>
+<li><a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -457,7 +487,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a href="../../dc/dab/structFCharacterNetworkMoveData.html">FCharacterNetworkMoveData</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+    <li class="footer">Generated on <span class="timestamp"></span> for Unreal Engine 5.6 C++ API by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>
 </body>

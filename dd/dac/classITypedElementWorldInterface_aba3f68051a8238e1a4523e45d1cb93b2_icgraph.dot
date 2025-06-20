@@ -1,0 +1,52 @@
+digraph "ITypedElementWorldInterface::UFUNCTION"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="ITypedElementWorldInterface\l::UFUNCTION",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Script Api."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="ITypedElementWorldInterface\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dac/classITypedElementWorldInterface.html#a221729a7fac1c81b79c76e3bc398cfa2",tooltip="Can the given element be deleted?"];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="ITypedElementWorldInterface\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dac/classITypedElementWorldInterface.html#aae25c2f97ee99194cbd8c5ae391cc16c",tooltip="Can the given element be duplicated?"];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="ITypedElementWorldInterface\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dac/classITypedElementWorldInterface.html#a28737104c0c6ed37ebb6b9314803ff50",tooltip="Can this element actually be edited in the world?"];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="ITypedElementWorldInterface\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dac/classITypedElementWorldInterface.html#aa2678903df53982d02a10315d5bef359",tooltip="Can the given element be moved within the world?"];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="ITypedElementWorldInterface\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dac/classITypedElementWorldInterface.html#ab00714745b1a4bd1a75e56a1c96f7917",tooltip="Can the element be promoted Generally available when the element is a lighter representation of anoth..."];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="ITypedElementWorldInterface\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dac/classITypedElementWorldInterface.html#a53df729e7dd49beea2af68d135944e83",tooltip="Can the given element be scaled?"];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="ITypedElementWorldInterface\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dac/classITypedElementWorldInterface.html#ac23900c7b89ab58523beec98eadce69f",tooltip="Delete the given element."];
+  Node1 -> Node9 [id="edge8_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="ITypedElementWorldInterface\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dac/classITypedElementWorldInterface.html#a6a3846e0820573920f31504e85f7529d",tooltip="Get the bounds of this element, if any."];
+  Node1 -> Node10 [id="edge9_Node000001_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="ITypedElementWorldInterface\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dac/classITypedElementWorldInterface.html#a2116efd3ee3cc91fa8a693d61106ab2a",tooltip="Get the local space offset of this element that should be added to its pivot location,..."];
+  Node1 -> Node11 [id="edge10_Node000001_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="ITypedElementWorldInterface\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dac/classITypedElementWorldInterface.html#ae3e5098b0ca3fc75bb5db65f2ce4e5ce",tooltip="Get the transform of this element relative to its parent, if any."];
+  Node1 -> Node12 [id="edge11_Node000001_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="ITypedElementWorldInterface\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dac/classITypedElementWorldInterface.html#af589133d43b675c0d96a21c7f9017473",tooltip="Get the transform of this element within its owner world, if any."];
+  Node1 -> Node13 [id="edge12_Node000001_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="ITypedElementWorldInterface\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dac/classITypedElementWorldInterface.html#a0917fc207bb7d69bb74b92e9f7fe54ac",tooltip="Attempt to set the local space offset of this element that should be added to its pivot location."];
+  Node1 -> Node14 [id="edge13_Node000001_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="ITypedElementWorldInterface\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dac/classITypedElementWorldInterface.html#a6436cbf2669664b524f7358c3e04cdce",tooltip="Attempt to set the transform of this element relative to its parent."];
+  Node1 -> Node15 [id="edge14_Node000001_Node000015",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="ITypedElementWorldInterface\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dac/classITypedElementWorldInterface.html#afff6fd0463bbfbf9089f5c6bbd57a405",tooltip="Attempt to set the transform of this element within its owner world."];
+  Node1 -> Node16 [id="edge15_Node000001_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="ITypedElementWorldInterface\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dac/classITypedElementWorldInterface.html#a34dac2bf0f06b59d198858b731b2742e",tooltip="Duplicate the given element."];
+  Node1 -> Node17 [id="edge16_Node000001_Node000017",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="ITypedElementWorldInterface\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dac/classITypedElementWorldInterface.html#a49fac254cd0d018fdc39f3e9f09b3445",tooltip="Promote an element when possible Generally available when the element is a lighter representation of ..."];
+  Node1 -> Node18 [id="edge17_Node000001_Node000018",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="ITypedElementWorldInterface\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dac/classITypedElementWorldInterface.html#a642e1e7cac0f33b8b126d5582409fcc3",tooltip="Get the owner level associated with this element, if any."];
+  Node1 -> Node19 [id="edge18_Node000001_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="ITypedElementWorldInterface\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dac/classITypedElementWorldInterface.html#a3a93ffe27f7daea045d64cdb22597629",tooltip="Get the owner world associated with this element, if any."];
+  Node1 -> Node20 [id="edge19_Node000001_Node000020",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node20 [id="Node000020",label="ITypedElementWorldInterface\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dac/classITypedElementWorldInterface.html#a9aee9dcb0916a6af166925e8b10565b8",tooltip="Notify that this element is done being moved."];
+  Node1 -> Node21 [id="edge20_Node000001_Node000021",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node21 [id="Node000021",label="ITypedElementWorldInterface\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dac/classITypedElementWorldInterface.html#aec55fd3dc386291d03411b9936665d5f",tooltip="Notify that this element is currently being moved."];
+  Node1 -> Node22 [id="edge21_Node000001_Node000022",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node22 [id="Node000022",label="ITypedElementWorldInterface\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dac/classITypedElementWorldInterface.html#ae80159c320f0236f1ff6f91d82f7a86e",tooltip="Notify that this element is about to be moved."];
+}

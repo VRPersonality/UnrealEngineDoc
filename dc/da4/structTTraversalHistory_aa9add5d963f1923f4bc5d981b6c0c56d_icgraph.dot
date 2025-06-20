@@ -1,0 +1,16 @@
+digraph "TTraversalHistory::AddNode"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TTraversalHistory::\lAddNode",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TkDOPNode\< DataProviderType,\l KDOP_IDX_TYPE \>::LineCheck",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d46/structTkDOPNode.html#a0087f4bcfcb72b7660f936c014e01ad1",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TkDOPTree\< DataProviderType,\l KDOP_IDX_TYPE \>::LineCheck",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d44/structTkDOPTree.html#a74736f95ea3744d3c91a7764cf836392",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TkDOPNode\< DataProviderType,\l KDOP_IDX_TYPE \>::LineCheckPreCalculated",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d46/structTkDOPNode.html#a4dc4458779d487999118a316588f563b",tooltip=" "];
+}

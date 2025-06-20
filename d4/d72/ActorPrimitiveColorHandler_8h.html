@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Unreal Engine 5.6 C++ Documentation: UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/ActorPrimitiveColorHandler.h File Reference</title>
+<title>Unreal Engine 5.6 C++ API: ActorPrimitiveColorHandler.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -18,7 +18,11 @@
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
-<link href="../../unreal_theme.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -27,9 +31,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Unreal Engine 5.6 C++ Documentation<span id="projectnumber">&#160;5.6</span>
+   <div id="projectname">Unreal Engine 5.6 C++ API<span id="projectnumber">&#160;5.6.0</span>
    </div>
-   <div id="projectbrief">Documentation UE5 avec chemins sources corrects</div>
+   <div id="projectbrief">C++ API documentation for Unreal Engine 5.6</div>
   </td>
  </tr>
  </tbody>
@@ -93,21 +97,27 @@ $(function(){initNavTree('d4/d72/ActorPrimitiveColorHandler_8h.html','../../',''
   <div class="headertitle"><div class="title">ActorPrimitiveColorHandler.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;UObject/ObjectMacros.h&quot;</code><br />
-<code>#include &quot;Components/PrimitiveComponent.h&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html">UObject/ObjectMacros.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/d9f/PrimitiveComponent_8h_source.html">Components/PrimitiveComponent.h</a>&quot;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Include dependency graph for ActorPrimitiveColorHandler.h:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 0 --></div>
+</div>
 </div>
 <p><a href="../../d4/d72/ActorPrimitiveColorHandler_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
+Data Structures</h2></td></tr>
 <tr class="memitem:FActorPrimitiveColorHandler" id="r_FActorPrimitiveColorHandler"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/deb/classFActorPrimitiveColorHandler.html">FActorPrimitiveColorHandler</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../da/deb/classFActorPrimitiveColorHandler.html" title="FActorPrimitiveColorHandler is a simple mechanism for custom actor coloration registration.">FActorPrimitiveColorHandler</a> is a simple mechanism for custom actor coloration registration.  <a href="../../da/deb/classFActorPrimitiveColorHandler.html#details">More...</a><br /></td></tr>
 <tr class="memitem:FActorPrimitiveColorHandler_3A_3AFPrimitiveColorHandler" id="r_FActorPrimitiveColorHandler_3A_3AFPrimitiveColorHandler"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0d/structFActorPrimitiveColorHandler_1_1FPrimitiveColorHandler.html">FActorPrimitiveColorHandler::FPrimitiveColorHandler</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-define-members" class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:a8558c09b1d5a683acdd2e9daec9a0d53" id="r_a8558c09b1d5a683acdd2e9daec9a0d53"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8558c09b1d5a683acdd2e9daec9a0d53">ENABLE_ACTOR_PRIMITIVE_COLOR_HANDLER</a>&#160;&#160;&#160;!(UE_BUILD_SHIPPING || <a class="el" href="../../d3/dbb/Build_8h.html#a13ac897276c9ba4b3e762100532e5c7a">UE_BUILD_TEST</a>)</td></tr>
 <tr class="memitem:a578eb926c8aecdf908e1338b2e893458" id="r_a578eb926c8aecdf908e1338b2e893458"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a578eb926c8aecdf908e1338b2e893458">UE_API</a>&#160;&#160;&#160;ENGINE_API</td></tr>
-<tr class="memitem:a8558c09b1d5a683acdd2e9daec9a0d53" id="r_a8558c09b1d5a683acdd2e9daec9a0d53"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8558c09b1d5a683acdd2e9daec9a0d53">ENABLE_ACTOR_PRIMITIVE_COLOR_HANDLER</a>&#160;&#160;&#160;!(UE_BUILD_SHIPPING || UE_BUILD_TEST)</td></tr>
 </table>
 <a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
 <a id="a8558c09b1d5a683acdd2e9daec9a0d53" name="a8558c09b1d5a683acdd2e9daec9a0d53"></a>
@@ -117,7 +127,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ENABLE_ACTOR_PRIMITIVE_COLOR_HANDLER&#160;&#160;&#160;!(UE_BUILD_SHIPPING || UE_BUILD_TEST)</td>
+          <td class="memname">#define ENABLE_ACTOR_PRIMITIVE_COLOR_HANDLER&#160;&#160;&#160;!(UE_BUILD_SHIPPING || <a class="el" href="../../d3/dbb/Build_8h.html#a13ac897276c9ba4b3e762100532e5c7a">UE_BUILD_TEST</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -140,6 +150,8 @@ Macros</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d72/ActorPrimitiveColorHandler_8h_source.html#l00008">8</a> of file <a class="el" href="../../d4/d72/ActorPrimitiveColorHandler_8h_source.html">ActorPrimitiveColorHandler.h</a>.</p>
 
+<p class="reference">Referenced by <a class="el" href="../../da/deb/classFActorPrimitiveColorHandler.html#af63ccbfd6393c1185bac276b29bd829d">FActorPrimitiveColorHandler::FActorPrimitiveColorHandler()</a>, <a class="el" href="../../da/deb/classFActorPrimitiveColorHandler.html#ac3d4b86445286500490b16ca797293a2">FActorPrimitiveColorHandler::Get()</a>, <a class="el" href="../../da/deb/classFActorPrimitiveColorHandler.html#ae478b407b5f024725ca2b8d29963327e">FActorPrimitiveColorHandler::GetActivePrimitiveColorHandler()</a>, <a class="el" href="../../da/deb/classFActorPrimitiveColorHandler.html#a2146d88611f49358de4295d106959e8f">FActorPrimitiveColorHandler::GetActivePrimitiveColorHandlerDisplayName()</a>, <a class="el" href="../../da/deb/classFActorPrimitiveColorHandler.html#a58b5d71cb921678065ca6df5a642835a">FActorPrimitiveColorHandler::GetPrimitiveColor()</a>, <a class="el" href="../../da/deb/classFActorPrimitiveColorHandler.html#ae09b6403d57de236ad102417c0d0cc4b">FActorPrimitiveColorHandler::GetRegisteredPrimitiveColorHandlers()</a>, <a class="el" href="../../da/deb/classFActorPrimitiveColorHandler.html#aa21c829a26c8fea17fcd08e7e98a1a20">FActorPrimitiveColorHandler::RefreshPrimitiveColorHandler()</a>, <a class="el" href="../../da/deb/classFActorPrimitiveColorHandler.html#acf64f1491d116d134ed7197eed7d097d">FActorPrimitiveColorHandler::RefreshPrimitiveColorHandler()</a>, <a class="el" href="../../da/deb/classFActorPrimitiveColorHandler.html#aba4ac438c52fa0b87c2a9daa022fa32a">FActorPrimitiveColorHandler::RefreshPrimitiveColorHandler()</a>, <a class="el" href="../../da/deb/classFActorPrimitiveColorHandler.html#a89bf79049155cad367b5f24a7e096e23">FActorPrimitiveColorHandler::RegisterPrimitiveColorHandler()</a>, <a class="el" href="../../da/deb/classFActorPrimitiveColorHandler.html#a2dd063b8baceae2d99491de3252222c7">FActorPrimitiveColorHandler::RegisterPrimitiveColorHandler()</a>, <a class="el" href="../../da/deb/classFActorPrimitiveColorHandler.html#a1555b2e8b49a222c50288305e230904e">FActorPrimitiveColorHandler::RegisterPrimitiveColorHandler()</a>, <a class="el" href="../../da/deb/classFActorPrimitiveColorHandler.html#ae930ffad3784afe05d99a5aeddc7abf1">FActorPrimitiveColorHandler::SetActivePrimitiveColorHandler()</a>, and <a class="el" href="../../da/deb/classFActorPrimitiveColorHandler.html#aac2d7d60fb0b28ac6d1cb26288e18a06">FActorPrimitiveColorHandler::UnregisterPrimitiveColorHandler()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -155,8 +167,8 @@ Macros</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="../../dir_4aca46919dd64a018c94105a41bb52f8.html">UE_5.6</a></li><li class="navelem"><a href="../../dir_35a4881369ae19e233e6dac2bcad4050.html">Engine</a></li><li class="navelem"><a href="../../dir_9f26ecb35aabc03d0a71a3e3b9106316.html">Source</a></li><li class="navelem"><a href="../../dir_0942f747ae23c965c05d4d76ae4659cb.html">Runtime</a></li><li class="navelem"><a href="../../dir_c4f31664fb2968a098c34e2ef86324ca.html">Engine</a></li><li class="navelem"><a href="../../dir_2d50b3e22a4f3c2a257cc8ed034f8f90.html">Classes</a></li><li class="navelem"><a href="../../dir_ed269b19aee30b1edf91ca5f109cdfa1.html">GameFramework</a></li><li class="navelem"><a href="../../d4/d72/ActorPrimitiveColorHandler_8h.html">ActorPrimitiveColorHandler.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+    <li class="navelem"><a href="../../dir_7536b172fbd480bfd146a1b1acd6856b.html">Runtime</a></li><li class="navelem"><a href="../../dir_fdf6aa5c3cf3805bb958134448d60562.html">Engine</a></li><li class="navelem"><a href="../../dir_0ed647eebe6ffcaa496d3842b7cec6ce.html">Classes</a></li><li class="navelem"><a href="../../dir_cc939d8e7753f23591e1c275ea054aa8.html">GameFramework</a></li><li class="navelem"><a href="../../d4/d72/ActorPrimitiveColorHandler_8h.html">ActorPrimitiveColorHandler.h</a></li>
+    <li class="footer">Generated on <span class="timestamp"></span> for Unreal Engine 5.6 C++ API by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>
 </body>

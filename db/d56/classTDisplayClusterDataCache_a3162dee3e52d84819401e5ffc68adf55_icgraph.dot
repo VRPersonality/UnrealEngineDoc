@@ -1,0 +1,20 @@
+digraph "TDisplayClusterDataCache::Release"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TDisplayClusterDataCache\l::Release",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Release the cache."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TDisplayClusterDataCache\l::~TDisplayClusterDataCache",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d56/classTDisplayClusterDataCache.html#a4f9b836a40e3bfcf34a321515f700748",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TDisplayClusterDataCache\l::Tick",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d56/classTDisplayClusterDataCache.html#af1dc91503fbb66e021689799da90605d",tooltip="When the number of DataRef references drops to 1, these items will be removed after a timeout."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TDisplayClusterDataCache\l::UpdateTickableGameObject",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d56/classTDisplayClusterDataCache.html#a539b55c8c1171c4b5d7466fd85bc24cd",tooltip="Create or remove tickable game object."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TDisplayClusterDataCache::Add",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d56/classTDisplayClusterDataCache.html#a8db9bdee4db2595f0f2a56e0ba37bfda",tooltip="Register a new object."];
+  Node4 -> Node1 [id="edge5_Node000004_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 -> Node3 [id="edge6_Node000004_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

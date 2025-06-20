@@ -1,0 +1,16 @@
+digraph "TArrayBuilder::TArrayBuilder"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TArrayBuilder::TArrayBuilder",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Default constructor."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TArrayBuilder::Add",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dec/classTArrayBuilder.html#a5908a81ce70690ba03f1dfa301d566ce",tooltip="Adds an item."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TArrayBuilder::AddUnique",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dec/classTArrayBuilder.html#a544e97dc40ed9cd2a15f3cf05eaaf732",tooltip="Adds an unique item."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TArrayBuilder::Append",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dec/classTArrayBuilder.html#a1867bfbe6aa200c987f4361a405cadb9",tooltip="Appends an array of items."];
+}

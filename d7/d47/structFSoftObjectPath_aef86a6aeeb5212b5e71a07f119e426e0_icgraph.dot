@@ -1,0 +1,16 @@
+digraph "FSoftObjectPath::GetLongPackageName"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FSoftObjectPath::GetLong\lPackageName",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Returns /package/path, leaving off the asset name and sub object."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FSoftObjectPtr::GetLongPackageName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/db8/structFSoftObjectPtr.html#a926555123333b68e43ec89e70145d79c",tooltip="Returns /package/path string, leaving off the asset name."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TSoftClassPtr\< const\l T \>::GetLongPackageName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d88/classTSoftClassPtr.html#a3c1043153355d88e4c255e0072d0fc29",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TSoftObjectPtr\< const\l T \>::GetLongPackageName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d2b/structTSoftObjectPtr.html#a14f8f6b9b5fb43bccfafd5c8b8e6dcfd",tooltip=" "];
+}

@@ -1,0 +1,18 @@
+digraph "IntersectionUtil::LineSphereIntersection"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="IntersectionUtil::LineSphere\lIntersection",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Intersect line with sphere and return intersection info (# hits, ray parameters)"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="IntersectionUtil::LineSphere\lIntersection",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d8c/namespaceIntersectionUtil.html#a700b77b58100b9ca9d6dace4615c7cf6",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="IntersectionUtil::RaySphere\lIntersection",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d8c/namespaceIntersectionUtil.html#a49ce395c828e0423714d3407c858c41d",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="IntersectionUtil::RaySphere\lIntersection",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d8c/namespaceIntersectionUtil.html#af4e477ef582b211b804e9fd39cfe67a7",tooltip="Intersect ray with sphere and return intersection info (# hits, ray parameters)"];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="UE::Geometry::TDynamicVertices\lOctree3::FindNearestHitVertex",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/dd2/classUE_1_1Geometry_1_1TDynamicVerticesOctree3.html#ae5c0d2dcf9656c7e7e2f6aefb3a9559b",tooltip="Find the nearest triangle of the VertexSource that is hit by the ray."];
+}

@@ -1,0 +1,28 @@
+var classFArchiveFileReaderGeneric =
+[
+    [ "FArchiveFileReaderGeneric", "de/d9c/classFArchiveFileReaderGeneric.html#a76bbf5f1c798d7a5e09f7da9072c721d", null ],
+    [ "~FArchiveFileReaderGeneric", "de/d9c/classFArchiveFileReaderGeneric.html#a33d4c2be73e92d56ec645b018d4e61cb", null ],
+    [ "Close", "de/d9c/classFArchiveFileReaderGeneric.html#abb5bcf206faf60da20ab516f1e5de331", null ],
+    [ "CloseLowLevel", "de/d9c/classFArchiveFileReaderGeneric.html#a8517cf3a7c76424a6641f91ba2dfaae0", null ],
+    [ "FlushCache", "de/d9c/classFArchiveFileReaderGeneric.html#a41fea524ce5cdc0ed44e1beffe118e64", null ],
+    [ "GetArchiveName", "de/d9c/classFArchiveFileReaderGeneric.html#a618ba7c92187ee3e49c58edbc0bc1f83", null ],
+    [ "InternalPrecache", "de/d9c/classFArchiveFileReaderGeneric.html#a59cc9d04fa70665db77cec3a75c8e34a", null ],
+    [ "IsSilent", "de/d9c/classFArchiveFileReaderGeneric.html#ad94a46ef9e8e65a4bb9e93faa31d2490", null ],
+    [ "Precache", "de/d9c/classFArchiveFileReaderGeneric.html#a696d97398fca66af23ff9777ba1d722f", null ],
+    [ "ReadLowLevel", "de/d9c/classFArchiveFileReaderGeneric.html#a480c09e9f24f747ab86b3d5856ef5aeb", null ],
+    [ "Seek", "de/d9c/classFArchiveFileReaderGeneric.html#a8b36547fe1748de3abfcbdac8a0d2a8e", null ],
+    [ "SeekLowLevel", "de/d9c/classFArchiveFileReaderGeneric.html#a027b830004669fde27aceae2504d99f3", null ],
+    [ "Serialize", "de/d9c/classFArchiveFileReaderGeneric.html#aa417f06a19af44c41fb040ad25720b77", null ],
+    [ "Tell", "de/d9c/classFArchiveFileReaderGeneric.html#a8f3a086b46be6a8b7a144f446984b631", null ],
+    [ "TotalSize", "de/d9c/classFArchiveFileReaderGeneric.html#ae6cc0d71d797a8923be1a66a7b5e822e", null ],
+    [ "FArchiveFileReaderGenericTest", "de/d9c/classFArchiveFileReaderGeneric.html#a023def4b0daa1c438793a071853aaaae", null ],
+    [ "bFirstReadAfterSeek", "de/d9c/classFArchiveFileReaderGeneric.html#ad16b074918d50890d6b4d3ba292a134a", null ],
+    [ "BufferArray", "de/d9c/classFArchiveFileReaderGeneric.html#a917ef104470accbb6f63fad0a92d4809", null ],
+    [ "BufferBase", "de/d9c/classFArchiveFileReaderGeneric.html#a24f2c87eeef87207874ca65cfccabcf0", null ],
+    [ "BufferSize", "de/d9c/classFArchiveFileReaderGeneric.html#a9c6ae41332a48ce06488065ca95e5267", null ],
+    [ "Filename", "de/d9c/classFArchiveFileReaderGeneric.html#aa5428a0f2c0bdba55f945d6ca2fd3556", null ],
+    [ "Flags", "de/d9c/classFArchiveFileReaderGeneric.html#a0e8c15f0767f2cdd357551635600d3b4", null ],
+    [ "Handle", "de/d9c/classFArchiveFileReaderGeneric.html#a48f72891fc61d6d69220fe8bd5e04788", null ],
+    [ "Pos", "de/d9c/classFArchiveFileReaderGeneric.html#a73f1158df891d6d703802e107ca59952", null ],
+    [ "Size", "de/d9c/classFArchiveFileReaderGeneric.html#a6f49e26630eb7644ee3f36db7a3b3fdc", null ]
+];

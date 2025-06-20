@@ -1,0 +1,16 @@
+digraph "TGPUSkinAPEXClothVertexFactory::TGPUSkinAPEXClothVertexFactory"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TGPUSkinAPEXClothVertexFactory\l::TGPUSkinAPEXClothVertexFactory",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Constructor presizing bone matrices array to used amount."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FGPUBaseSkinAPEXClothVertex\lFactory::FGPUBaseSkinAPEXClothVertex\lFactory",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d21/classFGPUBaseSkinAPEXClothVertexFactory.html#acd2302af6d0b07edc08f37446ceba6bb",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TGPUSkinVertexFactory\l::TGPUSkinVertexFactory",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d8a/classTGPUSkinVertexFactory.html#ac4983db585338f19cb754347948f51a6",tooltip="Constructor presizing bone matrices array to used amount."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FGPUBaseSkinVertexFactory\l::FGPUBaseSkinVertexFactory",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d49/classFGPUBaseSkinVertexFactory.html#aa8b3e70a6265f847737bb6426ad86ca4",tooltip=" "];
+}

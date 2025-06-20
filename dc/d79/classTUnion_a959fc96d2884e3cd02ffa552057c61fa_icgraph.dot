@@ -1,0 +1,48 @@
+digraph "TUnion::GetSubtypeIndexAndReference"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TUnion::GetSubtypeIndexAnd\lReference",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Determines the index and reference to the potential value for the given union subtype."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TUnion::GetSubtype",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d79/classTUnion.html#a56e82b0fe65174ec17ca5abb59a4916e",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TUnion::GetSubtype",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d79/classTUnion.html#aaac85a87a7c4a7bd35ffce6f82db1bac",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TUnion::InitSubtype",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d79/classTUnion.html#ae936414efa827f397e381d50b1bfab43",tooltip="Sets the union's value to a default value of the given subtype."];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TUnion::operator==",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d79/classTUnion.html#a0b90b4e214b0bebd3c12bff87d857d32",tooltip="Equality comparison."];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="TUnion::HasSubtype",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d79/classTUnion.html#abaa2e6454a334b143c4d9af12074829a",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="TUnion::ResetSubtype",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d79/classTUnion.html#a69a78db2459d6661efc162aebf503c3e",tooltip="If the union's current value is of the given subtype, sets the union's value to a NULL value."];
+  Node7 -> Node8 [id="edge7_Node000007_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="TUnion::Reset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d79/classTUnion.html#ac897b719706b85c9c745f99d289ba465",tooltip="Sets the union's value to NULL."];
+  Node8 -> Node9 [id="edge8_Node000008_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="TUnion::~TUnion",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d79/classTUnion.html#a9055ca165742ed90c542528278ec2887",tooltip="Destructor."];
+  Node8 -> Node10 [id="edge9_Node000008_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="TUnion::Serialize",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d79/classTUnion.html#a9f90498737277e5724e19885905c6268",tooltip=" "];
+  Node8 -> Node11 [id="edge10_Node000008_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="TUnion::SetSubtype",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d79/classTUnion.html#ad3da02e0ec1845c06957b0587d67ee2b",tooltip="Replaces the value of the union with a value of the given subtype."];
+  Node11 -> Node12 [id="edge11_Node000011_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="TUnion::TUnion",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d79/classTUnion.html#a57257d165fa494fd2e244217f927e7e7",tooltip="Initialization constructor."];
+  Node11 -> Node13 [id="edge12_Node000011_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="TUnion::TUnion",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d79/classTUnion.html#adf17cb994606954a6fb54d89a28b66cc",tooltip="Initialization constructor."];
+  Node11 -> Node14 [id="edge13_Node000011_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="TUnion::TUnion",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d79/classTUnion.html#a8943518ba326f19402f38fb96cd5157c",tooltip="Initialization constructor."];
+  Node11 -> Node15 [id="edge14_Node000011_Node000015",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="TUnion::TUnion",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d79/classTUnion.html#a4b17c9fe96b9a17bbc98a7617bd81358",tooltip="Initialization constructor."];
+  Node11 -> Node16 [id="edge15_Node000011_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="TUnion::TUnion",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d79/classTUnion.html#a2055f51bf6c590943a6dd90990a94d69",tooltip="Initialization constructor."];
+  Node11 -> Node17 [id="edge16_Node000011_Node000017",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="TUnion::TUnion",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d79/classTUnion.html#a5c7f1e503be60ad7bc1f75443a9129a2",tooltip="Initialization constructor."];
+  Node11 -> Node18 [id="edge17_Node000011_Node000018",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="TUnion::operator=",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d79/classTUnion.html#a1ef81b6a13489aba34eae643c63e1d48",tooltip=" "];
+  Node8 -> Node19 [id="edge18_Node000008_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="TUnion::SetSubtype",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d79/classTUnion.html#aae89a7f3d0260e9a6745a79b56ffa532",tooltip="Replaces the value of the union with a value of the given subtype."];
+  Node1 -> Node11 [id="edge19_Node000001_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node19 [id="edge20_Node000001_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

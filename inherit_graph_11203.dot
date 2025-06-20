@@ -1,0 +1,16 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="UE::MediaIOCore::FDeinterlacer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d91/classUE_1_1MediaIOCore_1_1FDeinterlacer.html",tooltip="Handles deinterlacing a video signal."];
+  Node0 -> Node1 [id="edge9412_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 [id="Node000001",label="UE::MediaIOCore::FBlendDeinterlacer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d50/classUE_1_1MediaIOCore_1_1FBlendDeinterlacer.html",tooltip="Blend the top and bottom field, halving temporal and texture vertical resoluton."];
+  Node0 -> Node2 [id="edge9413_Node000000_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::MediaIOCore::FBobDeinterlacer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d10/classUE_1_1MediaIOCore_1_1FBobDeinterlacer.html",tooltip="Double field lines, keeping temporal resolution but halving texture vertical resolution."];
+  Node0 -> Node3 [id="edge9414_Node000000_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::MediaIOCore::FDiscard\lDeinterlacer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d8f/classUE_1_1MediaIOCore_1_1FDiscardDeinterlacer.html",tooltip="Discards one of the field entirely (based on InterlaceFieldOrder), halving both temporal and spatial ..."];
+}

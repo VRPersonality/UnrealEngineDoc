@@ -1,0 +1,16 @@
+digraph "FSoftObjectPath::ResolveObject"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FSoftObjectPath::Resolve\lObject",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Attempts to find a currently loaded object that matches this path."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FSoftObjectPtr::Get",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/db8/structFSoftObjectPtr.html#a743d7528f242ced4ff0c37c500254c0f",tooltip="Overridden to deal with PIE lookups."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FSoftObjectPtr::LoadSynchronous",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/db8/structFSoftObjectPtr.html#af6ac407ccb68ce2453224a03080255fc",tooltip="Synchronously load (if necessary) and return the asset object represented by this asset ptr."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="operator\<\<",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d6f/RigVMExternalVariable_8h.html#af72c64655172404d1664944eeec21c89",tooltip=" "];
+}

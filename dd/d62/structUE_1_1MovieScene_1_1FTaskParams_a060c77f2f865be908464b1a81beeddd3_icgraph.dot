@@ -1,0 +1,16 @@
+digraph "UE::MovieScene::FTaskParams::FTaskParams"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UE::MovieScene::FTaskParams\l::FTaskParams",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::MovieScene::FTaskParams\l::ForceGameThread",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d62/structUE_1_1MovieScene_1_1FTaskParams.html#a3958601025ca37511ae4ac41892a9265",tooltip="Force this task to run on the game thread."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::MovieScene::FTaskParams\l::ForcePrePostTask",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d62/structUE_1_1MovieScene_1_1FTaskParams.html#a5dd8fb4e63c466b679e2d9a78aa6b8f0",tooltip="Force this task to run Pre/Post callbacks even if there is no meaningful work to be done in the body."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UE::MovieScene::FTaskParams\l::Stat",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d62/structUE_1_1MovieScene_1_1FTaskParams.html#ad020c9980f1a127ccd273de0ff89efa1",tooltip="Set a custom stat ID for this task."];
+}

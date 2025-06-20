@@ -1,0 +1,10 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="FGraphDiffControl::\lFNodeMatch",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dc4/structFGraphDiffControl_1_1FNodeMatch.html",tooltip="A struct to represent a found pair of nodes that match each other (for comparisons sake)"];
+}

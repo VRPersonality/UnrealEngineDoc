@@ -1,0 +1,14 @@
+digraph "SDragAndDropVerticalBox::DECLARE_DELEGATE_RetVal_FourParams"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SDragAndDropVerticalBox\l::DECLARE_DELEGATE_RetVal\l_FourParams",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SDragAndDropVerticalBox\l::DECLARE_DELEGATE_RetVal\l_FourParams",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d13/classSDragAndDropVerticalBox.html#a3b24d6370d60daf5b77313cd15bf2cc2",tooltip="Delegate signature for handling the drop of FDragDropEvent onto target of type ItemType."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SDragAndDropVerticalBox\l::DECLARE_DELEGATE_RetVal\l_FourParams",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d13/classSDragAndDropVerticalBox.html#a1a19e95e13201147ce933ea8270f8ac9",tooltip="Delegate signature for querying whether this FDragDropEvent will be handled by the drop target of typ..."];
+}

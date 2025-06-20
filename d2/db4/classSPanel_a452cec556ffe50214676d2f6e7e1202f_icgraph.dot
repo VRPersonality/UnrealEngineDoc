@@ -1,0 +1,14 @@
+digraph "SPanel::SPanel"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SPanel::SPanel",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Hidden default constructor."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SBox::SLATE_DECLARE\l_WIDGET_API",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/df4/classSBox.html#aa91210221da25fb59a642e1aa7987466",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SDPIScaler::SLATE_DECLARE\l_WIDGET_API",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d72/classSDPIScaler.html#a01c9aeaac226a9eaf98fe9032b2aee9c",tooltip=" "];
+}

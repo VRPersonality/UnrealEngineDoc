@@ -1,0 +1,15 @@
+digraph "GameplayDebugger"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_4bbce3452db5bc41171c021bffd5247b {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="Public", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_4bbce3452db5bc41171c021bffd5247b.html",tooltip=""]
+  dir_87416c105a5339f23fba5a0532f61be2 [label="GameplayDebugger", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_87416c105a5339f23fba5a0532f61be2.html",tooltip=""];
+  }
+  dir_0e6cddcc9caa1238c7f3774224afaa45 [label="Core", fillcolor="#edf0f7", color="red", style="filled,dashed", URL="dir_0e6cddcc9caa1238c7f3774224afaa45.html",tooltip=""];
+  dir_87416c105a5339f23fba5a0532f61be2->dir_0e6cddcc9caa1238c7f3774224afaa45 [headlabel="6", labeldistance=1.5 headhref="dir_000423_000266.html" href="dir_000423_000266.html" color="steelblue1" fontcolor="steelblue1"];
+}

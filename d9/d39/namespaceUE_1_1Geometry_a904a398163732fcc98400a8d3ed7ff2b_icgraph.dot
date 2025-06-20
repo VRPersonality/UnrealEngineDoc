@@ -1,0 +1,14 @@
+digraph "UE::Geometry::SignedAngleR"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UE::Geometry::SignedAngleR",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Geometry::CurveUtil\l::IsConvex2",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dd2/namespaceUE_1_1Geometry_1_1CurveUtil.html#a6805ab43ad5b660d37a18cdeb77c3215",tooltip="Tests closed, 2D curve for convexity, with an optional tolerance allowing for approximately-collinear..."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::Geometry::TPolygon2\l\< double \>::IsConvex",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/df8/classUE_1_1Geometry_1_1TPolygon2.html#a07ea5b619290ea839453f19e2a5ddc2c",tooltip=" "];
+}

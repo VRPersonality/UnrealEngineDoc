@@ -1,0 +1,16 @@
+digraph "FFutureState::FFutureState"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FFutureState::FFutureState",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Default constructor."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TFutureState::TFutureState",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d08/classTFutureState.html#ac0726863e54a8225e52b1a77a4023f4a",tooltip="Default constructor."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TFutureState::GetResult",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d08/classTFutureState.html#ae46149471835332f87d1d5c43fd4bdd1",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TFutureState::TFutureState",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d08/classTFutureState.html#a8f3a2b7d164b038db6fce17c82a1497a",tooltip="Create and initialize a new instance with a callback."];
+}

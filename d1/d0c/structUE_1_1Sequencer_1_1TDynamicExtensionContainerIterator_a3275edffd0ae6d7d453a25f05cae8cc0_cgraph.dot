@@ -1,0 +1,14 @@
+digraph "UE::Sequencer::TDynamicExtensionContainerIterator::TDynamicExtensionContainerIterator"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="UE::Sequencer::TDynamicExtension\lContainerIterator::TDynamicExtension\lContainerIterator",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Sequencer::FDynamicExtension\lContainerIterator::FDynamicExtension\lContainerIterator",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d27/structUE_1_1Sequencer_1_1FDynamicExtensionContainerIterator.html#a1c45c6e124369444a742e070b828dc0d",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="MoveTemp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d24/UnrealTemplate_8h.html#ad5e6c049aeb9c9115fec514ba581dbb6",tooltip="MoveTemp will cast a reference to an rvalue reference."];
+}

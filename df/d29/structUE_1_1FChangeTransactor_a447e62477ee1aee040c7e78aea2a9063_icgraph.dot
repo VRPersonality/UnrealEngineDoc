@@ -1,0 +1,22 @@
+digraph "UE::FChangeTransactor::CanTransactChanges"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UE::FChangeTransactor\l::CanTransactChanges",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::FScopedCompoundTransaction\l::FScopedCompoundTransaction",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/dde/structUE_1_1FScopedCompoundTransaction.html#a334268da8953941ea577dd85444beb7a",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::FChangeTransactor\l::AddTransactionChange",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d29/structUE_1_1FChangeTransactor.html#acad54278634af86b65f6d0777f9f67a1",tooltip="Inserts a FChange instance into the compound change data."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="IAnimationDataController\l::ConditionalAction",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/db0/classIAnimationDataController.html#acf3f11c354fdac6f35f3e504f2bab5a9",tooltip=" "];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="IAnimationDataController\l::ConditionalBracket",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/db0/classIAnimationDataController.html#ae56e9337819c77262c1c7b8daffc5677",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="IAnimationDataController\l::ConditionalTransaction",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/db0/classIAnimationDataController.html#a3b8034c4a990b08af81c4a6684ce0fd1",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="UE::FChangeTransactor\l::OpenTransaction",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d29/structUE_1_1FChangeTransactor.html#ac9bf4edb755f4a1d8fa1e642f17a5c5e",tooltip="Opens a new transaction with the provided description."];
+}

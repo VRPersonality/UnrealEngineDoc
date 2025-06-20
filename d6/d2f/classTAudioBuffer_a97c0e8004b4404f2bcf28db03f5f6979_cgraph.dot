@@ -1,0 +1,24 @@
+digraph "TAudioBuffer::operator*="
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TAudioBuffer::operator*=",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TAudioBuffer::TAudioBuffer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d2f/classTAudioBuffer.html#abb6e778905a09d3eefc4f70ccbdc06f7",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TAudioBuffer::Initialize",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d2f/classTAudioBuffer.html#a26d08e02d7c63facb9b6a0126f59901e",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TAudioBuffer::GetIsInterleaved",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d2f/classTAudioBuffer.html#ab1f4aea221d2927673dd450372cbfcee",tooltip=" "];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TAudioBuffer::GetNumValid\lChannels",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d2f/classTAudioBuffer.html#a1d2258a6393f686bc0f36e42e5a8bdae",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="TAudioBuffer::GetNumValid\lFrames",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d2f/classTAudioBuffer.html#a579b02531574350f644f94c290300354",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="TAudioBuffer::GetRawChannelData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d2f/classTAudioBuffer.html#a7d0dd5988cf25000115bc00248433b27",tooltip=" "];
+  Node7 -> Node8 [id="edge7_Node000007_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="TAudioBuffer::GetMaxNumChannels",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d2f/classTAudioBuffer.html#a7f5bd6858e80265542158f6d24bf42a1",tooltip=" "];
+}

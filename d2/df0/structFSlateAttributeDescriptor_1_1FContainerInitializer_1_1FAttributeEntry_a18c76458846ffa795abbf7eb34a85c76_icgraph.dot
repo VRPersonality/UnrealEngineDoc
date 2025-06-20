@@ -1,0 +1,14 @@
+digraph "FSlateAttributeDescriptor::FContainerInitializer::FAttributeEntry::FAttributeEntry"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FSlateAttributeDescriptor\l::FContainerInitializer\l::FAttributeEntry::FAttributeEntry",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FSlateAttributeDescriptor\l::FContainerInitializer\l::FAttributeEntry::OnValueChanged",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/df0/structFSlateAttributeDescriptor_1_1FContainerInitializer_1_1FAttributeEntry.html#a764830d6d2f91933ff9769ccac14c566",tooltip="Notified when the attribute value changed."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FSlateAttributeDescriptor\l::FContainerInitializer\l::FAttributeEntry::UpdatePrerequisite",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/df0/structFSlateAttributeDescriptor_1_1FContainerInitializer_1_1FAttributeEntry.html#a626544e795f6fda3e8e03812fbc00a70",tooltip="Update the attribute after the prerequisite."];
+}

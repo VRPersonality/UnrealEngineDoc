@@ -1,0 +1,21 @@
+digraph "TRingBuffer::DestructRange"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TRingBuffer::DestructRange",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Destruct all elements in the RingBuffer from Index RangeStart to Index RangeEnd."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="DestructItems",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dea/MemoryOps_8h.html#a0b36507a3186ec48a12d43548b47f669",tooltip="Destructs a range of items in memory."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TRingBuffer::GetStorage",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d46/classTRingBuffer.html#aa2fcf0b111c159373c595c9a3ae6cbd2",tooltip="Return a pointer to the underlying storage of the RingBuffer."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TRingBuffer::TRingBuffer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d46/classTRingBuffer.html#a8c285901c0c99ff13fe22f8035b51cb0",tooltip="Construct Empty Queue with capacity 0."];
+  Node3 -> Node3 [id="edge4_Node000003_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node5 [id="edge5_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TRingBuffer::Max",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d46/classTRingBuffer.html#a841b0cf4b4a9b0ba7a1340fa47e50bb1",tooltip="Current allocated Capacity, note this will always be a power of two, or the special case 0."];
+  Node1 -> Node6 [id="edge6_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="TRingBuffer::NeedsDestruct\lElements",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d46/classTRingBuffer.html#a4ddd780cb625faa57f3eafa584b58e6e",tooltip=" "];
+}

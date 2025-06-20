@@ -1,0 +1,46 @@
+digraph "SVerticesOutlinerRow::Construct"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="SVerticesOutlinerRow\l::Construct",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SMultiColumnTableRow\l::Construct",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/dd3/classSMultiColumnTableRow.html#a02243e1dfa8389d8210e61ffc0a0e606",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SBorder::Construct",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d51/classSBorder.html#ad01760241785a6e6cf32259ba917f8c8",tooltip="Construct this widget."];
+  Node3 -> Node3 [id="edge3_Node000003_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node4 [id="edge4_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="SMultiColumnTableRow\l::GenerateColumns",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/dd3/classSMultiColumnTableRow.html#a0f96a9668b078062d5ccca6bb50dd83e",tooltip=" "];
+  Node4 -> Node5 [id="edge5_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TMapBase::Add",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/dad/classTMapBase.html#ac6c17a873cb8e66fa9f53299d2317978",tooltip="Set the value associated with a key."];
+  Node5 -> Node6 [id="edge6_Node000005_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="TMapBase::Emplace",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/dad/classTMapBase.html#aedf2f4b6ff746fae0226902fbbff08f7",tooltip="Sets the value associated with a key."];
+  Node6 -> Node7 [id="edge7_Node000006_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="Forward",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d24/UnrealTemplate_8h.html#a68f280c1d561a8899a1e9e3ea8405d00",tooltip="Forward will cast a reference to an rvalue reference."];
+  Node4 -> Node8 [id="edge8_Node000004_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="TAttribute::Bind",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dcd/classTAttribute.html#a4ab45e6637b2da702ee662551ab061dd",tooltip="Binds an arbitrary function that will be called to generate this attribute's value on demand."];
+  Node4 -> Node9 [id="edge9_Node000004_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="TAttribute::BindRaw",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dcd/classTAttribute.html#afbddbebce38dd80effca911caa63c471",tooltip="Binds an arbitrary function that will be called to generate this attribute's value on demand."];
+  Node4 -> Node10 [id="edge10_Node000004_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="SMultiColumnTableRow\l::GenerateWidgetForColumn",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/dd3/classSMultiColumnTableRow.html#ad57639751d2ab07779538d1f39bbe7b8",tooltip="Users of SMultiColumnTableRow would usually some piece of data associated with it."];
+  Node4 -> Node11 [id="edge11_Node000004_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="TAttribute::Get",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dcd/classTAttribute.html#a08b5ad02ab005018cef6ed26fd2db616",tooltip="Gets the attribute's current value."];
+  Node4 -> Node12 [id="edge12_Node000004_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="SHeaderRow::FColumn\l::GetWidth",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d13/classSHeaderRow_1_1FColumn.html#a459c22f3e32e8a55437f2b1856764f58",tooltip=" "];
+  Node4 -> Node13 [id="edge13_Node000004_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="TIndirectArray::Num",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/dc5/classTIndirectArray.html#ad938dd8f3eb04eb5907d00b107286e55",tooltip="Gets number of elements in array."];
+  Node4 -> Node14 [id="edge14_Node000004_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="SWidget::SetClipping",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/de2/classSWidget.html#a8b6cef8748465cff903027485cc93ebc",tooltip="Sets the clipping to bounds rules for this widget."];
+  Node2 -> Node15 [id="edge15_Node000002_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="TSharedPtr::IsValid",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d2f/classTSharedPtr.html#acb5f7d3a359aaafcebe24b6b19882ad3",tooltip="Checks to see if this shared pointer is actually pointing to an object."];
+  Node2 -> Node16 [id="edge16_Node000002_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="SHeaderRow::OnColumnsChanged",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d15/classSHeaderRow.html#a5e4cfce45257f31bb42dc1e82cc03e14",tooltip=" "];
+  Node2 -> Node17 [id="edge17_Node000002_Node000017",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="TSharedPtr::ToSharedRef",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d2f/classTSharedPtr.html#acea59fa031bb7cc8946d17d144bea616",tooltip="Converts a shared pointer to a shared reference."];
+  Node1 -> Node1 [id="edge18_Node000001_Node000001",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node18 [id="edge19_Node000001_Node000018",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="FStarshipCoreStyle\l::GetCoreStyle",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/de7/classFStarshipCoreStyle.html#a4a97c5cc1506a45d7a8e08d3f544291a",tooltip=" "];
+}

@@ -1,0 +1,22 @@
+digraph "SetWidgetAttribute"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="SetWidgetAttribute",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Performs the attribute assignment and invalidates the widget minimally based on what actually changed..."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TAttribute::IdenticalTo",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dcd/classTAttribute.html#af4b582f06d8a3306fba7aad0d489a57d",tooltip="Is this attribute identical to another TAttribute."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TAttribute::TAttribute",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dcd/classTAttribute.html#ac2c7bbd4679cf26149a30afb3b34e75f",tooltip=" "];
+  Node3 -> Node3 [id="edge3_Node000003_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node4 [id="edge4_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TAttribute::IsBound",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dcd/classTAttribute.html#ae6cf86474bb6f31fc7483ac3ab488976",tooltip="Checks to see if this attribute has a 'getter' function bound."];
+  Node2 -> Node5 [id="edge5_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TAttribute::IsSet",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dcd/classTAttribute.html#a3a062929dd69ffe2d59ba4ab8e2234c2",tooltip="Was this TAttribute ever assigned?"];
+  Node1 -> Node6 [id="edge6_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="SWidget::Invalidate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/de2/classSWidget.html#adf19dfd42d5f63d8bf25ab6a1812b628",tooltip="Invalidates the widget from the view of a layout caching widget that may own this widget."];
+  Node1 -> Node4 [id="edge7_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+}

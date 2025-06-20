@@ -1,0 +1,38 @@
+digraph "TWidgetSlotWithAttributeSupport::Construct"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TWidgetSlotWithAttribute\lSupport::Construct",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TSlotBase::Construct",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/da2/classTSlotBase.html#aab744b726266b0a976605b48e85bf30b",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FSlotBase::AttachWidget",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d98/classFSlotBase.html#ab1a659117992d08b258e565b713b2e00",tooltip="Attach the child widget the slot now owns."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FSlotBase::AfterContentOr\lOwnerAssigned",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d98/classFSlotBase.html#a4080a2fc507b497039ea5c088fe2c386",tooltip=" "];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FSlotBase::DetatchParent\lFromContent",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d98/classFSlotBase.html#a0ada76b0316d64be429970d6c7d747dd",tooltip=" "];
+  Node3 -> Node6 [id="edge5_Node000003_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="MoveTemp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d24/UnrealTemplate_8h.html#ad5e6c049aeb9c9115fec514ba581dbb6",tooltip="MoveTemp will cast a reference to an rvalue reference."];
+  Node2 -> Node7 [id="edge6_Node000002_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="FSlotBase::SetOwner",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d98/classFSlotBase.html#a28fc88cd1b42b9bc652e7a24fb4f57f8",tooltip="Set the owner of the slot."];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="FChildren::GetName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d92/classFChildren.html#a3432b64bf9cb793bc5792cef56c4bdcb",tooltip="Option to give a name to Children to SlotAttribute purposes or for debugging."];
+  Node8 -> Node9 [id="edge8_Node000008_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="FChildren::Debug_TestDestroyTag",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d92/classFChildren.html#ad1ab88ab5aa915452954b2839f5daeec",tooltip=" "];
+  Node1 -> Node10 [id="edge9_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="FName::IsValid",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d53/classFName.html#ac28f3dd4b3b3d967dfe8aca6dba589ce",tooltip="Paranoid sanity check."];
+  Node10 -> Node11 [id="edge10_Node000010_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="FName::IsWithinBounds",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d53/classFName.html#ad59397053ec9fb8b9a8397fd451385f3",tooltip=" "];
+  Node11 -> Node12 [id="edge11_Node000011_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="FName::FName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d53/classFName.html#af79224dd2b82a2d82bd1050684d24179",tooltip="Create an FName with a hardcoded string index."];
+  Node12 -> Node12 [id="edge12_Node000012_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node6 [id="edge13_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node13 [id="edge14_Node000001_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="FChildren::SupportSlotWith\lSlateAttribute",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d92/classFChildren.html#ab8f2e9049890c2e8029688422a8092a9",tooltip=" "];
+  Node1 -> Node14 [id="edge15_Node000001_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="FName::ToString",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d53/classFName.html#aa1dc865b721f80e46e8d67993a24bb9e",tooltip="Converts an FName to a readable format."];
+}

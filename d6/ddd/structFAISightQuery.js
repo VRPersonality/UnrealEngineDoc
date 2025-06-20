@@ -1,0 +1,25 @@
+var structFAISightQuery =
+[
+    [ "FSortPredicate", "da/dba/classFAISightQuery_1_1FSortPredicate.html", "da/dba/classFAISightQuery_1_1FSortPredicate" ],
+    [ "FAISightQuery", "d6/ddd/structFAISightQuery.html#a94293050677979e660fc26f3cf814180", null ],
+    [ "ForgetPreviousResult", "d6/ddd/structFAISightQuery.html#a311205b8b79e4451f5b52891fd82698e", null ],
+    [ "GetAge", "d6/ddd/structFAISightQuery.html#a7a0f974633fc7b4441be744a2fea8ad8", null ],
+    [ "GetLastResult", "d6/ddd/structFAISightQuery.html#abb88a169481dc77e5e933e3630196043", null ],
+    [ "OnProcessed", "d6/ddd/structFAISightQuery.html#a2aa04086f6538d2318233dc4ccb42e73", null ],
+    [ "RecalcScore", "d6/ddd/structFAISightQuery.html#ab4355a53917863fe40f3e466edb890c1", null ],
+    [ "SetLastResult", "d6/ddd/structFAISightQuery.html#a0538f05a02cedfb7c5908cb981c83497", null ],
+    [ "SetTraceInfo", "d6/ddd/structFAISightQuery.html#a9fb3f18ea9fbb9c45d8637a32b63ef69", null ],
+    [ "bLastResult", "d6/ddd/structFAISightQuery.html#afcf0ab740ba3544451d31b8dafb7bba7", null ],
+    [ "bLastResult", "d6/ddd/structFAISightQuery.html#a6bd934f959199e60ab872662208e9092", null ],
+    [ "FrameInfo", "d6/ddd/structFAISightQuery.html#a70b0f49e634270569dff806777c4615e", null ],
+    [ "FrameNumber", "d6/ddd/structFAISightQuery.html#ab89b114460074ad5f09a2ee7757aba69", null ],
+    [ "Importance", "d6/ddd/structFAISightQuery.html#ac019fe35b8255855f1a2769d037a66ae", null ],
+    [ "Index", "d6/ddd/structFAISightQuery.html#aaa4d80a856cd41ce9747497f309826af", null ],
+    [ "LastProcessedFrameNumber", "d6/ddd/structFAISightQuery.html#a30788f792a61b3edc1e0d9081ddd9199", null ],
+    [ "LastSeenLocation", "d6/ddd/structFAISightQuery.html#a8b62f016e665c77ec31a14cae28824ab", null ],
+    [ "ObserverId", "d6/ddd/structFAISightQuery.html#a3f5392c9ec4544b8b8c3ebbf03b2098a", null ],
+    [ "Score", "d6/ddd/structFAISightQuery.html#a96eacebed38227ee63c4ddb0fb1121e7", null ],
+    [ "TargetId", "d6/ddd/structFAISightQuery.html#a9bb2ae59d1333033fd25c474694a14b5", null ],
+    [ "TraceInfo", "d6/ddd/structFAISightQuery.html#a1db2e8f7541c3694db853d4f218f43cb", null ],
+    [ "UserData", "d6/ddd/structFAISightQuery.html#aa8135d1e00e45977acfd814bf121bf13", null ]
+];

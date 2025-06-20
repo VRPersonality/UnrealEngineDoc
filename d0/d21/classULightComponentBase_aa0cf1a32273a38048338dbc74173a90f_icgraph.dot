@@ -1,0 +1,29 @@
+digraph "ULightComponentBase::UPROPERTY"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="ULightComponentBase\l::UPROPERTY",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="ULightComponentBase\l::GENERATED_UCLASS_BODY",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d21/classULightComponentBase.html#a3c0c2bc7353bc116686648d6e4589f84",tooltip="GUID used to associate a light component with precomputed shadowing information across levels."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="ULightComponentBase\l::UPROPERTY",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d21/classULightComponentBase.html#a6fe9298c2ef0025ab94bbb2b9040e27f",tooltip="Whether the light can affect the world, or whether it is disabled."];
+  Node1 -> Node1 [id="edge3_Node000001_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node4 [id="edge4_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="ULightComponentBase\l::UPROPERTY",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d21/classULightComponentBase.html#af3b7e017bffa873094131e63f068500b",tooltip=" "];
+  Node1 -> Node5 [id="edge5_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="ULightComponentBase\l::UPROPERTY",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d21/classULightComponentBase.html#a45f3c989e452c715f6ab8cb72ae4f0f3",tooltip="Samples per pixel for ray tracing."];
+  Node1 -> Node6 [id="edge6_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="ULightComponentBase\l::UPROPERTY",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d21/classULightComponentBase.html#a4a5aaed07765517bac694be31e3200c4",tooltip="Filter color of the light."];
+  Node1 -> Node7 [id="edge7_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="ULightComponentBase\l::UPROPERTY",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d21/classULightComponentBase.html#a4c9729d4ca81a8b7d91dce83c9da565c",tooltip="Whether the light affects objects in reflections, when ray-traced reflection is enabled."];
+  Node1 -> Node8 [id="edge8_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="ULightComponentBase\l::UPROPERTY",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d21/classULightComponentBase.html#aa9eb7f3615614e33a3f126a9145a7a55",tooltip="Scales the indirect lighting contribution from this light."];
+  Node1 -> Node9 [id="edge9_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="ULightComponentBase\l::UPROPERTY",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d21/classULightComponentBase.html#a0b7026ecf01cf844aaf19bca5d136e3c",tooltip="Total energy that the light emits."];
+  Node1 -> Node10 [id="edge10_Node000001_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="ULightComponentBase\l::UPROPERTY",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d21/classULightComponentBase.html#a6a5900e90ed7a61a389d2ba9b7015317",tooltip="Intensity of the volumetric scattering from this light."];
+}

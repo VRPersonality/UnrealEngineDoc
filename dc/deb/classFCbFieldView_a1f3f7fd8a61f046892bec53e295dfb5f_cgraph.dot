@@ -1,0 +1,16 @@
+digraph "FCbFieldView::operator bool"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FCbFieldView::operator bool",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Whether the field has a value."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FCbFieldView::HasValue",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/deb/classFCbFieldView.html#a8475f526254bfc80cab78461c0c9bf5f",tooltip="Whether the field has a value."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FCbFieldType::IsNone",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d96/classFCbFieldType.html#a18cc056f7c51bafc7d3dae2369e3ee27",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FCbFieldType::GetType",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d96/classFCbFieldType.html#a00b110adec77562ed38c5b94b6d8b236",tooltip="The type with flags removed."];
+}

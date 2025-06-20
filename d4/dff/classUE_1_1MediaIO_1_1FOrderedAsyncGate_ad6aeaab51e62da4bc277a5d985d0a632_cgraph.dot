@@ -1,0 +1,12 @@
+digraph "UE::MediaIO::FOrderedAsyncGate::WaitForTurn"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="UE::MediaIO::FOrderedAsync\lGate::WaitForTurn",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="This function will block until it is the turn of the given number to execute."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::MediaIO::FOrderedAsync\lGate::IsMyTurn",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/dff/classUE_1_1MediaIO_1_1FOrderedAsyncGate.html#a02748412c609d3ad456d100a02e98962",tooltip="Returns true if it is the turn of the given number."];
+}

@@ -1,0 +1,12 @@
+digraph "FQuantizedShadowSignedDistanceFieldData2D::FQuantizedShadowSignedDistanceFieldData2D"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FQuantizedShadowSignedDistance\lFieldData2D::FQuantizedShadowSigned\lDistanceFieldData2D",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FShadowMapData2D::FShadow\lMapData2D",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d5b/classFShadowMapData2D.html#a9de3b64e931e56e4c856137ce287b757",tooltip=" "];
+}

@@ -1,0 +1,16 @@
+digraph "FManagedStorageScopeFileLock::operator="
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FManagedStorageScopeFile\lLock::operator=",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FManagedStorageScopeFile\lLock::FManagedStorageScopeFileLock",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/da0/classFManagedStorageScopeFileLock.html#a48a3d1e00bed65d41d8f471ea5eef4c9",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FManagedStorageScopeFile\lLock::Lock",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/da0/classFManagedStorageScopeFileLock.html#ae613ce9101dfa5c7159c2d9bcad3e3f6",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="MoveTemp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d24/UnrealTemplate_8h.html#ad5e6c049aeb9c9115fec514ba581dbb6",tooltip="MoveTemp will cast a reference to an rvalue reference."];
+}

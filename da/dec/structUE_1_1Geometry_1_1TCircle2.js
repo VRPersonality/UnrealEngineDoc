@@ -1,0 +1,26 @@
+var structUE_1_1Geometry_1_1TCircle2 =
+[
+    [ "TCircle2", "da/dec/structUE_1_1Geometry_1_1TCircle2.html#afa6af848dc4cae572509983293b1cab5", null ],
+    [ "TCircle2", "da/dec/structUE_1_1Geometry_1_1TCircle2.html#a313a74e7d0adbb653a5cd9fcf1d2eab3", null ],
+    [ "TCircle2", "da/dec/structUE_1_1Geometry_1_1TCircle2.html#a99b0d522a9e7965187c4a20362fc7537", null ],
+    [ "Distance", "da/dec/structUE_1_1Geometry_1_1TCircle2.html#a7a36d894b2a2d6d08f5fc3ccd14e297f", null ],
+    [ "GetArea", "da/dec/structUE_1_1Geometry_1_1TCircle2.html#ae0723c8c44d0e51d984cde9bb6ea835e", null ],
+    [ "GetBoundingBox", "da/dec/structUE_1_1Geometry_1_1TCircle2.html#aba481d9e2219b7d914862619ff6281cc", null ],
+    [ "GetBoundingPolygonRadius", "da/dec/structUE_1_1Geometry_1_1TCircle2.html#aaa5a01e7849296dc6b1cec1d93ee6f38", null ],
+    [ "GetCircumference", "da/dec/structUE_1_1Geometry_1_1TCircle2.html#af6a63dab9d4a325fdf1cf65cce90eadb", null ],
+    [ "GetCurvature", "da/dec/structUE_1_1Geometry_1_1TCircle2.html#a934f07009b8923df1846d036082f15d7", null ],
+    [ "GetDiameter", "da/dec/structUE_1_1Geometry_1_1TCircle2.html#a2792cc887a031a76724fe4ff4b120ef6", null ],
+    [ "GetPointFromAngleD", "da/dec/structUE_1_1Geometry_1_1TCircle2.html#afb708a6ca7d896ec078344c0efc6317e", null ],
+    [ "GetPointFromAngleR", "da/dec/structUE_1_1Geometry_1_1TCircle2.html#af3093113162f7984b66e42d30a6237d4", null ],
+    [ "GetPointFromUnitParameter", "da/dec/structUE_1_1Geometry_1_1TCircle2.html#a3b419b0a96adfd289581db0fb14a4c6a", null ],
+    [ "GetSignedCurvature", "da/dec/structUE_1_1Geometry_1_1TCircle2.html#ade97536d99217ed18f2947beaf1bbc68", null ],
+    [ "IsInside", "da/dec/structUE_1_1Geometry_1_1TCircle2.html#abaf177935ff2c17bc06fbe0850a83907", null ],
+    [ "IsInsideOrOn", "da/dec/structUE_1_1Geometry_1_1TCircle2.html#ad58866c6a5427da86dc5e0a62d8d945a", null ],
+    [ "SetArea", "da/dec/structUE_1_1Geometry_1_1TCircle2.html#aa75c174a8e6a54c50e6c45cb735d8f3d", null ],
+    [ "SetCircumference", "da/dec/structUE_1_1Geometry_1_1TCircle2.html#a0b9ab8da0108e284f9bb4416257ed953", null ],
+    [ "SetDiameter", "da/dec/structUE_1_1Geometry_1_1TCircle2.html#ac449c922ad4deeb1338b0d11f6af2f54", null ],
+    [ "SignedDistance", "da/dec/structUE_1_1Geometry_1_1TCircle2.html#ae74edf7c6376db9c8f14068bef9a1150", null ],
+    [ "bIsReversed", "da/dec/structUE_1_1Geometry_1_1TCircle2.html#aea973d05dd1a91943cbf8c467b74570e", null ],
+    [ "Center", "da/dec/structUE_1_1Geometry_1_1TCircle2.html#a5d0e0fa707a079602192f55a8643f580", null ],
+    [ "Radius", "da/dec/structUE_1_1Geometry_1_1TCircle2.html#a9d2be3db028cfde1376163ddc419b868", null ]
+];

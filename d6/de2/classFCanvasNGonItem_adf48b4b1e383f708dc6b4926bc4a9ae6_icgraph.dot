@@ -1,0 +1,12 @@
+digraph "FCanvasNGonItem::SetupPosition"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FCanvasNGonItem::SetupPosition",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Regenerates the tri list for the object with a new central point and radius."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FCanvasNGonItem::FCanvas\lNGonItem",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/de2/classFCanvasNGonItem.html#a6ba8f93dec9abd14db60ee1fda3c7348",tooltip="NGon item Several texture tris with a common central point with a fixed radius."];
+}

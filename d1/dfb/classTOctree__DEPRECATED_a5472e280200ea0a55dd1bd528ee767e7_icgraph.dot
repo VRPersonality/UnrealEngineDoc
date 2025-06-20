@@ -1,0 +1,22 @@
+digraph "TOctree_DEPRECATED::SetOctreeMemoryUsage"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TOctree_DEPRECATED\l::SetOctreeMemoryUsage",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="this function basically set TotalSizeBytes, but gives opportunity to include this Octree in memory st..."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TOctree_DEPRECATED\l::AddElementToNode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/dfb/classTOctree__DEPRECATED.html#abd2d9475a8392920066214535c864fdc",tooltip="Adds an element to a node or its children."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TOctree_DEPRECATED\l::AddElement",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/dfb/classTOctree__DEPRECATED.html#aff4c7ca514bdb263de836a92f03f492b",tooltip="Adds an element to the octree."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TOctree_DEPRECATED\l::ApplyOffset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/dfb/classTOctree__DEPRECATED.html#a9ca49ee8586fe4a12910c93213d646a3",tooltip="Apply an arbitrary offset to all elements in the tree InOffset - offset to apply bGlobalOctree - hint..."];
+  Node2 -> Node2 [id="edge4_Node000002_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node5 [id="edge5_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TOctree_DEPRECATED\l::Destroy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/dfb/classTOctree__DEPRECATED.html#a895fed3e56827b94077c8c1acca548c3",tooltip=" "];
+  Node5 -> Node4 [id="edge6_Node000005_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node6 [id="edge7_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="TOctree_DEPRECATED\l::RemoveElement",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/dfb/classTOctree__DEPRECATED.html#a96a94f6097c55ac0449bdbdfdef13def",tooltip="Removes an element from the octree."];
+}

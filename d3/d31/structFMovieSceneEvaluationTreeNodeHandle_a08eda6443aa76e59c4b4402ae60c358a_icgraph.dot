@@ -1,0 +1,16 @@
+digraph "FMovieSceneEvaluationTreeNodeHandle::Invalid"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FMovieSceneEvaluationTree\lNodeHandle::Invalid",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Special handle that represents an invalid node."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FMovieSceneEvaluationTree\l::FMovieSceneEvaluationTree",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d77/structFMovieSceneEvaluationTree.html#a16ba175bfd3d931aa317c1ed9cbfb0fc",tooltip="Move construction must ensure that the root node is correctly restored to its default to ensure that ..."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TMovieSceneEvaluationTree\lDataIterator::end",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d79/structTMovieSceneEvaluationTreeDataIterator.html#a10d05394fae66607b95c66fa810cf8bd",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FMovieSceneEvaluationTree\l::operator=",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d77/structFMovieSceneEvaluationTree.html#abbc78d597b85885e66ac9532ab23355c",tooltip="Move assignment must ensure that the root node is correctly restored to its default to ensure that in..."];
+}

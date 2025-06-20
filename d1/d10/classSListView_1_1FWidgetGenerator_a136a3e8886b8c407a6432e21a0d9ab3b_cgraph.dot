@@ -1,0 +1,17 @@
+digraph "SListView::FWidgetGenerator::OnEndGenerationPass"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="SListView::FWidgetGenerator\l::OnEndGenerationPass",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Called at the end of the generation pass."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SListView::FWidgetGenerator\l::ProcessItemCleanUp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d10/classSListView_1_1FWidgetGenerator.html#a773d2c04adcb013230219cd8e0802d80",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TSharedRef::Get",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/df2/classTSharedRef.html#a69b7bd60134fb963c15d4beb2478f126",tooltip="Returns a C++ reference to the object this shared reference is referencing."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="SListView::FWidgetGenerator\l::ValidateWidgetGeneration",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d10/classSListView_1_1FWidgetGenerator.html#a913be727f1a81fcdee6c86d959cfac95",tooltip=" "];
+  Node4 -> Node3 [id="edge4_Node000004_Node000003",color="steelblue1",style="solid",tooltip=" "];
+}

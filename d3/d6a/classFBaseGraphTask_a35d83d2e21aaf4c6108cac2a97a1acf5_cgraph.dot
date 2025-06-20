@@ -1,0 +1,12 @@
+digraph "FBaseGraphTask::IsTaskEvent"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FBaseGraphTask::IsTaskEvent",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Returns true if this is a simple task event, which cannot execute code and must be manually dispatche..."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Tasks::Private\l::FTaskBase::GetExtendedPriority",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d14/classUE_1_1Tasks_1_1Private_1_1FTaskBase.html#a46891bac93d372677d4134d35e15dc9b",tooltip=" "];
+}

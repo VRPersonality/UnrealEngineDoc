@@ -1,4 +1,4 @@
 var DebugTextInfo_8h =
 [
-    [ "FDebugTextInfo", "d7/d3c/structFDebugTextInfo.html", "d7/d3c/structFDebugTextInfo" ]
+    [ "USTRUCT", "de/dd8/DebugTextInfo_8h.html#a5dac4b770f6ac5672c0dbfe5533ac0d1", null ]
 ];

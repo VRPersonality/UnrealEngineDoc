@@ -1,0 +1,22 @@
+digraph "FQualifiedFrameTime::ConvertTo"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FQualifiedFrameTime\l::ConvertTo",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Convert this frame time to a different frame rate."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FFrameRate::TransformTime",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d97/structFFrameRate.html#a31609b2b2543154dc1eea2c1a1d4c7dc",tooltip="Convert the specified time from one framerate to another framerate."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FFrameRate::FFrameRate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d97/structFFrameRate.html#a80c86a75277dd25feb06223a3951b05b",tooltip="Default construction to a frame rate of 60000 frames per second (0.0166 ms)"];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="ConvertFrameTime",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d9e/FrameRate_8h.html#a33c1e391b88873a85a292367cf0a0a62",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FMath::Clamp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d20/structFMath.html#a7dbca5929b2ea7f13304eb4c927dab6c",tooltip="Clamps X to be between Min and Max, inclusive."];
+  Node4 -> Node6 [id="edge5_Node000004_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FFrameTime::GetFrame",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d8e/structFFrameTime.html#a9c0ade8bc32907ebd0599146050f50aa",tooltip="Access this time's frame number."];
+  Node4 -> Node7 [id="edge6_Node000004_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="FFrameTime::GetSubFrame",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d8e/structFFrameTime.html#abe04028be2226dc957dc0ec844d070ab",tooltip="Access this time's sub frame."];
+}

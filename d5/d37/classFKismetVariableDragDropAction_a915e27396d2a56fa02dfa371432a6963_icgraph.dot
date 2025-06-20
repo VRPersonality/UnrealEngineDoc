@@ -1,0 +1,12 @@
+digraph "FKismetVariableDragDropAction::GetLinksThatWillBreak"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FKismetVariableDragDropAction\l::GetLinksThatWillBreak",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Test new variable type against existing links for node and get any links that will break."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FKismetVariableDragDropAction\l::WillBreakLinks",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d37/classFKismetVariableDragDropAction.html#a5f0a22b93e48b9258e4569cf50b67b28",tooltip="Indicates if replacing the variable node, with the new property will require any links to be broken."];
+}

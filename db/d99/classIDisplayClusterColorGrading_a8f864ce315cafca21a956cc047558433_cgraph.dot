@@ -1,0 +1,23 @@
+digraph "IDisplayClusterColorGrading::Get"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="IDisplayClusterColorGrading::Get",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Singleton-like access to this module's interface."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FModuleManager::GetModule\lChecked",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dbe/classFModuleManager.html#ad6b07e263e8862f6f71891440a632208",tooltip="Gets a module by name, checking to ensure it exists."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FModuleManager::FModuleManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dbe/classFModuleManager.html#a67c83926cfb9bc1f1aafd4cc37580edc",tooltip="Hidden constructor."];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FModuleManager::Get",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dbe/classFModuleManager.html#a4035f1cd1c863f7efb0cac6fef1e0706",tooltip="Gets the singleton instance of the module manager."];
+  Node4 -> Node3 [id="edge4_Node000004_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node5 [id="edge5_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FModuleManager::GetModule",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dbe/classFModuleManager.html#a43b47356087afe6f21078b5be0ddf153",tooltip="Gets the specified module."];
+  Node2 -> Node6 [id="edge6_Node000002_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FModuleManager::IsModule\lLoaded",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dbe/classFModuleManager.html#a30117d30d580add31cf1c0f3bfaf952f",tooltip="Checks whether the specified module is currently loaded."];
+  Node2 -> Node7 [id="edge7_Node000002_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="FName::ToString",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d53/classFName.html#aa1dc865b721f80e46e8d67993a24bb9e",tooltip="Converts an FName to a readable format."];
+}

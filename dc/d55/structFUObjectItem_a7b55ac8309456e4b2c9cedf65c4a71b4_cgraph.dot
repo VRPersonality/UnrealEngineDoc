@@ -1,0 +1,16 @@
+digraph "FUObjectItem::UE_DEPRECATED"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FUObjectItem::UE_DEPRECATED",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FUObjectItem::SetGarbage",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d55/structFUObjectItem.html#a62c16f6590c77d2bccbb62fd6bb60dc4",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FUObjectItem::Atomically\lSetFlag_ForGC",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d55/structFUObjectItem.html#aab6b758be90cd15ea9c79b2e3e95a581",tooltip="Uses atomics to set the specified flag(s)."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FUObjectItem::GetFlagsInternal",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d55/structFUObjectItem.html#a5644d392a2101434d2eb8799abfca7c8",tooltip=" "];
+}

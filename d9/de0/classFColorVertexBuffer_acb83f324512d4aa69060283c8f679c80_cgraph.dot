@@ -1,0 +1,12 @@
+digraph "FColorVertexBuffer::operator="
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FColorVertexBuffer\l::operator=",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Specialized assignment operator, only used when importing LOD's."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FColorVertexBuffer\l::FColorVertexBuffer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/de0/classFColorVertexBuffer.html#ae950c3dedfed7c42e4c1b479300b1f6b",tooltip="Default constructor."];
+}

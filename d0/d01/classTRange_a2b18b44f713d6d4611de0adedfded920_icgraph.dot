@@ -1,0 +1,16 @@
+digraph "TRange::Overlaps"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TRange::Overlaps",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Check whether this range overlaps with another."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TRangeSet::Add",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/df2/classTRangeSet.html#ac431bef0c0f97e9942cb09b3e82dc26f",tooltip="Adds a range to the set."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TRange\< float \>::Contiguous",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d01/classTRange.html#a7a4cd30c277c73c2d9739d18f8d0b04f",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FMediaIOCoreSampleContainer\l::FetchSample",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/df3/classFMediaIOCoreSampleContainer.html#a6b7f3bce1009d7c8e78c4836819bc400",tooltip=" "];
+}

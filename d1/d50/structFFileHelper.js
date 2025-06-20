@@ -1,0 +1,57 @@
+var structFFileHelper =
+[
+    [ "EColorChannel", "d1/d50/structFFileHelper.html#a50c385a5ebd1f1e256e2e98e5df8a35b", [
+      [ "R", "d1/d50/structFFileHelper.html#a50c385a5ebd1f1e256e2e98e5df8a35bae1e1d3d40573127e9ee0480caf1283d6", null ],
+      [ "G", "d1/d50/structFFileHelper.html#a50c385a5ebd1f1e256e2e98e5df8a35badfcf28d0734569a6a693bc8194de62bf", null ],
+      [ "B", "d1/d50/structFFileHelper.html#a50c385a5ebd1f1e256e2e98e5df8a35ba9d5ed678fe57bcca610140957afab571", null ],
+      [ "A", "d1/d50/structFFileHelper.html#a50c385a5ebd1f1e256e2e98e5df8a35ba7fc56270e7a70fa81a5935b72eacbe29", null ],
+      [ "All", "d1/d50/structFFileHelper.html#a50c385a5ebd1f1e256e2e98e5df8a35bab1c94ca2fbc3e78fc30069c8d0f01680", null ]
+    ] ],
+    [ "EEncodingOptions", "d1/d50/structFFileHelper.html#a57eed84eaae6dcdcda235c06f4cb99d4", [
+      [ "AutoDetect", "d1/d50/structFFileHelper.html#a57eed84eaae6dcdcda235c06f4cb99d4a10c84306f5bb51fdad714b1f2f4463cf", null ],
+      [ "ForceAnsi", "d1/d50/structFFileHelper.html#a57eed84eaae6dcdcda235c06f4cb99d4a8218bdf1fa0c6f4b9a5ee658e4cf7baf", null ],
+      [ "ForceUnicode", "d1/d50/structFFileHelper.html#a57eed84eaae6dcdcda235c06f4cb99d4adc7329007fbf3b4f5ed73c05ed3ecc62", null ],
+      [ "ForceUTF8", "d1/d50/structFFileHelper.html#a57eed84eaae6dcdcda235c06f4cb99d4ab75040253aa905cb1710ec348993feb5", null ],
+      [ "ForceUTF8WithoutBOM", "d1/d50/structFFileHelper.html#a57eed84eaae6dcdcda235c06f4cb99d4a9d1f6525c89c00f4df850a66f904915c", null ]
+    ] ],
+    [ "EHashOptions", "d1/d50/structFFileHelper.html#a84fb273f351bd0747e93de9c6e367b52", [
+      [ "None", "d1/d50/structFFileHelper.html#a84fb273f351bd0747e93de9c6e367b52a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "EnableVerify", "d1/d50/structFFileHelper.html#a84fb273f351bd0747e93de9c6e367b52ab56c90807c1b46daba9ef300f1597598", null ],
+      [ "ErrorMissingHash", "d1/d50/structFFileHelper.html#a84fb273f351bd0747e93de9c6e367b52ae66a7e7cdd3a44e583ae61638c128aa5", null ]
+    ] ],
+    [ "BufferToString", "d1/d50/structFFileHelper.html#a7c039eb01bede290445233049caea401", null ],
+    [ "CreateBitmap", "d1/d50/structFFileHelper.html#a69d811ebdf8b0e90c388a202f12efd89", null ],
+    [ "GenerateDateTimeBasedBitmapFilename", "d1/d50/structFFileHelper.html#a7478f2c538f61aaaf416672f1eb7eb82", null ],
+    [ "GenerateNextBitmapFilename", "d1/d50/structFFileHelper.html#a10e4d09ea574e27431aa22b0c382b7ab", null ],
+    [ "IsFilenameValidForSaving", "d1/d50/structFFileHelper.html#ab40effe6e39695d990e3d485f2a7cc5c", null ],
+    [ "LoadANSITextFileToStrings", "d1/d50/structFFileHelper.html#a244a6bbe61df86ade70cd30378945acf", null ],
+    [ "LoadFileInBlocks", "d1/d50/structFFileHelper.html#acb4216e5b8a48aa9c6cb4c80372ba33c", null ],
+    [ "LoadFileToArray", "d1/d50/structFFileHelper.html#a82aa031db3c463214bae15b2b23cb1dd", null ],
+    [ "LoadFileToArray", "d1/d50/structFFileHelper.html#a2eab5a3fe988012312b47c12d1a88938", null ],
+    [ "LoadFileToString", "d1/d50/structFFileHelper.html#a9322090ad336ac823738621f8a89b25a", null ],
+    [ "LoadFileToString", "d1/d50/structFFileHelper.html#a49b34e07394fee758e714d57d9ac58cf", null ],
+    [ "LoadFileToString", "d1/d50/structFFileHelper.html#ad422cdd8d4f8f6cfc7f362ec1b82e0dd", null ],
+    [ "LoadFileToStringArray", "d1/d50/structFFileHelper.html#a30a63ef243ca61b749808e27712ea296", null ],
+    [ "LoadFileToStringArrayWithPredicate", "d1/d50/structFFileHelper.html#ac9b79159d732ae58c28ce7419626ee1e", null ],
+    [ "LoadFileToStringWithLineVisitor", "d1/d50/structFFileHelper.html#a01a9b5624479b7034fe50c34bb82ef4a", null ],
+    [ "SaveArrayToFile", "d1/d50/structFFileHelper.html#aa0230b8893bb8ef0489919b21804f725", null ],
+    [ "SaveArrayToFile", "d1/d50/structFFileHelper.html#a7d0e1748f3031b320b93d7fa2badadeb", null ],
+    [ "SaveStringArrayToFile", "d1/d50/structFFileHelper.html#a29bdb5337a25ceeddddbb5ed8193b1a0", null ],
+    [ "SaveStringToFile", "d1/d50/structFFileHelper.html#a9f87d3b689c1e2cb24e8e449d31e4a58", null ],
+    [ "UE_DEPRECATED", "d1/d50/structFFileHelper.html#ae043c540fa2fd2945e9eda75b7679d1d", null ],
+    [ "UE_DEPRECATED", "d1/d50/structFFileHelper.html#ad849ea8ea1b7550c43b8fe022b99ab6d", null ],
+    [ "UE_DEPRECATED", "d1/d50/structFFileHelper.html#a715122491a9ec1f007afb77202ed36d0", null ],
+    [ "UE_DEPRECATED", "d1/d50/structFFileHelper.html#a4ba3663fc4673dee8cc97f735740187a", null ],
+    [ "bInWriteAlpha", "d1/d50/structFFileHelper.html#ab7d59a997f351fc2aeac78f74ac3d327", null ],
+    [ "ChannelMask", "d1/d50/structFFileHelper.html#a74996dd1338c7930bfef238d2adb203a", null ],
+    [ "Data", "d1/d50/structFFileHelper.html#a7098341e27b354346d897be26b9add0e", null ],
+    [ "DataHeight", "d1/d50/structFFileHelper.html#a5cbdcf35dc05aed4e1b65e29fa18e201", null ],
+    [ "DataWidth", "d1/d50/structFFileHelper.html#a1b438235c49f38f552cfb9d8e90df9dd", null ],
+    [ "FileManager", "d1/d50/structFFileHelper.html#a675c6026b7ea61e3337c2dc099089a75", null ],
+    [ "Filename", "d1/d50/structFFileHelper.html#a7d615e337c50c9d8ac96dc796e9dbb74", null ],
+    [ "OutFilename", "d1/d50/structFFileHelper.html#a0f1c69c3469999c1457079b20a1afc79", null ],
+    [ "Predicate", "d1/d50/structFFileHelper.html#ac147aa6419b276231924020e59d9ff95", null ],
+    [ "SubRectangle", "d1/d50/structFFileHelper.html#ad7477f9230bfc772010969d0df2bcb46", null ],
+    [ "VerifyFlags", "d1/d50/structFFileHelper.html#aa52a9ca11025f56510984ccb9aca5a30", null ],
+    [ "VerifyFlags", "d1/d50/structFFileHelper.html#a645cf7ceb89df525432a2cf8bdb1b51a", null ]
+];

@@ -1,0 +1,44 @@
+digraph "UE::Core::Private::TInvokeResult_Impl&lt; typename, FuncType, ArgTypes &gt;"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [id="Node000001",shape=plain,label=<<TABLE CELLBORDER="0" BORDER="1"><TR><TD COLSPAN="2" CELLPADDING="1" CELLSPACING="0">UE::Core::Private::<BR ALIGN="LEFT"/>TInvokeResult_Impl&lt;<BR ALIGN="LEFT"/> typename, FuncType,<BR ALIGN="LEFT"/> ArgTypes &gt;</TD></TR>
+<HR/>
+<TR><TD COLSPAN="2" CELLPADDING="1" CELLSPACING="0">&nbsp;</TD></TR>
+<HR/>
+<TR><TD COLSPAN="2" CELLPADDING="1" CELLSPACING="0">&nbsp;</TD></TR>
+</TABLE>>
+,height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="orange",style="solid",tooltip=" ",label=<<TABLE CELLBORDER="0" BORDER="0"><TR><TD VALIGN="top" ALIGN="LEFT" CELLPADDING="1" CELLSPACING="0">&lt; void, FuncType, ArgTypes... &gt;</TD></TR>
+</TABLE>> ,fontcolor="grey" ];
+  Node2 [id="Node000002",shape=plain,label=<<TABLE CELLBORDER="0" BORDER="1"><TR><TD COLSPAN="2" CELLPADDING="1" CELLSPACING="0">UE::Core::Private::<BR ALIGN="LEFT"/>TInvokeResult_Impl&lt;<BR ALIGN="LEFT"/> void, FuncType, ArgTypes... &gt;</TD></TR>
+<HR/>
+<TR><TD COLSPAN="2" CELLPADDING="1" CELLSPACING="0">&nbsp;</TD></TR>
+<HR/>
+<TR><TD COLSPAN="2" CELLPADDING="1" CELLSPACING="0">&nbsp;</TD></TR>
+</TABLE>>
+,height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$de/d30/structUE_1_1Core_1_1Private_1_1TInvokeResult__Impl.html",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" ",arrowtail="onormal"];
+  Node3 [id="Node000003",shape=plain,label=<<TABLE CELLBORDER="0" BORDER="1"><TR><TD COLSPAN="2" CELLPADDING="1" CELLSPACING="0">TInvokeResult&lt; FuncType,<BR ALIGN="LEFT"/> ArgTypes &gt;</TD></TR>
+<HR/>
+<TR><TD COLSPAN="2" CELLPADDING="1" CELLSPACING="0">&nbsp;</TD></TR>
+<HR/>
+<TR><TD COLSPAN="2" CELLPADDING="1" CELLSPACING="0">&nbsp;</TD></TR>
+</TABLE>>
+,height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$db/de6/structTInvokeResult.html",tooltip="Trait for the type of the result when invoking a callable with the given argument types."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="orange",style="solid",tooltip=" ",label=<<TABLE CELLBORDER="0" BORDER="0"><TR><TD VALIGN="top" ALIGN="LEFT" CELLPADDING="1" CELLSPACING="0">&lt; decltype((void) Invoke</TD></TR>
+<TR><TD VALIGN="top" ALIGN="LEFT" CELLPADDING="1" CELLSPACING="0">&nbsp;&nbsp;(DeclVal&lt; FuncType &gt;(),</TD></TR>
+<TR><TD VALIGN="top" ALIGN="LEFT" CELLPADDING="1" CELLSPACING="0">&nbsp;&nbsp; DeclVal&lt; ArgTypes &gt;()...)</TD></TR>
+<TR><TD VALIGN="top" ALIGN="LEFT" CELLPADDING="1" CELLSPACING="0">&nbsp;&nbsp;), FuncType, ArgTypes... &gt;</TD></TR>
+</TABLE>> ,fontcolor="grey" ];
+  Node4 [id="Node000004",shape=plain,label=<<TABLE CELLBORDER="0" BORDER="1"><TR><TD COLSPAN="2" CELLPADDING="1" CELLSPACING="0">UE::Core::Private::<BR ALIGN="LEFT"/>TInvokeResult_Impl&lt;<BR ALIGN="LEFT"/> decltype((void) Invoke<BR ALIGN="LEFT"/>(DeclVal&lt; FuncType &gt;(),<BR ALIGN="LEFT"/> DeclVal&lt; ArgTypes &gt;()...)<BR ALIGN="LEFT"/>), FuncType, ArgTypes... &gt;</TD></TR>
+<HR/>
+<TR><TD COLSPAN="2" CELLPADDING="1" CELLSPACING="0">&nbsp;</TD></TR>
+<HR/>
+<TR><TD COLSPAN="2" CELLPADDING="1" CELLSPACING="0">&nbsp;</TD></TR>
+</TABLE>>
+,height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d8/def/structUE_1_1Core_1_1Private_1_1TInvokeResult__Impl_3_01decltype_07_07void_08_01Invoke_07DeclVal_5e400b090c77914d0c5bfc7c92c83d58.html",tooltip=" "];
+}

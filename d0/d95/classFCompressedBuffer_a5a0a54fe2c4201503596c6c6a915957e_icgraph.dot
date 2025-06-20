@@ -1,0 +1,15 @@
+digraph "FCompressedBuffer::FromCompressed"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FCompressedBuffer::\lFromCompressed",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Construct from a compressed buffer previously created by Compress()."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FCompressedBuffer::\lMakeOwned",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d95/classFCompressedBuffer.html#a5c75780af231e81e0172fdcd62f03c81",tooltip=" "];
+  Node2 -> Node2 [id="edge2_Node000002_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node3 [id="edge3_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FCompressedBuffer::\lMakeOwned",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d95/classFCompressedBuffer.html#a175345ca5007488e73c0f5783740f744",tooltip="Returns a copy of the compressed buffer that owns its underlying memory."];
+}

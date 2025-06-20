@@ -1,0 +1,16 @@
+digraph "FViewportCameraTransform::GetRotation"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FViewportCameraTransform\l::GetRotation",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FEditorViewportClient\l::GetViewRotation",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d9e/classFEditorViewportClient.html#a0d847c414cab7330365d829a57c1500a",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FBookMarkTypeActions\l::InitFromViewport",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/dd0/classFBookMarkTypeActions.html#a10b14a07a93611287643016acb60e671",tooltip="Called to initialize the given bookmark from the given Viewport."];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FEditorViewportClient\l::RemoveCameraRoll",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d9e/classFEditorViewportClient.html#a58d96fdfc9bbb76a7d9cce4967981c70",tooltip=" "];
+}

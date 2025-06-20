@@ -1,0 +1,26 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="FMovieSceneTimeController",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d98/structFMovieSceneTimeController.html",tooltip=" "];
+  Node0 -> Node1 [id="edge4434_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 [id="Node000001",label="FMovieSceneTimeController\l_Custom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d48/structFMovieSceneTimeController__Custom.html",tooltip=" "];
+  Node0 -> Node2 [id="edge4435_Node000000_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FMovieSceneTimeController\l_ExternalClock",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d75/structFMovieSceneTimeController__ExternalClock.html",tooltip="A timing manager that retrieves its time from an external clock source."];
+  Node2 -> Node3 [id="edge4436_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FMovieSceneTimeController\l_AudioClock",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/dd8/structFMovieSceneTimeController__AudioClock.html",tooltip="A timing manager that retrieves its time from the audio clock."];
+  Node2 -> Node4 [id="edge4437_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FMovieSceneTimeController\l_PlatformClock",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d05/structFMovieSceneTimeController__PlatformClock.html",tooltip="A timing manager that retrieves its time from the platform clock."];
+  Node2 -> Node5 [id="edge4438_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FMovieSceneTimeController\l_RelativeTimecodeClock",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/dda/structFMovieSceneTimeController__RelativeTimecodeClock.html",tooltip="A timing manager that retrieves its time relative to the Timecode clock."];
+  Node0 -> Node6 [id="edge4439_Node000000_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FMovieSceneTimeController\l_PlayEveryFrame",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d8d/structFMovieSceneTimeController__PlayEveryFrame.html",tooltip="A timing manager that plays every display frame for a certain number of seconds."];
+  Node0 -> Node7 [id="edge4440_Node000000_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="FMovieSceneTimeController_Tick",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d04/structFMovieSceneTimeController__Tick.html",tooltip="A timing manager that accumulates delta times from a world."];
+  Node0 -> Node8 [id="edge4441_Node000000_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="FMovieSceneTimeController\l_TimecodeClock",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d1d/structFMovieSceneTimeController__TimecodeClock.html",tooltip="A timing manager that retrieves its time from the Timecode clock."];
+}

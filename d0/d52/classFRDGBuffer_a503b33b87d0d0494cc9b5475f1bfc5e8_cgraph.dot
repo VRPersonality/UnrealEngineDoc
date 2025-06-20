@@ -1,0 +1,16 @@
+digraph "FRDGBuffer::GetIndirectRHICallBuffer"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FRDGBuffer::GetIndirectRHICall\lBuffer",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Returns the buffer to use for indirect RHI calls."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FRDGBuffer::GetRHI",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d52/classFRDGBuffer.html#adf8bd85dee7178735fde2238b9af6c83",tooltip="The following methods may only be called during pass execution."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FRDGResource::GetRHI",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d89/classFRDGResource.html#a96562c9d58fa49ccd5efa43e8d787ffa",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FRDGResource::ValidateRHIAccess",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d89/classFRDGResource.html#a4c5c025bc9233fb63354542bdb7dd854",tooltip=" "];
+}

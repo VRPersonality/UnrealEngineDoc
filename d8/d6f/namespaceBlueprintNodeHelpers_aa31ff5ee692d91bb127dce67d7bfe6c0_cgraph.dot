@@ -1,0 +1,18 @@
+digraph "BlueprintNodeHelpers::GetNodeName"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="BlueprintNodeHelpers\l::GetNodeName",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UObjectBase::GetClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/dc4/classUObjectBase.html#aec8a35623318f252d20c7ea59a771687",tooltip="Returns the UClass that defines the fields of this object."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UObjectBaseUtility\l::GetName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d7b/classUObjectBaseUtility.html#a9cbbee0c3614fa6de5d125a2d28bf609",tooltip="Returns the name of this object (with no path information)"];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UObjectBase::GetFName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/dc4/classUObjectBase.html#a52d48dbf4c1cb6f4959b4c9ef374de2d",tooltip="Returns the logical name of this object."];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FName::ToString",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d53/classFName.html#aa1dc865b721f80e46e8d67993a24bb9e",tooltip="Converts an FName to a readable format."];
+}

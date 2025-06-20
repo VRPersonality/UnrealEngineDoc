@@ -1,0 +1,12 @@
+digraph "TRingBuffer::RemoveAll"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TRingBuffer::RemoveAll",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Removes all items for which a given predicate applies, maintaining order but not indices."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TRingBuffer::Remove",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d46/classTRingBuffer.html#ac6558e13172088ce88821c0e98f3e969",tooltip="Removes as many instances of Item as there are in the array, maintaining order but not indices."];
+}

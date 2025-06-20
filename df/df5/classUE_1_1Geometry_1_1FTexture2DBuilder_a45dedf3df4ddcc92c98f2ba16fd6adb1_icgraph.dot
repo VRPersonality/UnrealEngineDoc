@@ -1,0 +1,18 @@
+digraph "UE::Geometry::FTexture2DBuilder::IsFloat16Texture"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UE::Geometry::FTexture2DBuilder\l::IsFloat16Texture",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Geometry::FTexture2DBuilder\l::GetTexelFloat16",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/df5/classUE_1_1Geometry_1_1FTexture2DBuilder.html#a4f35291a25afa7c9f77f429cdb63c710",tooltip="Get the FFloat16Color texel at the given X/Y coordinates."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::Geometry::FTexture2DBuilder\l::GetTexelFloat16",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/df5/classUE_1_1Geometry_1_1FTexture2DBuilder.html#ae384ee3a24360cbea05a1a35d699e208",tooltip="Get the FFloat16Color texel at the given linear index."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UE::Geometry::FTexture2DBuilder\l::SetTexel",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/df5/classUE_1_1Geometry_1_1FTexture2DBuilder.html#aeca163e7761784621dbad694cf0aac8b",tooltip="Set the texel at the given X/Y coordinates to the given FFloat16Color."];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="UE::Geometry::FTexture2DBuilder\l::SetTexel",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/df5/classUE_1_1Geometry_1_1FTexture2DBuilder.html#a628bfefe8a1ab8c7647fd7c869d61702",tooltip="Set the texel at the given linear index to the given FFloat16Color."];
+}

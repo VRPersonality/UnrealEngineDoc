@@ -1,0 +1,26 @@
+var classFObjectPreSaveContext =
+[
+    [ "FObjectPreSaveContext", "d3/d0c/classFObjectPreSaveContext.html#a09d6da29b88d27b2bd5efcf2a9a93915", null ],
+    [ "FObjectPreSaveContext", "d3/d0c/classFObjectPreSaveContext.html#a01ee539742ca031aac9a1ca96820e2f0", null ],
+    [ "GetCookingDLC", "d3/d0c/classFObjectPreSaveContext.html#acfc2662de947e88b81b08ea74fc5fe86", null ],
+    [ "GetCookType", "d3/d0c/classFObjectPreSaveContext.html#a2a9573bf246b03e19c0fd1563463fbfe", null ],
+    [ "GetPhase", "d3/d0c/classFObjectPreSaveContext.html#a15295a51b1a64053e4d5cc4300c4c2bb", null ],
+    [ "GetSaveFlags", "d3/d0c/classFObjectPreSaveContext.html#af366f038c8d4551c40d5972f8ce20495", null ],
+    [ "GetTargetFilename", "d3/d0c/classFObjectPreSaveContext.html#a7dc62a976da54e90477b5edce14272cb", null ],
+    [ "GetTargetPlatform", "d3/d0c/classFObjectPreSaveContext.html#a996db31deeadbae396fc7b698720d4b3", null ],
+    [ "IsCookByTheBook", "d3/d0c/classFObjectPreSaveContext.html#a694e251cd55cadb33272a3ef37d60504", null ],
+    [ "IsCooking", "d3/d0c/classFObjectPreSaveContext.html#acbd4ea5d1e9a3680dff7a065273c2e97", null ],
+    [ "IsCookOnTheFly", "d3/d0c/classFObjectPreSaveContext.html#af5d54ef045ad47629c8240ed804f8da2", null ],
+    [ "IsCookTypeUnknown", "d3/d0c/classFObjectPreSaveContext.html#a2ac62a3b5bb488b418639f5fdb562f26", null ],
+    [ "IsDeterminismDebug", "d3/d0c/classFObjectPreSaveContext.html#aeb4689e517ba19151e5d596ec4f98413", null ],
+    [ "IsFirstConcurrentSave", "d3/d0c/classFObjectPreSaveContext.html#a7f147f5de1c1e076fe6cf89149910b2d", null ],
+    [ "IsProceduralSave", "d3/d0c/classFObjectPreSaveContext.html#a59c7e0f68197140248d0eabca3d109bf", null ],
+    [ "IsUpdatingLoadedPath", "d3/d0c/classFObjectPreSaveContext.html#a73d26d08cdd6e11b5acf3e64fc860d33", null ],
+    [ "RegisterDeterminismHelper", "d3/d0c/classFObjectPreSaveContext.html#a06fab2b76789bf64b81634f914c1b950", null ],
+    [ "UE_DEPRECATED", "d3/d0c/classFObjectPreSaveContext.html#aab429d00964b68851a12ab7faf67025f", null ],
+    [ "UE_DEPRECATED", "d3/d0c/classFObjectPreSaveContext.html#a20b54c39fb57338e049db27ec11be46f", null ],
+    [ "UE_DEPRECATED", "d3/d0c/classFObjectPreSaveContext.html#a21eefdc88de83fb286551cdbca167e27", null ],
+    [ "UObject", "d3/d0c/classFObjectPreSaveContext.html#a883e79be52bfec451a0e77abbe93eaa5", null ],
+    [ "Data", "d3/d0c/classFObjectPreSaveContext.html#a47350f68185f06617025abf6b35c1d96", null ],
+    [ "InOverride", "d3/d0c/classFObjectPreSaveContext.html#a153a9cbe3c7ee459a3d37b32aac545d4", null ]
+];

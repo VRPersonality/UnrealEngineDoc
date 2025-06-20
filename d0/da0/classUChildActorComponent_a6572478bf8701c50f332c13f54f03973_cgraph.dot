@@ -1,0 +1,18 @@
+digraph "UChildActorComponent::GENERATED_UCLASS_BODY"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="UChildActorComponent\l::GENERATED_UCLASS_BODY",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Sets the class to use for the child actor."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="USceneComponent::AActor",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dde/classUSceneComponent.html#a141ade871e571e4b28753fc9c832c7c8",tooltip=" "];
+  Node2 -> Node2 [id="edge2_Node000002_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node3 [id="edge3_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UChildActorComponent\l::SetChildActorClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/da0/classUChildActorComponent.html#a477a1ffd5d1c32011edbf8653e036845",tooltip="Sets then class to use for the child actor providing an optional Actor to use as the template."];
+  Node3 -> Node2 [id="edge4_Node000003_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node4 [id="edge5_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UChildActorComponent\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/da0/classUChildActorComponent.html#ae28309558b89ea20d88cd20f682cf7ca",tooltip=" "];
+}

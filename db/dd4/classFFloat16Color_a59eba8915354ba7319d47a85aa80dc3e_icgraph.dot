@@ -1,0 +1,16 @@
+digraph "FFloat16Color::FFloat16Color"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FFloat16Color::FFloat16Color",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Default constructor."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FFloat16Color::FFloat16Color",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dd4/classFFloat16Color.html#a0c0f19bbfa98987b8a52b62410c29418",tooltip="Copy constructor."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FFloat16Color::operator=",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dd4/classFFloat16Color.html#af60110c9bfd2bda5595517aaa4b94775",tooltip="assignment operator"];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FFloat16Color::operator==",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dd4/classFFloat16Color.html#a721f592eb77e0f7f783bbba4b52044da",tooltip="Checks whether two colors are identical."];
+}

@@ -1,0 +1,19 @@
+digraph "FLazyObjectPtr::FixupForPIE"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FLazyObjectPtr::FixupForPIE",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Fixes up this FLazyObjectPtr to target the right UID as set in PIEGuidMap, this only works for direct..."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FUniqueObjectGuid::\lFixupForPIE",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d17/structFUniqueObjectGuid.html#a6c866168b2c765dbed4f7597188257ee",tooltip="Fixes up this UniqueObjectID to add or remove the PIE prefix depending on what is currently active."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FUniqueObjectGuid::\lFUniqueObjectGuid",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d17/structFUniqueObjectGuid.html#afa4e36ff2d7479234d4912b86daf2212",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UE::GetPlayInEditorID",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d75/namespaceUE.html#a48c34b3ca977abd989ec6b8c7073ad3a",tooltip=" "];
+  Node4 -> Node4 [id="edge4_Node000004_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node5 [id="edge5_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TPersistentObjectPtr\l\< FUniqueObjectGuid \>\l::GetUniqueID",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dce/structTPersistentObjectPtr.html#a2a2da585f6b244fd1515120c6efb4b39",tooltip=" "];
+}

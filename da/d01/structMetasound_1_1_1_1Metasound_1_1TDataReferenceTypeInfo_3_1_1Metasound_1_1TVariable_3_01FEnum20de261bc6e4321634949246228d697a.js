@@ -1,0 +1,7 @@
+var structMetasound_1_1_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01FEnum20de261bc6e4321634949246228d697a =
+[
+    [ "GetTypeDisplayText", "da/d01/structMetasound_1_1_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01FEnum20de261bc6e4321634949246228d697a.html#a443caefaff2449913838643c9b4d50d9", null ],
+    [ "GetTypeId", "da/d01/structMetasound_1_1_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01FEnum20de261bc6e4321634949246228d697a.html#aa7a84a6025d16a448241244691f6feba", null ],
+    [ "TypeName", "da/d01/structMetasound_1_1_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01FEnum20de261bc6e4321634949246228d697a.html#ae9ee148777831bf4492f6fa98f7a8498", null ],
+    [ "TypePtr", "da/d01/structMetasound_1_1_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01FEnum20de261bc6e4321634949246228d697a.html#a446799ea5f0f95725cc5c01e30165013", null ]
+];

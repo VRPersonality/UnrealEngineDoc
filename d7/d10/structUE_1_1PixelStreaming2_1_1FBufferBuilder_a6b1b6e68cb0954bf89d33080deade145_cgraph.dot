@@ -1,0 +1,20 @@
+digraph "UE::PixelStreaming2::FBufferBuilder::Insert"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="UE::PixelStreaming2\l::FBufferBuilder::Insert",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Forward",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d24/UnrealTemplate_8h.html#a68f280c1d561a8899a1e9e3ea8405d00",tooltip="Forward will cast a reference to an rvalue reference."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::PixelStreaming2\l::GetByteSizeOf",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d40/namespaceUE_1_1PixelStreaming2.html#a6ae43d42b2ce3346b9a886b77307c117",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UE::PixelStreaming2\l::GetDataPointer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d40/namespaceUE_1_1PixelStreaming2.html#a7524a51de3eed247304e9391c2e6f9fb",tooltip=" "];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FMemory::Memcpy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d4a/structFMemory.html#af5c0a2f1987809876d6d72269851e89c",tooltip=" "];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FGenericPlatformMemory\l::Memcpy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/dfd/structFGenericPlatformMemory.html#a13ca9511967a7af8d1c2c3beab1208e2",tooltip=" "];
+}

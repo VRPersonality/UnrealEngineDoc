@@ -1,0 +1,16 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="TNumericLimits\< NumericType \>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d3d/structTNumericLimits.html",tooltip="Helper class to map a numeric type to its limits."];
+  Node0 -> Node1 [id="edge8303_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 [id="Node000001",label="TNumericLimits\< const\l NumericType \>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d40/structTNumericLimits_3_01const_01NumericType_01_4.html",tooltip="Numeric limits for const types."];
+  Node0 -> Node2 [id="edge8304_Node000000_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TNumericLimits\< const\l volatile NumericType \>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d45/structTNumericLimits_3_01const_01volatile_01NumericType_01_4.html",tooltip="Numeric limits for const volatile types."];
+  Node0 -> Node3 [id="edge8305_Node000000_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TNumericLimits\< volatile\l NumericType \>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d8d/structTNumericLimits_3_01volatile_01NumericType_01_4.html",tooltip="Numeric limits for volatile types."];
+}

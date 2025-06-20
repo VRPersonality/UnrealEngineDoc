@@ -1,0 +1,17 @@
+digraph "Metasound::Frontend::GenerateClass"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="Metasound::Frontend\l::GenerateClass",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Generates a new FMetasoundFrontendClass from a NodeType."];
+  Node1 -> Node1 [id="edge1_Node000001_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node2 [id="edge2_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Metasound::Frontend\l::GenerateClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d97/namespaceMetasound_1_1Frontend.html#a41dc83883d3fd32ec8d3a330398f1728",tooltip="Generates a new FMetasoundFrontendClass from Node init data."];
+  Node1 -> Node3 [id="edge3_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Metasound::Frontend\l::MetasoundDataTypeRegistration\lPrivate::RegisterDataTypeWithFrontend\lInternal",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d33/namespaceMetasound_1_1Frontend_1_1MetasoundDataTypeRegistrationPrivate.html#ad2150ac5f95a74ee46e1bde4b05ba373",tooltip="Registers a data type with the MetaSound Frontend."];
+  Node3 -> Node4 [id="edge4_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="Metasound::Frontend\l::MetasoundDataTypeRegistration\lPrivate::RegisterDataTypeArrayWith\lFrontend",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d33/namespaceMetasound_1_1Frontend_1_1MetasoundDataTypeRegistrationPrivate.html#a3887d9364b83a1031ad743c16652a912",tooltip="Registers an array of a data type with the MetaSound Frontend."];
+}

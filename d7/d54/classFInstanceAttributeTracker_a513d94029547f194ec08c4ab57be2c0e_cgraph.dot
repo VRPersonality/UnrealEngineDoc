@@ -1,0 +1,33 @@
+digraph "FInstanceAttributeTracker::RemoveAt"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FInstanceAttributeTracker\l::RemoveAt",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Mark removed & update the tracked bits (remove & move operation) Note: this is not something that sho..."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FInstanceAttributeTracker\l::ClearLastElement",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d54/classFInstanceAttributeTracker.html#a126e164e201e843840121438987abf4d",tooltip="Clear the last item & all remaining in element to ensure it is always all zero."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FInstanceAttributeTracker\l::CountMaskChanges",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d54/classFInstanceAttributeTracker.html#a934d22de05e146e14a0658a2beddc643",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FInstanceAttributeTracker\l::DecChangedCounts",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d54/classFInstanceAttributeTracker.html#ab56e50da0ff7b87abfd9a7bae683fc2e",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FInstanceAttributeTracker\l::DecChangedCount",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d54/classFInstanceAttributeTracker.html#a07dfad04eea2dd6d849805ee808f465c",tooltip=" "];
+  Node4 -> Node6 [id="edge5_Node000004_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FInstanceAttributeTracker\l::GetFlags",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d54/classFInstanceAttributeTracker.html#aa50ded98f4bf1e81098569a667ce3061",tooltip="Get the masked flags for a given index."];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="FInstanceAttributeTracker\l::LoadCountAndMask",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d54/classFInstanceAttributeTracker.html#a5fbd635793f5c414b4d11219f02ac84b",tooltip="Helper to load and count mask changes, returns the element with the IndexChanged applied to all items..."];
+  Node7 -> Node3 [id="edge7_Node000007_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node8 [id="edge8_Node000001_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="FInstanceAttributeTracker\l::MarkRemoved",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d54/classFInstanceAttributeTracker.html#ab6246fa3015edc17b2fe53f6632a023f",tooltip="Lazy allocate bits in the bit vector tracking removed instances and set the flag for the instance ID."];
+  Node8 -> Node9 [id="edge9_Node000008_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="FMath::DivideAndRoundUp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d20/structFMath.html#ae928a1450f7427dabf9ee2bec4677742",tooltip="Divides two integers and rounds up."];
+  Node1 -> Node10 [id="edge10_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="FInstanceAttributeTracker\l::SetNum",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d54/classFInstanceAttributeTracker.html#a4f8f309ae5e1e9c348efb18e28117495",tooltip=" "];
+  Node10 -> Node9 [id="edge11_Node000010_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node10 -> Node11 [id="edge12_Node000010_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="FInstanceAttributeTracker\l::Validate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d54/classFInstanceAttributeTracker.html#aab1d19b542fc92170177de897706b27f",tooltip=" "];
+  Node1 -> Node11 [id="edge13_Node000001_Node000011",color="steelblue1",style="solid",tooltip=" "];
+}

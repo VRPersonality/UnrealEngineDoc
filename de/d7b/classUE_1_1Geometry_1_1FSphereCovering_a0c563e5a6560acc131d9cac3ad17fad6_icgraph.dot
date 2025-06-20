@@ -1,0 +1,14 @@
+digraph "UE::Geometry::FSphereCovering::TransformRange"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UE::Geometry::FSphereCovering\l::TransformRange",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Geometry::FSphereCovering\l::AppendTransformed",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d7b/classUE_1_1Geometry_1_1FSphereCovering.html#a692fff5b1e62a546c1e0815886077ddf",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::Geometry::FSphereCovering\l::ApplyTransform",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d7b/classUE_1_1Geometry_1_1FSphereCovering.html#ab37e1b12fae178703e704fc1b8ab20fe",tooltip=" "];
+}

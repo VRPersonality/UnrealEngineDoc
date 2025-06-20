@@ -1,0 +1,13 @@
+digraph "SGridLineSpacingList::SLATE_ATTRIBUTE"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SGridLineSpacingList\l::SLATE_ATTRIBUTE",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="The value displayed by the control."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SGridLineSpacingList\l::SLATE_ATTRIBUTE",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d6b/classSGridLineSpacingList.html#afc8425400126dfd5e40c85c4a7f9d564",tooltip="An optional header to prepend to the generated list."];
+  Node1 -> Node1 [id="edge2_Node000001_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

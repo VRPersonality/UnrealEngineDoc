@@ -1,0 +1,4 @@
+var structMetasound_1_1TEnableAutoArrayTypeRegistration_3_01TEnum_3_01EnumType_00_01DefaultValue_01_4_01_4 =
+[
+    [ "Value", "df/d73/structMetasound_1_1TEnableAutoArrayTypeRegistration_3_01TEnum_3_01EnumType_00_01DefaultValue_01_4_01_4.html#a6ac2d24fa4f604fc249c51b34c23ba38", null ]
+];

@@ -1,5 +1,6 @@
 var classFNetworkPredictionData__Client__Character =
 [
+    [ "Super", "d5/d38/classFNetworkPredictionData__Client__Character.html#a4f93096bda217866c48bf487d552ec3a", null ],
     [ "FNetworkPredictionData_Client_Character", "d5/d38/classFNetworkPredictionData__Client__Character.html#a719a03e0773bc6d7d091f533d54dddbe", null ],
     [ "~FNetworkPredictionData_Client_Character", "d5/d38/classFNetworkPredictionData__Client__Character.html#a7e956e6e1c8be3ea6ffe693586c555bd", null ],
     [ "AckMove", "d5/d38/classFNetworkPredictionData__Client__Character.html#af384745af0a552b22e50c35a97904969", null ],

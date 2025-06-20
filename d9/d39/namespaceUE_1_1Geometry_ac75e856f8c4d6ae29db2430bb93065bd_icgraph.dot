@@ -1,0 +1,22 @@
+digraph "UE::Geometry::Orientation"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UE::Geometry::Orientation",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Geometry::TPlanarComplex\l\< double \>::FindSolidRegions",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d89/structUE_1_1Geometry_1_1TPlanarComplex.html#a1ed396b658925fd7ecde4b7f54b59172",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::Geometry::FMeshPlanar\lSymmetry::GetMirroredOrientation",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/da3/classUE_1_1Geometry_1_1FMeshPlanarSymmetry.html#a76fa69d336bab1374634527bc8f44612",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UE::Geometry::TCachingMesh\lSDF::PointInTriangle2d",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d26/classUE_1_1Geometry_1_1TCachingMeshSDF.html#ae30e843cc2645efa1fdffe4ab9df3882",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="UE::Geometry::TCachingMesh\lSDF::compute_intersections",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d26/classUE_1_1Geometry_1_1TCachingMeshSDF.html#a26768e72a680cbd52d65182e1282bf80",tooltip=" "];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="UE::Geometry::TCachingMesh\lSDF::Initialize",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d26/classUE_1_1Geometry_1_1TCachingMeshSDF.html#a98ef9d89ce2285538d0561bb8a411880",tooltip=" "];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="UE::Geometry::TCachingMesh\lSDF::TCachingMeshSDF",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d26/classUE_1_1Geometry_1_1TCachingMeshSDF.html#a2f92e64cc5fd1fbe24e542ddcb9724aa",tooltip=" "];
+}

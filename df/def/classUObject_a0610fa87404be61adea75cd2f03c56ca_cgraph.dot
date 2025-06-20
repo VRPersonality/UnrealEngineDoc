@@ -1,0 +1,14 @@
+digraph "UObject::GetResourceSizeBytes"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="UObject::GetResourceSize\lBytes",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Get the size of the object/resource for use in memory tools or to display to artists/LDs in the Edito..."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UObject::GetResourceSizeEx",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/def/classUObject.html#a468e315f9864792b2023b47e1fdb5e27",tooltip="Get the size of the object/resource for use in memory tools or to display to artists/LDs in the Edito..."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FResourceSizeEx::GetTotal\lMemoryBytes",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/dcf/structFResourceSizeEx.html#a5833e9354439f403d17c9849e0f171ae",tooltip="Get the total number of bytes allocated from any memory."];
+}

@@ -1,4 +1,4 @@
 var InputDevicePropertyHandle_8h =
 [
-    [ "FInputDevicePropertyHandle", "dd/db6/structFInputDevicePropertyHandle.html", "dd/db6/structFInputDevicePropertyHandle" ]
+    [ "USTRUCT", "de/d27/InputDevicePropertyHandle_8h.html#a6ee76c7c65326414a1d3ed2eeeaa5d13", null ]
 ];

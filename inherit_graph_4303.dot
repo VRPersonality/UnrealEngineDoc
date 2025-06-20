@@ -1,0 +1,14 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="FShadowMapData2D",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d5b/classFShadowMapData2D.html",tooltip="The raw data which is used to construct a 2D shadowmap."];
+  Node0 -> Node1 [id="edge5073_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 [id="Node000001",label="FQuantizedShadowSignedDistance\lFieldData2D",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/de6/classFQuantizedShadowSignedDistanceFieldData2D.html",tooltip="A 2D signed distance field map, which consists of FQuantizedSignedDistanceFieldShadowSample's."];
+  Node0 -> Node2 [id="edge5074_Node000000_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FShadowSignedDistanceField\lData2D",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/ddb/classFShadowSignedDistanceFieldData2D.html",tooltip="A 2D signed distance field map, which consists of FSignedDistanceFieldShadowSample's."];
+}

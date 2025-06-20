@@ -1,0 +1,12 @@
+digraph "FCurveEditorScreenSpaceV::ScreenToValue"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FCurveEditorScreenSpaceV\l::ScreenToValue",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Convert a vertical screen position in slate units to a value."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FCurveEditorScreenSpaceV\l::PixelsPerOutput",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d27/structFCurveEditorScreenSpaceV.html#a345c7b0346dd9853e3eb70e63335cf94",tooltip="Retrieve the number of slate units per output value."];
+}

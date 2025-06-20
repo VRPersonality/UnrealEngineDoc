@@ -1,0 +1,25 @@
+digraph "FShaderCompilerDefinitions::Merge"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FShaderCompilerDefinitions\l::Merge",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FShaderCompilerDefinitions\l::FShaderCompilerDefinitions",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d79/classFShaderCompilerDefinitions.html#a468f1ec1ccf7298ebeb9b2d720fdef34",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FShaderCompilerDefinitions\l::SetDefine",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d79/classFShaderCompilerDefinitions.html#a649364d1486febefdf31f4434ce304a6",tooltip="Value types supported: bool, int32, uint32, float, const TCHAR*, FString&."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FShaderCompilerDefinitions\l::FindOrAddMapIndex",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d79/classFShaderCompilerDefinitions.html#ae235c1cfbde682e671b972d3b85e76d8",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FShaderCompilerDefinitions\l::FindMapIndex",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d79/classFShaderCompilerDefinitions.html#a07bab2805256197c717fe1c1100b1c4e",tooltip=" "];
+  Node4 -> Node6 [id="edge5_Node000004_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="GetTypeHash",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d67/GameplayCue__Types_8h.html#a42de5c90665889198120ab799daf7abe",tooltip=" "];
+  Node6 -> Node6 [id="edge6_Node000006_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node7 [id="edge7_Node000003_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="FShaderCompilerDefinitions\l::InternalSetValue",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d79/classFShaderCompilerDefinitions.html#ae7b85573930dd99e8dd89f59dc683a19",tooltip=" "];
+  Node7 -> Node8 [id="edge8_Node000007_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="FShaderCompilerDefinitions\l::SetValueType",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d79/classFShaderCompilerDefinitions.html#a6fd20a6289de0a9814d942cdad289472",tooltip=" "];
+}

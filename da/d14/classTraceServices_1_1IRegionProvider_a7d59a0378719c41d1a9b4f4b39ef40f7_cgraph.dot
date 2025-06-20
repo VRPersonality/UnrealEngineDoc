@@ -1,0 +1,12 @@
+digraph "TraceServices::IRegionProvider::UE_DEPRECATED"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TraceServices::IRegionProvider\l::UE_DEPRECATED",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Direct access to a certain lane at a given index/depth of the default timeline."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TraceServices::IRegionProvider\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d14/classTraceServices_1_1IRegionProvider.html#a9e75a4ee490664998a1fc9a5c6ccbf78",tooltip=" "];
+}

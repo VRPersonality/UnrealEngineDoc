@@ -1,0 +1,12 @@
+digraph "FPropertyVisitorContext::FPropertyVisitorContext"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FPropertyVisitorContext\l::FPropertyVisitorContext",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FPropertyVisitorContext\l::VisitPropertyData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d9d/structFPropertyVisitorContext.html#a043ac7c194e7ead3d22eefe57209cfba",tooltip="Utility that constructs a new visitor context object with new property data but the same path and sco..."];
+}

@@ -1,0 +1,14 @@
+digraph "UE::Geometry::TDynamicVertexAttribute::Initialize"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UE::Geometry::TDynamicVertex\lAttribute::Initialize",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Initialize the attribute values with InitialValue, and resize to the parent mesh's max vertex ID."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Geometry::TDynamicVertex\lAttribute\< AttribValueType,\l AttribDimension, FDynamicMesh3\l \>::MakeCompactCopy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d9d/classUE_1_1Geometry_1_1TDynamicVertexAttribute.html#ac51e79f2a2705f29aba6616fb62d4a8c",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::Geometry::TDynamicVertex\lAttribute\< AttribValueType,\l AttribDimension, FDynamicMesh3\l \>::MakeNew",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d9d/classUE_1_1Geometry_1_1TDynamicVertexAttribute.html#a1a3f1c031ba906db8e3a7c65b0bc5524",tooltip=" "];
+}

@@ -1,0 +1,16 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="FShaderType",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d73/classFShaderType.html",tooltip="An object which is used to serialize/deserialize, compile, and cache a particular shader class."];
+  Node0 -> Node1 [id="edge5069_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 [id="Node000001",label="FGlobalShaderType",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d2a/classFGlobalShaderType.html",tooltip="A shader meta type for the simplest shaders; shaders which are not material or vertex factory linked."];
+  Node0 -> Node2 [id="edge5070_Node000000_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FMaterialShaderType",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d50/classFMaterialShaderType.html",tooltip="A shader meta type for material-linked shaders."];
+  Node0 -> Node3 [id="edge5071_Node000000_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FMeshMaterialShaderType",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/ded/classFMeshMaterialShaderType.html",tooltip="A shader meta type for material-linked shaders which use a vertex factory."];
+}

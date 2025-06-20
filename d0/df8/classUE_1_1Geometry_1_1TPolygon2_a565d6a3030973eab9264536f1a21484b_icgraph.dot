@@ -1,0 +1,12 @@
+digraph "UE::Geometry::TPolygon2::Overlaps"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UE::Geometry::TPolygon2\l::Overlaps",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Check for polygon overlap, aka solid intersection."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Geometry::TGeneralPolygon2\l\< double \>::AddHole",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/da7/classUE_1_1Geometry_1_1TGeneralPolygon2.html#a19f91dfa43b79a24a72b0bff15a3804a",tooltip=" "];
+}

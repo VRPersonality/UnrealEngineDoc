@@ -1,0 +1,12 @@
+digraph "ISequencer::CreateBinding"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="ISequencer::CreateBinding",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Create a new binding for the specified object, lightly deprecated and no longer virtual in favor of t..."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="ISequencer::CreateBinding",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dde/classISequencer.html#aaa33dd79fad878517e2647a553f4a35f",tooltip="Create a new binding for the specified object."];
+}

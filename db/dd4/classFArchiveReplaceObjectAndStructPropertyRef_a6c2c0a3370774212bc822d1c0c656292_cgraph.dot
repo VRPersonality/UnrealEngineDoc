@@ -1,0 +1,12 @@
+digraph "FArchiveReplaceObjectAndStructPropertyRef::UE_DEPRECATED"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FArchiveReplaceObjectAnd\lStructPropertyRef::UE\l_DEPRECATED",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FArchiveReplaceObjectAnd\lStructPropertyRef::FArchiveReplace\lObjectAndStructPropertyRef",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dd4/classFArchiveReplaceObjectAndStructPropertyRef.html#a12faedaa1c40982e69feafd9926dbd76",tooltip="Initializes variables and starts the serialization search."];
+}

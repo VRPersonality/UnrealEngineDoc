@@ -1,0 +1,43 @@
+digraph "FRigVMTreeNode::FRigVMTreeNode"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FRigVMTreeNode::FRigVMTreeNode",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FRigVMTreeCategoryNode\l::FRigVMTreeCategoryNode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/dbc/classFRigVMTreeCategoryNode.html#a8414aaaf51806c39379ffff2b90aaf83",tooltip=" "];
+  Node2 -> Node2 [id="edge2_Node000002_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node3 [id="edge3_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FRigVMTreeCategoryNode\l::Cast",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/dbc/classFRigVMTreeCategoryNode.html#a292d3a4013e560f8e81c5dea254516f2",tooltip=" "];
+  Node2 -> Node4 [id="edge4_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FRigVMTreePackageNode\l::Cast",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d88/classFRigVMTreePackageNode.html#a74d0cf53db7ab958af50698e998d7069",tooltip=" "];
+  Node1 -> Node5 [id="edge5_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FRigVMTreeFunctionRefNode\l::FRigVMTreeFunctionRefNode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/db8/classFRigVMTreeFunctionRefNode.html#acd29956508e65646a1e84f0e660d189a",tooltip=" "];
+  Node5 -> Node6 [id="edge6_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FRigVMTreeFunctionRefNode\l::DEFINE_RIGVMTREETOOLKIT\l_ELEMENT",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/db8/classFRigVMTreeFunctionRefNode.html#aea9a9dbca668578eb3c46043bb8350d5",tooltip=" "];
+  Node1 -> Node1 [id="edge7_Node000001_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node7 [id="edge8_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="FRigVMTreeRootNode\l::AddChild",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/daa/classFRigVMTreeRootNode.html#aa008ffd16d6f2c12d12cad4c9f26e864",tooltip=" "];
+  Node7 -> Node7 [id="edge9_Node000007_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node3 [id="edge10_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node8 [id="edge11_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="FRigVMTreeNode::Cast",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/da1/classFRigVMTreeNode.html#a2fb628f4c77c3a33c7881f203bfae87d",tooltip=" "];
+  Node1 -> Node9 [id="edge12_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="FRigVMTreeRootNode\l::Cast",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/daa/classFRigVMTreeRootNode.html#ae2b68403da949353278834be6ba3115b",tooltip=" "];
+  Node1 -> Node10 [id="edge13_Node000001_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="FRigVMTreeFunctionIdentifier\lNode::DEFINE_RIGVMTREETOOLKIT\l_ELEMENT",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/da8/classFRigVMTreeFunctionIdentifierNode.html#a5a3ace28374ff41d8a6f633ea2758ea6",tooltip=" "];
+  Node1 -> Node11 [id="edge14_Node000001_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="FRigVMTreeFunctionRefGraph\lNode::DEFINE_RIGVMTREETOOLKIT\l_ELEMENT",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db2/classFRigVMTreeFunctionRefGraphNode.html#a1ee4ef0bc2b9d2980f959df4beced35d",tooltip=" "];
+  Node1 -> Node6 [id="edge15_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node12 [id="edge16_Node000001_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="FRigVMTreeReferenceNode\l::DEFINE_RIGVMTREETOOLKIT\l_ELEMENT",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/dbb/classFRigVMTreeReferenceNode.html#a4f0270152030a8ea85a4e1e628a059ea",tooltip=" "];
+  Node1 -> Node13 [id="edge17_Node000001_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="FRigVMTreeRootNode\l::RemoveChild",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/daa/classFRigVMTreeRootNode.html#ad8bab958965c9b8dea4444c0bfa4136b",tooltip=" "];
+  Node13 -> Node13 [id="edge18_Node000013_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node14 [id="edge19_Node000001_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="FRigVMTreeRootNode\l::SetChildren",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/daa/classFRigVMTreeRootNode.html#a31416dd6a90588a2b74b28421d384c23",tooltip=" "];
+  Node14 -> Node14 [id="edge20_Node000014_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

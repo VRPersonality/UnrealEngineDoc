@@ -1,0 +1,14 @@
+digraph "TObjectArrayIterator::Advance"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TObjectArrayIterator\l::Advance",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Iterator advance with ordinary name for clarity in subclasses."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TObjectArrayIterator\l::GetObject",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d29/classTObjectArrayIterator.html#a94032c4c75617b8cbc7ea30e0f4aa200",tooltip="Dereferences the iterator with an ordinary name for clarity in derived classes."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="IsValid",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d4c/LiveLinkTypes_8h.html#ac532c4b500b1a85ea22217f2c65a70ed",tooltip=" "];
+}

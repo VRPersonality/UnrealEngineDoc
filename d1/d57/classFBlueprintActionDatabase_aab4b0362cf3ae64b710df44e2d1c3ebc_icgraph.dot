@@ -1,0 +1,14 @@
+digraph "FBlueprintActionDatabase::FBlueprintActionDatabase"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FBlueprintActionDatabase\l::FBlueprintActionDatabase",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Private constructor for singleton purposes."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FBlueprintActionDatabase::Get",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d57/classFBlueprintActionDatabase.html#acf5f7f6f9067bebb458482f8d0914840",tooltip="Getter to access the database singleton."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FBlueprintActionDatabase\l::TryGet",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d57/classFBlueprintActionDatabase.html#a898f4b5d7823a04efd849b826bd6c93c",tooltip="Getter to access the datbase singleton, will return null if the database has not been initialized."];
+}

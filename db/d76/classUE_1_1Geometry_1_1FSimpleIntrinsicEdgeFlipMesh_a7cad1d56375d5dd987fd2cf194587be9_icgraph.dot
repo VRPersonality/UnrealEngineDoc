@@ -1,0 +1,14 @@
+digraph "UE::Geometry::FSimpleIntrinsicEdgeFlipMesh::GetEdgeV"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UE::Geometry::FSimpleIntrinsic\lEdgeFlipMesh::GetEdgeV",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::MeshDeformation\l::ConstructFullIDTCotangent\lLaplacian",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df1/namespaceUE_1_1MeshDeformation.html#a65dc6e343bd575c6673bf8c0b482ffde",tooltip="Use intrinsic Delaunay mesh to construct sparse Cotangent Laplacian matrix."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::MeshDeformation\l::ConstructIDTCotangentLaplacian",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df1/namespaceUE_1_1MeshDeformation.html#ad7e9fddf45aa4a169e3cec1788bd8eee",tooltip="Construct a sparse matrix representation using a pre-multiplied cotangent-weighted Laplacian,..."];
+}

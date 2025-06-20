@@ -1,0 +1,22 @@
+digraph "UE::Geometry::FTriangleLinearization::Reset"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="UE::Geometry::FTriangleLinearization\l::Reset",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Geometry::FElementLinearization\l::Empty",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d4e/classUE_1_1Geometry_1_1FElementLinearization.html#a5e9da3e29fe79de88966dd4258e958a7",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::Geometry::FDynamicMesh3\l::MaxTriangleID",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d27/classUE_1_1Geometry_1_1FDynamicMesh3.html#a0f267bb2e50a8b2e59b9685ceff306b7",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UE::Geometry::FElementLinearization\l::Populate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d4e/classUE_1_1Geometry_1_1FElementLinearization.html#ac3a98c831fa07d778e12b35eb57763bc",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="UE::Geometry::FElementLinearization\l::MaxId",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d4e/classUE_1_1Geometry_1_1FElementLinearization.html#ae04858cf7c26086fbb127f3cce361660",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="UE::Geometry::FDynamicMesh3\l::TriangleCount",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d27/classUE_1_1Geometry_1_1FDynamicMesh3.html#a11954ce0c7d44260fca136f9d359655e",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="UE::Geometry::FDynamicMesh3\l::TriangleIndicesItr",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d27/classUE_1_1Geometry_1_1FDynamicMesh3.html#a5dd94b6cd6c479c87b295f6cc72813b6",tooltip=" "];
+}

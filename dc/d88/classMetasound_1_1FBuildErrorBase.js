@@ -1,0 +1,25 @@
+var classMetasound_1_1FBuildErrorBase =
+[
+    [ "FBuildErrorBase", "dc/d88/classMetasound_1_1FBuildErrorBase.html#ab11583bf272d7e788a4b6afb0a3b52db", null ],
+    [ "~FBuildErrorBase", "dc/d88/classMetasound_1_1FBuildErrorBase.html#a3f02215bd78ea43cef9b9d9d603312e3", null ],
+    [ "AddDataEdge", "dc/d88/classMetasound_1_1FBuildErrorBase.html#ade1ab9d7b33a6199f8619d163ea908f6", null ],
+    [ "AddDataEdges", "dc/d88/classMetasound_1_1FBuildErrorBase.html#ac93dde149c2aa7511697c4efee825213", null ],
+    [ "AddInputDataDestination", "dc/d88/classMetasound_1_1FBuildErrorBase.html#af244caff45effc788e26f8931b2edc01", null ],
+    [ "AddInputDataDestinations", "dc/d88/classMetasound_1_1FBuildErrorBase.html#a1fe4f237ef62420152727daf8d80fddb", null ],
+    [ "AddNode", "dc/d88/classMetasound_1_1FBuildErrorBase.html#af0a97f0d9f751f13a5004ee930654d57", null ],
+    [ "AddNodes", "dc/d88/classMetasound_1_1FBuildErrorBase.html#ae980238ca7163fb0bb66f7e8a4590428", null ],
+    [ "AddOutputDataSource", "dc/d88/classMetasound_1_1FBuildErrorBase.html#a0fba5b7bf9af0fa75be786531f7d2ad8", null ],
+    [ "AddOutputDataSources", "dc/d88/classMetasound_1_1FBuildErrorBase.html#a93ab605e50b6b28f5a19248073bfef0d", null ],
+    [ "GetDataEdges", "dc/d88/classMetasound_1_1FBuildErrorBase.html#a1d02c143218b7768d4681ed38e664ee4", null ],
+    [ "GetErrorDescription", "dc/d88/classMetasound_1_1FBuildErrorBase.html#a04eee49402f31ae77ec1654b3580e5d1", null ],
+    [ "GetErrorType", "dc/d88/classMetasound_1_1FBuildErrorBase.html#a66257ace18069d49b89f31eee37974fe", null ],
+    [ "GetInputDataDestinations", "dc/d88/classMetasound_1_1FBuildErrorBase.html#afee6de15a1ce7d0eae8add6a54d168c5", null ],
+    [ "GetNodes", "dc/d88/classMetasound_1_1FBuildErrorBase.html#a7fde5fa19f6b75b0b5899a7cec835d97", null ],
+    [ "GetOutputDataSources", "dc/d88/classMetasound_1_1FBuildErrorBase.html#a3481c09857059a3ceccc6a0a932b1bb1", null ],
+    [ "Destinations", "dc/d88/classMetasound_1_1FBuildErrorBase.html#af3350efbf3c770cef9e849d89fe46100", null ],
+    [ "Edges", "dc/d88/classMetasound_1_1FBuildErrorBase.html#aeb5d620bcde39bc4c850005a58761a05", null ],
+    [ "ErrorDescription", "dc/d88/classMetasound_1_1FBuildErrorBase.html#abc23eb076469ea083c5749f35da7c55b", null ],
+    [ "ErrorType", "dc/d88/classMetasound_1_1FBuildErrorBase.html#ae8104c6912b33d9de2c0a54beb110a8e", null ],
+    [ "Nodes", "dc/d88/classMetasound_1_1FBuildErrorBase.html#ad2dc5a5075f32d5b7675bbeedaebbc53", null ],
+    [ "Sources", "dc/d88/classMetasound_1_1FBuildErrorBase.html#a71183041b260a0eb1257522037795cad", null ]
+];

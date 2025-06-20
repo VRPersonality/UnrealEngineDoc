@@ -1,0 +1,16 @@
+digraph "FMallocBinned2::UseSmallAlloc"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FMallocBinned2::UseSmall\lAlloc",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FMallocBinned2::MallocInline",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d2c/classFMallocBinned2.html#a3f906b47e79cd5309a3ae6c641bbbffc",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FMallocBinned2::Malloc",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d2c/classFMallocBinned2.html#a759783f0e0313e462f796d8ef9ae579c",tooltip="Malloc."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FMallocBinned2::MallocSelect",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d2c/classFMallocBinned2.html#a37e01956955ccb2125ebf4d14bfd2fb6",tooltip=" "];
+}

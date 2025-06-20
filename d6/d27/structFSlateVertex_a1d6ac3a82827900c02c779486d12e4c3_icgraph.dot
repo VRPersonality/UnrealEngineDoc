@@ -1,0 +1,30 @@
+digraph "FSlateVertex::FSlateVertex"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FSlateVertex::FSlateVertex",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FSlateVertex::Make",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d27/structFSlateVertex.html#af3775d4ac39c22fb32fb445095aecac7",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FSlateVertex::Make",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d27/structFSlateVertex.html#a564bc8681e5dc22118b3736aa1e1c3a1",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FSlateVertex::Make",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d27/structFSlateVertex.html#a9d74fbc3ea08892ae5ab35acb66c27d6",tooltip=" "];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FSlateVertex::Make",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d27/structFSlateVertex.html#ae96a544d9e4aca7a0b48514d2caa1f2e",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FSlateVertex::Make",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d27/structFSlateVertex.html#a8195299712ce7a6562d3adcab6b985b7",tooltip=" "];
+  Node6 -> Node3 [id="edge6_Node000006_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 -> Node5 [id="edge7_Node000006_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 -> Node7 [id="edge8_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="FSlateVertex::Make",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d27/structFSlateVertex.html#af6cf78c49eb81b32cfb9eb0c37669ebd",tooltip=" "];
+  Node6 -> Node8 [id="edge9_Node000006_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="FSlateVertex::Make",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d27/structFSlateVertex.html#a5afc570d0c5b597748f6b8ae44c46e8d",tooltip=" "];
+  Node1 -> Node7 [id="edge10_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node9 [id="edge11_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="FSlateVertex::Make",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d27/structFSlateVertex.html#aaa76fd47609e90a6399a80089bf6b38b",tooltip=" "];
+  Node1 -> Node8 [id="edge12_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

@@ -1,0 +1,4 @@
+var structMetasound_1_1TEnableAutoConverterNodeRegistration_3_01FromDataType_00_01TEnum_3_01EnumType_00_01DefaultValue_01_4_01_4 =
+[
+    [ "Value", "d4/df5/structMetasound_1_1TEnableAutoConverterNodeRegistration_3_01FromDataType_00_01TEnum_3_01EnumType_00_01DefaultValue_01_4_01_4.html#af809c3d5ee8a10d1f1b101b111508bba", null ]
+];

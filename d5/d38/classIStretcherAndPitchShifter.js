@@ -1,0 +1,26 @@
+var classIStretcherAndPitchShifter =
+[
+    [ "IStretcherAndPitchShifter", "d5/d38/classIStretcherAndPitchShifter.html#a5a2df7b1a8409a3fd4d2ab74c51f0331", null ],
+    [ "~IStretcherAndPitchShifter", "d5/d38/classIStretcherAndPitchShifter.html#a83cd028f9764a2086d04c7c25b2d5cca", null ],
+    [ "Cleanup", "d5/d38/classIStretcherAndPitchShifter.html#a2dbff6aa1cc68a0614a480a9941b18be", null ],
+    [ "GetCurrentSampleFrame", "d5/d38/classIStretcherAndPitchShifter.html#afb5e96692e022e6e210ed0d715685050", null ],
+    [ "GetFactoryName", "d5/d38/classIStretcherAndPitchShifter.html#a19b56d50054ff10a49a2b76d40b3d270", null ],
+    [ "GetInputFramesNeeded", "d5/d38/classIStretcherAndPitchShifter.html#a150f21cba612cf10f343f8c715e01837", null ],
+    [ "GetLatencySamples", "d5/d38/classIStretcherAndPitchShifter.html#aa4c9168d1cc4b6812a1a236dd3e8721f", null ],
+    [ "GetMemoryUsage", "d5/d38/classIStretcherAndPitchShifter.html#a140dfefa1f8961ec77ddeaca672e5678", null ],
+    [ "HandlesSpeedCorrection", "d5/d38/classIStretcherAndPitchShifter.html#af687c522aee56ef8c1fdbec54f9b1919", null ],
+    [ "HasCurrentSampleFrame", "d5/d38/classIStretcherAndPitchShifter.html#ab6a04369d16f24373072d78d8e0ff50a", null ],
+    [ "InputSilence", "d5/d38/classIStretcherAndPitchShifter.html#a2625741fd5054914a3fbb932b6842afa", null ],
+    [ "PitchShift", "d5/d38/classIStretcherAndPitchShifter.html#acf47b202c56cd062a0c18f2018beb088", null ],
+    [ "Render", "d5/d38/classIStretcherAndPitchShifter.html#ae03eb7c1f487721fe408d7cb53f0ef1f", null ],
+    [ "SetSampleRateAndReset", "d5/d38/classIStretcherAndPitchShifter.html#a4eaf875574bd7b1fa93731fc6174b394", null ],
+    [ "SetSampleSourceReset", "d5/d38/classIStretcherAndPitchShifter.html#a64f8e646c219fe86687d2b235a446bf0", null ],
+    [ "SetupAndResetImpl", "d5/d38/classIStretcherAndPitchShifter.html#aad9a7171e6933557f228138185884cc3", null ],
+    [ "StereoPitchShift", "d5/d38/classIStretcherAndPitchShifter.html#aea84eadeb66b61af03e92d2624cf3853", null ],
+    [ "StereoPitchShift", "d5/d38/classIStretcherAndPitchShifter.html#ab6f9ee1e2ab3f0e0dcfda6817e83236a", null ],
+    [ "TakeInput", "d5/d38/classIStretcherAndPitchShifter.html#a45d071c5634c974268385622b491d2ec", null ],
+    [ "UpdateOptions", "d5/d38/classIStretcherAndPitchShifter.html#a15a8a891afbe641120e1ace94abc2751", null ],
+    [ "MyAudioData", "d5/d38/classIStretcherAndPitchShifter.html#a0079f7d561709621bf48819b4225fa2c", null ],
+    [ "MyAudioRenderer", "d5/d38/classIStretcherAndPitchShifter.html#a62761a9eaa3343bbda794957e1f37c8b", null ],
+    [ "MyFactoryName", "d5/d38/classIStretcherAndPitchShifter.html#a3321234fa12f36e38093cbd010693fb6", null ]
+];

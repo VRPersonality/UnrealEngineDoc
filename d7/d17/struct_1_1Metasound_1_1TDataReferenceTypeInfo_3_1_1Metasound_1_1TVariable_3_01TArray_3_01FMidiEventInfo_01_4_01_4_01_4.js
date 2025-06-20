@@ -1,0 +1,7 @@
+var struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArray_3_01FMidiEventInfo_01_4_01_4_01_4 =
+[
+    [ "GetTypeDisplayText", "d7/d17/struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArray_3_01FMidiEventInfo_01_4_01_4_01_4.html#afb74475e67a771fce86f3c1cd984d1e1", null ],
+    [ "GetTypeId", "d7/d17/struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArray_3_01FMidiEventInfo_01_4_01_4_01_4.html#ad4c36cbe412ed7fa8712ae86dbb66354", null ],
+    [ "TypeName", "d7/d17/struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArray_3_01FMidiEventInfo_01_4_01_4_01_4.html#a52fc9f9a78a20bdae402591ee73cfbdf", null ],
+    [ "TypePtr", "d7/d17/struct_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArray_3_01FMidiEventInfo_01_4_01_4_01_4.html#a4907320f07bafc68233ea5ca1a9a912a", null ]
+];

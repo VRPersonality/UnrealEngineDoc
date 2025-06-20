@@ -1,0 +1,16 @@
+digraph "TStrongObjectPtr::Attach"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TStrongObjectPtr::Attach",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TWeakObjectPtr\< const\l T \>::Pin",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/daa/structTWeakObjectPtr.html#ad07d32af22640a5435a004c97f585c52",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TWeakObjectPtr\< const\l T \>::Pin",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/daa/structTWeakObjectPtr.html#a465c949ac0be5f040371e06e72172e7e",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TWeakObjectPtr\< const\l T \>::TryPin",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/daa/structTWeakObjectPtr.html#a153f3cb5ace9a7f0a6fdebc1e545037d",tooltip=" "];
+}

@@ -1,0 +1,14 @@
+digraph "FQueuedThreadPoolWrapper::FScheduledWork::Release"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FQueuedThreadPoolWrapper\l::FScheduledWork::Release",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FQueuedThreadPoolWrapper\l::FScheduledWork::Abandon",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dad/classFQueuedThreadPoolWrapper_1_1FScheduledWork.html#aa6c359fc21e4e715a463c4e7c59fd0fe",tooltip="Tells the queued work that it is being abandoned so that it can do per object clean up as needed."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FQueuedThreadPoolWrapper\l::FScheduledWork::DoThreadedWork",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dad/classFQueuedThreadPoolWrapper_1_1FScheduledWork.html#a91c3af586c6aec64cf81c6cb57777583",tooltip="This is where the real thread work is done."];
+}

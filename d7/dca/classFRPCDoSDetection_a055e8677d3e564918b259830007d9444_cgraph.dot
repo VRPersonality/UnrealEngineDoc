@@ -1,0 +1,18 @@
+digraph "FRPCDoSDetection::LightweightReceivedRPC"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FRPCDoSDetection::Lightweight\lReceivedRPC",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="If RPC monitoring is disabled, does extremely lightweight tracking of RPC calls, for monitoring track..."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FRPCDoSDetection::Enable\lForcedRPCTracking",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dca/classFRPCDoSDetection.html#af5e51b82c1b1416a64a31314650993af",tooltip="Enables forced tracking of individual RPC's."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FRPCDoSDetection::GetSequential\lRPCScope",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dca/classFRPCDoSDetection.html#a1fd28daa8cae3f20ed176f14ce9358a4",tooltip="Gets a reference to the sequential RPC scoped variable/function accessor."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FRPCDoSDetection::PreSequentialRPC",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dca/classFRPCDoSDetection.html#a765106aaadafdb93f944845c27dcea61",tooltip="Called when we begin receiving the same RPC once or multiple times sequentially."];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FAndroidTime::Seconds",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d27/structFAndroidTime.html#ad64caf5a4cf7be5a98034240d951a54e",tooltip=" "];
+}

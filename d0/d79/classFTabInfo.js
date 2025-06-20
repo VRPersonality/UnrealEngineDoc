@@ -1,0 +1,25 @@
+var classFTabInfo =
+[
+    [ "FTabInfo", "d0/d79/classFTabInfo.html#a6159f9fc2b35849871979823190a0c49", null ],
+    [ "AddTabHistory", "d0/d79/classFTabInfo.html#a5ea8d559c6229d268b1678eb91f5d23d", null ],
+    [ "CanStepBackwardInHistory", "d0/d79/classFTabInfo.html#abedf9d512abe283f043e58e58441b558", null ],
+    [ "CanStepForwardInHistory", "d0/d79/classFTabInfo.html#a928425148644da2e0636bab5e0090d94", null ],
+    [ "CreateHistoryMenu", "d0/d79/classFTabInfo.html#a8f847576ea8b0a21b86506b22714ede5", null ],
+    [ "CreateHistoryNavigationWidget", "d0/d79/classFTabInfo.html#a5521123efeac611ac22c78db39fd898d", null ],
+    [ "GetCurrentHistory", "d0/d79/classFTabInfo.html#aef383ca3c5e5de9f4a1d2707a1e5ca6c", null ],
+    [ "GetFactory", "d0/d79/classFTabInfo.html#a90ee8b241593c97482490e8e4fe30762", null ],
+    [ "GetPayload", "d0/d79/classFTabInfo.html#a99ae2049a339de5a7e8577aa6d90d2fb", null ],
+    [ "GetTab", "d0/d79/classFTabInfo.html#a54e3bda1eac2a2d9f9703610169cdd47", null ],
+    [ "GoToHistoryIndex", "d0/d79/classFTabInfo.html#adf231b1cee1e3af9e67c00e38ccbed24", null ],
+    [ "JumpToNearestValidHistoryData", "d0/d79/classFTabInfo.html#ac8f90b0f0ad33a76bd74414f17adf033", null ],
+    [ "OnGoBackInHistory", "d0/d79/classFTabInfo.html#ab00ce346ff69f45e57a9763e97ba5262", null ],
+    [ "OnGoForwardInHistory", "d0/d79/classFTabInfo.html#a9698b67e227a92b41e2398bae6a2bdf5", null ],
+    [ "OnMouseDownHistory", "d0/d79/classFTabInfo.html#ad77a6093422b50d3d3137a821b23995e", null ],
+    [ "PayloadMatches", "d0/d79/classFTabInfo.html#a63a266daceec61ab3a16df81c0285953", null ],
+    [ "PayloadMatches", "d0/d79/classFTabInfo.html#aed68acd9b065bcb16220a92557cd3cb4", null ],
+    [ "SetCurrentHistory", "d0/d79/classFTabInfo.html#ae0c5300508121df06f11d27da07a5e69", null ],
+    [ "CurrentHistory", "d0/d79/classFTabInfo.html#a7a82e3a69d2c0ceb9f5eab2b9e8a0255", null ],
+    [ "HistoryNavigationWidget", "d0/d79/classFTabInfo.html#a308181d954b1aea15bfdcaff11892f66", null ],
+    [ "Tab", "d0/d79/classFTabInfo.html#ad23cb4fefaf56893f1548cf101d915c6", null ],
+    [ "WeakTracker", "d0/d79/classFTabInfo.html#afbbbb78bda01b53ab5f3dcb09d0fd240", null ]
+];

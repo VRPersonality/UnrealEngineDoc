@@ -1,0 +1,10 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="UE::Geometry::TPolygon2\l\< T \>::SegmentEnumerable",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d31/classUE_1_1Geometry_1_1TPolygon2_1_1SegmentEnumerable.html",tooltip="Wrapper around SegmentIterator that has begin() and end() suitable for range-based for loop."];
+}

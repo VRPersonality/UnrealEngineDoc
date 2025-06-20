@@ -1,0 +1,12 @@
+var classUUVEditorUVTransformOperatorFactory =
+[
+    [ "MakeNewOperator", "d8/d12/classUUVEditorUVTransformOperatorFactory.html#aab4cae837fc314439988d0ba5f560b6d", null ],
+    [ "CURRENT_FILE_ID___LINE___GENERATED_BODY", "d8/d12/classUUVEditorUVTransformOperatorFactory.html#ad447cee02a3c0f4b7d968b7e0099d202", null ],
+    [ "EdgeSelection", "d8/d12/classUUVEditorUVTransformOperatorFactory.html#a8e4b8e89c577696d0ca20bbc4d7d3b25", null ],
+    [ "GetSelectedUVChannel", "d8/d12/classUUVEditorUVTransformOperatorFactory.html#abb0d2b8ab48b7963f9cff68bc12ca0bb", null ],
+    [ "OriginalMesh", "d8/d12/classUUVEditorUVTransformOperatorFactory.html#a4c581938abebe80fcc2639308f5c5a77", null ],
+    [ "Settings", "d8/d12/classUUVEditorUVTransformOperatorFactory.html#aa540282b88922dd14d42aad861342435", null ],
+    [ "TargetTransform", "d8/d12/classUUVEditorUVTransformOperatorFactory.html#a4e7c3ff29aa25da6c17f945cbe6dc624", null ],
+    [ "TransformType", "d8/d12/classUUVEditorUVTransformOperatorFactory.html#a838e31335760ab98406c308f17fb678a", null ],
+    [ "VertexSelection", "d8/d12/classUUVEditorUVTransformOperatorFactory.html#a424df4188ce6792dfb55193db3502b5d", null ]
+];

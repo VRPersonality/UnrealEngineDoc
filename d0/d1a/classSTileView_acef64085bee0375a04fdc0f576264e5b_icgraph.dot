@@ -1,0 +1,26 @@
+digraph "STileView::GetTileDimensions"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="STileView::GetTileDimensions",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="STileView::GetNumItemsPerLine",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d1a/classSTileView.html#a64e1502f6771980216b34348f04e3caf",tooltip="Get the number of items that can fit in the view along the line axis (orthogonal to the scroll axis) ..."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="STileView::GetNumItemsBeing\lObserved",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d1a/classSTileView.html#a208dfb37fd93928f28db1dabdd122492",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="STileView::ScrollIntoView",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d1a/classSTileView.html#a492ba1fc6cf684b344e0dcd5ac4e82f4",tooltip="If there is a pending request to scroll an item into view, do so."];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="STileView::OnNavigation",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d1a/classSTileView.html#a80198624917e7dbbf0f9a026e645d8bb",tooltip="Called when navigation is requested e.g."];
+  Node2 -> Node6 [id="edge5_Node000002_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="STileView::ReGenerateItems",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d1a/classSTileView.html#aa8578078cc57d8465b4d31bbab0bef01",tooltip="Update generate Widgets for Items as needed and clean up any Widgets that are no longer needed."];
+  Node2 -> Node7 [id="edge6_Node000002_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="STileView::ScrollBy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d1a/classSTileView.html#a823ff1a0ea4b177795a45a3514bf7d8e",tooltip="Scroll the list view by some number of screen units."];
+  Node2 -> Node4 [id="edge7_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node6 [id="edge8_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node7 [id="edge9_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node4 [id="edge10_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

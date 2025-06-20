@@ -1,0 +1,31 @@
+digraph "ICommonUIModule::GetSettings"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="ICommonUIModule::GetSettings",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="ICommonUIModule::Get",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d7f/classICommonUIModule.html#a3303944358f042fb104271f8ab99f4ff",tooltip="Singleton-like access to this module's interface."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FModuleManager::LoadModule\lChecked",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dbe/classFModuleManager.html#a9af4fbbe86837ef50fcdf917fbfbe878",tooltip="Loads the specified module, checking to ensure it exists."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FModuleManager::GetModule\lChecked",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dbe/classFModuleManager.html#ad6b07e263e8862f6f71891440a632208",tooltip="Gets a module by name, checking to ensure it exists."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FModuleManager::FModuleManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dbe/classFModuleManager.html#a67c83926cfb9bc1f1aafd4cc37580edc",tooltip="Hidden constructor."];
+  Node4 -> Node6 [id="edge5_Node000004_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FModuleManager::Get",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dbe/classFModuleManager.html#a4035f1cd1c863f7efb0cac6fef1e0706",tooltip="Gets the singleton instance of the module manager."];
+  Node6 -> Node5 [id="edge6_Node000006_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node4 -> Node7 [id="edge7_Node000004_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="FModuleManager::GetModule",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dbe/classFModuleManager.html#a43b47356087afe6f21078b5be0ddf153",tooltip="Gets the specified module."];
+  Node4 -> Node8 [id="edge8_Node000004_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="FModuleManager::IsModule\lLoaded",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dbe/classFModuleManager.html#a30117d30d580add31cf1c0f3bfaf952f",tooltip="Checks whether the specified module is currently loaded."];
+  Node4 -> Node9 [id="edge9_Node000004_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="FName::ToString",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d53/classFName.html#aa1dc865b721f80e46e8d67993a24bb9e",tooltip="Converts an FName to a readable format."];
+  Node1 -> Node10 [id="edge10_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="ICommonUIModule::GetSettings\lInstance",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d7f/classICommonUIModule.html#a0d6220b466004ee38aba9038a6b38b72",tooltip=" "];
+  Node1 -> Node11 [id="edge11_Node000001_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="IsInGameThread",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d8c/CoreGlobals_8h.html#aef9b701034d58fd883a90af440707365",tooltip=" "];
+}

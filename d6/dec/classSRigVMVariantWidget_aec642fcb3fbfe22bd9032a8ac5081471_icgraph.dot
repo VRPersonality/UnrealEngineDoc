@@ -1,0 +1,16 @@
+digraph "SRigVMVariantWidget::SLATE_ATTRIBUTE"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SRigVMVariantWidget\l::SLATE_ATTRIBUTE",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SRigVMVariantWidget\l::SLATE_ATTRIBUTE",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/dec/classSRigVMVariantWidget.html#a4fcd652323ec1c6509b98fa0f206a4bc",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SRigVMVariantWidget\l::SLATE_ATTRIBUTE",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/dec/classSRigVMVariantWidget.html#aa6d5da090f10177349540d81aa3092cc",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="SRigVMVariantWidget\l::SLATE_ATTRIBUTE",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/dec/classSRigVMVariantWidget.html#a0e5163ddafb61c6821801a3d4be79bc0",tooltip=" "];
+}

@@ -1,0 +1,17 @@
+digraph "FEditorViewportClient::GetViewRotation"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FEditorViewportClient\l::GetViewRotation",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FViewportCameraTransform\l::GetRotation",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d97/structFViewportCameraTransform.html#a3b4d9a6be3c89af9a4c059c6836cb898",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FEditorViewportClient\l::GetViewTransform",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d9e/classFEditorViewportClient.html#a8e08badd4ec988c5d68035e050115c30",tooltip="Gets ViewportCameraTransform object for the current viewport type."];
+  Node3 -> Node3 [id="edge3_Node000003_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node4 [id="edge4_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FEditorViewportClient\l::IsPerspective",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d9e/classFEditorViewportClient.html#a83795f10bc66b8be496ece6472cfdcba",tooltip="Returns true if this viewport is perspective."];
+}

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Unreal Engine 5.6 C++ Documentation: MovementBaseUtility Namespace Reference</title>
+<title>Unreal Engine 5.6 C++ API: MovementBaseUtility Namespace Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -18,7 +18,11 @@
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
-<link href="../../unreal_theme.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -27,9 +31,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Unreal Engine 5.6 C++ Documentation<span id="projectnumber">&#160;5.6</span>
+   <div id="projectname">Unreal Engine 5.6 C++ API<span id="projectnumber">&#160;5.6.0</span>
    </div>
-   <div id="projectbrief">Documentation UE5 avec chemins sources corrects</div>
+   <div id="projectbrief">C++ API documentation for Unreal Engine 5.6</div>
   </td>
  </tr>
  </tbody>
@@ -99,30 +103,30 @@ $(function(){initNavTree('de/de5/namespaceMovementBaseUtility.html','../../','')
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a644c73fb94fc47f4a12f6961cc923273" id="r_a644c73fb94fc47f4a12f6961cc923273"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a644c73fb94fc47f4a12f6961cc923273">IsDynamicBase</a> (const UPrimitiveComponent *MovementBase)</td></tr>
-<tr class="memdesc:a644c73fb94fc47f4a12f6961cc923273"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine whether MovementBase can possibly move.  <br /></td></tr>
-<tr class="memitem:a48220868d89653727c1cd3332b38f8c7" id="r_a48220868d89653727c1cd3332b38f8c7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48220868d89653727c1cd3332b38f8c7">IsSimulatedBase</a> (const UPrimitiveComponent *MovementBase)</td></tr>
-<tr class="memdesc:a48220868d89653727c1cd3332b38f8c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine whether MovementBase is simulating or attached to a simulating object.  <br /></td></tr>
-<tr class="memitem:a92f1203de88bd1b6ae2e84f75cd8c43a" id="r_a92f1203de88bd1b6ae2e84f75cd8c43a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92f1203de88bd1b6ae2e84f75cd8c43a">UseRelativeLocation</a> (const UPrimitiveComponent *MovementBase)</td></tr>
-<tr class="memdesc:a92f1203de88bd1b6ae2e84f75cd8c43a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if we should use relative positioning when based on a component (because it may move).  <br /></td></tr>
 <tr class="memitem:ae07118ba58a8e9c847224cce94ed010c" id="r_ae07118ba58a8e9c847224cce94ed010c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae07118ba58a8e9c847224cce94ed010c">AddTickDependency</a> (FTickFunction &amp;BasedObjectTick, UPrimitiveComponent *NewBase)</td></tr>
 <tr class="memdesc:ae07118ba58a8e9c847224cce94ed010c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ensure that BasedObjectTick ticks after NewBase.  <br /></td></tr>
+<tr class="memitem:af344d8257671cd42ad1f18c8a024b734" id="r_af344d8257671cd42ad1f18c8a024b734"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af344d8257671cd42ad1f18c8a024b734">GetMovementBaseTangentialVelocity</a> (const UPrimitiveComponent *MovementBase, const <a class="el" href="../../d0/d53/classFName.html">FName</a> BoneName, const <a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a> &amp;WorldLocation)</td></tr>
+<tr class="memdesc:af344d8257671cd42ad1f18c8a024b734"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the tangential velocity at WorldLocation for the given component.  <br /></td></tr>
+<tr class="memitem:aff25f32289f267d162a59f4eb19ab642" id="r_aff25f32289f267d162a59f4eb19ab642"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff25f32289f267d162a59f4eb19ab642">GetMovementBaseTransform</a> (const UPrimitiveComponent *MovementBase, const <a class="el" href="../../d0/d53/classFName.html">FName</a> BoneName, <a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a> &amp;OutLocation, <a class="el" href="../../d2/d10/MathFwd_8h.html#a440e2e6b0f4eca3d0168353ed0cd6fad">FQuat</a> &amp;OutQuat)</td></tr>
+<tr class="memdesc:aff25f32289f267d162a59f4eb19ab642"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the transform (local-to-world) for the given MovementBase, optionally at the location of a bone.  <br /></td></tr>
+<tr class="memitem:a1db8007f701a106cdf72a37f71b8b05a" id="r_a1db8007f701a106cdf72a37f71b8b05a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1db8007f701a106cdf72a37f71b8b05a">GetMovementBaseVelocity</a> (const UPrimitiveComponent *MovementBase, const <a class="el" href="../../d0/d53/classFName.html">FName</a> BoneName)</td></tr>
+<tr class="memdesc:a1db8007f701a106cdf72a37f71b8b05a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the velocity of the given component, first checking the ComponentVelocity and falling back to the physics velocity if necessary.  <br /></td></tr>
+<tr class="memitem:a644c73fb94fc47f4a12f6961cc923273" id="r_a644c73fb94fc47f4a12f6961cc923273"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a644c73fb94fc47f4a12f6961cc923273">IsDynamicBase</a> (const UPrimitiveComponent *MovementBase)</td></tr>
+<tr class="memdesc:a644c73fb94fc47f4a12f6961cc923273"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine whether MovementBase can possibly move.  <br /></td></tr>
+<tr class="memitem:a48220868d89653727c1cd3332b38f8c7" id="r_a48220868d89653727c1cd3332b38f8c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48220868d89653727c1cd3332b38f8c7">IsSimulatedBase</a> (const UPrimitiveComponent *MovementBase)</td></tr>
+<tr class="memdesc:a48220868d89653727c1cd3332b38f8c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine whether MovementBase is simulating or attached to a simulating object.  <br /></td></tr>
 <tr class="memitem:a394b2b3ee6873a15f2f60fd0cf71b7e0" id="r_a394b2b3ee6873a15f2f60fd0cf71b7e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a394b2b3ee6873a15f2f60fd0cf71b7e0">RemoveTickDependency</a> (FTickFunction &amp;BasedObjectTick, UPrimitiveComponent *OldBase)</td></tr>
 <tr class="memdesc:a394b2b3ee6873a15f2f60fd0cf71b7e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove tick dependency of BasedObjectTick on OldBase.  <br /></td></tr>
-<tr class="memitem:a1db8007f701a106cdf72a37f71b8b05a" id="r_a1db8007f701a106cdf72a37f71b8b05a"><td class="memItemLeft" align="right" valign="top">FVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1db8007f701a106cdf72a37f71b8b05a">GetMovementBaseVelocity</a> (const UPrimitiveComponent *MovementBase, const FName BoneName)</td></tr>
-<tr class="memdesc:a1db8007f701a106cdf72a37f71b8b05a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the velocity of the given component, first checking the ComponentVelocity and falling back to the physics velocity if necessary.  <br /></td></tr>
-<tr class="memitem:af344d8257671cd42ad1f18c8a024b734" id="r_af344d8257671cd42ad1f18c8a024b734"><td class="memItemLeft" align="right" valign="top">FVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af344d8257671cd42ad1f18c8a024b734">GetMovementBaseTangentialVelocity</a> (const UPrimitiveComponent *MovementBase, const FName BoneName, const FVector &amp;WorldLocation)</td></tr>
-<tr class="memdesc:af344d8257671cd42ad1f18c8a024b734"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the tangential velocity at WorldLocation for the given component.  <br /></td></tr>
-<tr class="memitem:aff25f32289f267d162a59f4eb19ab642" id="r_aff25f32289f267d162a59f4eb19ab642"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff25f32289f267d162a59f4eb19ab642">GetMovementBaseTransform</a> (const UPrimitiveComponent *MovementBase, const FName BoneName, FVector &amp;OutLocation, FQuat &amp;OutQuat)</td></tr>
-<tr class="memdesc:aff25f32289f267d162a59f4eb19ab642"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the transform (local-to-world) for the given MovementBase, optionally at the location of a bone.  <br /></td></tr>
-<tr class="memitem:aa1fd85d9ab426af8f3c039057be05e5e" id="r_aa1fd85d9ab426af8f3c039057be05e5e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1fd85d9ab426af8f3c039057be05e5e">TransformLocationToWorld</a> (const UPrimitiveComponent *MovementBase, const FName BoneName, const FVector &amp;LocalLocation, FVector &amp;OutLocationWorldSpace)</td></tr>
-<tr class="memdesc:aa1fd85d9ab426af8f3c039057be05e5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a local location to a world location for a given MovementBase.  <br /></td></tr>
-<tr class="memitem:a67aa76623b041e6f4269fc191905294f" id="r_a67aa76623b041e6f4269fc191905294f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67aa76623b041e6f4269fc191905294f">TransformLocationToLocal</a> (const UPrimitiveComponent *MovementBase, const FName BoneName, const FVector &amp;WorldSpaceLocation, FVector &amp;OutLocalLocation)</td></tr>
-<tr class="memdesc:a67aa76623b041e6f4269fc191905294f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a world location to a local location for a given MovementBase, optionally at the location of a bone.  <br /></td></tr>
-<tr class="memitem:ab01a7476514b129feb3b413172593b49" id="r_ab01a7476514b129feb3b413172593b49"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab01a7476514b129feb3b413172593b49">TransformDirectionToWorld</a> (const UPrimitiveComponent *MovementBase, const FName BoneName, const FVector &amp;LocalDirection, FVector &amp;OutDirectionWorldSpace)</td></tr>
-<tr class="memdesc:ab01a7476514b129feb3b413172593b49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a local direction to a world direction for a given MovementBase.  <br /></td></tr>
-<tr class="memitem:a9a2081ca8b201e8274841f2f2465f904" id="r_a9a2081ca8b201e8274841f2f2465f904"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a2081ca8b201e8274841f2f2465f904">TransformDirectionToLocal</a> (const UPrimitiveComponent *MovementBase, const FName BoneName, const FVector &amp;WorldSpaceDirection, FVector &amp;OutLocalDirection)</td></tr>
+<tr class="memitem:a9a2081ca8b201e8274841f2f2465f904" id="r_a9a2081ca8b201e8274841f2f2465f904"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a2081ca8b201e8274841f2f2465f904">TransformDirectionToLocal</a> (const UPrimitiveComponent *MovementBase, const <a class="el" href="../../d0/d53/classFName.html">FName</a> BoneName, const <a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a> &amp;WorldSpaceDirection, <a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a> &amp;OutLocalDirection)</td></tr>
 <tr class="memdesc:a9a2081ca8b201e8274841f2f2465f904"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a world direction to a local direction for a given MovementBase, optionally relative to the orientation of a bone.  <br /></td></tr>
+<tr class="memitem:ab01a7476514b129feb3b413172593b49" id="r_ab01a7476514b129feb3b413172593b49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab01a7476514b129feb3b413172593b49">TransformDirectionToWorld</a> (const UPrimitiveComponent *MovementBase, const <a class="el" href="../../d0/d53/classFName.html">FName</a> BoneName, const <a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a> &amp;LocalDirection, <a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a> &amp;OutDirectionWorldSpace)</td></tr>
+<tr class="memdesc:ab01a7476514b129feb3b413172593b49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a local direction to a world direction for a given MovementBase.  <br /></td></tr>
+<tr class="memitem:a67aa76623b041e6f4269fc191905294f" id="r_a67aa76623b041e6f4269fc191905294f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67aa76623b041e6f4269fc191905294f">TransformLocationToLocal</a> (const UPrimitiveComponent *MovementBase, const <a class="el" href="../../d0/d53/classFName.html">FName</a> BoneName, const <a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a> &amp;WorldSpaceLocation, <a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a> &amp;OutLocalLocation)</td></tr>
+<tr class="memdesc:a67aa76623b041e6f4269fc191905294f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a world location to a local location for a given MovementBase, optionally at the location of a bone.  <br /></td></tr>
+<tr class="memitem:aa1fd85d9ab426af8f3c039057be05e5e" id="r_aa1fd85d9ab426af8f3c039057be05e5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1fd85d9ab426af8f3c039057be05e5e">TransformLocationToWorld</a> (const UPrimitiveComponent *MovementBase, const <a class="el" href="../../d0/d53/classFName.html">FName</a> BoneName, const <a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a> &amp;LocalLocation, <a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a> &amp;OutLocationWorldSpace)</td></tr>
+<tr class="memdesc:aa1fd85d9ab426af8f3c039057be05e5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a local location to a world location for a given MovementBase.  <br /></td></tr>
+<tr class="memitem:a36f44bbf68226b8ced11cc03b9434807" id="r_a36f44bbf68226b8ced11cc03b9434807"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dd1/AndroidPlatform_8h.html#a724fb9f82013c782db5c3c12ea36aac8">FORCEINLINE</a> <a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36f44bbf68226b8ced11cc03b9434807">UseRelativeLocation</a> (const UPrimitiveComponent *MovementBase)</td></tr>
+<tr class="memdesc:a36f44bbf68226b8ced11cc03b9434807"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if we should use relative positioning when based on a component (because it may move).  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="../../de/de5/namespaceMovementBaseUtility.html" title="MovementBaseUtility provides utilities for working with movement bases, for which we may need relativ...">MovementBaseUtility</a> provides utilities for working with movement bases, for which we may need relative positioning info. </p>
@@ -150,6 +154,20 @@ Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="#ae07118ba58a8e9c847224cce94ed010c">AddTickDependency()</a>.</p>
 
+<p class="reference">Referenced by <a class="el" href="#ae07118ba58a8e9c847224cce94ed010c">AddTickDependency()</a>.</p>
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the call graph for this function:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 0 --></div>
+</div>
+<div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the caller graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 1 --></div>
+</div>
+
 </div>
 </div>
 <a id="af344d8257671cd42ad1f18c8a024b734" name="af344d8257671cd42ad1f18c8a024b734"></a>
@@ -159,26 +177,40 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">FVector MovementBaseUtility::GetMovementBaseTangentialVelocity </td>
+          <td class="memname"><a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a> MovementBaseUtility::GetMovementBaseTangentialVelocity </td>
           <td>(</td>
           <td class="paramtype">const UPrimitiveComponent *</td>          <td class="paramname"><span class="paramname"><em>MovementBase</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const FName</td>          <td class="paramname"><span class="paramname"><em>BoneName</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../d0/d53/classFName.html">FName</a></td>          <td class="paramname"><span class="paramname"><em>BoneName</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const FVector &amp;</td>          <td class="paramname"><span class="paramname"><em>WorldLocation</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>WorldLocation</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Get the tangential velocity at WorldLocation for the given component. </p>
 
-<p class="reference">References <a class="el" href="#af344d8257671cd42ad1f18c8a024b734">GetMovementBaseTangentialVelocity()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/dda/IOSSystemIncludes_8h_source.html#l00008">FVector</a>, and <a class="el" href="#af344d8257671cd42ad1f18c8a024b734">GetMovementBaseTangentialVelocity()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="#af344d8257671cd42ad1f18c8a024b734">GetMovementBaseTangentialVelocity()</a>.</p>
+<div id="dynsection-2" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the call graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 2 --></div>
+</div>
+<div id="dynsection-3" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 3 --></div>
+</div>
 
 </div>
 </div>
@@ -189,24 +221,24 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool MovementBaseUtility::GetMovementBaseTransform </td>
+          <td class="memname"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a> MovementBaseUtility::GetMovementBaseTransform </td>
           <td>(</td>
           <td class="paramtype">const UPrimitiveComponent *</td>          <td class="paramname"><span class="paramname"><em>MovementBase</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const FName</td>          <td class="paramname"><span class="paramname"><em>BoneName</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../d0/d53/classFName.html">FName</a></td>          <td class="paramname"><span class="paramname"><em>BoneName</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">FVector &amp;</td>          <td class="paramname"><span class="paramname"><em>OutLocation</em></span>, </td>
+          <td class="paramtype"><a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>OutLocation</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">FQuat &amp;</td>          <td class="paramname"><span class="paramname"><em>OutQuat</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="../../d2/d10/MathFwd_8h.html#a440e2e6b0f4eca3d0168353ed0cd6fad">FQuat</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>OutQuat</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -214,7 +246,21 @@ Functions</h2></td></tr>
 <p>Get the transform (local-to-world) for the given MovementBase, optionally at the location of a bone. </p>
 <p>Returns false if MovementBase is nullptr, or if BoneName is not a valid bone. </p>
 
-<p class="reference">References <a class="el" href="#aff25f32289f267d162a59f4eb19ab642">GetMovementBaseTransform()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/dda/IOSSystemIncludes_8h_source.html#l00008">FVector</a>, and <a class="el" href="#aff25f32289f267d162a59f4eb19ab642">GetMovementBaseTransform()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="#aff25f32289f267d162a59f4eb19ab642">GetMovementBaseTransform()</a>.</p>
+<div id="dynsection-4" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the call graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 4 --></div>
+</div>
+<div id="dynsection-5" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 5 --></div>
+</div>
 
 </div>
 </div>
@@ -225,21 +271,35 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">FVector MovementBaseUtility::GetMovementBaseVelocity </td>
+          <td class="memname"><a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a> MovementBaseUtility::GetMovementBaseVelocity </td>
           <td>(</td>
           <td class="paramtype">const UPrimitiveComponent *</td>          <td class="paramname"><span class="paramname"><em>MovementBase</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const FName</td>          <td class="paramname"><span class="paramname"><em>BoneName</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="../../d0/d53/classFName.html">FName</a></td>          <td class="paramname"><span class="paramname"><em>BoneName</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Get the velocity of the given component, first checking the ComponentVelocity and falling back to the physics velocity if necessary. </p>
 
-<p class="reference">References <a class="el" href="#a1db8007f701a106cdf72a37f71b8b05a">GetMovementBaseVelocity()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/dda/IOSSystemIncludes_8h_source.html#l00008">FVector</a>, and <a class="el" href="#a1db8007f701a106cdf72a37f71b8b05a">GetMovementBaseVelocity()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="#a1db8007f701a106cdf72a37f71b8b05a">GetMovementBaseVelocity()</a>.</p>
+<div id="dynsection-6" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the call graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 6 --></div>
+</div>
+<div id="dynsection-7" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the caller graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 7 --></div>
+</div>
 
 </div>
 </div>
@@ -250,7 +310,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool MovementBaseUtility::IsDynamicBase </td>
+          <td class="memname"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a> MovementBaseUtility::IsDynamicBase </td>
           <td>(</td>
           <td class="paramtype">const UPrimitiveComponent *</td>          <td class="paramname"><span class="paramname"><em>MovementBase</em></span></td><td>)</td>
           <td></td>
@@ -262,6 +322,20 @@ Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="#a644c73fb94fc47f4a12f6961cc923273">IsDynamicBase()</a>.</p>
 
+<p class="reference">Referenced by <a class="el" href="#a644c73fb94fc47f4a12f6961cc923273">IsDynamicBase()</a>, and <a class="el" href="../../db/dc7/Character_8h_source.html#l00141">UseRelativeLocation()</a>.</p>
+<div id="dynsection-8" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 8 --></div>
+</div>
+<div id="dynsection-9" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the caller graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 9 --></div>
+</div>
+
 </div>
 </div>
 <a id="a48220868d89653727c1cd3332b38f8c7" name="a48220868d89653727c1cd3332b38f8c7"></a>
@@ -271,7 +345,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool MovementBaseUtility::IsSimulatedBase </td>
+          <td class="memname"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a> MovementBaseUtility::IsSimulatedBase </td>
           <td>(</td>
           <td class="paramtype">const UPrimitiveComponent *</td>          <td class="paramname"><span class="paramname"><em>MovementBase</em></span></td><td>)</td>
           <td></td>
@@ -282,6 +356,20 @@ Functions</h2></td></tr>
 <p>Determine whether MovementBase is simulating or attached to a simulating object. </p>
 
 <p class="reference">References <a class="el" href="#a48220868d89653727c1cd3332b38f8c7">IsSimulatedBase()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="#a48220868d89653727c1cd3332b38f8c7">IsSimulatedBase()</a>.</p>
+<div id="dynsection-10" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the call graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 10 --></div>
+</div>
+<div id="dynsection-11" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the caller graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 11 --></div>
+</div>
 
 </div>
 </div>
@@ -308,6 +396,20 @@ Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="#a394b2b3ee6873a15f2f60fd0cf71b7e0">RemoveTickDependency()</a>.</p>
 
+<p class="reference">Referenced by <a class="el" href="#a394b2b3ee6873a15f2f60fd0cf71b7e0">RemoveTickDependency()</a>.</p>
+<div id="dynsection-12" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the call graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 12 --></div>
+</div>
+<div id="dynsection-13" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the caller graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 13 --></div>
+</div>
+
 </div>
 </div>
 <a id="a9a2081ca8b201e8274841f2f2465f904" name="a9a2081ca8b201e8274841f2f2465f904"></a>
@@ -317,24 +419,24 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool MovementBaseUtility::TransformDirectionToLocal </td>
+          <td class="memname"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a> MovementBaseUtility::TransformDirectionToLocal </td>
           <td>(</td>
           <td class="paramtype">const UPrimitiveComponent *</td>          <td class="paramname"><span class="paramname"><em>MovementBase</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const FName</td>          <td class="paramname"><span class="paramname"><em>BoneName</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../d0/d53/classFName.html">FName</a></td>          <td class="paramname"><span class="paramname"><em>BoneName</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const FVector &amp;</td>          <td class="paramname"><span class="paramname"><em>WorldSpaceDirection</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>WorldSpaceDirection</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">FVector &amp;</td>          <td class="paramname"><span class="paramname"><em>OutLocalDirection</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>OutLocalDirection</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -342,7 +444,21 @@ Functions</h2></td></tr>
 <p>Convert a world direction to a local direction for a given MovementBase, optionally relative to the orientation of a bone. </p>
 <p>Returns false if MovementBase is nullptr, or if BoneName is not a valid bone. Scaling is ignored. </p>
 
-<p class="reference">References <a class="el" href="#a9a2081ca8b201e8274841f2f2465f904">TransformDirectionToLocal()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/dda/IOSSystemIncludes_8h_source.html#l00008">FVector</a>, and <a class="el" href="#a9a2081ca8b201e8274841f2f2465f904">TransformDirectionToLocal()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="#a9a2081ca8b201e8274841f2f2465f904">TransformDirectionToLocal()</a>.</p>
+<div id="dynsection-14" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the call graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 14 --></div>
+</div>
+<div id="dynsection-15" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the caller graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 15 --></div>
+</div>
 
 </div>
 </div>
@@ -353,24 +469,24 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool MovementBaseUtility::TransformDirectionToWorld </td>
+          <td class="memname"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a> MovementBaseUtility::TransformDirectionToWorld </td>
           <td>(</td>
           <td class="paramtype">const UPrimitiveComponent *</td>          <td class="paramname"><span class="paramname"><em>MovementBase</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const FName</td>          <td class="paramname"><span class="paramname"><em>BoneName</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../d0/d53/classFName.html">FName</a></td>          <td class="paramname"><span class="paramname"><em>BoneName</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const FVector &amp;</td>          <td class="paramname"><span class="paramname"><em>LocalDirection</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>LocalDirection</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">FVector &amp;</td>          <td class="paramname"><span class="paramname"><em>OutDirectionWorldSpace</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>OutDirectionWorldSpace</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -378,7 +494,21 @@ Functions</h2></td></tr>
 <p>Convert a local direction to a world direction for a given MovementBase. </p>
 <p>Returns false if MovementBase is nullptr, or if BoneName is not a valid bone. Scaling is ignored. </p>
 
-<p class="reference">References <a class="el" href="#ab01a7476514b129feb3b413172593b49">TransformDirectionToWorld()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/dda/IOSSystemIncludes_8h_source.html#l00008">FVector</a>, and <a class="el" href="#ab01a7476514b129feb3b413172593b49">TransformDirectionToWorld()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="#ab01a7476514b129feb3b413172593b49">TransformDirectionToWorld()</a>.</p>
+<div id="dynsection-16" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the call graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 16 --></div>
+</div>
+<div id="dynsection-17" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the caller graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 17 --></div>
+</div>
 
 </div>
 </div>
@@ -389,24 +519,24 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool MovementBaseUtility::TransformLocationToLocal </td>
+          <td class="memname"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a> MovementBaseUtility::TransformLocationToLocal </td>
           <td>(</td>
           <td class="paramtype">const UPrimitiveComponent *</td>          <td class="paramname"><span class="paramname"><em>MovementBase</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const FName</td>          <td class="paramname"><span class="paramname"><em>BoneName</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../d0/d53/classFName.html">FName</a></td>          <td class="paramname"><span class="paramname"><em>BoneName</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const FVector &amp;</td>          <td class="paramname"><span class="paramname"><em>WorldSpaceLocation</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>WorldSpaceLocation</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">FVector &amp;</td>          <td class="paramname"><span class="paramname"><em>OutLocalLocation</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>OutLocalLocation</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -414,7 +544,21 @@ Functions</h2></td></tr>
 <p>Convert a world location to a local location for a given MovementBase, optionally at the location of a bone. </p>
 <p>Returns false if MovementBase is nullptr, or if BoneName is not a valid bone. Scaling is ignored. </p>
 
-<p class="reference">References <a class="el" href="#a67aa76623b041e6f4269fc191905294f">TransformLocationToLocal()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/dda/IOSSystemIncludes_8h_source.html#l00008">FVector</a>, and <a class="el" href="#a67aa76623b041e6f4269fc191905294f">TransformLocationToLocal()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="#a67aa76623b041e6f4269fc191905294f">TransformLocationToLocal()</a>.</p>
+<div id="dynsection-18" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the call graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 18 --></div>
+</div>
+<div id="dynsection-19" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the caller graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 19 --></div>
+</div>
 
 </div>
 </div>
@@ -425,24 +569,24 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool MovementBaseUtility::TransformLocationToWorld </td>
+          <td class="memname"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a> MovementBaseUtility::TransformLocationToWorld </td>
           <td>(</td>
           <td class="paramtype">const UPrimitiveComponent *</td>          <td class="paramname"><span class="paramname"><em>MovementBase</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const FName</td>          <td class="paramname"><span class="paramname"><em>BoneName</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../d0/d53/classFName.html">FName</a></td>          <td class="paramname"><span class="paramname"><em>BoneName</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const FVector &amp;</td>          <td class="paramname"><span class="paramname"><em>LocalLocation</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>LocalLocation</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">FVector &amp;</td>          <td class="paramname"><span class="paramname"><em>OutLocationWorldSpace</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="../../d2/d10/MathFwd_8h.html#adda141358ecae99df7ba663b9e637078">FVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>OutLocationWorldSpace</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -450,38 +594,58 @@ Functions</h2></td></tr>
 <p>Convert a local location to a world location for a given MovementBase. </p>
 <p>Returns false if MovementBase is nullptr, or if BoneName is not a valid bone. Scaling is ignored. </p>
 
-<p class="reference">References <a class="el" href="#aa1fd85d9ab426af8f3c039057be05e5e">TransformLocationToWorld()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/dda/IOSSystemIncludes_8h_source.html#l00008">FVector</a>, and <a class="el" href="#aa1fd85d9ab426af8f3c039057be05e5e">TransformLocationToWorld()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="#aa1fd85d9ab426af8f3c039057be05e5e">TransformLocationToWorld()</a>.</p>
+<div id="dynsection-20" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the call graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 20 --></div>
+</div>
+<div id="dynsection-21" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the caller graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 21 --></div>
+</div>
 
 </div>
 </div>
-<a id="a92f1203de88bd1b6ae2e84f75cd8c43a" name="a92f1203de88bd1b6ae2e84f75cd8c43a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92f1203de88bd1b6ae2e84f75cd8c43a">&#9670;&#160;</a></span>UseRelativeLocation()</h2>
+<a id="a36f44bbf68226b8ced11cc03b9434807" name="a36f44bbf68226b8ced11cc03b9434807"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36f44bbf68226b8ced11cc03b9434807">&#9670;&#160;</a></span>UseRelativeLocation()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool MovementBaseUtility::UseRelativeLocation </td>
+          <td class="memname"><a class="el" href="../../d7/dd1/AndroidPlatform_8h.html#a724fb9f82013c782db5c3c12ea36aac8">FORCEINLINE</a> <a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a> MovementBaseUtility::UseRelativeLocation </td>
           <td>(</td>
           <td class="paramtype">const UPrimitiveComponent *</td>          <td class="paramname"><span class="paramname"><em>MovementBase</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Determine if we should use relative positioning when based on a component (because it may move). </p>
 
 <p class="definition">Definition at line <a class="el" href="../../db/dc7/Character_8h_source.html#l00141">141</a> of file <a class="el" href="../../db/dc7/Character_8h_source.html">Character.h</a>.</p>
 
-<p class="reference">References <a class="el" href="#a644c73fb94fc47f4a12f6961cc923273">IsDynamicBase()</a>, and <a class="el" href="../../db/dc7/Character_8h_source.html#l00141">UseRelativeLocation()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/dd1/AndroidPlatform_8h_source.html#l00140">FORCEINLINE</a>, <a class="el" href="#a644c73fb94fc47f4a12f6961cc923273">IsDynamicBase()</a>, and <a class="el" href="../../db/dc7/Character_8h_source.html#l00141">UseRelativeLocation()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../db/dc7/Character_8h_source.html#l00141">UseRelativeLocation()</a>.</p>
+<div id="dynsection-22" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the call graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 22 --></div>
+</div>
+<div id="dynsection-23" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the caller graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 23 --></div>
+</div>
 
 </div>
 </div>
@@ -499,7 +663,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a href="../../de/de5/namespaceMovementBaseUtility.html">MovementBaseUtility</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+    <li class="footer">Generated on <span class="timestamp"></span> for Unreal Engine 5.6 C++ API by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>
 </body>

@@ -1,0 +1,16 @@
+digraph "FSparseDelegateStorage::AddUnique"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FSparseDelegateStorage\l::AddUnique",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Binds a sparse delegate to the owner, verifying first that the delegate is not already bound."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FSparseDelegate::_\l_Internal_AddUnique",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d32/structFSparseDelegate.html#a6c70bff96bf8c65e9a51d82428089330",tooltip="Adds a function delegate to this multi-cast delegate's invocation list if a delegate with the same si..."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TSparseDynamicDelegate\l::AddUnique",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d28/structTSparseDynamicDelegate.html#aaf0b71afee8e0b1843c7986d2391ba02",tooltip="Adds a function delegate to this multi-cast delegate's invocation list if a delegate with the same si..."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TSparseDynamicDelegate\l::__Internal_AddUniqueDynamic",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d28/structTSparseDynamicDelegate.html#addf503a987543a62cd54c508f6bea07a",tooltip="Binds a UObject instance and a UObject method address to this multi-cast delegate,..."];
+}

@@ -1,0 +1,23 @@
+digraph "TComPtr::TComPtr"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TComPtr::TComPtr",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Default constructor (initialized to null)."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TComPtr::TComPtr",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d62/classTComPtr.html#a5cfc5f2831a4dcb117de4a18ca141f33",tooltip="Copy constructor."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TComPtr::TComPtr",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d62/classTComPtr.html#a187ed5d90205c4c4aec9c66b32c39f61",tooltip="Move constructor."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TComPtr::GetTypeHash",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d62/classTComPtr.html#a28dbc296924714e1a4dc1365838519c7",tooltip=" "];
+  Node4 -> Node4 [id="edge4_Node000004_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node5 [id="edge5_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TComPtr::operator=",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d62/classTComPtr.html#a147584309f380a1fe788a612098dd0ac",tooltip="Copy assignment operator."];
+  Node1 -> Node6 [id="edge6_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="TComPtr::operator=",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d62/classTComPtr.html#abd78782b0b3593473324dcbaa497aede",tooltip="Assignment operator."];
+  Node1 -> Node7 [id="edge7_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="TComPtr::operator=",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d62/classTComPtr.html#a8b055e3ec28b621da7a6289783f653cc",tooltip="Move assignment operator."];
+}

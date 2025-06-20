@@ -1,0 +1,63 @@
+digraph "New"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="New",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FRigVMStructUpgradeInfo\l::FRigVMStructUpgradeInfo",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d16/structFRigVMStructUpgradeInfo.html#a3119cbf00d1e9f96631f292a8007d1fe",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::MemStack::AllocateString",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/dda/namespaceUE_1_1MemStack.html#aea1ba8df8433cd71577df33360983ffa",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UE::MemStack::AllocateString",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/dda/namespaceUE_1_1MemStack.html#ab96d00d31df07e210e1f96d6ea44bc35",tooltip=" "];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="UE::MemStack::AllocateString",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/dda/namespaceUE_1_1MemStack.html#a63d49a91b64a0b1c170b6335a01afbd3",tooltip=" "];
+  Node3 -> Node6 [id="edge5_Node000003_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="UE::MemStack::AllocateStringf",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/dda/namespaceUE_1_1MemStack.html#a6487e57e673e34d6fb1c9b36529e7a35",tooltip=" "];
+  Node3 -> Node7 [id="edge6_Node000003_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="UE::MemStack::AllocateStringView",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/dda/namespaceUE_1_1MemStack.html#a9f41b73e284d8f4d98a5bbee2db4d7b9",tooltip=" "];
+  Node7 -> Node8 [id="edge7_Node000007_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="UE::MemStack::AllocateString\lViewf",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/dda/namespaceUE_1_1MemStack.html#ac9409ba2ffbfd65c1c8832d542eab6c7",tooltip=" "];
+  Node1 -> Node9 [id="edge8_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="IConsoleObject::ClearFlags",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d0d/classIConsoleObject.html#acae2394c6249df02079b5964f9b2b08e",tooltip="Removes the specified flags in the internal state."];
+  Node1 -> Node10 [id="edge9_Node000001_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="DiffUtils::CompareUnrelatedSCS",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d0d/namespaceDiffUtils.html#a86fd9e70dcd6013c674991fc01a95be0",tooltip=" "];
+  Node10 -> Node10 [id="edge10_Node000010_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node11 [id="edge11_Node000001_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="TMovieSceneInterrogation\lIterator::end",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d9e/structTMovieSceneInterrogationIterator.html#a5b9b49fbd7d4271bef3a84cc40118fe9",tooltip=" "];
+  Node1 -> Node12 [id="edge12_Node000001_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="TClosableMpscQueue\l::Enqueue",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d6b/classTClosableMpscQueue.html#ae87447b21303ac616f3557752f2a6d7d",tooltip="Returns false if the queue is closed."];
+  Node1 -> Node13 [id="edge13_Node000001_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="TMpscQueue::Enqueue",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d90/classTMpscQueue.html#aef6a2b34272073b39f975a773105d096",tooltip=" "];
+  Node1 -> Node14 [id="edge14_Node000001_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="FReload::NotifyChange",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dd7/classFReload.html#ae90fe5e1fb248015a5cfc7c5fb2f00d7",tooltip="Invoke to register a new or changed class, enumeration, or structure for re-instancing."];
+  Node1 -> Node15 [id="edge15_Node000001_Node000015",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="FReload::NotifyChange",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dd7/classFReload.html#a9a667ffb53e14d6cf0a1a64f9ac21a26",tooltip=" "];
+  Node1 -> Node16 [id="edge16_Node000001_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="FReload::NotifyChange",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dd7/classFReload.html#a3cb623fa805b3e5c763c3c24dc8845a9",tooltip=" "];
+  Node1 -> Node17 [id="edge17_Node000001_Node000017",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="FReload::NotifyChange",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dd7/classFReload.html#a38b031bf91fb74adbdba15e5bd6713a7",tooltip=" "];
+  Node1 -> Node18 [id="edge18_Node000001_Node000018",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="IReload::NotifyChange",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/dac/classIReload.html#a204f908f43ca202910b308936fb1254f",tooltip="Invoke to register a new or changed class, enumeration, or structure for re-instancing."];
+  Node1 -> Node19 [id="edge19_Node000001_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="IReload::NotifyChange",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/dac/classIReload.html#a9a779820be87467a79eb12c1dd0c9a2c",tooltip=" "];
+  Node1 -> Node20 [id="edge20_Node000001_Node000020",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node20 [id="Node000020",label="IReload::NotifyChange",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/dac/classIReload.html#a5b75a8169bc6a7747f580f46f84e2174",tooltip=" "];
+  Node1 -> Node21 [id="edge21_Node000001_Node000021",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node21 [id="Node000021",label="IReload::NotifyChange",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/dac/classIReload.html#a6077a841b57ed751e1223593841cf5e4",tooltip=" "];
+  Node1 -> Node22 [id="edge22_Node000001_Node000022",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node22 [id="Node000022",label="UE::TConsumeAllMpmcQueue\l::ProduceItem",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d3d/classUE_1_1TConsumeAllMpmcQueue.html#af6f247426debb0c0578e2e1c0977236c",tooltip=" "];
+  Node1 -> Node23 [id="edge23_Node000001_Node000023",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node23 [id="Node000023",label="TLinearAllocatorBase\l\< T, ELinearAllocatorThread\lPolicy::ThreadSafe \>\< FSceneRendering\lBlockAllocationTag \>::Realloc",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d98/classTLinearAllocatorBase.html#a60ee8be234047cb8434cbbea242e7815",tooltip=" "];
+  Node1 -> Node24 [id="edge24_Node000001_Node000024",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node24 [id="Node000024",label="FCurveEditorScreenSpace\l::ToCurveSpace",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d47/structFCurveEditorScreenSpace.html#aae2ab1408b4e7fdc0fd1bc53cbc07816",tooltip="Transform this screen space into a curve space using the specified transform."];
+  Node1 -> Node25 [id="edge25_Node000001_Node000025",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node25 [id="Node000025",label="UE::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d75/namespaceUE.html#a5a64de33ca9646a67b0ba1d52c1b18b3",tooltip="WARNING: this queue can cause priority inversion or a livelock due to spinlocking in Deplete() method..."];
+  Node1 -> Node26 [id="edge26_Node000001_Node000026",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node26 [id="Node000026",label="FReload::UpdateStats",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dd7/classFReload.html#a4d22984a55f93ff9f87d8bf9015cc3db",tooltip="Based on the pointers, update the given stat."];
+  Node1 -> Node27 [id="edge27_Node000001_Node000027",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node27 [id="Node000027",label="USTRUCT",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d71/AssetManagerSettings_8h.html#a96eb8697ec7abc68c87afff4dfce2e63",tooltip="Simple structure for redirecting an old asset name/path to a new one."];
+}

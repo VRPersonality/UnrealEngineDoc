@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Unreal Engine 5.6 C++ Documentation: UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/RootMotionSource.h File Reference</title>
+<title>Unreal Engine 5.6 C++ API: RootMotionSource.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -18,7 +18,11 @@
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
-<link href="../../unreal_theme.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -27,9 +31,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Unreal Engine 5.6 C++ Documentation<span id="projectnumber">&#160;5.6</span>
+   <div id="projectname">Unreal Engine 5.6 C++ API<span id="projectnumber">&#160;5.6.0</span>
    </div>
-   <div id="projectbrief">Documentation UE5 avec chemins sources corrects</div>
+   <div id="projectbrief">C++ API documentation for Unreal Engine 5.6</div>
   </td>
  </tr>
  </tbody>
@@ -93,74 +97,61 @@ $(function(){initNavTree('d2/dd0/RootMotionSource_8h.html','../../',''); });
   <div class="headertitle"><div class="title">RootMotionSource.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;CoreMinimal.h&quot;</code><br />
-<code>#include &quot;HAL/IConsoleManager.h&quot;</code><br />
-<code>#include &quot;UObject/ObjectMacros.h&quot;</code><br />
-<code>#include &quot;UObject/Class.h&quot;</code><br />
-<code>#include &quot;Engine/NetSerialization.h&quot;</code><br />
-<code>#include &quot;Animation/AnimationAsset.h&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d7/d67/CoreMinimal_8h_source.html">CoreMinimal.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/d0d/IConsoleManager_8h_source.html">HAL/IConsoleManager.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html">UObject/ObjectMacros.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/d05/Class_8h_source.html">UObject/Class.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/dc9/NetSerialization_8h_source.html">Engine/NetSerialization.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/df8/AnimationAsset_8h_source.html">Animation/AnimationAsset.h</a>&quot;</code><br />
 <code>#include &quot;RootMotionSource.generated.h&quot;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Include dependency graph for RootMotionSource.h:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 0 --></div>
+</div>
+</div><div class="textblock"><div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>This graph shows which files directly or indirectly include this file:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 1 --></div>
+</div>
 </div>
 <p><a href="../../d2/dd0/RootMotionSource_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
+Data Structures</h2></td></tr>
 <tr class="memitem:FRootMotionServerToLocalIDMapping" id="r_FRootMotionServerToLocalIDMapping"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d60/structFRootMotionServerToLocalIDMapping.html">FRootMotionServerToLocalIDMapping</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure for mapping RootMotionSource server IDs to those on this client.  <a href="../../d9/d60/structFRootMotionServerToLocalIDMapping.html#details">More...</a><br /></td></tr>
-<tr class="memitem:FRootMotionSourceStatus" id="r_FRootMotionSourceStatus"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d12/structFRootMotionSourceStatus.html">FRootMotionSourceStatus</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure for RootMotionSource status flags (used for convenience instead of having to manually manipulate flag bitfields)  <a href="../../da/d12/structFRootMotionSourceStatus.html#details">More...</a><br /></td></tr>
-<tr class="memitem:FRootMotionSourceSettings" id="r_FRootMotionSourceSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df9/structFRootMotionSourceSettings.html">FRootMotionSourceSettings</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure for RootMotionSource option flags (used for convenience instead of having to manually manipulate flag bitfields)  <a href="../../d3/df9/structFRootMotionSourceSettings.html#details">More...</a><br /></td></tr>
-<tr class="memitem:FRootMotionFinishVelocitySettings" id="r_FRootMotionFinishVelocitySettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd8/structFRootMotionFinishVelocitySettings.html">FRootMotionFinishVelocitySettings</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Struct for RootMotion Finish Velocity options.  <a href="../../dc/dd8/structFRootMotionFinishVelocitySettings.html#details">More...</a><br /></td></tr>
 <tr class="memitem:FRootMotionSourceFixLayout" id="r_FRootMotionSourceFixLayout"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de5/structFRootMotionSourceFixLayout.html">FRootMotionSourceFixLayout</a></td></tr>
-<tr class="memitem:FRootMotionSource" id="r_FRootMotionSource"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3a/structFRootMotionSource.html">FRootMotionSource</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generalized source of Root Motion to a CharacterMovementComponent.  <a href="../../df/d3a/structFRootMotionSource.html#details">More...</a><br /></td></tr>
+<tr class="memitem:RootMotionSourceDebug" id="r_RootMotionSourceDebug"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d23/structRootMotionSourceDebug.html">RootMotionSourceDebug</a></td></tr>
 <tr class="memitem:TStructOpsTypeTraits_3C_20FRootMotionSource_20_3E" id="r_TStructOpsTypeTraits_3C_20FRootMotionSource_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d13/structTStructOpsTypeTraits_3_01FRootMotionSource_01_4.html">TStructOpsTypeTraits&lt; FRootMotionSource &gt;</a></td></tr>
-<tr class="memitem:FRootMotionSource_5FConstantForce" id="r_FRootMotionSource_5FConstantForce"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d3c/structFRootMotionSource__ConstantForce.html">FRootMotionSource_ConstantForce</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">ConstantForce applies a fixed force to the target.  <a href="../../d6/d3c/structFRootMotionSource__ConstantForce.html#details">More...</a><br /></td></tr>
 <tr class="memitem:TStructOpsTypeTraits_3C_20FRootMotionSource_5FConstantForce_20_3E" id="r_TStructOpsTypeTraits_3C_20FRootMotionSource_5FConstantForce_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d24/structTStructOpsTypeTraits_3_01FRootMotionSource__ConstantForce_01_4.html">TStructOpsTypeTraits&lt; FRootMotionSource_ConstantForce &gt;</a></td></tr>
-<tr class="memitem:FRootMotionSource_5FRadialForce" id="r_FRootMotionSource_5FRadialForce"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d94/structFRootMotionSource__RadialForce.html">FRootMotionSource_RadialForce</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">RadialForce applies a force pulling or pushing away from a given world location to the target.  <a href="../../d2/d94/structFRootMotionSource__RadialForce.html#details">More...</a><br /></td></tr>
-<tr class="memitem:TStructOpsTypeTraits_3C_20FRootMotionSource_5FRadialForce_20_3E" id="r_TStructOpsTypeTraits_3C_20FRootMotionSource_5FRadialForce_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d85/structTStructOpsTypeTraits_3_01FRootMotionSource__RadialForce_01_4.html">TStructOpsTypeTraits&lt; FRootMotionSource_RadialForce &gt;</a></td></tr>
-<tr class="memitem:FRootMotionSource_5FMoveToForce" id="r_FRootMotionSource_5FMoveToForce"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/structFRootMotionSource__MoveToForce.html">FRootMotionSource_MoveToForce</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">MoveToForce moves the target to a given fixed location in world space over the duration.  <a href="../../d2/d2d/structFRootMotionSource__MoveToForce.html#details">More...</a><br /></td></tr>
-<tr class="memitem:TStructOpsTypeTraits_3C_20FRootMotionSource_5FMoveToForce_20_3E" id="r_TStructOpsTypeTraits_3C_20FRootMotionSource_5FMoveToForce_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d55/structTStructOpsTypeTraits_3_01FRootMotionSource__MoveToForce_01_4.html">TStructOpsTypeTraits&lt; FRootMotionSource_MoveToForce &gt;</a></td></tr>
-<tr class="memitem:FRootMotionSource_5FMoveToDynamicForce" id="r_FRootMotionSource_5FMoveToDynamicForce"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d45/structFRootMotionSource__MoveToDynamicForce.html">FRootMotionSource_MoveToDynamicForce</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">MoveToDynamicForce moves the target to a given location in world space over the duration, where the end location is dynamic and can change during the move (meant to be used for things like moving to a moving target)  <a href="../../da/d45/structFRootMotionSource__MoveToDynamicForce.html#details">More...</a><br /></td></tr>
-<tr class="memitem:TStructOpsTypeTraits_3C_20FRootMotionSource_5FMoveToDynamicForce_20_3E" id="r_TStructOpsTypeTraits_3C_20FRootMotionSource_5FMoveToDynamicForce_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d47/structTStructOpsTypeTraits_3_01FRootMotionSource__MoveToDynamicForce_01_4.html">TStructOpsTypeTraits&lt; FRootMotionSource_MoveToDynamicForce &gt;</a></td></tr>
-<tr class="memitem:FRootMotionSource_5FJumpForce" id="r_FRootMotionSource_5FJumpForce"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd6/structFRootMotionSource__JumpForce.html">FRootMotionSource_JumpForce</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">JumpForce moves the target in a jump-like manner (ends when landing, applied force is relative)  <a href="../../d4/dd6/structFRootMotionSource__JumpForce.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">ConstantForce applies a fixed force to the target.  <a href="../../db/d24/structTStructOpsTypeTraits_3_01FRootMotionSource__ConstantForce_01_4.html#details">More...</a><br /></td></tr>
 <tr class="memitem:TStructOpsTypeTraits_3C_20FRootMotionSource_5FJumpForce_20_3E" id="r_TStructOpsTypeTraits_3C_20FRootMotionSource_5FJumpForce_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d11/structTStructOpsTypeTraits_3_01FRootMotionSource__JumpForce_01_4.html">TStructOpsTypeTraits&lt; FRootMotionSource_JumpForce &gt;</a></td></tr>
-<tr class="memitem:FRootMotionSourceGroup" id="r_FRootMotionSourceGroup"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d68/structFRootMotionSourceGroup.html">FRootMotionSourceGroup</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Group of Root Motion Sources that are applied.  <a href="../../da/d68/structFRootMotionSourceGroup.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">JumpForce moves the target in a jump-like manner (ends when landing, applied force is relative)  <a href="../../d8/d11/structTStructOpsTypeTraits_3_01FRootMotionSource__JumpForce_01_4.html#details">More...</a><br /></td></tr>
+<tr class="memitem:TStructOpsTypeTraits_3C_20FRootMotionSource_5FMoveToDynamicForce_20_3E" id="r_TStructOpsTypeTraits_3C_20FRootMotionSource_5FMoveToDynamicForce_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d47/structTStructOpsTypeTraits_3_01FRootMotionSource__MoveToDynamicForce_01_4.html">TStructOpsTypeTraits&lt; FRootMotionSource_MoveToDynamicForce &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">MoveToDynamicForce moves the target to a given location in world space over the duration, where the end location is dynamic and can change during the move (meant to be used for things like moving to a moving target)  <a href="../../da/d47/structTStructOpsTypeTraits_3_01FRootMotionSource__MoveToDynamicForce_01_4.html#details">More...</a><br /></td></tr>
+<tr class="memitem:TStructOpsTypeTraits_3C_20FRootMotionSource_5FMoveToForce_20_3E" id="r_TStructOpsTypeTraits_3C_20FRootMotionSource_5FMoveToForce_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d55/structTStructOpsTypeTraits_3_01FRootMotionSource__MoveToForce_01_4.html">TStructOpsTypeTraits&lt; FRootMotionSource_MoveToForce &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">MoveToForce moves the target to a given fixed location in world space over the duration.  <a href="../../d4/d55/structTStructOpsTypeTraits_3_01FRootMotionSource__MoveToForce_01_4.html#details">More...</a><br /></td></tr>
+<tr class="memitem:TStructOpsTypeTraits_3C_20FRootMotionSource_5FRadialForce_20_3E" id="r_TStructOpsTypeTraits_3C_20FRootMotionSource_5FRadialForce_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d85/structTStructOpsTypeTraits_3_01FRootMotionSource__RadialForce_01_4.html">TStructOpsTypeTraits&lt; FRootMotionSource_RadialForce &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">RadialForce applies a force pulling or pushing away from a given world location to the target.  <a href="../../d4/d85/structTStructOpsTypeTraits_3_01FRootMotionSource__RadialForce_01_4.html#details">More...</a><br /></td></tr>
 <tr class="memitem:TStructOpsTypeTraits_3C_20FRootMotionSourceGroup_20_3E" id="r_TStructOpsTypeTraits_3C_20FRootMotionSourceGroup_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbe/structTStructOpsTypeTraits_3_01FRootMotionSourceGroup_01_4.html">TStructOpsTypeTraits&lt; FRootMotionSourceGroup &gt;</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-define-members" class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a1d0a7e2ed58799cd12a0c587e8cbc4b7" id="r_a1d0a7e2ed58799cd12a0c587e8cbc4b7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d0a7e2ed58799cd12a0c587e8cbc4b7">ROOT_MOTION_DEBUG</a>&#160;&#160;&#160;(1 &amp;&amp; !(UE_BUILD_SHIPPING || UE_BUILD_TEST))</td></tr>
+<tr class="memitem:a1d0a7e2ed58799cd12a0c587e8cbc4b7" id="r_a1d0a7e2ed58799cd12a0c587e8cbc4b7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d0a7e2ed58799cd12a0c587e8cbc4b7">ROOT_MOTION_DEBUG</a>&#160;&#160;&#160;(1 &amp;&amp; !(UE_BUILD_SHIPPING || <a class="el" href="../../d3/dbb/Build_8h.html#a13ac897276c9ba4b3e762100532e5c7a">UE_BUILD_TEST</a>))</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:af3fe6be1a814580e0c5620577e53970f" id="r_af3fe6be1a814580e0c5620577e53970f"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3fe6be1a814580e0c5620577e53970f">ERootMotionSourceID</a> : uint16 { <a class="el" href="#af3fe6be1a814580e0c5620577e53970fa4bbb8f967da6d1a610596d7257179c2b">Invalid</a> = 0
  }</td></tr>
+<tr class="memdesc:af3fe6be1a814580e0c5620577e53970f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration for RootMotionSource accumulation mode.  <a href="#af3fe6be1a814580e0c5620577e53970f">More...</a><br /></td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a990be603d35d55ed1d1929ec87669683" id="r_a990be603d35d55ed1d1929ec87669683"><td class="memItemLeft" align="right" valign="top">enum enum class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a990be603d35d55ed1d1929ec87669683">ERootMotionAccumulateMode</a></td></tr>
-<tr class="memdesc:a990be603d35d55ed1d1929ec87669683"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration for RootMotionSource accumulation mode.  <br /></td></tr>
-<tr class="memitem:a1ec581243ee4d387a705eb94d4052345" id="r_a1ec581243ee4d387a705eb94d4052345"><td class="memItemLeft" align="right" valign="top">enum enum class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ec581243ee4d387a705eb94d4052345">Additive</a></td></tr>
-<tr class="memitem:a266ffcff3a1c74a683b1d7cf0a407e17" id="r_a266ffcff3a1c74a683b1d7cf0a407e17"><td class="memItemLeft" align="right" valign="top">enum enum class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a266ffcff3a1c74a683b1d7cf0a407e17">ERootMotionSourceStatusFlags</a></td></tr>
-<tr class="memdesc:a266ffcff3a1c74a683b1d7cf0a407e17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration for RootMotionSource status flags.  <br /></td></tr>
-<tr class="memitem:a5c5f1e2fe7000994fb3854b2cc14ef57" id="r_a5c5f1e2fe7000994fb3854b2cc14ef57"><td class="memItemLeft" align="right" valign="top">enum enum class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c5f1e2fe7000994fb3854b2cc14ef57">Finished</a> = 0x02</td></tr>
-<tr class="memitem:a78129dd58898d8fc91de5c059a6271de" id="r_a78129dd58898d8fc91de5c059a6271de"><td class="memItemLeft" align="right" valign="top">enum enum class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78129dd58898d8fc91de5c059a6271de">MarkedForRemoval</a></td></tr>
-<tr class="memitem:a610aa0f7ebe302f083ad250c92d27870" id="r_a610aa0f7ebe302f083ad250c92d27870"><td class="memItemLeft" align="right" valign="top">enum enum class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a610aa0f7ebe302f083ad250c92d27870">ERootMotionSourceSettingsFlags</a></td></tr>
-<tr class="memdesc:a610aa0f7ebe302f083ad250c92d27870"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration for RootMotionSource settings.  <br /></td></tr>
-<tr class="memitem:a1f1737e25f66a5a4ced7bc0740918b7c" id="r_a1f1737e25f66a5a4ced7bc0740918b7c"><td class="memItemLeft" align="right" valign="top">enum enum class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f1737e25f66a5a4ced7bc0740918b7c">DisablePartialEndTick</a> = 0x02</td></tr>
-<tr class="memitem:abdd632e93805dca674c91ef9bc039f00" id="r_abdd632e93805dca674c91ef9bc039f00"><td class="memItemLeft" align="right" valign="top">enum enum class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdd632e93805dca674c91ef9bc039f00">IgnoreZAccumulate</a></td></tr>
-<tr class="memitem:ae25d9d52de63f34bfe172405f9e9eff7" id="r_ae25d9d52de63f34bfe172405f9e9eff7"><td class="memItemLeft" align="right" valign="top">enum enum class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae25d9d52de63f34bfe172405f9e9eff7">ERootMotionFinishVelocityMode</a></td></tr>
-<tr class="memitem:a110d6a4c12612244c80bcc38acc8cece" id="r_a110d6a4c12612244c80bcc38acc8cece"><td class="memItemLeft" align="right" valign="top">enum enum class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a110d6a4c12612244c80bcc38acc8cece">SetVelocity</a></td></tr>
-<tr class="memitem:a304b2833328113aeb78595511e8a9ae9" id="r_a304b2833328113aeb78595511e8a9ae9"><td class="memItemLeft" align="right" valign="top">enum enum class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a304b2833328113aeb78595511e8a9ae9">ClampVelocity</a></td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a17b92a88c1165a7bf83bd3198a491646" id="r_a17b92a88c1165a7bf83bd3198a491646"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17b92a88c1165a7bf83bd3198a491646">USTRUCT</a> () struct FRootMotionSourceStatus</td></tr>
+<tr class="memdesc:a17b92a88c1165a7bf83bd3198a491646"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure for RootMotionSource status flags (used for convenience instead of having to manually manipulate flag bitfields)  <br /></td></tr>
 </table>
 <a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
 <a id="a1d0a7e2ed58799cd12a0c587e8cbc4b7" name="a1d0a7e2ed58799cd12a0c587e8cbc4b7"></a>
@@ -170,7 +161,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ROOT_MOTION_DEBUG&#160;&#160;&#160;(1 &amp;&amp; !(UE_BUILD_SHIPPING || UE_BUILD_TEST))</td>
+          <td class="memname">#define ROOT_MOTION_DEBUG&#160;&#160;&#160;(1 &amp;&amp; !(UE_BUILD_SHIPPING || <a class="el" href="../../d3/dbb/Build_8h.html#a13ac897276c9ba4b3e762100532e5c7a">UE_BUILD_TEST</a>))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -190,7 +181,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum class <a class="el" href="#af3fe6be1a814580e0c5620577e53970f">ERootMotionSourceID</a> : uint16</td>
+          <td class="memname">enum class <a class="el" href="#af3fe6be1a814580e0c5620577e53970f">ERootMotionSourceID</a> : <a class="el" href="../../d9/dd0/Platform_8h.html#a55934b7aafc849240fa69ea0339c0ab7">uint16</a></td>
         </tr>
       </table>
   </td>
@@ -199,6 +190,9 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Enumeration for RootMotionSource accumulation mode. </p>
+<p>Enumeration for RootMotionSource status flags Enumeration for RootMotionSource settings </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af3fe6be1a814580e0c5620577e53970fa4bbb8f967da6d1a610596d7257179c2b" name="af3fe6be1a814580e0c5620577e53970fa4bbb8f967da6d1a610596d7257179c2b"></a>Invalid&#160;</td><td class="fielddoc"></td></tr>
 </table>
@@ -207,193 +201,172 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
-<a id="a1ec581243ee4d387a705eb94d4052345" name="a1ec581243ee4d387a705eb94d4052345"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ec581243ee4d387a705eb94d4052345">&#9670;&#160;</a></span>Additive</h2>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a17b92a88c1165a7bf83bd3198a491646" name="a17b92a88c1165a7bf83bd3198a491646"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17b92a88c1165a7bf83bd3198a491646">&#9670;&#160;</a></span>USTRUCT()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum enum class Additive</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= 1</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d2/dd0/RootMotionSource_8h_source.html#l00038">38</a> of file <a class="el" href="../../d2/dd0/RootMotionSource_8h_source.html">RootMotionSource.h</a>.</p>
-
-</div>
-</div>
-<a id="a304b2833328113aeb78595511e8a9ae9" name="a304b2833328113aeb78595511e8a9ae9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a304b2833328113aeb78595511e8a9ae9">&#9670;&#160;</a></span>ClampVelocity</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum enum class ClampVelocity</td>
+          <td class="memname">USTRUCT </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/dd0/RootMotionSource_8h_source.html#l00147">147</a> of file <a class="el" href="../../d2/dd0/RootMotionSource_8h_source.html">RootMotionSource.h</a>.</p>
+<p>Structure for RootMotionSource status flags (used for convenience instead of having to manually manipulate flag bitfields) </p>
+<p>Group of Root Motion Sources that are applied.</p>
+<p>Generalized source of Root Motion to a CharacterMovementComponent.</p>
+<p>Struct for RootMotion Finish Velocity options.</p>
+<p>Structure for RootMotionSource option flags (used for convenience instead of having to manually manipulate flag bitfields)</p>
+<p>Has priorities and different accumulation modes (override, additive, set, ignore).</p>
+<p>RootMotionSources are accumulated from highest priority to lowest, once all values are "finalized" (meaning no more accumulation to those values), root motion accumulation is finished. Having all of translation and rotation in a transform being overridden during root motion accumulation means that CharacterMovementComponent Phys*() functions no longer need to CalcVelocity() since it'll just get overridden anyway.</p>
+<p>Some example source possibilities: Full Animation Root Motion (matching only form of root motion we've supported historically):</p><ul>
+<li>Overrides all translation axes or rotation or both</li>
+<li>Very High priority so it gets applied first and since it is override no other RootMotionSources have an influence that are lower priority</li>
+<li>Scale on translation and/or rotation is set to 1 to match animation 1 for 1</li>
+<li>Provides local space transform (character-orientation relative)</li>
+<li>End result: Same as before - overrides velocity/rotation to values in AnimMontage</li>
+<li>But can now scale individual translation axes if desired, or instead of override can use "set" to allow other additive sources of root motion to be applied on top of the animation root motion (modify velocity to home root motion melee attacks, etc.)</li>
+</ul>
+<p>Jump pad volumes that work during animation root montage attacks</p><ul>
+<li>Constant velocity modification Z up, additive and high priority</li>
+<li>Attack/melee animation root motion uses "set" instead of "override" to allow other sources</li>
+<li>Animation root motion is applied, then the Z up additive of this source is so you are affected by the jump pad</li>
+</ul>
+<p>Attack/melee homing</p><ul>
+<li>Additive, lower priority so it gets applied after any animation/significant root motion</li>
+<li>World space, sourced by logic modifying velocity to go towards nearby enemies</li>
+<li>Could point to a UAbilityTask node from the GameplayAbilities system</li>
+</ul>
+<p>Character movement controlled by splines/curves in-editor instead of requiring animation tweaks</p><ul>
+<li>Same as animation root motion but source from spline/curve data </li>
+</ul>
+<p>Priority of this source relative to other sources - higher number being the highest priority/first applied.</p>
+<p>ID local to this client or server instance. Used for matching up FRootMotionSources between SavedMoves and allow a mapping between server LocalIDs and client LocalIDs for correction/comparison</p>
+<p>This name allows us to find the source later so that we can end it.</p>
+<p>Time this source should start (in character movement client time) This is used to handle cases of inconsistent tick times (ServerMoves ticking for 1 second when root motion should have only applied for the last 0.1 seconds, or root motion source ending halfway through a 0.5 second tick)</p>
+<p>Time elapsed so far for this source</p>
+<p>The last Time entry we had before the last SetTime() - used for simulated catchup</p>
+<p>The length of this root motion - &lt; 0 for infinite (to be removed manually)</p>
+<p>Status of this source</p>
+<p>Settings of this source</p>
+<p>Accumulation mode for this source (whether or not to additively apply this root motion or override completely)</p>
+<p>True when this RootMotionSource is contributing local space accumulation (false for world space)</p>
+<p>True when this RootMotionSource has been marked for simulated catchup - this Simulated version of the Source needs to catch up to where it was before being corrected by authoritative version.</p>
+<p>True when this RootMotionSource is running on a SimulatedProxy and has marked itself as needing location/rotation smoothing. This smoothing logic is what runs whenever the SimulatedProxy receives a replication update from the server (SimulatedTick in CharacterMovementComponent, see bCorrectedToServer and SmoothCorrection), this flag allows the RootMotionSource to signal to the CMC that a change was done significant enough that needs smoothing.</p>
+<p>Root Motion generated by this Source</p>
+<p>Finish Velocity Parameters</p>
+<dl class="section return"><dt>Returns</dt><dd>the CurrentTime - amount of time elapsed so far for this source</dd>
+<dd>
+the StartTime - time this source should start (in character movement client time) <br  />
+</dd>
+<dd>
+whether the start time has been set</dd>
+<dd>
+the Duration - the length of this root motion - &lt; 0 for infinite (to be removed manually)</dd>
+<dd>
+whether this source will be removed when CurrentTime reaches Duration</dd>
+<dd>
+newly allocated copy of this FRootMotionSource. Must be overridden by child classes.</dd>
+<dd>
+Whether this is the same RootMotionSource as Other. This is used for networking when clients receive RootMotionSource data from the server and need to decide which local RootMotionSource to compare and apply the corrections to. This is required due to RootMotionSources in general being added independently on server and clients, not needing to know about each other by default.</dd></dl>
+<p>For well-networked RootMotionSources, any given FRootMotionSource child class could implement their own unique ID and simply use that in the Matches check. This "heuristic-style" default was chosen to simplify addition of new RootMotionSources, and assumes that in a networked setting a given RootMotionSource won't be applied many times in a given frame by the same instigator to the same target with the exact same parameters.</p>
+<p>Guaranteed uniqueness would also require a strict application order ("RootMotionSources can only
+be added on Authority") or a prediction-based setup ("Apply on Autonomous and Simulated predictively,
+then apply on Authority and confirm, and if Authority doesn't confirm remove them"). We avoid that synchronization complexity for now.</p>
+<p>See UCharacterMovementComponent::ConvertRootMotionServerIDsToLocalIDs</p>
+<p>Should be overridden by child classes, as default implementation only contains basic equivalency checks</p>
+<p>Checks that it Matches() and has the same state (time, track position, etc.)</p>
+<p>Mainly for server correction purposes - update this Source's state from another's, usually the authoritative state from the server's version of the Source </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bMarkForSimulatedCatchup</td><td>sets the source for needing to "catch up" to current state next Prepare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether the update was sucessful or not. Note that failure to update denotes a complete failure, and the Source will then be marked for removal. We need to remove since we don't have a way of reverting partial updates depending on where the update failed.</dd></dl>
+<p>True when this RootMotionSource should be affecting root motion</p>
+<p>Set the CurrentTime of this source. Use this setter so that sources based on duration can get correctly marked for end</p>
+<p>Checks if this source has timed out and marks for removal if necessary</p>
+<p>Generates the RootMotion for this Source, can be used for both "live" generation or for playback (client prediction correction, simulated proxies, etc.)</p>
+<p>Examples:</p><ul>
+<li>Animation RootMotionSources use Time as track time into AnimMontage and extract the root motion from AnimMontage chunk of time (Position,Position+DeltaTime)</li>
+<li>ConstantForce source uses Time as the time into the application so if its duration ends halfway through the frame it knows how much root motion it should have applied</li>
+<li>Spline/curve-based sources use Time for knowing where on spline/curve to extract from <dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SimulationTime</td><td>How far forward in time to simulate root motion </td></tr>
+    <tr><td class="paramname">MovementTickTime</td><td>How much time the movement is going to take that this is being prepared for</td></tr>
+  </table>
+  </dd>
+</dl>
+Root Motion Sources currently applied in this Group</li>
+</ul>
+<p>Root Motion Sources to be added next frame</p>
+<p>Whether this group has additive root motion sources</p>
+<p>Whether this group has override root motion sources</p>
+<p>Whether this group has override root motion sources that have IgnoreZAccumulate flag</p>
+<p>True when we had additive velocity applied last tick, checked to know if we should restore LastPreAdditiveVelocity before a Velocity computation</p>
+<p>Aggregate Settings of the last group of accumulated sources</p>
+<p>Saved off pre-additive-applied Velocity, used for being able to reliably add/remove additive velocity from currently computed Velocity (otherwise we would be removing additive velocity that no longer exists, like if you run into a wall and your Velocity becomes 0 - subtracting the velocity that we added heading into the wall last tick would make you go backwards. With this method we override that resulting Velocity due to obstructions</p>
+<p>Generates root motion by accumulating transforms through current root motion sources. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bForcePrepareAll</td><td>- Used during "live" PerformMovements() to ensure all sources get prepared Needed due to SavedMove playback/server correction only applying corrections to Sources that need updating, so in that case we only Prepare those that need it.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Helper function for accumulating override velocity into InOutVelocity</p>
+<p>Helper function for accumulating additive velocity into InOutVelocity</p>
+<p>Get rotation output of current override root motion source, returns true if OutRotation was filled</p>
+<p>Gets whether any active root motion source has been marked to need NetworkSmoothing as a SimulatedProxy</p>
+<p>Sets the StartTime of all pending root motion sources to be at least this time, can be used on servers to match client-side start times</p>
+<p>Applies a reset to the start time for each root motion when the time stamp is reset</p>
+<dl class="section return"><dt>Returns</dt><dd>true if Velocity will be overridden by root motion sources, meaning we can skip all normal movement-based velocity calculations</dd>
+<dd>
+true if Velocity will be overridden by root motion sources that do not affect Z velocity (matching animation root motion behavior)</dd>
+<dd>
+true if any axis of velocity has additive velocity applied by root motion sources</dd>
+<dd>
+true if any axis of velocity is modified by root motion sources</dd>
+<dd>
+true if we have Root Motion from any source to use in PerformMovement() physics.</dd>
+<dd>
+true if we have Root Motion accumulated from sources to use in PerformMovement() physics. Not valid outside of the scope of that function. Since RootMotion is extracted and used in it.</dd></dl>
+<p>Apply a RootMotionSource to this Group </p><dl class="section return"><dt>Returns</dt><dd>LocalID for this RMS</dd></dl>
+<p>Get a RootMotionSource from this Group by name</p>
+<p>Get a RootMotionSource from this Group by ID</p>
+<p>Remove a RootMotionSource from this Group by name</p>
+<p>Remove a RootMotionSource from this Group by ID</p>
+<p>Update contained Sources to state in matching sources from other group. Used for correcting root motion state when receiving authoritative state from server. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">GroupToTakeStateFrom</td><td>the Authoritative Group to take state from </td></tr>
+    <tr><td class="paramname">bMarkForSimulatedCatchup</td><td>marks Sources as needing to return to their current Time on next Prepare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>whether it successfully updated state</dd></dl>
+<p>Serialize the root motion sources and their states for this group</p>
+<p>Clear the contents to return it to "empty"</p>
+<p>Removes any Sources without a valid ID</p>
+<p>Copy operator - deep copy so it can be used for archiving/saving off moves</p>
+<p>Comparison operator - needs matching Sources along with identical states in those sources</p>
+<p>Comparison operator</p>
+<p>Exposes references to GC system</p>
+<p>Accumulates contributions for velocity into InOutVelocity for a given type of root motion from this group</p>
+<p>Accumulates contributions for velocity into InOutVelocity for a given type of root motion from this group</p>
+<p>Helper function for serializing array of root motion sources</p>
 
+<p class="definition">Definition at line <a class="el" href="../../d2/dd0/RootMotionSource_8h_source.html#l00098">98</a> of file <a class="el" href="../../d2/dd0/RootMotionSource_8h_source.html">RootMotionSource.h</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d8/d62/AnimNode__Inertialization_8h_source.html#l00234">Clear()</a>, <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00669">Flags</a>, <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00745">GENERATED_USTRUCT_BODY</a>, and <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00723">UPROPERTY</a>.</p>
+<div id="dynsection-2" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the call graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 2 --></div>
 </div>
-<a id="a1f1737e25f66a5a4ced7bc0740918b7c" name="a1f1737e25f66a5a4ced7bc0740918b7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f1737e25f66a5a4ced7bc0740918b7c">&#9670;&#160;</a></span>DisablePartialEndTick</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum enum class DisablePartialEndTick = 0x02</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d2/dd0/RootMotionSource_8h_source.html#l00069">69</a> of file <a class="el" href="../../d2/dd0/RootMotionSource_8h_source.html">RootMotionSource.h</a>.</p>
-
-</div>
-</div>
-<a id="a990be603d35d55ed1d1929ec87669683" name="a990be603d35d55ed1d1929ec87669683"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a990be603d35d55ed1d1929ec87669683">&#9670;&#160;</a></span>ERootMotionAccumulateMode</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum enum class ERootMotionAccumulateMode</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Enumeration for RootMotionSource accumulation mode. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d2/dd0/RootMotionSource_8h_source.html#l00033">33</a> of file <a class="el" href="../../d2/dd0/RootMotionSource_8h_source.html">RootMotionSource.h</a>.</p>
-
-</div>
-</div>
-<a id="ae25d9d52de63f34bfe172405f9e9eff7" name="ae25d9d52de63f34bfe172405f9e9eff7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae25d9d52de63f34bfe172405f9e9eff7">&#9670;&#160;</a></span>ERootMotionFinishVelocityMode</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum enum class ERootMotionFinishVelocityMode</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d2/dd0/RootMotionSource_8h_source.html#l00140">140</a> of file <a class="el" href="../../d2/dd0/RootMotionSource_8h_source.html">RootMotionSource.h</a>.</p>
-
-</div>
-</div>
-<a id="a610aa0f7ebe302f083ad250c92d27870" name="a610aa0f7ebe302f083ad250c92d27870"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a610aa0f7ebe302f083ad250c92d27870">&#9670;&#160;</a></span>ERootMotionSourceSettingsFlags</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum enum class ERootMotionSourceSettingsFlags</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Enumeration for RootMotionSource settings. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d2/dd0/RootMotionSource_8h_source.html#l00059">59</a> of file <a class="el" href="../../d2/dd0/RootMotionSource_8h_source.html">RootMotionSource.h</a>.</p>
-
-</div>
-</div>
-<a id="a266ffcff3a1c74a683b1d7cf0a407e17" name="a266ffcff3a1c74a683b1d7cf0a407e17"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a266ffcff3a1c74a683b1d7cf0a407e17">&#9670;&#160;</a></span>ERootMotionSourceStatusFlags</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum enum class ERootMotionSourceStatusFlags</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Enumeration for RootMotionSource status flags. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d2/dd0/RootMotionSource_8h_source.html#l00045">45</a> of file <a class="el" href="../../d2/dd0/RootMotionSource_8h_source.html">RootMotionSource.h</a>.</p>
-
-</div>
-</div>
-<a id="a5c5f1e2fe7000994fb3854b2cc14ef57" name="a5c5f1e2fe7000994fb3854b2cc14ef57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c5f1e2fe7000994fb3854b2cc14ef57">&#9670;&#160;</a></span>Finished</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum enum class Finished = 0x02</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d2/dd0/RootMotionSource_8h_source.html#l00050">50</a> of file <a class="el" href="../../d2/dd0/RootMotionSource_8h_source.html">RootMotionSource.h</a>.</p>
-
-</div>
-</div>
-<a id="abdd632e93805dca674c91ef9bc039f00" name="abdd632e93805dca674c91ef9bc039f00"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abdd632e93805dca674c91ef9bc039f00">&#9670;&#160;</a></span>IgnoreZAccumulate</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum enum class IgnoreZAccumulate</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= 0x04</div>
-<div class="line"> </div>
-<div class="line">}</div>
-</div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d2/dd0/RootMotionSource_8h_source.html#l00073">73</a> of file <a class="el" href="../../d2/dd0/RootMotionSource_8h_source.html">RootMotionSource.h</a>.</p>
-
-</div>
-</div>
-<a id="a78129dd58898d8fc91de5c059a6271de" name="a78129dd58898d8fc91de5c059a6271de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78129dd58898d8fc91de5c059a6271de">&#9670;&#160;</a></span>MarkedForRemoval</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum enum class MarkedForRemoval</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= 0x04</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d2/dd0/RootMotionSource_8h_source.html#l00052">52</a> of file <a class="el" href="../../d2/dd0/RootMotionSource_8h_source.html">RootMotionSource.h</a>.</p>
-
-</div>
-</div>
-<a id="a110d6a4c12612244c80bcc38acc8cece" name="a110d6a4c12612244c80bcc38acc8cece"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a110d6a4c12612244c80bcc38acc8cece">&#9670;&#160;</a></span>SetVelocity</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum enum class SetVelocity</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d2/dd0/RootMotionSource_8h_source.html#l00145">145</a> of file <a class="el" href="../../d2/dd0/RootMotionSource_8h_source.html">RootMotionSource.h</a>.</p>
 
 </div>
 </div>
@@ -410,8 +383,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="../../dir_4aca46919dd64a018c94105a41bb52f8.html">UE_5.6</a></li><li class="navelem"><a href="../../dir_35a4881369ae19e233e6dac2bcad4050.html">Engine</a></li><li class="navelem"><a href="../../dir_9f26ecb35aabc03d0a71a3e3b9106316.html">Source</a></li><li class="navelem"><a href="../../dir_0942f747ae23c965c05d4d76ae4659cb.html">Runtime</a></li><li class="navelem"><a href="../../dir_c4f31664fb2968a098c34e2ef86324ca.html">Engine</a></li><li class="navelem"><a href="../../dir_2d50b3e22a4f3c2a257cc8ed034f8f90.html">Classes</a></li><li class="navelem"><a href="../../dir_ed269b19aee30b1edf91ca5f109cdfa1.html">GameFramework</a></li><li class="navelem"><a href="../../d2/dd0/RootMotionSource_8h.html">RootMotionSource.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+    <li class="navelem"><a href="../../dir_7536b172fbd480bfd146a1b1acd6856b.html">Runtime</a></li><li class="navelem"><a href="../../dir_fdf6aa5c3cf3805bb958134448d60562.html">Engine</a></li><li class="navelem"><a href="../../dir_0ed647eebe6ffcaa496d3842b7cec6ce.html">Classes</a></li><li class="navelem"><a href="../../dir_cc939d8e7753f23591e1c275ea054aa8.html">GameFramework</a></li><li class="navelem"><a href="../../d2/dd0/RootMotionSource_8h.html">RootMotionSource.h</a></li>
+    <li class="footer">Generated on <span class="timestamp"></span> for Unreal Engine 5.6 C++ API by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>
 </body>

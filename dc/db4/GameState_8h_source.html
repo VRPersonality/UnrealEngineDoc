@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Unreal Engine 5.6 C++ Documentation: UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/GameState.h Source File</title>
+<title>Unreal Engine 5.6 C++ API: GameState.h Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -18,7 +18,11 @@
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
-<link href="../../unreal_theme.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -27,9 +31,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Unreal Engine 5.6 C++ Documentation<span id="projectnumber">&#160;5.6</span>
+   <div id="projectname">Unreal Engine 5.6 C++ API<span id="projectnumber">&#160;5.6.0</span>
    </div>
-   <div id="projectbrief">Documentation UE5 avec chemins sources corrects</div>
+   <div id="projectbrief">C++ API documentation for Unreal Engine 5.6</div>
   </td>
  </tr>
  </tbody>
@@ -97,9 +101,9 @@ $(function(){initNavTree('dc/db4/GameState_8h_source.html','../../',''); });
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;CoreMinimal.h&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;UObject/ObjectMacros.h&quot;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;Engine/EngineTypes.h&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="../../d7/d67/CoreMinimal_8h.html">CoreMinimal.h</a>&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="../../d8/d8d/ObjectMacros_8h.html">UObject/ObjectMacros.h</a>&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="../../df/dcf/EngineTypes_8h.html">Engine/EngineTypes.h</a>&quot;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="../../dd/db9/GameStateBase_8h.html">GameFramework/GameStateBase.h</a>&quot;</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;GameState.generated.h&quot;</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment"></span> </div>
@@ -107,116 +111,104 @@ $(function(){initNavTree('dc/db4/GameState_8h_source.html','../../',''); });
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment"> * GameState is a subclass of GameStateBase that behaves like a multiplayer match-based game.</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment"> * It is tied to functionality in GameMode.</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment"> */</span></div>
-<div class="foldopen" id="foldopen00015" data-start="{" data-end="};">
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="../../d7/dc4/classAGameState.html">   15</a></span>UCLASS(MinimalAPI)</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">class </span><a class="code hl_class" href="../../d7/dc4/classAGameState.html">AGameState</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../d0/db3/classAGameStateBase.html">AGameStateBase</a></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><a class="code hl_define" href="../../d8/d8d/ObjectMacros_8h.html#ae5f1e35d10ebc5ce3e5bf2f36bcc64f8">UCLASS</a>(<a class="code hl_variable" href="../../d2/da0/AnimMontage_8h.html#ab5b66a9f1ac3252ffea707183f3c1cb8">MinimalAPI</a>)</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">class </span>AGameState : <span class="keyword">public</span> AGameStateBase</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    GENERATED_UCLASS_BODY()</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <a class="code hl_define" href="../../d8/d8d/ObjectMacros_8h.html#aa5fc36d4295c464ae11a12cf1b959843">GENERATED_UCLASS_BODY</a>()</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="comment">// Code to deal with the match state machine</span></div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="comment">/** Returns the current match state, this is an accessor to protect the state machine flow */</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    FName GetMatchState()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code hl_namespace" href="../../db/daa/namespaceMatchState.html">MatchState</a>; }</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <a class="code hl_variable" href="../../df/da0/AnimInstance_8h.html#ab45c27dd9822b299411973637022bfbc">FName</a> GetMatchState()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> MatchState; }</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="comment"></span> </div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="comment">    /** Returns true if we&#39;re in progress */</span></div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    ENGINE_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> IsMatchInProgress() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="comment"></span> </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="comment">    /** Updates the match state and calls the appropriate transition functions, only valid on server */</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    ENGINE_API <span class="keywordtype">void</span> SetMatchState(FName NewState);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    ENGINE_API <span class="keywordtype">void</span> SetMatchState(<a class="code hl_variable" href="../../df/da0/AnimInstance_8h.html#ab45c27dd9822b299411973637022bfbc">FName</a> NewState);</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">protected</span>:</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="comment"></span> </div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="comment">    /** What match state we are currently in */</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    UPROPERTY(ReplicatedUsing=<a class="code hl_function" href="../../d7/dc4/classAGameState.html#a9d31e61c6f3792161c66a7ecc734933f">OnRep_MatchState</a>, BlueprintReadOnly, VisibleInstanceOnly, Category = GameState)</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="../../d7/dc4/classAGameState.html#ad8ea67e140332956634531617b0ef0ff">   35</a></span>    FName <a class="code hl_namespace" href="../../db/daa/namespaceMatchState.html">MatchState</a>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <a class="code hl_define" href="../../d8/d8d/ObjectMacros_8h.html#a0f0b61260ab178e7df0069f14ecb9f82">UPROPERTY</a>(ReplicatedUsing=OnRep_MatchState, BlueprintReadOnly, VisibleInstanceOnly, <a class="code hl_variable" href="../../d1/df7/RigUnit__AnimNextRunAnimationGraph__v1_8h.html#a9ca8f05608edcbf85ab6c2c85a439ccb">Category</a> = GameState)</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <a class="code hl_variable" href="../../df/da0/AnimInstance_8h.html#ab45c27dd9822b299411973637022bfbc">FName</a> MatchState;</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="comment"></span> </div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="comment">    /** Previous map state, used to handle if multiple transitions happen per frame */</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    UPROPERTY(BlueprintReadOnly, VisibleInstanceOnly, Category = GameState)</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="../../d7/dc4/classAGameState.html#a030087d4004e1b8696f222206bc96f5c">   39</a></span>    FName <a class="code hl_variable" href="../../d7/dc4/classAGameState.html#a030087d4004e1b8696f222206bc96f5c">PreviousMatchState</a>;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <a class="code hl_define" href="../../d8/d8d/ObjectMacros_8h.html#a0f0b61260ab178e7df0069f14ecb9f82">UPROPERTY</a>(BlueprintReadOnly, VisibleInstanceOnly, <a class="code hl_variable" href="../../d1/df7/RigUnit__AnimNextRunAnimationGraph__v1_8h.html#a9ca8f05608edcbf85ab6c2c85a439ccb">Category</a> = GameState)</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <a class="code hl_variable" href="../../df/da0/AnimInstance_8h.html#ab45c27dd9822b299411973637022bfbc">FName</a> PreviousMatchState;</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="comment"></span> </div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="comment">    /** Called when the state transitions to WaitingToStart */</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../d7/dc4/classAGameState.html#a1ddc371140f0082f2f03fa31a6548b12">   42</a></span>    ENGINE_API virtual <span class="keywordtype">void</span> <a class="code hl_function" href="../../d7/dc4/classAGameState.html#a1ddc371140f0082f2f03fa31a6548b12">HandleMatchIsWaitingToStart</a>();</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    ENGINE_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> HandleMatchIsWaitingToStart();</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="comment"></span> </div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="comment">    /** Called when the state transitions to InProgress */</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="../../d7/dc4/classAGameState.html#ae7fe11e5ed0a02ffd657191414c76c67">   45</a></span>    ENGINE_API virtual <span class="keywordtype">void</span> <a class="code hl_function" href="../../d7/dc4/classAGameState.html#ae7fe11e5ed0a02ffd657191414c76c67">HandleMatchHasStarted</a>();</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    ENGINE_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> HandleMatchHasStarted();</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="comment"></span> </div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="comment">    /** Called when the map transitions to WaitingPostMatch */</span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="../../d7/dc4/classAGameState.html#a5c4ebd2b74e427cd0eb92195f3356be2">   48</a></span>    ENGINE_API virtual <span class="keywordtype">void</span> <a class="code hl_function" href="../../d7/dc4/classAGameState.html#a5c4ebd2b74e427cd0eb92195f3356be2">HandleMatchHasEnded</a>();</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    ENGINE_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> HandleMatchHasEnded();</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="comment"></span> </div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="comment">    /** Called when the match transitions to LeavingMap */</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="../../d7/dc4/classAGameState.html#ab4852341f0f4aefe3c23e924ef3c1259">   51</a></span>    ENGINE_API virtual <span class="keywordtype">void</span> <a class="code hl_function" href="../../d7/dc4/classAGameState.html#ab4852341f0f4aefe3c23e924ef3c1259">HandleLeavingMap</a>();</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    ENGINE_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> HandleLeavingMap();</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>public:</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="comment"></span> </div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="comment">    /** Elapsed game time since match has started. */</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    UPROPERTY(replicatedUsing=<a class="code hl_function" href="../../d7/dc4/classAGameState.html#aac629798845c7788b5dbb749ab35327d">OnRep_ElapsedTime</a>, BlueprintReadOnly, Category = GameState)</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="../../d7/dc4/classAGameState.html#a6230d93f0f33fc7e5abea7de846061d7">   57</a></span>    int32 <a class="code hl_variable" href="../../d7/dc4/classAGameState.html#a6230d93f0f33fc7e5abea7de846061d7">ElapsedTime</a>;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <a class="code hl_define" href="../../d8/d8d/ObjectMacros_8h.html#a0f0b61260ab178e7df0069f14ecb9f82">UPROPERTY</a>(replicatedUsing=OnRep_ElapsedTime, BlueprintReadOnly, <a class="code hl_variable" href="../../d1/df7/RigUnit__AnimNextRunAnimationGraph__v1_8h.html#a9ca8f05608edcbf85ab6c2c85a439ccb">Category</a> = GameState)</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <a class="code hl_typedef" href="../../d9/dd0/Platform_8h.html#a8dbb3cd84ca9fd010dadfc3815eefa5d">int32</a> ElapsedTime;</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="comment"></span> </div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="comment">    /** Match state has changed */</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    UFUNCTION()</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="../../d7/dc4/classAGameState.html#a9d31e61c6f3792161c66a7ecc734933f">   61</a></span>    ENGINE_API virtual <span class="keywordtype">void</span> <a class="code hl_function" href="../../d7/dc4/classAGameState.html#a9d31e61c6f3792161c66a7ecc734933f">OnRep_MatchState</a>();</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <a class="code hl_define" href="../../d8/d8d/ObjectMacros_8h.html#a702e33657b09dae29462b8210e8f856b">UFUNCTION</a>()</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    ENGINE_API virtual <span class="keywordtype">void</span> OnRep_MatchState();</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="comment"></span> </div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="comment">    /** Gives clients the chance to do something when time gets updates */</span></div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    UFUNCTION()</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="../../d7/dc4/classAGameState.html#aac629798845c7788b5dbb749ab35327d">   65</a></span>    ENGINE_API virtual <span class="keywordtype">void</span> <a class="code hl_function" href="../../d7/dc4/classAGameState.html#aac629798845c7788b5dbb749ab35327d">OnRep_ElapsedTime</a>();</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <a class="code hl_define" href="../../d8/d8d/ObjectMacros_8h.html#a702e33657b09dae29462b8210e8f856b">UFUNCTION</a>()</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    ENGINE_API virtual <span class="keywordtype">void</span> OnRep_ElapsedTime();</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="comment"></span> </div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="comment">    /** Called periodically, overridden by subclasses */</span></div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="../../d7/dc4/classAGameState.html#a0f9e0f884956b3a39d9e796defd95240">   68</a></span>    ENGINE_API virtual <span class="keywordtype">void</span> <a class="code hl_function" href="../../d7/dc4/classAGameState.html#a0f9e0f884956b3a39d9e796defd95240">DefaultTimer</a>();</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    ENGINE_API virtual <span class="keywordtype">void</span> DefaultTimer();</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="comment">//~ Begin AActor Interface</span></div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="../../d7/dc4/classAGameState.html#a896ff82c1fc9f89f1eb24854ed483bd6">   71</a></span>    ENGINE_API virtual <span class="keywordtype">void</span> <a class="code hl_function" href="../../d7/dc4/classAGameState.html#a896ff82c1fc9f89f1eb24854ed483bd6">PostInitializeComponents</a>() override;</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    ENGINE_API virtual <span class="keywordtype">void</span> PostInitializeComponents() override;</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <span class="comment">//~ End AActor Interface</span></div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="comment">//~ Begin AGameStateBase Interface</span></div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="../../d7/dc4/classAGameState.html#a314d4536fe5d41de26d07a823dbbacbd">   75</a></span>    ENGINE_API virtual <span class="keywordtype">void</span> <a class="code hl_function" href="../../d7/dc4/classAGameState.html#a314d4536fe5d41de26d07a823dbbacbd">ReceivedGameModeClass</a>() override;</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="../../d7/dc4/classAGameState.html#ab890d92db6e7738daaecd0c7911121dc">   76</a></span>    ENGINE_API virtual <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d7/dc4/classAGameState.html#ab890d92db6e7738daaecd0c7911121dc">HasMatchStarted</a>() const override;<span class="comment"></span></div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    ENGINE_API virtual <span class="keywordtype">void</span> ReceivedGameModeClass() override;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    ENGINE_API virtual <span class="keywordtype">bool</span> HasMatchStarted() const override;<span class="comment"></span></div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="comment">    /** Returns true if match is WaitingPostMatch or later */</span></div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="../../d7/dc4/classAGameState.html#a086da221aa54c49888af643d6961a293">   78</a></span>    ENGINE_API virtual <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d7/dc4/classAGameState.html#a086da221aa54c49888af643d6961a293">HasMatchEnded</a>() const override;</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="../../d7/dc4/classAGameState.html#addef2fdffe9c5ffa53c09c07f5666168">   79</a></span>    ENGINE_API virtual <span class="keywordtype">void</span> <a class="code hl_function" href="../../d7/dc4/classAGameState.html#addef2fdffe9c5ffa53c09c07f5666168">HandleBeginPlay</a>() override;</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="../../d7/dc4/classAGameState.html#a2199dd21e290ca6ad9210f32a634be8e">   80</a></span>    ENGINE_API virtual <span class="keywordtype">float</span> <a class="code hl_function" href="../../d7/dc4/classAGameState.html#a2199dd21e290ca6ad9210f32a634be8e">GetPlayerStartTime</a>(class <a class="code hl_class" href="../../df/d0f/classAController.html">AController</a>* Controller) const override;</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="../../d7/dc4/classAGameState.html#a5f1586141d2f08affb9cb341da6750d1">   81</a></span>    ENGINE_API virtual <span class="keywordtype">float</span> <a class="code hl_function" href="../../d7/dc4/classAGameState.html#a5f1586141d2f08affb9cb341da6750d1">GetPlayerRespawnDelay</a>(class <a class="code hl_class" href="../../df/d0f/classAController.html">AController</a>* Controller) const override;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    ENGINE_API virtual <span class="keywordtype">bool</span> HasMatchEnded() const override;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    ENGINE_API virtual <span class="keywordtype">void</span> HandleBeginPlay() override;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    ENGINE_API virtual <span class="keywordtype">float</span> GetPlayerStartTime(class AController* Controller) const override;</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    ENGINE_API virtual <span class="keywordtype">float</span> GetPlayerRespawnDelay(class AController* Controller) const override;</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <span class="comment">//~ End AGameStateBase Interface</span></div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>protected:</div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><span class="comment"></span> </div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="comment">    /** Handle for efficient management of DefaultTimer timer */</span></div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno"><a class="line" href="../../d7/dc4/classAGameState.html#acc878db78111388f5b9560d7f42fd422">   87</a></span>    FTimerHandle <a class="code hl_variable" href="../../d7/dc4/classAGameState.html#acc878db78111388f5b9560d7f42fd422">TimerHandle_DefaultTimer</a>;</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    FTimerHandle TimerHandle_DefaultTimer;</div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>};</div>
-</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
+<div class="ttc" id="aAnimInstance_8h_html_ab45c27dd9822b299411973637022bfbc"><div class="ttname"><a href="../../df/da0/AnimInstance_8h.html#ab45c27dd9822b299411973637022bfbc">FName</a></div><div class="ttdeci">FName</div><div class="ttdef"><b>Definition</b> <a href="../../df/da0/AnimInstance_8h_source.html#l00121">AnimInstance.h:121</a></div></div>
+<div class="ttc" id="aAnimMontage_8h_html_ab5b66a9f1ac3252ffea707183f3c1cb8"><div class="ttname"><a href="../../d2/da0/AnimMontage_8h.html#ab5b66a9f1ac3252ffea707183f3c1cb8">MinimalAPI</a></div><div class="ttdeci">MinimalAPI</div><div class="ttdef"><b>Definition</b> <a href="../../d2/da0/AnimMontage_8h_source.html#l00621">AnimMontage.h:621</a></div></div>
+<div class="ttc" id="aCoreMinimal_8h_html"><div class="ttname"><a href="../../d7/d67/CoreMinimal_8h.html">CoreMinimal.h</a></div></div>
+<div class="ttc" id="aEngineTypes_8h_html"><div class="ttname"><a href="../../df/dcf/EngineTypes_8h.html">EngineTypes.h</a></div></div>
 <div class="ttc" id="aGameStateBase_8h_html"><div class="ttname"><a href="../../dd/db9/GameStateBase_8h.html">GameStateBase.h</a></div></div>
-<div class="ttc" id="aclassAController_html"><div class="ttname"><a href="../../df/d0f/classAController.html">AController</a></div><div class="ttdoc">Controllers are non-physical actors that can possess a Pawn to control its actions.</div><div class="ttdef"><b>Definition</b> <a href="../../de/d4a/Controller_8h_source.html#l00039">Controller.h:41</a></div></div>
-<div class="ttc" id="aclassAGameStateBase_html"><div class="ttname"><a href="../../d0/db3/classAGameStateBase.html">AGameStateBase</a></div><div class="ttdoc">GameStateBase is a class that manages the game&#39;s global state, and is spawned by GameModeBase.</div><div class="ttdef"><b>Definition</b> <a href="../../dd/db9/GameStateBase_8h_source.html#l00031">GameStateBase.h:33</a></div></div>
-<div class="ttc" id="aclassAGameState_html"><div class="ttname"><a href="../../d7/dc4/classAGameState.html">AGameState</a></div><div class="ttdoc">GameState is a subclass of GameStateBase that behaves like a multiplayer match-based game.</div><div class="ttdef"><b>Definition</b> <a href="#l00015">GameState.h:17</a></div></div>
-<div class="ttc" id="aclassAGameState_html_a030087d4004e1b8696f222206bc96f5c"><div class="ttname"><a href="../../d7/dc4/classAGameState.html#a030087d4004e1b8696f222206bc96f5c">AGameState::PreviousMatchState</a></div><div class="ttdeci">FName PreviousMatchState</div><div class="ttdoc">Previous map state, used to handle if multiple transitions happen per frame.</div><div class="ttdef"><b>Definition</b> <a href="#l00039">GameState.h:39</a></div></div>
-<div class="ttc" id="aclassAGameState_html_a086da221aa54c49888af643d6961a293"><div class="ttname"><a href="../../d7/dc4/classAGameState.html#a086da221aa54c49888af643d6961a293">AGameState::HasMatchEnded</a></div><div class="ttdeci">virtual bool HasMatchEnded() const override</div><div class="ttdoc">Returns true if match is WaitingPostMatch or later.</div></div>
-<div class="ttc" id="aclassAGameState_html_a0f9e0f884956b3a39d9e796defd95240"><div class="ttname"><a href="../../d7/dc4/classAGameState.html#a0f9e0f884956b3a39d9e796defd95240">AGameState::DefaultTimer</a></div><div class="ttdeci">virtual void DefaultTimer()</div><div class="ttdoc">Called periodically, overridden by subclasses.</div></div>
-<div class="ttc" id="aclassAGameState_html_a1ddc371140f0082f2f03fa31a6548b12"><div class="ttname"><a href="../../d7/dc4/classAGameState.html#a1ddc371140f0082f2f03fa31a6548b12">AGameState::HandleMatchIsWaitingToStart</a></div><div class="ttdeci">virtual void HandleMatchIsWaitingToStart()</div><div class="ttdoc">Called when the state transitions to WaitingToStart.</div></div>
-<div class="ttc" id="aclassAGameState_html_a2199dd21e290ca6ad9210f32a634be8e"><div class="ttname"><a href="../../d7/dc4/classAGameState.html#a2199dd21e290ca6ad9210f32a634be8e">AGameState::GetPlayerStartTime</a></div><div class="ttdeci">virtual float GetPlayerStartTime(class AController *Controller) const override</div><div class="ttdoc">Returns the time that should be used as when a player started.</div></div>
-<div class="ttc" id="aclassAGameState_html_a314d4536fe5d41de26d07a823dbbacbd"><div class="ttname"><a href="../../d7/dc4/classAGameState.html#a314d4536fe5d41de26d07a823dbbacbd">AGameState::ReceivedGameModeClass</a></div><div class="ttdeci">virtual void ReceivedGameModeClass() override</div><div class="ttdoc">Called when the GameClass property is set (at startup for the server, after the variable has been rep...</div></div>
-<div class="ttc" id="aclassAGameState_html_a5c4ebd2b74e427cd0eb92195f3356be2"><div class="ttname"><a href="../../d7/dc4/classAGameState.html#a5c4ebd2b74e427cd0eb92195f3356be2">AGameState::HandleMatchHasEnded</a></div><div class="ttdeci">virtual void HandleMatchHasEnded()</div><div class="ttdoc">Called when the map transitions to WaitingPostMatch.</div></div>
-<div class="ttc" id="aclassAGameState_html_a5f1586141d2f08affb9cb341da6750d1"><div class="ttname"><a href="../../d7/dc4/classAGameState.html#a5f1586141d2f08affb9cb341da6750d1">AGameState::GetPlayerRespawnDelay</a></div><div class="ttdeci">virtual float GetPlayerRespawnDelay(class AController *Controller) const override</div><div class="ttdoc">Returns how much time needs to be spent before a player can respawn.</div></div>
-<div class="ttc" id="aclassAGameState_html_a6230d93f0f33fc7e5abea7de846061d7"><div class="ttname"><a href="../../d7/dc4/classAGameState.html#a6230d93f0f33fc7e5abea7de846061d7">AGameState::ElapsedTime</a></div><div class="ttdeci">int32 ElapsedTime</div><div class="ttdoc">Elapsed game time since match has started.</div><div class="ttdef"><b>Definition</b> <a href="#l00057">GameState.h:57</a></div></div>
-<div class="ttc" id="aclassAGameState_html_a896ff82c1fc9f89f1eb24854ed483bd6"><div class="ttname"><a href="../../d7/dc4/classAGameState.html#a896ff82c1fc9f89f1eb24854ed483bd6">AGameState::PostInitializeComponents</a></div><div class="ttdeci">virtual void PostInitializeComponents() override</div><div class="ttdoc">Allow actors to initialize themselves on the C++ side after all of their components have been initial...</div></div>
-<div class="ttc" id="aclassAGameState_html_a9d31e61c6f3792161c66a7ecc734933f"><div class="ttname"><a href="../../d7/dc4/classAGameState.html#a9d31e61c6f3792161c66a7ecc734933f">AGameState::OnRep_MatchState</a></div><div class="ttdeci">virtual void OnRep_MatchState()</div><div class="ttdoc">Match state has changed.</div></div>
-<div class="ttc" id="aclassAGameState_html_aac629798845c7788b5dbb749ab35327d"><div class="ttname"><a href="../../d7/dc4/classAGameState.html#aac629798845c7788b5dbb749ab35327d">AGameState::OnRep_ElapsedTime</a></div><div class="ttdeci">virtual void OnRep_ElapsedTime()</div><div class="ttdoc">Gives clients the chance to do something when time gets updates.</div></div>
-<div class="ttc" id="aclassAGameState_html_ab4852341f0f4aefe3c23e924ef3c1259"><div class="ttname"><a href="../../d7/dc4/classAGameState.html#ab4852341f0f4aefe3c23e924ef3c1259">AGameState::HandleLeavingMap</a></div><div class="ttdeci">virtual void HandleLeavingMap()</div><div class="ttdoc">Called when the match transitions to LeavingMap.</div></div>
-<div class="ttc" id="aclassAGameState_html_ab890d92db6e7738daaecd0c7911121dc"><div class="ttname"><a href="../../d7/dc4/classAGameState.html#ab890d92db6e7738daaecd0c7911121dc">AGameState::HasMatchStarted</a></div><div class="ttdeci">virtual bool HasMatchStarted() const override</div><div class="ttdoc">Returns true if the world has started match (called MatchStarted callbacks)</div></div>
-<div class="ttc" id="aclassAGameState_html_acc878db78111388f5b9560d7f42fd422"><div class="ttname"><a href="../../d7/dc4/classAGameState.html#acc878db78111388f5b9560d7f42fd422">AGameState::TimerHandle_DefaultTimer</a></div><div class="ttdeci">FTimerHandle TimerHandle_DefaultTimer</div><div class="ttdoc">Handle for efficient management of DefaultTimer timer.</div><div class="ttdef"><b>Definition</b> <a href="#l00087">GameState.h:87</a></div></div>
-<div class="ttc" id="aclassAGameState_html_addef2fdffe9c5ffa53c09c07f5666168"><div class="ttname"><a href="../../d7/dc4/classAGameState.html#addef2fdffe9c5ffa53c09c07f5666168">AGameState::HandleBeginPlay</a></div><div class="ttdeci">virtual void HandleBeginPlay() override</div><div class="ttdoc">Called by game mode to set the started play bool.</div></div>
-<div class="ttc" id="aclassAGameState_html_ae7fe11e5ed0a02ffd657191414c76c67"><div class="ttname"><a href="../../d7/dc4/classAGameState.html#ae7fe11e5ed0a02ffd657191414c76c67">AGameState::HandleMatchHasStarted</a></div><div class="ttdeci">virtual void HandleMatchHasStarted()</div><div class="ttdoc">Called when the state transitions to InProgress.</div></div>
-<div class="ttc" id="anamespaceMatchState_html"><div class="ttname"><a href="../../db/daa/namespaceMatchState.html">MatchState</a></div><div class="ttdoc">Possible state of the current match, where a match is all the gameplay that happens on a single map.</div><div class="ttdef"><b>Definition</b> <a href="../../d1/de8/GameMode_8h_source.html#l00016">GameMode.h:17</a></div></div>
+<div class="ttc" id="aObjectMacros_8h_html"><div class="ttname"><a href="../../d8/d8d/ObjectMacros_8h.html">ObjectMacros.h</a></div></div>
+<div class="ttc" id="aObjectMacros_8h_html_a0f0b61260ab178e7df0069f14ecb9f82"><div class="ttname"><a href="../../d8/d8d/ObjectMacros_8h.html#a0f0b61260ab178e7df0069f14ecb9f82">UPROPERTY</a></div><div class="ttdeci">#define UPROPERTY(...)</div><div class="ttdoc">UObject definition macros.</div><div class="ttdef"><b>Definition</b> <a href="../../d8/d8d/ObjectMacros_8h_source.html#l00723">ObjectMacros.h:723</a></div></div>
+<div class="ttc" id="aObjectMacros_8h_html_a702e33657b09dae29462b8210e8f856b"><div class="ttname"><a href="../../d8/d8d/ObjectMacros_8h.html#a702e33657b09dae29462b8210e8f856b">UFUNCTION</a></div><div class="ttdeci">#define UFUNCTION(...)</div><div class="ttdef"><b>Definition</b> <a href="../../d8/d8d/ObjectMacros_8h_source.html#l00724">ObjectMacros.h:724</a></div></div>
+<div class="ttc" id="aObjectMacros_8h_html_aa5fc36d4295c464ae11a12cf1b959843"><div class="ttname"><a href="../../d8/d8d/ObjectMacros_8h.html#aa5fc36d4295c464ae11a12cf1b959843">GENERATED_UCLASS_BODY</a></div><div class="ttdeci">#define GENERATED_UCLASS_BODY(...)</div><div class="ttdef"><b>Definition</b> <a href="../../d8/d8d/ObjectMacros_8h_source.html#l00746">ObjectMacros.h:746</a></div></div>
+<div class="ttc" id="aObjectMacros_8h_html_ae5f1e35d10ebc5ce3e5bf2f36bcc64f8"><div class="ttname"><a href="../../d8/d8d/ObjectMacros_8h.html#ae5f1e35d10ebc5ce3e5bf2f36bcc64f8">UCLASS</a></div><div class="ttdeci">#define UCLASS(...)</div><div class="ttdef"><b>Definition</b> <a href="../../d8/d8d/ObjectMacros_8h_source.html#l00754">ObjectMacros.h:754</a></div></div>
+<div class="ttc" id="aPlatform_8h_html_a8dbb3cd84ca9fd010dadfc3815eefa5d"><div class="ttname"><a href="../../d9/dd0/Platform_8h.html#a8dbb3cd84ca9fd010dadfc3815eefa5d">int32</a></div><div class="ttdeci">FPlatformTypes::int32 int32</div><div class="ttdoc">A 32-bit signed integer.</div><div class="ttdef"><b>Definition</b> <a href="../../d9/dd0/Platform_8h_source.html#l01075">Platform.h:1075</a></div></div>
+<div class="ttc" id="aRigUnit__AnimNextRunAnimationGraph__v1_8h_html_a9ca8f05608edcbf85ab6c2c85a439ccb"><div class="ttname"><a href="../../d1/df7/RigUnit__AnimNextRunAnimationGraph__v1_8h.html#a9ca8f05608edcbf85ab6c2c85a439ccb">Category</a></div><div class="ttdeci">Category</div><div class="ttdef"><b>Definition</b> <a href="../../d1/df7/RigUnit__AnimNextRunAnimationGraph__v1_8h_source.html#l00024">RigUnit_AnimNextRunAnimationGraph_v1.h:24</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="../../dir_4aca46919dd64a018c94105a41bb52f8.html">UE_5.6</a></li><li class="navelem"><a href="../../dir_35a4881369ae19e233e6dac2bcad4050.html">Engine</a></li><li class="navelem"><a href="../../dir_9f26ecb35aabc03d0a71a3e3b9106316.html">Source</a></li><li class="navelem"><a href="../../dir_0942f747ae23c965c05d4d76ae4659cb.html">Runtime</a></li><li class="navelem"><a href="../../dir_c4f31664fb2968a098c34e2ef86324ca.html">Engine</a></li><li class="navelem"><a href="../../dir_2d50b3e22a4f3c2a257cc8ed034f8f90.html">Classes</a></li><li class="navelem"><a href="../../dir_ed269b19aee30b1edf91ca5f109cdfa1.html">GameFramework</a></li><li class="navelem"><a href="../../dc/db4/GameState_8h.html">GameState.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+    <li class="navelem"><a href="../../dir_7536b172fbd480bfd146a1b1acd6856b.html">Runtime</a></li><li class="navelem"><a href="../../dir_fdf6aa5c3cf3805bb958134448d60562.html">Engine</a></li><li class="navelem"><a href="../../dir_0ed647eebe6ffcaa496d3842b7cec6ce.html">Classes</a></li><li class="navelem"><a href="../../dir_cc939d8e7753f23591e1c275ea054aa8.html">GameFramework</a></li><li class="navelem"><a href="../../dc/db4/GameState_8h.html">GameState.h</a></li>
+    <li class="footer">Generated on <span class="timestamp"></span> for Unreal Engine 5.6 C++ API by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>
 </body>

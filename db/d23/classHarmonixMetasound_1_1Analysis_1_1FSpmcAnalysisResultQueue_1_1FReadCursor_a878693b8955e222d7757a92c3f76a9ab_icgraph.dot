@@ -1,0 +1,14 @@
+digraph "HarmonixMetasound::Analysis::FSpmcAnalysisResultQueue::FReadCursor::DataAvailable"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="HarmonixMetasound::\lAnalysis::FSpmcAnalysisResult\lQueue::FReadCursor::DataAvailable",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="HarmonixMetasound::\lAnalysis::FSpmcAnalysisResult\lQueue::FReadCursor::ConsumeNext",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d23/classHarmonixMetasound_1_1Analysis_1_1FSpmcAnalysisResultQueue_1_1FReadCursor.html#a29106e50d5f890f3a952197cc39644ae",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="HarmonixMetasound::\lAnalysis::FSpmcAnalysisResult\lQueue::FReadCursor::PeekNext",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d23/classHarmonixMetasound_1_1Analysis_1_1FSpmcAnalysisResultQueue_1_1FReadCursor.html#a05047f8477544dc4adcf4d677ea9a787",tooltip=" "];
+}

@@ -1,6 +1,5 @@
 var GameMode_8h =
 [
-    [ "AGameMode", "dd/d3d/classAGameMode.html", "dd/d3d/classAGameMode" ],
     [ "MatchState::Aborted", "db/daa/namespaceMatchState.html#ac5f56ba61844866eea2d5ab76d6baacc", null ],
     [ "MatchState::EnteringMap", "db/daa/namespaceMatchState.html#aa5ea718c8877ed760e56f6d2d7825932", null ],
     [ "MatchState::InProgress", "db/daa/namespaceMatchState.html#ab2655a2fe24e0296788b195471c56b0a", null ],

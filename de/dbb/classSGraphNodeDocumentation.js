@@ -1,0 +1,28 @@
+var classSGraphNodeDocumentation =
+[
+    [ "Construct", "de/dbb/classSGraphNodeDocumentation.html#a213d68523d77f9d3c4bbbfd53a41f768", null ],
+    [ "CreateDocumentationPage", "de/dbb/classSGraphNodeDocumentation.html#aeeddf6570bbc21748695450e87e8682f", null ],
+    [ "GetContentHeight", "de/dbb/classSGraphNodeDocumentation.html#a5c344e9ee77feecc7f6d3ff45706081c", null ],
+    [ "GetContentWidth", "de/dbb/classSGraphNodeDocumentation.html#a631cd25b54b47d1e964377b9c98e8c95", null ],
+    [ "GetDocumentationTitle", "de/dbb/classSGraphNodeDocumentation.html#a8a4edbea5c76c2ff83693ea24f969d04", null ],
+    [ "GetDocumentationWrapWidth", "de/dbb/classSGraphNodeDocumentation.html#a63501bf6247ec81ce6b1b2962ddb123f", null ],
+    [ "GetHitTestingBorder", "de/dbb/classSGraphNodeDocumentation.html#a1b60c5f7f13b22dce0037ede9e2adbe6", null ],
+    [ "GetNodeMaximumSize2f", "de/dbb/classSGraphNodeDocumentation.html#a9c6d71f28690841a23b5a51d3895db63", null ],
+    [ "GetNodeMinimumSize2f", "de/dbb/classSGraphNodeDocumentation.html#a5568085e2cccb6ac55eff511e0322e3e", null ],
+    [ "GetPageGradientEndColor", "de/dbb/classSGraphNodeDocumentation.html#ad7ec2ed8bec5b1e280eca38725dbba90", null ],
+    [ "GetPageGradientStartColor", "de/dbb/classSGraphNodeDocumentation.html#a5f98241a4e50909b0958ce6b722b560a", null ],
+    [ "GetTitleBarHeight", "de/dbb/classSGraphNodeDocumentation.html#aaf0d6376d92e3de8d527020fe1b40e97", null ],
+    [ "GetWidgetVisibility", "de/dbb/classSGraphNodeDocumentation.html#a4f670961e2892ee12e6ca1ec8fd107fc", null ],
+    [ "IsNameReadOnly", "de/dbb/classSGraphNodeDocumentation.html#a02ef902fae1f5598cf352f95ce1ba23c", null ],
+    [ "OnMouseWheel", "de/dbb/classSGraphNodeDocumentation.html#afad99302555f3d24410362c4080dfa18", null ],
+    [ "SLATE_BEGIN_ARGS", "de/dbb/classSGraphNodeDocumentation.html#abdb0115f006f07b248bfe3ae5ab70142", null ],
+    [ "SLATE_END_ARGS", "de/dbb/classSGraphNodeDocumentation.html#ae5f21ccc2cd81737548fd0c16d356874", null ],
+    [ "Tick", "de/dbb/classSGraphNodeDocumentation.html#aa35372133b0c8ae006f559236e0a96f6", null ],
+    [ "UpdateGraphNode", "de/dbb/classSGraphNodeDocumentation.html#a1cdd3e2872928c3fdff8958af6bc85ad", null ],
+    [ "CachedDocumentationExcerpt", "de/dbb/classSGraphNodeDocumentation.html#ac4a0db5af41e80494d5fb3fb672aa833", null ],
+    [ "CachedDocumentationLink", "de/dbb/classSGraphNodeDocumentation.html#ab9fbdd7917b365ca67e56dd520e38853", null ],
+    [ "ChildWidgetVisibility", "de/dbb/classSGraphNodeDocumentation.html#a6b7b31b74ce11591edcc7b9192805660", null ],
+    [ "ContentWidget", "de/dbb/classSGraphNodeDocumentation.html#ad04b2b18ce3dc64b676357603c26e8eb", null ],
+    [ "DocumentationSize", "de/dbb/classSGraphNodeDocumentation.html#a016ace516e14f430a2f18f8b76166b61", null ],
+    [ "TitleBar", "de/dbb/classSGraphNodeDocumentation.html#ac2ff19d54c46119c6f46f6581b77cb50", null ]
+];

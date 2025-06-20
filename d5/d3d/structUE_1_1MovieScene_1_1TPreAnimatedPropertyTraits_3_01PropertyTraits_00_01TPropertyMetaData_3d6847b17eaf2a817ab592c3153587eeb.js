@@ -1,0 +1,6 @@
+var structUE_1_1MovieScene_1_1TPreAnimatedPropertyTraits_3_01PropertyTraits_00_01TPropertyMetaData_3d6847b17eaf2a817ab592c3153587eeb =
+[
+    [ "KeyType", "d5/d3d/structUE_1_1MovieScene_1_1TPreAnimatedPropertyTraits_3_01PropertyTraits_00_01TPropertyMetaData_3d6847b17eaf2a817ab592c3153587eeb.html#a1b61c3cfa1379de5ede501f35614fc57", null ],
+    [ "StorageType", "d5/d3d/structUE_1_1MovieScene_1_1TPreAnimatedPropertyTraits_3_01PropertyTraits_00_01TPropertyMetaData_3d6847b17eaf2a817ab592c3153587eeb.html#a3096102810c6cc8b0c421e2d4805cbc4", null ],
+    [ "RestorePreAnimatedValue", "d5/d3d/structUE_1_1MovieScene_1_1TPreAnimatedPropertyTraits_3_01PropertyTraits_00_01TPropertyMetaData_3d6847b17eaf2a817ab592c3153587eeb.html#a2effdd7aba4e3e7ce6a090d2db9bb2f0", null ]
+];

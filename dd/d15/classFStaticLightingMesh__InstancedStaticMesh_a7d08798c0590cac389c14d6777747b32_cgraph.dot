@@ -1,0 +1,14 @@
+digraph "FStaticLightingMesh_InstancedStaticMesh::FStaticLightingMesh_InstancedStaticMesh"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FStaticLightingMesh\l_InstancedStaticMesh\l::FStaticLightingMesh\l_InstancedStaticMesh",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Initialization constructor."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FStaticMeshStaticLighting\lMesh::FStaticMeshStaticLightingMesh",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d3d/classFStaticMeshStaticLightingMesh.html#a67f2aba18c81dade65a46392f4c77f3b",tooltip="Initialization constructor."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FStaticMeshStaticLighting\lMesh::SetLocalToWorld",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d3d/classFStaticMeshStaticLightingMesh.html#a436c4346c6bfe6c83253744346cdb13d",tooltip="Sets the local to world matrix for this mesh, will also update LocalToWorldInverseTranspose."];
+}

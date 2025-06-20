@@ -1,0 +1,14 @@
+digraph "FDynamicTrailsEmitterData::FDynamicTrailsEmitterData"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FDynamicTrailsEmitterData\l::FDynamicTrailsEmitterData",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FDynamicAnimTrailEmitter\lData::FDynamicAnimTrailEmitterData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/dfd/structFDynamicAnimTrailEmitterData.html#a4c7f64e582332aef59a7563b08c3471b",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FDynamicRibbonEmitterData\l::FDynamicRibbonEmitterData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d9f/structFDynamicRibbonEmitterData.html#aeb8408bd4104571e3042852acd306a10",tooltip=" "];
+}

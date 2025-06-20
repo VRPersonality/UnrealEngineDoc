@@ -1,0 +1,64 @@
+digraph "APawn::UFUNCTION"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="APawn::UFUNCTION",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Return our PawnMovementComponent, if we have one."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="APawn::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc7/classAPawn.html#ab81f936d98663080b1bcdeebf1e4d816",tooltip="See if this actor is currently being controlled."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="APawn::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc7/classAPawn.html#a602a8627f64d9d563565ac7ff8634f56",tooltip="Returns local Player Controller viewing this pawn, whether it is controlling or spectating."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="APawn::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc7/classAPawn.html#a57e9b77346920eba65b8650691dcd339",tooltip=" "];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="APawn::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc7/classAPawn.html#aaa4f4a98cfe834aa149e5cd1ac4df41d",tooltip="Returns the Platform User ID of the PlayerController that is controlling this character."];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="APawn::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc7/classAPawn.html#ad16e2f6bdaac970d73a8b3d75cb64610",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="APawn::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc7/classAPawn.html#a80245a64ba01f320d5aac1f153dfb1f2",tooltip="Returns true if controlled by a bot."];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="APawn::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc7/classAPawn.html#aecdc814b4d407b1877e1f96ac895ff9c",tooltip="Returns true if controlled by a local (not network) Controller."];
+  Node1 -> Node9 [id="edge8_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="APawn::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc7/classAPawn.html#a378f40cbf0153915d7e761eca1263300",tooltip="Helper to see if move input is ignored."];
+  Node1 -> Node10 [id="edge9_Node000001_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="APawn::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc7/classAPawn.html#a4146f1933f5791a6a93df4f13d407e0f",tooltip="Check if this actor is currently being controlled at all (the actor has a valid Controller,..."];
+  Node1 -> Node11 [id="edge10_Node000001_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="APawn::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc7/classAPawn.html#abb39c874023f22cd570aabbb9b3efaa0",tooltip="Returns true if controlled by a human player (possessed by a PlayerController)."];
+  Node1 -> Node12 [id="edge11_Node000001_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="APawn::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc7/classAPawn.html#a660096de4aad92db0f2e0fdb1ed6bf76",tooltip="Return the aim rotation for the Pawn."];
+  Node1 -> Node13 [id="edge12_Node000001_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="APawn::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc7/classAPawn.html#a580b9c68684b7232c1a2d72778a912c5",tooltip="PlayerState Replication Notification Callback."];
+  Node1 -> Node14 [id="edge13_Node000001_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="APawn::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc7/classAPawn.html#aff70b21cd9bcb28b3454b6750d03e150",tooltip="Spawn default controller for this Pawn, and get possessed by it."];
+  Node1 -> Node15 [id="edge14_Node000001_Node000015",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="APawn::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc7/classAPawn.html#a87b4abc64c3b4490d5f0e7d2dbef140c",tooltip="Inform AIControllers that you've made a noise they might hear (they are sent a HearNoise message if t..."];
+  Node1 -> Node16 [id="edge15_Node000001_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="APawn::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc7/classAPawn.html#af454463bd324bc191831b1ded68ccdb7",tooltip="Event called after a pawn's controller has changed, on the server and owning client."];
+  Node1 -> Node17 [id="edge16_Node000001_Node000017",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="APawn::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc7/classAPawn.html#ad4677802324324a7c8951dbdf7e0da81",tooltip="Event called after a pawn has been restarted, usually by a possession change."];
+  Node1 -> Node18 [id="edge17_Node000001_Node000018",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="APawn::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc7/classAPawn.html#a56e269daf62f4f79a7d3cfadf122ab66",tooltip="Returns controller for this actor."];
+  Node1 -> Node19 [id="edge18_Node000001_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="APawn::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc7/classAPawn.html#acb914b1ffadc05bd4de502aaadd824a0",tooltip="Gets the owning actor of the Movement Base Component on which the pawn is standing."];
+  Node1 -> Node20 [id="edge19_Node000001_Node000020",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node20 [id="Node000020",label="APawn::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc7/classAPawn.html#ae1e5e861ae97b3146816cb14f1b276fb",tooltip="Return the last input vector in world space that was processed by ConsumeMovementInputVector(),..."];
+  Node1 -> Node21 [id="edge20_Node000001_Node000021",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node21 [id="Node000021",label="APawn::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc7/classAPawn.html#af1f087349876c19f97e713d05edcf2f2",tooltip="Return the pending input vector in world space."];
+  Node1 -> Node22 [id="edge21_Node000001_Node000022",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node22 [id="Node000022",label="APawn::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc7/classAPawn.html#a6ede34b1896dc7081e8b81213c84b587",tooltip="Returns the pending input vector and resets it to zero."];
+  Node1 -> Node23 [id="edge22_Node000001_Node000023",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node23 [id="Node000023",label="APawn::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc7/classAPawn.html#a8b9fcc3944d4cbab0c8524591ee00ae7",tooltip="Add input (affecting Pitch) to the Controller's ControlRotation, if it is a local PlayerController."];
+  Node1 -> Node24 [id="edge23_Node000001_Node000024",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node24 [id="Node000024",label="APawn::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc7/classAPawn.html#a2ebed94b6599b8ccfbfd5431f15c3622",tooltip="Add input (affecting Roll) to the Controller's ControlRotation, if it is a local PlayerController."];
+  Node1 -> Node25 [id="edge24_Node000001_Node000025",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node25 [id="Node000025",label="APawn::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc7/classAPawn.html#ae2006082195b7f459f080b87bd04a889",tooltip="Add input (affecting Yaw) to the Controller's ControlRotation, if it is a local PlayerController."];
+  Node1 -> Node26 [id="edge25_Node000001_Node000026",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node26 [id="Node000026",label="APawn::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc7/classAPawn.html#a175bca8d534538ec568e1532b5cd9acc",tooltip="Call this function to detach safely pawn from its controller, knowing that we will be destroyed soon."];
+  Node1 -> Node27 [id="edge26_Node000001_Node000027",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node27 [id="Node000027",label="APawn::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc7/classAPawn.html#abb61674f05634130bfc50f36b6624398",tooltip="Event called when the Pawn is no longer possessed by a Controller."];
+  Node1 -> Node28 [id="edge27_Node000001_Node000028",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node28 [id="Node000028",label="APawn::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc7/classAPawn.html#a8895a9b209ff67d077c5840c66eef855",tooltip="Use SetCanAffectNavigationGeneration to change this value at runtime."];
+}

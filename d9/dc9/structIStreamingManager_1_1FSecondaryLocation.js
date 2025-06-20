@@ -1,0 +1,8 @@
+var structIStreamingManager_1_1FSecondaryLocation =
+[
+    [ "FSecondaryLocation", "d9/dc9/structIStreamingManager_1_1FSecondaryLocation.html#a54e1ab5331fa85f189f51319bc52fd67", null ],
+    [ "BoostFactor", "d9/dc9/structIStreamingManager_1_1FSecondaryLocation.html#a337d1be56c9700077394a3389c4a5d9c", null ],
+    [ "bOverrideLocation", "d9/dc9/structIStreamingManager_1_1FSecondaryLocation.html#ad4df5a160bb15671a172f6f0f29338e7", null ],
+    [ "Duration", "d9/dc9/structIStreamingManager_1_1FSecondaryLocation.html#a723d7a36079b7f593c2f0375cbb9916a", null ],
+    [ "Location", "d9/dc9/structIStreamingManager_1_1FSecondaryLocation.html#ad472721516cdd4013793b8d4b3d6426b", null ]
+];

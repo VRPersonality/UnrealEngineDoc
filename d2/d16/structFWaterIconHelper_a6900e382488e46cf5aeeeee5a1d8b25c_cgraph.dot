@@ -1,0 +1,12 @@
+digraph "FWaterIconHelper::EnsureSpriteComponentCreated"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FWaterIconHelper::Ensure\lSpriteComponentCreated",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Ensures a billboard component is created and added to the actor's components."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FWaterIconHelper::Ensure\lSpriteComponentCreated\l_Internal",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d16/structFWaterIconHelper.html#a62f362cdbda5b11b3195269ea9265060",tooltip=" "];
+}

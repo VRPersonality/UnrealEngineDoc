@@ -1,37 +1,18 @@
 var RootMotionSource_8h =
 [
     [ "FRootMotionServerToLocalIDMapping", "d9/d60/structFRootMotionServerToLocalIDMapping.html", "d9/d60/structFRootMotionServerToLocalIDMapping" ],
-    [ "FRootMotionSourceStatus", "da/d12/structFRootMotionSourceStatus.html", "da/d12/structFRootMotionSourceStatus" ],
-    [ "FRootMotionSourceSettings", "d3/df9/structFRootMotionSourceSettings.html", "d3/df9/structFRootMotionSourceSettings" ],
-    [ "FRootMotionFinishVelocitySettings", "dc/dd8/structFRootMotionFinishVelocitySettings.html", "dc/dd8/structFRootMotionFinishVelocitySettings" ],
     [ "FRootMotionSourceFixLayout", "d6/de5/structFRootMotionSourceFixLayout.html", "d6/de5/structFRootMotionSourceFixLayout" ],
-    [ "FRootMotionSource", "df/d3a/structFRootMotionSource.html", "df/d3a/structFRootMotionSource" ],
+    [ "RootMotionSourceDebug", "d3/d23/structRootMotionSourceDebug.html", "d3/d23/structRootMotionSourceDebug" ],
     [ "TStructOpsTypeTraits< FRootMotionSource >", "dc/d13/structTStructOpsTypeTraits_3_01FRootMotionSource_01_4.html", null ],
-    [ "FRootMotionSource_ConstantForce", "d6/d3c/structFRootMotionSource__ConstantForce.html", "d6/d3c/structFRootMotionSource__ConstantForce" ],
     [ "TStructOpsTypeTraits< FRootMotionSource_ConstantForce >", "db/d24/structTStructOpsTypeTraits_3_01FRootMotionSource__ConstantForce_01_4.html", null ],
-    [ "FRootMotionSource_RadialForce", "d2/d94/structFRootMotionSource__RadialForce.html", "d2/d94/structFRootMotionSource__RadialForce" ],
-    [ "TStructOpsTypeTraits< FRootMotionSource_RadialForce >", "d4/d85/structTStructOpsTypeTraits_3_01FRootMotionSource__RadialForce_01_4.html", null ],
-    [ "FRootMotionSource_MoveToForce", "d2/d2d/structFRootMotionSource__MoveToForce.html", "d2/d2d/structFRootMotionSource__MoveToForce" ],
-    [ "TStructOpsTypeTraits< FRootMotionSource_MoveToForce >", "d4/d55/structTStructOpsTypeTraits_3_01FRootMotionSource__MoveToForce_01_4.html", null ],
-    [ "FRootMotionSource_MoveToDynamicForce", "da/d45/structFRootMotionSource__MoveToDynamicForce.html", "da/d45/structFRootMotionSource__MoveToDynamicForce" ],
-    [ "TStructOpsTypeTraits< FRootMotionSource_MoveToDynamicForce >", "da/d47/structTStructOpsTypeTraits_3_01FRootMotionSource__MoveToDynamicForce_01_4.html", null ],
-    [ "FRootMotionSource_JumpForce", "d4/dd6/structFRootMotionSource__JumpForce.html", "d4/dd6/structFRootMotionSource__JumpForce" ],
     [ "TStructOpsTypeTraits< FRootMotionSource_JumpForce >", "d8/d11/structTStructOpsTypeTraits_3_01FRootMotionSource__JumpForce_01_4.html", null ],
-    [ "FRootMotionSourceGroup", "da/d68/structFRootMotionSourceGroup.html", "da/d68/structFRootMotionSourceGroup" ],
+    [ "TStructOpsTypeTraits< FRootMotionSource_MoveToDynamicForce >", "da/d47/structTStructOpsTypeTraits_3_01FRootMotionSource__MoveToDynamicForce_01_4.html", null ],
+    [ "TStructOpsTypeTraits< FRootMotionSource_MoveToForce >", "d4/d55/structTStructOpsTypeTraits_3_01FRootMotionSource__MoveToForce_01_4.html", null ],
+    [ "TStructOpsTypeTraits< FRootMotionSource_RadialForce >", "d4/d85/structTStructOpsTypeTraits_3_01FRootMotionSource__RadialForce_01_4.html", null ],
     [ "TStructOpsTypeTraits< FRootMotionSourceGroup >", "db/dbe/structTStructOpsTypeTraits_3_01FRootMotionSourceGroup_01_4.html", null ],
     [ "ROOT_MOTION_DEBUG", "d2/dd0/RootMotionSource_8h.html#a1d0a7e2ed58799cd12a0c587e8cbc4b7", null ],
     [ "ERootMotionSourceID", "d2/dd0/RootMotionSource_8h.html#af3fe6be1a814580e0c5620577e53970f", [
       [ "Invalid", "d2/dd0/RootMotionSource_8h.html#af3fe6be1a814580e0c5620577e53970fa4bbb8f967da6d1a610596d7257179c2b", null ]
     ] ],
-    [ "Additive", "d2/dd0/RootMotionSource_8h.html#a1ec581243ee4d387a705eb94d4052345", null ],
-    [ "ClampVelocity", "d2/dd0/RootMotionSource_8h.html#a304b2833328113aeb78595511e8a9ae9", null ],
-    [ "DisablePartialEndTick", "d2/dd0/RootMotionSource_8h.html#a1f1737e25f66a5a4ced7bc0740918b7c", null ],
-    [ "ERootMotionAccumulateMode", "d2/dd0/RootMotionSource_8h.html#a990be603d35d55ed1d1929ec87669683", null ],
-    [ "ERootMotionFinishVelocityMode", "d2/dd0/RootMotionSource_8h.html#ae25d9d52de63f34bfe172405f9e9eff7", null ],
-    [ "ERootMotionSourceSettingsFlags", "d2/dd0/RootMotionSource_8h.html#a610aa0f7ebe302f083ad250c92d27870", null ],
-    [ "ERootMotionSourceStatusFlags", "d2/dd0/RootMotionSource_8h.html#a266ffcff3a1c74a683b1d7cf0a407e17", null ],
-    [ "Finished", "d2/dd0/RootMotionSource_8h.html#a5c5f1e2fe7000994fb3854b2cc14ef57", null ],
-    [ "IgnoreZAccumulate", "d2/dd0/RootMotionSource_8h.html#abdd632e93805dca674c91ef9bc039f00", null ],
-    [ "MarkedForRemoval", "d2/dd0/RootMotionSource_8h.html#a78129dd58898d8fc91de5c059a6271de", null ],
-    [ "SetVelocity", "d2/dd0/RootMotionSource_8h.html#a110d6a4c12612244c80bcc38acc8cece", null ]
+    [ "USTRUCT", "d2/dd0/RootMotionSource_8h.html#a17b92a88c1165a7bf83bd3198a491646", null ]
 ];

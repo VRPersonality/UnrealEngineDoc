@@ -1,0 +1,25 @@
+var structFAppleProResEncoderOptions =
+[
+    [ "FAppleProResEncoderOptions", "db/d9e/structFAppleProResEncoderOptions.html#a542df7f3847de52e48c5a73ad855e5e1", null ],
+    [ "FAppleProResEncoderOptions", "db/d9e/structFAppleProResEncoderOptions.html#a32b3726b0d15dffa393527cb59c953a0", null ],
+    [ "~FAppleProResEncoderOptions", "db/d9e/structFAppleProResEncoderOptions.html#a33661baa3fcef7591f178a6137c97a7f", null ],
+    [ "FAppleProResEncoderOptions", "db/d9e/structFAppleProResEncoderOptions.html#a11b1fdcb9710f6ccf45c7f78d51136ea", null ],
+    [ "FAppleProResEncoderOptions", "db/d9e/structFAppleProResEncoderOptions.html#a493e4100d751117c913996b2760dc866", null ],
+    [ "operator=", "db/d9e/structFAppleProResEncoderOptions.html#a396b7a9ef7906613730953bf91d69b41", null ],
+    [ "operator=", "db/d9e/structFAppleProResEncoderOptions.html#a3af704f2d365f96aaeedab06674bada4", null ],
+    [ "UE_DEPRECATED", "db/d9e/structFAppleProResEncoderOptions.html#afac464d65faca087b31f8745a955bbbc", null ],
+    [ "AudioChannelCount", "db/d9e/structFAppleProResEncoderOptions.html#a61f90442dedac33f31c5d4484ef9ce77", null ],
+    [ "AudioSampleRate", "db/d9e/structFAppleProResEncoderOptions.html#a3b5e526c201e908cbe8abf8a2d11504d", null ],
+    [ "bDropFrameTimecode", "db/d9e/structFAppleProResEncoderOptions.html#ae017c373734a61529ce0d688cefcf9fe", null ],
+    [ "bIncludeAudio", "db/d9e/structFAppleProResEncoderOptions.html#a2442c730b8d9bd9b8cb909b7b936859d", null ],
+    [ "bWriteAlpha", "db/d9e/structFAppleProResEncoderOptions.html#a45bb028f03f678755476bc024206fb0d", null ],
+    [ "Codec", "db/d9e/structFAppleProResEncoderOptions.html#ac9a87231badef858d8f42c07424c04e4", null ],
+    [ "ColorPrimaries", "db/d9e/structFAppleProResEncoderOptions.html#aeae2ad13882c6ac46cf055cca6b9e91d", null ],
+    [ "FrameNumberOffset", "db/d9e/structFAppleProResEncoderOptions.html#a729ccae2e85c14a0953b1a73a0f766ff", null ],
+    [ "FrameRate", "db/d9e/structFAppleProResEncoderOptions.html#a57a70a98160cfbcdf76cc021adf5c6c0", null ],
+    [ "Height", "db/d9e/structFAppleProResEncoderOptions.html#a3ae36d66e350dc0d9b88942955fff83d", null ],
+    [ "MaxNumberOfEncodingThreads", "db/d9e/structFAppleProResEncoderOptions.html#ad3bb8dd3ca2cd60fe4d359ce5271a7d1", null ],
+    [ "OutputFilename", "db/d9e/structFAppleProResEncoderOptions.html#a5fcfef095187c14413073cdf72525586", null ],
+    [ "ScanMode", "db/d9e/structFAppleProResEncoderOptions.html#a612ef8a16e040aa19cb6984ec386da49", null ],
+    [ "Width", "db/d9e/structFAppleProResEncoderOptions.html#aed1f8863ae6c3c5f8219e486f1947878", null ]
+];

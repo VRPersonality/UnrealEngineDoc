@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Unreal Engine 5.6 C++ Documentation: UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/CharacterMovementComponent.h File Reference</title>
+<title>Unreal Engine 5.6 C++ API: CharacterMovementComponent.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -18,7 +18,11 @@
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
-<link href="../../unreal_theme.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -27,9 +31,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Unreal Engine 5.6 C++ Documentation<span id="projectnumber">&#160;5.6</span>
+   <div id="projectname">Unreal Engine 5.6 C++ API<span id="projectnumber">&#160;5.6.0</span>
    </div>
-   <div id="projectbrief">Documentation UE5 avec chemins sources corrects</div>
+   <div id="projectbrief">C++ API documentation for Unreal Engine 5.6</div>
   </td>
  </tr>
  </tbody>
@@ -93,42 +97,50 @@ $(function(){initNavTree('d8/d84/CharacterMovementComponent_8h.html','../../',''
   <div class="headertitle"><div class="title">CharacterMovementComponent.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;CoreMinimal.h&quot;</code><br />
-<code>#include &quot;Math/RandomStream.h&quot;</code><br />
-<code>#include &quot;UObject/ObjectMacros.h&quot;</code><br />
-<code>#include &quot;UObject/UObjectGlobals.h&quot;</code><br />
-<code>#include &quot;Engine/NetSerialization.h&quot;</code><br />
-<code>#include &quot;Engine/EngineTypes.h&quot;</code><br />
-<code>#include &quot;Engine/EngineBaseTypes.h&quot;</code><br />
-<code>#include &quot;WorldCollision.h&quot;</code><br />
-<code>#include &quot;AI/Navigation/NavigationTypes.h&quot;</code><br />
-<code>#include &quot;Animation/AnimationAsset.h&quot;</code><br />
-<code>#include &quot;Animation/AnimMontage.h&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d7/d67/CoreMinimal_8h_source.html">CoreMinimal.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d0/de4/RandomStream_8h_source.html">Math/RandomStream.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html">UObject/ObjectMacros.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d0/da9/UObjectGlobals_8h_source.html">UObject/UObjectGlobals.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/dc9/NetSerialization_8h_source.html">Engine/NetSerialization.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/dcf/EngineTypes_8h_source.html">Engine/EngineTypes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/d1a/EngineBaseTypes_8h_source.html">Engine/EngineBaseTypes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/db3/WorldCollision_8h_source.html">WorldCollision.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/d69/NavigationTypes_8h_source.html">AI/Navigation/NavigationTypes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/df8/AnimationAsset_8h_source.html">Animation/AnimationAsset.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/da0/AnimMontage_8h_source.html">Animation/AnimMontage.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d2/dd0/RootMotionSource_8h_source.html">GameFramework/RootMotionSource.h</a>&quot;</code><br />
-<code>#include &quot;AI/Navigation/NavigationAvoidanceTypes.h&quot;</code><br />
-<code>#include &quot;AI/RVOAvoidanceInterface.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/dc7/NavigationAvoidanceTypes_8h_source.html">AI/Navigation/NavigationAvoidanceTypes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/def/RVOAvoidanceInterface_8h_source.html">AI/RVOAvoidanceInterface.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../db/d7b/PawnMovementComponent_8h_source.html">GameFramework/PawnMovementComponent.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">GameFramework/CharacterMovementReplication.h</a>&quot;</code><br />
-<code>#include &quot;Interfaces/NetworkPredictionInterface.h&quot;</code><br />
-<code>#include &quot;CharacterMovementComponentAsync.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d3c/NetworkPredictionInterface_8h_source.html">Interfaces/NetworkPredictionInterface.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/dde/CharacterMovementComponentAsync_8h_source.html">CharacterMovementComponentAsync.h</a>&quot;</code><br />
 <code>#include &quot;CharacterMovementComponent.generated.h&quot;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Include dependency graph for CharacterMovementComponent.h:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 0 --></div>
+</div>
+</div><div class="textblock"><div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>This graph shows which files directly or indirectly include this file:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 1 --></div>
+</div>
 </div>
 <p><a href="../../d8/d84/CharacterMovementComponent_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:FCharacterMovementComponentPostPhysicsTickFunction" id="r_FCharacterMovementComponentPostPhysicsTickFunction"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2c/structFCharacterMovementComponentPostPhysicsTickFunction.html">FCharacterMovementComponentPostPhysicsTickFunction</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tick function that calls <a class="el" href="../../da/d75/classUCharacterMovementComponent.html#afbb90109ae8e6b64141868a421c67d18" title="Tick function called after physics (sync scene) has finished simulation, before cloth.">UCharacterMovementComponent::PostPhysicsTickComponent</a>.  <a href="../../d2/d2c/structFCharacterMovementComponentPostPhysicsTickFunction.html#details">More...</a><br /></td></tr>
-<tr class="memitem:TStructOpsTypeTraits_3C_20FCharacterMovementComponentPostPhysicsTickFunction_20_3E" id="r_TStructOpsTypeTraits_3C_20FCharacterMovementComponentPostPhysicsTickFunction_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d98/structTStructOpsTypeTraits_3_01FCharacterMovementComponentPostPhysicsTickFunction_01_4.html">TStructOpsTypeTraits&lt; FCharacterMovementComponentPostPhysicsTickFunction &gt;</a></td></tr>
-<tr class="memitem:FCharacterMovementComponentPrePhysicsTickFunction" id="r_FCharacterMovementComponentPrePhysicsTickFunction"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d51/structFCharacterMovementComponentPrePhysicsTickFunction.html">FCharacterMovementComponentPrePhysicsTickFunction</a></td></tr>
-<tr class="memitem:TStructOpsTypeTraits_3C_20FCharacterMovementComponentPrePhysicsTickFunction_20_3E" id="r_TStructOpsTypeTraits_3C_20FCharacterMovementComponentPrePhysicsTickFunction_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd2/structTStructOpsTypeTraits_3_01FCharacterMovementComponentPrePhysicsTickFunction_01_4.html">TStructOpsTypeTraits&lt; FCharacterMovementComponentPrePhysicsTickFunction &gt;</a></td></tr>
-<tr class="memitem:UCharacterMovementComponent" id="r_UCharacterMovementComponent"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/classUCharacterMovementComponent.html">UCharacterMovementComponent</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">CharacterMovementComponent handles movement logic for the associated Character owner.  <a href="../../da/d75/classUCharacterMovementComponent.html#details">More...</a><br /></td></tr>
-<tr class="memitem:FSavedMove_5FCharacter_5FFixLayout" id="r_FSavedMove_5FCharacter_5FFixLayout"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/classFSavedMove__Character__FixLayout.html">FSavedMove_Character_FixLayout</a></td></tr>
-<tr class="memitem:FSavedMove_5FCharacter" id="r_FSavedMove_5FCharacter"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/deb/classFSavedMove__Character.html">FSavedMove_Character</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d7/deb/classFSavedMove__Character.html" title="FSavedMove_Character represents a saved move on the client that has been sent to the server and might...">FSavedMove_Character</a> represents a saved move on the client that has been sent to the server and might need to be played back.  <a href="../../d7/deb/classFSavedMove__Character.html#details">More...</a><br /></td></tr>
+Data Structures</h2></td></tr>
 <tr class="memitem:FNetworkPredictionData_5FClient_5FCharacter" id="r_FNetworkPredictionData_5FClient_5FCharacter"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d38/classFNetworkPredictionData__Client__Character.html">FNetworkPredictionData_Client_Character</a></td></tr>
 <tr class="memitem:FNetworkPredictionData_5FServer_5FCharacter" id="r_FNetworkPredictionData_5FServer_5FCharacter"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d42/classFNetworkPredictionData__Server__Character.html">FNetworkPredictionData_Server_Character</a></td></tr>
+<tr class="memitem:FSavedMove_5FCharacter" id="r_FSavedMove_5FCharacter"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/deb/classFSavedMove__Character.html">FSavedMove_Character</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d7/deb/classFSavedMove__Character.html" title="FSavedMove_Character represents a saved move on the client that has been sent to the server and might...">FSavedMove_Character</a> represents a saved move on the client that has been sent to the server and might need to be played back.  <a href="../../d7/deb/classFSavedMove__Character.html#details">More...</a><br /></td></tr>
+<tr class="memitem:FSavedMove_5FCharacter_5FFixLayout" id="r_FSavedMove_5FCharacter_5FFixLayout"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/classFSavedMove__Character__FixLayout.html">FSavedMove_Character_FixLayout</a></td></tr>
+<tr class="memitem:TStructOpsTypeTraits_3C_20FCharacterMovementComponentPostPhysicsTickFunction_20_3E" id="r_TStructOpsTypeTraits_3C_20FCharacterMovementComponentPostPhysicsTickFunction_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d98/structTStructOpsTypeTraits_3_01FCharacterMovementComponentPostPhysicsTickFunction_01_4.html">TStructOpsTypeTraits&lt; FCharacterMovementComponentPostPhysicsTickFunction &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tick function that calls UCharacterMovementComponent::PostPhysicsTickComponent.  <a href="../../df/d98/structTStructOpsTypeTraits_3_01FCharacterMovementComponentPostPhysicsTickFunction_01_4.html#details">More...</a><br /></td></tr>
+<tr class="memitem:TStructOpsTypeTraits_3C_20FCharacterMovementComponentPrePhysicsTickFunction_20_3E" id="r_TStructOpsTypeTraits_3C_20FCharacterMovementComponentPrePhysicsTickFunction_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd2/structTStructOpsTypeTraits_3_01FCharacterMovementComponentPrePhysicsTickFunction_01_4.html">TStructOpsTypeTraits&lt; FCharacterMovementComponentPrePhysicsTickFunction &gt;</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -136,17 +148,17 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ad5d91f66b114c7a21161229b1982bcee" id="r_ad5d91f66b114c7a21161229b1982bcee"><td class="memItemLeft" align="right" valign="top">typedef TSharedPtr&lt; class <a class="el" href="../../d7/deb/classFSavedMove__Character.html">FSavedMove_Character</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5d91f66b114c7a21161229b1982bcee">FSavedMovePtr</a></td></tr>
+<tr class="memitem:ad5d91f66b114c7a21161229b1982bcee" id="r_ad5d91f66b114c7a21161229b1982bcee"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d8/d2f/classTSharedPtr.html">TSharedPtr</a>&lt; class <a class="el" href="../../d7/deb/classFSavedMove__Character.html">FSavedMove_Character</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5d91f66b114c7a21161229b1982bcee">FSavedMovePtr</a></td></tr>
 <tr class="memdesc:ad5d91f66b114c7a21161229b1982bcee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shared pointer for easy memory management of <a class="el" href="../../d7/deb/classFSavedMove__Character.html" title="FSavedMove_Character represents a saved move on the client that has been sent to the server and might...">FSavedMove_Character</a>, for accumulating and replaying network moves.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a26ef29d1fced297940588ace2259100c" id="r_a26ef29d1fced297940588ace2259100c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26ef29d1fced297940588ace2259100c">DECLARE_DELEGATE_RetVal_ThreeParams</a> (FTransform, FOnProcessRootMotion, const FTransform &amp;, <a class="el" href="../../da/d75/classUCharacterMovementComponent.html">UCharacterMovementComponent</a> *, float) namespace CharacterMovementConstants</td></tr>
+<tr class="memitem:a26ef29d1fced297940588ace2259100c" id="r_a26ef29d1fced297940588ace2259100c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26ef29d1fced297940588ace2259100c">DECLARE_DELEGATE_RetVal_ThreeParams</a> (<a class="el" href="../../d2/d10/MathFwd_8h.html#a532fe2b7d7e9b59259adebff28450bef">FTransform</a>, FOnProcessRootMotion, const <a class="el" href="../../d2/d10/MathFwd_8h.html#a532fe2b7d7e9b59259adebff28450bef">FTransform</a> &amp;, UCharacterMovementComponent *, <a class="el" href="../../db/d9a/SCurveEditor_8h.html#a6a1bb6ed41f44b60e7bd83b0e9945aa7">float</a>) namespace CharacterMovementConstants</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ab0c5f9e00d9f7e393f652eaeaf2f8223" id="r_ab0c5f9e00d9f7e393f652eaeaf2f8223"><td class="memItemLeft" align="right" valign="top">int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da3/namespaceCharacterMovementCVars.html#ab0c5f9e00d9f7e393f652eaeaf2f8223">CharacterMovementCVars::AsyncCharacterMovement</a></td></tr>
-<tr class="memitem:ac3ff19054f49027f5108e17bd6c31a63" id="r_ac3ff19054f49027f5108e17bd6c31a63"><td class="memItemLeft" align="right" valign="top">int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da3/namespaceCharacterMovementCVars.html#ac3ff19054f49027f5108e17bd6c31a63">CharacterMovementCVars::ForceJumpPeakSubstep</a></td></tr>
+<tr class="memitem:ab0c5f9e00d9f7e393f652eaeaf2f8223" id="r_ab0c5f9e00d9f7e393f652eaeaf2f8223"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dd0/Platform_8h.html#a8dbb3cd84ca9fd010dadfc3815eefa5d">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da3/namespaceCharacterMovementCVars.html#ab0c5f9e00d9f7e393f652eaeaf2f8223">CharacterMovementCVars::AsyncCharacterMovement</a></td></tr>
+<tr class="memitem:ac3ff19054f49027f5108e17bd6c31a63" id="r_ac3ff19054f49027f5108e17bd6c31a63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dd0/Platform_8h.html#a8dbb3cd84ca9fd010dadfc3815eefa5d">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da3/namespaceCharacterMovementCVars.html#ac3ff19054f49027f5108e17bd6c31a63">CharacterMovementCVars::ForceJumpPeakSubstep</a></td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="ad5d91f66b114c7a21161229b1982bcee" name="ad5d91f66b114c7a21161229b1982bcee"></a>
@@ -156,7 +168,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef TSharedPtr&lt;class <a class="el" href="../../d7/deb/classFSavedMove__Character.html">FSavedMove_Character</a>&gt; <a class="el" href="#ad5d91f66b114c7a21161229b1982bcee">FSavedMovePtr</a></td>
+          <td class="memname">typedef <a class="el" href="../../d8/d2f/classTSharedPtr.html">TSharedPtr</a>&lt;class <a class="el" href="../../d7/deb/classFSavedMove__Character.html">FSavedMove_Character</a>&gt; <a class="el" href="#ad5d91f66b114c7a21161229b1982bcee">FSavedMovePtr</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -177,7 +189,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">DECLARE_DELEGATE_RetVal_ThreeParams </td>
           <td>(</td>
-          <td class="paramtype">FTransform</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+          <td class="paramtype"><a class="el" href="../../d2/d10/MathFwd_8h.html#a532fe2b7d7e9b59259adebff28450bef">FTransform</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -187,17 +199,17 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const FTransform &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../d2/d10/MathFwd_8h.html#a532fe2b7d7e9b59259adebff28450bef">FTransform</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../da/d75/classUCharacterMovementComponent.html">UCharacterMovementComponent</a> *</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+          <td class="paramtype">UCharacterMovementComponent *</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="../../db/d9a/SCurveEditor_8h.html#a6a1bb6ed41f44b60e7bd83b0e9945aa7">float</a></td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -219,8 +231,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="../../dir_4aca46919dd64a018c94105a41bb52f8.html">UE_5.6</a></li><li class="navelem"><a href="../../dir_35a4881369ae19e233e6dac2bcad4050.html">Engine</a></li><li class="navelem"><a href="../../dir_9f26ecb35aabc03d0a71a3e3b9106316.html">Source</a></li><li class="navelem"><a href="../../dir_0942f747ae23c965c05d4d76ae4659cb.html">Runtime</a></li><li class="navelem"><a href="../../dir_c4f31664fb2968a098c34e2ef86324ca.html">Engine</a></li><li class="navelem"><a href="../../dir_2d50b3e22a4f3c2a257cc8ed034f8f90.html">Classes</a></li><li class="navelem"><a href="../../dir_ed269b19aee30b1edf91ca5f109cdfa1.html">GameFramework</a></li><li class="navelem"><a href="../../d8/d84/CharacterMovementComponent_8h.html">CharacterMovementComponent.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+    <li class="navelem"><a href="../../dir_7536b172fbd480bfd146a1b1acd6856b.html">Runtime</a></li><li class="navelem"><a href="../../dir_fdf6aa5c3cf3805bb958134448d60562.html">Engine</a></li><li class="navelem"><a href="../../dir_0ed647eebe6ffcaa496d3842b7cec6ce.html">Classes</a></li><li class="navelem"><a href="../../dir_cc939d8e7753f23591e1c275ea054aa8.html">GameFramework</a></li><li class="navelem"><a href="../../d8/d84/CharacterMovementComponent_8h.html">CharacterMovementComponent.h</a></li>
+    <li class="footer">Generated on <span class="timestamp"></span> for Unreal Engine 5.6 C++ API by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>
 </body>

@@ -1,0 +1,19 @@
+digraph "Source"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_e49a05354356fa961032184778c6dc56 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="RemoteControlComponents", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_e49a05354356fa961032184778c6dc56.html",tooltip=""]
+  subgraph clusterdir_d10357798463749620397ee1b72c2ab4 {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_d10357798463749620397ee1b72c2ab4.html",tooltip=""]
+    dir_d10357798463749620397ee1b72c2ab4 [shape=plaintext, label="Source"];
+  dir_ec398dc6ab4fc4205ffb674ae7765335 [label="RemoteControlComponents", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_ec398dc6ab4fc4205ffb674ae7765335.html",tooltip=""];
+  }
+  }
+  dir_7536b172fbd480bfd146a1b1acd6856b [label="Runtime", fillcolor="#edf0f7", color="red", style="filled", URL="dir_7536b172fbd480bfd146a1b1acd6856b.html",tooltip=""];
+  dir_ec398dc6ab4fc4205ffb674ae7765335->dir_7536b172fbd480bfd146a1b1acd6856b [headlabel="7", labeldistance=1.5 headhref="dir_000957_000984.html" href="dir_000957_000984.html" color="steelblue1" fontcolor="steelblue1"];
+}

@@ -1,0 +1,13 @@
+digraph "SNameComboBox::SLATE_ATTRIBUTE"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SNameComboBox::SLATE\l_ATTRIBUTE",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Sets the font used to draw the text."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SNameComboBox::SLATE\l_ATTRIBUTE",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/db4/classSNameComboBox.html#ae3e32f1c9660137ad7a422856156898f",tooltip="Visual padding of the button content for the combobox."];
+  Node1 -> Node1 [id="edge2_Node000001_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

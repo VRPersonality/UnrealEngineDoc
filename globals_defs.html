@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Unreal Engine 5.6 C++ Documentation: File Members</title>
+<title>Unreal Engine 5.6 C++ API: Globals</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,11 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
-<link href="unreal_theme.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -27,9 +31,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Unreal Engine 5.6 C++ Documentation<span id="projectnumber">&#160;5.6</span>
+   <div id="projectname">Unreal Engine 5.6 C++ API<span id="projectnumber">&#160;5.6.0</span>
    </div>
-   <div id="projectbrief">Documentation UE5 avec chemins sources corrects</div>
+   <div id="projectbrief">C++ API documentation for Unreal Engine 5.6</div>
   </td>
  </tr>
  </tbody>
@@ -90,16 +94,25 @@ $(function(){initNavTree('globals_defs.html','',''); });
 </div>
 
 <div class="contents">
-<div class="textblock">Here is a list of all macros with links to the files they belong to:</div><ul>
-<li>ACTOR_HAS_LABELS&#160;:&#160;<a class="el" href="d0/d43/Actor_8h.html#a382a7aec7e9b0847e03539444072a93c">Actor.h</a></li>
-<li>CHARACTER_SERIALIZATION_PACKEDBITS_RESERVED_SIZE&#160;:&#160;<a class="el" href="de/dc9/CharacterMovementReplication_8h.html#ab63d8debea2ef9218a86d335c4eb3806">CharacterMovementReplication.h</a></li>
-<li>DEPRECATED_CHARACTER_MOVEMENT_RPC&#160;:&#160;<a class="el" href="de/dc9/CharacterMovementReplication_8h.html#ae3f89d4156630420bd4da86db799e823">CharacterMovementReplication.h</a></li>
-<li>ENABLE_ACTOR_PRIMITIVE_COLOR_HANDLER&#160;:&#160;<a class="el" href="d4/d72/ActorPrimitiveColorHandler_8h.html#a8558c09b1d5a683acdd2e9daec9a0d53">ActorPrimitiveColorHandler.h</a></li>
-<li>HIDE_ACTOR_TRANSFORM_FUNCTIONS&#160;:&#160;<a class="el" href="d0/d43/Actor_8h.html#ab268b54fbaebd2356c75804c9f16ce8d">Actor.h</a></li>
-<li>ROOT_MOTION_DEBUG&#160;:&#160;<a class="el" href="d2/dd0/RootMotionSource_8h.html#a1d0a7e2ed58799cd12a0c587e8cbc4b7">RootMotionSource.h</a></li>
-<li>SUPPORT_DEPRECATED_CHARACTER_MOVEMENT_RPCS&#160;:&#160;<a class="el" href="de/dc9/CharacterMovementReplication_8h.html#ae735af39928e6d680c421fa143e8500d">CharacterMovementReplication.h</a></li>
-<li>UE_API&#160;:&#160;<a class="el" href="d4/d72/ActorPrimitiveColorHandler_8h.html#a578eb926c8aecdf908e1338b2e893458">ActorPrimitiveColorHandler.h</a>, <a class="el" href="d2/de5/NavMovementInterface_8h.html#a578eb926c8aecdf908e1338b2e893458">NavMovementInterface.h</a></li>
-<li>UE_WITH_CHEAT_MANAGER&#160;:&#160;<a class="el" href="de/dd7/CheatManagerDefines_8h.html#a4232ca278f0ca19fe9820c1cb62edce6">CheatManagerDefines.h</a></li>
+<div class="textblock">Here is a list of all macros with links to the files they belong to:</div>
+
+<h3 class="doxsection"><a id="index__5F" name="index__5F"></a>- _ -</h3><ul>
+<li>__Delegate_h__&#160;:&#160;<a class="el" href="d4/d80/Delegate_8h.html#ac84fc600075cc88b1c07e82effe09291">Delegate.h</a></li>
+<li>__FMemory_Alloca_Func&#160;:&#160;<a class="el" href="dd/d22/GenericPlatformMemory_8h.html#a71d64a441f3858b63cef2fe5ca13d7d0">GenericPlatformMemory.h</a></li>
+<li>__LLP64__&#160;:&#160;<a class="el" href="d9/d5b/AppleProResEncoder_8h.html#a80b0b35d447f4036942f4c12259c979c">AppleProResEncoder.h</a></li>
+<li>_aligned_free&#160;:&#160;<a class="el" href="d3/d6a/AndroidSystemIncludes_8h.html#a17c29cd219589929e02f22a91eccc71c">AndroidSystemIncludes.h</a>, <a class="el" href="db/dda/IOSSystemIncludes_8h.html#a17c29cd219589929e02f22a91eccc71c">IOSSystemIncludes.h</a>, <a class="el" href="d6/de3/MacSystemIncludes_8h.html#a17c29cd219589929e02f22a91eccc71c">MacSystemIncludes.h</a></li>
+<li>_aligned_malloc&#160;:&#160;<a class="el" href="d3/d6a/AndroidSystemIncludes_8h.html#a5bb22aafced99ec0a20fe6b47ffcc81c">AndroidSystemIncludes.h</a>, <a class="el" href="db/dda/IOSSystemIncludes_8h.html#a5bb22aafced99ec0a20fe6b47ffcc81c">IOSSystemIncludes.h</a>, <a class="el" href="d6/de3/MacSystemIncludes_8h.html#a5bb22aafced99ec0a20fe6b47ffcc81c">MacSystemIncludes.h</a></li>
+<li>_aligned_msize&#160;:&#160;<a class="el" href="db/dda/IOSSystemIncludes_8h.html#afd2deef2531ed2d67e557147d35ebbf9">IOSSystemIncludes.h</a>, <a class="el" href="d6/de3/MacSystemIncludes_8h.html#afd2deef2531ed2d67e557147d35ebbf9">MacSystemIncludes.h</a></li>
+<li>_aligned_realloc&#160;:&#160;<a class="el" href="d3/d6a/AndroidSystemIncludes_8h.html#a86a5d2cf2c85e8385288d254b0120908">AndroidSystemIncludes.h</a>, <a class="el" href="db/dda/IOSSystemIncludes_8h.html#a86a5d2cf2c85e8385288d254b0120908">IOSSystemIncludes.h</a>, <a class="el" href="d6/de3/MacSystemIncludes_8h.html#a86a5d2cf2c85e8385288d254b0120908">MacSystemIncludes.h</a></li>
+<li>_CRT_MEMCPY_S_INLINE&#160;:&#160;<a class="el" href="d5/d80/WindowsPlatformCompilerPreSetup_8h.html#a98523bfbca189a1bc37d5d657bed2820">WindowsPlatformCompilerPreSetup.h</a></li>
+<li>_DebugBreakAndPromptForRemote&#160;:&#160;<a class="el" href="d0/dfa/AssertionMacros_8h.html#a48f9a92587f2a499d8f2e04e98d8a9cc">AssertionMacros.h</a></li>
+<li>_DECLARE_TYPEBITSET_IMPL&#160;:&#160;<a class="el" href="d8/dc1/StructTypeBitSet_8h.html#af7b14ab99a6c7afa793b3a8c68ae1a66">StructTypeBitSet.h</a></li>
+<li>_ENABLE_PARTICLE_LOD_INGAME_&#160;:&#160;<a class="el" href="da/da6/ParticleHelper_8h.html#ac9d70f681ba5422ad0b6e3d0813a1a4b">ParticleHelper.h</a></li>
+<li>_PARTICLES_USE_PREFETCH_&#160;:&#160;<a class="el" href="da/da6/ParticleHelper_8h.html#a3b33d780dee8c4e8c7879336c93ec69b">ParticleHelper.h</a></li>
+<li>_UE_EXPAND&#160;:&#160;<a class="el" href="df/df0/GarbageCollectionSchema_8h.html#a98769ef5f557602c18960186e9a61de5">GarbageCollectionSchema.h</a></li>
+<li>_UE_GC_MEMBER&#160;:&#160;<a class="el" href="df/df0/GarbageCollectionSchema_8h.html#a350d3f4a8b89a74bf1e0e7e448f0e237">GarbageCollectionSchema.h</a></li>
+<li>_UE_GC_MEMBER2&#160;:&#160;<a class="el" href="df/df0/GarbageCollectionSchema_8h.html#a23a3e6bab4897a1d1fbfd3335f37a2cc">GarbageCollectionSchema.h</a></li>
+<li>_UE_GC_MEMBER3&#160;:&#160;<a class="el" href="df/df0/GarbageCollectionSchema_8h.html#a0f9f18172e8046861248708c4d92abf8">GarbageCollectionSchema.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -107,7 +120,7 @@ $(function(){initNavTree('globals_defs.html','',''); });
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+    <li class="footer">Generated on <span class="timestamp"></span> for Unreal Engine 5.6 C++ API by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>
 </body>

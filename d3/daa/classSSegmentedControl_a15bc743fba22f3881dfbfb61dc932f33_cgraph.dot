@@ -1,0 +1,68 @@
+digraph "SSegmentedControl::RebuildChildren"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="SSegmentedControl::\lRebuildChildren",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SSegmentedControl::\lCommitValue",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/daa/classSSegmentedControl.html#a1c5aeedff51c775c0c2f7e82758f4a66",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FSlateApplication::Get",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/df2/classFSlateApplication.html#ab6234a47a7d8f3e5f069e145aa74ccae",tooltip="Returns the current instance of the application."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FSlateApplication::\lFSlateApplication",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/df2/classFSlateApplication.html#a48184993c71d99fcba758fc94b64888d",tooltip=" "];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="IsInGameThread",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d8c/CoreGlobals_8h.html#aef9b701034d58fd883a90af440707365",tooltip=" "];
+  Node3 -> Node6 [id="edge5_Node000003_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="IsInSlateThread",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d8c/CoreGlobals_8h.html#ae041972a389309c54a5803d7e5cb42bc",tooltip=" "];
+  Node2 -> Node7 [id="edge6_Node000002_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="FSlateApplication::\lGetModifierKeys",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/df2/classFSlateApplication.html#acb81c37ab6cb65052906df001dc6f6f9",tooltip="Returns the current modifier keys state."];
+  Node2 -> Node8 [id="edge7_Node000002_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="FModifierKeysState\l::IsControlDown",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/da2/classFModifierKeysState.html#a2ff13010bff8fa6851c10b8b24319fd6",tooltip="Returns true if either control key was down when this event occurred."];
+  Node2 -> Node9 [id="edge8_Node000002_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="FModifierKeysState\l::IsShiftDown",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/da2/classFModifierKeysState.html#aa0121296d37a1a65c63bea44f23b17f7",tooltip="Returns true if either shift key was down when this event occurred."];
+  Node2 -> Node10 [id="edge9_Node000002_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="SSegmentedControl::\lUpdateCheckboxValuesIfNeeded",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/daa/classSSegmentedControl.html#a19fe489d99d79a02ba178f19e0be4054",tooltip=" "];
+  Node10 -> Node11 [id="edge10_Node000010_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="SSegmentedControl::\lGetValues",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/daa/classSSegmentedControl.html#a9a6696317bedaf133564fd3dfb517828",tooltip=" "];
+  Node10 -> Node12 [id="edge11_Node000010_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="SSegmentedControl::Slot",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/daa/classSSegmentedControl.html#a9e948020610b8fb6894439227a04b1f3",tooltip=" "];
+  Node12 -> Node13 [id="edge12_Node000012_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="MakeUnique",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d1a/UniquePtr_8h.html#a9e3be2ab9b6efa8383f83df1c1a22239",tooltip="Allocates a new object of type T with the given arguments and returns it as a TUniquePtr."];
+  Node13 -> Node14 [id="edge13_Node000013_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="Forward",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d24/UnrealTemplate_8h.html#a68f280c1d561a8899a1e9e3ea8405d00",tooltip="Forward will cast a reference to an rvalue reference."];
+  Node1 -> Node15 [id="edge14_Node000001_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="TAttribute::Get",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dcd/classTAttribute.html#a08b5ad02ab005018cef6ed26fd2db616",tooltip="Gets the attribute's current value."];
+  Node1 -> Node16 [id="edge15_Node000001_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="SSegmentedControl::\lGetCheckBoxStateAttribute",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/daa/classSSegmentedControl.html#a68696273d77518bd555eb35c2f3ff2e2",tooltip=" "];
+  Node16 -> Node11 [id="edge16_Node000016_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node16 -> Node17 [id="edge17_Node000016_Node000017",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="MakeAttributeLambda",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d08/Attribute_8h.html#a93fcbe11df582d74b3ac18870ea9a215",tooltip="Helper function for creating TAttributes from a lambda TAttribute<float> FloatAttribute = MakeAttribu..."];
+  Node17 -> Node18 [id="edge18_Node000017_Node000018",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="TAttribute::Create",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dcd/classTAttribute.html#a18379263080a0f464a153ef8d69e6c22",tooltip="Static: Creates an attribute that's pre-bound to the specified 'getter' delegate."];
+  Node18 -> Node19 [id="edge19_Node000018_Node000019",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="TAttribute::TAttribute",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dcd/classTAttribute.html#ac2c7bbd4679cf26149a30afb3b34e75f",tooltip=" "];
+  Node19 -> Node19 [id="edge20_Node000019_Node000019",color="steelblue1",style="solid",tooltip=" "];
+  Node17 -> Node20 [id="edge21_Node000017_Node000020",color="steelblue1",style="solid",tooltip=" "];
+  Node20 [id="Node000020",label="DeclVal",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d24/UnrealTemplate_8h.html#a9636e4bb9a25311e778e850ad95c928f",tooltip="Equivalent to std::declval."];
+  Node17 -> Node14 [id="edge22_Node000017_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node21 [id="edge23_Node000001_Node000021",color="steelblue1",style="solid",tooltip=" "];
+  Node21 [id="Node000021",label="TAlignmentWidgetSlotMixin\l::GetHorizontalAlignment",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc6/classTAlignmentWidgetSlotMixin.html#a04233fb2a66b0a295e4acbe41383e2e6",tooltip=" "];
+  Node1 -> Node22 [id="edge24_Node000001_Node000022",color="steelblue1",style="solid",tooltip=" "];
+  Node22 [id="Node000022",label="TAlignmentWidgetSlotMixin\l::GetVerticalAlignment",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc6/classTAlignmentWidgetSlotMixin.html#a8dc3141d78ccaa0e07d175d29678e171",tooltip=" "];
+  Node1 -> Node23 [id="edge25_Node000001_Node000023",color="steelblue1",style="solid",tooltip=" "];
+  Node23 [id="Node000023",label="TAttribute::IsBound",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dcd/classTAttribute.html#ae6cf86474bb6f31fc7483ac3ab488976",tooltip="Checks to see if this attribute has a 'getter' function bound."];
+  Node1 -> Node24 [id="edge26_Node000001_Node000024",color="steelblue1",style="solid",tooltip=" "];
+  Node24 [id="Node000024",label="FText::IsEmpty",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/dcb/classFText.html#a0aecd2a58c11b194f0fe92705b3f8198",tooltip=" "];
+  Node1 -> Node17 [id="edge27_Node000001_Node000017",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node25 [id="edge28_Node000001_Node000025",color="steelblue1",style="solid",tooltip=" "];
+  Node25 [id="Node000025",label="SSegmentedControl::\lNumSlots",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/daa/classSSegmentedControl.html#aca893a8002a49aaa93614ae450e60aab",tooltip=" "];
+  Node1 -> Node26 [id="edge29_Node000001_Node000026",color="steelblue1",style="solid",tooltip=" "];
+  Node26 [id="Node000026",label="SHorizontalBox::Slot",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/dc0/classSHorizontalBox.html#a4a82642c403b50090370584e252cd9b5",tooltip=" "];
+  Node26 -> Node13 [id="edge30_Node000026_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node27 [id="edge31_Node000001_Node000027",color="steelblue1",style="solid",tooltip=" "];
+  Node27 [id="Node000027",label="TSharedPtr::ToSharedRef",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d2f/classTSharedPtr.html#acea59fa031bb7cc8946d17d144bea616",tooltip="Converts a shared pointer to a shared reference."];
+  Node1 -> Node10 [id="edge32_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+}

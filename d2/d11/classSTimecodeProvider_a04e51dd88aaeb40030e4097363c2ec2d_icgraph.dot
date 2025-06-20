@@ -1,0 +1,16 @@
+digraph "STimecodeProvider::SLATE_ATTRIBUTE"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="STimecodeProvider::\lSLATE_ATTRIBUTE",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="The font for this TimecodeProvider text."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="STimecodeProvider::\lSLATE_ATTRIBUTE",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d11/classSTimecodeProvider.html#ae806a2282e78b90f96a4a09331f0336b",tooltip="The color for the timecode text."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="STimecodeProvider::\lSLATE_ATTRIBUTE",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d11/classSTimecodeProvider.html#a99d8d31d305c4af3d35935050bba09c1",tooltip="The font for this label text."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="STimecodeProvider::\lSLATE_ATTRIBUTE",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d11/classSTimecodeProvider.html#a7dda294d77fd120f4cd6e3ef87156e9d",tooltip="Override the Timecode Provider to display."];
+}

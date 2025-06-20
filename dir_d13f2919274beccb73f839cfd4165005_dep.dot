@@ -1,0 +1,13 @@
+digraph "Inline"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_b0a5315e47d3716090c522661b81312c {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="VerseVM", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_b0a5315e47d3716090c522661b81312c.html",tooltip=""]
+  dir_d13f2919274beccb73f839cfd4165005 [label="Inline", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_d13f2919274beccb73f839cfd4165005.html",tooltip=""];
+  }
+}

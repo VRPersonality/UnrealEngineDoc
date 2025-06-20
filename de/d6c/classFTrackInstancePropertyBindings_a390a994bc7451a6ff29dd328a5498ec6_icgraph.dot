@@ -1,0 +1,16 @@
+digraph "FTrackInstancePropertyBindings::StaticValue"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FTrackInstancePropertyBindings\l::StaticValue",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Static function for accessing a property value on an object without caching its address."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::MovieScene::FBoolProperty\lTraits::GetObjectPropertyValue",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d04/structUE_1_1MovieScene_1_1FBoolPropertyTraits.html#a80c8d5857b2ae772ca3bc0f2db36c64b",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::MovieScene::TDirectProperty\lTraits\< float \>::GetObjectPropertyValue",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d38/structUE_1_1MovieScene_1_1TDirectPropertyTraits.html#ae6f7811c80e05f43319759c43c972e81",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UE::MovieScene::TIndirect\lPropertyTraits\< UObject\l *, FObjectComponent \>::\lGetObjectPropertyValue",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/dc1/structUE_1_1MovieScene_1_1TIndirectPropertyTraits.html#a567aee62f067a3a9c1c22997304042f9",tooltip=" "];
+}

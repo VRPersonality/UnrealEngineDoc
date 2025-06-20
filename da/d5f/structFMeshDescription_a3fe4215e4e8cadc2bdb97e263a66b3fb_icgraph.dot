@@ -1,0 +1,14 @@
+digraph "FMeshDescription::GetVertexConnectedPolygons"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FMeshDescription::GetVertex\lConnectedPolygons",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Populates the passed array of PolygonIDs with the polygons connected to this vertex."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FMeshDescription::GetNum\lVertexConnectedPolygons",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d5f/structFMeshDescription.html#a55047871ddf10db457c3c4e877f5a6e2",tooltip="Returns the number of polygons connected to this vertex."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FMeshDescription::GetVertex\lConnectedPolygons",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d5f/structFMeshDescription.html#adbabdf8645360121e2f4f6540b029ae1",tooltip="Returns the polygons connected to this vertex as an array with the specified allocator template type."];
+}

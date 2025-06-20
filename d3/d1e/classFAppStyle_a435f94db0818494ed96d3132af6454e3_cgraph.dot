@@ -1,0 +1,18 @@
+digraph "FAppStyle::GetWidgetStyle"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FAppStyle::GetWidgetStyle",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FAppStyle::Get",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d1e/classFAppStyle.html#abf8a86ffff62afc3c225cf5553bf58ee",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="ISlateStyle::GetWidgetStyle",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d4d/classISlateStyle.html#a84c5102a62dc12574d946355a984635c",tooltip="Locates a widget style of a specified type and name."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="ISlateStyle::GetWidgetStyle\lInternal",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d4d/classISlateStyle.html#a17d38ca7fe5862accbdac4b8f5b3055f",tooltip=" "];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="ISlateStyle::Join",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d4d/classISlateStyle.html#a238977e6e7f1b7eb5b0fc2c33fc8b796",tooltip=" "];
+}

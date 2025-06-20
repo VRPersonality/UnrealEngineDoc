@@ -1,0 +1,12 @@
+digraph "FFrame::ReadPointer"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FFrame::ReadPointer",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FGenericPlatformMemory\l::ReadUnaligned",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/dfd/structFGenericPlatformMemory.html#a1b61fa8be4045ac8e9e6624d9b1fddc3",tooltip="Loads a simple POD type from unaligned memory."];
+}

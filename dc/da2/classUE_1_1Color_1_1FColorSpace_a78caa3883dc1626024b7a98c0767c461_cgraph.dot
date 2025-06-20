@@ -1,0 +1,12 @@
+digraph "UE::Color::FColorSpace::GetWorking"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="UE::Color::FColorSpace\l::GetWorking",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Get the global engine working color space (as a singleton)."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Color::FColorSpace\l::FColorSpace",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/da2/classUE_1_1Color_1_1FColorSpace.html#a2e9d4ab61b1e7d853187bdbeea54eedc",tooltip="Constructor."];
+}

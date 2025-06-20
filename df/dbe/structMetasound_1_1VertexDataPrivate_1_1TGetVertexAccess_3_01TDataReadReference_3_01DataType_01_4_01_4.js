@@ -1,0 +1,4 @@
+var structMetasound_1_1VertexDataPrivate_1_1TGetVertexAccess_3_01TDataReadReference_3_01DataType_01_4_01_4 =
+[
+    [ "VertexAccess", "df/dbe/structMetasound_1_1VertexDataPrivate_1_1TGetVertexAccess_3_01TDataReadReference_3_01DataType_01_4_01_4.html#a43cec17f6d3061c6f36b9cf331bcd456", null ]
+];

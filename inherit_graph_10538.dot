@@ -1,0 +1,16 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="UE::Geometry::FBaseRevolve\lGenerator",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/de1/classUE_1_1Geometry_1_1FBaseRevolveGenerator.html",tooltip="FBaseRevolveGenerator is a base class for simple surface-of-revolution generators."];
+  Node0 -> Node1 [id="edge9115_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 [id="Node000001",label="UE::Geometry::FRevolvePlanar\lPathGenerator",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dc9/classUE_1_1Geometry_1_1FRevolvePlanarPathGenerator.html",tooltip="Revolve a planar polyline (in the XY plane) around the +Z axis along a circular path (+X,..."];
+  Node0 -> Node2 [id="edge9116_Node000000_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Geometry::FRevolvePlanar\lPolygonGenerator",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dcd/classUE_1_1Geometry_1_1FRevolvePlanarPolygonGenerator.html",tooltip="Revolve a planar polygon (in the XY plane) around the +Z axis along a circular path (+X,..."];
+  Node0 -> Node3 [id="edge9117_Node000000_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::Geometry::FSpiralRevolve\lPlanarPolygonGenerator",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d52/classUE_1_1Geometry_1_1FSpiralRevolvePlanarPolygonGenerator.html",tooltip="Revolve a planar polygon (in the XY plane) around the +Z axis along a spiral path."];
+}

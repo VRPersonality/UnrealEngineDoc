@@ -1,0 +1,13 @@
+digraph "TextBiDi::ComputeTextDirection"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TextBiDi::ComputeTextDirection",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Utility function which will compute the reading direction of the given text, as well as populate any ..."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TextBiDi::ComputeTextDirection",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d5d/namespaceTextBiDi.html#a574e0f5b6ace98bc3e520993fb03f5b7",tooltip="Utility function which will compute the reading direction of the given text."];
+  Node2 -> Node2 [id="edge2_Node000002_Node000002",color="steelblue1",style="solid",tooltip=" "];
+}

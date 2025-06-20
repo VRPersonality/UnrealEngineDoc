@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Unreal Engine 5.6 C++ Documentation: UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/AsyncActionHandleSaveGame.h File Reference</title>
+<title>Unreal Engine 5.6 C++ API: AsyncActionHandleSaveGame.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -18,7 +18,11 @@
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
-<link href="../../unreal_theme.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -27,9 +31,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Unreal Engine 5.6 C++ Documentation<span id="projectnumber">&#160;5.6</span>
+   <div id="projectname">Unreal Engine 5.6 C++ API<span id="projectnumber">&#160;5.6.0</span>
    </div>
-   <div id="projectbrief">Documentation UE5 avec chemins sources corrects</div>
+   <div id="projectbrief">C++ API documentation for Unreal Engine 5.6</div>
   </td>
  </tr>
  </tbody>
@@ -93,20 +97,64 @@ $(function(){initNavTree('db/dd4/AsyncActionHandleSaveGame_8h.html','../../','')
   <div class="headertitle"><div class="title">AsyncActionHandleSaveGame.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;CoreMinimal.h&quot;</code><br />
-<code>#include &quot;UObject/ObjectMacros.h&quot;</code><br />
-<code>#include &quot;Engine/StreamableManager.h&quot;</code><br />
-<code>#include &quot;Kismet/BlueprintAsyncActionBase.h&quot;</code><br />
-<code>#include &quot;Templates/SubclassOf.h&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d7/d67/CoreMinimal_8h_source.html">CoreMinimal.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html">UObject/ObjectMacros.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/dd8/StreamableManager_8h_source.html">Engine/StreamableManager.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/dd0/BlueprintAsyncActionBase_8h_source.html">Kismet/BlueprintAsyncActionBase.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/db4/SubclassOf_8h_source.html">Templates/SubclassOf.h</a>&quot;</code><br />
 <code>#include &quot;AsyncActionHandleSaveGame.generated.h&quot;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Include dependency graph for AsyncActionHandleSaveGame.h:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 0 --></div>
+</div>
 </div>
 <p><a href="../../db/dd4/AsyncActionHandleSaveGame_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:UAsyncActionHandleSaveGame" id="r_UAsyncActionHandleSaveGame"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/db1/classUAsyncActionHandleSaveGame.html">UAsyncActionHandleSaveGame</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Async action to handle async load/save of a <a class="el" href="../../de/d6b/classUSaveGame.html" title="This class acts as a base class for a save game object that can be used to save state about the game.">USaveGame</a>.  <a href="../../dd/db1/classUAsyncActionHandleSaveGame.html#details">More...</a><br /></td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:acf7fac618a308aad1387c90e8d28249e" id="r_acf7fac618a308aad1387c90e8d28249e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf7fac618a308aad1387c90e8d28249e">DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</a> (FOnAsyncHandleSaveGame, USaveGame *, SaveGame, <a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a>, bSuccess)</td></tr>
 </table>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="acf7fac618a308aad1387c90e8d28249e" name="acf7fac618a308aad1387c90e8d28249e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf7fac618a308aad1387c90e8d28249e">&#9670;&#160;</a></span>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams </td>
+          <td>(</td>
+          <td class="paramtype">FOnAsyncHandleSaveGame</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">USaveGame *</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SaveGame</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/d1e/RigVMController_8h.html#addff56abe65381e12af5473dd0c468ea">bool</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bSuccess</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="../../dd/d6b/GenericApplicationMessageHandler_8h_source.html#l00075">Activate</a>, <a class="el" href="../../d1/df7/RigUnit__AnimNextRunAnimationGraph__v1_8h_source.html#l00024">Category</a>, <a class="el" href="../../d1/d31/NavigationToolDefines_8h_source.html#l00053">Completed</a>, <a class="el" href="../../d2/dd8/StreamableManager_8h_source.html#l00023">Load</a>, <a class="el" href="../../d3/dc7/ModularVehicleBaseComponent_8h_source.html#l00108">meta</a>, <a class="el" href="../../d2/da0/AnimMontage_8h_source.html#l00621">MinimalAPI</a>, <a class="el" href="../../dd/dd0/UEdMode_8h_source.html#l00047">Save</a>, <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00724">UFUNCTION</a>, and <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00723">UPROPERTY</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
@@ -120,8 +168,8 @@ Classes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="../../dir_4aca46919dd64a018c94105a41bb52f8.html">UE_5.6</a></li><li class="navelem"><a href="../../dir_35a4881369ae19e233e6dac2bcad4050.html">Engine</a></li><li class="navelem"><a href="../../dir_9f26ecb35aabc03d0a71a3e3b9106316.html">Source</a></li><li class="navelem"><a href="../../dir_0942f747ae23c965c05d4d76ae4659cb.html">Runtime</a></li><li class="navelem"><a href="../../dir_c4f31664fb2968a098c34e2ef86324ca.html">Engine</a></li><li class="navelem"><a href="../../dir_2d50b3e22a4f3c2a257cc8ed034f8f90.html">Classes</a></li><li class="navelem"><a href="../../dir_ed269b19aee30b1edf91ca5f109cdfa1.html">GameFramework</a></li><li class="navelem"><a href="../../db/dd4/AsyncActionHandleSaveGame_8h.html">AsyncActionHandleSaveGame.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+    <li class="navelem"><a href="../../dir_7536b172fbd480bfd146a1b1acd6856b.html">Runtime</a></li><li class="navelem"><a href="../../dir_fdf6aa5c3cf3805bb958134448d60562.html">Engine</a></li><li class="navelem"><a href="../../dir_0ed647eebe6ffcaa496d3842b7cec6ce.html">Classes</a></li><li class="navelem"><a href="../../dir_cc939d8e7753f23591e1c275ea054aa8.html">GameFramework</a></li><li class="navelem"><a href="../../db/dd4/AsyncActionHandleSaveGame_8h.html">AsyncActionHandleSaveGame.h</a></li>
+    <li class="footer">Generated on <span class="timestamp"></span> for Unreal Engine 5.6 C++ API by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>
 </body>

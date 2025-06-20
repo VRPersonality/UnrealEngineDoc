@@ -1,0 +1,18 @@
+digraph "FKeyframeTrackEditor::AddTrackDefaultsItems"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FKeyframeTrackEditor\l::AddTrackDefaultsItems",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FBaseMenuBuilder::AddMenu\lEntry",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/dad/classFBaseMenuBuilder.html#a4e5af6f98a8e32a9454ea64b23910afe",tooltip="Adds a menu entry."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FKeyframeTrackEditor\l::ClearDefaults",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d48/classFKeyframeTrackEditor.html#a5f8e496da3d9ecd2f5df9c26b4b17745",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FMovieSceneTrackEditor\l::GetSequencer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d4e/classFMovieSceneTrackEditor.html#a17cc04f08607798f17bf6c71b7d55aa6",tooltip=" "];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="ISequencer::NotifyMovieScene\lDataChanged",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dde/classISequencer.html#ad8107aec1fc57fd249cc29a061b4b663",tooltip=" "];
+}

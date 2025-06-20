@@ -1,0 +1,16 @@
+digraph "UCameraShakeSourceComponent::UFUNCTION"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UCameraShakeSourceComponent\l::UFUNCTION",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UCameraShakeSourceComponent\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d05/classUCameraShakeSourceComponent.html#a12e555d16a7e911fa109c64d6efb38ab",tooltip="Computes an attenuation factor from this source."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UCameraShakeSourceComponent\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d05/classUCameraShakeSourceComponent.html#a85ce78441b682e6b5db7de6c0573d53f",tooltip="Stops all currently active camera shakes that are originating from this source from all player contro..."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UCameraShakeSourceComponent\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d05/classUCameraShakeSourceComponent.html#a3037e6a83f43d05b71035be262d6b25f",tooltip="Stops a camera shake originating from this source."];
+}

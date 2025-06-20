@@ -1,0 +1,12 @@
+digraph "FSlateNotificationManager::Get"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FSlateNotificationManager::Get",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Gets the instance of this manager."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FSlateNotificationManager\l::FSlateNotificationManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d6f/classFSlateNotificationManager.html#a55755875d1e53334af206b6c29691b3d",tooltip="Protect constructor as this is a singleton."];
+}

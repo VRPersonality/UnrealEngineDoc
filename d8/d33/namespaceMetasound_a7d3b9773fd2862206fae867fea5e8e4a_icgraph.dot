@@ -1,0 +1,12 @@
+digraph "Metasound::IsOperatorDataOfType"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="Metasound::IsOperatorData\lOfType",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Returns true if the provided node configuration is of the type T."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Metasound::CastOperatorData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d33/namespaceMetasound.html#aebbca8c45bd593f366698495b452585d",tooltip="Returns a non-null pointer to a downcast node configuration object if the provided node configuration..."];
+}

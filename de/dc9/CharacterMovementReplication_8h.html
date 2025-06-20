@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Unreal Engine 5.6 C++ Documentation: UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/CharacterMovementReplication.h File Reference</title>
+<title>Unreal Engine 5.6 C++ API: CharacterMovementReplication.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -18,7 +18,11 @@
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
-<link href="../../unreal_theme.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -27,9 +31,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Unreal Engine 5.6 C++ Documentation<span id="projectnumber">&#160;5.6</span>
+   <div id="projectname">Unreal Engine 5.6 C++ API<span id="projectnumber">&#160;5.6.0</span>
    </div>
-   <div id="projectbrief">Documentation UE5 avec chemins sources corrects</div>
+   <div id="projectbrief">C++ API documentation for Unreal Engine 5.6</div>
   </td>
  </tr>
  </tbody>
@@ -93,40 +97,53 @@ $(function(){initNavTree('de/dc9/CharacterMovementReplication_8h.html','../../',
   <div class="headertitle"><div class="title">CharacterMovementReplication.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;CoreMinimal.h&quot;</code><br />
-<code>#include &quot;UObject/Object.h&quot;</code><br />
-<code>#include &quot;Engine/NetSerialization.h&quot;</code><br />
-<code>#include &quot;Serialization/BitWriter.h&quot;</code><br />
-<code>#include &quot;Containers/BitArray.h&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d7/d67/CoreMinimal_8h_source.html">CoreMinimal.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/dbf/Object_8h_source.html">UObject/Object.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/dc9/NetSerialization_8h_source.html">Engine/NetSerialization.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/d10/BitWriter_8h_source.html">Serialization/BitWriter.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/de4/BitArray_8h_source.html">Containers/BitArray.h</a>&quot;</code><br />
 <code>#include &quot;Net/Core/NetToken/NetTokenExportContext.h&quot;</code><br />
 <code>#include &quot;CharacterMovementReplication.generated.h&quot;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Include dependency graph for CharacterMovementReplication.h:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 0 --></div>
+</div>
+</div><div class="textblock"><div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>This graph shows which files directly or indirectly include this file:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 1 --></div>
+</div>
 </div>
 <p><a href="../../de/dc9/CharacterMovementReplication_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:FCharacterNetworkSerializationPackedBits" id="r_FCharacterNetworkSerializationPackedBits"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d17/structFCharacterNetworkSerializationPackedBits.html">FCharacterNetworkSerializationPackedBits</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Intermediate data stream used for network serialization of Character RPC data.  <a href="../../dd/d17/structFCharacterNetworkSerializationPackedBits.html#details">More...</a><br /></td></tr>
-<tr class="memitem:TStructOpsTypeTraits_3C_20FCharacterNetworkSerializationPackedBits_20_3E" id="r_TStructOpsTypeTraits_3C_20FCharacterNetworkSerializationPackedBits_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d31/structTStructOpsTypeTraits_3_01FCharacterNetworkSerializationPackedBits_01_4.html">TStructOpsTypeTraits&lt; FCharacterNetworkSerializationPackedBits &gt;</a></td></tr>
-<tr class="memitem:FCharacterNetworkMoveData" id="r_FCharacterNetworkMoveData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dab/structFCharacterNetworkMoveData.html">FCharacterNetworkMoveData</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../dc/dab/structFCharacterNetworkMoveData.html" title="FCharacterNetworkMoveData encapsulates a client move that is sent to the server for UCharacterMovemen...">FCharacterNetworkMoveData</a> encapsulates a client move that is sent to the server for <a class="el" href="../../da/d75/classUCharacterMovementComponent.html" title="CharacterMovementComponent handles movement logic for the associated Character owner.">UCharacterMovementComponent</a> networking.  <a href="../../dc/dab/structFCharacterNetworkMoveData.html#details">More...</a><br /></td></tr>
-<tr class="memitem:FCharacterNetworkMoveDataContainer" id="r_FCharacterNetworkMoveDataContainer"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfe/structFCharacterNetworkMoveDataContainer.html">FCharacterNetworkMoveDataContainer</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Struct used for network RPC parameters between client/server by <a class="el" href="../../df/d70/classACharacter.html" title="Characters are Pawns that have a mesh, collision, and built-in movement logic.">ACharacter</a> and <a class="el" href="../../da/d75/classUCharacterMovementComponent.html" title="CharacterMovementComponent handles movement logic for the associated Character owner.">UCharacterMovementComponent</a>.  <a href="../../d8/dfe/structFCharacterNetworkMoveDataContainer.html#details">More...</a><br /></td></tr>
-<tr class="memitem:FCharacterServerMovePackedBits" id="r_FCharacterServerMovePackedBits"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9b/structFCharacterServerMovePackedBits.html">FCharacterServerMovePackedBits</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure used internally to handle serialization of <a class="el" href="../../d8/dfe/structFCharacterNetworkMoveDataContainer.html" title="Struct used for network RPC parameters between client/server by ACharacter and UCharacterMovementComp...">FCharacterNetworkMoveDataContainer</a> over the network.  <a href="../../d0/d9b/structFCharacterServerMovePackedBits.html#details">More...</a><br /></td></tr>
-<tr class="memitem:TStructOpsTypeTraits_3C_20FCharacterServerMovePackedBits_20_3E" id="r_TStructOpsTypeTraits_3C_20FCharacterServerMovePackedBits_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc2/structTStructOpsTypeTraits_3_01FCharacterServerMovePackedBits_01_4.html">TStructOpsTypeTraits&lt; FCharacterServerMovePackedBits &gt;</a></td></tr>
-<tr class="memitem:FClientAdjustment" id="r_FClientAdjustment"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/df4/structFClientAdjustment.html">FClientAdjustment</a></td></tr>
+Data Structures</h2></td></tr>
 <tr class="memitem:FCharacterMoveResponseDataContainer" id="r_FCharacterMoveResponseDataContainer"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d86/structFCharacterMoveResponseDataContainer.html">FCharacterMoveResponseDataContainer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Response from the server to the client about a move that is being acknowledged.  <a href="../../da/d86/structFCharacterMoveResponseDataContainer.html#details">More...</a><br /></td></tr>
-<tr class="memitem:FCharacterMoveResponsePackedBits" id="r_FCharacterMoveResponsePackedBits"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d6f/structFCharacterMoveResponsePackedBits.html">FCharacterMoveResponsePackedBits</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure used internally to handle serialization of <a class="el" href="../../da/d86/structFCharacterMoveResponseDataContainer.html" title="Response from the server to the client about a move that is being acknowledged.">FCharacterMoveResponseDataContainer</a> over the network.  <a href="../../dc/d6f/structFCharacterMoveResponsePackedBits.html#details">More...</a><br /></td></tr>
+<tr class="memitem:FCharacterNetworkMoveData" id="r_FCharacterNetworkMoveData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dab/structFCharacterNetworkMoveData.html">FCharacterNetworkMoveData</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../dc/dab/structFCharacterNetworkMoveData.html" title="FCharacterNetworkMoveData encapsulates a client move that is sent to the server for UCharacterMovemen...">FCharacterNetworkMoveData</a> encapsulates a client move that is sent to the server for UCharacterMovementComponent networking.  <a href="../../dc/dab/structFCharacterNetworkMoveData.html#details">More...</a><br /></td></tr>
+<tr class="memitem:FCharacterNetworkMoveDataContainer" id="r_FCharacterNetworkMoveDataContainer"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfe/structFCharacterNetworkMoveDataContainer.html">FCharacterNetworkMoveDataContainer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Struct used for network RPC parameters between client/server by <a class="el" href="../../df/d70/classACharacter.html">ACharacter</a> and UCharacterMovementComponent.  <a href="../../d8/dfe/structFCharacterNetworkMoveDataContainer.html#details">More...</a><br /></td></tr>
+<tr class="memitem:FClientAdjustment" id="r_FClientAdjustment"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/df4/structFClientAdjustment.html">FClientAdjustment</a></td></tr>
 <tr class="memitem:TStructOpsTypeTraits_3C_20FCharacterMoveResponsePackedBits_20_3E" id="r_TStructOpsTypeTraits_3C_20FCharacterMoveResponsePackedBits_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db8/structTStructOpsTypeTraits_3_01FCharacterMoveResponsePackedBits_01_4.html">TStructOpsTypeTraits&lt; FCharacterMoveResponsePackedBits &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure used internally to handle serialization of <a class="el" href="../../da/d86/structFCharacterMoveResponseDataContainer.html" title="Response from the server to the client about a move that is being acknowledged.">FCharacterMoveResponseDataContainer</a> over the network.  <a href="../../de/db8/structTStructOpsTypeTraits_3_01FCharacterMoveResponsePackedBits_01_4.html#details">More...</a><br /></td></tr>
+<tr class="memitem:TStructOpsTypeTraits_3C_20FCharacterNetworkSerializationPackedBits_20_3E" id="r_TStructOpsTypeTraits_3C_20FCharacterNetworkSerializationPackedBits_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d31/structTStructOpsTypeTraits_3_01FCharacterNetworkSerializationPackedBits_01_4.html">TStructOpsTypeTraits&lt; FCharacterNetworkSerializationPackedBits &gt;</a></td></tr>
+<tr class="memitem:TStructOpsTypeTraits_3C_20FCharacterServerMovePackedBits_20_3E" id="r_TStructOpsTypeTraits_3C_20FCharacterServerMovePackedBits_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc2/structTStructOpsTypeTraits_3_01FCharacterServerMovePackedBits_01_4.html">TStructOpsTypeTraits&lt; FCharacterServerMovePackedBits &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure used internally to handle serialization of <a class="el" href="../../d8/dfe/structFCharacterNetworkMoveDataContainer.html" title="Struct used for network RPC parameters between client/server by ACharacter and UCharacterMovementComp...">FCharacterNetworkMoveDataContainer</a> over the network.  <a href="../../d5/dc2/structTStructOpsTypeTraits_3_01FCharacterServerMovePackedBits_01_4.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-define-members" class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ae735af39928e6d680c421fa143e8500d" id="r_ae735af39928e6d680c421fa143e8500d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae735af39928e6d680c421fa143e8500d">SUPPORT_DEPRECATED_CHARACTER_MOVEMENT_RPCS</a>&#160;&#160;&#160;0</td></tr>
-<tr class="memitem:ae3f89d4156630420bd4da86db799e823" id="r_ae3f89d4156630420bd4da86db799e823"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3f89d4156630420bd4da86db799e823">DEPRECATED_CHARACTER_MOVEMENT_RPC</a>(DeprecatedFunction,  NewFunction)</td></tr>
 <tr class="memitem:ab63d8debea2ef9218a86d335c4eb3806" id="r_ab63d8debea2ef9218a86d335c4eb3806"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab63d8debea2ef9218a86d335c4eb3806">CHARACTER_SERIALIZATION_PACKEDBITS_RESERVED_SIZE</a>&#160;&#160;&#160;1024</td></tr>
+<tr class="memitem:ae3f89d4156630420bd4da86db799e823" id="r_ae3f89d4156630420bd4da86db799e823"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3f89d4156630420bd4da86db799e823">DEPRECATED_CHARACTER_MOVEMENT_RPC</a>(DeprecatedFunction,  NewFunction)</td></tr>
+<tr class="memitem:ae735af39928e6d680c421fa143e8500d" id="r_ae735af39928e6d680c421fa143e8500d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae735af39928e6d680c421fa143e8500d">SUPPORT_DEPRECATED_CHARACTER_MOVEMENT_RPCS</a>&#160;&#160;&#160;0</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a707d03bfbf5a1bdf7eae97ffaf4fca33" id="r_a707d03bfbf5a1bdf7eae97ffaf4fca33"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a707d03bfbf5a1bdf7eae97ffaf4fca33">USTRUCT</a> () struct FCharacterNetworkSerializationPackedBits</td></tr>
+<tr class="memdesc:a707d03bfbf5a1bdf7eae97ffaf4fca33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Intermediate data stream used for network serialization of Character RPC data.  <br /></td></tr>
 </table>
 <a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
 <a id="ab63d8debea2ef9218a86d335c4eb3806" name="ab63d8debea2ef9218a86d335c4eb3806"></a>
@@ -142,6 +159,8 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00035">35</a> of file <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00043">USTRUCT()</a>.</p>
 
 </div>
 </div>
@@ -163,7 +182,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">UE_DEPRECATED_FORGAME(4.26, #DeprecatedFunction <span class="stringliteral">&quot;() is deprecated, use &quot;</span> #NewFunction <span class="stringliteral">&quot;() instead, or define SUPPORT_DEPRECATED_CHARACTER_MOVEMENT_RPCS=1 in the project and set CVar p.NetUsePackedMovementRPCs=0 to use the old code path.&quot;</span>)</div>
+<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="../../da/d38/CoreMiscDefines_8h.html#a0d7e79afb6ca7e3f8806479278d36a7a">UE_DEPRECATED_FORGAME</a>(4.26, #DeprecatedFunction <span class="stringliteral">&quot;() is deprecated, use &quot;</span> #NewFunction <span class="stringliteral">&quot;() instead, or define SUPPORT_DEPRECATED_CHARACTER_MOVEMENT_RPCS=1 in the project and set CVar p.NetUsePackedMovementRPCs=0 to use the old code path.&quot;</span>)</div>
+<div class="ttc" id="aCoreMiscDefines_8h_html_a0d7e79afb6ca7e3f8806479278d36a7a"><div class="ttname"><a href="../../da/d38/CoreMiscDefines_8h.html#a0d7e79afb6ca7e3f8806479278d36a7a">UE_DEPRECATED_FORGAME</a></div><div class="ttdeci">#define UE_DEPRECATED_FORGAME</div><div class="ttdef"><b>Definition</b> <a href="../../da/d38/CoreMiscDefines_8h_source.html#l00350">CoreMiscDefines.h:350</a></div></div>
 </div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00030">30</a> of file <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a>.</p>
 
@@ -185,6 +205,31 @@ Macros</h2></td></tr>
 
 </div>
 </div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a707d03bfbf5a1bdf7eae97ffaf4fca33" name="a707d03bfbf5a1bdf7eae97ffaf4fca33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a707d03bfbf5a1bdf7eae97ffaf4fca33">&#9670;&#160;</a></span>USTRUCT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">USTRUCT </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Intermediate data stream used for network serialization of Character RPC data. </p>
+<p>This is basically an array of bits that is packed/unpacked via NetSerialize into custom data structs on the sending and receiving ends. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00043">43</a> of file <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html">CharacterMovementReplication.h</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d4/da3/StatsCommand_8h_source.html#l00016">Ar</a>, <a class="el" href="../../de/dc9/CharacterMovementReplication_8h_source.html#l00035">CHARACTER_SERIALIZATION_PACKEDBITS_RESERVED_SIZE</a>, <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00745">GENERATED_USTRUCT_BODY</a>, and <a class="el" href="../../d7/dff/ContainerAllocationPolicies_8h_source.html#l01314">NumBitsPerDWORD</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
@@ -198,8 +243,8 @@ Macros</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="../../dir_4aca46919dd64a018c94105a41bb52f8.html">UE_5.6</a></li><li class="navelem"><a href="../../dir_35a4881369ae19e233e6dac2bcad4050.html">Engine</a></li><li class="navelem"><a href="../../dir_9f26ecb35aabc03d0a71a3e3b9106316.html">Source</a></li><li class="navelem"><a href="../../dir_0942f747ae23c965c05d4d76ae4659cb.html">Runtime</a></li><li class="navelem"><a href="../../dir_c4f31664fb2968a098c34e2ef86324ca.html">Engine</a></li><li class="navelem"><a href="../../dir_2d50b3e22a4f3c2a257cc8ed034f8f90.html">Classes</a></li><li class="navelem"><a href="../../dir_ed269b19aee30b1edf91ca5f109cdfa1.html">GameFramework</a></li><li class="navelem"><a href="../../de/dc9/CharacterMovementReplication_8h.html">CharacterMovementReplication.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+    <li class="navelem"><a href="../../dir_7536b172fbd480bfd146a1b1acd6856b.html">Runtime</a></li><li class="navelem"><a href="../../dir_fdf6aa5c3cf3805bb958134448d60562.html">Engine</a></li><li class="navelem"><a href="../../dir_0ed647eebe6ffcaa496d3842b7cec6ce.html">Classes</a></li><li class="navelem"><a href="../../dir_cc939d8e7753f23591e1c275ea054aa8.html">GameFramework</a></li><li class="navelem"><a href="../../de/dc9/CharacterMovementReplication_8h.html">CharacterMovementReplication.h</a></li>
+    <li class="footer">Generated on <span class="timestamp"></span> for Unreal Engine 5.6 C++ API by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>
 </body>

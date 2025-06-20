@@ -1,0 +1,26 @@
+digraph "FMath::RoundToZero"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FMath::RoundToZero",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Converts a floating point number to an integer which is closer to zero, \"smaller\" in absolute value: ..."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FTimecode::FromFrameNumber",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d69/structFTimecode.html#abc0b2f2f171951feeaf393c8c071553d",tooltip="Create a FTimecode from a specific frame number at the given frame rate."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FTimecode::FTimecode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d69/structFTimecode.html#ac4ddf92ea080b5e7aed4797baf9072d4",tooltip="User construction from a time in seconds."];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FTimecode::FromFrameNumber",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d69/structFTimecode.html#a25214cb7d8d27a1cd2cec9df33074e45",tooltip="Create a FTimecode from a specific frame number at the given frame rate."];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="operator FQualifiedFrameTime",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d4c/LiveLinkTypes_8h.html#a425efc03939d980828f9ff9f228ef0d6",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="operator=",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d4c/LiveLinkTypes_8h.html#ab9f215dd2a8265f3ba84d6f004c006e3",tooltip=" "];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d4c/LiveLinkTypes_8h.html#a93584a0856457731097631644291ad73",tooltip=" "];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="FTimecode::ToFrameNumber",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d69/structFTimecode.html#a65850ec0522eb4020ad736967a80f9d5",tooltip="Converts this Timecode back into a Frame Number at the given framerate, taking into account if this i..."];
+  Node8 -> Node9 [id="edge8_Node000008_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="FTimecode::ToTimespan",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d69/structFTimecode.html#ad576bc64199dade23db2202324bc8368",tooltip="Converts this Timecode back into a timespan at the given framerate, taking into account if this is a ..."];
+}

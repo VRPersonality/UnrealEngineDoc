@@ -1,0 +1,23 @@
+digraph "IPropertyUtilities.h"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [id="Node000001",label="IPropertyUtilities.h",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="DetailTreeNode.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d32/DetailTreeNode_8h.html",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="IPropertyDetailsUtilities.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/de0/IPropertyDetailsUtilities_8h.html",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="IPropertyTableUtilities.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d4f/IPropertyTableUtilities_8h.html",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="IPropertyTable.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d90/IPropertyTable_8h.html",tooltip=" "];
+  Node4 -> Node6 [id="edge5_Node000004_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="IPropertyTableCustomColumn.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d25/IPropertyTableCustomColumn_8h.html",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="RigVMCommentNodeDetailCustomization.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/ddb/RigVMCommentNodeDetailCustomization_8h.html",tooltip=" "];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="RigVMLocalVariableDetail\lCustomization.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/de8/RigVMLocalVariableDetailCustomization_8h.html",tooltip=" "];
+}

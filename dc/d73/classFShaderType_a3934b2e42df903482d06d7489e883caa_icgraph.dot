@@ -1,0 +1,25 @@
+digraph "FShaderType::FShaderType"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FShaderType::FShaderType",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Minimal initialization constructor."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FMaterialShaderType\l::CompiledShaderInitializer\lType::CompiledShaderInitializerType",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/db2/structFMaterialShaderType_1_1CompiledShaderInitializerType.html#a125d7b9b2e4032acc922ea2d2d609a94",tooltip=" "];
+  Node2 -> Node2 [id="edge2_Node000002_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node3 [id="edge3_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FMeshMaterialShaderType\l::CompiledShaderInitializerType\l::CompiledShaderInitializerType",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d0c/structFMeshMaterialShaderType_1_1CompiledShaderInitializerType.html#a91d6e277f540219724f21cebae05da70",tooltip=" "];
+  Node3 -> Node3 [id="edge4_Node000003_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node4 [id="edge5_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FShaderType::GetShaderType\lByName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d73/classFShaderType.html#ad09ddceda44f0a0502ad11c0c93033a9",tooltip=" "];
+  Node1 -> Node5 [id="edge6_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FShaderType::GetTypeHash",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d73/classFShaderType.html#a32f8a05d674dc551362f5d6013dd793a",tooltip="Hashes a pointer to a shader type."];
+  Node5 -> Node5 [id="edge7_Node000005_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node6 [id="edge8_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FShaderType::operator\<\<",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d73/classFShaderType.html#ab5b47dcebfb2c86693ae2d83d837c88d",tooltip="Serializes a shader type reference by name."];
+  Node1 -> Node7 [id="edge9_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="FMeshMaterialShaderType\l::ShouldCompileVertexFactory\lPermutation",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/ded/classFMeshMaterialShaderType.html#af90091e56d1dc1b51d8d16bb8b8eca93",tooltip=" "];
+}

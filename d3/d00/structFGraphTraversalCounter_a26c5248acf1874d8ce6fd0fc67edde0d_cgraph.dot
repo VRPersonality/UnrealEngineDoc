@@ -1,0 +1,19 @@
+digraph "FGraphTraversalCounter::WasSynchronizedCounter"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FGraphTraversalCounter\l::WasSynchronizedCounter",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Check if this counter is either synchronized with another or is one update behind."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FGraphTraversalCounter\l::FGraphTraversalCounter",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d00/structFGraphTraversalCounter.html#a4356f4176abf7ba09b138df9a5e31f09",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FGraphTraversalCounter\l::Increment",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d00/structFGraphTraversalCounter.html#a8aa6aa97b386e4ea7d5c81286e0a8f75",tooltip="Increases the internal counter, and refreshes the current global frame counter."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FGraphTraversalCounter\l::IsSynchronized_Counter",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d00/structFGraphTraversalCounter.html#aa159fd94b71a71673aa98bf3e7159ac5",tooltip="Check whether the internal counter is synchronized between this and another counter."];
+  Node4 -> Node2 [id="edge4_Node000004_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node4 -> Node5 [id="edge5_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FGraphTraversalCounter\l::HasEverBeenUpdated",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d00/structFGraphTraversalCounter.html#aead9cac485954abe29653aae0c989ce4",tooltip=" "];
+}

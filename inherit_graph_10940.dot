@@ -1,0 +1,10 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="UE::Geometry::TFibonacci\lLattice\< RealType \>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d3d/classUE_1_1Geometry_1_1TFibonacciLattice.html",tooltip="A 2D point set based on the Fibonacci sequence where the i'th point of an N point set can be directly..."];
+}

@@ -1,0 +1,32 @@
+digraph "FTimerManager::FTimerManager"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FTimerManager::FTimerManager",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FTimerManager::FindTimer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dea/classFTimerManager.html#af892d5f68ef8f27e8c836854bf376862",tooltip="Will find a timer in the active, paused, or pending list."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FTimerManager::ClearTimer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dea/classFTimerManager.html#adcfb74da5024fe37b40eb4f7f121b1a5",tooltip="Clears a previously set timer, identical to calling SetTimer() with a <= 0.f rate."];
+  Node2 -> Node2 [id="edge3_Node000002_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node4 [id="edge4_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FTimerManager::GetTimerElapsed",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dea/classFTimerManager.html#a429cc570d83e8663acdd4bb7a720411d",tooltip="Gets the current elapsed time for the specified timer."];
+  Node2 -> Node5 [id="edge5_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FTimerManager::GetTimerRate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dea/classFTimerManager.html#aed48dabe3dd584c04ef3fea80e4c54fc",tooltip="Gets the current rate (time between activations) for the specified timer."];
+  Node2 -> Node6 [id="edge6_Node000002_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FTimerManager::GetTimerRemaining",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dea/classFTimerManager.html#a8bb74bb70ebd857cdbc12319d351173f",tooltip="Gets the time remaining before the specified timer is called."];
+  Node2 -> Node7 [id="edge7_Node000002_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="FTimerManager::IsTimerActive",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dea/classFTimerManager.html#a24530158c0288dd45ffd272f746a4c2e",tooltip="Returns true if the specified timer exists and is not paused."];
+  Node2 -> Node8 [id="edge8_Node000002_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="FTimerManager::IsTimerPaused",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dea/classFTimerManager.html#ac92854ccfaa78a0c8750aee7e39a6bf7",tooltip="Returns true if the specified timer exists and is paused."];
+  Node2 -> Node9 [id="edge9_Node000002_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="FTimerManager::IsTimerPending",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dea/classFTimerManager.html#a03f067a07bcd59da742e8629952b1d34",tooltip="Returns true if the specified timer exists and is pending."];
+  Node2 -> Node10 [id="edge10_Node000002_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="FTimerManager::TimerExists",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dea/classFTimerManager.html#ab0309ae9b59666dbf519ca5d47f9f957",tooltip="Returns true if the specified timer exists."];
+  Node1 -> Node11 [id="edge11_Node000001_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="FTimerManager::GetTimer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dea/classFTimerManager.html#a9a6529a3225e4ec99489153f64af9180",tooltip="Will get a timer in the active, paused, or pending list."];
+  Node11 -> Node11 [id="edge12_Node000011_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

@@ -1,0 +1,20 @@
+digraph "FLightMapInteraction::FLightMapInteraction"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FLightMapInteraction\l::FLightMapInteraction",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Default constructor."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FLightMapInteraction\l::GlobalVolume",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/dc1/classFLightMapInteraction.html#afdd0cf7d2ecd8c8936933fa9c2fca97b",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FLightMapInteraction\l::InitVirtualTexture",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/dc1/classFLightMapInteraction.html#a4de34124b5c1eff3fc7aa14373559252",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FLightMapInteraction\l::None",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/dc1/classFLightMapInteraction.html#ae60853ec4069b25292c86c3dd2b7035c",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FLegacyLightMap1D::\lGetInteraction",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d80/classFLegacyLightMap1D.html#ae2de4be3b152130e406dcaadbc58218f",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FLightMapInteraction\l::Texture",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/dc1/classFLightMapInteraction.html#a8f7e59421542efac86806996074600ac",tooltip=" "];
+}

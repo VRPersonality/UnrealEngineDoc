@@ -1,0 +1,37 @@
+var structFHairStrandsDeformedResource =
+[
+    [ "EFrameType", "d5/de5/structFHairStrandsDeformedResource.html#a20122a1630dd706571df9c27893b210e", [
+      [ "Previous", "d5/de5/structFHairStrandsDeformedResource.html#a20122a1630dd706571df9c27893b210eab38c5db47944212564ac9e8af71f5e8e", null ],
+      [ "Current", "d5/de5/structFHairStrandsDeformedResource.html#a20122a1630dd706571df9c27893b210ea45497b74638d00587e856ca70a9687a9", null ]
+    ] ],
+    [ "FHairStrandsDeformedResource", "d5/de5/structFHairStrandsDeformedResource.html#ad7e7a863c96a91067c8fca54d1c2fbf9", null ],
+    [ "GetBuffer", "d5/de5/structFHairStrandsDeformedResource.html#af8d40e846ac3db382cf00cbcadc03322", null ],
+    [ "GetDeformerBuffer", "d5/de5/structFHairStrandsDeformedResource.html#a70da5f5b3da60466196d8439520b41ed", null ],
+    [ "GetDeformerCurveAttributeBuffer", "d5/de5/structFHairStrandsDeformedResource.html#a13746d3061eb5b4fc74353d3a2a72473", null ],
+    [ "GetDeformerPointAttributeBuffer", "d5/de5/structFHairStrandsDeformedResource.html#ad8071e74daa7d674ebf05f3b7d6f0623", null ],
+    [ "GetFriendlyName", "d5/de5/structFHairStrandsDeformedResource.html#af4d5c20ca07fd4667a0ec715d12b18e9", null ],
+    [ "GetIndex", "d5/de5/structFHairStrandsDeformedResource.html#a325216d6ab72769d3f01eb2b5c8f55ea", null ],
+    [ "GetPositionOffset", "d5/de5/structFHairStrandsDeformedResource.html#aa7f0c44674fe05fd6fb816f9b3912f6e", null ],
+    [ "GetPositionOffset", "d5/de5/structFHairStrandsDeformedResource.html#a7a0e2c08ffb77c56926d4978008fd408", null ],
+    [ "GetPositionOffsetBuffer", "d5/de5/structFHairStrandsDeformedResource.html#a26bd1a5f0a7fb85831e16a45cd614c8e", null ],
+    [ "GetPositionOffsetBuffer", "d5/de5/structFHairStrandsDeformedResource.html#a01bee1f4cacc26de2483c3cd4c92e69f", null ],
+    [ "GetResourcesSize", "d5/de5/structFHairStrandsDeformedResource.html#a769d0de315af75105796569bcae3779f", null ],
+    [ "GetUniqueViewID", "d5/de5/structFHairStrandsDeformedResource.html#a4f1399af0cca4faceaf98230ef933a56", null ],
+    [ "GetUniqueViewID", "d5/de5/structFHairStrandsDeformedResource.html#a3543e1f6fbd6c34c402815ea5ba59a8b", null ],
+    [ "InternalAllocate", "d5/de5/structFHairStrandsDeformedResource.html#a7bc7afc8966a9b9809e0f87424d01dd9", null ],
+    [ "InternalRelease", "d5/de5/structFHairStrandsDeformedResource.html#ac1fb01960ce280ae459bec1e983cfd59", null ],
+    [ "SetPositionOffset", "d5/de5/structFHairStrandsDeformedResource.html#a06454ebbbfef48d7339deb82881fe2c7", null ],
+    [ "SwapBuffer", "d5/de5/structFHairStrandsDeformedResource.html#a10e09386b7d8ea1aba3caa6cc6575012", null ],
+    [ "BulkData", "d5/de5/structFHairStrandsDeformedResource.html#a08036b782512cb067dccf4304213dd8d", null ],
+    [ "CurrentIndex", "d5/de5/structFHairStrandsDeformedResource.html#a68f66bee440643232ff25bb6f4cbbaec", null ],
+    [ "CurveType", "d5/de5/structFHairStrandsDeformedResource.html#ad8abb8ab870cb5f8c1cea1d0514e8283", null ],
+    [ "DeformedOffsetBuffer", "d5/de5/structFHairStrandsDeformedResource.html#aa519f092e0588d88cb1f194e869d9632", null ],
+    [ "DeformedPositionBuffer", "d5/de5/structFHairStrandsDeformedResource.html#af8d54c14b8f31927a5313b801ffb29bd", null ],
+    [ "DeformerBuffer", "d5/de5/structFHairStrandsDeformedResource.html#a5d19a902d1a410952e0f1e066317aee1", null ],
+    [ "DeformerCurveAttributeBuffer", "d5/de5/structFHairStrandsDeformedResource.html#a217c8e393a25ebf7bafb076b41082763", null ],
+    [ "DeformerPointAttributeBuffer", "d5/de5/structFHairStrandsDeformedResource.html#a62a435f25bddc04bcceda8ba16ec8697", null ],
+    [ "ExternalBuffers", "d5/de5/structFHairStrandsDeformedResource.html#accad59fc1213304011f2a72431559d9e", null ],
+    [ "PositionOffset", "d5/de5/structFHairStrandsDeformedResource.html#aca88b9a9f3897961990aaf36cfcb9aaa", null ],
+    [ "TangentBuffer", "d5/de5/structFHairStrandsDeformedResource.html#a6b5ff0b4ecee0aa6356c9faac5e3ea2d", null ],
+    [ "UniqueViewIDs", "d5/de5/structFHairStrandsDeformedResource.html#aa933471688e6d3391beeb78276d898d6", null ]
+];

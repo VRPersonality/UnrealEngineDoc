@@ -1,0 +1,36 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="UInteractiveToolPropertySet",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node0 -> Node1 [id="edge9790_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 [id="Node000001",label="UUVEditorBrushSelectTool\lProperties",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/dec/classUUVEditorBrushSelectToolProperties.html",tooltip=" "];
+  Node0 -> Node2 [id="edge9791_Node000000_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UUVEditorChannelEditAddProperties",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d42/classUUVEditorChannelEditAddProperties.html",tooltip=" "];
+  Node0 -> Node3 [id="edge9792_Node000000_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UUVEditorChannelEditCopy\lProperties",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d6d/classUUVEditorChannelEditCopyProperties.html",tooltip=" "];
+  Node0 -> Node4 [id="edge9793_Node000000_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UUVEditorChannelEditDelete\lProperties",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d40/classUUVEditorChannelEditDeleteProperties.html",tooltip=" "];
+  Node0 -> Node5 [id="edge9794_Node000000_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="UUVEditorChannelEditSettings",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dd5/classUUVEditorChannelEditSettings.html",tooltip=" "];
+  Node0 -> Node6 [id="edge9795_Node000000_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="UUVEditorChannelEditTarget\lProperties",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d53/classUUVEditorChannelEditTargetProperties.html",tooltip=" "];
+  Node0 -> Node7 [id="edge9796_Node000000_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="UUVEditorChannelEditTool\lActionPropertySet",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d3d/classUUVEditorChannelEditToolActionPropertySet.html",tooltip=" "];
+  Node0 -> Node8 [id="edge9797_Node000000_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="UUVEditorTexelDensityAction\lSettings",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/dc9/classUUVEditorTexelDensityActionSettings.html",tooltip=" "];
+  Node0 -> Node9 [id="edge9798_Node000000_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="UUVEditorUVTransformPropertiesBase",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d6c/classUUVEditorUVTransformPropertiesBase.html",tooltip="UV Transform Settings."];
+  Node9 -> Node10 [id="edge9799_Node000009_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="UUVEditorUVAlignProperties",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d08/classUUVEditorUVAlignProperties.html",tooltip="UV Align Settings."];
+  Node9 -> Node11 [id="edge9800_Node000009_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="UUVEditorUVDistributeProperties",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d44/classUUVEditorUVDistributeProperties.html",tooltip="UV Distribute Settings."];
+  Node9 -> Node12 [id="edge9801_Node000009_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="UUVEditorUVTransformProperties",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/da4/classUUVEditorUVTransformProperties.html",tooltip="UV Transform Settings."];
+  Node12 -> Node13 [id="edge9802_Node000012_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="UUVEditorUVQuickTransform\lProperties",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d96/classUUVEditorUVQuickTransformProperties.html",tooltip="UV Quick Transform Only Settings."];
+}

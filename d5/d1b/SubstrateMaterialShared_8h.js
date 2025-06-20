@@ -1,0 +1,36 @@
+var SubstrateMaterialShared_8h =
+[
+    [ "FSubstrateMaterialCompilationOutput", "de/d22/structFSubstrateMaterialCompilationOutput.html", "de/d22/structFSubstrateMaterialCompilationOutput" ],
+    [ "FSubstrateOperator", "da/d8e/structFSubstrateOperator.html", "da/d8e/structFSubstrateOperator" ],
+    [ "FSubstrateRegisteredSharedLocalBasis", "d6/d1a/structFSubstrateRegisteredSharedLocalBasis.html", "d6/d1a/structFSubstrateRegisteredSharedLocalBasis" ],
+    [ "SUBSTRATE_COMPILATION_OUTPUT_MAX_OPERATOR", "d5/d1b/SubstrateMaterialShared_8h.html#a5f2e9cf4b55fadaa910d4365d5560f8d", null ],
+    [ "SUBSTRATE_MATERIAL_TYPE_DECAL", "d5/d1b/SubstrateMaterialShared_8h.html#ac8f5eafd8ab5dc4eb959e8036aaf43cc", null ],
+    [ "SUBSTRATE_MATERIAL_TYPE_EYE", "d5/d1b/SubstrateMaterialShared_8h.html#ad403c838ad754630d5040616ec7ec322", null ],
+    [ "SUBSTRATE_MATERIAL_TYPE_HAIR", "d5/d1b/SubstrateMaterialShared_8h.html#a69bc5605a435db3b4c87e6a65a2ef761", null ],
+    [ "SUBSTRATE_MATERIAL_TYPE_LIGHTFUNCTION", "d5/d1b/SubstrateMaterialShared_8h.html#a52b2017fea69f8182bc0a4f33f684d86", null ],
+    [ "SUBSTRATE_MATERIAL_TYPE_MULTIPLESLABS", "d5/d1b/SubstrateMaterialShared_8h.html#a9e732732af1eac9e0842efbf10be26b7", null ],
+    [ "SUBSTRATE_MATERIAL_TYPE_POSTPROCESS", "d5/d1b/SubstrateMaterialShared_8h.html#ab1c89c304f8340be61fa89da63883561", null ],
+    [ "SUBSTRATE_MATERIAL_TYPE_SINGLELAYERWATER", "d5/d1b/SubstrateMaterialShared_8h.html#a18c3fe059d8d4e3bcf6301a68172e476", null ],
+    [ "SUBSTRATE_MATERIAL_TYPE_SINGLESLAB", "d5/d1b/SubstrateMaterialShared_8h.html#aecfab7a9141729b8d53262163328ac16", null ],
+    [ "SUBSTRATE_MATERIAL_TYPE_UI", "d5/d1b/SubstrateMaterialShared_8h.html#a2ce7c4ab9fbb8b352c374c16cfe3e506", null ],
+    [ "SUBSTRATE_MATERIAL_TYPE_UNLIT", "d5/d1b/SubstrateMaterialShared_8h.html#a091d00df89130df2ecd4aee6dec110e1", null ],
+    [ "SUBSTRATE_MATERIAL_TYPE_VOLUMETRICFOGCLOUD", "d5/d1b/SubstrateMaterialShared_8h.html#ad6dbf37916a0fdb0f88898f31ff4d6b6", null ],
+    [ "ESubstrateBsdfFeature", "d5/d1b/SubstrateMaterialShared_8h.html#ad5a5819aec0abab3627a607d2734a37b", [
+      [ "ESubstrateBsdfFeature_None", "d5/d1b/SubstrateMaterialShared_8h.html#ad5a5819aec0abab3627a607d2734a37bad80262faca21507d315ea458b758b8ff", null ],
+      [ "ESubstrateBsdfFeature_SSS", "d5/d1b/SubstrateMaterialShared_8h.html#ad5a5819aec0abab3627a607d2734a37ba38e2f0321a3f46453440803cfdb78d5e", null ],
+      [ "ESubstrateBsdfFeature_MFPPluggedIn", "d5/d1b/SubstrateMaterialShared_8h.html#ad5a5819aec0abab3627a607d2734a37ba97de0760a5c89089016288724125bad0", null ],
+      [ "ESubstrateBsdfFeature_EdgeColor", "d5/d1b/SubstrateMaterialShared_8h.html#ad5a5819aec0abab3627a607d2734a37baa9ee6b6a8f1c0e274e21cebfc1c800c0", null ],
+      [ "ESubstrateBsdfFeature_Fuzz", "d5/d1b/SubstrateMaterialShared_8h.html#ad5a5819aec0abab3627a607d2734a37baaa60ca0c5e5dcdc191d508ce4d84e114", null ],
+      [ "ESubstrateBsdfFeature_SecondRoughnessOrSimpleClearCoat", "d5/d1b/SubstrateMaterialShared_8h.html#ad5a5819aec0abab3627a607d2734a37ba6ac9a6fa8be5f8c0216201b6fe97c2c2", null ],
+      [ "ESubstrateBsdfFeature_Anisotropy", "d5/d1b/SubstrateMaterialShared_8h.html#ad5a5819aec0abab3627a607d2734a37ba55119e018bb10d9d630e65bf1440e997", null ],
+      [ "ESubstrateBsdfFeature_Glint", "d5/d1b/SubstrateMaterialShared_8h.html#ad5a5819aec0abab3627a607d2734a37baa85ec19f005d131ed27f581586aca6cd", null ],
+      [ "ESubstrateBsdfFeature_SpecularProfile", "d5/d1b/SubstrateMaterialShared_8h.html#ad5a5819aec0abab3627a607d2734a37ba10af3b776a9ea0e13164dbb734ea2972", null ],
+      [ "ESubstrateBsdfFeature_Eye", "d5/d1b/SubstrateMaterialShared_8h.html#ad5a5819aec0abab3627a607d2734a37bac2b6f9539659723dbc6ffd14d15fdccd", null ],
+      [ "ESubstrateBsdfFeature_EyeIrisNormalPluggedIn", "d5/d1b/SubstrateMaterialShared_8h.html#ad5a5819aec0abab3627a607d2734a37ba7714e91fe0ea8c48402a5c0c9600e462", null ],
+      [ "ESubstrateBsdfFeature_EyeIrisTangentPluggedIn", "d5/d1b/SubstrateMaterialShared_8h.html#ad5a5819aec0abab3627a607d2734a37ba4eb3c897fdc99f7298a98f0fb51003d0", null ],
+      [ "ESubstrateBsdfFeature_Hair", "d5/d1b/SubstrateMaterialShared_8h.html#ad5a5819aec0abab3627a607d2734a37bae521a22010439a525cb8f57db5edf312", null ],
+      [ "ESubstrateBsdfFeature_SingleMask", "d5/d1b/SubstrateMaterialShared_8h.html#ad5a5819aec0abab3627a607d2734a37ba5ed41880575168a73840d4ec8e18c5bf", null ],
+      [ "ESubstrateBsdfFeature_ComplexMask", "d5/d1b/SubstrateMaterialShared_8h.html#ad5a5819aec0abab3627a607d2734a37ba4063937148e290635cc9bcc9609a13a0", null ],
+      [ "ESubstrateBsdfFeature_ComplexSpecialMask", "d5/d1b/SubstrateMaterialShared_8h.html#ad5a5819aec0abab3627a607d2734a37ba6d3bd6a014a4c308f4cb0e8158f1164c", null ]
+    ] ]
+];

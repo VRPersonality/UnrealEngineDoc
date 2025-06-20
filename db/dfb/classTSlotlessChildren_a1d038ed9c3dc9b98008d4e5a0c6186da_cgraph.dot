@@ -1,0 +1,16 @@
+digraph "TSlotlessChildren::Swap"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TSlotlessChildren::Swap",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FChildren::GetOwner",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d92/classFChildren.html#aa79927782cd6e860a4218673b36cfef0",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FChildren::Debug_TestDestroyTag",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d92/classFChildren.html#ad1ab88ab5aa915452954b2839f5daeec",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="SWidget::Invalidate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/de2/classSWidget.html#adf19dfd42d5f63d8bf25ab6a1812b628",tooltip="Invalidates the widget from the view of a layout caching widget that may own this widget."];
+}

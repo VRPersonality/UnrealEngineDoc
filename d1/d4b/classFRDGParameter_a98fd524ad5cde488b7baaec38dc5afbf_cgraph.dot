@@ -1,0 +1,22 @@
+digraph "FRDGParameter::GetAsResource"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FRDGParameter::GetAsResource",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FRDGParameter::GetAs",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d4b/classFRDGParameter.html#ab35ac0477bc7b5f57ff557abf3434349",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FRDGParameter::IsResource",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d4b/classFRDGParameter.html#a5b18da53c654db2946e79e30b83afda1",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FRDGParameter::IsRenderTarget\lBindingSlots",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d4b/classFRDGParameter.html#afb4c9baaf6eca289593c6ba7a191ef79",tooltip=" "];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FRDGParameter::IsResource\lAccessArray",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d4b/classFRDGParameter.html#adc8a16d477abff8f506fa22adb2aa73e",tooltip=" "];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FRDGParameter::IsBufferAccess\lArray",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d4b/classFRDGParameter.html#a9282a6fae6cd8c049b766ca9b6adfe1f",tooltip=" "];
+  Node5 -> Node7 [id="edge6_Node000005_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="FRDGParameter::IsTexture\lAccessArray",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d4b/classFRDGParameter.html#ac5dea0119ebd259534049ed960cb970a",tooltip=" "];
+}

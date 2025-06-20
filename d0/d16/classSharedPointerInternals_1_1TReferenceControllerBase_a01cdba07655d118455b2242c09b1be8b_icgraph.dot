@@ -1,0 +1,14 @@
+digraph "SharedPointerInternals::TReferenceControllerBase::ReleaseSharedReference"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SharedPointerInternals\l::TReferenceControllerBase\l::ReleaseSharedReference",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Releases a shared reference to this counter."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SharedPointerInternals\l::TReferenceControllerBase\l::AddSharedReference",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d16/classSharedPointerInternals_1_1TReferenceControllerBase.html#a98f87b3b16001037f22a615f1d622ee7",tooltip="Adds a shared reference to this counter."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SharedPointerInternals\l::TReferenceControllerBase\l::ConditionallyAddSharedReference",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d16/classSharedPointerInternals_1_1TReferenceControllerBase.html#a59933bf354b9fb34973f8a2e3d96e6e2",tooltip="Adds a shared reference to this counter ONLY if there is already at least one reference."];
+}

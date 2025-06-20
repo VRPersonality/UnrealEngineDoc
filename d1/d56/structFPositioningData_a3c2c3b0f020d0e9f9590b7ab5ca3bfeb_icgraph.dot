@@ -1,0 +1,30 @@
+digraph "FPositioningData::FPositioningData"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FPositioningData::FPositioningData",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FSnappedPositioningData\l::FSnappedPositioningData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d34/structFSnappedPositioningData.html#af6016f1bf0a50108e9399673b1b2106b",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FSnappedPositioningData\l::AlignToSurfaceRotation",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d34/structFSnappedPositioningData.html#ae3273f55e1f4dfaf8865cfb29598ce5b",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FSnappedPositioningData\l::DrawSnapHelpers",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d34/structFSnappedPositioningData.html#aa3ac18302d7e6d438fdc2547e7c58089",tooltip="Whether to draw vertex snapping helpers or not when snapping."];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FSnappedPositioningData\l::UseFactory",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d34/structFSnappedPositioningData.html#a99778036b7304e116b8da44bc2ca32d5",tooltip=" "];
+  Node2 -> Node6 [id="edge5_Node000002_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FSnappedPositioningData\l::UsePlacementExtent",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d34/structFSnappedPositioningData.html#aed0ada90796e2ca03aa34e36a2045147",tooltip="Mask these construction helpers to return the correct type."];
+  Node2 -> Node7 [id="edge6_Node000002_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="FSnappedPositioningData\l::UseStartTransform",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d34/structFSnappedPositioningData.html#a30515ff3529066fbc1268eaafd9cdebd",tooltip=" "];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="FPositioningData::AlignTo\lSurfaceRotation",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d56/structFPositioningData.html#a057654e27b1d43704076974fc73b3408",tooltip="Whether to align to the surface normal, or just snap to its position."];
+  Node1 -> Node9 [id="edge8_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="FPositioningData::UseFactory",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d56/structFPositioningData.html#acc60624e29135cb51d6a1f763f2b857c",tooltip="A factory to use for the alignment."];
+  Node1 -> Node10 [id="edge9_Node000001_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="FPositioningData::UsePlacement\lExtent",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d56/structFPositioningData.html#a3973d9649fb40640c5080e522b6c3350",tooltip="Placement extent offset to use (default = 0,0,0)"];
+  Node1 -> Node11 [id="edge10_Node000001_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="FPositioningData::UseStart\lTransform",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d56/structFPositioningData.html#ade7a0c6e635428f053d581181a660b91",tooltip="The start transform we are using for positioning."];
+}

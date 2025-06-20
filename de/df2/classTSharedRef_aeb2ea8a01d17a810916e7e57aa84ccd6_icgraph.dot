@@ -1,0 +1,16 @@
+digraph "TSharedRef::Init"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TSharedRef::Init",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FActorDragDropGraphEdOp::New",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d3f/classFActorDragDropGraphEdOp.html#a02c119c1df94ff2d3d6978dc4e2f7db0",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FLevelDragDropOp::New",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/dc0/classFLevelDragDropOp.html#a719f8cba92466487a8aa3f29844e6bf8",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FLevelDragDropOp::New",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/dc0/classFLevelDragDropOp.html#afe7c52519eec02781446d6b19cd014af",tooltip=" "];
+}

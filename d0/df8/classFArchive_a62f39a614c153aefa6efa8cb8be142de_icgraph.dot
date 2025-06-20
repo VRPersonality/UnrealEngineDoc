@@ -1,0 +1,14 @@
+digraph "FArchive::PushSerializedProperty"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FArchive::PushSerialized\lProperty",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Push a property that is currently being serialized onto the property stack."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FArchiveProxy::PushSerialized\lProperty",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/db8/classFArchiveProxy.html#a7e1de42f6d92aee689a47ab5be25e04a",tooltip="Pushes editor-only marker to the stack of currently serialized properties."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FLinkerLoad::PushSerialized\lProperty",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d6b/classFLinkerLoad.html#af86e49282cce1a45ad2e01bad0f9f689",tooltip="Push a property that is currently being serialized onto the property stack."];
+}

@@ -1,0 +1,14 @@
+digraph "FRefCountBase::AddRef"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FRefCountBase::AddRef",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FSkeletalMeshLODRenderData\l::FSkeletalMeshLODRenderData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d19/classFSkeletalMeshLODRenderData.html#a5371090bdf1a541e7c73d83ae26855fc",tooltip="Constructor (default)"];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::UnifiedError::FRefCounted\lErrorDetails::AddRef",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dc2/classUE_1_1UnifiedError_1_1FRefCountedErrorDetails.html#a9f0a8a2146d1a5c90eff3022e6a4f125",tooltip=" "];
+}

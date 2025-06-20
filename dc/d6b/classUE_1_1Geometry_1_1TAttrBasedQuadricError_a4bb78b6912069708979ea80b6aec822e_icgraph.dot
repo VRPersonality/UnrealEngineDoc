@@ -1,0 +1,12 @@
+digraph "UE::Geometry::TAttrBasedQuadricError::TAttrBasedQuadricError"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UE::Geometry::TAttrBased\lQuadricError::TAttrBasedQuadricError",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Geometry::TAttrBased\lQuadricError\< float \>::Zero",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d6b/classUE_1_1Geometry_1_1TAttrBasedQuadricError.html#a7282fab08f27e7306f0475dd53ebb0e1",tooltip=" "];
+}

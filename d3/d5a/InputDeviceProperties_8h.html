@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Unreal Engine 5.6 C++ Documentation: UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/InputDeviceProperties.h File Reference</title>
+<title>Unreal Engine 5.6 C++ API: InputDeviceProperties.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -18,7 +18,11 @@
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
-<link href="../../unreal_theme.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -27,9 +31,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Unreal Engine 5.6 C++ Documentation<span id="projectnumber">&#160;5.6</span>
+   <div id="projectname">Unreal Engine 5.6 C++ API<span id="projectnumber">&#160;5.6.0</span>
    </div>
-   <div id="projectbrief">Documentation UE5 avec chemins sources corrects</div>
+   <div id="projectbrief">C++ API documentation for Unreal Engine 5.6</div>
   </td>
  </tr>
  </tbody>
@@ -93,42 +97,105 @@ $(function(){initNavTree('d3/d5a/InputDeviceProperties_8h.html','../../',''); })
   <div class="headertitle"><div class="title">InputDeviceProperties.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;CoreMinimal.h&quot;</code><br />
-<code>#include &quot;UObject/Object.h&quot;</code><br />
-<code>#include &quot;GenericPlatform/IInputInterface.h&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d7/d67/CoreMinimal_8h_source.html">CoreMinimal.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/dbf/Object_8h_source.html">UObject/Object.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/ddf/IInputInterface_8h_source.html">GenericPlatform/IInputInterface.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../db/d1d/InputDeviceSubsystem_8h_source.html">GameFramework/InputDeviceSubsystem.h</a>&quot;</code><br />
 <code>#include &quot;InputDeviceProperties.generated.h&quot;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Include dependency graph for InputDeviceProperties.h:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 0 --></div>
+</div>
 </div>
 <p><a href="../../d3/d5a/InputDeviceProperties_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
+Data Structures</h2></td></tr>
 <tr class="memitem:UInputDeviceProperty" id="r_UInputDeviceProperty"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/da3/classUInputDeviceProperty.html">UInputDeviceProperty</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class that represents a single Input Device Property.  <a href="../../d0/da3/classUInputDeviceProperty.html#details">More...</a><br /></td></tr>
-<tr class="memitem:FDeviceColorData" id="r_FDeviceColorData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dee/structFDeviceColorData.html">FDeviceColorData</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data required for setting the Input Device Color.  <a href="../../d1/dee/structFDeviceColorData.html#details">More...</a><br /></td></tr>
-<tr class="memitem:UColorInputDeviceProperty" id="r_UColorInputDeviceProperty"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/classUColorInputDeviceProperty.html">UColorInputDeviceProperty</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the color of an Input Device to a static color.  <a href="../../d1/ddc/classUColorInputDeviceProperty.html#details">More...</a><br /></td></tr>
-<tr class="memitem:FDeviceColorCurveData" id="r_FDeviceColorCurveData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d98/structFDeviceColorCurveData.html">FDeviceColorCurveData</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data required for setting the Input Device Color.  <a href="../../df/d98/structFDeviceColorCurveData.html#details">More...</a><br /></td></tr>
-<tr class="memitem:UColorInputDeviceCurveProperty" id="r_UColorInputDeviceCurveProperty"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db5/classUColorInputDeviceCurveProperty.html">UColorInputDeviceCurveProperty</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A property that can be used to change the color of an input device's light over time with a curve.  <a href="../../d9/db5/classUColorInputDeviceCurveProperty.html#details">More...</a><br /></td></tr>
-<tr class="memitem:FDeviceTriggerBaseData" id="r_FDeviceTriggerBaseData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db6/structFDeviceTriggerBaseData.html">FDeviceTriggerBaseData</a></td></tr>
 <tr class="memitem:UInputDeviceTriggerEffect" id="r_UInputDeviceTriggerEffect"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcd/classUInputDeviceTriggerEffect.html">UInputDeviceTriggerEffect</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A property that effect the triggers on a gamepad.  <a href="../../d5/dcd/classUInputDeviceTriggerEffect.html#details">More...</a><br /></td></tr>
-<tr class="memitem:FDeviceTriggerFeedbackData" id="r_FDeviceTriggerFeedbackData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d90/structFDeviceTriggerFeedbackData.html">FDeviceTriggerFeedbackData</a></td></tr>
-<tr class="memitem:UInputDeviceTriggerFeedbackProperty" id="r_UInputDeviceTriggerFeedbackProperty"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d3f/classUInputDeviceTriggerFeedbackProperty.html">UInputDeviceTriggerFeedbackProperty</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets simple trigger feedback.  <a href="../../d3/d3f/classUInputDeviceTriggerFeedbackProperty.html#details">More...</a><br /></td></tr>
-<tr class="memitem:FDeviceTriggerTriggerResistanceData" id="r_FDeviceTriggerTriggerResistanceData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3c/structFDeviceTriggerTriggerResistanceData.html">FDeviceTriggerTriggerResistanceData</a></td></tr>
-<tr class="memitem:UInputDeviceTriggerResistanceProperty" id="r_UInputDeviceTriggerResistanceProperty"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dfe/classUInputDeviceTriggerResistanceProperty.html">UInputDeviceTriggerResistanceProperty</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides linear resistance to a trigger while it is being pressed between a start and end value.  <a href="../../d1/dfe/classUInputDeviceTriggerResistanceProperty.html#details">More...</a><br /></td></tr>
-<tr class="memitem:FDeviceTriggerTriggerVibrationData" id="r_FDeviceTriggerTriggerVibrationData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d30/structFDeviceTriggerTriggerVibrationData.html">FDeviceTriggerTriggerVibrationData</a></td></tr>
-<tr class="memitem:UInputDeviceTriggerVibrationProperty" id="r_UInputDeviceTriggerVibrationProperty"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d70/classUInputDeviceTriggerVibrationProperty.html">UInputDeviceTriggerVibrationProperty</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets trigger vibration.  <a href="../../db/d70/classUInputDeviceTriggerVibrationProperty.html#details">More...</a><br /></td></tr>
-<tr class="memitem:FAudioBasedVibrationData" id="r_FAudioBasedVibrationData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d73/structFAudioBasedVibrationData.html">FAudioBasedVibrationData</a></td></tr>
-<tr class="memitem:UInputDeviceAudioBasedVibrationProperty" id="r_UInputDeviceAudioBasedVibrationProperty"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d2c/classUInputDeviceAudioBasedVibrationProperty.html">UInputDeviceAudioBasedVibrationProperty</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Plays a sound to an input device's speaker.  <a href="../../d4/d2c/classUInputDeviceAudioBasedVibrationProperty.html#details">More...</a><br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a423673fc0112544852d21aa5fa46cd19" id="r_a423673fc0112544852d21aa5fa46cd19"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a423673fc0112544852d21aa5fa46cd19">UCLASS</a> ()</td></tr>
+<tr class="memdesc:a423673fc0112544852d21aa5fa46cd19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class that represents a single Input Device Property.  <br /></td></tr>
+<tr class="memitem:aeae6d6f28fb156b58b855b1c0809bf4a" id="r_aeae6d6f28fb156b58b855b1c0809bf4a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeae6d6f28fb156b58b855b1c0809bf4a">USTRUCT</a> () struct FDeviceColorData</td></tr>
+<tr class="memdesc:aeae6d6f28fb156b58b855b1c0809bf4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data required for setting the Input Device Color.  <br /></td></tr>
 </table>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a423673fc0112544852d21aa5fa46cd19" name="a423673fc0112544852d21aa5fa46cd19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a423673fc0112544852d21aa5fa46cd19">&#9670;&#160;</a></span>UCLASS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UCLASS </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Base class that represents a single Input Device Property. </p>
+<p>A property that effect the triggers on a gamepad.</p>
+<p>An Input Device Property represents a feature that can be set on an input device. Things like what color a light is, advanced rumble patterns, or trigger haptics.</p>
+<p>This top level object can then be evaluated at a specific time to create a lower level FInputDeviceProperty, which the <a class="el" href="../../d1/d42/classIInputInterface.html" title="Interface for the input interface.">IInputInterface</a> implementation can interpret however it desires.</p>
+<p>The behavior of device properties can vary depending on the current platform. Some platforms may not support certain device properties. An older gamepad may not have any advanced trigger haptics for example. </p>
+
+<p class="reference">References <a class="el" href="../../d4/d84/DisplayClusterSceneComponentSyncParent_8h_source.html#l00012">Blueprintable</a>, <a class="el" href="../../d2/da0/AnimMontage_8h_source.html#l00621">BlueprintType</a>, <a class="el" href="../../d2/d61/MovieSceneCondition_8h_source.html#l00085">CollapseCategories</a>, <a class="el" href="../../d3/dc7/ModularVehicleBaseComponent_8h_source.html#l00108">meta</a>, and <a class="el" href="../../d2/da0/AnimMontage_8h_source.html#l00621">MinimalAPI</a>.</p>
+
+</div>
+</div>
+<a id="aeae6d6f28fb156b58b855b1c0809bf4a" name="aeae6d6f28fb156b58b855b1c0809bf4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeae6d6f28fb156b58b855b1c0809bf4a">&#9670;&#160;</a></span>USTRUCT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">USTRUCT </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Data required for setting the Input Device Color. </p>
+<p>Provides linear resistance to a trigger while it is being pressed between a start and end value.</p>
+<p>Sets simple trigger feedback.</p>
+<p>A property that can be used to change the color of an input device's light over time with a curve.</p>
+<p>Set the color of an Input Device to a static color.</p>
+<p>This will NOT reset the device color when the property is done evaluating. You can think of this as a "One Shot" effect, where you set the device property color.</p>
+<p>NOTE: This property has platform specific implementations and may behave differently per platform. See the docs for more details on each platform. Data required for setting the Input Device Color</p>
+<p>NOTE: This property has platform specific implementations and may behave differently per platform. See the docs for more details on each platform. </p>
+<p>True if the light should be enabled at all</p>
+<p>If true, the light color will be reset to "off" after this property has been evaluated.</p>
+<p>The color to set the light on <br  />
+</p>
+<p>True if the light should be enabled at all</p>
+<p>If true, the light color will be reset to "off" after the curve values are finished evaluating.</p>
+<p>The color the device light should be</p>
+<p>Which trigger this property should effect</p>
+<p>True if the triggers should be reset after the duration of this device property</p>
+<p>What position on the trigger that the feedback should be applied to over time (1-9)</p>
+<p>How strong the feedback is over time (1-8)</p>
+<p>The position that the trigger should start providing resistance</p>
+<p>How strong the resistance is</p>
+<p>What position on the trigger that the feedback should be applied to over time (1-9)</p>
+<p>The frequency of the vibration</p>
+<p>The amplitude of the vibration</p>
+<p>The sound to play on the gamepad. Make sure the set the sound's submix sends to the gamepad audio and vibration endpoints!</p>
+
+<p class="definition">Definition at line <a class="el" href="../../d3/d5a/InputDeviceProperties_8h_source.html#l00162">162</a> of file <a class="el" href="../../d3/d5a/InputDeviceProperties_8h_source.html">InputDeviceProperties.h</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d2/da0/AnimMontage_8h_source.html#l00621">BlueprintType</a>, <a class="el" href="../../d1/df7/RigUnit__AnimNextRunAnimationGraph__v1_8h_source.html#l00024">Category</a>, <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00743">GENERATED_BODY</a>, <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00723">UPROPERTY</a>, and <a class="el" href="../../dd/dac/Color_8h_source.html#l00758">FColor::White</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
@@ -142,8 +209,8 @@ Classes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="../../dir_4aca46919dd64a018c94105a41bb52f8.html">UE_5.6</a></li><li class="navelem"><a href="../../dir_35a4881369ae19e233e6dac2bcad4050.html">Engine</a></li><li class="navelem"><a href="../../dir_9f26ecb35aabc03d0a71a3e3b9106316.html">Source</a></li><li class="navelem"><a href="../../dir_0942f747ae23c965c05d4d76ae4659cb.html">Runtime</a></li><li class="navelem"><a href="../../dir_c4f31664fb2968a098c34e2ef86324ca.html">Engine</a></li><li class="navelem"><a href="../../dir_2d50b3e22a4f3c2a257cc8ed034f8f90.html">Classes</a></li><li class="navelem"><a href="../../dir_ed269b19aee30b1edf91ca5f109cdfa1.html">GameFramework</a></li><li class="navelem"><a href="../../d3/d5a/InputDeviceProperties_8h.html">InputDeviceProperties.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+    <li class="navelem"><a href="../../dir_7536b172fbd480bfd146a1b1acd6856b.html">Runtime</a></li><li class="navelem"><a href="../../dir_fdf6aa5c3cf3805bb958134448d60562.html">Engine</a></li><li class="navelem"><a href="../../dir_0ed647eebe6ffcaa496d3842b7cec6ce.html">Classes</a></li><li class="navelem"><a href="../../dir_cc939d8e7753f23591e1c275ea054aa8.html">GameFramework</a></li><li class="navelem"><a href="../../d3/d5a/InputDeviceProperties_8h.html">InputDeviceProperties.h</a></li>
+    <li class="footer">Generated on <span class="timestamp"></span> for Unreal Engine 5.6 C++ API by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>
 </body>

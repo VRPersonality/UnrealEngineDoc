@@ -1,0 +1,16 @@
+digraph "FBaseCompactPose::CopyBonesFrom"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FBaseCompactPose::CopyBonesFrom",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FBaseCompactPose::FBaseCompactPose",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/ded/structFBaseCompactPose.html#a69be24e38152837cc50d6dc4dc178dde",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FBaseCompactPose::GetBone\lContainer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/ded/structFBaseCompactPose.html#af7a1f12bd46b00ec5d412cd3e6665f09",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FBasePose::GetBones",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db6/structFBasePose.html#ab98a9e6ababbff6ba1b7a5fe544d10c7",tooltip=" "];
+}

@@ -1,0 +1,16 @@
+digraph "UE::Anim::FAttributeBlendData::TSingleRawIterator::GetIdentifier"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UE::Anim::FAttributeBlend\lData::TSingleRawIterator\l::GetIdentifier",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Returns the identifier for the current attribute set."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Anim::FNonBlendableAttribute\lBlendOperator::Accumulate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/dfe/classUE_1_1Anim_1_1FNonBlendableAttributeBlendOperator.html#a3e583b6f4ba656776eb0ead729ba01c8",tooltip="Begin IAttributeBlendOperator overrides."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::Anim::FNonBlendableAttribute\lBlendOperator::ConvertToAdditive",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/dfe/classUE_1_1Anim_1_1FNonBlendableAttributeBlendOperator.html#aa13ff212095643e7161ea9b6065e0d4d",tooltip="Invoked when an attribute container is supposed to be made additive with regards to container B."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UE::Anim::FNonBlendableAttribute\lBlendOperator::Override",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/dfe/classUE_1_1Anim_1_1FNonBlendableAttributeBlendOperator.html#ab09cae687b3b7b452693a1ff84078f2f",tooltip="Invoked when an attribute container A is expected to override attributes in container B."];
+}

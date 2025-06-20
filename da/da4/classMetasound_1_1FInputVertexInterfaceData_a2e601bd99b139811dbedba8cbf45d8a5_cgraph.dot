@@ -1,0 +1,18 @@
+digraph "Metasound::FInputVertexInterfaceData::GetOrCreateDefaultDataReadReference"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="Metasound::FInputVertexInterface\lData::GetOrCreateDefaultDataReadReference",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Get the bound data read reference if it exists."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Metasound::TDataLiteralFactory\l\< DataType, TDataReadReference\l\< DataType \> \>::CreateExplicitArgs",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d30/structMetasound_1_1TDataLiteralFactory.html#aad3803cdb1de05ce39cb7d4a77c5166c",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Metasound::FLiteral\l::CreateInvalid",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/de9/structMetasound_1_1FLiteral.html#afda171f6d6193919dadc2a2dcfc05f86",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="Metasound::FLiteral\l::FLiteral",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/de9/structMetasound_1_1FLiteral.html#af6802b0fa378c5d809b6f0f5bd923d31",tooltip="Construct a literal param with a single argument."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="Forward",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d24/UnrealTemplate_8h.html#a68f280c1d561a8899a1e9e3ea8405d00",tooltip="Forward will cast a reference to an rvalue reference."];
+}

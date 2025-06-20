@@ -1,0 +1,10 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="UE::Geometry::FConvexShape3d",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d9f/structUE_1_1Geometry_1_1FConvexShape3d.html",tooltip="FConvexShape is a 3D convex hull, currently stored as a triangle mesh."];
+}

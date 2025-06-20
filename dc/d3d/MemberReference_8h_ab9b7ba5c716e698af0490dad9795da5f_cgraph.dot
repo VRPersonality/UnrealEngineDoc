@@ -1,0 +1,40 @@
+digraph "USTRUCT"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="USTRUCT",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Cast",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d55/Casts_8h.html#af337187a7ebe36fac35ea41db8a65ba9",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FindUField",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d2f/UnrealType_8h.html#a0e29b83fdd1bf6d26722bbec35cf75a3",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FName::IsNone",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d53/classFName.html#aa6d8a99b693367db4dbba31eb39648f5",tooltip="True for FName(), FName(NAME_None) and FName(\"None\")"];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FName::GetNumber",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d53/classFName.html#ad9ae67028a6b0eae1eb43a0ab79d1b1e",tooltip=" "];
+  Node4 -> Node6 [id="edge5_Node000004_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FName::ToUnstableInt",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d53/classFName.html#ab079e3eae1c95979ed5257d76277b060",tooltip="Returns an integer that compares equal in the same way FNames do, only usable within the current proc..."];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="FName::FName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d53/classFName.html#af79224dd2b82a2d82bd1050684d24179",tooltip="Create an FName with a hardcoded string index."];
+  Node7 -> Node7 [id="edge7_Node000007_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node6 -> Node8 [id="edge8_Node000006_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="FMemory::Memcpy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d4a/structFMemory.html#af5c0a2f1987809876d6d72269851e89c",tooltip=" "];
+  Node8 -> Node9 [id="edge9_Node000008_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="FGenericPlatformMemory\l::Memcpy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/dfd/structFGenericPlatformMemory.html#a13ca9511967a7af8d1c2c3beab1208e2",tooltip=" "];
+  Node1 -> Node10 [id="edge10_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="FFieldVariant::Get",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d01/classFFieldVariant.html#a41f0fab65e52ee3a99bbe1b1f1f84d87",tooltip=" "];
+  Node10 -> Node11 [id="edge11_Node000010_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="FFieldVariant::IsA",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d01/classFFieldVariant.html#aac936093cd43749097ed67242d918d98",tooltip=" "];
+  Node11 -> Node11 [id="edge12_Node000011_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node10 -> Node12 [id="edge13_Node000010_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="FFieldVariant::ToUObject\lUnsafe",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d01/classFFieldVariant.html#a0fc2286b84055b7b9407b63ef2279251",tooltip="FOR INTERNAL USE ONLY: Function that returns the owner as UObject without checking if it's actually a..."];
+  Node1 -> Node13 [id="edge14_Node000001_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="UObjectBase::GetFName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/dc4/classUObjectBase.html#a52d48dbf4c1cb6f4959b4c9ef374de2d",tooltip="Returns the logical name of this object."];
+  Node1 -> Node14 [id="edge15_Node000001_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="UField::GetOwnerClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d3a/classUField.html#a67526f621568509622deb0de32ca5f0b",tooltip="Goes up the outer chain to look for a UClass."];
+  Node1 -> Node15 [id="edge16_Node000001_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="FGuid::Invalidate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d29/structFGuid.html#a118608d027cd8412493755f60d2dccaa",tooltip="Invalidates the GUID."];
+}

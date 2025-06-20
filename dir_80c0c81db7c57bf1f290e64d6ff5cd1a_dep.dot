@@ -1,0 +1,23 @@
+digraph "SynthesisEditor"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_e3de40e84846812021a9cfa80da7942a {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="Source", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_e3de40e84846812021a9cfa80da7942a.html",tooltip=""]
+  subgraph clusterdir_80c0c81db7c57bf1f290e64d6ff5cd1a {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_80c0c81db7c57bf1f290e64d6ff5cd1a.html",tooltip=""]
+    dir_80c0c81db7c57bf1f290e64d6ff5cd1a [shape=plaintext, label="SynthesisEditor"];
+  dir_15ef848bd4c45eadf9cbd956a1258183 [label="Classes", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_15ef848bd4c45eadf9cbd956a1258183.html",tooltip=""];
+  dir_1d7057a9b171680ebfcac86d4834d580 [label="Public", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_1d7057a9b171680ebfcac86d4834d580.html",tooltip=""];
+  }
+  }
+  dir_7536b172fbd480bfd146a1b1acd6856b [label="Runtime", fillcolor="#edf0f7", color="red", style="filled", URL="dir_7536b172fbd480bfd146a1b1acd6856b.html",tooltip=""];
+  dir_b26507eead720464ba2ac6bbc6dcec5f [label="Editor", fillcolor="#edf0f7", color="red", style="filled", URL="dir_b26507eead720464ba2ac6bbc6dcec5f.html",tooltip=""];
+  dir_15ef848bd4c45eadf9cbd956a1258183->dir_7536b172fbd480bfd146a1b1acd6856b [headlabel="1", labeldistance=1.5 headhref="dir_000186_000984.html" href="dir_000186_000984.html" color="steelblue1" fontcolor="steelblue1"];
+  dir_15ef848bd4c45eadf9cbd956a1258183->dir_b26507eead720464ba2ac6bbc6dcec5f [headlabel="3", labeldistance=1.5 headhref="dir_000186_000357.html" href="dir_000186_000357.html" color="steelblue1" fontcolor="steelblue1"];
+  dir_1d7057a9b171680ebfcac86d4834d580->dir_7536b172fbd480bfd146a1b1acd6856b [headlabel="2", labeldistance=1.5 headhref="dir_000912_000984.html" href="dir_000912_000984.html" color="steelblue1" fontcolor="steelblue1"];
+}

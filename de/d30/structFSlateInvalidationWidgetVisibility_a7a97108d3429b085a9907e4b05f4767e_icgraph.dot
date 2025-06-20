@@ -1,0 +1,16 @@
+digraph "FSlateInvalidationWidgetVisibility::IsVisible"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FSlateInvalidationWidget\lVisibility::IsVisible",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FSlateInvalidationWidget\lVisibility::FSlateInvalidation\lWidgetVisibility",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d30/structFSlateInvalidationWidgetVisibility.html#a71185dc4a07e63c1ff65235c3c75c1ac",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FSlateInvalidationWidget\lVisibility::FSlateInvalidation\lWidgetVisibility",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d30/structFSlateInvalidationWidgetVisibility.html#a6082d0768a1fe8081cbe63f9cf1008aa",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FSlateInvalidationWidget\lVisibility::SetAncestorsVisibility",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d30/structFSlateInvalidationWidgetVisibility.html#a7a1ac3631bf011d7ad983b40baf05ed8",tooltip=" "];
+}

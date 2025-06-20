@@ -1,0 +1,22 @@
+digraph "FAutoConsoleVariableRef::FAutoConsoleVariableRef"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FAutoConsoleVariableRef\l::FAutoConsoleVariableRef",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Create a reference to a float console variable."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FAutoConsoleObject\l::FAutoConsoleObject",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d5e/classFAutoConsoleObject.html#a0d41bf543aa5e47de7568dd170e95c2c",tooltip="Constructor, saves the argument for future removal from the console variable system."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FAutoConsoleObject\l::AccessDesktopShaderChange\lCvars",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d5e/classFAutoConsoleObject.html#af5a6623200e277ad4405a2a192181eea",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FAutoConsoleObject\l::AccessGeneralShaderChange\lCvars",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d5e/classFAutoConsoleObject.html#acd5eaf06276d0d25dda01b24e9a18187",tooltip=" "];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FAutoConsoleObject\l::AccessMobileShaderChange\lCvars",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d5e/classFAutoConsoleObject.html#ad882a14ce55b78f17a5571f25ebe4ce9",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FAutoConsoleObject\l::AsVariable",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d5e/classFAutoConsoleObject.html#a4c4c74e599f4f9a999a2dec5f0c59da4",tooltip="returns the contained console object as an IConsoleVariable"];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="IConsoleVariable::SetOnChanged\lCallback",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d22/classIConsoleVariable.html#af38e30a22e47de49ee941573b5ede88f",tooltip="Allows to specify a callback function that is called when the console variable value changes."];
+}

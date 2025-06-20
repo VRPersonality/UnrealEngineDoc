@@ -1,0 +1,16 @@
+digraph "FPropertyTrackEditor::~FPropertyTrackEditor"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FPropertyTrackEditor\l::~FPropertyTrackEditor",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="ISequencerObjectChangeListener\l::GetOnAnimatablePropertyChanged",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d7d/classISequencerObjectChangeListener.html#a5e4c8b1ef76ea29d3c93ef7d42c69d1b",tooltip="A delegate for when a property of a specific FProperty class is changed."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FMovieSceneTrackEditor\l::GetSequencer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d4e/classFMovieSceneTrackEditor.html#a17cc04f08607798f17bf6c71b7d55aa6",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TSharedPtr::IsValid",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d2f/classTSharedPtr.html#acb5f7d3a359aaafcebe24b6b19882ad3",tooltip="Checks to see if this shared pointer is actually pointing to an object."];
+}

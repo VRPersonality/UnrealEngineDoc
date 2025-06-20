@@ -1,0 +1,55 @@
+digraph "FUniqueBuffer::FUniqueBuffer"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FUniqueBuffer::FUniqueBuffer",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Construct a null unique buffer."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FUniqueBuffer::FUniqueBuffer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d4b/classFUniqueBuffer.html#a113e1f0f4e68006ee82215cb14e71f1c",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FUniqueBuffer::FUniqueBuffer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d4b/classFUniqueBuffer.html#a3bdd9a8ee23aa53db788cb9002072203",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FUniqueBuffer::Alloc",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d4b/classFUniqueBuffer.html#ade1e6aa52d30a4e6205c67267b3f05e0",tooltip="Make an uninitialized owned buffer of the specified size."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="LoadCompactBinary",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/da9/CompactBinarySerialization_8h.html#add6ffe685efa1e35d9bdc4587b21dee7",tooltip="Load a compact binary field from an archive."];
+  Node4 -> Node6 [id="edge5_Node000004_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="TCbBuffer::MakeOwned",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d0b/classTCbBuffer.html#a6c7236e3e8438dc9fa4322b6bf37e99e",tooltip="Clone the value, if necessary, to a buffer that this reference has ownership of."];
+  Node4 -> Node7 [id="edge6_Node000004_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="FCbAttachment::TryLoad",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d6d/classFCbAttachment.html#ace626b47f262ff74e80d21e504079190",tooltip="Load the attachment from compact binary as written by Save."];
+  Node4 -> Node8 [id="edge7_Node000004_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="FCbPackage::TryLoad",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/da9/classFCbPackage.html#acabb9961754dbce832cec4d9e21cb29e",tooltip="Load the object and attachments from compact binary as written by Save."];
+  Node1 -> Node9 [id="edge8_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="FUniqueBuffer::AllocZeroed",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d4b/classFUniqueBuffer.html#ab348bb4fc7638c1c46c2b07dd49ef77c",tooltip="Make a zeroed owned buffer of the specified size."];
+  Node1 -> Node10 [id="edge9_Node000001_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="FUniqueBuffer::Clone",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d4b/classFUniqueBuffer.html#a17f5a85779c6b95500de33ffb1c0d2f8",tooltip=" "];
+  Node1 -> Node11 [id="edge10_Node000001_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="FUniqueBuffer::Clone",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d4b/classFUniqueBuffer.html#a2197f62a00cbd1bb3bc76eadfacdf628",tooltip="Make an owned clone of the input."];
+  Node1 -> Node12 [id="edge11_Node000001_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="FUniqueBuffer::GetTypeHash",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d4b/classFUniqueBuffer.html#a81f76eb9237a60bf5687ea09463b7fbe",tooltip=" "];
+  Node1 -> Node13 [id="edge12_Node000001_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="FUniqueBuffer::MakeOwned",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d4b/classFUniqueBuffer.html#a0e8368907a897ba31f7466e43739bc97",tooltip="Returns a buffer that is owned, by cloning if not owned."];
+  Node1 -> Node14 [id="edge13_Node000001_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="FUniqueBuffer::MakeView",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d4b/classFUniqueBuffer.html#a95033c118f7a21a051edf19ce7a17953",tooltip="Make a non-owned view of the input."];
+  Node1 -> Node15 [id="edge14_Node000001_Node000015",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="FUniqueBuffer::MakeView",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d4b/classFUniqueBuffer.html#a3e7aceecdfcab3039579302c2a24d06c",tooltip=" "];
+  Node1 -> Node16 [id="edge15_Node000001_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="FUniqueBuffer::operator!=",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d4b/classFUniqueBuffer.html#ac004a3f35026eb80e24565594289e83e",tooltip=" "];
+  Node1 -> Node17 [id="edge16_Node000001_Node000017",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="FUniqueBuffer::operator=",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d4b/classFUniqueBuffer.html#a88be060a4ccb2e765b7a91a7b270b793",tooltip=" "];
+  Node1 -> Node18 [id="edge17_Node000001_Node000018",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="FUniqueBuffer::operator=",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d4b/classFUniqueBuffer.html#a006ee758c94e0e95339ad403bf7cdbaf",tooltip=" "];
+  Node1 -> Node19 [id="edge18_Node000001_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="FUniqueBuffer::operator==",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d4b/classFUniqueBuffer.html#a55e7a85a676b9975ba4cf340a82a95e2",tooltip=" "];
+  Node1 -> Node20 [id="edge19_Node000001_Node000020",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node20 [id="Node000020",label="FUniqueBuffer::TakeOwnership",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d4b/classFUniqueBuffer.html#a4b46a60ea029d03908e8832e5f57e89a",tooltip="Make an owned buffer by taking ownership of the input."];
+  Node1 -> Node21 [id="edge20_Node000001_Node000021",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node21 [id="Node000021",label="FUniqueBuffer::ToPrivate\lOwnerPtr",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d4b/classFUniqueBuffer.html#ac0bf30ba4b71715b7480cf1899c648f4",tooltip=" "];
+  Node21 -> Node12 [id="edge21_Node000021_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node21 -> Node16 [id="edge22_Node000021_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node21 -> Node19 [id="edge23_Node000021_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node22 [id="edge24_Node000001_Node000022",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node22 [id="Node000022",label="FUniqueBuffer::ToPrivate\lOwnerPtr",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d4b/classFUniqueBuffer.html#a6a516bba1957a975a3b189069d5bbeca",tooltip=" "];
+}

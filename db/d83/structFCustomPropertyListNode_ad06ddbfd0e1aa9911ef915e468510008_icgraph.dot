@@ -1,0 +1,12 @@
+digraph "FCustomPropertyListNode::FCustomPropertyListNode"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FCustomPropertyListNode\l::FCustomPropertyListNode",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Default constructor."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FCustomPropertyListNode\l::GetNextPropertyAndAdvance",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d83/structFCustomPropertyListNode.html#af40d874ec372d6bc9decdc3d6e5a1d66",tooltip="Convenience method to return the next property in the list and advance the given ptr."];
+}

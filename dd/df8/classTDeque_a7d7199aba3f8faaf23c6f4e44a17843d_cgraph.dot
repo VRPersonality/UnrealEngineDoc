@@ -1,0 +1,51 @@
+digraph "TDeque::operator="
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TDeque::operator=",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TDeque::TDeque",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/df8/classTDeque.html#a774f81d52adcdba622fd59eb3b904529",tooltip=" "];
+  Node2 -> Node2 [id="edge2_Node000002_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node3 [id="edge3_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TDeque::CopyUnchecked",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/df8/classTDeque.html#a82bcbd0e06f1f69fa0e5d2dcf9670307",tooltip=" "];
+  Node3 -> Node2 [id="edge4_Node000003_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node4 [id="edge5_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TDeque::CopyElements",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/df8/classTDeque.html#ae034f42a4621b2e56ac550168e16ea34",tooltip=" "];
+  Node4 -> Node2 [id="edge6_Node000004_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node4 -> Node5 [id="edge7_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="ConstructItems",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dea/MemoryOps_8h.html#ae6a63e9d7c2816fcf0ef19ffa01c84c6",tooltip="Constructs a range of items into memory from a set of arguments."];
+  Node5 -> Node6 [id="edge8_Node000005_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FMemory::Memcpy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d4a/structFMemory.html#af5c0a2f1987809876d6d72269851e89c",tooltip=" "];
+  Node6 -> Node7 [id="edge9_Node000006_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="FGenericPlatformMemory\l::Memcpy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/dfd/structFGenericPlatformMemory.html#a13ca9511967a7af8d1c2c3beab1208e2",tooltip=" "];
+  Node4 -> Node8 [id="edge10_Node000004_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="TDeque::GetData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/df8/classTDeque.html#ae8c1ea114357c2480e35439759dc1ebb",tooltip=" "];
+  Node4 -> Node9 [id="edge11_Node000004_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="UE::Deque::Private\l::WrapAround",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d41/namespaceUE_1_1Deque_1_1Private.html#afddeb11d12e92c6c93faf342492fcc3f",tooltip="This implementation assumes that the Index value is never going to exceed twice the Range value."];
+  Node3 -> Node10 [id="edge12_Node000003_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="TDeque::Reserve",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/df8/classTDeque.html#a19f0cb34dcef433e567b84758b64aa90",tooltip=" "];
+  Node10 -> Node11 [id="edge13_Node000010_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="TDeque::Grow",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/df8/classTDeque.html#abf481b32f1b6a24f0f5e72e8558b2836",tooltip="Grows the container's storage to the parameter capacity value."];
+  Node11 -> Node12 [id="edge14_Node000011_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="TDeque::Linearize",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/df8/classTDeque.html#a7dccdc8fc45c08eaf166d043a960b2de",tooltip="Shifts the contained range to the beginning of the storage so it's linear."];
+  Node12 -> Node8 [id="edge15_Node000012_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node12 -> Node13 [id="edge16_Node000012_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="RelocateConstructItems",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dea/MemoryOps_8h.html#ad26b4943c0245a6d447b3f69bfdbbf35",tooltip="Relocates a range of items to a new memory location as a new type."];
+  Node13 -> Node14 [id="edge17_Node000013_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="FMemory::Memmove",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d4a/structFMemory.html#a79d3be0945272bfb7e90a7f627c417e4",tooltip=" "];
+  Node14 -> Node15 [id="edge18_Node000014_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="FGenericPlatformMemory\l::Memmove",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/dfd/structFGenericPlatformMemory.html#a6764c99e53febebbd69236190a4675bd",tooltip="Copies count bytes of characters from Src to Dest."];
+  Node12 -> Node16 [id="edge19_Node000012_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="TDeque::ShiftElementsLeft",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/df8/classTDeque.html#a11074d2f7c0cc7ccfd2158fd68f3779f",tooltip="Moves the parameter number of elements to the left shifting the head to the beginning of the storage."];
+  Node16 -> Node8 [id="edge20_Node000016_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node16 -> Node13 [id="edge21_Node000016_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node17 [id="edge22_Node000001_Node000017",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="TDeque::Reset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/df8/classTDeque.html#a8514c4961d49befd0789071d4808ac88",tooltip=" "];
+  Node17 -> Node18 [id="edge23_Node000017_Node000018",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="DestructItems",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dea/MemoryOps_8h.html#a0b36507a3186ec48a12d43548b47f669",tooltip="Destructs a range of items in memory."];
+  Node17 -> Node8 [id="edge24_Node000017_Node000008",color="steelblue1",style="solid",tooltip=" "];
+}

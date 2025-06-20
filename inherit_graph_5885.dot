@@ -1,0 +1,18 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="ISequencerChannelInterface",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df2/structISequencerChannelInterface.html",tooltip="Abstract interface that defines all sequencer interactions for any channel type Channels are stored i..."];
+  Node0 -> Node1 [id="edge5577_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 [id="Node000001",label="TPerlinNoiseChannelInterface\l\< ChannelContainerType \>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d50/structTPerlinNoiseChannelInterface.html",tooltip=" "];
+  Node0 -> Node2 [id="edge5578_Node000000_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TSequencerChannelInterface\lCommon\< ChannelType \>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/dae/structTSequencerChannelInterfaceCommon.html",tooltip="Templated channel interface that calls overloaded functions matching the necessary channel types."];
+  Node2 -> Node3 [id="edge5579_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TSequencerChannelInterface\lBase\< ChannelType, false \>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d41/structTSequencerChannelInterfaceBase_3_01ChannelType_00_01false_01_4.html",tooltip="Extended base interface for channel types that do not specify extended editor data (ie,..."];
+  Node2 -> Node4 [id="edge5580_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TSequencerChannelInterface\lBase\< ChannelType, true \>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d60/structTSequencerChannelInterfaceBase_3_01ChannelType_00_01true_01_4.html",tooltip="Extended base interface for channel types that specify extended editor data (ie, TMovieSceneChannelTr..."];
+}

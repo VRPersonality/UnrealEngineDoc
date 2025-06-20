@@ -1,0 +1,28 @@
+var classFCbValue =
+[
+    [ "FCbValue", "de/dc5/classFCbValue.html#acb4fce55fc09f7e843f1efa3387c59f3", null ],
+    [ "AsArrayView", "de/dc5/classFCbValue.html#afeb0bab17fc9472684671666dfd1d9d7", null ],
+    [ "AsAttachment", "de/dc5/classFCbValue.html#af72cce022ba83217539457d8b63fc5e6", null ],
+    [ "AsBinary", "de/dc5/classFCbValue.html#aa0d855d8915f5eefda6ceca6e84aee6d", null ],
+    [ "AsBinaryAttachment", "de/dc5/classFCbValue.html#a03feb68b82ac5c2190d0c1c236d1784e", null ],
+    [ "AsBool", "de/dc5/classFCbValue.html#a06a8045ef079b85d2327ebd299d04e98", null ],
+    [ "AsCustomById", "de/dc5/classFCbValue.html#a0aaf1f47181694fbc90bcf28c7c7806c", null ],
+    [ "AsCustomByName", "de/dc5/classFCbValue.html#acad9443fb46b5750e94f497ff09c47c8", null ],
+    [ "AsDateTimeTicks", "de/dc5/classFCbValue.html#a24d13ca81b65b9c9aafd6cb84d21c804", null ],
+    [ "AsFloat32", "de/dc5/classFCbValue.html#a48c607e4a25793cf4fdf373663c59b22", null ],
+    [ "AsFloat64", "de/dc5/classFCbValue.html#a0c76a4a82d149068dbf9a8505e71d7c2", null ],
+    [ "AsHash", "de/dc5/classFCbValue.html#a15d2ef5c88373b995e90a386c0f1f973", null ],
+    [ "AsInteger", "de/dc5/classFCbValue.html#aca6be98c9eb507b7efd56a6ce4c106bd", null ],
+    [ "AsIntegerNegative", "de/dc5/classFCbValue.html#a768692d81d462c392f27339d2b9cf036", null ],
+    [ "AsIntegerPositive", "de/dc5/classFCbValue.html#a5f93fd7df142816e14bb7dcda1f00f70", null ],
+    [ "AsObjectAttachment", "de/dc5/classFCbValue.html#aa59ee1ea66300e433d25fc9e9933ee95", null ],
+    [ "AsObjectId", "de/dc5/classFCbValue.html#a1cf970b8cfc451801dcb7570f28dd542", null ],
+    [ "AsObjectView", "de/dc5/classFCbValue.html#ad0d8d124cdbacb5379636ac49f28ae02", null ],
+    [ "AsString", "de/dc5/classFCbValue.html#a8609f3fe71476e3b80ecde5f90a64d03", null ],
+    [ "AsTimeSpanTicks", "de/dc5/classFCbValue.html#a15b228d4c6e30a876e2d7ec28c5e2935", null ],
+    [ "AsUuid", "de/dc5/classFCbValue.html#aaebb6c3e1974454423e91a95ca51766f", null ],
+    [ "GetData", "de/dc5/classFCbValue.html#a6a3b75e4b29274d13a9c94ceb06fb28d", null ],
+    [ "GetType", "de/dc5/classFCbValue.html#a98e551e144f84b2f09f6f69f3a5d5d5f", null ],
+    [ "Data", "de/dc5/classFCbValue.html#a4a1ffe31d552c6c12b9044a8aaba760d", null ],
+    [ "Type", "de/dc5/classFCbValue.html#a151757c837496fb596cfc1750761711c", null ]
+];

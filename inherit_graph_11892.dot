@@ -1,0 +1,10 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="UE::ShaderUtils::FShader\lStableKeyDebugInfoReader",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/da8/classUE_1_1ShaderUtils_1_1FShaderStableKeyDebugInfoReader.html",tooltip="Class that uses build metadata (*.shk files storing mapping of stable shader keys to their hashes) to..."];
+}

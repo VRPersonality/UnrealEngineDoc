@@ -1,0 +1,46 @@
+digraph "UE::Geometry::TMeshLocalParam::UpdateUVExpmap"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="UE::Geometry::TMeshLocal\lParam::UpdateUVExpmap",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Geometry::TMeshLocal\lParam::GetFrame",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d59/classUE_1_1Geometry_1_1TMeshLocalParam.html#a4f56853886d833643d90cfe49d868946",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::Geometry::TMeshLocal\lParam::GetPosition",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d59/classUE_1_1Geometry_1_1TMeshLocalParam.html#a507e152380d42c65a4b6954fc91d39bc",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UE::Geometry::TMeshLocal\lParam::GetNodeForPointSetID",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d59/classUE_1_1Geometry_1_1TMeshLocalParam.html#a6b4e65d5077bde3a491023fcd33e3be8",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="UE::Geometry::TMeshLocal\lParam::GetNormal",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d59/classUE_1_1Geometry_1_1TMeshLocalParam.html#ae19ba375b85129cd6a0f7a7a62d8d93e",tooltip=" "];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="UE::Geometry::FMeshNormals\l::ComputeVertexNormal",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/dbe/classUE_1_1Geometry_1_1FMeshNormals.html#a8ff9a5725a3ea2283aa6590bf42bcf7a",tooltip="Compute normal at mesh vertex by weighted sum of one-ring triangle normals."];
+  Node5 -> Node7 [id="edge6_Node000005_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="UE::Math::TVector\<\l double \>::UnitY",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d77/structUE_1_1Math_1_1TVector.html#a3619ded05b09c980e0fa8fbdbc8a9149",tooltip=" "];
+  Node4 -> Node8 [id="edge7_Node000004_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="UE::Math::TVector\<\l double \>::UnitZ",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d77/structUE_1_1Math_1_1TVector.html#a4f82c347efaed07b5580a24dcf2f4f0c",tooltip=" "];
+  Node4 -> Node9 [id="edge8_Node000004_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="UE::Math::TVector2\l\< double \>::Zero",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d80/structUE_1_1Math_1_1TVector2.html#ada8fd1174d4f0999760cb5e0d37606b4",tooltip=" "];
+  Node1 -> Node3 [id="edge9_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node10 [id="edge10_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="UE::Geometry::TMeshLocal\lParam::PropagateUV",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d59/classUE_1_1Geometry_1_1TMeshLocalParam.html#aac0c6e13d7e62dabec807120f1f2a783",tooltip=" "];
+  Node10 -> Node11 [id="edge11_Node000010_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="UE::Geometry::TFrame3\l::AlignAxis",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d82/structUE_1_1Geometry_1_1TFrame3.html#a99d19f0d27d8774f9ac30b0f11002829",tooltip="Align an axis of this frame with a target direction."];
+  Node10 -> Node12 [id="edge12_Node000010_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="UE::Geometry::TMeshLocal\lParam::ComputeLocalUV",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d59/classUE_1_1Geometry_1_1TMeshLocalParam.html#ac116d82988e30aa0b4afc50fda2cded4",tooltip=" "];
+  Node10 -> Node13 [id="edge13_Node000010_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="UE::Math::TVector::\lCross",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d77/structUE_1_1Math_1_1TVector.html#a57142a78e1cde739013f7d1f74444ff8",tooltip="Calculate cross product between this and another vector."];
+  Node13 -> Node14 [id="edge14_Node000013_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="UE::Math::TVector::\lTVector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d77/structUE_1_1Math_1_1TVector.html#a50071892cd411543cbbb3d9d35a6f277",tooltip="Default constructor (no initialization)."];
+  Node10 -> Node15 [id="edge15_Node000010_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="UE::Math::TVector::Dot",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d77/structUE_1_1Math_1_1TVector.html#ab075a0794fafe258342a2a336529bbce",tooltip="Calculate the dot product between this and another vector."];
+  Node15 -> Node14 [id="edge16_Node000015_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node10 -> Node16 [id="edge17_Node000010_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="TMathUtil::Sqrt",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d8b/classTMathUtil.html#aa419d3fd90395acb9cd24c63a729cca7",tooltip=" "];
+  Node10 -> Node17 [id="edge18_Node000010_Node000017",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="UE::Geometry::TFrame3::X",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d82/structUE_1_1Geometry_1_1TFrame3.html#a48afb4b1f990b4972fb86f444e9a3afe",tooltip=" "];
+  Node10 -> Node18 [id="edge19_Node000010_Node000018",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="UE::Geometry::TFrame3::Z",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d82/structUE_1_1Geometry_1_1TFrame3.html#a7df2772151ebda928a89a208a1264994",tooltip=" "];
+}

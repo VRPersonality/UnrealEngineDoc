@@ -1,0 +1,12 @@
+digraph "SBoneSelectionWidget::SLATE_ARGUMENT"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="SBoneSelectionWidget\l::SLATE_ARGUMENT",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Whether or not to show 'None' as a selectable bone name."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SBoneSelectionWidget\l::SLATE_ARGUMENT",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d07/classSBoneSelectionWidget.html#ae1b7b7eee4ada1d990aa02f112b650c4",tooltip="Should show skeletons virtual bones in tree."];
+}

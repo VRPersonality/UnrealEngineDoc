@@ -1,0 +1,14 @@
+digraph "FUObjectAnnotationDense::RemoveAllAnnotations"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FUObjectAnnotationDense\l::RemoveAllAnnotations",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Removes all annotation from the annotation list."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FUObjectAnnotationDense\l::~FUObjectAnnotationDense",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d50/classFUObjectAnnotationDense.html#a3402b4d245a4502ab92f9b7245495d9c",tooltip="Destructor, removes all annotations, which removes the annotation as a uobject destruction listener."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FUObjectAnnotationDense\l::OnUObjectArrayShutdown",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d50/classFUObjectAnnotationDense.html#a2597413a1468b5651541c42e0273ceeb",tooltip="Called when UObject Array is being shut down, this is where all listeners should be removed from it."];
+}

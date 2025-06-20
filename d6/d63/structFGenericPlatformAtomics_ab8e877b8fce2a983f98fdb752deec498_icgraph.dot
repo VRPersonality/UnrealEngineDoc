@@ -1,0 +1,16 @@
+digraph "FGenericPlatformAtomics::IsAligned"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FGenericPlatformAtomics\l::IsAligned",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Checks if a pointer is aligned and can be used with atomic functions."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FWindowsPlatformAtomics\l::InterlockedCompareExchange",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d6e/structFWindowsPlatformAtomics.html#a994c90a467002c83c673fe9cf5c0a944",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FWindowsPlatformAtomics\l::InterlockedCompareExchange\lPointer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d6e/structFWindowsPlatformAtomics.html#a33d83c4545fda2d0ba7a1237481e7541",tooltip="The function compares the Destination value with the Comparand value:"];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FWindowsPlatformAtomics\l::InterlockedExchangePtr",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d6e/structFWindowsPlatformAtomics.html#afcaeffcf1d869469e9c891191d44f8ea",tooltip=" "];
+}

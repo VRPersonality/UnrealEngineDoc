@@ -1,0 +1,68 @@
+digraph "FField::FField"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FField::FField",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FField::Construct",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d7d/classFField.html#a1393fa9a5fecf6a73236c117ef767894",tooltip="Constructs a new field given its class."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SerializeSingleField",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/db3/Field_8h.html#a6320b0f7582fe53834cc456b52be2127",tooltip="Helper function for serializing FField to an archive."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FField::Construct",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d7d/classFField.html#a6775eadb1511f01150d78ae21431cd6e",tooltip="Constructs a new field given the name of its class."];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FProperty::DECLARE\l_FIELD_API",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/dbc/classFProperty.html#a473c7369bd306993268b3fa38914cb20",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FField::Duplicate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d7d/classFField.html#a2b59adfc272544caed617eb0256f538b",tooltip="Duplicates an FField."];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="FField::GetFieldSize",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d7d/classFField.html#aaa7517f275f5f27a75d5444e8b35535a",tooltip=" "];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="FArrayProperty::GetInner\lFieldByName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d5d/classFArrayProperty.html#a569d298213d5912840ec97e07468a98a",tooltip="Returns an inner field by name if the field has any."];
+  Node1 -> Node9 [id="edge8_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="FEnumProperty::GetInnerField\lByName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d2b/classFEnumProperty.html#a6e7da24b2c2be9381aae2fe617b64e38",tooltip="Returns an inner field by name if the field has any."];
+  Node1 -> Node10 [id="edge9_Node000001_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="FField::GetInnerFieldByName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d7d/classFField.html#a660fc3e803652293da5a09a31cd9ca29",tooltip="Returns an inner field by name if the field has any."];
+  Node1 -> Node11 [id="edge10_Node000001_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="FMapProperty::GetInnerField\lByName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d91/classFMapProperty.html#a6dd2ee8d830b472239f27e190692043e",tooltip="Returns an inner field by name if the field has any."];
+  Node1 -> Node12 [id="edge11_Node000001_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="FOptionalProperty::\lGetInnerFieldByName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dac/classFOptionalProperty.html#a1f8c7ce739adf3bec96110982cc35617",tooltip="Returns an inner field by name if the field has any."];
+  Node1 -> Node13 [id="edge12_Node000001_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="FSetProperty::GetInnerField\lByName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d7f/classFSetProperty.html#af27796fd0609dff9260f3ad4c31e715c",tooltip="Returns an inner field by name if the field has any."];
+  Node1 -> Node14 [id="edge13_Node000001_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="FField::GetTypedOwner",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d7d/classFField.html#af91d0826d2c54320c6db32e8eea2e23b",tooltip="Goes up the outer chain to look for the outer of the specified type."];
+  Node1 -> Node15 [id="edge14_Node000001_Node000015",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="FField::IsIn",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d7d/classFField.html#a25d3babc744d251b466527843bc818f4",tooltip=" "];
+  Node1 -> Node16 [id="edge15_Node000001_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="FArrayProperty::PostDuplicate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d5d/classFArrayProperty.html#af6999c1169a3f7baab4cbeeacdbf9280",tooltip="Fixups after duplicating a Field."];
+  Node1 -> Node17 [id="edge16_Node000001_Node000017",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="FBoolProperty::PostDuplicate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d22/classFBoolProperty.html#a9c1b602eecfbb9df7846143b61cd52df",tooltip="Fixups after duplicating a Field."];
+  Node1 -> Node18 [id="edge17_Node000001_Node000018",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="FDelegateProperty::\lPostDuplicate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d51/classFDelegateProperty.html#ad3a219221ec226bbe056115345e4d922",tooltip="Fixups after duplicating a Field."];
+  Node1 -> Node19 [id="edge18_Node000001_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="FEnumProperty::PostDuplicate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d2b/classFEnumProperty.html#aa988d4315bb50253dd632d6cc5d688b2",tooltip="Fixups after duplicating a Field."];
+  Node1 -> Node20 [id="edge19_Node000001_Node000020",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node20 [id="Node000020",label="FField::PostDuplicate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d7d/classFField.html#ac7d78532e9272cdd6eeb51d4c5078165",tooltip="Fixups after duplicating a Field."];
+  Node1 -> Node21 [id="edge20_Node000001_Node000021",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node21 [id="Node000021",label="FInterfaceProperty\l::PostDuplicate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/dd5/classFInterfaceProperty.html#a6653bf7b4cdb346b253fd0a83e9434e1",tooltip="Fixups after duplicating a Field."];
+  Node1 -> Node22 [id="edge21_Node000001_Node000022",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node22 [id="Node000022",label="FMapProperty::PostDuplicate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d91/classFMapProperty.html#aef2dc48b056fb83e5716b5f06097994e",tooltip="Fixups after duplicating a Field."];
+  Node1 -> Node23 [id="edge22_Node000001_Node000023",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node23 [id="Node000023",label="FMulticastDelegateProperty\l::PostDuplicate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d2b/classFMulticastDelegateProperty.html#a884b9a7d5d5aeb30308986a34bd17118",tooltip="Fixups after duplicating a Field."];
+  Node1 -> Node24 [id="edge23_Node000001_Node000024",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node24 [id="Node000024",label="FObjectPropertyBase\l::PostDuplicate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d97/classFObjectPropertyBase.html#adbe220990188fdfa88bd9e9677e4c6dc",tooltip="Fixups after duplicating a Field."];
+  Node1 -> Node25 [id="edge24_Node000001_Node000025",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node25 [id="Node000025",label="FOptionalProperty::\lPostDuplicate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dac/classFOptionalProperty.html#a544d3af5791bb89a3c30e8550d88fdee",tooltip="Fixups after duplicating a Field."];
+  Node1 -> Node26 [id="edge25_Node000001_Node000026",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node26 [id="Node000026",label="FProperty::PostDuplicate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/dbc/classFProperty.html#a137e25ee14fa56225612f838b4c8c983",tooltip="Fixups after duplicating a Field."];
+  Node1 -> Node27 [id="edge26_Node000001_Node000027",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node27 [id="Node000027",label="FSetProperty::PostDuplicate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d7f/classFSetProperty.html#a78fd267d42693be052a6962587b17126",tooltip="Fixups after duplicating a Field."];
+  Node1 -> Node28 [id="edge27_Node000001_Node000028",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node28 [id="Node000028",label="FStructProperty::PostDuplicate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/dd6/classFStructProperty.html#a6c4a527f5c1e85c345c400660cb1f054",tooltip="Fixups after duplicating a Field."];
+  Node1 -> Node29 [id="edge28_Node000001_Node000029",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node29 [id="Node000029",label="FField::TryConstruct",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d7d/classFField.html#af16d5c3145fc0ff95012d5250e025eb4",tooltip="Tries to construct a new field given the name of its class."];
+  Node1 -> Node30 [id="edge29_Node000001_Node000030",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node30 [id="Node000030",label="FField::UE_NONCOPYABLE",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d7d/classFField.html#a05632e860cb62662413fbb353d9dab1e",tooltip=" "];
+}

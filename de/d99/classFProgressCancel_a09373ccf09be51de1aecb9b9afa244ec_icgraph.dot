@@ -1,0 +1,14 @@
+digraph "FProgressCancel::Cancelled"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FProgressCancel::Cancelled",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Geometry::FGeometryResult\l::CheckAndSetCancelled",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/daf/structUE_1_1Geometry_1_1FGeometryResult.html#a8c804a6ceb09c1b22a49b5d884f06089",tooltip="Test if the given Progress has been cancelled, if so, set the Result to Cancelled."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::Geometry::FGeometryResult\l::SetSuccess",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/daf/structUE_1_1Geometry_1_1FGeometryResult.html#a3193137f6ed8cc3a1757f875e3a64c62",tooltip="Set to Success/Failure based on bSuccess, or Cancelled if the (optional) FProgressCancel indicates th..."];
+}

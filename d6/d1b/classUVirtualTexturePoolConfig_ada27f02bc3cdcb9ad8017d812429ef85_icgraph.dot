@@ -1,0 +1,17 @@
+digraph "UVirtualTexturePoolConfig::UPROPERTY"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UVirtualTexturePoolConfig\l::UPROPERTY",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Enable physical pools growing on oversubscription."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UVirtualTexturePoolConfig\l::GENERATED_UCLASS_BODY",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d1b/classUVirtualTexturePoolConfig.html#a3c208a807dfd3713d08d6dede082aff0",tooltip="Upper size limit in megabytes for any pools not explicitly matched by a config entry in the Pools arr..."];
+  Node1 -> Node1 [id="edge2_Node000001_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node3 [id="edge3_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UVirtualTexturePoolConfig\l::UPROPERTY",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d1b/classUVirtualTexturePoolConfig.html#a0195e9450e78e783ac0edf94247a403f",tooltip="Serialized array of configs."];
+  Node1 -> Node4 [id="edge4_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UVirtualTexturePoolConfig\l::UPROPERTY",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d1b/classUVirtualTexturePoolConfig.html#aa21253aafcf6cde78f11daaedf19dcbd",tooltip="Transient array of runtime detected configs used by the PoolAutoGrow system."];
+}

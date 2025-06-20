@@ -1,0 +1,23 @@
+digraph "TSimpleCellGrid::GetCellAtWorldLocation"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TSimpleCellGrid::GetCell\lAtWorldLocation",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TSimpleCellGrid::GetCell\lIndex",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/dcb/structTSimpleCellGrid.html#abc04d8fb66b4bfdba281b787b2c1fade",tooltip="Convert (X,Y) coords on grid to cell index, returns -1 for position outside grid."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TSimpleCellGrid::GetCell\lIndexUnsafe",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/dcb/structTSimpleCellGrid.html#aa481261fbf8e614f86e0300589a6cd76",tooltip="Convert world location to cell index, result can be invalid."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TSimpleCellGrid::GetCell\lCoordsUnsafe",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/dcb/structTSimpleCellGrid.html#acd1fc04906bda98d6ab3cf9e30d9a0b6",tooltip="Convert world location to (X,Y) coords on grid, result can be outside grid."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="IntCastChecked",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d24/UnrealTemplate_8h.html#a886a4da9a454571f96b5c89d4f26bc31",tooltip="Cast and check that value fits in OutType."];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="IntFitsIn",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d24/UnrealTemplate_8h.html#a9a4800af259748724f3bddeaa0ebdad0",tooltip="Test if value can make a lossless static_cast roundtrip via OutType without a sign change."];
+  Node3 -> Node3 [id="edge6_Node000003_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node7 [id="edge7_Node000002_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="TSimpleCellGrid::IsValid\lCoord",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/dcb/structTSimpleCellGrid.html#adad67e2ac0b745e45140823dcc967b78",tooltip=" "];
+}

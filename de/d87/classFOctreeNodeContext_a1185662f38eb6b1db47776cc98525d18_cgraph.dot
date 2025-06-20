@@ -1,0 +1,51 @@
+digraph "FOctreeNodeContext::GetChildContext"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FOctreeNodeContext\l::GetChildContext",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Child node initialization constructor."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FOctreeNodeContext\l::FOctreeNodeContext",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d87/classFOctreeNodeContext.html#a81cea534b4675a4bcf325519c0ce8a1f",tooltip="Default constructor."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FOctreeNodeContext\l::GetChildOffsetVec",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d87/classFOctreeNodeContext.html#a8dff350b3e5a4aea9085732eeb50b71b",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="MakeVectorRegister",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d4d/UnrealMathFPU_8h.html#a2b1ce1cf6a01db0ea11daff91b3f30f3",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="MakeVectorRegisterFloat",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d4d/UnrealMathFPU_8h.html#aefc67d5a07d1692613a29d8c9f71e815",tooltip="Returns a bitwise equivalent vector based on 4 DWORDs."];
+  Node3 -> Node6 [id="edge5_Node000003_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="VectorIntAnd",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d4d/UnrealMathFPU_8h.html#af054d4d90492eb586247bacbc1ade6ba",tooltip="= a & b"];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="MakeVectorRegisterInt",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d4d/UnrealMathFPU_8h.html#a00e5016a817e4c0678f7ba57fa8b2160",tooltip="Returns a vector based on 4 int32."];
+  Node3 -> Node8 [id="edge7_Node000003_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="VectorIntCompareEQ",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d4d/UnrealMathFPU_8h.html#a8ea01542a11e0e006b1fa89d7b88155a",tooltip=" "];
+  Node8 -> Node7 [id="edge8_Node000008_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node9 [id="edge9_Node000003_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="VectorIntLoad1",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d4d/UnrealMathFPU_8h.html#a45ee01aca1492252d738046624e6f040",tooltip="Loads 1 int32 from unaligned memory into all components of a vector register."];
+  Node9 -> Node7 [id="edge10_Node000009_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node10 [id="edge11_Node000003_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="VectorSelect",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d4d/UnrealMathFPU_8h.html#a80d0251c859b099e8d3bad3443cfc5ea",tooltip="Does a bitwise vector selection based on a mask (e.g., created from VectorCompareXX)"];
+  Node10 -> Node5 [id="edge12_Node000010_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node11 [id="edge13_Node000003_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="VectorSetFloat1",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d4d/UnrealMathFPU_8h.html#a3d69587d3a368ee706a6e30994fd8683",tooltip="Propagates passed in float to all registers."];
+  Node11 -> Node5 [id="edge14_Node000011_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node4 [id="edge15_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node12 [id="edge16_Node000001_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="VectorAdd",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d4d/UnrealMathFPU_8h.html#ab2791f8a18202b6360d51fe4ead4848b",tooltip="Adds two vectors (component-wise) and returns the result."];
+  Node1 -> Node13 [id="edge17_Node000001_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="VectorLoadAligned",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d4d/UnrealMathFPU_8h.html#a795bf143be99fa9c21053ce7ee7367ee",tooltip="Loads 4 FLOATs from aligned memory."];
+  Node13 -> Node14 [id="edge18_Node000013_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="VectorLoad",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d4d/UnrealMathFPU_8h.html#acf012ed0bd0dbebc7aadab0ba8a1f808",tooltip="Loads 4 FLOATs from unaligned memory."];
+  Node14 -> Node5 [id="edge19_Node000014_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node15 [id="edge20_Node000001_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="VectorMultiply",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d4d/UnrealMathFPU_8h.html#a498979d68d58aebba11252fe447acc0e",tooltip="Multiplies two vectors (component-wise) and returns the result."];
+  Node1 -> Node11 [id="edge21_Node000001_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node16 [id="edge22_Node000001_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="VectorStoreAligned",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d4d/UnrealMathFPU_8h.html#aac7505e05c44791186788055ed24e936",tooltip="Stores a vector to aligned memory."];
+  Node16 -> Node17 [id="edge23_Node000016_Node000017",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="FMemory::Memcpy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d4a/structFMemory.html#af5c0a2f1987809876d6d72269851e89c",tooltip=" "];
+  Node17 -> Node18 [id="edge24_Node000017_Node000018",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="FGenericPlatformMemory\l::Memcpy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/dfd/structFGenericPlatformMemory.html#a13ca9511967a7af8d1c2c3beab1208e2",tooltip=" "];
+}

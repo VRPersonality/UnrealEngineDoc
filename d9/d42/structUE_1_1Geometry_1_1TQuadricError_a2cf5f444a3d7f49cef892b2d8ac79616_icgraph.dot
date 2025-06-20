@@ -1,0 +1,12 @@
+digraph "UE::Geometry::TQuadricError::Scale"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UE::Geometry::TQuadricError\l::Scale",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Scale this quadric by the weight 'w'."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Geometry::CreateSeam\lQuadric",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d39/namespaceUE_1_1Geometry.html#a20fd04d1c2f4dd088168b7dea77ba650",tooltip="A \"Seam Quadric\" is a quadric defined with respect to the plane passing through the edge p1-p0,..."];
+}

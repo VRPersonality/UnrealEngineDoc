@@ -1,0 +1,18 @@
+digraph "TCommands::Unregister"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TCommands::Unregister",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Use this method to clean up any resources used by the command set."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FInputBindingManager::Get",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d5a/classFInputBindingManager.html#a75b2eb49a8ba6711266fdb7f316290f2",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FInputBindingManager\l::FInputBindingManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d5a/classFInputBindingManager.html#a4ec16aaffcf54dc3c143087d91ef4338",tooltip="Hidden default constructor."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TCommands::GetInstance",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d91/classTCommands.html#aa2ccbe1889885127b725fc5ef5ea6789",tooltip="A static instance of the command set."];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FInputBindingManager\l::RemoveContextByName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d5a/classFInputBindingManager.html#a3395f60a7f527d4ab23b880d36b00ff7",tooltip="Remove the context with this name."];
+}

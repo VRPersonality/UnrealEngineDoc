@@ -1,0 +1,17 @@
+digraph "UProjectileMovementComponent::UFUNCTION"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UProjectileMovementComponent\l::UFUNCTION",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Returns true if velocity magnitude is less than BounceVelocityStopSimulatingThreshold."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UProjectileMovementComponent\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d7b/classUProjectileMovementComponent.html#a742ff17af68ad841053260429a1c4dcc",tooltip="Moves the UpdatedComponent, which is also the interpolation target for the interpolated component."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UProjectileMovementComponent\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d7b/classUProjectileMovementComponent.html#a9bc32767c49873ae296c84cf94332bc6",tooltip="Resets interpolation so that interpolated component snaps back to the initial location/rotation witho..."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UProjectileMovementComponent\l::UFUNCTION",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d7b/classUProjectileMovementComponent.html#a860e77c69e147c206be17ff54898fb3e",tooltip="Returns whether interpolation is complete because the target has been reached."];
+  Node1 -> Node1 [id="edge4_Node000001_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

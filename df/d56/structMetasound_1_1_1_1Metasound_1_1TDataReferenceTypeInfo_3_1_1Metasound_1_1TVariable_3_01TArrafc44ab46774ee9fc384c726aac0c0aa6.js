@@ -1,0 +1,7 @@
+var structMetasound_1_1_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArrafc44ab46774ee9fc384c726aac0c0aa6 =
+[
+    [ "GetTypeDisplayText", "df/d56/structMetasound_1_1_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArrafc44ab46774ee9fc384c726aac0c0aa6.html#ac3218dfe645348b0383af615557191f8", null ],
+    [ "GetTypeId", "df/d56/structMetasound_1_1_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArrafc44ab46774ee9fc384c726aac0c0aa6.html#a66aea4d80a3b6406a2a0f74e7d4ae79b", null ],
+    [ "TypeName", "df/d56/structMetasound_1_1_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArrafc44ab46774ee9fc384c726aac0c0aa6.html#ad0d579e5efed95eefa322f4501c777cc", null ],
+    [ "TypePtr", "df/d56/structMetasound_1_1_1_1Metasound_1_1TDataReferenceTypeInfo_3_1_1Metasound_1_1TVariable_3_01TArrafc44ab46774ee9fc384c726aac0c0aa6.html#afb2cc20c4036f9b23722bf4e81f249db", null ]
+];

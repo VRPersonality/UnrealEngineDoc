@@ -1,0 +1,16 @@
+digraph "TQuadTree::GetIntersectingElements"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TQuadTree::GetIntersecting\lElements",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Given a list of nodes, return which ones actually intersect the box."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TQuadTree::GetElements",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d67/classTQuadTree.html#aff4691e80ff5353f20b25c99d3ec8cd0",tooltip="Given a 2D box, iterates over intersecting elements and execute the callback for each."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TQuadTree::GetElements",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d67/classTQuadTree.html#af40c10bea50a9d68d865bd90ce262ad3",tooltip="Given a 2D box, returns an array of elements within the box."];
+  Node3 -> Node2 [id="edge3_Node000003_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node3 [id="edge4_Node000003_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

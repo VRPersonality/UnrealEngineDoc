@@ -1,0 +1,20 @@
+digraph "UE::Geometry::CurveUtil::ProjectPointInsideConvexPolygon"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="UE::Geometry::CurveUtil\l::ProjectPointInsideConvexPolygon",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Project point inside a convex polygon with known orientation."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Math::TVector2::Dot",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d80/structUE_1_1Math_1_1TVector2.html#a0caa97029c2c5ea0da4cdf4291b8b55c",tooltip="Get the dot product of this vector against another."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::Math::TVector2\l::TVector2",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d80/structUE_1_1Math_1_1TVector2.html#ab23df193e534bdadf888f197bd6ce3ee",tooltip="Default constructor (no initialization)."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UE::Geometry::Orient",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d39/namespaceUE_1_1Geometry.html#a928788687e32eb1e8c45bf744b6c4813",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="UE::Geometry::DotPerp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d39/namespaceUE_1_1Geometry.html#a4bcf60eca2d0f3e796d1773f7a2f0b9d",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="UE::Geometry::PerpCW",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d39/namespaceUE_1_1Geometry.html#a2e14ecf9cad4639573f438d306ccd822",tooltip=" "];
+}

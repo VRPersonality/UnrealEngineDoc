@@ -1,0 +1,17 @@
+digraph "Public"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_978555d3fdd85b23268c41431332f3a9 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="FractureEditor", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_978555d3fdd85b23268c41431332f3a9.html",tooltip=""]
+  dir_0ecfc3fdb55767a1e324ee72055d687b [label="Public", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_0ecfc3fdb55767a1e324ee72055d687b.html",tooltip=""];
+  }
+  dir_7536b172fbd480bfd146a1b1acd6856b [label="Runtime", fillcolor="#edf0f7", color="red", style="filled", URL="dir_7536b172fbd480bfd146a1b1acd6856b.html",tooltip=""];
+  dir_b26507eead720464ba2ac6bbc6dcec5f [label="Editor", fillcolor="#edf0f7", color="red", style="filled", URL="dir_b26507eead720464ba2ac6bbc6dcec5f.html",tooltip=""];
+  dir_0ecfc3fdb55767a1e324ee72055d687b->dir_7536b172fbd480bfd146a1b1acd6856b [headlabel="19", labeldistance=1.5 headhref="dir_000795_000984.html" href="dir_000795_000984.html" color="steelblue1" fontcolor="steelblue1"];
+  dir_0ecfc3fdb55767a1e324ee72055d687b->dir_b26507eead720464ba2ac6bbc6dcec5f [headlabel="10", labeldistance=1.5 headhref="dir_000795_000357.html" href="dir_000795_000357.html" color="steelblue1" fontcolor="steelblue1"];
+}

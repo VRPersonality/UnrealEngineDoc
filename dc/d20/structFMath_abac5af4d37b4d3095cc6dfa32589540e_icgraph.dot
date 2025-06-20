@@ -1,0 +1,16 @@
+digraph "FMath::GridSnap"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FMath::GridSnap",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Snaps a value to the nearest grid multiple."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Math::TRotator\l::GridSnap",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/dd7/structUE_1_1Math_1_1TRotator.html#a354b83e0db71f93375f4412227218328",tooltip="Get the rotation, snapped to specified degree segments."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::Math::TVector::\lGridSnap",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d77/structUE_1_1Math_1_1TVector.html#aef1b6f2282415f2c94a66d76bf65413e",tooltip="Gets a copy of this vector snapped to a grid."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FMath::MIX_FLOATS_2_ARGS",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d20/structFMath.html#ad60088c6e1fde3e96e3ff49fec85a4c6",tooltip="Allow mixing float/double arguments, promoting to highest precision type."];
+}

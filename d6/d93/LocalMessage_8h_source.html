@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Unreal Engine 5.6 C++ Documentation: UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/LocalMessage.h Source File</title>
+<title>Unreal Engine 5.6 C++ API: LocalMessage.h Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -18,7 +18,11 @@
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
-<link href="../../unreal_theme.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -27,9 +31,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Unreal Engine 5.6 C++ Documentation<span id="projectnumber">&#160;5.6</span>
+   <div id="projectname">Unreal Engine 5.6 C++ API<span id="projectnumber">&#160;5.6.0</span>
    </div>
-   <div id="projectbrief">Documentation UE5 avec chemins sources corrects</div>
+   <div id="projectbrief">C++ API documentation for Unreal Engine 5.6</div>
   </td>
  </tr>
  </tbody>
@@ -109,79 +113,80 @@ $(function(){initNavTree('d6/d93/LocalMessage_8h_source.html','../../',''); });
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &quot;CoreMinimal.h&quot;</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &quot;UObject/ObjectMacros.h&quot;</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &quot;UObject/Object.h&quot;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &quot;<a class="code" href="../../d7/d67/CoreMinimal_8h.html">CoreMinimal.h</a>&quot;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &quot;<a class="code" href="../../d8/d8d/ObjectMacros_8h.html">UObject/ObjectMacros.h</a>&quot;</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &quot;<a class="code" href="../../db/dbf/Object_8h.html">UObject/Object.h</a>&quot;</span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &quot;LocalMessage.generated.h&quot;</span></div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">class </span><a class="code hl_class" href="../../dd/d46/classAPlayerController.html">APlayerController</a>;</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">class </span><a class="code hl_class" href="../../d9/dab/classAPlayerState.html">APlayerState</a>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">class </span>APlayerController;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">class </span>APlayerState;</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="comment"></span> </div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="comment">/** Handles the many pieces of data passed into Client Receive */</span></div>
-<div class="foldopen" id="foldopen00026" data-start="{" data-end="};">
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../d7/d82/structFClientReceiveData.html">   26</a></span>USTRUCT()</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>struct <a class="code hl_function" href="../../d7/d82/structFClientReceiveData.html#ae755694ee5cf067bbb59308dfd27437b">FClientReceiveData</a></div>
+<div class="foldopen" id="foldopen00026" data-start="{" data-end="}">
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../d6/d93/LocalMessage_8h.html#a42f3d96be78113c5119e31dbbac1d8af">   26</a></span><a class="code hl_function" href="../../d6/d93/LocalMessage_8h.html#a42f3d96be78113c5119e31dbbac1d8af">USTRUCT</a>()</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>struct FClientReceiveData</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>{</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="comment">//always need to be here</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    GENERATED_USTRUCT_BODY()</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <a class="code hl_define" href="../../d8/d8d/ObjectMacros_8h.html#afa48c9423e42b6a331aa6c1739d9b659">GENERATED_USTRUCT_BODY</a>()</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    UPROPERTY()</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="../../d7/d82/structFClientReceiveData.html#a5d7e0bcb7ad58e6b870c06569a8456f9">   33</a></span>    TObjectPtr&lt;<a class="code hl_class" href="../../dd/d46/classAPlayerController.html">APlayerController</a>&gt; <a class="code hl_variable" href="../../d7/d82/structFClientReceiveData.html#a5d7e0bcb7ad58e6b870c06569a8456f9">LocalPC</a>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <a class="code hl_define" href="../../d8/d8d/ObjectMacros_8h.html#a0f0b61260ab178e7df0069f14ecb9f82">UPROPERTY</a>()</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <a class="code hl_struct" href="../../d4/d0b/structTObjectPtr.html">TObjectPtr&lt;APlayerController&gt;</a> LocalPC;</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    UPROPERTY()</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="../../d7/d82/structFClientReceiveData.html#a93f91ec1486f5661a0c2c0235026c155">   36</a></span>    FName <a class="code hl_variable" href="../../d7/d82/structFClientReceiveData.html#a93f91ec1486f5661a0c2c0235026c155">MessageType</a>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <a class="code hl_define" href="../../d8/d8d/ObjectMacros_8h.html#a0f0b61260ab178e7df0069f14ecb9f82">UPROPERTY</a>()</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <a class="code hl_class" href="../../d0/d53/classFName.html">FName</a> MessageType;</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    UPROPERTY()</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="../../d7/d82/structFClientReceiveData.html#a2a8dba598cac8f1551847c4397c503e2">   39</a></span>    int32 <a class="code hl_variable" href="../../d7/d82/structFClientReceiveData.html#a2a8dba598cac8f1551847c4397c503e2">MessageIndex</a>;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <a class="code hl_define" href="../../d8/d8d/ObjectMacros_8h.html#a0f0b61260ab178e7df0069f14ecb9f82">UPROPERTY</a>()</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <a class="code hl_typedef" href="../../d9/dd0/Platform_8h.html#a8dbb3cd84ca9fd010dadfc3815eefa5d">int32</a> MessageIndex;</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    UPROPERTY()</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../d7/d82/structFClientReceiveData.html#a7b2688843d57719f33385bc1babb4209">   42</a></span>    FString <a class="code hl_variable" href="../../d7/d82/structFClientReceiveData.html#a7b2688843d57719f33385bc1babb4209">MessageString</a>;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <a class="code hl_define" href="../../d8/d8d/ObjectMacros_8h.html#a0f0b61260ab178e7df0069f14ecb9f82">UPROPERTY</a>()</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    FString MessageString;</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    UPROPERTY()</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="../../d7/d82/structFClientReceiveData.html#a9626076cf3e460bd5f08bde7ef79808d">   45</a></span>    TObjectPtr&lt;<a class="code hl_class" href="../../d9/dab/classAPlayerState.html">APlayerState</a>&gt; <a class="code hl_variable" href="../../d7/d82/structFClientReceiveData.html#a9626076cf3e460bd5f08bde7ef79808d">RelatedPlayerState_1</a>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <a class="code hl_define" href="../../d8/d8d/ObjectMacros_8h.html#a0f0b61260ab178e7df0069f14ecb9f82">UPROPERTY</a>()</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <a class="code hl_struct" href="../../d4/d0b/structTObjectPtr.html">TObjectPtr&lt;APlayerState&gt;</a> RelatedPlayerState_1;</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    UPROPERTY()</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="../../d7/d82/structFClientReceiveData.html#ac94c84d4037509260576e7bd2170178d">   48</a></span>    TObjectPtr&lt;<a class="code hl_class" href="../../d9/dab/classAPlayerState.html">APlayerState</a>&gt; <a class="code hl_variable" href="../../d7/d82/structFClientReceiveData.html#ac94c84d4037509260576e7bd2170178d">RelatedPlayerState_2</a>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <a class="code hl_define" href="../../d8/d8d/ObjectMacros_8h.html#a0f0b61260ab178e7df0069f14ecb9f82">UPROPERTY</a>()</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <a class="code hl_struct" href="../../d4/d0b/structTObjectPtr.html">TObjectPtr&lt;APlayerState&gt;</a> RelatedPlayerState_2;</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    UPROPERTY()</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="../../d7/d82/structFClientReceiveData.html#ab87cd925c4cd0ff4b5bee9adb61cadee">   51</a></span>    TObjectPtr&lt;UObject&gt; <a class="code hl_variable" href="../../d7/d82/structFClientReceiveData.html#ab87cd925c4cd0ff4b5bee9adb61cadee">OptionalObject</a>;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <a class="code hl_define" href="../../d8/d8d/ObjectMacros_8h.html#a0f0b61260ab178e7df0069f14ecb9f82">UPROPERTY</a>()</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <a class="code hl_struct" href="../../d4/d0b/structTObjectPtr.html">TObjectPtr&lt;UObject&gt;</a> OptionalObject;</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="../../d7/d82/structFClientReceiveData.html#ae755694ee5cf067bbb59308dfd27437b">   53</a></span>    ENGINE_API <a class="code hl_function" href="../../d7/d82/structFClientReceiveData.html#ae755694ee5cf067bbb59308dfd27437b">FClientReceiveData</a>();</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    ENGINE_API FClientReceiveData();</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>};</div>
 </div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="foldopen" id="foldopen00056" data-start="{" data-end="};">
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="../../df/de7/classULocalMessage.html">   56</a></span>UCLASS(abstract, MinimalAPI)</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>class <a class="code hl_class" href="../../df/de7/classULocalMessage.html">ULocalMessage</a> : public UObject</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><a class="code hl_define" href="../../d8/d8d/ObjectMacros_8h.html#ae5f1e35d10ebc5ce3e5bf2f36bcc64f8">UCLASS</a>(<a class="code hl_variable" href="../../de/d3b/NavigationObjectBase_8h.html#a17fa61ac3806b481cafee5593b55e5d0">abstract</a>, <a class="code hl_variable" href="../../d2/da0/AnimMontage_8h.html#ab5b66a9f1ac3252ffea707183f3c1cb8">MinimalAPI</a>)</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="keyword">class </span>ULocalMessage : <span class="keyword">public</span> <a class="code hl_class" href="../../df/def/classUObject.html">UObject</a></div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>{</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    GENERATED_UCLASS_BODY()<span class="comment"></span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <a class="code hl_define" href="../../d8/d8d/ObjectMacros_8h.html#aa5fc36d4295c464ae11a12cf1b959843">GENERATED_UCLASS_BODY</a>()<span class="comment"></span></div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="comment">    /** send message to client */</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    ENGINE_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> ClientReceive(<span class="keyword">const</span> <a class="code hl_struct" href="../../d7/d82/structFClientReceiveData.html">FClientReceiveData</a>&amp; ClientData) <span class="keyword">const</span> PURE_VIRTUAL(ULocalMessage::ClientReceive,);</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    ENGINE_API virtual <span class="keywordtype">void</span> ClientReceive(const FClientReceiveData&amp; ClientData) const <a class="code hl_define" href="../../da/d38/CoreMiscDefines_8h.html#a461bc542cb01a5561075334a4a2ddb12">PURE_VIRTUAL</a>(ULocalMessage::ClientReceive,);</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>};</div>
-</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
-<div class="ttc" id="aclassAPlayerController_html"><div class="ttname"><a href="../../dd/d46/classAPlayerController.html">APlayerController</a></div><div class="ttdoc">PlayerControllers are used by human players to control Pawns.</div><div class="ttdef"><b>Definition</b> <a href="../../db/db4/PlayerController_8h_source.html#l00259">PlayerController.h:261</a></div></div>
-<div class="ttc" id="aclassAPlayerState_html"><div class="ttname"><a href="../../d9/dab/classAPlayerState.html">APlayerState</a></div><div class="ttdoc">A PlayerState is created for every player on a server (or in a standalone game).</div><div class="ttdef"><b>Definition</b> <a href="../../d4/d0c/PlayerState_8h_source.html#l00040">PlayerState.h:42</a></div></div>
-<div class="ttc" id="aclassULocalMessage_html"><div class="ttname"><a href="../../df/de7/classULocalMessage.html">ULocalMessage</a></div><div class="ttdef"><b>Definition</b> <a href="#l00056">LocalMessage.h:58</a></div></div>
-<div class="ttc" id="astructFClientReceiveData_html"><div class="ttname"><a href="../../d7/d82/structFClientReceiveData.html">FClientReceiveData</a></div><div class="ttdoc">Handles the many pieces of data passed into Client Receive.</div><div class="ttdef"><b>Definition</b> <a href="#l00026">LocalMessage.h:28</a></div></div>
-<div class="ttc" id="astructFClientReceiveData_html_a2a8dba598cac8f1551847c4397c503e2"><div class="ttname"><a href="../../d7/d82/structFClientReceiveData.html#a2a8dba598cac8f1551847c4397c503e2">FClientReceiveData::MessageIndex</a></div><div class="ttdeci">int32 MessageIndex</div><div class="ttdef"><b>Definition</b> <a href="#l00039">LocalMessage.h:39</a></div></div>
-<div class="ttc" id="astructFClientReceiveData_html_a5d7e0bcb7ad58e6b870c06569a8456f9"><div class="ttname"><a href="../../d7/d82/structFClientReceiveData.html#a5d7e0bcb7ad58e6b870c06569a8456f9">FClientReceiveData::LocalPC</a></div><div class="ttdeci">TObjectPtr&lt; APlayerController &gt; LocalPC</div><div class="ttdef"><b>Definition</b> <a href="#l00033">LocalMessage.h:33</a></div></div>
-<div class="ttc" id="astructFClientReceiveData_html_a7b2688843d57719f33385bc1babb4209"><div class="ttname"><a href="../../d7/d82/structFClientReceiveData.html#a7b2688843d57719f33385bc1babb4209">FClientReceiveData::MessageString</a></div><div class="ttdeci">FString MessageString</div><div class="ttdef"><b>Definition</b> <a href="#l00042">LocalMessage.h:42</a></div></div>
-<div class="ttc" id="astructFClientReceiveData_html_a93f91ec1486f5661a0c2c0235026c155"><div class="ttname"><a href="../../d7/d82/structFClientReceiveData.html#a93f91ec1486f5661a0c2c0235026c155">FClientReceiveData::MessageType</a></div><div class="ttdeci">FName MessageType</div><div class="ttdef"><b>Definition</b> <a href="#l00036">LocalMessage.h:36</a></div></div>
-<div class="ttc" id="astructFClientReceiveData_html_a9626076cf3e460bd5f08bde7ef79808d"><div class="ttname"><a href="../../d7/d82/structFClientReceiveData.html#a9626076cf3e460bd5f08bde7ef79808d">FClientReceiveData::RelatedPlayerState_1</a></div><div class="ttdeci">TObjectPtr&lt; APlayerState &gt; RelatedPlayerState_1</div><div class="ttdef"><b>Definition</b> <a href="#l00045">LocalMessage.h:45</a></div></div>
-<div class="ttc" id="astructFClientReceiveData_html_ab87cd925c4cd0ff4b5bee9adb61cadee"><div class="ttname"><a href="../../d7/d82/structFClientReceiveData.html#ab87cd925c4cd0ff4b5bee9adb61cadee">FClientReceiveData::OptionalObject</a></div><div class="ttdeci">TObjectPtr&lt; UObject &gt; OptionalObject</div><div class="ttdef"><b>Definition</b> <a href="#l00051">LocalMessage.h:51</a></div></div>
-<div class="ttc" id="astructFClientReceiveData_html_ac94c84d4037509260576e7bd2170178d"><div class="ttname"><a href="../../d7/d82/structFClientReceiveData.html#ac94c84d4037509260576e7bd2170178d">FClientReceiveData::RelatedPlayerState_2</a></div><div class="ttdeci">TObjectPtr&lt; APlayerState &gt; RelatedPlayerState_2</div><div class="ttdef"><b>Definition</b> <a href="#l00048">LocalMessage.h:48</a></div></div>
-<div class="ttc" id="astructFClientReceiveData_html_ae755694ee5cf067bbb59308dfd27437b"><div class="ttname"><a href="../../d7/d82/structFClientReceiveData.html#ae755694ee5cf067bbb59308dfd27437b">FClientReceiveData::FClientReceiveData</a></div><div class="ttdeci">FClientReceiveData()</div></div>
+<div class="ttc" id="aAnimMontage_8h_html_ab5b66a9f1ac3252ffea707183f3c1cb8"><div class="ttname"><a href="../../d2/da0/AnimMontage_8h.html#ab5b66a9f1ac3252ffea707183f3c1cb8">MinimalAPI</a></div><div class="ttdeci">MinimalAPI</div><div class="ttdef"><b>Definition</b> <a href="../../d2/da0/AnimMontage_8h_source.html#l00621">AnimMontage.h:621</a></div></div>
+<div class="ttc" id="aCoreMinimal_8h_html"><div class="ttname"><a href="../../d7/d67/CoreMinimal_8h.html">CoreMinimal.h</a></div></div>
+<div class="ttc" id="aCoreMiscDefines_8h_html_a461bc542cb01a5561075334a4a2ddb12"><div class="ttname"><a href="../../da/d38/CoreMiscDefines_8h.html#a461bc542cb01a5561075334a4a2ddb12">PURE_VIRTUAL</a></div><div class="ttdeci">#define PURE_VIRTUAL(func,...)</div><div class="ttdef"><b>Definition</b> <a href="../../da/d38/CoreMiscDefines_8h_source.html#l00103">CoreMiscDefines.h:103</a></div></div>
+<div class="ttc" id="aLocalMessage_8h_html_a42f3d96be78113c5119e31dbbac1d8af"><div class="ttname"><a href="../../d6/d93/LocalMessage_8h.html#a42f3d96be78113c5119e31dbbac1d8af">USTRUCT</a></div><div class="ttdeci">USTRUCT() struct FClientReceiveData</div><div class="ttdoc">Handles the many pieces of data passed into Client Receive.</div><div class="ttdef"><b>Definition</b> <a href="#l00026">LocalMessage.h:26</a></div></div>
+<div class="ttc" id="aNavigationObjectBase_8h_html_a17fa61ac3806b481cafee5593b55e5d0"><div class="ttname"><a href="../../de/d3b/NavigationObjectBase_8h.html#a17fa61ac3806b481cafee5593b55e5d0">abstract</a></div><div class="ttdeci">abstract</div><div class="ttdef"><b>Definition</b> <a href="../../de/d3b/NavigationObjectBase_8h_source.html#l00012">NavigationObjectBase.h:12</a></div></div>
+<div class="ttc" id="aObjectMacros_8h_html"><div class="ttname"><a href="../../d8/d8d/ObjectMacros_8h.html">ObjectMacros.h</a></div></div>
+<div class="ttc" id="aObjectMacros_8h_html_a0f0b61260ab178e7df0069f14ecb9f82"><div class="ttname"><a href="../../d8/d8d/ObjectMacros_8h.html#a0f0b61260ab178e7df0069f14ecb9f82">UPROPERTY</a></div><div class="ttdeci">#define UPROPERTY(...)</div><div class="ttdoc">UObject definition macros.</div><div class="ttdef"><b>Definition</b> <a href="../../d8/d8d/ObjectMacros_8h_source.html#l00723">ObjectMacros.h:723</a></div></div>
+<div class="ttc" id="aObjectMacros_8h_html_aa5fc36d4295c464ae11a12cf1b959843"><div class="ttname"><a href="../../d8/d8d/ObjectMacros_8h.html#aa5fc36d4295c464ae11a12cf1b959843">GENERATED_UCLASS_BODY</a></div><div class="ttdeci">#define GENERATED_UCLASS_BODY(...)</div><div class="ttdef"><b>Definition</b> <a href="../../d8/d8d/ObjectMacros_8h_source.html#l00746">ObjectMacros.h:746</a></div></div>
+<div class="ttc" id="aObjectMacros_8h_html_ae5f1e35d10ebc5ce3e5bf2f36bcc64f8"><div class="ttname"><a href="../../d8/d8d/ObjectMacros_8h.html#ae5f1e35d10ebc5ce3e5bf2f36bcc64f8">UCLASS</a></div><div class="ttdeci">#define UCLASS(...)</div><div class="ttdef"><b>Definition</b> <a href="../../d8/d8d/ObjectMacros_8h_source.html#l00754">ObjectMacros.h:754</a></div></div>
+<div class="ttc" id="aObjectMacros_8h_html_afa48c9423e42b6a331aa6c1739d9b659"><div class="ttname"><a href="../../d8/d8d/ObjectMacros_8h.html#afa48c9423e42b6a331aa6c1739d9b659">GENERATED_USTRUCT_BODY</a></div><div class="ttdeci">#define GENERATED_USTRUCT_BODY(...)</div><div class="ttdef"><b>Definition</b> <a href="../../d8/d8d/ObjectMacros_8h_source.html#l00745">ObjectMacros.h:745</a></div></div>
+<div class="ttc" id="aObject_8h_html"><div class="ttname"><a href="../../db/dbf/Object_8h.html">Object.h</a></div></div>
+<div class="ttc" id="aPlatform_8h_html_a8dbb3cd84ca9fd010dadfc3815eefa5d"><div class="ttname"><a href="../../d9/dd0/Platform_8h.html#a8dbb3cd84ca9fd010dadfc3815eefa5d">int32</a></div><div class="ttdeci">FPlatformTypes::int32 int32</div><div class="ttdoc">A 32-bit signed integer.</div><div class="ttdef"><b>Definition</b> <a href="../../d9/dd0/Platform_8h_source.html#l01075">Platform.h:1075</a></div></div>
+<div class="ttc" id="aclassFName_html"><div class="ttname"><a href="../../d0/d53/classFName.html">FName</a></div><div class="ttdoc">Public name, available to the world.</div><div class="ttdef"><b>Definition</b> <a href="../../d6/d35/NameTypes_8h_source.html#l00575">NameTypes.h:576</a></div></div>
+<div class="ttc" id="aclassUObject_html"><div class="ttname"><a href="../../df/def/classUObject.html">UObject</a></div><div class="ttdoc">The base class of all UE objects.</div><div class="ttdef"><b>Definition</b> <a href="../../db/dbf/Object_8h_source.html#l00093">Object.h:94</a></div></div>
+<div class="ttc" id="astructTObjectPtr_html"><div class="ttname"><a href="../../d4/d0b/structTObjectPtr.html">TObjectPtr</a></div><div class="ttdoc">TObjectPtr is a type of pointer to a UObject that is meant to function as a drop-in replacement for r...</div><div class="ttdef"><b>Definition</b> <a href="../../d6/d75/ObjectPtr_8h_source.html#l00501">ObjectPtr.h:502</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="../../dir_4aca46919dd64a018c94105a41bb52f8.html">UE_5.6</a></li><li class="navelem"><a href="../../dir_35a4881369ae19e233e6dac2bcad4050.html">Engine</a></li><li class="navelem"><a href="../../dir_9f26ecb35aabc03d0a71a3e3b9106316.html">Source</a></li><li class="navelem"><a href="../../dir_0942f747ae23c965c05d4d76ae4659cb.html">Runtime</a></li><li class="navelem"><a href="../../dir_c4f31664fb2968a098c34e2ef86324ca.html">Engine</a></li><li class="navelem"><a href="../../dir_2d50b3e22a4f3c2a257cc8ed034f8f90.html">Classes</a></li><li class="navelem"><a href="../../dir_ed269b19aee30b1edf91ca5f109cdfa1.html">GameFramework</a></li><li class="navelem"><a href="../../d6/d93/LocalMessage_8h.html">LocalMessage.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+    <li class="navelem"><a href="../../dir_7536b172fbd480bfd146a1b1acd6856b.html">Runtime</a></li><li class="navelem"><a href="../../dir_fdf6aa5c3cf3805bb958134448d60562.html">Engine</a></li><li class="navelem"><a href="../../dir_0ed647eebe6ffcaa496d3842b7cec6ce.html">Classes</a></li><li class="navelem"><a href="../../dir_cc939d8e7753f23591e1c275ea054aa8.html">GameFramework</a></li><li class="navelem"><a href="../../d6/d93/LocalMessage_8h.html">LocalMessage.h</a></li>
+    <li class="footer">Generated on <span class="timestamp"></span> for Unreal Engine 5.6 C++ API by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>
 </body>

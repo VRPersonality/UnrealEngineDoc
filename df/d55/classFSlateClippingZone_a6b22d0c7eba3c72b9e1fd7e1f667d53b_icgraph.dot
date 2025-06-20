@@ -1,0 +1,21 @@
+digraph "FSlateClippingZone::FSlateClippingZone"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FSlateClippingZone\l::FSlateClippingZone",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FSlateClippingZone\l::ConvertRelativeToAbsolute",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d55/classFSlateClippingZone.html#a018678035da427ae71a0d4ccc639be00",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FSlateClippingZone\l::GetTypeHash",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d55/classFSlateClippingZone.html#a33db4131a7919eadab1e8515b27c5063",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FSlateClippingZone\l::ComputeHash",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d55/classFSlateClippingZone.html#a170b52492e944ce84736e8e4b388c4b6",tooltip=" "];
+  Node4 -> Node3 [id="edge4_Node000004_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node5 [id="edge5_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FSlateClippingZone\l::Intersect",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d55/classFSlateClippingZone.html#a220f2a23288a6379d6303ef42b9ec3f0",tooltip="Intersects two clipping zones and returns the new clipping zone that would need to be used."];
+  Node1 -> Node6 [id="edge6_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FSlateClippingZone\l::operator==",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d55/classFSlateClippingZone.html#a5cd66fabd7b81f23e9ed8b804a679926",tooltip=" "];
+}

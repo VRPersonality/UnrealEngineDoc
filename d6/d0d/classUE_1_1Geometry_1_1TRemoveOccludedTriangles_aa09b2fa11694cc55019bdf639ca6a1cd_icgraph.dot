@@ -1,0 +1,18 @@
+digraph "UE::Geometry::TRemoveOccludedTriangles::RemoveSelected"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UE::Geometry::TRemoveOccluded\lTriangles::RemoveSelected",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Remove triangles that were selected (the triangle IDs in the RemoveT array)"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Geometry::TRemoveOccluded\lTriangles::Apply",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d0d/classUE_1_1Geometry_1_1TRemoveOccludedTriangles.html#a4ee217f021a7c0b6336c1d75221d250d",tooltip="Remove the occluded triangles, considering the given occluder AABB trees (which may represent more ge..."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::Geometry::TRemoveOccluded\lTriangles::Apply",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d0d/classUE_1_1Geometry_1_1TRemoveOccludedTriangles.html#a7ab08d14164e16ff0217fa3e3da2a75d",tooltip="Remove the occluded triangles – single instance case w/out precomputed winding tree."];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UE::Geometry::TRemoveOccluded\lTriangles::Apply",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d0d/classUE_1_1Geometry_1_1TRemoveOccludedTriangles.html#ad55212590e033b62a4a597812d28ebc3",tooltip="Remove the occluded triangles – single instance case."];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="UE::Geometry::TRemoveOccluded\lTriangles::Apply",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d0d/classUE_1_1Geometry_1_1TRemoveOccludedTriangles.html#a000bb89726c01e1ed10a981988dad276",tooltip="Remove the occluded triangles, considering the given occluder AABB tree (which may represent more geo..."];
+}

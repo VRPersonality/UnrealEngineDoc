@@ -1,0 +1,12 @@
+digraph "FSlateShapedTextElement::SetOverflowArgs"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FSlateShapedTextElement\l::SetOverflowArgs",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TSharedPtr::IsValid",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d2f/classTSharedPtr.html#acb5f7d3a359aaafcebe24b6b19882ad3",tooltip="Checks to see if this shared pointer is actually pointing to an object."];
+}

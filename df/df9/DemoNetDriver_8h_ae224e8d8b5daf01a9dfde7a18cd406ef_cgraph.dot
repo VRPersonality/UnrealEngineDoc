@@ -1,0 +1,16 @@
+digraph "USTRUCT"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="USTRUCT",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Information about net startup actors that need to be rolled back by being destroyed and re-created."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TArray::CountBytes",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d52/classTArray.html#a8dc7ee5f96f146cea9fce065515c510f",tooltip="Count bytes needed to serialize this array."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TMapBase::CountBytes",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/dad/classTMapBase.html#aa24d00e2e35b5ed8b27f5870fb2746a1",tooltip="Track the container's memory use through an archive."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TSharedPtr::Get",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d2f/classTSharedPtr.html#a34b1891c618f9221537ef6f5edc347a9",tooltip="Returns the object referenced by this pointer, or nullptr if no object is reference."];
+}

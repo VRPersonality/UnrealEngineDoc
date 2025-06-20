@@ -1,0 +1,22 @@
+digraph "UE::SequenceNavigator::INavigationToolItem::GetParent"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UE::SequenceNavigator\l::INavigationToolItem\l::GetParent",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Gets the Parent of this Item."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::SequenceNavigator\l::INavigationToolItem\l::FindAncestorOfType",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d6f/classUE_1_1SequenceNavigator_1_1INavigationToolItem.html#ae3f2589da3446f3aa8b0481f39954b4e",tooltip="Finds the first ancestor view model that implements the given type."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::SequenceNavigator\l::INavigationToolItem\l::FindAncestorOfType",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d6f/classUE_1_1SequenceNavigator_1_1INavigationToolItem.html#aa32320da85185f363f14ccfba3b7e582",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UE::SequenceNavigator\l::INavigationToolItem\l::FindAncestorsOfType",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d6f/classUE_1_1SequenceNavigator_1_1INavigationToolItem.html#a1300b5da74aa2a5e3cd7603c54d7900c",tooltip=" "];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="UE::SequenceNavigator\l::INavigationToolItem\l::GetFullPath",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d6f/classUE_1_1SequenceNavigator_1_1INavigationToolItem.html#ab61b7fbb243f3bc820d85864e0fd71ae",tooltip="Returns the path to this item in the tree."];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="UE::SequenceNavigator\l::INavigationToolItem\l::GetItemTreeHeight",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d6f/classUE_1_1SequenceNavigator_1_1INavigationToolItem.html#ae57f7776d205afeb3acd32656c59c8c1",tooltip="Returns the item's height in tree, Root Item should return 0 as it has no Parent."];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="UE::SequenceNavigator\l::INavigationToolItem\l::GetParents",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d6f/classUE_1_1SequenceNavigator_1_1INavigationToolItem.html#a7396937da05126b78af827072302310e",tooltip="Gets the list of all parents up the tree from this Item."];
+}

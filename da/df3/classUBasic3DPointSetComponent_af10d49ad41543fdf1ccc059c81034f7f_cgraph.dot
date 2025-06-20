@@ -1,0 +1,14 @@
+digraph "UBasic3DPointSetComponent::CalcBounds"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="UBasic3DPointSetComponent\l::CalcBounds",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TBasicElementSet\< FVector3f,\l 1 \>::CalcElementsBox",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d89/classTBasicElementSet.html#aa6fe51a426f60c77187d23be447d6523",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UBasicPointSetComponentBase\l::UpdateComponentBounds",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d37/classUBasicPointSetComponentBase.html#a23a164dbc0b3eddb8a1ede9fc2c3ed44",tooltip="Update component bounds using a provided function that determines the box around all point positions."];
+}

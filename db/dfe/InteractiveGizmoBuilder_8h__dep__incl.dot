@@ -1,0 +1,68 @@
+digraph "InteractiveGizmoBuilder.h"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [id="Node000001",label="InteractiveGizmoBuilder.h",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="AxisAngleGizmo.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d0b/AxisAngleGizmo_8h.html",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="AxisPositionGizmo.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d25/AxisPositionGizmo_8h.html",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="BrushStampIndicator.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/dd4/BrushStampIndicator_8h.html",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="DynamicMeshSculptTool.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d16/DynamicMeshSculptTool_8h.html",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="CombinedTransformGizmo.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d67/CombinedTransformGizmo_8h.html",tooltip=" "];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="MirrorTool.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/dc9/MirrorTool_8h.html",tooltip=" "];
+  Node6 -> Node8 [id="edge7_Node000006_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="RepositionableTransformGizmo.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/da6/RepositionableTransformGizmo_8h.html",tooltip=" "];
+  Node6 -> Node9 [id="edge8_Node000006_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="TransformGizmoUtil.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d1a/TransformGizmoUtil_8h.html",tooltip=" "];
+  Node9 -> Node10 [id="edge9_Node000009_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="TransformGizmoDataBinder.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/ddf/TransformGizmoDataBinder_8h.html",tooltip=" "];
+  Node1 -> Node11 [id="edge10_Node000001_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="GizmoUtil.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d3f/GizmoUtil_8h.html",tooltip=" "];
+  Node1 -> Node12 [id="edge11_Node000001_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="InteractiveGizmoManager.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d8a/InteractiveGizmoManager_8h.html",tooltip=" "];
+  Node12 -> Node13 [id="edge12_Node000012_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="InteractiveToolsContext.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/dfe/InteractiveToolsContext_8h.html",tooltip=" "];
+  Node13 -> Node14 [id="edge13_Node000013_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="EdModeInteractiveToolsContext.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/da4/EdModeInteractiveToolsContext_8h.html",tooltip=" "];
+  Node14 -> Node15 [id="edge14_Node000014_Node000015",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="FractureTool.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d30/FractureTool_8h.html",tooltip=" "];
+  Node15 -> Node16 [id="edge15_Node000015_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="FractureTool.cpp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d9a/FractureTool_8cpp.html",tooltip=" "];
+  Node12 -> Node17 [id="edge16_Node000012_Node000017",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="MultiTransformer.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d6f/MultiTransformer_8h.html",tooltip=" "];
+  Node12 -> Node18 [id="edge17_Node000012_Node000018",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="StateTargets.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d0d/StateTargets_8h.html",tooltip=" "];
+  Node18 -> Node19 [id="edge18_Node000018_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="GizmoComponents.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d96/GizmoComponents_8h.html",tooltip=" "];
+  Node19 -> Node2 [id="edge19_Node000019_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node19 -> Node3 [id="edge20_Node000019_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node19 -> Node20 [id="edge21_Node000019_Node000020",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node20 [id="Node000020",label="PlanePositionGizmo.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/df0/PlanePositionGizmo_8h.html",tooltip=" "];
+  Node18 -> Node21 [id="edge22_Node000018_Node000021",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node21 [id="Node000021",label="TransformProxy.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d4e/TransformProxy_8h.html",tooltip=" "];
+  Node21 -> Node6 [id="edge23_Node000021_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node21 -> Node22 [id="edge24_Node000021_Node000022",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node22 [id="Node000022",label="ComponentBoundTransformProxy.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dd2/ComponentBoundTransformProxy_8h.html",tooltip=" "];
+  Node21 -> Node19 [id="edge25_Node000021_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node21 -> Node23 [id="edge26_Node000021_Node000023",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node23 [id="Node000023",label="GizmoElementHitTargets.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d23/GizmoElementHitTargets_8h.html",tooltip=" "];
+  Node21 -> Node24 [id="edge27_Node000021_Node000024",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node24 [id="Node000024",label="IntervalGizmo.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d84/IntervalGizmo_8h.html",tooltip=" "];
+  Node21 -> Node25 [id="edge28_Node000021_Node000025",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node25 [id="Node000025",label="ScalableSphereGizmo.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d8e/ScalableSphereGizmo_8h.html",tooltip=" "];
+  Node21 -> Node26 [id="edge29_Node000021_Node000026",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node26 [id="Node000026",label="TransformSources.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/ddb/TransformSources_8h.html",tooltip=" "];
+  Node26 -> Node19 [id="edge30_Node000026_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node24 [id="edge31_Node000001_Node000024",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node20 [id="edge32_Node000001_Node000020",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node8 [id="edge33_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node25 [id="edge34_Node000001_Node000025",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

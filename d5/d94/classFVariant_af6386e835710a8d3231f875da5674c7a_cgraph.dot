@@ -1,0 +1,14 @@
+digraph "FVariant::operator="
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FVariant::operator=",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Assignment operator for TCHAR strings."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FVariant::FVariant",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d94/classFVariant.html#a18eb5432dea8ab59d5373d6a426c0e6a",tooltip="Default constructor."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FVariant::Empty",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d94/classFVariant.html#a84dc95c679e32737efa2447b7399375a",tooltip="Empties the value."];
+}

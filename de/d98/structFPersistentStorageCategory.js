@@ -1,0 +1,27 @@
+var structFPersistentStorageCategory =
+[
+    [ "CategoryStat", "dc/da3/structFPersistentStorageCategory_1_1CategoryStat.html", "dc/da3/structFPersistentStorageCategory_1_1CategoryStat" ],
+    [ "FPersistentStorageCategory", "de/d98/structFPersistentStorageCategory.html#a3d79f4e247caba05c7574e0d9a53f4f0", null ],
+    [ "AddOrUpdateFile", "de/d98/structFPersistentStorageCategory.html#a996b00d221baf6b76306fb6cf408d6d5", null ],
+    [ "GetAvailableSize", "de/d98/structFPersistentStorageCategory.html#afacc3ea8e68167d85d5ca6bd3189fca9", null ],
+    [ "GetCategoryName", "de/d98/structFPersistentStorageCategory.html#a16588b504f0ac14b71ef3655f82d6003", null ],
+    [ "GetCategoryOptionalQuota", "de/d98/structFPersistentStorageCategory.html#a1ff5a9b0c496cb5cf5e2bace7c2002b2", null ],
+    [ "GetCategoryQuota", "de/d98/structFPersistentStorageCategory.html#a51e166ec85808f1ff4fa4ff48cafce26", null ],
+    [ "GetDirectories", "de/d98/structFPersistentStorageCategory.html#abc17047c8dbb7f73fe40088d9619d20c", null ],
+    [ "GetLockRegistry", "de/d98/structFPersistentStorageCategory.html#a7814086014b0ad7dba8d79bc3818ad6f", null ],
+    [ "GetStat", "de/d98/structFPersistentStorageCategory.html#a95aca1a00ec3c337d94694e1231b1385", null ],
+    [ "GetUsedSize", "de/d98/structFPersistentStorageCategory.html#a18cd0120702228d1795a233b3c5e0564", null ],
+    [ "IsCategoryFull", "de/d98/structFPersistentStorageCategory.html#adc56abd993192a0b6421c075a6ea0693", null ],
+    [ "IsInCategory", "de/d98/structFPersistentStorageCategory.html#a1157d152281f1c73f31ad2897bee80c7", null ],
+    [ "RemoveFile", "de/d98/structFPersistentStorageCategory.html#aab21dc21796c839cc40d634ba4d99dc1", null ],
+    [ "ShouldManageFile", "de/d98/structFPersistentStorageCategory.html#ad7caff2b9a655737b5a00e5c43a8d9fe", null ],
+    [ "TryUpdateQuota", "de/d98/structFPersistentStorageCategory.html#aaf92dbfb11f093d2b832a578b2ecee4f", null ],
+    [ "CategoryName", "de/d98/structFPersistentStorageCategory.html#ab13bf3a537a540cfd2547955fb34aa83", null ],
+    [ "Directories", "de/d98/structFPersistentStorageCategory.html#a4bb9c4b66bec5cf66b1d7c22b1d758f3", null ],
+    [ "FileLockRegistry", "de/d98/structFPersistentStorageCategory.html#ac73b8e1cf8dc1cb5c76ba166bb9b3454", null ],
+    [ "FileSizes", "de/d98/structFPersistentStorageCategory.html#a4100925990d4b2d9e9c712d160afdf3f", null ],
+    [ "FileSizesLock", "de/d98/structFPersistentStorageCategory.html#a25cecc91416224417a9b608cc83584d7", null ],
+    [ "OptionalStorageQuota", "de/d98/structFPersistentStorageCategory.html#a187026dd1250285a40ce8030b69a726a", null ],
+    [ "StorageQuota", "de/d98/structFPersistentStorageCategory.html#a9590fc0ff1b95eab432ba6f0d8032679", null ],
+    [ "UsedQuota", "de/d98/structFPersistentStorageCategory.html#a1858aeff44cbe01e8a7199e7ebec23bc", null ]
+];

@@ -1,0 +1,16 @@
+digraph "TSparseArray::Empty"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TSparseArray::Empty",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Removes all elements from the array, potentially leaving space allocated for an expected number of el..."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TMeshElementArrayBase\l::Compact",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dd0/classTMeshElementArrayBase.html#abf8675849a05db26f4fcab18cb2a60f9",tooltip="Compacts elements and returns a remapping table."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TSparseArray\< SetElement\lType, typename Allocator\l::SparseArrayAllocator \>\l::CompactStable",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/db8/classTSparseArray.html#adf0d4dec7c3f816cfc427cabfa4f5f59",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="operator\<\<",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dbf/SparseArray_8h.html#af34a659fb7e3ca48c538f88d483a0f07",tooltip="Structured archive serializer."];
+}

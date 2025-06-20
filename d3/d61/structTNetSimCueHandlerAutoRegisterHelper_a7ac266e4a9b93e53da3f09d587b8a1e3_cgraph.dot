@@ -1,0 +1,17 @@
+digraph "TNetSimCueHandlerAutoRegisterHelper::~TNetSimCueHandlerAutoRegisterHelper"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TNetSimCueHandlerAutoRegister\lHelper::~TNetSimCueHandlerAutoRegister\lHelper",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FGlobalCueTypeTable\l::UnregisterDispatchTableCallback",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d90/classFGlobalCueTypeTable.html#aa8abb72d1df778065feb0c33f3b70ec4",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FGlobalCueTypeTable\l::GetRegistedTypeInfo",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d90/classFGlobalCueTypeTable.html#a02a8e175a60223e59ab5e72d8e6876b0",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="IsEngineExitRequested",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d8c/CoreGlobals_8h.html#a12cd13f710f90a29d5536763ef6a62ea",tooltip=" "];
+  Node4 -> Node4 [id="edge4_Node000004_Node000004",color="steelblue1",style="solid",tooltip=" "];
+}

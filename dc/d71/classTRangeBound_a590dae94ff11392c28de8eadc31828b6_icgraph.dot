@@ -1,0 +1,16 @@
+digraph "TRangeBound::IsClosed"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TRangeBound::IsClosed",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Checks whether the bound is closed."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::MovieScene::ClampToDiscrete\lRange",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/dd1/namespaceUE_1_1MovieScene.html#a7591776edffcabd99279a2706d0d12b6",tooltip="Clamp the specified time to a range."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TRangeSet::HasMaxBound",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/df2/classTRangeSet.html#a056fa31907de71c0b3e1d8e29b56b25e",tooltip="Checks whether the range has an uppermost bound."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TRangeSet::HasMinBound",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/df2/classTRangeSet.html#ac02c9ed2d81994990af2259606456529",tooltip="Checks whether the range has a lowest bound."];
+}

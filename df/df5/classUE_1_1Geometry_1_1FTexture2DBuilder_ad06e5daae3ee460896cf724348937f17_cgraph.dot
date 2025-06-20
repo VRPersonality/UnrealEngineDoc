@@ -1,0 +1,14 @@
+digraph "UE::Geometry::FTexture2DBuilder::CopyTexel"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="UE::Geometry::FTexture2DBuilder\l::CopyTexel",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Copy texel value from one linear index to another."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Geometry::FTexture2DBuilder\l::IsByteTexture",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/df5/classUE_1_1Geometry_1_1FTexture2DBuilder.html#ade640d0d1fe5ba9408d9762809db12da",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::Geometry::FTexture2DBuilder\l::IsEditable",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/df5/classUE_1_1Geometry_1_1FTexture2DBuilder.html#ab55a7658d6d6cd87b63103941f1d11fe",tooltip=" "];
+}

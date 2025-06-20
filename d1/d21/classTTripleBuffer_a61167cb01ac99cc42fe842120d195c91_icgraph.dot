@@ -1,0 +1,12 @@
+digraph "TTripleBuffer::Read"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TTripleBuffer::Read",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Read a value from the current read buffer."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TTripleBuffer::SwapAndRead",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d21/classTTripleBuffer.html#aa56b19d6194e05449e6d5c6228eb50a7",tooltip="Convenience method for fetching and reading the latest buffer."];
+}

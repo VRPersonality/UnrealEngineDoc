@@ -1,0 +1,12 @@
+digraph "FLinearColor::FromSRGBColor"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FLinearColor::FromSRGBColor",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Converts an FColor coming from an observed sRGB output, into a linear color."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::MovieScene::FIntermediate\lColor::FIntermediateColor",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d13/structUE_1_1MovieScene_1_1FIntermediateColor.html#a67dd210220c450bbda8bf3aac74ea4fa",tooltip=" "];
+}

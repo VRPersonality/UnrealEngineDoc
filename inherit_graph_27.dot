@@ -1,0 +1,10 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="ArrangeUtils::GetChildAlignment\l\< Orientation \>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d34/structArrangeUtils_1_1GetChildAlignment.html",tooltip="Gets the alignment of an axis-agnostic int32 so that we can do alignment on an axis without caring ab..."];
+}

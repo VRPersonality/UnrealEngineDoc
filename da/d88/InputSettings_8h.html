@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Unreal Engine 5.6 C++ Documentation: UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/InputSettings.h File Reference</title>
+<title>Unreal Engine 5.6 C++ API: InputSettings.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -18,7 +18,11 @@
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
-<link href="../../unreal_theme.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -27,9 +31,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Unreal Engine 5.6 C++ Documentation<span id="projectnumber">&#160;5.6</span>
+   <div id="projectname">Unreal Engine 5.6 C++ API<span id="projectnumber">&#160;5.6.0</span>
    </div>
-   <div id="projectbrief">Documentation UE5 avec chemins sources corrects</div>
+   <div id="projectbrief">C++ API documentation for Unreal Engine 5.6</div>
   </td>
  </tr>
  </tbody>
@@ -93,567 +97,143 @@ $(function(){initNavTree('da/d88/InputSettings_8h.html','../../',''); });
   <div class="headertitle"><div class="title">InputSettings.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;CoreMinimal.h&quot;</code><br />
-<code>#include &quot;UObject/ObjectMacros.h&quot;</code><br />
-<code>#include &quot;UObject/Object.h&quot;</code><br />
-<code>#include &quot;InputCoreTypes.h&quot;</code><br />
-<code>#include &quot;UObject/SoftObjectPath.h&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d7/d67/CoreMinimal_8h_source.html">CoreMinimal.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html">UObject/ObjectMacros.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/dbf/Object_8h_source.html">UObject/Object.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/d34/InputCoreTypes_8h_source.html">InputCoreTypes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/dc8/SoftObjectPath_8h_source.html">UObject/SoftObjectPath.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/d03/PlayerInput_8h_source.html">GameFramework/PlayerInput.h</a>&quot;</code><br />
-<code>#include &quot;GenericPlatform/InputDeviceMappingPolicy.h&quot;</code><br />
-<code>#include &quot;Components/InputComponent.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/dab/InputDeviceMappingPolicy_8h_source.html">GenericPlatform/InputDeviceMappingPolicy.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/de7/InputComponent_8h_source.html">Components/InputComponent.h</a>&quot;</code><br />
 <code>#include &quot;Engine/PlatformSettings.h&quot;</code><br />
 <code>#include &quot;InputSettings.generated.h&quot;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Include dependency graph for InputSettings.h:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 0 --></div>
+</div>
+</div><div class="textblock"><div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>This graph shows which files directly or indirectly include this file:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 1 --></div>
+</div>
 </div>
 <p><a href="../../da/d88/InputSettings_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:UInputSettings" id="r_UInputSettings"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d22/classUInputSettings.html">UInputSettings</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Project wide settings for input handling.  <a href="../../dc/d22/classUInputSettings.html#details">More...</a><br /></td></tr>
-<tr class="memitem:FHardwareDeviceIdentifier" id="r_FHardwareDeviceIdentifier"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/structFHardwareDeviceIdentifier.html">FHardwareDeviceIdentifier</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An identifier that can be used to determine what input devices are available based on the FInputDeviceScope.  <a href="../../d4/d51/structFHardwareDeviceIdentifier.html#details">More...</a><br /></td></tr>
-<tr class="memitem:UInputPlatformSettings" id="r_UInputPlatformSettings"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d0d/classUInputPlatformSettings.html">UInputPlatformSettings</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Per-Platform input options.  <a href="../../d1/d0d/classUInputPlatformSettings.html#details">More...</a><br /></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:af39ee9f13f828cdcb24512d5d1affe86" id="r_af39ee9f13f828cdcb24512d5d1affe86"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86">Type</a> : int32 { <br />
-&#160;&#160;<a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86ad5ac72c5865472b99fc2dbf8bbf0ba1f">Unspecified</a> = 0x00000000
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86aa67d18c54af5d9cafac40d9d5c33bf52">Keypress</a> = 0x00000001
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a3abbb82a6c0f721a1ad151a447de17e1">Pointer</a> = 0x00000002
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a4b0aeb2d67f99bf56bd609c3897225ad">Gamepad</a> = 0x00000004
-, <br />
-&#160;&#160;<a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86aa4440edfd6ead0aa4ebe08f813fab158">Touch</a> = 0x00000008
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a7fc065eee2979b6c4cb8451032e88a33">Camera</a> = 0x00000010
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a1ff4e914e3deb437c0f2ac2ee620e5a8">MotionTracking</a> = 0x00000020
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a52ea1fd4ba220f9193dba20205470fae">Lights</a> = 0x00000040
-, <br />
-&#160;&#160;<a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86ad3eb61e9d62d0bf6e2da3ba59862857a">TriggerHaptics</a> = 0x00000080
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a6c96d2bdb6943044130988ca1d25dde2">ForceFeedback</a> = 0x00000100
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a76d89265fecf53d0b68ceecb68a40254">AudioBasedVibrations</a> = 0x00000200
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86ac5898d8042e921d45a623d6a6896b291">Acceleration</a> = 0x00000400
-, <br />
-&#160;&#160;<a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a97ae4d33386c6ba91fd93ff3e23e2791">Virtual</a> = 0x00000800
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a80e9ad9b72e65a195b8e56cf219482eb">Microphone</a> = 0x00001000
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a871118a09520247c78a71ecd7b0abd58">Orientation</a> = 0x00002000
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a25e244af096aeb2c029cfbd908cf7f8f">Guitar</a> = 0x00004000
-, <br />
-&#160;&#160;<a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a0537ec8b10453beeb23fbad619af76fb">Drums</a> = 0x00008000
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a749c8bfb99caae11f27505a4f8d5a003">CustomA</a> = 0x01000000
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a35b2e490688c4af61e951857ab2705e7">CustomB</a> = 0x02000000
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a81378cd7a979054bf2df17360d5b8313">CustomC</a> = 0x04000000
-, <br />
-&#160;&#160;<a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86ab0d461e1bdfbd19793b63df87bc75658">CustomD</a> = 0x08000000
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a911a49b7967ef10985d331841303b75f">All</a> = 0x7FFFFFFF UMETA(Hidden)
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86ad5ac72c5865472b99fc2dbf8bbf0ba1f">Unspecified</a> = 0x00000000
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86aa67d18c54af5d9cafac40d9d5c33bf52">Keypress</a> = 0x00000001
-, <br />
-&#160;&#160;<a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a3abbb82a6c0f721a1ad151a447de17e1">Pointer</a> = 0x00000002
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a4b0aeb2d67f99bf56bd609c3897225ad">Gamepad</a> = 0x00000004
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86aa4440edfd6ead0aa4ebe08f813fab158">Touch</a> = 0x00000008
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a7fc065eee2979b6c4cb8451032e88a33">Camera</a> = 0x00000010
-, <br />
-&#160;&#160;<a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a1ff4e914e3deb437c0f2ac2ee620e5a8">MotionTracking</a> = 0x00000020
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a52ea1fd4ba220f9193dba20205470fae">Lights</a> = 0x00000040
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86ad3eb61e9d62d0bf6e2da3ba59862857a">TriggerHaptics</a> = 0x00000080
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a6c96d2bdb6943044130988ca1d25dde2">ForceFeedback</a> = 0x00000100
-, <br />
-&#160;&#160;<a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a76d89265fecf53d0b68ceecb68a40254">AudioBasedVibrations</a> = 0x00000200
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86ac5898d8042e921d45a623d6a6896b291">Acceleration</a> = 0x00000400
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a97ae4d33386c6ba91fd93ff3e23e2791">Virtual</a> = 0x00000800
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a80e9ad9b72e65a195b8e56cf219482eb">Microphone</a> = 0x00001000
-, <br />
-&#160;&#160;<a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a871118a09520247c78a71ecd7b0abd58">Orientation</a> = 0x00002000
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a25e244af096aeb2c029cfbd908cf7f8f">Guitar</a> = 0x00004000
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a0537ec8b10453beeb23fbad619af76fb">Drums</a> = 0x00008000
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a749c8bfb99caae11f27505a4f8d5a003">CustomA</a> = 0x01000000
-, <br />
-&#160;&#160;<a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a35b2e490688c4af61e951857ab2705e7">CustomB</a> = 0x02000000
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a81378cd7a979054bf2df17360d5b8313">CustomC</a> = 0x04000000
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86ab0d461e1bdfbd19793b63df87bc75658">CustomD</a> = 0x08000000
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a911a49b7967ef10985d331841303b75f">All</a> = 0x7FFFFFFF UMETA(Hidden)
-<br />
- }</td></tr>
-<tr class="memitem:af39ee9f13f828cdcb24512d5d1affe86" id="r_af39ee9f13f828cdcb24512d5d1affe86"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86">Type</a> : int32 { <br />
-&#160;&#160;<a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86ad5ac72c5865472b99fc2dbf8bbf0ba1f">Unspecified</a> = 0x00000000
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86aa67d18c54af5d9cafac40d9d5c33bf52">Keypress</a> = 0x00000001
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a3abbb82a6c0f721a1ad151a447de17e1">Pointer</a> = 0x00000002
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a4b0aeb2d67f99bf56bd609c3897225ad">Gamepad</a> = 0x00000004
-, <br />
-&#160;&#160;<a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86aa4440edfd6ead0aa4ebe08f813fab158">Touch</a> = 0x00000008
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a7fc065eee2979b6c4cb8451032e88a33">Camera</a> = 0x00000010
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a1ff4e914e3deb437c0f2ac2ee620e5a8">MotionTracking</a> = 0x00000020
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a52ea1fd4ba220f9193dba20205470fae">Lights</a> = 0x00000040
-, <br />
-&#160;&#160;<a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86ad3eb61e9d62d0bf6e2da3ba59862857a">TriggerHaptics</a> = 0x00000080
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a6c96d2bdb6943044130988ca1d25dde2">ForceFeedback</a> = 0x00000100
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a76d89265fecf53d0b68ceecb68a40254">AudioBasedVibrations</a> = 0x00000200
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86ac5898d8042e921d45a623d6a6896b291">Acceleration</a> = 0x00000400
-, <br />
-&#160;&#160;<a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a97ae4d33386c6ba91fd93ff3e23e2791">Virtual</a> = 0x00000800
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a80e9ad9b72e65a195b8e56cf219482eb">Microphone</a> = 0x00001000
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a871118a09520247c78a71ecd7b0abd58">Orientation</a> = 0x00002000
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a25e244af096aeb2c029cfbd908cf7f8f">Guitar</a> = 0x00004000
-, <br />
-&#160;&#160;<a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a0537ec8b10453beeb23fbad619af76fb">Drums</a> = 0x00008000
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a749c8bfb99caae11f27505a4f8d5a003">CustomA</a> = 0x01000000
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a35b2e490688c4af61e951857ab2705e7">CustomB</a> = 0x02000000
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a81378cd7a979054bf2df17360d5b8313">CustomC</a> = 0x04000000
-, <br />
-&#160;&#160;<a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86ab0d461e1bdfbd19793b63df87bc75658">CustomD</a> = 0x08000000
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a911a49b7967ef10985d331841303b75f">All</a> = 0x7FFFFFFF UMETA(Hidden)
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86ad5ac72c5865472b99fc2dbf8bbf0ba1f">Unspecified</a> = 0x00000000
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86aa67d18c54af5d9cafac40d9d5c33bf52">Keypress</a> = 0x00000001
-, <br />
-&#160;&#160;<a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a3abbb82a6c0f721a1ad151a447de17e1">Pointer</a> = 0x00000002
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a4b0aeb2d67f99bf56bd609c3897225ad">Gamepad</a> = 0x00000004
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86aa4440edfd6ead0aa4ebe08f813fab158">Touch</a> = 0x00000008
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a7fc065eee2979b6c4cb8451032e88a33">Camera</a> = 0x00000010
-, <br />
-&#160;&#160;<a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a1ff4e914e3deb437c0f2ac2ee620e5a8">MotionTracking</a> = 0x00000020
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a52ea1fd4ba220f9193dba20205470fae">Lights</a> = 0x00000040
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86ad3eb61e9d62d0bf6e2da3ba59862857a">TriggerHaptics</a> = 0x00000080
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a6c96d2bdb6943044130988ca1d25dde2">ForceFeedback</a> = 0x00000100
-, <br />
-&#160;&#160;<a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a76d89265fecf53d0b68ceecb68a40254">AudioBasedVibrations</a> = 0x00000200
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86ac5898d8042e921d45a623d6a6896b291">Acceleration</a> = 0x00000400
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a97ae4d33386c6ba91fd93ff3e23e2791">Virtual</a> = 0x00000800
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a80e9ad9b72e65a195b8e56cf219482eb">Microphone</a> = 0x00001000
-, <br />
-&#160;&#160;<a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a871118a09520247c78a71ecd7b0abd58">Orientation</a> = 0x00002000
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a25e244af096aeb2c029cfbd908cf7f8f">Guitar</a> = 0x00004000
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a0537ec8b10453beeb23fbad619af76fb">Drums</a> = 0x00008000
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a749c8bfb99caae11f27505a4f8d5a003">CustomA</a> = 0x01000000
-, <br />
-&#160;&#160;<a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a35b2e490688c4af61e951857ab2705e7">CustomB</a> = 0x02000000
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a81378cd7a979054bf2df17360d5b8313">CustomC</a> = 0x04000000
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86ab0d461e1bdfbd19793b63df87bc75658">CustomD</a> = 0x08000000
-, <a class="el" href="#af39ee9f13f828cdcb24512d5d1affe86a911a49b7967ef10985d331841303b75f">All</a> = 0x7FFFFFFF UMETA(Hidden)
-<br />
- }</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a4447f1148ac527743246f016836f6aec" id="r_a4447f1148ac527743246f016836f6aec"><td class="memItemLeft" align="right" valign="top">enum namespace <a class="el" href="#a8294c1d1e123e175184b46d5be59ce6f">EHardwareDeviceSupportedFeatures</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4447f1148ac527743246f016836f6aec">ENUM_CLASS_FLAGS</a> (<a class="el" href="../../d1/d08/GameUserSettings_8h.html#a17016d41439c2e42399cc92d8a95ad1d">EHardwareDeviceSupportedFeatures::Type</a>)</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a8294c1d1e123e175184b46d5be59ce6f" id="r_a8294c1d1e123e175184b46d5be59ce6f"><td class="memItemLeft" align="right" valign="top">enum namespace&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8294c1d1e123e175184b46d5be59ce6f">EHardwareDeviceSupportedFeatures</a></td></tr>
-<tr class="memdesc:a8294c1d1e123e175184b46d5be59ce6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">A bitmask of supported features that a hardware device has.  <br /></td></tr>
-<tr class="memitem:a79184698c612b041505ff6ad9ba2c95e" id="r_a79184698c612b041505ff6ad9ba2c95e"><td class="memItemLeft" align="right" valign="top">enum enum class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79184698c612b041505ff6ad9ba2c95e">EHardwareDevicePrimaryType</a></td></tr>
-<tr class="memdesc:a79184698c612b041505ff6ad9ba2c95e"><td class="mdescLeft">&#160;</td><td class="mdescRight">What is the primary use of an input device type?  <br /></td></tr>
-<tr class="memitem:adec4c5b89763124b87316c47dd4d2ea6" id="r_adec4c5b89763124b87316c47dd4d2ea6"><td class="memItemLeft" align="right" valign="top">enum enum class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adec4c5b89763124b87316c47dd4d2ea6">KeyboardAndMouse</a></td></tr>
-<tr class="memitem:a7b1320797dfa39bc43811e7de0f3bbfa" id="r_a7b1320797dfa39bc43811e7de0f3bbfa"><td class="memItemLeft" align="right" valign="top">enum enum class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b1320797dfa39bc43811e7de0f3bbfa">RacingWheel</a></td></tr>
-<tr class="memitem:a3f73878dd29c84486368d540ab574ab5" id="r_a3f73878dd29c84486368d540ab574ab5"><td class="memItemLeft" align="right" valign="top">enum enum class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f73878dd29c84486368d540ab574ab5">FlightStick</a></td></tr>
-<tr class="memitem:a6d5fe4015f95e9de181fa34da1c965b0" id="r_a6d5fe4015f95e9de181fa34da1c965b0"><td class="memItemLeft" align="right" valign="top">enum enum class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d5fe4015f95e9de181fa34da1c965b0">Instrument</a></td></tr>
-<tr class="memitem:acb4efd78e2d2338f1805a20b5a81ebe2" id="r_acb4efd78e2d2338f1805a20b5a81ebe2"><td class="memItemLeft" align="right" valign="top">enum enum class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb4efd78e2d2338f1805a20b5a81ebe2">CustomTypeA</a></td></tr>
-<tr class="memitem:a662878347021a67f50b21cf4105a727d" id="r_a662878347021a67f50b21cf4105a727d"><td class="memItemLeft" align="right" valign="top">enum enum class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a662878347021a67f50b21cf4105a727d">CustomTypeB</a></td></tr>
-<tr class="memitem:a7b82051d25c38012848d3fd83a8cb02d" id="r_a7b82051d25c38012848d3fd83a8cb02d"><td class="memItemLeft" align="right" valign="top">enum enum class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b82051d25c38012848d3fd83a8cb02d">CustomTypeC</a></td></tr>
-<tr class="memitem:a1e418aac85c2b2425e2eb21bd1ca8ba1" id="r_a1e418aac85c2b2425e2eb21bd1ca8ba1"><td class="memItemLeft" align="right" valign="top">enum enum class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e418aac85c2b2425e2eb21bd1ca8ba1">CustomTypeD</a></td></tr>
-<tr class="memitem:ad56c47ca031cc474097951e1a146ba34" id="r_ad56c47ca031cc474097951e1a146ba34"><td class="memItemLeft" align="right" valign="top">enum enum class struct struct <a class="el" href="../../d4/d51/structFHardwareDeviceIdentifier.html">FHardwareDeviceIdentifier</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad56c47ca031cc474097951e1a146ba34">ENUM_CLASS_FLAGS</a></td></tr>
+<tr class="memitem:abd632c5e8ec8524faa7a9d7b593f50bc" id="r_abd632c5e8ec8524faa7a9d7b593f50bc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd632c5e8ec8524faa7a9d7b593f50bc">ENUM_CLASS_FLAGS</a> (EHardwareDeviceSupportedFeatures::Type)</td></tr>
+<tr class="memitem:a44db994e83a66a7357b9b80601c49a18" id="r_a44db994e83a66a7357b9b80601c49a18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d8d/ObjectMacros_8h.html#ae5f1e35d10ebc5ce3e5bf2f36bcc64f8">UCLASS</a>() class UInputSettings&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44db994e83a66a7357b9b80601c49a18">UENUM</a> ()) namespace EHardwareDeviceSupportedFeatures</td></tr>
+<tr class="memdesc:a44db994e83a66a7357b9b80601c49a18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Project wide settings for input handling.  <br /></td></tr>
+<tr class="memitem:ad2efd11102c37a3889066ce3a13168c6" id="r_ad2efd11102c37a3889066ce3a13168c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d8d/ObjectMacros_8h.html#ae78af6f4cdfd7e2d2a4a557b5197ce06">UENUM</a>() enum class EHardwareDevicePrimaryType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2efd11102c37a3889066ce3a13168c6">USTRUCT</a> () struct FHardwareDeviceIdentifier</td></tr>
+<tr class="memdesc:ad2efd11102c37a3889066ce3a13168c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">What is the primary use of an input device type?  <br /></td></tr>
 </table>
-<a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
-<a id="af39ee9f13f828cdcb24512d5d1affe86" name="af39ee9f13f828cdcb24512d5d1affe86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af39ee9f13f828cdcb24512d5d1affe86">&#9670;&#160;</a></span>Type <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d1/d08/GameUserSettings_8h.html#a17016d41439c2e42399cc92d8a95ad1d">Type</a> : int32</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86ad5ac72c5865472b99fc2dbf8bbf0ba1f" name="af39ee9f13f828cdcb24512d5d1affe86ad5ac72c5865472b99fc2dbf8bbf0ba1f"></a>Unspecified&#160;</td><td class="fielddoc"><p>A device that has not specified the type. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86aa67d18c54af5d9cafac40d9d5c33bf52" name="af39ee9f13f828cdcb24512d5d1affe86aa67d18c54af5d9cafac40d9d5c33bf52"></a>Keypress&#160;</td><td class="fielddoc"><p>This device can support basic key presses. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a3abbb82a6c0f721a1ad151a447de17e1" name="af39ee9f13f828cdcb24512d5d1affe86a3abbb82a6c0f721a1ad151a447de17e1"></a>Pointer&#160;</td><td class="fielddoc"><p>This device can handle basic pointer behavior, such as a mouse. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a4b0aeb2d67f99bf56bd609c3897225ad" name="af39ee9f13f828cdcb24512d5d1affe86a4b0aeb2d67f99bf56bd609c3897225ad"></a>Gamepad&#160;</td><td class="fielddoc"><p>This device has basic gamepad support. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86aa4440edfd6ead0aa4ebe08f813fab158" name="af39ee9f13f828cdcb24512d5d1affe86aa4440edfd6ead0aa4ebe08f813fab158"></a>Touch&#160;</td><td class="fielddoc"><p>This device supports touch in some capactiy (tablet, controller with a touch pad, etc) </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a7fc065eee2979b6c4cb8451032e88a33" name="af39ee9f13f828cdcb24512d5d1affe86a7fc065eee2979b6c4cb8451032e88a33"></a>Camera&#160;</td><td class="fielddoc"><p>Does this device have a camera on it that we can access? </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a1ff4e914e3deb437c0f2ac2ee620e5a8" name="af39ee9f13f828cdcb24512d5d1affe86a1ff4e914e3deb437c0f2ac2ee620e5a8"></a>MotionTracking&#160;</td><td class="fielddoc"><p>Can this device track motion in a 3D space? </p>
-<p>(VR controllers, headset, etc) </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a52ea1fd4ba220f9193dba20205470fae" name="af39ee9f13f828cdcb24512d5d1affe86a52ea1fd4ba220f9193dba20205470fae"></a>Lights&#160;</td><td class="fielddoc"><p>This hardware supports setting a light color (such as an LED light bar) </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86ad3eb61e9d62d0bf6e2da3ba59862857a" name="af39ee9f13f828cdcb24512d5d1affe86ad3eb61e9d62d0bf6e2da3ba59862857a"></a>TriggerHaptics&#160;</td><td class="fielddoc"><p>Does this device have trigger haptics available? </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a6c96d2bdb6943044130988ca1d25dde2" name="af39ee9f13f828cdcb24512d5d1affe86a6c96d2bdb6943044130988ca1d25dde2"></a>ForceFeedback&#160;</td><td class="fielddoc"><p>Flagged true if this device supports force feedback. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a76d89265fecf53d0b68ceecb68a40254" name="af39ee9f13f828cdcb24512d5d1affe86a76d89265fecf53d0b68ceecb68a40254"></a>AudioBasedVibrations&#160;</td><td class="fielddoc"><p>Does this device support vibrations sourced from an audio file? </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86ac5898d8042e921d45a623d6a6896b291" name="af39ee9f13f828cdcb24512d5d1affe86ac5898d8042e921d45a623d6a6896b291"></a>Acceleration&#160;</td><td class="fielddoc"><p>This device can track acceleration in the users physical space. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a97ae4d33386c6ba91fd93ff3e23e2791" name="af39ee9f13f828cdcb24512d5d1affe86a97ae4d33386c6ba91fd93ff3e23e2791"></a>Virtual&#160;</td><td class="fielddoc"><p>This is a virtual device simulating input, not a physical device. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a80e9ad9b72e65a195b8e56cf219482eb" name="af39ee9f13f828cdcb24512d5d1affe86a80e9ad9b72e65a195b8e56cf219482eb"></a>Microphone&#160;</td><td class="fielddoc"><p>This device has a microphone on it that you can get audio from. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a871118a09520247c78a71ecd7b0abd58" name="af39ee9f13f828cdcb24512d5d1affe86a871118a09520247c78a71ecd7b0abd58"></a>Orientation&#160;</td><td class="fielddoc"><p>This device can track the orientation in world space, such as a gyroscope. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a25e244af096aeb2c029cfbd908cf7f8f" name="af39ee9f13f828cdcb24512d5d1affe86a25e244af096aeb2c029cfbd908cf7f8f"></a>Guitar&#160;</td><td class="fielddoc"><p>This device has the capabilities of a guitar (whammy bar, tilt, etc) </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a0537ec8b10453beeb23fbad619af76fb" name="af39ee9f13f828cdcb24512d5d1affe86a0537ec8b10453beeb23fbad619af76fb"></a>Drums&#160;</td><td class="fielddoc"><p>This device has the capabilities of drums (symbols, foot pedal, etc) </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a749c8bfb99caae11f27505a4f8d5a003" name="af39ee9f13f828cdcb24512d5d1affe86a749c8bfb99caae11f27505a4f8d5a003"></a>CustomA&#160;</td><td class="fielddoc"><p>Some custom flags that can be used in your game if you have custom hardware! </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a35b2e490688c4af61e951857ab2705e7" name="af39ee9f13f828cdcb24512d5d1affe86a35b2e490688c4af61e951857ab2705e7"></a>CustomB&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a81378cd7a979054bf2df17360d5b8313" name="af39ee9f13f828cdcb24512d5d1affe86a81378cd7a979054bf2df17360d5b8313"></a>CustomC&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86ab0d461e1bdfbd19793b63df87bc75658" name="af39ee9f13f828cdcb24512d5d1affe86ab0d461e1bdfbd19793b63df87bc75658"></a>CustomD&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a911a49b7967ef10985d331841303b75f" name="af39ee9f13f828cdcb24512d5d1affe86a911a49b7967ef10985d331841303b75f"></a>All&#160;</td><td class="fielddoc"><p>A flag for ALL supported device flags. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86ad5ac72c5865472b99fc2dbf8bbf0ba1f" name="af39ee9f13f828cdcb24512d5d1affe86ad5ac72c5865472b99fc2dbf8bbf0ba1f"></a>Unspecified&#160;</td><td class="fielddoc"><p>A device that has not specified the type. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86aa67d18c54af5d9cafac40d9d5c33bf52" name="af39ee9f13f828cdcb24512d5d1affe86aa67d18c54af5d9cafac40d9d5c33bf52"></a>Keypress&#160;</td><td class="fielddoc"><p>This device can support basic key presses. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a3abbb82a6c0f721a1ad151a447de17e1" name="af39ee9f13f828cdcb24512d5d1affe86a3abbb82a6c0f721a1ad151a447de17e1"></a>Pointer&#160;</td><td class="fielddoc"><p>This device can handle basic pointer behavior, such as a mouse. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a4b0aeb2d67f99bf56bd609c3897225ad" name="af39ee9f13f828cdcb24512d5d1affe86a4b0aeb2d67f99bf56bd609c3897225ad"></a>Gamepad&#160;</td><td class="fielddoc"><p>This device has basic gamepad support. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86aa4440edfd6ead0aa4ebe08f813fab158" name="af39ee9f13f828cdcb24512d5d1affe86aa4440edfd6ead0aa4ebe08f813fab158"></a>Touch&#160;</td><td class="fielddoc"><p>This device supports touch in some capactiy (tablet, controller with a touch pad, etc) </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a7fc065eee2979b6c4cb8451032e88a33" name="af39ee9f13f828cdcb24512d5d1affe86a7fc065eee2979b6c4cb8451032e88a33"></a>Camera&#160;</td><td class="fielddoc"><p>Does this device have a camera on it that we can access? </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a1ff4e914e3deb437c0f2ac2ee620e5a8" name="af39ee9f13f828cdcb24512d5d1affe86a1ff4e914e3deb437c0f2ac2ee620e5a8"></a>MotionTracking&#160;</td><td class="fielddoc"><p>Can this device track motion in a 3D space? </p>
-<p>(VR controllers, headset, etc) </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a52ea1fd4ba220f9193dba20205470fae" name="af39ee9f13f828cdcb24512d5d1affe86a52ea1fd4ba220f9193dba20205470fae"></a>Lights&#160;</td><td class="fielddoc"><p>This hardware supports setting a light color (such as an LED light bar) </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86ad3eb61e9d62d0bf6e2da3ba59862857a" name="af39ee9f13f828cdcb24512d5d1affe86ad3eb61e9d62d0bf6e2da3ba59862857a"></a>TriggerHaptics&#160;</td><td class="fielddoc"><p>Does this device have trigger haptics available? </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a6c96d2bdb6943044130988ca1d25dde2" name="af39ee9f13f828cdcb24512d5d1affe86a6c96d2bdb6943044130988ca1d25dde2"></a>ForceFeedback&#160;</td><td class="fielddoc"><p>Flagged true if this device supports force feedback. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a76d89265fecf53d0b68ceecb68a40254" name="af39ee9f13f828cdcb24512d5d1affe86a76d89265fecf53d0b68ceecb68a40254"></a>AudioBasedVibrations&#160;</td><td class="fielddoc"><p>Does this device support vibrations sourced from an audio file? </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86ac5898d8042e921d45a623d6a6896b291" name="af39ee9f13f828cdcb24512d5d1affe86ac5898d8042e921d45a623d6a6896b291"></a>Acceleration&#160;</td><td class="fielddoc"><p>This device can track acceleration in the users physical space. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a97ae4d33386c6ba91fd93ff3e23e2791" name="af39ee9f13f828cdcb24512d5d1affe86a97ae4d33386c6ba91fd93ff3e23e2791"></a>Virtual&#160;</td><td class="fielddoc"><p>This is a virtual device simulating input, not a physical device. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a80e9ad9b72e65a195b8e56cf219482eb" name="af39ee9f13f828cdcb24512d5d1affe86a80e9ad9b72e65a195b8e56cf219482eb"></a>Microphone&#160;</td><td class="fielddoc"><p>This device has a microphone on it that you can get audio from. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a871118a09520247c78a71ecd7b0abd58" name="af39ee9f13f828cdcb24512d5d1affe86a871118a09520247c78a71ecd7b0abd58"></a>Orientation&#160;</td><td class="fielddoc"><p>This device can track the orientation in world space, such as a gyroscope. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a25e244af096aeb2c029cfbd908cf7f8f" name="af39ee9f13f828cdcb24512d5d1affe86a25e244af096aeb2c029cfbd908cf7f8f"></a>Guitar&#160;</td><td class="fielddoc"><p>This device has the capabilities of a guitar (whammy bar, tilt, etc) </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a0537ec8b10453beeb23fbad619af76fb" name="af39ee9f13f828cdcb24512d5d1affe86a0537ec8b10453beeb23fbad619af76fb"></a>Drums&#160;</td><td class="fielddoc"><p>This device has the capabilities of drums (symbols, foot pedal, etc) </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a749c8bfb99caae11f27505a4f8d5a003" name="af39ee9f13f828cdcb24512d5d1affe86a749c8bfb99caae11f27505a4f8d5a003"></a>CustomA&#160;</td><td class="fielddoc"><p>Some custom flags that can be used in your game if you have custom hardware! </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a35b2e490688c4af61e951857ab2705e7" name="af39ee9f13f828cdcb24512d5d1affe86a35b2e490688c4af61e951857ab2705e7"></a>CustomB&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a81378cd7a979054bf2df17360d5b8313" name="af39ee9f13f828cdcb24512d5d1affe86a81378cd7a979054bf2df17360d5b8313"></a>CustomC&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86ab0d461e1bdfbd19793b63df87bc75658" name="af39ee9f13f828cdcb24512d5d1affe86ab0d461e1bdfbd19793b63df87bc75658"></a>CustomD&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a911a49b7967ef10985d331841303b75f" name="af39ee9f13f828cdcb24512d5d1affe86a911a49b7967ef10985d331841303b75f"></a>All&#160;</td><td class="fielddoc"><p>A flag for ALL supported device flags. </p>
-</td></tr>
-</table>
-
-<p class="definition">Definition at line <a class="el" href="../../da/d88/InputSettings_8h_source.html#l00000">0</a> of file <a class="el" href="../../da/d88/InputSettings_8h_source.html">InputSettings.h</a>.</p>
-
-</div>
-</div>
-<a id="af39ee9f13f828cdcb24512d5d1affe86" name="af39ee9f13f828cdcb24512d5d1affe86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af39ee9f13f828cdcb24512d5d1affe86">&#9670;&#160;</a></span>Type <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d1/d08/GameUserSettings_8h.html#a17016d41439c2e42399cc92d8a95ad1d">Type</a> : int32</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86ad5ac72c5865472b99fc2dbf8bbf0ba1f" name="af39ee9f13f828cdcb24512d5d1affe86ad5ac72c5865472b99fc2dbf8bbf0ba1f"></a>Unspecified&#160;</td><td class="fielddoc"><p>A device that has not specified the type. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86aa67d18c54af5d9cafac40d9d5c33bf52" name="af39ee9f13f828cdcb24512d5d1affe86aa67d18c54af5d9cafac40d9d5c33bf52"></a>Keypress&#160;</td><td class="fielddoc"><p>This device can support basic key presses. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a3abbb82a6c0f721a1ad151a447de17e1" name="af39ee9f13f828cdcb24512d5d1affe86a3abbb82a6c0f721a1ad151a447de17e1"></a>Pointer&#160;</td><td class="fielddoc"><p>This device can handle basic pointer behavior, such as a mouse. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a4b0aeb2d67f99bf56bd609c3897225ad" name="af39ee9f13f828cdcb24512d5d1affe86a4b0aeb2d67f99bf56bd609c3897225ad"></a>Gamepad&#160;</td><td class="fielddoc"><p>This device has basic gamepad support. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86aa4440edfd6ead0aa4ebe08f813fab158" name="af39ee9f13f828cdcb24512d5d1affe86aa4440edfd6ead0aa4ebe08f813fab158"></a>Touch&#160;</td><td class="fielddoc"><p>This device supports touch in some capactiy (tablet, controller with a touch pad, etc) </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a7fc065eee2979b6c4cb8451032e88a33" name="af39ee9f13f828cdcb24512d5d1affe86a7fc065eee2979b6c4cb8451032e88a33"></a>Camera&#160;</td><td class="fielddoc"><p>Does this device have a camera on it that we can access? </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a1ff4e914e3deb437c0f2ac2ee620e5a8" name="af39ee9f13f828cdcb24512d5d1affe86a1ff4e914e3deb437c0f2ac2ee620e5a8"></a>MotionTracking&#160;</td><td class="fielddoc"><p>Can this device track motion in a 3D space? </p>
-<p>(VR controllers, headset, etc) </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a52ea1fd4ba220f9193dba20205470fae" name="af39ee9f13f828cdcb24512d5d1affe86a52ea1fd4ba220f9193dba20205470fae"></a>Lights&#160;</td><td class="fielddoc"><p>This hardware supports setting a light color (such as an LED light bar) </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86ad3eb61e9d62d0bf6e2da3ba59862857a" name="af39ee9f13f828cdcb24512d5d1affe86ad3eb61e9d62d0bf6e2da3ba59862857a"></a>TriggerHaptics&#160;</td><td class="fielddoc"><p>Does this device have trigger haptics available? </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a6c96d2bdb6943044130988ca1d25dde2" name="af39ee9f13f828cdcb24512d5d1affe86a6c96d2bdb6943044130988ca1d25dde2"></a>ForceFeedback&#160;</td><td class="fielddoc"><p>Flagged true if this device supports force feedback. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a76d89265fecf53d0b68ceecb68a40254" name="af39ee9f13f828cdcb24512d5d1affe86a76d89265fecf53d0b68ceecb68a40254"></a>AudioBasedVibrations&#160;</td><td class="fielddoc"><p>Does this device support vibrations sourced from an audio file? </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86ac5898d8042e921d45a623d6a6896b291" name="af39ee9f13f828cdcb24512d5d1affe86ac5898d8042e921d45a623d6a6896b291"></a>Acceleration&#160;</td><td class="fielddoc"><p>This device can track acceleration in the users physical space. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a97ae4d33386c6ba91fd93ff3e23e2791" name="af39ee9f13f828cdcb24512d5d1affe86a97ae4d33386c6ba91fd93ff3e23e2791"></a>Virtual&#160;</td><td class="fielddoc"><p>This is a virtual device simulating input, not a physical device. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a80e9ad9b72e65a195b8e56cf219482eb" name="af39ee9f13f828cdcb24512d5d1affe86a80e9ad9b72e65a195b8e56cf219482eb"></a>Microphone&#160;</td><td class="fielddoc"><p>This device has a microphone on it that you can get audio from. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a871118a09520247c78a71ecd7b0abd58" name="af39ee9f13f828cdcb24512d5d1affe86a871118a09520247c78a71ecd7b0abd58"></a>Orientation&#160;</td><td class="fielddoc"><p>This device can track the orientation in world space, such as a gyroscope. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a25e244af096aeb2c029cfbd908cf7f8f" name="af39ee9f13f828cdcb24512d5d1affe86a25e244af096aeb2c029cfbd908cf7f8f"></a>Guitar&#160;</td><td class="fielddoc"><p>This device has the capabilities of a guitar (whammy bar, tilt, etc) </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a0537ec8b10453beeb23fbad619af76fb" name="af39ee9f13f828cdcb24512d5d1affe86a0537ec8b10453beeb23fbad619af76fb"></a>Drums&#160;</td><td class="fielddoc"><p>This device has the capabilities of drums (symbols, foot pedal, etc) </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a749c8bfb99caae11f27505a4f8d5a003" name="af39ee9f13f828cdcb24512d5d1affe86a749c8bfb99caae11f27505a4f8d5a003"></a>CustomA&#160;</td><td class="fielddoc"><p>Some custom flags that can be used in your game if you have custom hardware! </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a35b2e490688c4af61e951857ab2705e7" name="af39ee9f13f828cdcb24512d5d1affe86a35b2e490688c4af61e951857ab2705e7"></a>CustomB&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a81378cd7a979054bf2df17360d5b8313" name="af39ee9f13f828cdcb24512d5d1affe86a81378cd7a979054bf2df17360d5b8313"></a>CustomC&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86ab0d461e1bdfbd19793b63df87bc75658" name="af39ee9f13f828cdcb24512d5d1affe86ab0d461e1bdfbd19793b63df87bc75658"></a>CustomD&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a911a49b7967ef10985d331841303b75f" name="af39ee9f13f828cdcb24512d5d1affe86a911a49b7967ef10985d331841303b75f"></a>All&#160;</td><td class="fielddoc"><p>A flag for ALL supported device flags. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86ad5ac72c5865472b99fc2dbf8bbf0ba1f" name="af39ee9f13f828cdcb24512d5d1affe86ad5ac72c5865472b99fc2dbf8bbf0ba1f"></a>Unspecified&#160;</td><td class="fielddoc"><p>A device that has not specified the type. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86aa67d18c54af5d9cafac40d9d5c33bf52" name="af39ee9f13f828cdcb24512d5d1affe86aa67d18c54af5d9cafac40d9d5c33bf52"></a>Keypress&#160;</td><td class="fielddoc"><p>This device can support basic key presses. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a3abbb82a6c0f721a1ad151a447de17e1" name="af39ee9f13f828cdcb24512d5d1affe86a3abbb82a6c0f721a1ad151a447de17e1"></a>Pointer&#160;</td><td class="fielddoc"><p>This device can handle basic pointer behavior, such as a mouse. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a4b0aeb2d67f99bf56bd609c3897225ad" name="af39ee9f13f828cdcb24512d5d1affe86a4b0aeb2d67f99bf56bd609c3897225ad"></a>Gamepad&#160;</td><td class="fielddoc"><p>This device has basic gamepad support. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86aa4440edfd6ead0aa4ebe08f813fab158" name="af39ee9f13f828cdcb24512d5d1affe86aa4440edfd6ead0aa4ebe08f813fab158"></a>Touch&#160;</td><td class="fielddoc"><p>This device supports touch in some capactiy (tablet, controller with a touch pad, etc) </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a7fc065eee2979b6c4cb8451032e88a33" name="af39ee9f13f828cdcb24512d5d1affe86a7fc065eee2979b6c4cb8451032e88a33"></a>Camera&#160;</td><td class="fielddoc"><p>Does this device have a camera on it that we can access? </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a1ff4e914e3deb437c0f2ac2ee620e5a8" name="af39ee9f13f828cdcb24512d5d1affe86a1ff4e914e3deb437c0f2ac2ee620e5a8"></a>MotionTracking&#160;</td><td class="fielddoc"><p>Can this device track motion in a 3D space? </p>
-<p>(VR controllers, headset, etc) </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a52ea1fd4ba220f9193dba20205470fae" name="af39ee9f13f828cdcb24512d5d1affe86a52ea1fd4ba220f9193dba20205470fae"></a>Lights&#160;</td><td class="fielddoc"><p>This hardware supports setting a light color (such as an LED light bar) </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86ad3eb61e9d62d0bf6e2da3ba59862857a" name="af39ee9f13f828cdcb24512d5d1affe86ad3eb61e9d62d0bf6e2da3ba59862857a"></a>TriggerHaptics&#160;</td><td class="fielddoc"><p>Does this device have trigger haptics available? </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a6c96d2bdb6943044130988ca1d25dde2" name="af39ee9f13f828cdcb24512d5d1affe86a6c96d2bdb6943044130988ca1d25dde2"></a>ForceFeedback&#160;</td><td class="fielddoc"><p>Flagged true if this device supports force feedback. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a76d89265fecf53d0b68ceecb68a40254" name="af39ee9f13f828cdcb24512d5d1affe86a76d89265fecf53d0b68ceecb68a40254"></a>AudioBasedVibrations&#160;</td><td class="fielddoc"><p>Does this device support vibrations sourced from an audio file? </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86ac5898d8042e921d45a623d6a6896b291" name="af39ee9f13f828cdcb24512d5d1affe86ac5898d8042e921d45a623d6a6896b291"></a>Acceleration&#160;</td><td class="fielddoc"><p>This device can track acceleration in the users physical space. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a97ae4d33386c6ba91fd93ff3e23e2791" name="af39ee9f13f828cdcb24512d5d1affe86a97ae4d33386c6ba91fd93ff3e23e2791"></a>Virtual&#160;</td><td class="fielddoc"><p>This is a virtual device simulating input, not a physical device. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a80e9ad9b72e65a195b8e56cf219482eb" name="af39ee9f13f828cdcb24512d5d1affe86a80e9ad9b72e65a195b8e56cf219482eb"></a>Microphone&#160;</td><td class="fielddoc"><p>This device has a microphone on it that you can get audio from. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a871118a09520247c78a71ecd7b0abd58" name="af39ee9f13f828cdcb24512d5d1affe86a871118a09520247c78a71ecd7b0abd58"></a>Orientation&#160;</td><td class="fielddoc"><p>This device can track the orientation in world space, such as a gyroscope. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a25e244af096aeb2c029cfbd908cf7f8f" name="af39ee9f13f828cdcb24512d5d1affe86a25e244af096aeb2c029cfbd908cf7f8f"></a>Guitar&#160;</td><td class="fielddoc"><p>This device has the capabilities of a guitar (whammy bar, tilt, etc) </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a0537ec8b10453beeb23fbad619af76fb" name="af39ee9f13f828cdcb24512d5d1affe86a0537ec8b10453beeb23fbad619af76fb"></a>Drums&#160;</td><td class="fielddoc"><p>This device has the capabilities of drums (symbols, foot pedal, etc) </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a749c8bfb99caae11f27505a4f8d5a003" name="af39ee9f13f828cdcb24512d5d1affe86a749c8bfb99caae11f27505a4f8d5a003"></a>CustomA&#160;</td><td class="fielddoc"><p>Some custom flags that can be used in your game if you have custom hardware! </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a35b2e490688c4af61e951857ab2705e7" name="af39ee9f13f828cdcb24512d5d1affe86a35b2e490688c4af61e951857ab2705e7"></a>CustomB&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a81378cd7a979054bf2df17360d5b8313" name="af39ee9f13f828cdcb24512d5d1affe86a81378cd7a979054bf2df17360d5b8313"></a>CustomC&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86ab0d461e1bdfbd19793b63df87bc75658" name="af39ee9f13f828cdcb24512d5d1affe86ab0d461e1bdfbd19793b63df87bc75658"></a>CustomD&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af39ee9f13f828cdcb24512d5d1affe86a911a49b7967ef10985d331841303b75f" name="af39ee9f13f828cdcb24512d5d1affe86a911a49b7967ef10985d331841303b75f"></a>All&#160;</td><td class="fielddoc"><p>A flag for ALL supported device flags. </p>
-</td></tr>
-</table>
-
-<p class="definition">Definition at line <a class="el" href="../../da/d88/InputSettings_8h_source.html#l00318">318</a> of file <a class="el" href="../../da/d88/InputSettings_8h_source.html">InputSettings.h</a>.</p>
-
-</div>
-</div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="a4447f1148ac527743246f016836f6aec" name="a4447f1148ac527743246f016836f6aec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4447f1148ac527743246f016836f6aec">&#9670;&#160;</a></span>ENUM_CLASS_FLAGS()</h2>
+<a id="abd632c5e8ec8524faa7a9d7b593f50bc" name="abd632c5e8ec8524faa7a9d7b593f50bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd632c5e8ec8524faa7a9d7b593f50bc">&#9670;&#160;</a></span>ENUM_CLASS_FLAGS()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum namespace <a class="el" href="#a8294c1d1e123e175184b46d5be59ce6f">EHardwareDeviceSupportedFeatures</a> ENUM_CLASS_FLAGS </td>
+          <td class="memname">ENUM_CLASS_FLAGS </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/d08/GameUserSettings_8h.html#a17016d41439c2e42399cc92d8a95ad1d">EHardwareDeviceSupportedFeatures::Type</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">EHardwareDeviceSupportedFeatures::Type</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../da/d88/InputSettings_8h_source.html#l00317">EHardwareDeviceSupportedFeatures</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/da0/AnimMontage_8h_source.html#l00621">BlueprintType</a>, <a class="el" href="../../d8/db1/UnrealNames_8h_source.html#l00129">Camera</a>, <a class="el" href="../../d1/de0/PixelStreamingInputEnums_8h_source.html#l00043">Touch</a>, and <a class="el" href="../../d5/d79/UnitConversion_8h_source.html#l00093">Unspecified</a>.</p>
 
 </div>
 </div>
-<a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
-<a id="acb4efd78e2d2338f1805a20b5a81ebe2" name="acb4efd78e2d2338f1805a20b5a81ebe2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb4efd78e2d2338f1805a20b5a81ebe2">&#9670;&#160;</a></span>CustomTypeA</h2>
+<a id="a44db994e83a66a7357b9b80601c49a18" name="a44db994e83a66a7357b9b80601c49a18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44db994e83a66a7357b9b80601c49a18">&#9670;&#160;</a></span>UENUM()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum enum class CustomTypeA</td>
+          <td class="memname"><a class="el" href="../../d8/d8d/ObjectMacros_8h.html#ae5f1e35d10ebc5ce3e5bf2f36bcc64f8">UCLASS</a>() class UInputSettings UENUM </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d88/InputSettings_8h_source.html#l00402">402</a> of file <a class="el" href="../../da/d88/InputSettings_8h_source.html">InputSettings.h</a>.</p>
+<p>Project wide settings for input handling. </p>
+<dl class="section see"><dt>See also</dt><dd><a href="https://docs.unrealengine.com/latest/INT/Gameplay/Input/index.html">https://docs.unrealengine.com/latest/INT/Gameplay/Input/index.html</a> <a class="el" href="../../d4/d24/UnrealTemplate_8h.html#a9e12b41f3d08e8811bfeb113252bc758">A</a> bitmask of supported features that a hardware device has. </dd></dl>
+<p>A device that has not specified the type <br  />
+</p>
+<p>This device can support basic key presses</p>
+<p>This device can handle basic pointer behavior, such as a mouse</p>
+<p>This device has basic gamepad support</p>
+<p>This device supports touch in some capactiy (tablet, controller with a touch pad, etc)</p>
+<p>Does this device have a camera on it that we can access?</p>
+<p>Can this device track motion in a 3D space? (VR controllers, headset, etc)</p>
+<p>This hardware supports setting a light color (such as an LED light bar)</p>
+<p>Does this device have trigger haptics available?</p>
+<p>Flagged true if this device supports force feedback</p>
+<p>Does this device support vibrations sourced from an audio file?</p>
+<p>This device can track acceleration in the users physical space</p>
+<p>This is a virtual device simulating input, not a physical device</p>
+<p>This device has a microphone on it that you can get audio from</p>
+<p>This device can track the orientation in world space, such as a gyroscope</p>
+<p>This device has the capabilities of a guitar (whammy bar, tilt, etc)</p>
+<p>This device has the capabilities of drums (symbols, foot pedal, etc)</p>
+<p>Some custom flags that can be used in your game if you have custom hardware!</p>
+<p>A flag for ALL supported device flags</p>
+
+<p class="definition">Definition at line <a class="el" href="../../da/d88/InputSettings_8h_source.html#l00315">315</a> of file <a class="el" href="../../da/d88/InputSettings_8h_source.html">InputSettings.h</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d5/d79/UnitConversion_8h_source.html#l00099">Acceleration</a>, <a class="el" href="../../d7/d70/MovieSceneFwd_8h_source.html#l00139">All</a>, <a class="el" href="../../d2/da0/AnimMontage_8h_source.html#l00621">BlueprintType</a>, <a class="el" href="../../d8/db1/UnrealNames_8h_source.html#l00129">Camera</a>, <a class="el" href="../../d9/d16/ImaginaryBlueprintData_8h_source.html#l00032">Hidden</a>, <a class="el" href="../../d7/df0/Text3DCharacterTransform_8h_source.html#l00011">Meta</a>, <a class="el" href="../../d8/db1/UnrealNames_8h_source.html#l00094">Pointer</a>, <a class="el" href="../../d1/de0/PixelStreamingInputEnums_8h_source.html#l00043">Touch</a>, <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00726">UMETA</a>, <a class="el" href="../../d5/d79/UnitConversion_8h_source.html#l00093">Unspecified</a>, and <a class="el" href="../../d7/d0b/MaterialShared_8h_source.html#l00513">Virtual</a>.</p>
 
 </div>
 </div>
-<a id="a662878347021a67f50b21cf4105a727d" name="a662878347021a67f50b21cf4105a727d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a662878347021a67f50b21cf4105a727d">&#9670;&#160;</a></span>CustomTypeB</h2>
+<a id="ad2efd11102c37a3889066ce3a13168c6" name="ad2efd11102c37a3889066ce3a13168c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2efd11102c37a3889066ce3a13168c6">&#9670;&#160;</a></span>USTRUCT()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum enum class CustomTypeB</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../da/d88/InputSettings_8h_source.html#l00403">403</a> of file <a class="el" href="../../da/d88/InputSettings_8h_source.html">InputSettings.h</a>.</p>
-
-</div>
-</div>
-<a id="a7b82051d25c38012848d3fd83a8cb02d" name="a7b82051d25c38012848d3fd83a8cb02d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b82051d25c38012848d3fd83a8cb02d">&#9670;&#160;</a></span>CustomTypeC</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum enum class CustomTypeC</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../da/d88/InputSettings_8h_source.html#l00404">404</a> of file <a class="el" href="../../da/d88/InputSettings_8h_source.html">InputSettings.h</a>.</p>
-
-</div>
-</div>
-<a id="a1e418aac85c2b2425e2eb21bd1ca8ba1" name="a1e418aac85c2b2425e2eb21bd1ca8ba1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e418aac85c2b2425e2eb21bd1ca8ba1">&#9670;&#160;</a></span>CustomTypeD</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum enum class CustomTypeD</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../da/d88/InputSettings_8h_source.html#l00405">405</a> of file <a class="el" href="../../da/d88/InputSettings_8h_source.html">InputSettings.h</a>.</p>
-
-</div>
-</div>
-<a id="a79184698c612b041505ff6ad9ba2c95e" name="a79184698c612b041505ff6ad9ba2c95e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79184698c612b041505ff6ad9ba2c95e">&#9670;&#160;</a></span>EHardwareDevicePrimaryType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum enum class EHardwareDevicePrimaryType</td>
+          <td class="memname"><a class="el" href="../../d8/d8d/ObjectMacros_8h.html#ae78af6f4cdfd7e2d2a4a557b5197ce06">UENUM</a>() enum class EHardwareDevicePrimaryType USTRUCT </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>What is the primary use of an input device type? </p>
-<p>Each hardware device can only be one primary type. </p>
+<p>Each hardware device can only be one primary type. An identifier that can be used to determine what input devices are available based on the <a class="el" href="../../dd/d94/classFInputDeviceScope.html" title="Context scope that indicates which IInputDevice is currently being handled.">FInputDeviceScope</a>. These mappings should match a <a class="el" href="../../dd/d94/classFInputDeviceScope.html" title="Context scope that indicates which IInputDevice is currently being handled.">FInputDeviceScope</a> that is used by an IInputDevice </p>
+<p>The name of the Input Class that uses this hardware device. This should correspond with a <a class="el" href="../../dd/d94/classFInputDeviceScope.html" title="Context scope that indicates which IInputDevice is currently being handled.">FInputDeviceScope</a> that is used by an IInputDevice</p>
+<p>The name of this hardware device. This should correspond with a <a class="el" href="../../dd/d94/classFInputDeviceScope.html" title="Context scope that indicates which IInputDevice is currently being handled.">FInputDeviceScope</a> that is used by an IInputDevice</p>
+<p>The generic type that this hardware identifies as. This can be used to easily determine behaviors <br  />
+</p>
+<p>Flags that represent this hardware device's traits</p>
+<p>Returns true if this hardware device has ANY of the given supported feature flags</p>
+<p>Returns true if this hardware device has ALL of the given supported feature flags</p>
+<p>Returns true if this hardware device Identifier has valid names</p>
+<p>Returns a string containing the Input Class Name and HardwareDeviceIdentifier properties concatenated together.</p>
+<p>An Invalid Hardware Device Identifier.</p>
+<p>Hardware device ID that represents a keyboard and mouse. This is what will be set when an Input Event's FKey is not a gamepad key.</p>
+<p>Hardware device ID that represents a default, generic, gamepad.</p>
+<p>Hardware device id that represents a default, generic, mobile touch input (tablet, phone, etc)</p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d88/InputSettings_8h_source.html#l00389">389</a> of file <a class="el" href="../../da/d88/InputSettings_8h_source.html">InputSettings.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d88/InputSettings_8h_source.html#l00412">412</a> of file <a class="el" href="../../da/d88/InputSettings_8h_source.html">InputSettings.h</a>.</p>
 
+<p class="reference">References <a class="el" href="../../d4/da3/StatsCommand_8h_source.html#l00016">Ar</a>, <a class="el" href="../../d2/da0/AnimMontage_8h_source.html#l00621">BlueprintType</a>, <a class="el" href="../../d1/df7/RigUnit__AnimNextRunAnimationGraph__v1_8h_source.html#l00024">Category</a>, <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00669">Flags</a>, <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00743">GENERATED_BODY</a>, <a class="el" href="../../da/d67/GameplayCue__Types_8h_source.html#l00127">GetTypeHash()</a>, <a class="el" href="../../d8/d75/BakeMeshAttributeToolCommon_8h_source.html#l00509">Invalid</a>, <a class="el" href="../../d2/d4c/LiveLinkTypes_8h_source.html#l00543">IsValid()</a>, <a class="el" href="../../d3/dc7/ModularVehicleBaseComponent_8h_source.html#l00108">meta</a>, <a class="el" href="../../d0/d54/StateTreeTypes_8h_source.html#l00216">operator!=()</a>, <a class="el" href="../../d4/d14/FleshCollection_8h_source.html#l00050">operator&lt;&lt;()</a>, <a class="el" href="../../d2/d98/EpicRtcVideoCommon_8h_source.html#l00016">operator==()</a>, <a class="el" href="../../d6/d35/Text_8h_source.html#l00107">Other</a>, <a class="el" href="../../d2/d8f/LogVerbosity_8h.html#abe3b25435b45e4cad83b33d44ab05d86">ToString()</a>, and <a class="el" href="../../d8/d8d/ObjectMacros_8h_source.html#l00723">UPROPERTY</a>.</p>
+<div id="dynsection-2" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the call graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><!-- SVG 2 --></div>
 </div>
-<a id="a8294c1d1e123e175184b46d5be59ce6f" name="a8294c1d1e123e175184b46d5be59ce6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8294c1d1e123e175184b46d5be59ce6f">&#9670;&#160;</a></span>EHardwareDeviceSupportedFeatures</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum namespace EHardwareDeviceSupportedFeatures</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>A bitmask of supported features that a hardware device has. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../da/d88/InputSettings_8h_source.html#l00315">315</a> of file <a class="el" href="../../da/d88/InputSettings_8h_source.html">InputSettings.h</a>.</p>
-
-</div>
-</div>
-<a id="ad56c47ca031cc474097951e1a146ba34" name="ad56c47ca031cc474097951e1a146ba34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad56c47ca031cc474097951e1a146ba34">&#9670;&#160;</a></span>ENUM_CLASS_FLAGS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum enum class struct struct <a class="el" href="../../d4/d51/structFHardwareDeviceIdentifier.html">FHardwareDeviceIdentifier</a> ENUM_CLASS_FLAGS</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3f73878dd29c84486368d540ab574ab5" name="a3f73878dd29c84486368d540ab574ab5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f73878dd29c84486368d540ab574ab5">&#9670;&#160;</a></span>FlightStick</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum enum class FlightStick</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../da/d88/InputSettings_8h_source.html#l00397">397</a> of file <a class="el" href="../../da/d88/InputSettings_8h_source.html">InputSettings.h</a>.</p>
-
-</div>
-</div>
-<a id="a6d5fe4015f95e9de181fa34da1c965b0" name="a6d5fe4015f95e9de181fa34da1c965b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d5fe4015f95e9de181fa34da1c965b0">&#9670;&#160;</a></span>Instrument</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum enum class Instrument</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../da/d88/InputSettings_8h_source.html#l00399">399</a> of file <a class="el" href="../../da/d88/InputSettings_8h_source.html">InputSettings.h</a>.</p>
-
-</div>
-</div>
-<a id="adec4c5b89763124b87316c47dd4d2ea6" name="adec4c5b89763124b87316c47dd4d2ea6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adec4c5b89763124b87316c47dd4d2ea6">&#9670;&#160;</a></span>KeyboardAndMouse</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum enum class KeyboardAndMouse</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../da/d88/InputSettings_8h_source.html#l00392">392</a> of file <a class="el" href="../../da/d88/InputSettings_8h_source.html">InputSettings.h</a>.</p>
-
-</div>
-</div>
-<a id="a7b1320797dfa39bc43811e7de0f3bbfa" name="a7b1320797dfa39bc43811e7de0f3bbfa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b1320797dfa39bc43811e7de0f3bbfa">&#9670;&#160;</a></span>RacingWheel</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum enum class RacingWheel</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../da/d88/InputSettings_8h_source.html#l00396">396</a> of file <a class="el" href="../../da/d88/InputSettings_8h_source.html">InputSettings.h</a>.</p>
 
 </div>
 </div>
@@ -670,8 +250,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="../../dir_4aca46919dd64a018c94105a41bb52f8.html">UE_5.6</a></li><li class="navelem"><a href="../../dir_35a4881369ae19e233e6dac2bcad4050.html">Engine</a></li><li class="navelem"><a href="../../dir_9f26ecb35aabc03d0a71a3e3b9106316.html">Source</a></li><li class="navelem"><a href="../../dir_0942f747ae23c965c05d4d76ae4659cb.html">Runtime</a></li><li class="navelem"><a href="../../dir_c4f31664fb2968a098c34e2ef86324ca.html">Engine</a></li><li class="navelem"><a href="../../dir_2d50b3e22a4f3c2a257cc8ed034f8f90.html">Classes</a></li><li class="navelem"><a href="../../dir_ed269b19aee30b1edf91ca5f109cdfa1.html">GameFramework</a></li><li class="navelem"><a href="../../da/d88/InputSettings_8h.html">InputSettings.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+    <li class="navelem"><a href="../../dir_7536b172fbd480bfd146a1b1acd6856b.html">Runtime</a></li><li class="navelem"><a href="../../dir_fdf6aa5c3cf3805bb958134448d60562.html">Engine</a></li><li class="navelem"><a href="../../dir_0ed647eebe6ffcaa496d3842b7cec6ce.html">Classes</a></li><li class="navelem"><a href="../../dir_cc939d8e7753f23591e1c275ea054aa8.html">GameFramework</a></li><li class="navelem"><a href="../../da/d88/InputSettings_8h.html">InputSettings.h</a></li>
+    <li class="footer">Generated on <span class="timestamp"></span> for Unreal Engine 5.6 C++ API by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>
 </body>

@@ -1,0 +1,48 @@
+digraph "USkeletalMeshComponent::UE_DEPRECATED"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="USkeletalMeshComponent\l::UE_DEPRECATED",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Temporary array of local-space (relative to parent bone) rotation/translation for each bone."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="USkeletalMeshComponent\l::GetSharedRequiredBones",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d04/classUSkeletalMeshComponent.html#a8dfaa603fa5f5533c8371e5d495a4bd2",tooltip="Gets the shared bone container used between all owned anim instances."];
+  Node2 -> Node2 [id="edge2_Node000002_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node3 [id="edge3_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="USkeletalMeshComponent\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d04/classUSkeletalMeshComponent.html#a48186c1c433cd054cfe8d4b9e07727c2",tooltip=" "];
+  Node1 -> Node1 [id="edge4_Node000001_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node4 [id="edge5_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="USkeletalMeshComponent\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d04/classUSkeletalMeshComponent.html#ae4467a5a59cba40b3c7e9683c7b29e73",tooltip=" "];
+  Node1 -> Node5 [id="edge6_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="USkeletalMeshComponent\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d04/classUSkeletalMeshComponent.html#a2b8ec5e198fd9db5820bbb11be6fafe9",tooltip=" "];
+  Node1 -> Node6 [id="edge7_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="USkeletalMeshComponent\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d04/classUSkeletalMeshComponent.html#ae0841e6d87adf513a32d8f31cdffb6dd",tooltip=" "];
+  Node1 -> Node7 [id="edge8_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="USkeletalMeshComponent\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d04/classUSkeletalMeshComponent.html#a6ad8e456358c9deea8ecd7b52abf905d",tooltip=" "];
+  Node1 -> Node8 [id="edge9_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="USkeletalMeshComponent\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d04/classUSkeletalMeshComponent.html#a7c81c37d1b7f0ba9a49619c8f2d5ca9e",tooltip=" "];
+  Node1 -> Node9 [id="edge10_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="USkeletalMeshComponent\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d04/classUSkeletalMeshComponent.html#a132d4b0a2abe29fa89adffee7d5ff7af",tooltip=" "];
+  Node1 -> Node10 [id="edge11_Node000001_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="USkeletalMeshComponent\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d04/classUSkeletalMeshComponent.html#ab6e3e05222525ba5abf40f9b31a59c24",tooltip="Blend of Physics Bones with PhysicsWeight and Animated Bones with (1-PhysicsWeight)"];
+  Node1 -> Node11 [id="edge12_Node000001_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="USkeletalMeshComponent\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d04/classUSkeletalMeshComponent.html#a243cbb52430c89105433464b7afbc370",tooltip=" "];
+  Node1 -> Node12 [id="edge13_Node000001_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="USkeletalMeshComponent\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d04/classUSkeletalMeshComponent.html#accfe3380c8904316e5d4716f0f1381a3",tooltip=" "];
+  Node1 -> Node13 [id="edge14_Node000001_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="USkeletalMeshComponent\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d04/classUSkeletalMeshComponent.html#a1ec08af5c22ec85b92d023a9ff6d4186",tooltip=" "];
+  Node1 -> Node14 [id="edge15_Node000001_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="USkeletalMeshComponent\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d04/classUSkeletalMeshComponent.html#af87e2e556426051f44e1afbba693f8bd",tooltip=" "];
+  Node1 -> Node15 [id="edge16_Node000001_Node000015",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="USkeletalMeshComponent\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d04/classUSkeletalMeshComponent.html#aaf9b9c708ebec0164d6147aeeaff716a",tooltip=" "];
+  Node1 -> Node16 [id="edge17_Node000001_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="USkeletalMeshComponent\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d04/classUSkeletalMeshComponent.html#a37be57c78836059e79fdda5ceb5d5f2d",tooltip="Remove a cloth collision source defined by a component."];
+  Node1 -> Node17 [id="edge18_Node000001_Node000017",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="USkeletalMeshComponent\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d04/classUSkeletalMeshComponent.html#a20e5e61912f2046da3bd480793e2753c",tooltip="Set the anim instance class."];
+  Node1 -> Node18 [id="edge19_Node000001_Node000018",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="USkeletalMeshComponent\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d04/classUSkeletalMeshComponent.html#a752fba2f287f51d8f7a0b0083d7dfb5a",tooltip=" "];
+  Node1 -> Node19 [id="edge20_Node000001_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="USkeletalMeshComponent\l::UE_DEPRECATED",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d04/classUSkeletalMeshComponent.html#aed1f260f99d9dacd757d0c97598db824",tooltip=" "];
+}

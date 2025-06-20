@@ -1,0 +1,16 @@
+digraph "ValidateShaderParameters"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="ValidateShaderParameters",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Validates that all resource parameters of a shader are set."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SetShaderParameters",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d10/ShaderParameterStruct_8h.html#ab25345543a3ab0e009fa7ee99280427a",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SetShaderParameters",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d10/ShaderParameterStruct_8h.html#a97ef9792b45f1b669e8151a7041e165d",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="ValidateShaderParameters",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d10/ShaderParameterStruct_8h.html#ab8fd9eb25a69aa0df4ea1a90bbbe09d0",tooltip=" "];
+}

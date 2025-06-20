@@ -1,0 +1,14 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="UE::Geometry::FBasePosition\lSnapSolver3",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d80/classUE_1_1Geometry_1_1FBasePositionSnapSolver3.html",tooltip="FBasePositionSnapSolver3 is a base class for 3D position snapping implementations."];
+  Node0 -> Node1 [id="edge9113_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 [id="Node000001",label="UE::Geometry::FPointPlanar\lSnapSolver",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d1d/classUE_1_1Geometry_1_1FPointPlanarSnapSolver.html",tooltip="FPointPlanarSnapSolver solves for a Point snap location on a plane, based on an input Point and a set..."];
+  Node0 -> Node2 [id="edge9114_Node000000_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Geometry::FRaySpatial\lSnapSolver",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d63/classUE_1_1Geometry_1_1FRaySpatialSnapSolver.html",tooltip="FRaySpatialSnapSolver solves for a Point snap location based on an input Ray and a set of snap target..."];
+}

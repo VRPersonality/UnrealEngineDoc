@@ -1,0 +1,23 @@
+digraph "UParticleModuleLocationBoneSocket::UPROPERTY"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="UParticleModuleLocationBone\lSocket::UPROPERTY",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="An offset to apply to each bone/socket."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UParticleModuleLocationBone\lSocket::GENERATED_UCLASS_BODY",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d14/classUParticleModuleLocationBoneSocket.html#aa33dfbafb70bf5ae9e477d72b7ade491",tooltip="Whether the module uses Bones or Sockets for locations."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UParticleModuleLocationBone\lSocket::UPROPERTY",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d14/classUParticleModuleLocationBoneSocket.html#a2079d7bd0d0fe7a555059c8ea0e5e27e",tooltip="If true, update the particle locations each frame with that of the bone/socket."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UParticleModuleLocationBone\lSocket::UPROPERTY",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d14/classUParticleModuleLocationBoneSocket.html#ac2ff88c7f1f6fc5a3bb5d0bff36ed71f",tooltip="The parameter name of the skeletal mesh actor that supplies the SkelMeshComponent for in-game."];
+  Node1 -> Node1 [id="edge4_Node000001_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node5 [id="edge5_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="UParticleModuleLocationBone\lSocket::UPROPERTY",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d14/classUParticleModuleLocationBoneSocket.html#ad485a3eef183dbd78eaa63e097627572",tooltip="The name(s) of the bone/socket(s) to position at."];
+  Node1 -> Node6 [id="edge6_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="UParticleModuleLocationBone\lSocket::UPROPERTY",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d14/classUParticleModuleLocationBoneSocket.html#a00eac66e5bffb8b80d64bdc27dc98b45",tooltip="The method by which to select the bone/socket to spawn at."];
+  Node1 -> Node7 [id="edge7_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="UParticleModuleLocationBone\lSocket::UPROPERTY",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d14/classUParticleModuleLocationBoneSocket.html#a29ff74b0907187757fb9e110b24f9baf",tooltip="When we have no source locations and we need to track bone velocities due to bInheritBoneVelocity,..."];
+}

@@ -1,0 +1,16 @@
+digraph "FTrackInstancePropertyBindings::SetCurrentValue"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FTrackInstancePropertyBindings\l::SetCurrentValue",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Sets the current value of a property on an object."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FTrackInstancePropertyBindings\l::FindOrAdd",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d6c/classFTrackInstancePropertyBindings.html#ad3408c286e32cbb6a8f7fd79986f9bfd",tooltip="Find or add the FResolvedPropertyAndFunction for the specified object."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TWeakObjectPtr::Get",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/daa/structTWeakObjectPtr.html#a95c742a293e2ede948833ab1810ec5a1",tooltip="Dereference the weak pointer."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FTrackInstancePropertyBindings\l::FResolvedPropertyAndFunction\l::GetPropertyAddress",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d15/structFTrackInstancePropertyBindings_1_1FResolvedPropertyAndFunction.html#a44a04c566680b4634807cba8799d97d7",tooltip=" "];
+}

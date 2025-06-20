@@ -1,0 +1,22 @@
+digraph "FMallocBinned2::GetAllocationSize"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FMallocBinned2::GetAllocationSize",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="If possible determine the size of the memory allocated at the given address."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FMallocBinned2::Free",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d2c/classFMallocBinned2.html#a1c1f0366a5bf71d62134f6b979856258",tooltip="Free."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FMallocBinned2::GetSmall\lAllocationSize",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d2c/classFMallocBinned2.html#a3638e2e1fc226ba26950845acedb34f7",tooltip=" "];
+  Node3 -> Node1 [id="edge3_Node000003_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node4 [id="edge4_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FMallocBinned2::ReallocInline",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d2c/classFMallocBinned2.html#adf7f7aeca3e513ded0ce6961c951c887",tooltip=" "];
+  Node4 -> Node5 [id="edge5_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="FMallocBinned2::Realloc",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d2c/classFMallocBinned2.html#a6724a0f70e6561301f7c55211f4e78d1",tooltip="Realloc."];
+  Node1 -> Node6 [id="edge6_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FMallocBinned2::Malloc",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d2c/classFMallocBinned2.html#a759783f0e0313e462f796d8ef9ae579c",tooltip="Malloc."];
+  Node1 -> Node5 [id="edge7_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

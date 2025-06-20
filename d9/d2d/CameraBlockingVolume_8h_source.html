@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Unreal Engine 5.6 C++ Documentation: UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/CameraBlockingVolume.h Source File</title>
+<title>Unreal Engine 5.6 C++ API: CameraBlockingVolume.h Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -18,7 +18,11 @@
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
-<link href="../../unreal_theme.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -27,9 +31,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Unreal Engine 5.6 C++ Documentation<span id="projectnumber">&#160;5.6</span>
+   <div id="projectname">Unreal Engine 5.6 C++ API<span id="projectnumber">&#160;5.6.0</span>
    </div>
-   <div id="projectbrief">Documentation UE5 avec chemins sources corrects</div>
+   <div id="projectbrief">C++ API documentation for Unreal Engine 5.6</div>
   </td>
  </tr>
  </tbody>
@@ -97,35 +101,37 @@ $(function(){initNavTree('d9/d2d/CameraBlockingVolume_8h_source.html','../../','
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;CoreMinimal.h&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;UObject/ObjectMacros.h&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="../../d7/d67/CoreMinimal_8h.html">CoreMinimal.h</a>&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="../../d8/d8d/ObjectMacros_8h.html">UObject/ObjectMacros.h</a>&quot;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="../../d1/dbd/Volume_8h.html">GameFramework/Volume.h</a>&quot;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;CameraBlockingVolume.generated.h&quot;</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment"></span> </div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment">/**</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment"> * A volume which blocks the Camera channel by default.</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment"> */</span></div>
-<div class="foldopen" id="foldopen00013" data-start="{" data-end="};">
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="../../d1/de8/classACameraBlockingVolume.html">   13</a></span>UCLASS(MinimalAPI)</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">class </span><a class="code hl_class" href="../../d1/de8/classACameraBlockingVolume.html">ACameraBlockingVolume</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../d7/d47/classAVolume.html">AVolume</a></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><a class="code hl_define" href="../../d8/d8d/ObjectMacros_8h.html#ae5f1e35d10ebc5ce3e5bf2f36bcc64f8">UCLASS</a>(<a class="code hl_variable" href="../../d2/da0/AnimMontage_8h.html#ab5b66a9f1ac3252ffea707183f3c1cb8">MinimalAPI</a>)</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">class </span>ACameraBlockingVolume : <span class="keyword">public</span> <a class="code hl_class" href="../../d7/d47/classAVolume.html">AVolume</a></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>{</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    GENERATED_UCLASS_BODY()</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <a class="code hl_function" href="../../d7/d47/classAVolume.html#aae4362dd7d2e1987f83ee8bf251e0d27">GENERATED_UCLASS_BODY</a>()</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>};</div>
-</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="ttc" id="aAnimMontage_8h_html_ab5b66a9f1ac3252ffea707183f3c1cb8"><div class="ttname"><a href="../../d2/da0/AnimMontage_8h.html#ab5b66a9f1ac3252ffea707183f3c1cb8">MinimalAPI</a></div><div class="ttdeci">MinimalAPI</div><div class="ttdef"><b>Definition</b> <a href="../../d2/da0/AnimMontage_8h_source.html#l00621">AnimMontage.h:621</a></div></div>
+<div class="ttc" id="aCoreMinimal_8h_html"><div class="ttname"><a href="../../d7/d67/CoreMinimal_8h.html">CoreMinimal.h</a></div></div>
+<div class="ttc" id="aObjectMacros_8h_html"><div class="ttname"><a href="../../d8/d8d/ObjectMacros_8h.html">ObjectMacros.h</a></div></div>
+<div class="ttc" id="aObjectMacros_8h_html_ae5f1e35d10ebc5ce3e5bf2f36bcc64f8"><div class="ttname"><a href="../../d8/d8d/ObjectMacros_8h.html#ae5f1e35d10ebc5ce3e5bf2f36bcc64f8">UCLASS</a></div><div class="ttdeci">#define UCLASS(...)</div><div class="ttdef"><b>Definition</b> <a href="../../d8/d8d/ObjectMacros_8h_source.html#l00754">ObjectMacros.h:754</a></div></div>
 <div class="ttc" id="aVolume_8h_html"><div class="ttname"><a href="../../d1/dbd/Volume_8h.html">Volume.h</a></div></div>
-<div class="ttc" id="aclassACameraBlockingVolume_html"><div class="ttname"><a href="../../d1/de8/classACameraBlockingVolume.html">ACameraBlockingVolume</a></div><div class="ttdoc">A volume which blocks the Camera channel by default.</div><div class="ttdef"><b>Definition</b> <a href="#l00013">CameraBlockingVolume.h:15</a></div></div>
-<div class="ttc" id="aclassAVolume_html"><div class="ttname"><a href="../../d7/d47/classAVolume.html">AVolume</a></div><div class="ttdoc">An editable 3D volume placed in a level.</div><div class="ttdef"><b>Definition</b> <a href="../../d1/dbd/Volume_8h_source.html#l00016">Volume.h:18</a></div></div>
+<div class="ttc" id="aclassAVolume_html"><div class="ttname"><a href="../../d7/d47/classAVolume.html">AVolume</a></div><div class="ttdef"><b>Definition</b> <a href="../../d1/dbd/Volume_8h_source.html#l00017">Volume.h:18</a></div></div>
+<div class="ttc" id="aclassAVolume_html_aae4362dd7d2e1987f83ee8bf251e0d27"><div class="ttname"><a href="../../d7/d47/classAVolume.html#aae4362dd7d2e1987f83ee8bf251e0d27">AVolume::GENERATED_UCLASS_BODY</a></div><div class="ttdeci">GENERATED_UCLASS_BODY() DECLARE_MULTICAST_DELEGATE_OneParam(FOnVolumeShapeChanged</div><div class="ttdoc">Delegate used for notifications when a volumes initial shape changes.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="../../dir_4aca46919dd64a018c94105a41bb52f8.html">UE_5.6</a></li><li class="navelem"><a href="../../dir_35a4881369ae19e233e6dac2bcad4050.html">Engine</a></li><li class="navelem"><a href="../../dir_9f26ecb35aabc03d0a71a3e3b9106316.html">Source</a></li><li class="navelem"><a href="../../dir_0942f747ae23c965c05d4d76ae4659cb.html">Runtime</a></li><li class="navelem"><a href="../../dir_c4f31664fb2968a098c34e2ef86324ca.html">Engine</a></li><li class="navelem"><a href="../../dir_2d50b3e22a4f3c2a257cc8ed034f8f90.html">Classes</a></li><li class="navelem"><a href="../../dir_ed269b19aee30b1edf91ca5f109cdfa1.html">GameFramework</a></li><li class="navelem"><a href="../../d9/d2d/CameraBlockingVolume_8h.html">CameraBlockingVolume.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+    <li class="navelem"><a href="../../dir_7536b172fbd480bfd146a1b1acd6856b.html">Runtime</a></li><li class="navelem"><a href="../../dir_fdf6aa5c3cf3805bb958134448d60562.html">Engine</a></li><li class="navelem"><a href="../../dir_0ed647eebe6ffcaa496d3842b7cec6ce.html">Classes</a></li><li class="navelem"><a href="../../dir_cc939d8e7753f23591e1c275ea054aa8.html">GameFramework</a></li><li class="navelem"><a href="../../d9/d2d/CameraBlockingVolume_8h.html">CameraBlockingVolume.h</a></li>
+    <li class="footer">Generated on <span class="timestamp"></span> for Unreal Engine 5.6 C++ API by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>
 </body>

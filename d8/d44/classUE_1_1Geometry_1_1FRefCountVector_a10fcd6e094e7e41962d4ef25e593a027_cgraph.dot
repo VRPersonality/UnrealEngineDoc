@@ -1,0 +1,12 @@
+digraph "UE::Geometry::FRefCountVector::MappedIndices"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="UE::Geometry::FRefCountVector\l::MappedIndices",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="returns iteration object over mapping applied to valid indices eg usage: for (FVector3d v : mapped_in..."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::Geometry::FRefCountVector\l::Indices",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d44/classUE_1_1Geometry_1_1FRefCountVector.html#af920a4e7a9bc2e46104073fdab240d9d",tooltip="returns iteration object over valid indices usage: for (int idx : indices()) { ......"];
+}

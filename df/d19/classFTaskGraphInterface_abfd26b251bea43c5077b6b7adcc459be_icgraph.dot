@@ -1,0 +1,33 @@
+digraph "FTaskGraphInterface::Get"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="FTaskGraphInterface::Get",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Singleton for the system."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="UE::MeshDeformation\l::ConstructFullCotangentLaplacian",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df1/namespaceUE_1_1MeshDeformation.html#ae792924418f806431fc29afa28c3716f",tooltip="Construct sparse Cotangent Laplacian matrix."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="UE::MeshDeformation\l::ConstructTriangleDataArray",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df1/namespaceUE_1_1MeshDeformation.html#ad8780349428dfee6b9e4c2b338ee5ffc",tooltip="Return and array in triangle order that holds the per-triangle derived data needed."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="UE::MeshDeformation\l::ConstructCotangentLaplacian",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df1/namespaceUE_1_1MeshDeformation.html#abb5ba9e1b374edf6d77271067c602718",tooltip="Construct a sparse matrix representation using a cotangent-weighted Laplacian."];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="UE::MeshDeformation\l::ConstructCotangentLaplacian",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df1/namespaceUE_1_1MeshDeformation.html#aaf997123f9e9bc9c6853c6ba0330b986",tooltip="Construct a sparse matrix representation using a pre-multiplied cotangent-weighted Laplacian."];
+  Node3 -> Node2 [id="edge5_Node000003_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node6 [id="edge6_Node000003_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="UE::MeshDeformation\l::ConstructMeanValueWeight\lLaplacian",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df1/namespaceUE_1_1MeshDeformation.html#a8cfb166d2dee288b2c69e7a3942f1f16",tooltip="Construct a sparse matrix representation using a meanvalue-weighted Laplacian."];
+  Node1 -> Node7 [id="edge7_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="FReturnGraphTask::DoTask",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/ddf/classFReturnGraphTask.html#a552b021de0e2125f3502899d23bf0d29",tooltip="Actually execute the task."];
+  Node1 -> Node8 [id="edge8_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="ENUM_CLASS_FLAGS",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/da1/ParallelFor_8h.html#a90cd759fefc126419bcd31a5446d4cde",tooltip=" "];
+  Node1 -> Node9 [id="edge9_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="FQueuedThreadPoolTaskGraph\lWrapper::GetNumThreads",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d90/classFQueuedThreadPoolTaskGraphWrapper.html#ab26db1c983fd076eaa412c9bb1899aaa",tooltip="Get the number of queued threads."];
+  Node1 -> Node10 [id="edge10_Node000001_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="UE::MovieScene::TProperty\lComponentHandlerImpl\< Property\lTraits, TPropertyMetaData\<\l MetaDataTypes... \>, TIntegerSequence\l\< int, MetaDataIndices... \>, TIntegerSequence\l\< int, CompositeIndices... \>, CompositeTypes...\l \>::RecomposeBlendChannel",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dba/structUE_1_1MovieScene_1_1TPropertyComponentHandlerImpl_3_01PropertyTraits_00_01TPropertyMetaDatc9b283974cc80fcefe0b97ea14f796ea.html#a9871e910279ca92b41f23567e34ca953",tooltip="Run a recomposition using the specified params and values."];
+  Node1 -> Node11 [id="edge11_Node000001_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="UE::MovieScene::TProperty\lComponentHandlerImpl\< Property\lTraits, TPropertyMetaData\<\l MetaDataTypes... \>, TIntegerSequence\l\< int, MetaDataIndices... \>, TIntegerSequence\l\< int, CompositeIndices... \>, CompositeTypes...\l \>::RecomposeBlendImpl",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dba/structUE_1_1MovieScene_1_1TPropertyComponentHandlerImpl_3_01PropertyTraits_00_01TPropertyMetaDatc9b283974cc80fcefe0b97ea14f796ea.html#a7abe6137a15f3c7b7ca3473062972785",tooltip=" "];
+  Node11 -> Node12 [id="edge12_Node000011_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="UE::MovieScene::TProperty\lComponentHandlerImpl\< Property\lTraits, TPropertyMetaData\<\l MetaDataTypes... \>, TIntegerSequence\l\< int, MetaDataIndices... \>, TIntegerSequence\l\< int, CompositeIndices... \>, CompositeTypes...\l \>::RecomposeBlendOperational",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dba/structUE_1_1MovieScene_1_1TPropertyComponentHandlerImpl_3_01PropertyTraits_00_01TPropertyMetaDatc9b283974cc80fcefe0b97ea14f796ea.html#a5be12461655e5f6d0053444ade40ed70",tooltip="Run a recomposition using the specified params and values."];
+}
